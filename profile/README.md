@@ -16,7 +16,7 @@ MAJESTIC MADE LLC is an independent software studio building practical apps for 
 ## Product Lineup
 
 No product is deployed yet. The first launch is held until seven products satisfy the shared
-[release definition](../portfolio/RELEASE_DEFINITION.md). Stage labels describe repository status,
+[release definition](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/RELEASE_DEFINITION.md). Stage labels describe repository status,
 not public availability.
 
 | Product | Focus | Stage |
