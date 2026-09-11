@@ -1,6 +1,6 @@
 # MAJESTIC MADE
 
-**Privacy-first, local-first software for personal records, family routines, and everyday operations.**
+**Privacy-conscious software for personal records, family routines, and everyday operations.**
 
 MAJESTIC MADE LLC is an independent software studio building practical apps for data people do not want scattered across random services. We design for clear ownership, useful exports, quiet interfaces, and privacy choices that can be understood without legal translation.
 
@@ -15,25 +15,29 @@ MAJESTIC MADE LLC is an independent software studio building practical apps for 
 
 ## Product Lineup
 
+No product is deployed yet. The first launch is held until seven products satisfy the shared
+[release definition](../portfolio/RELEASE_DEFINITION.md). Stage labels describe repository status,
+not public availability.
+
 | Product | Focus | Stage |
 | --- | --- | --- |
-| Chat Armor | Parent-owned message monitoring designed around family safety and privacy. | Beta / coming soon |
-| RideBinder | Motorcycle maintenance, documents, receipts, reminders, and resale history. | Active build |
+| Chat Armor | Family-safety concept pending platform, consent, privacy, and legal feasibility review. | Research concept |
+| RideBinder | Motorcycle maintenance, documents, receipts, reminders, and resale history. | Release hardening |
 | RoomProof | Before/after cleaning reports with photos, checklists, issues, signatures, and PDFs. | Planned |
-| RoutineCue | Child routines, chores, approvals, points, rewards, and optional allowance tracking. | Scaffolded |
-| ReachMe | QR contact sharing and contact card generation. | Planned |
-| Paws | Pet health records, medications, incidents, and vet-ready exports. | Waitlist |
+| RoutineCue | Child routines, chores, approvals, points, rewards, and optional allowance tracking. | Release hardening |
+| ReachMe | Local contact wallet, QR sharing, and optional expiring public links. | Release hardening |
+| Paws | Pet health records, medications, incidents, and vet-ready exports. | Launch slate / specification |
 | Range | Firearm registry, range log, ammo inventory, and license vault. | Waitlist |
-| Use By | Pantry, fridge, and freezer tracking. | Waitlist |
+| Use By | Pantry, fridge, and freezer tracking. | Launch slate / specification |
 | Cradle | Feedings, diapers, sleep, growth, and milestone tracking. | Waitlist |
-| Almanac | Private tasting notes for wine, whiskey, coffee, and cigars. | Waitlist |
+| Almanac | Private tasting notes for wine, whiskey, coffee, and cigars. | Launch slate / specification |
 | Trove | Collector registry for coins, stamps, cards, watches, and militaria. | Waitlist |
 | Convoy | PCS and household move inventory with claim-ready exports. | Waitlist |
 | Steward | Home inventory for insurance and household records. | Waitlist |
 | Deep Six | Scuba logbook with sites, buddies, and certification-ready records. | Waitlist |
 | Hook | Fishing journal with private catches, photos, and encrypted spot records. | Waitlist |
 | Bivy | Camping and RV trip log with site notes and recap exports. | Waitlist |
-| Apiary | Beekeeping logbook for inspections, treatments, harvests, and hive history. | Waitlist |
+| Apiary | Offline iPhone beekeeping logbook with encrypted records and backups. | Release hardening |
 
 ## Public Repositories
 
