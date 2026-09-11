@@ -1,0 +1,22 @@
+name: Organization docs
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Require portfolio control documents
+        run: |
+          test -s SECURITY.md
+          test -s profile/README.md
+          test -s portfolio/RELEASE_DEFINITION.md
+          test -s portfolio/LAUNCH_SLATE.md
+          test -s portfolio/DATA_COST_MATRIX.md
