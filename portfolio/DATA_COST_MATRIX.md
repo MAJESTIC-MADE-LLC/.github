@@ -14,7 +14,7 @@ change. Free features must have a bounded worst-case cost.
 | Paws | AES-256-GCM encrypted app-private vault; key/verifier in platform secure storage | RevenueCat and store purchase processing only | Creating pets and health records | No account/backend/analytics; single-device v1; Android backup and transfer disabled; on-device PDF export |
 | Almanac | Encrypted on-device vault | RevenueCat and store purchase processing only | Creating inventory/tastings and encrypted note import/share | No account/backend/analytics; single-device v1; encrypted single-note transfer; no remote valuation |
 | Use By | Encrypted on-device inventory | RevenueCat and store purchase processing only | Adding inventory items | No account/backend/database/analytics; single-device v1; manual CSV export; suggested dates remain editable |
-| Hub/waitlists | Browser plus Supabase submissions | Supabase and hosting | Business overhead | Collect email and product only; consent copy; deletion process; abuse/rate limits |
+| Hub/waitlists | Browser plus Supabase submissions | Supabase and hosting | Business overhead | Collect email and product only; consent copy, deletion process, and field bounds; production bot/rate controls still required |
 <!-- END GENERATED: data-cost-matrix -->
 
 ## Approval Checklist for Any Remote Feature
