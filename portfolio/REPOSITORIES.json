@@ -36,8 +36,8 @@
       "displayName": ".github",
       "role": "shared",
       "status": "Hardened organization governance and generated portfolio controls on dev, with 30 local tests and live inventory validation passing.",
-      "next": "Resolve GitHub Actions billing, choose the private-branch protection path, and explicitly approve promotion of the reviewed governance baseline to main.",
-      "concern": "Hosted Actions are blocked by the account spending limit; private-repository branch protection is unavailable on the current plan, and dev-only community files are not yet organization defaults.",
+      "next": "Resolve GitHub Actions billing, choose the private-repository protection path, and explicitly approve promotion of the reviewed governance baseline to main.",
+      "concern": "Hosted Actions are billing-blocked; GitHub reports branch protection and secret-scanning/push-protection unavailable for private repos on the current plan, and dev-only community files are not yet organization defaults.",
       "localCheckout": true,
       "requiredPaths": [
         ".github/workflows/docs.yml",
