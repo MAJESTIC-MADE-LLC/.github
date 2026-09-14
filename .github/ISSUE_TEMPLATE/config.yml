@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability or exposed secret
+    url: https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/SECURITY.md
+    about: Follow the private reporting process; do not open a public issue.
+  - name: Product support
+    url: https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/SUPPORT.md
+    about: Get help with account, billing, data, or product questions.

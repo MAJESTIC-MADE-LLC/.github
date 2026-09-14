@@ -4,6 +4,9 @@
 
 Do not open a public issue for a suspected vulnerability or exposed secret.
 
+Issue forms, pull requests, discussions, commit messages, and repository comments may be visible to
+other people and are not security-reporting channels.
+
 Email `support@majesticmade.dev` with `[SECURITY]` at the start of the subject. Include the affected
 repository or product, impact, reproducible steps, and the smallest safe proof of concept. Remove
 personal data, production credentials, child data, private documents, and unrelated records.

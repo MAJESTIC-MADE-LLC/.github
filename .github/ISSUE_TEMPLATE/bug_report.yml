@@ -1,0 +1,70 @@
+name: Bug report
+description: Report a reproducible, non-sensitive software defect
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. This issue may be public. Do not include vulnerabilities,
+        secrets, personal records, child data, health information, private documents, or unredacted
+        logs. Report security concerns privately by following the
+        [organization security policy](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/SECURITY.md).
+  - type: input
+    id: product
+    attributes:
+      label: Product or repository
+      description: Which Majestic Made product or repository is affected?
+      placeholder: Product or repository name
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Provide the app version, build number, or commit when available.
+      placeholder: Version, build, or commit
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Android
+        - iOS or iPadOS
+        - Web
+        - Server or infrastructure
+        - Documentation or repository
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the defect and its impact without including sensitive data.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: List the smallest reliable steps and the expected result.
+      placeholder: |
+        1. Go to ...
+        2. Select ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Redacted diagnostics
+      description: Add only logs or screenshots you have checked and redacted. Leave blank if unsure.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed secrets, personal data, private records, and unrelated information.
+          required: true
+        - label: This is not a vulnerability or exposed-secret report.
+          required: true
