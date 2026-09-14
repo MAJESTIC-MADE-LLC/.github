@@ -20,3 +20,9 @@ jobs:
           test -s portfolio/RELEASE_DEFINITION.md
           test -s portfolio/LAUNCH_SLATE.md
           test -s portfolio/DATA_COST_MATRIX.md
+          test -s portfolio/REPOSITORIES.json
+          test -s portfolio/STATUS.md
+      - name: Test portfolio validator
+        run: python3 -m unittest discover -s tests -v
+      - name: Reject stale generated status
+        run: python3 scripts/portfolio_status.py --check

@@ -1,0 +1,426 @@
+{
+  "schemaVersion": 1,
+  "evidenceDate": "2026-09-14",
+  "evidenceSummary": "Live GitHub organization inventory plus local dev-branch checkouts for implemented and shared repositories.",
+  "launchOrder": [
+    "Apiary",
+    "ReachMe",
+    "RideBinder",
+    "RoutineCue",
+    "Paws",
+    "Almanac",
+    "Use-By"
+  ],
+  "productLineup": [
+    "Chat-Armor",
+    "RideBinder",
+    "RoomProof",
+    "RoutineCue",
+    "ReachMe",
+    "Paws",
+    "Range",
+    "Use-By",
+    "Cradle",
+    "Almanac",
+    "Trove",
+    "Convoy",
+    "Steward",
+    "Deep-Six",
+    "Hook",
+    "Bivy",
+    "Apiary"
+  ],
+  "repositories": [
+    {
+      "name": ".github",
+      "displayName": ".github",
+      "role": "shared",
+      "status": "Active organization governance with generated portfolio controls and CI validation.",
+      "next": "Founder-review the release policy and resolve branch-protection issue #1.",
+      "concern": "Private-repository branch protection remains unavailable on the current GitHub plan.",
+      "localCheckout": true,
+      "requiredPaths": [
+        ".github/workflows/docs.yml",
+        "portfolio/REPOSITORIES.json",
+        "scripts/portfolio_status.py"
+      ]
+    },
+    {
+      "name": "Almanac",
+      "displayName": "Almanac",
+      "role": "release-candidate",
+      "stage": "Functional release candidate",
+      "focus": "Private tasting notes for wine, whiskey, coffee, and cigars.",
+      "status": "Functional local-first Flutter release candidate with automated tests and release-build checks.",
+      "launchEvidence": "Functional encrypted local-vault implementation, automated tests, release configuration, and mobile release-build checks.",
+      "next": "Complete full-vault recovery plus physical-device, purchase, accessibility, and store QA.",
+      "concern": "Full-vault recovery is not implemented; client-side entitlement checks are a soft commercial gate.",
+      "localCheckout": true,
+      "requiredPaths": [
+        ".github/workflows/flutter-ci.yml",
+        "lib/main.dart",
+        "pubspec.yaml",
+        "test"
+      ]
+    },
+    {
+      "name": "Apiary",
+      "displayName": "Apiary",
+      "role": "release-candidate",
+      "stage": "Functional release candidate",
+      "focus": "Offline iPhone beekeeping logbook with encrypted records and backups.",
+      "status": "Functional offline-first iPhone release candidate with encrypted SQLite, exports, backups, and CI.",
+      "launchEvidence": "Full offline-first iPhone implementation with encrypted SQLite, automated tests, backup checks, and iOS build validation.",
+      "next": "Run physical-device and accessibility QA, then configure App Store signing and the purchase product.",
+      "concern": "The local trial can reset after reinstall and must remain explicitly documented; release still needs owner legal approval.",
+      "localCheckout": true,
+      "requiredPaths": [
+        ".github/workflows/ios.yml",
+        "lib/main.dart",
+        "pubspec.yaml",
+        "test"
+      ]
+    },
+    {
+      "name": "App-Template",
+      "displayName": "App-Template",
+      "role": "shared",
+      "status": "Reusable Flutter scaffold for local-only, local-first, and Supabase-backed products, with CI.",
+      "next": "Complete a final baseline review, tag it, and enable GitHub template-repository mode.",
+      "concern": "It is a scaffold rather than a launch product; provider-backed modes still require per-product security review.",
+      "localCheckout": true,
+      "requiredPaths": [
+        ".github/workflows/flutter-ci.yml",
+        "docs/local-only.md",
+        "lib/main.dart",
+        "pubspec.yaml"
+      ]
+    },
+    {
+      "name": "Bivy",
+      "displayName": "Bivy",
+      "role": "concept",
+      "stage": "Concept only",
+      "focus": "Camping and RV trip log with site notes and recap exports.",
+      "status": "README-only product concept on dev.",
+      "next": "Define the trip and campsite schema plus recap-export requirements, then scaffold with CI.",
+      "concern": "No implementation, tests, roadmap, or automated checks exist.",
+      "localCheckout": false
+    },
+    {
+      "name": "Chat-Armor",
+      "displayName": "Chat Armor",
+      "role": "concept",
+      "stage": "Research concept",
+      "focus": "Family-safety concept pending platform, consent, privacy, and legal feasibility review.",
+      "status": "README-only research concept on dev.",
+      "next": "Resolve platform feasibility, consent, and the privacy model before scaffolding.",
+      "concern": "The concept involves highly sensitive child and message data; beta-style claims must not imply an implemented product.",
+      "localCheckout": false
+    },
+    {
+      "name": "Convoy",
+      "displayName": "Convoy",
+      "role": "concept",
+      "stage": "Concept only",
+      "focus": "PCS and household move inventory with claim-ready exports.",
+      "status": "README-only product concept on dev.",
+      "next": "Define the evidence and claim-export model, then scaffold with CI.",
+      "concern": "No implementation or automated checks exist.",
+      "localCheckout": false
+    },
+    {
+      "name": "Cradle",
+      "displayName": "Cradle",
+      "role": "concept",
+      "stage": "Concept only",
+      "focus": "Feedings, diapers, sleep, growth, and milestone tracking.",
+      "status": "README-only product concept on dev.",
+      "next": "Define the event model and caregiver-sharing boundary before scaffolding.",
+      "concern": "The product would handle sensitive child data; sharing and recovery remain unresolved.",
+      "localCheckout": false
+    },
+    {
+      "name": "Deep-Six",
+      "displayName": "Deep Six",
+      "role": "concept",
+      "stage": "Concept only",
+      "focus": "Scuba logbook with sites, buddies, and certification-ready records.",
+      "status": "README-only product concept on dev.",
+      "next": "Define the dive and certification schema plus export requirements, then scaffold with CI.",
+      "concern": "No implementation or automated checks exist.",
+      "localCheckout": false
+    },
+    {
+      "name": "Hook",
+      "displayName": "Hook",
+      "role": "concept",
+      "stage": "Concept only",
+      "focus": "Fishing journal with private catches, photos, and encrypted spot records.",
+      "status": "README-only product concept on dev.",
+      "next": "Define encrypted photo and location storage plus recovery, then scaffold with CI.",
+      "concern": "Sensitive location data and device-loss recovery behavior remain unresolved.",
+      "localCheckout": false
+    },
+    {
+      "name": "Majestic-Made-Hub",
+      "displayName": "Majestic-Made-Hub",
+      "role": "shared",
+      "status": "Implemented static Next.js portfolio and waitlist site pinned to Node 24, with web CI.",
+      "next": "Keep product claims synchronized and complete owner and legal review before publishing.",
+      "concern": "The site is not deployed; waitlist submissions add Supabase retention, deletion, and abuse-control obligations.",
+      "localCheckout": true,
+      "requiredPaths": [
+        ".github/workflows/ci.yml",
+        ".nvmrc",
+        "app/page.tsx",
+        "package.json"
+      ]
+    },
+    {
+      "name": "Paws",
+      "displayName": "Paws",
+      "role": "release-candidate",
+      "stage": "Functional release candidate",
+      "focus": "Pet health records, medications, incidents, and vet-ready exports.",
+      "status": "Functional encrypted local-vault Flutter release candidate with on-device PDF reports and CI.",
+      "launchEvidence": "Functional encrypted local-vault implementation, automated tests, release configuration, PDF checks, and mobile release builds.",
+      "next": "Resolve the trademark/name decision and run physical-device, accessibility, purchase, and store QA.",
+      "concern": "Full-vault recovery is not implemented, and product copy must remain recordkeeping rather than veterinary advice.",
+      "localCheckout": true,
+      "requiredPaths": [
+        ".github/workflows/flutter-ci.yml",
+        "lib/main.dart",
+        "pubspec.yaml",
+        "test"
+      ]
+    },
+    {
+      "name": "Range",
+      "displayName": "Range",
+      "role": "concept",
+      "stage": "Concept only",
+      "focus": "Firearm registry, range log, ammo inventory, and license vault.",
+      "status": "README-only product concept on dev.",
+      "next": "Define the MVP and security architecture before scaffolding.",
+      "concern": "The proposed firearm and license data is particularly sensitive; no implementation or CI exists.",
+      "localCheckout": false
+    },
+    {
+      "name": "ReachMe",
+      "displayName": "ReachMe",
+      "role": "release-candidate",
+      "stage": "Functional release candidate",
+      "focus": "Local contact wallet, QR sharing, and optional expiring public links.",
+      "status": "Functional Flutter app plus Cloudflare worker and web/PWA release candidate with CI.",
+      "launchEvidence": "Functional local contact wallet, Cloudflare link service, web/PWA, automated tests, and CI validation.",
+      "next": "Run provider-sandbox end-to-end tests plus hosted-link abuse, expiry, revoke, and recovery tests.",
+      "concern": "Published fields are public, and the optional D1 link service creates recurring security, retention, and cost obligations.",
+      "localCheckout": true,
+      "requiredPaths": [
+        ".github/workflows/ci.yml",
+        "app/lib/main.dart",
+        "app/pubspec.yaml",
+        "web/package.json"
+      ]
+    },
+    {
+      "name": "RideBinder",
+      "displayName": "RideBinder",
+      "role": "release-candidate",
+      "stage": "Functional release candidate",
+      "focus": "Motorcycle maintenance, documents, receipts, reminders, and resale history.",
+      "status": "Functional local-first Flutter release candidate with optional cloud modules and CI.",
+      "launchEvidence": "Substantial local-first implementation with automated tests, encrypted backup checks, and Android/iOS release builds.",
+      "next": "Run physical-device backup, import, PDF, purchase, and store-signing QA with cloud flags off first.",
+      "concern": "Optional sync, document storage, sharing, and AI extraction materially expand cost and security scope.",
+      "localCheckout": true,
+      "requiredPaths": [
+        ".github/workflows/ci.yml",
+        "lib/main.dart",
+        "pubspec.yaml",
+        "test"
+      ]
+    },
+    {
+      "name": "RoomProof",
+      "displayName": "RoomProof",
+      "role": "concept",
+      "stage": "Concept only",
+      "focus": "Before/after cleaning reports with photos, checklists, issues, signatures, and PDFs.",
+      "status": "README and gitignore only; no application implementation on dev.",
+      "next": "Define photo, signature, time, and location retention, then scaffold Flutter with CI.",
+      "concern": "Evidence media and location metadata need an explicit privacy and deletion model before implementation.",
+      "localCheckout": false
+    },
+    {
+      "name": "RoutineCue",
+      "displayName": "RoutineCue",
+      "role": "release-candidate",
+      "stage": "Functional release candidate",
+      "focus": "Child routines, chores, approvals, points, rewards, and optional allowance tracking.",
+      "status": "Functional Flutter and Supabase collaborative release candidate with mobile, backend, and local database checks.",
+      "launchEvidence": "Substantial Flutter/Supabase implementation with automated mobile/backend tests, local database smoke checks, and mobile release builds.",
+      "next": "Apply and test the reviewed backend in a non-production Supabase project, configure purchases/notifications, and run family-device QA.",
+      "concern": "Child data and photo proof require high-trust cloud operations, strict retention, and continuing provider cost controls.",
+      "localCheckout": true,
+      "requiredPaths": [
+        ".github/workflows/ci.yml",
+        "lib/main.dart",
+        "pubspec.yaml",
+        "supabase/config.toml"
+      ]
+    },
+    {
+      "name": "Steward",
+      "displayName": "Steward",
+      "role": "concept",
+      "stage": "Concept only",
+      "focus": "Home inventory for insurance and household records.",
+      "status": "README-only product concept on dev.",
+      "next": "Specify encryption, export, and recovery before scaffolding.",
+      "concern": "Insurance and home data is sensitive; cloudless device-loss behavior remains unresolved.",
+      "localCheckout": false
+    },
+    {
+      "name": "Trove",
+      "displayName": "Trove",
+      "role": "concept",
+      "stage": "Concept only",
+      "focus": "Collector registry for coins, stamps, cards, watches, and militaria.",
+      "status": "README-only product concept on dev.",
+      "next": "Define the schema plus import, export, and recovery, then scaffold with CI.",
+      "concern": "No implementation or CI exists; portability and recovery are undefined.",
+      "localCheckout": false
+    },
+    {
+      "name": "Use-By",
+      "displayName": "Use By",
+      "role": "release-candidate",
+      "stage": "Functional release candidate",
+      "focus": "Pantry, fridge, freezer, and counter expiration tracking.",
+      "status": "Functional encrypted local-vault Flutter release candidate with CSV export and CI.",
+      "launchEvidence": "Functional single-device encrypted inventory, automated tests, release configuration, export checks, and mobile release builds.",
+      "next": "Complete date/time-zone, food-safety copy, recovery, physical-device, purchase, and store QA.",
+      "concern": "Suggested dates are user-editable defaults, not food-safety advice; full-vault recovery is not implemented.",
+      "localCheckout": true,
+      "requiredPaths": [
+        ".github/workflows/flutter-ci.yml",
+        "lib/main.dart",
+        "pubspec.yaml",
+        "test"
+      ]
+    },
+    {
+      "name": "app-legal",
+      "displayName": "app-legal",
+      "role": "shared",
+      "status": "Public legal and support site with draft coverage and automated structural validation for all seven release candidates.",
+      "next": "Have both founders and qualified counsel review the pages against final binaries and store disclosures.",
+      "concern": "Automated checks can verify completeness and consistency, but cannot establish legal adequacy.",
+      "localCheckout": true,
+      "requiredPaths": [
+        ".github/workflows/validate.yml",
+        "almanac/privacy/index.html",
+        "apiary/privacy/index.html",
+        "index.html"
+      ]
+    },
+    {
+      "name": "wolfe-server-apps",
+      "displayName": "wolfe-server-apps",
+      "role": "shared",
+      "status": "Validated hardened Docker/Next.js deployment template; apps/ intentionally contains no deployable product.",
+      "next": "Keep deferred until a server-backed product has an approved deployment need.",
+      "concern": "This is infrastructure scaffolding, not a deployed service or launch product.",
+      "localCheckout": true,
+      "requiredPaths": [
+        ".github/workflows/validate.yml",
+        "scripts/validate-template.sh",
+        "templates/nextjs-docker/.dockerignore",
+        "templates/nextjs-docker/compose.yml"
+      ]
+    },
+    {
+      "name": "wolfe-server-infra",
+      "displayName": "wolfe-server-infra",
+      "role": "shared",
+      "status": "Substantial server hardening, deployment, monitoring, and backup-readiness automation with CI.",
+      "next": "Configure scheduled off-site backups on the target host and complete a documented restore drill.",
+      "concern": "Production readiness still depends on host-specific configuration, credentials, alert delivery, and a successful restore test.",
+      "localCheckout": true,
+      "requiredPaths": [
+        ".github/workflows/validate.yml",
+        "automation/backups/backup-readiness.sh",
+        "automation/backups/run-restic-backup.sh",
+        "tests/backup-readiness_test.sh"
+      ]
+    }
+  ],
+  "dataMatrix": [
+    {
+      "product": "Apiary",
+      "repository": "Apiary",
+      "defaultDataLocation": "Encrypted SQLite and app-private files",
+      "remoteServices": "Apple purchase processing only",
+      "paidBoundary": "One-time permanent unlock",
+      "guardrails": "No automatic upload; manual encrypted backup; no analytics"
+    },
+    {
+      "product": "ReachMe",
+      "repository": "ReachMe",
+      "defaultDataLocation": "SQLite/browser storage",
+      "remoteServices": "Optional Cloudflare D1 links; Apple/RevenueCat purchases",
+      "paidBoundary": "More profiles, links, and premium styling",
+      "guardrails": "Field-by-field publish consent; 10-link cap; 12-month expiry; revoke/delete; request limits"
+    },
+    {
+      "product": "RideBinder",
+      "repository": "RideBinder",
+      "defaultDataLocation": "Local SQLite and files",
+      "remoteServices": "Optional Supabase Auth/Postgres/Storage/Functions, RevenueCat, NHTSA, and optional OpenAI extraction",
+      "paidBoundary": "Cloud backup/sync/share and remote extraction",
+      "guardrails": "Remote flags off by default; 1 GB/user storage cap; five-link cap; AI rate cap; 90-day post-Pro purge"
+    },
+    {
+      "product": "RoutineCue",
+      "repository": "RoutineCue",
+      "defaultDataLocation": "Supabase account data with small local caches",
+      "remoteServices": "Supabase, RevenueCat, Firebase/APNs",
+      "paidBoundary": "Plus/Pro household features",
+      "guardrails": "Private proof bucket; Free 7-day, Plus 90-day, Pro 12-month proof retention; daily cleanup; device/session limits"
+    },
+    {
+      "product": "Paws",
+      "repository": "Paws",
+      "defaultDataLocation": "AES-256-GCM encrypted app-private vault; key/verifier in platform secure storage",
+      "remoteServices": "RevenueCat and store purchase processing only",
+      "paidBoundary": "Creating pets and health records",
+      "guardrails": "No account/backend/analytics; single-device v1; Android backup and transfer disabled; on-device PDF export"
+    },
+    {
+      "product": "Almanac",
+      "repository": "Almanac",
+      "defaultDataLocation": "Encrypted on-device vault",
+      "remoteServices": "RevenueCat and store purchase processing only",
+      "paidBoundary": "Creating inventory/tastings and encrypted note import/share",
+      "guardrails": "No account/backend/analytics; single-device v1; encrypted single-note transfer; no remote valuation"
+    },
+    {
+      "product": "Use By",
+      "repository": "Use-By",
+      "defaultDataLocation": "Encrypted on-device inventory",
+      "remoteServices": "RevenueCat and store purchase processing only",
+      "paidBoundary": "Adding inventory items",
+      "guardrails": "No account/backend/database/analytics; single-device v1; manual CSV export; suggested dates remain editable"
+    },
+    {
+      "product": "Hub/waitlists",
+      "repository": "Majestic-Made-Hub",
+      "defaultDataLocation": "Browser plus Supabase submissions",
+      "remoteServices": "Supabase and hosting",
+      "paidBoundary": "Business overhead",
+      "guardrails": "Collect email and product only; consent copy; deletion process; abuse/rate limits"
+    }
+  ]
+}
