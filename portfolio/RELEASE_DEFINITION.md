@@ -21,7 +21,7 @@ demo, or unverified feature claim does not count as complete.
 
 ## Quality and Operations
 
-- Formatting, static analysis, tests, release build, and dependency audit pass in CI.
+- Formatting, static analysis, tests, release build, and dependency audit pass in a documented, reproducible local or hosted validation run. Hosted CI is optional under the current Free-plan policy.
 - Crash recovery, upgrade/migration, backup restore, and rollback or feature-disable paths pass.
 - Support can reproduce the build and has a monitored support address and troubleshooting runbook.
 - Required monitoring is privacy-minimized; cost and reliability alerts are configured for cloud use.

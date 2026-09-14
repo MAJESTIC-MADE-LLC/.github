@@ -35,9 +35,9 @@
       "name": ".github",
       "displayName": ".github",
       "role": "shared",
-      "status": "Hardened organization governance and generated portfolio controls are active on main and dev, with 30 local tests and live inventory validation passing.",
-      "next": "Resolve GitHub Actions billing and choose the private-repository branch-protection and secret-scanning plan.",
-      "concern": "Hosted Actions are billing-blocked, and GitHub reports branch protection plus secret scanning/push protection unavailable for private repositories on the current plan.",
+      "status": "Hardened organization governance and generated portfolio controls are active on main and dev, with 30 local tests, live inventory validation, and the Free-plan operating policy recorded.",
+      "next": "Continue recorded local validation and periodic dependency/security audits; reconsider paid safeguards before expanding access or changing the release model.",
+      "concern": "The accepted Free-plan tradeoff leaves private repositories without branch protection, secret scanning, push protection, or relied-upon hosted Actions, so dev-first discipline and local evidence remain essential.",
       "localCheckout": true,
       "requiredPaths": [
         ".github/workflows/docs.yml",
@@ -208,7 +208,7 @@
       "role": "shared",
       "status": "Next.js portfolio and waitlist site pinned to Node 24, with guarded concept claims, 29 passing tests, a production build, and zero open Dependabot alerts on the promoted baseline.",
       "next": "Choose RoomProof and proposed-price visibility, select production waitlist abuse controls, and complete owner/legal review.",
-      "concern": "Hosted Actions are billing-blocked; Supabase waitlists add retention, deletion, and abuse-control obligations, and non-security dependency update pull requests remain unverified.",
+      "concern": "Supabase waitlists add retention, deletion, and abuse-control obligations; non-security dependency updates remain unverified, and the current policy relies on recorded local validation rather than hosted Actions.",
       "localCheckout": true,
       "requiredPaths": [
         ".github/workflows/ci.yml",
