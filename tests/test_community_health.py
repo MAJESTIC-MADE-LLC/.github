@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 import unittest
 from pathlib import Path
 
@@ -47,6 +48,18 @@ class CommunityHealthTest(unittest.TestCase):
         self.assertIn("`main` branch is release-only", contributing)
         self.assertIn("targets `dev`", pull_request)
         self.assertIn("privacy, security, data lifecycle", pull_request)
+
+    def test_default_workflow_is_least_privilege_and_immutable(self) -> None:
+        workflow = self.read(".github/workflows/docs.yml")
+
+        self.assertIn("permissions:\n  contents: read", workflow)
+        self.assertNotIn("pull_request_target", workflow)
+        self.assertNotRegex(workflow, r"(?m)^\s+[a-z-]+:\s+write\s*$")
+        action_refs = re.findall(r"uses:\s+[^@\s]+@([^\s#]+)", workflow)
+        self.assertTrue(action_refs, "workflow must use at least one action")
+        for reference in action_refs:
+            with self.subTest(reference=reference):
+                self.assertRegex(reference, r"\A[0-9a-f]{40}\Z")
 
     def test_published_contact_is_consistent(self) -> None:
         for relative_path in (
