@@ -382,7 +382,7 @@
       "displayName": "app-legal",
       "role": "shared",
       "status": "Public legal/support site with eight active product drafts, explicit non-production concept placeholders, and 15 passing safety/structure tests.",
-      "next": "Have both founders and qualified counsel review the pages against final binaries and store disclosures.",
+      "next": "Complete the founder/counsel approval checklist in app-legal issue #1 against final binaries, backend configuration, and store disclosures.",
       "concern": "Automated checks can verify completeness and consistency, but cannot establish legal adequacy.",
       "localCheckout": true,
       "requiredPaths": [
