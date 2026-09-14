@@ -279,9 +279,9 @@
       "stage": "Functional release candidate",
       "focus": "Motorcycle maintenance, documents, receipts, reminders, and resale history.",
       "status": "Local-first Flutter release candidate with hardened biometric credential storage, native screen privacy, optional cloud modules, and 260 passing tests.",
-      "launchEvidence": "Local-first records, encrypted backups, API-28 strong-biometric enforcement, stale-key cleanup, automated tests, and Android/iOS builds.",
+      "launchEvidence": "Local-first records, encrypted backups, API-28 strong-biometric enforcement, stale-key cleanup, 260 tests, Android/iOS builds, and an API-36 runtime smoke check.",
       "next": "Run biometric hardware and physical-device QA, then configure production HTTPS callbacks and App/Universal Links before enabling cloud flags.",
-      "concern": "Optional sync, storage, sharing, and AI extraction expand cost/security scope; Android emulator images are missing and hardware enrollment-change behavior is unverified.",
+      "concern": "Optional sync, storage, sharing, and AI extraction expand cost/security scope; real-device biometric enrollment-change behavior remains unverified.",
       "localCheckout": true,
       "requiredPaths": [
         ".github/workflows/ci.yml",
