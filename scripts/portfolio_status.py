@@ -26,7 +26,15 @@ REQUIRED_REPOSITORY_FIELDS = {
     "concern",
     "localCheckout",
 }
-CONCEPT_REMOTE_ALLOWLIST = {".gitignore", "README.md"}
+CONCEPT_REMOTE_ALLOWLIST = {
+    ".github/dependabot.yml",
+    ".github/workflows/concept-governance.yml",
+    ".gitignore",
+    "README.md",
+    "docs/IMPLEMENTATION_READINESS.md",
+    "project-status.json",
+    "scripts/validate_concept_repo.py",
+}
 
 
 class PortfolioError(RuntimeError):

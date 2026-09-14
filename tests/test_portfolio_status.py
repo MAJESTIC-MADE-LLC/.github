@@ -115,6 +115,39 @@ class PortfolioStatusTest(unittest.TestCase):
             ):
                 portfolio_status.verify_github(self.manifest, "example")
 
+    def test_github_verification_allows_concept_governance_files(self) -> None:
+        manifest = {"repositories": [{"name": "Example", "role": "concept"}]}
+        tree = {
+            "tree": [
+                {"path": path, "type": "blob"}
+                for path in sorted(portfolio_status.CONCEPT_REMOTE_ALLOWLIST)
+            ]
+        }
+        with mock.patch.object(
+            portfolio_status,
+            "run_command",
+            side_effect=[json.dumps([{"name": "Example"}]), json.dumps(tree)],
+        ):
+            portfolio_status.verify_github(manifest, "example")
+
+    def test_github_verification_rejects_concept_implementation(self) -> None:
+        manifest = {"repositories": [{"name": "Example", "role": "concept"}]}
+        tree = {
+            "tree": [
+                {"path": "README.md", "type": "blob"},
+                {"path": "app/lib/main.dart", "type": "blob"},
+            ]
+        }
+        with mock.patch.object(
+            portfolio_status,
+            "run_command",
+            side_effect=[json.dumps([{"name": "Example"}]), json.dumps(tree)],
+        ):
+            with self.assertRaisesRegex(
+                portfolio_status.PortfolioError, "app/lib/main.dart"
+            ):
+                portfolio_status.verify_github(manifest, "example")
+
 
 if __name__ == "__main__":
     unittest.main()

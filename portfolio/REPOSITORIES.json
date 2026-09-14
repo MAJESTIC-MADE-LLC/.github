@@ -35,14 +35,18 @@
       "name": ".github",
       "displayName": ".github",
       "role": "shared",
-      "status": "Active organization governance with generated portfolio controls and CI validation.",
-      "next": "Founder-review the release policy and resolve branch-protection issue #1.",
+      "status": "Active organization governance with generated portfolio controls and default community-health guidance staged on dev.",
+      "next": "Founder-review the release policy and community-health baseline, then resolve branch-protection issue #1.",
       "concern": "Private-repository branch protection remains unavailable on the current GitHub plan.",
       "localCheckout": true,
       "requiredPaths": [
         ".github/workflows/docs.yml",
+        ".github/ISSUE_TEMPLATE/bug_report.yml",
+        ".github/PULL_REQUEST_TEMPLATE.md",
+        "CONTRIBUTING.md",
         "portfolio/REPOSITORIES.json",
-        "scripts/portfolio_status.py"
+        "scripts/portfolio_status.py",
+        "tests/test_community_health.py"
       ]
     },
     {
@@ -102,9 +106,9 @@
       "role": "concept",
       "stage": "Concept only",
       "focus": "Camping and RV trip log with site notes and recap exports.",
-      "status": "README-only product concept on dev.",
-      "next": "Define the trip and campsite schema plus recap-export requirements, then scaffold with CI.",
-      "concern": "No implementation, tests, roadmap, or automated checks exist.",
+      "status": "Concept-only repository with implementation-readiness guardrails and automated governance validation on dev.",
+      "next": "Define the trip and campsite schema plus recap-export requirements, then scaffold from App-Template with product CI.",
+      "concern": "No application implementation or product tests and build checks exist.",
       "localCheckout": false
     },
     {
@@ -113,7 +117,7 @@
       "role": "concept",
       "stage": "Research concept",
       "focus": "Family-safety concept pending platform, consent, privacy, and legal feasibility review.",
-      "status": "README-only research concept on dev.",
+      "status": "Research-only repository with implementation-readiness guardrails and automated governance validation on dev.",
       "next": "Resolve platform feasibility, consent, and the privacy model before scaffolding.",
       "concern": "The concept involves highly sensitive child and message data; beta-style claims must not imply an implemented product.",
       "localCheckout": false
@@ -124,9 +128,9 @@
       "role": "concept",
       "stage": "Concept only",
       "focus": "PCS and household move inventory with claim-ready exports.",
-      "status": "README-only product concept on dev.",
-      "next": "Define the evidence and claim-export model, then scaffold with CI.",
-      "concern": "No implementation or automated checks exist.",
+      "status": "Concept-only repository with implementation-readiness guardrails and automated governance validation on dev.",
+      "next": "Define the evidence and claim-export model, then scaffold from App-Template with product CI.",
+      "concern": "No application implementation or product tests and build checks exist.",
       "localCheckout": false
     },
     {
@@ -135,7 +139,7 @@
       "role": "concept",
       "stage": "Concept only",
       "focus": "Feedings, diapers, sleep, growth, and milestone tracking.",
-      "status": "README-only product concept on dev.",
+      "status": "Concept-only repository with implementation-readiness guardrails and automated governance validation on dev.",
       "next": "Define the event model and caregiver-sharing boundary before scaffolding.",
       "concern": "The product would handle sensitive child data; sharing and recovery remain unresolved.",
       "localCheckout": false
@@ -146,9 +150,9 @@
       "role": "concept",
       "stage": "Concept only",
       "focus": "Scuba logbook with sites, buddies, and certification-ready records.",
-      "status": "README-only product concept on dev.",
-      "next": "Define the dive and certification schema plus export requirements, then scaffold with CI.",
-      "concern": "No implementation or automated checks exist.",
+      "status": "Concept-only repository with implementation-readiness guardrails and automated governance validation on dev.",
+      "next": "Define the dive and certification schema plus export requirements, then scaffold from App-Template with product CI.",
+      "concern": "No application implementation or product tests and build checks exist.",
       "localCheckout": false
     },
     {
@@ -157,7 +161,7 @@
       "role": "concept",
       "stage": "Concept only",
       "focus": "Fishing journal with private catches, photos, and encrypted spot records.",
-      "status": "README-only product concept on dev.",
+      "status": "Concept-only repository with implementation-readiness guardrails and automated governance validation on dev.",
       "next": "Define encrypted photo and location storage plus recovery, then scaffold with CI.",
       "concern": "Sensitive location data and device-loss recovery behavior remain unresolved.",
       "localCheckout": false
@@ -201,9 +205,9 @@
       "role": "concept",
       "stage": "Concept only",
       "focus": "Firearm registry, range log, ammo inventory, and license vault.",
-      "status": "README-only product concept on dev.",
+      "status": "Concept-only repository with implementation-readiness guardrails and automated governance validation on dev.",
       "next": "Define the MVP and security architecture before scaffolding.",
-      "concern": "The proposed firearm and license data is particularly sensitive; no implementation or CI exists.",
+      "concern": "The proposed firearm and license data is particularly sensitive; no implementation or product validation exists.",
       "localCheckout": false
     },
     {
@@ -248,8 +252,8 @@
       "role": "concept",
       "stage": "Concept only",
       "focus": "Before/after cleaning reports with photos, checklists, issues, signatures, and PDFs.",
-      "status": "README and gitignore only; no application implementation on dev.",
-      "next": "Define photo, signature, time, and location retention, then scaffold Flutter with CI.",
+      "status": "Concept-only repository with implementation-readiness guardrails and automated governance validation on dev.",
+      "next": "Define photo, signature, time, and location retention, then scaffold Flutter from App-Template with product CI.",
       "concern": "Evidence media and location metadata need an explicit privacy and deletion model before implementation.",
       "localCheckout": false
     },
@@ -277,7 +281,7 @@
       "role": "concept",
       "stage": "Concept only",
       "focus": "Home inventory for insurance and household records.",
-      "status": "README-only product concept on dev.",
+      "status": "Concept-only repository with implementation-readiness guardrails and automated governance validation on dev.",
       "next": "Specify encryption, export, and recovery before scaffolding.",
       "concern": "Insurance and home data is sensitive; cloudless device-loss behavior remains unresolved.",
       "localCheckout": false
@@ -288,9 +292,9 @@
       "role": "concept",
       "stage": "Concept only",
       "focus": "Collector registry for coins, stamps, cards, watches, and militaria.",
-      "status": "README-only product concept on dev.",
-      "next": "Define the schema plus import, export, and recovery, then scaffold with CI.",
-      "concern": "No implementation or CI exists; portability and recovery are undefined.",
+      "status": "Concept-only repository with implementation-readiness guardrails and automated governance validation on dev.",
+      "next": "Define the schema plus import, export, and recovery, then scaffold from App-Template with product CI.",
+      "concern": "No application implementation or product validation exists; portability and recovery are undefined.",
       "localCheckout": false
     },
     {
