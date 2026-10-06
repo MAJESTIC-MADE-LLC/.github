@@ -2,8 +2,7 @@ name: Organization docs
 
 on:
   push:
-    branches: [main, dev]
-  pull_request:
+    branches: [main]
 
 permissions:
   contents: read
