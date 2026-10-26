@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MAJESTIC-MADE-LLC/.github/470dc20740591fe63fdb7e6b64beb86e120b94da/profile/assets/majestic-made-horizontal-color.svg" alt="Majestic Made LLC" width="720">
+  <img src="https://raw.githubusercontent.com/MAJESTIC-MADE-LLC/.github/6944f161839264aaa97ee913527c9648b84b5e49/profile/assets/majestic-made-horizontal-color.svg" alt="Majestic Made LLC" width="720">
 </p>
 
 **Privacy-conscious software for personal records, family routines, and everyday operations.**
