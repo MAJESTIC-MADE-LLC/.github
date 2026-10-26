@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="360" viewBox="0 0 1440 360" role="img" aria-labelledby="title desc">
 <title id="title">Majestic Made LLC horizontal logo</title>
-<desc id="desc">Interwoven MM monogram with outlined Majestic Made LLC lettering. Clean vector reconstruction from the supplied raster reference; transparent background.</desc>
+<desc id="desc">Interwoven MM monogram with outlined Majestic Made LLC lettering. Clean vector reconstruction from the supplied raster reference; light background for the public organization profile.</desc>
+<rect x="0" y="0" width="1440" height="360" fill="#FFFDF6"/>
 <defs>
 <linearGradient id="green" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B2B1B"/><stop offset=".48" stop-color="#1B4B30"/><stop offset="1" stop-color="#082819"/></linearGradient>
 <linearGradient id="gold" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#AD792D"/><stop offset=".45" stop-color="#F2CD78"/><stop offset="1" stop-color="#A57025"/></linearGradient>
