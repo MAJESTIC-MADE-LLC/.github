@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "scope": "Offline drift enforcement, separate from release qualification",
+  "nodeProjects": [
+    {
+      "path": "Majestic-Made-Hub",
+      "framework": true
+    },
+    {
+      "path": "Namefold/web",
+      "framework": true
+    },
+    {
+      "path": "App-Template/services/workspace_verifier",
+      "framework": false
+    }
+  ],
+  "manifestExceptions": {
+    "steward/package.json": "Retained consolidating legacy marketing source; no standalone consumer app. New active Node applications must use the canonical baseline."
+  },
+  "dependencyBaselines": {
+    "App-Template/hosting/control_app/pubspec.yaml": {
+      "declarationsSha256": "a5b352807407661e04bfbd8330e16a299521f4026d44790542c109ef707a1e86",
+      "lockSha256": "97cbb04edce4bb7eb5e55cf26d0f1b097a46020fef262c2c64f04365b4a50a14"
+    },
+    "App-Template/hosting/coordinator/pubspec.yaml": {
+      "declarationsSha256": "12460b45e828bc91b4783e35612e089310aa13e06f023e91c4a44bc18109cbf6",
+      "lockSha256": "a78b2a20049d822f14106510b15abda8a2b8491f263780df4803e1b87a5d7a8c"
+    },
+    "App-Template/hosting/reference_app/pubspec.yaml": {
+      "declarationsSha256": "a5b352807407661e04bfbd8330e16a299521f4026d44790542c109ef707a1e86",
+      "lockSha256": "97cbb04edce4bb7eb5e55cf26d0f1b097a46020fef262c2c64f04365b4a50a14"
+    },
+    "App-Template/packages/majestic_app/pubspec.yaml": {
+      "declarationsSha256": "3d7adb05a8f4be268e9b904b8153f16900dea329acd7888d67488277cf1d9397",
+      "lockSha256": "965516c15c6c96fd0d3380f9f2f1182d9d2fe734a7716572ec53174a064fc403"
+    },
+    "App-Template/packages/majestic_hosting/pubspec.yaml": {
+      "declarationsSha256": "fe2c61bc9642957e467aa860a49dbad52c76d28aa2aa3acf628ce004210ddaa8",
+      "lockSha256": "6afc08b7f69f7f5d593f07355ae39d753e92a5edda5001041bda59a675f4bce0"
+    },
+    "App-Template/packages/majestic_media/pubspec.yaml": {
+      "declarationsSha256": "0bb7d9be8005cc0384330287b00f2bd0a9f1aa1c97e5be5f57d7166a3cde05b8",
+      "lockSha256": "fdb942d1d2e08c2d4b9f70feabc7707aa28fa1d78bf00d627eba70cb4efd1e79"
+    },
+    "App-Template/packages/majestic_privacy/pubspec.yaml": {
+      "declarationsSha256": "8579eb6d3f1d3bc06e2f3b6585a69f55bf1b631c5a5eced75c4c8e92cde3bb61",
+      "lockSha256": "7bf87b87b7f72cce0e786e236d51f961a7d34f880e23b288b14cb9e9875b1840"
+    },
+    "App-Template/packages/majestic_purchases/pubspec.yaml": {
+      "declarationsSha256": "17ceacdbbbab70ba9f1a10de42fbb60f7477245b45d72b7fa2268a5e5eb694b6",
+      "lockSha256": "b00a34affe7b0b631975a5014bc95d1819b959c1e5b7c82f92b4874602ef811a"
+    },
+    "App-Template/packages/majestic_qr/pubspec.yaml": {
+      "declarationsSha256": "5288fcbbf92b81508da5688ca1b5ec8f5ce24761a19f18e3b19c379f0dcf7a69",
+      "lockSha256": "03a8e8c893b7940925fab119cf20c97bb8630a2fcc1f3b5877a4deab63243c68"
+    },
+    "App-Template/packages/majestic_reminders/pubspec.yaml": {
+      "declarationsSha256": "cc6991c148f6740576064ca1276f2fd5ef9a23606be8aa69e5d062e3501566f9",
+      "lockSha256": "737bd890d545ab70483fc3570df0129f553b477aed4d9523949e9eec01ba6cde"
+    },
+    "App-Template/packages/majestic_reports/pubspec.yaml": {
+      "declarationsSha256": "ceaaff2c2c540adb2b502f273b77ffe916c808af93cf875a9e05706a9f100f81",
+      "lockSha256": "fd9e5cfd8efafb628ff7afcfa1073b9f47d7d1f7fd25c76eda12f17a28d8d6a9"
+    },
+    "App-Template/packages/majestic_storage/pubspec.yaml": {
+      "declarationsSha256": "f501aa4d1d1701d926d32b8837e83d6886606db9e18d0ff7d34efa0f5f255694",
+      "lockSha256": "e52c802ad1dc145fec24edfa8c93f35c462be752620251ca971a8b6a030c51e0"
+    },
+    "App-Template/packages/majestic_sync/pubspec.yaml": {
+      "declarationsSha256": "d9ada71d2bac2d576e6d6e59f25532aa0e946a17bdadf1d7042255ed4e44acba",
+      "lockSha256": "ef4b683b20a2579574fe60926edbd223aa2141a68bb9720ee47afba6a563f509"
+    },
+    "App-Template/packages/majestic_sync_crypto/pubspec.yaml": {
+      "declarationsSha256": "1dbbe301b5cdfe01054fffa1faea42b37db380f5b2bff45d79ed5321e83e7fce",
+      "lockSha256": "f758f2db5ec49a1b360affbb5fc5f3e90287df20bf347691ff07ee56eae26571"
+    },
+    "App-Template/pubspec.yaml": {
+      "declarationsSha256": "5b14507155cab717d666cf88c9dd24bad88735e7f32053dcb7273a2b7bfb651b",
+      "lockSha256": "3eecfe61562804eae66751e99bb9a6867d89d3fba1bb75b225c66e9e391515bb"
+    },
+    "App-Template/services/workspace_verifier/package.json": {
+      "declarationsSha256": "8cc60f120b14d8e0318d1652594ad87a99d3a237836e3065c9a563cd72511a30",
+      "lockSha256": "9ddc745388c4160e6d00af6c8dcf02dbedec7ac0b56278a9c1b6428168702242"
+    },
+    "Daymerit/pubspec.yaml": {
+      "declarationsSha256": "ebf81e47a6da17b94ad38cb7856847ab3a7437d24260d5b6e4f3a0883575ee52",
+      "lockSha256": "506d11b9fed702a6bf800d14467a9868277a5e9f244d2825b41e40517bc46622"
+    },
+    "Fine-Notes/pubspec.yaml": {
+      "declarationsSha256": "39c422b805d93cbb39cc05ecde4e1da8a2a3bcb608c17c86ae721e3eda6b2794",
+      "lockSha256": "d4b6ff394f1858bfb06f709b8502a8cdef954bb559d4ff363f82faa5cae5ba7e"
+    },
+    "Majestic-Made-Hub/package.json": {
+      "declarationsSha256": "2f0314eeb6b47a3abc705e401b38790d150b465e7af0541608992b8c0a3e39ea",
+      "lockSha256": "5d2621a814bccde7d984c3a83e287160efbf22eb6c90ff46f689f6824b0abff5"
+    },
+    "Namefold/app/pubspec.yaml": {
+      "declarationsSha256": "6d5ffe9a2ac094acdb839dd2230fa4bcb2148efa1bbbd696c8d726db5794d9e7",
+      "lockSha256": "b8beffee46daa4d267a59b3cc8aa3202c061ca90075f34fe1944be70a9515e3d"
+    },
+    "Namefold/web/package.json": {
+      "declarationsSha256": "feb361ad2f830d636e5645b4315cdae60dc584a3ac921388c3c7856d710095ef",
+      "lockSha256": "311b59e434c457bb2023237982e30f90e36213ba561bd0920cb4112526e86e8f"
+    },
+    "Pantry-Clock/pubspec.yaml": {
+      "declarationsSha256": "691aef36a15f649a7406ab3f76645200747a5579a48abe75540e8a82110079a5",
+      "lockSha256": "bc2f94b6055786905ec1a62ba09c779e70ae8f67d15c9c2a743638d7d71d1c5c"
+    },
+    "Paws/pubspec.yaml": {
+      "declarationsSha256": "1ae29ad4ced4105fcb66c127dc83afa0ef5904aa749a9b5da73aa74ae17a242c",
+      "lockSha256": "37c2776e2c36b43c2fce3ac3f8e00061971d7b1fbdd303ef5ba0d1f140ac61f0"
+    },
+    "Ridelore/pubspec.yaml": {
+      "declarationsSha256": "b516974e88034d2fc91ab74b09aaab0b4f58541943f7b328853a1c3fa63084f0",
+      "lockSha256": "55b9bb97fc20b0e491f5ae7c130ccda45c3908a9ebebd742e471a38a5638bb08"
+    },
+    "Skepbook/pubspec.yaml": {
+      "declarationsSha256": "a7aa00ba94643652950076c58de3540da7bea4c57cf0a8507046ef79d8890f60",
+      "lockSha256": "e8adfb18401d9cd2113b8f0e1fc64b94c4cde90535e616980dc1eb0ac3765c06"
+    }
+  }
+}

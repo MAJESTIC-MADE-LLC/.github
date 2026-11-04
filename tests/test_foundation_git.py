@@ -154,7 +154,7 @@ hooks:
         (self.app / 'pubspec.lock').write_text(f'packages:\n  majestic_app:\n    description:\n      path: {path}\n    source: path\n    version: "0.1.0"\n')
         self.write_config(self.package)
         result = foundation.inspect_consumer(*args, self.workspace)
-        self.assertEqual(result['errors'], [])
+        self.assertIn('package provenance differs from the approved production baseline', result['errors'])
         self.assertEqual(result['immutablePackageRevisions'], 'pending')
         self.assertTrue(foundation.immutable_revision_errors([result]))
 
@@ -196,6 +196,19 @@ hooks:
         git(self.provider, 'commit', '-m', 'root app integration')
         self.assertNotEqual(git(self.provider, 'rev-parse', 'HEAD'), self.revision)
         self.verify()
+
+    def test_development_guard_allows_provider_edits_but_not_consumer_cache_edits(self):
+        (self.package / 'lib/majestic_app.dart').write_text('// upcoming maintained implementation\n')
+        with self.assertRaises(foundation.FoundationError):
+            self.verify()  # Release qualification still compares provider source.
+        package = foundation.package_config_roots(self.app)['majestic_app']
+        result = foundation.qualified_git_package('majestic_app', self.config, package, self.workspace,
+                                                  verify_provider_worktree=False)
+        self.assertEqual(result['source']['ref'], self.revision)
+        (package / 'lib/majestic_app.dart').write_text('// modified pinned consumer source\n')
+        with self.assertRaises(foundation.FoundationError):
+            foundation.qualified_git_package('majestic_app', self.config, package, self.workspace,
+                                             verify_provider_worktree=False)
 
     def test_tracked_git_package_files_are_not_relaxed_by_app_generated_exclusions(self):
         path = self.package / 'ios/Flutter/Generated.xcconfig'

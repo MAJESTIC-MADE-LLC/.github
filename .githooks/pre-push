@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+hook_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+repository=$(git rev-parse --show-toplevel)
+exec python3 "$hook_dir/../scripts/check_standardization.py" --hook push --repository "$repository"

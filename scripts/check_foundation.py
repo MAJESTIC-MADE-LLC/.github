@@ -288,7 +288,7 @@ def package_config_roots(app_root: Path) -> dict[str, Path]:
 
 
 def qualified_git_package(name: str, config: dict[str, Any], root: Path,
-                          workspace: Path) -> dict[str, Any]:
+                          workspace: Path, *, verify_provider_worktree: bool = True) -> dict[str, Any]:
     # Dart Pub's GitSource clones URL-hashed bare mirrors into revision caches:
     # https://github.com/dart-lang/pub/blob/master/lib/src/source/git.dart
     source = git_descriptor(config.get("git"))
@@ -312,8 +312,15 @@ def qualified_git_package(name: str, config: dict[str, Any], root: Path,
     provider_repository = Path(git_read(provider, "rev-parse", "--show-toplevel").decode().strip()).resolve()
     if provider != provider_repository / source["path"]:
         raise FoundationError(f"{name} provider inventory path differs from its Git subdirectory")
-    if git_package_content(provider_repository, source) != content:
+    if verify_provider_worktree and git_package_content(provider_repository, source) != content:
         raise FoundationError(f"{name} provider and resolved Git package content differ")
+    if not verify_provider_worktree:
+        # Ordinary shared-source development may precede a new published pin.
+        # Verify the provider's immutable tree object while consumer-cache bytes
+        # remain strictly checked above. Release qualification retains the
+        # stronger default worktree comparison.
+        if git_read(provider_repository, 'ls-tree', '-r', source['ref'], '--', source['path']) != git_read(checkout, 'ls-tree', '-r', source['ref'], '--', source['path']):
+            raise FoundationError(f'{name} provider immutable tree differs from resolved source')
     return {"identity": f"git:{source['url']}@{source['ref']}:{source['path']}",
             "contentSha256": content, "source": source, "root": root}
 
@@ -465,7 +472,7 @@ def selected_shared_packages(standard: dict[str, Any], manifest: dict[str, Any],
     return selected
 
 
-def inspect_consumer(consumer: dict[str, str], standard: dict[str, Any], matrix: dict[str, Any], workspace: Path) -> dict[str, Any]:
+def inspect_consumer(consumer: dict[str, str], standard: dict[str, Any], matrix: dict[str, Any], workspace: Path, *, enforce_dev: bool = True, verify_provider_worktree: bool = True) -> dict[str, Any]:
     app_root = within(workspace, consumer["path"])
     errors: list[str] = []
     manifest = read_json(app_root / "foundation.json")
@@ -483,6 +490,8 @@ def inspect_consumer(consumer: dict[str, str], standard: dict[str, Any], matrix:
     provenance = manifest.get("packageProvenance")
     if provenance not in {"workspace-unpublished", "git-immutable"}:
         errors.append("package provenance must be workspace-unpublished or git-immutable")
+    if provenance != standard.get("packageProvenance"):
+        errors.append("package provenance differs from the approved production baseline")
     pubspec = parse_pubspec((app_root / "pubspec.yaml").read_text())
     overrides_path = app_root / "pubspec_overrides.yaml"
     if overrides_path.exists():
@@ -542,7 +551,7 @@ def inspect_consumer(consumer: dict[str, str], standard: dict[str, Any], matrix:
                 if (entry.get("source") != "git" or any(entry.get(key) != value for key, value in approved.items())
                         or entry.get("resolved-ref") != approved["ref"]):
                     raise FoundationError("lock Git URL/ref/path/resolved-ref differs from the approved source")
-                qualified = qualified_git_package(name, config, expected, workspace)
+                qualified = qualified_git_package(name, config, expected, workspace, verify_provider_worktree=verify_provider_worktree)
                 qualified_packages[expected] = qualified
                 immutable_sources.append({"package": name, **approved, "contentSha256": qualified["contentSha256"]})
             else:
@@ -594,7 +603,7 @@ def inspect_consumer(consumer: dict[str, str], standard: dict[str, Any], matrix:
     errors.extend(android_toolchain_errors(app_root, standard["androidToolchain"]))
     repository = app_root.parent if consumer["id"] == "Namefold" else app_root
     branch = subprocess.run(["git", "-C", str(repository), "branch", "--show-current"], capture_output=True, text=True, check=False)
-    if branch.returncode or branch.stdout.strip() != "dev":
+    if enforce_dev and (branch.returncode or branch.stdout.strip() != "dev"):
         errors.append("foundation adoption work must remain on dev")
     for workflow in sorted((repository / ".github/workflows").glob("*.y*ml")):
         workflow_text = workflow.read_text()

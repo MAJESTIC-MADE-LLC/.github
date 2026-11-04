@@ -161,7 +161,7 @@ clients before app adoption. Current dependency policy, package SHA and launch g
 Namefold's free semantic QR/vCard PWA, Hub's TypeScript/React surface and static legal pages may use
 the appropriate web stack. Web/mobile share data contracts where needed, not a forced mobile UI or
 database. Pin active Node projects to the exact current supported LTS baseline in the machine standard
-(Node 26.8.2 as verified against [Node’s release schedule](https://nodejs.org/en/about/previous-releases) on 2026-11-03). Steward's separate marketing surface
+(Node 26.13.0 as verified against the [official release index](https://nodejs.org/dist/index.json) on 2026-11-04). Steward's separate marketing surface
 is consolidating into Hub; it is not a new consumer stack. Customer self-hosting remains a later
 opt-in capability and no managed backend is required by this foundation.
 
@@ -170,6 +170,11 @@ placeholder apps simply to satisfy this existing-cohort gate. Kinwall remains re
 Dossier and OffRecord are excluded. Existing website publication pauses, owner release decisions,
 main-only CI, local validation and explicit dev-to-main promotion remain in force. This standard adds
 no workflow, CI trigger, deployment, commit or push.
+
+The [standardization guard and local hooks](STANDARDIZATION.md) enforce these rules across active
+native, web and optional-hosting source. Dependency declaration/lock updates and new app manifests
+require a reviewed canonical registration. Hooks validate commit/push inputs as well as the worktree;
+alignment does not refresh release evidence or authorize promotion/publication.
 
 ## Production package provenance
 

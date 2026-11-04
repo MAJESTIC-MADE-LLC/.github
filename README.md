@@ -4,7 +4,7 @@ Organization profile, repository inventory, product release queue, and shared co
 for Majestic Made LLC. This repository supports the apps; it is not a consumer product.
 
 Consumer records stay on-device by default, with deliberate owner exports and encrypted recovery.
-Optional user-owned hosting is approved design-only future work. Native store billing communicates with Apple/Google;
+Optional user-owned hosting has reference/runtime source; consumer integration and deployment remain pending. Native store billing communicates with Apple/Google;
 product-specific network capabilities must be disclosed. Core app access is subscription-only for
 new purchases; one-time purchases are limited to optional extras. See the approved
 [monthly/annual prices and access policy](portfolio/PRICING.md).
@@ -13,6 +13,8 @@ new purchases; one-time purchases are limited to optional extras. See the approv
 - [Exact 17-product release order](portfolio/LAUNCH_SLATE.md): starts with Skepbook after foundation qualification.
 - [Shared Flutter/Dart foundation](portfolio/STACK_STANDARD.md): iOS and Android, encrypted local storage,
   native privacy/recovery/billing, and deliberately adopted immutable shared-package revisions.
+- [Enforced portfolio standardization](portfolio/STANDARDIZATION.md): one offline drift gate and
+  tracked local commit/push hooks for native apps, web surfaces, optional hosting and main-only CI.
 - [Future user-owned hosting](portfolio/USER_OWNED_HOSTING.md): optional Mac/Windows ciphertext storage with a separately
   trusted selected-collection coordinator, private-network sharing and bounded workspace grants; no new launch prerequisite.
 - [Independent product release requirements](portfolio/RELEASE_DEFINITION.md).
@@ -35,6 +37,8 @@ main-branch pushes or guarded manual main runs; development validation runs loca
 
 ```bash
 python3 scripts/portfolio_status.py --check
+python3 scripts/check_standardization.py --workspace-root ..
+python3 scripts/install_standardization_hooks.py --workspace-root ..
 python3 scripts/check_foundation.py --workspace-root ..
 python3 -m unittest discover -s tests -v
 ```

@@ -45,7 +45,7 @@
         "location_snapshot": "required",
         "attachments": "required",
         "csv": "required",
-        "qr": "not_applicable",
+        "qr": "required",
         "contacts": "not_applicable",
         "widgets": "not_applicable",
         "network_lookup": "not_applicable",

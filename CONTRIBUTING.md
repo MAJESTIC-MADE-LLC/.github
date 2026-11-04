@@ -17,6 +17,8 @@ take precedence over this organization default.
 3. Add or update tests for changed behavior. Consumer mobile work follows the
    [shared foundation standard](portfolio/STACK_STANDARD.md); run the read-only local adoption checker
    and preserve honest source-bound evidence before release.
+   Use the [portfolio standardization guard](portfolio/STANDARDIZATION.md) before commits/pushes;
+   version, dependency and capability changes require deliberate canonical baseline updates.
 4. Document changes to data collection, storage, retention, deletion, authentication, cloud use,
    third-party services, or recurring cost.
 5. Open the pull request against `dev`. The `main` branch is release-only and is updated by
