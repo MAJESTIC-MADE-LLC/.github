@@ -1,5 +1,8 @@
 # Git source adoption — November 4, 2026
 
+This records the Git-adoption phase before the owner subsequently authorized promotion to `main`.
+See [the main-promotion and metadata review](MAIN_PROMOTION_2026-11-04.md) for the later branch/publication state.
+
 The owner authorized review and logical `dev` commits of the current portfolio work, publication of
 the shared foundation, immutable consumer references and local revalidation. Product repositories
 remain separate. App-Template publication uses `dev`; other repository commits are local.

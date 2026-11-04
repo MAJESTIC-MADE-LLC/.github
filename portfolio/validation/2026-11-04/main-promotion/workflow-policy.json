@@ -1,0 +1,127 @@
+{
+  "count": 24,
+  "checks": [
+    {
+      "repository": ".github",
+      "path": ".github/workflows/docs.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "App-Template",
+      "path": ".github/workflows/flutter-ci.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "App-Template",
+      "path": ".github/workflows/ios-ci.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "Brassmark",
+      "path": ".github/workflows/concept-governance.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "Campsake",
+      "path": ".github/workflows/concept-governance.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "Claim-Crate",
+      "path": ".github/workflows/concept-governance.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "Creelmark",
+      "path": ".github/workflows/concept-governance.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "Daymerit",
+      "path": ".github/workflows/ci.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "Divefolio",
+      "path": ".github/workflows/concept-governance.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "Fine-Notes",
+      "path": ".github/workflows/flutter-ci.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "Kinwall",
+      "path": ".github/workflows/concept-governance.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "Majestic-Made-Hub",
+      "path": ".github/workflows/ci.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "Namefold",
+      "path": ".github/workflows/ci.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "Object-Lore",
+      "path": ".github/workflows/concept-governance.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "Pantry-Clock",
+      "path": ".github/workflows/flutter-ci.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "Paws",
+      "path": ".github/workflows/flutter-ci.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "Ridelore",
+      "path": ".github/workflows/ci.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "Skepbook",
+      "path": ".github/workflows/ios.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "Tender-Days",
+      "path": ".github/workflows/concept-governance.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "Turnstamp",
+      "path": ".github/workflows/concept-governance.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "What-We-Own",
+      "path": ".github/workflows/concept-governance.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "app-legal",
+      "path": ".github/workflows/validate.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "wolfe-server-apps",
+      "path": ".github/workflows/validate.yml",
+      "mainOnlyPolicy": "passed"
+    },
+    {
+      "repository": "wolfe-server-infra",
+      "path": ".github/workflows/validate.yml",
+      "mainOnlyPolicy": "passed"
+    }
+  ],
+  "hostingReadOnlyAudit": "GitHub Pages disabled and no repository webhooks for the four paused website repositories; authenticated Cloudflare Pages source configurations have no Majestic Git integration. No deployment, app-store upload, infrastructure apply, or provider-setting change performed.",
+  "ciLimitation": "Mobile workflows do not provision cross-repository read credentials for the private App-Template Git dependency. Hosted package resolution can require separate credential setup; local validation is recorded and remains the accepted evidence."
+}

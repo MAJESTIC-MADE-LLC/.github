@@ -1,0 +1,165 @@
+[
+  {
+    "repository": ".github",
+    "files": [
+      "README.md"
+    ],
+    "commit": "fd5a7345ee2c9b46d6bb09abec7bdda028b6b435"
+  },
+  {
+    "repository": "App-Template",
+    "files": [
+      "README.md"
+    ],
+    "commit": "7cf8b8bd7f0ef3565bbc371aec8f76e77dd64b32"
+  },
+  {
+    "repository": "Brassmark",
+    "files": [
+      "README.md"
+    ],
+    "commit": "bee2939d76d12ac5af88761871dade9599518d3d"
+  },
+  {
+    "repository": "Campsake",
+    "files": [
+      "README.md"
+    ],
+    "commit": "6949dbe3a5566775fcdce9b86d7aa31d9a869c28"
+  },
+  {
+    "repository": "Claim-Crate",
+    "files": [
+      "README.md"
+    ],
+    "commit": "749899caf1b23393b360e1de34f2117f33aea56c"
+  },
+  {
+    "repository": "Creelmark",
+    "files": [
+      "README.md"
+    ],
+    "commit": "beabb1fc8e7ea5c454e40e1ca9590588c412957e"
+  },
+  {
+    "repository": "Daymerit",
+    "files": [
+      "README.md"
+    ],
+    "commit": "8447faa21b564e7b073f8c9bcb3158abc96bc87a"
+  },
+  {
+    "repository": "Divefolio",
+    "files": [
+      "README.md"
+    ],
+    "commit": "b96253bbec03d732b11e9ab463162e63d10aba52"
+  },
+  {
+    "repository": "Fine-Notes",
+    "files": [
+      "README.md"
+    ],
+    "commit": "30cd12bd77310ca7b34968cca5c0755c4f96b6a4"
+  },
+  {
+    "repository": "Kinwall",
+    "files": [
+      "README.md"
+    ],
+    "commit": "f0249bf57fbe8e22fb57ff522050a5fea1d73c53"
+  },
+  {
+    "repository": "Majestic-Made-Hub",
+    "files": [
+      "README.md"
+    ],
+    "commit": "aa21e09b305aa406716125788b5bf76829818bed"
+  },
+  {
+    "repository": "Namefold",
+    "files": [
+      "README.md",
+      "app/README.md"
+    ],
+    "commit": "b071f94bf48a07b7e2a9cd68fe8a50130e025442"
+  },
+  {
+    "repository": "Object-Lore",
+    "files": [
+      "README.md"
+    ],
+    "commit": "712efe4cdc9ea5c39934f6ec948d2adf3f59a626"
+  },
+  {
+    "repository": "Pantry-Clock",
+    "files": [
+      "README.md"
+    ],
+    "commit": "2719bf86c4622651c5653877d9375fb1b34e1ece"
+  },
+  {
+    "repository": "Paws",
+    "files": [
+      "README.md"
+    ],
+    "commit": "d7ee296f11332f734f4dfd8414a8992866e2e417"
+  },
+  {
+    "repository": "Ridelore",
+    "files": [
+      "README.md",
+      "docs/README.md"
+    ],
+    "commit": "07a68a230f50ad7145962688887b3d18d15dd182"
+  },
+  {
+    "repository": "Skepbook",
+    "files": [
+      "README.md"
+    ],
+    "commit": "839b66e0e01514f2b67c91191a967d016e141c89"
+  },
+  {
+    "repository": "Tender-Days",
+    "files": [
+      "README.md"
+    ],
+    "commit": "9bee7aef7780c2520a1eb43b6754280f844f28b3"
+  },
+  {
+    "repository": "What-We-Own",
+    "files": [
+      "README.md"
+    ],
+    "commit": "ea5446ae408a2201c5864effb14c14d08948573b"
+  },
+  {
+    "repository": "app-legal",
+    "files": [
+      "README.md"
+    ],
+    "commit": "b6f884914090218c2513c94dce21037f089a3c7b"
+  },
+  {
+    "repository": "steward",
+    "files": [
+      "README.md"
+    ],
+    "commit": "f7a47b9d71b3c7c1dd6e5df2b7fcbb40dee80e52"
+  },
+  {
+    "repository": "wolfe-server-apps",
+    "files": [
+      "README.md"
+    ],
+    "commit": "508c3091ceb68ca6491cc78a9ced457d0a0fea6f"
+  },
+  {
+    "repository": "wolfe-server-infra",
+    "files": [
+      "README.md"
+    ],
+    "commit": "dfb6e2742a31cf16567bd91ae0aa29f3d8dc52fa"
+  }
+]

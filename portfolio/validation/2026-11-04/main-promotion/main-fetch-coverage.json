@@ -1,0 +1,178 @@
+[
+  {
+    "repository": ".github",
+    "addedMainFetch": [],
+    "divergenceWithActualMain": "7\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "App-Template",
+    "addedMainFetch": [],
+    "divergenceWithActualMain": "0\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "Brassmark",
+    "addedMainFetch": [
+      "main"
+    ],
+    "divergenceWithActualMain": "0\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "Campsake",
+    "addedMainFetch": [
+      "main"
+    ],
+    "divergenceWithActualMain": "4\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "Claim-Crate",
+    "addedMainFetch": [
+      "main"
+    ],
+    "divergenceWithActualMain": "4\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "Creelmark",
+    "addedMainFetch": [
+      "main"
+    ],
+    "divergenceWithActualMain": "4\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "Daymerit",
+    "addedMainFetch": [],
+    "divergenceWithActualMain": "0\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "Divefolio",
+    "addedMainFetch": [
+      "main"
+    ],
+    "divergenceWithActualMain": "4\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "Fine-Notes",
+    "addedMainFetch": [],
+    "divergenceWithActualMain": "0\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "Kinwall",
+    "addedMainFetch": [
+      "main"
+    ],
+    "divergenceWithActualMain": "4\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "Majestic-Made-Hub",
+    "addedMainFetch": [],
+    "divergenceWithActualMain": "2\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "Namefold",
+    "addedMainFetch": [],
+    "divergenceWithActualMain": "6\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "Object-Lore",
+    "addedMainFetch": [
+      "main"
+    ],
+    "divergenceWithActualMain": "4\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "Pantry-Clock",
+    "addedMainFetch": [],
+    "divergenceWithActualMain": "0\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "Paws",
+    "addedMainFetch": [],
+    "divergenceWithActualMain": "0\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "Ridelore",
+    "addedMainFetch": [],
+    "divergenceWithActualMain": "0\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "Skepbook",
+    "addedMainFetch": [],
+    "divergenceWithActualMain": "0\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "Tender-Days",
+    "addedMainFetch": [
+      "main"
+    ],
+    "divergenceWithActualMain": "4\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "Turnstamp",
+    "addedMainFetch": [
+      "main"
+    ],
+    "divergenceWithActualMain": "3\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "What-We-Own",
+    "addedMainFetch": [
+      "main"
+    ],
+    "divergenceWithActualMain": "4\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "app-legal",
+    "addedMainFetch": [],
+    "divergenceWithActualMain": "2\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "brand-assets",
+    "addedMainFetch": [],
+    "divergenceWithActualMain": "1\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "lockbox",
+    "addedMainFetch": [],
+    "divergenceWithActualMain": "1\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "steward",
+    "addedMainFetch": [],
+    "divergenceWithActualMain": "2\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "wolfe-server-apps",
+    "addedMainFetch": [],
+    "divergenceWithActualMain": "4\t0",
+    "mainAncestor": true
+  },
+  {
+    "repository": "wolfe-server-infra",
+    "addedMainFetch": [],
+    "divergenceWithActualMain": "5\t0",
+    "mainAncestor": true
+  }
+]

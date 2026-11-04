@@ -1,0 +1,193 @@
+{
+  "repositoryCount": 28,
+  "reviewedIncludedCount": 26,
+  "technicalNamesUnchanged": true,
+  "excludedUnchanged": [
+    "dossier",
+    "off-record"
+  ],
+  "reviews": [
+    {
+      "repository": ".github",
+      "previousDescription": "Organization profile for MAJESTIC MADE LLC",
+      "description": "Organization profile, portfolio inventory, release queue, and shared app foundation standards for Majestic Made.",
+      "verifiedDescription": "Organization profile, portfolio inventory, release queue, and shared app foundation standards for Majestic Made.",
+      "nameVerified": true
+    },
+    {
+      "repository": "App-Template",
+      "previousDescription": "Reusable Flutter scaffold for local-only, local-first, and Supabase-backed apps.",
+      "description": "Shared Flutter/Dart packages and an iOS/Android app generator for private on-device records, encrypted recovery, native privacy, and billing.",
+      "verifiedDescription": "Shared Flutter/Dart packages and an iOS/Android app generator for private on-device records, encrypted recovery, native privacy, and billing.",
+      "nameVerified": true
+    },
+    {
+      "repository": "Brassmark",
+      "previousDescription": "Concept: private firearm registry, range log, ammo inventory, and license vault.",
+      "description": "Concept for an on-device firearm inventory, range log, ammunition inventory, and license vault with deliberate exports.",
+      "verifiedDescription": "Concept for an on-device firearm inventory, range log, ammunition inventory, and license vault with deliberate exports.",
+      "nameVerified": true
+    },
+    {
+      "repository": "Campsake",
+      "previousDescription": "Concept: camping and RV trip log with site notes and recap exports.",
+      "description": "Concept for a private on-device camping and RV journal with campsite notes, photos, and owner-controlled recap exports.",
+      "verifiedDescription": "Concept for a private on-device camping and RV journal with campsite notes, photos, and owner-controlled recap exports.",
+      "nameVerified": true
+    },
+    {
+      "repository": "Claim-Crate",
+      "previousDescription": "Concept: PCS and household move inventory with claim-ready exports.",
+      "description": "Retained moving-inventory and claim-packet concept consolidating into What We Own; no standalone app or release.",
+      "verifiedDescription": "Retained moving-inventory and claim-packet concept consolidating into What We Own; no standalone app or release.",
+      "nameVerified": true
+    },
+    {
+      "repository": "Creelmark",
+      "previousDescription": "Concept: fishing journal with private catches, photos, and encrypted spot records.",
+      "description": "Concept for an on-device fishing journal with catch photos, private spot locations, and deliberate exports.",
+      "verifiedDescription": "Concept for an on-device fishing journal with catch photos, private spot locations, and deliberate exports.",
+      "nameVerified": true
+    },
+    {
+      "repository": "Daymerit",
+      "previousDescription": "A parent-owned mobile app where parents create child profiles, choose age-appropriate visual styles, assign routines/chores, let kids complete tasks through their own device or a shared device, review photo proof when enabled, approve completions, award points/rewards, and optionally use a Pro-only manual allowance ledger.",
+      "description": "Pre-release account-free household routines, approvals, rewards, and manual allowance for parent-assisted iOS/Android shared devices.",
+      "verifiedDescription": "Pre-release account-free household routines, approvals, rewards, and manual allowance for parent-assisted iOS/Android shared devices.",
+      "nameVerified": true
+    },
+    {
+      "repository": "Divefolio",
+      "previousDescription": "Concept: private scuba logbook with site, buddy, and certification-ready records.",
+      "description": "Concept for a private on-device scuba logbook with dive, site, buddy, and certification-related records.",
+      "verifiedDescription": "Concept for a private on-device scuba logbook with dive, site, buddy, and certification-related records.",
+      "nameVerified": true
+    },
+    {
+      "repository": "Fine-Notes",
+      "previousDescription": "Private tasting notebook for wine, whiskey, coffee, and cigars.",
+      "description": "Pre-release private collections and tasting notes for wine, whiskey, coffee, and cigars, with on-device storage and encrypted recovery.",
+      "verifiedDescription": "Pre-release private collections and tasting notes for wine, whiskey, coffee, and cigars, with on-device storage and encrypted recovery.",
+      "nameVerified": true
+    },
+    {
+      "repository": "Kinwall",
+      "previousDescription": "Research concept: family safety pending platform, consent, privacy, and legal feasibility review.",
+      "description": "Research-only concept for transparent, platform-supported family safety; no implemented app or release commitment.",
+      "verifiedDescription": "Research-only concept for transparent, platform-supported family safety; no implemented app or release commitment.",
+      "nameVerified": true
+    },
+    {
+      "repository": "Majestic-Made-Hub",
+      "previousDescription": "Static portfolio and privacy-conscious waitlist site for Majestic Made apps.",
+      "description": "Paused Majestic Made catalog, waitlist, and concept-demo website source; Next.js with Cloudflare Pages Functions and D1.",
+      "verifiedDescription": "Paused Majestic Made catalog, waitlist, and concept-demo website source; Next.js with Cloudflare Pages Functions and D1.",
+      "nameVerified": true
+    },
+    {
+      "repository": "Namefold",
+      "previousDescription": "Privacy-first contact wallet, QR sharing, and optional expiring public links.",
+      "description": "Pre-release encrypted iOS/Android contact wallet and browser-local QR/vCard tools; managed public links deferred.",
+      "verifiedDescription": "Pre-release encrypted iOS/Android contact wallet and browser-local QR/vCard tools; managed public links deferred.",
+      "nameVerified": true
+    },
+    {
+      "repository": "Object-Lore",
+      "previousDescription": "Concept: cloudless collector registry for coins, stamps, cards, watches, and militaria.",
+      "description": "Concept for a private on-device collector catalog with provenance, attachments, encrypted recovery, and selected exports.",
+      "verifiedDescription": "Concept for a private on-device collector catalog with provenance, attachments, encrypted recovery, and selected exports.",
+      "nameVerified": true
+    },
+    {
+      "repository": "Pantry-Clock",
+      "previousDescription": "Cloudless pantry, fridge, and freezer tracking.",
+      "description": "Pre-release on-device kitchen inventory for iOS and Android, with Use First prompts, used/wasted history, CSV exports, and encrypted recovery.",
+      "verifiedDescription": "Pre-release on-device kitchen inventory for iOS and Android, with Use First prompts, used/wasted history, CSV exports, and encrypted recovery.",
+      "nameVerified": true
+    },
+    {
+      "repository": "Paws",
+      "previousDescription": "Local pet health records, incidents, medications, and vet-ready exports.",
+      "description": "Pre-release private pet records for iOS and Android, with encrypted storage, vet and emergency PDF exports, and owner-controlled recovery.",
+      "verifiedDescription": "Pre-release private pet records for iOS and Android, with encrypted storage, vet and emergency PDF exports, and owner-controlled recovery.",
+      "nameVerified": true
+    },
+    {
+      "repository": "Ridelore",
+      "previousDescription": "Help motorcycle owners keep maintenance records, important documents, receipts, and resale history in one place.",
+      "description": "Pre-release motorcycle maintenance and ownership logbook for iOS and Android, with on-device records, encrypted storage, receipts, and exports.",
+      "verifiedDescription": "Pre-release motorcycle maintenance and ownership logbook for iOS and Android, with on-device records, encrypted storage, receipts, and exports.",
+      "nameVerified": true
+    },
+    {
+      "repository": "Skepbook",
+      "previousDescription": "Offline beekeeping logbook for hive inspections, treatments, and harvests.",
+      "description": "Pre-release private beekeeping logbook for iOS and Android, with encrypted records and photos, owner-controlled backups, and a permanent unlock.",
+      "verifiedDescription": "Pre-release private beekeeping logbook for iOS and Android, with encrypted records and photos, owner-controlled backups, and a permanent unlock.",
+      "nameVerified": true
+    },
+    {
+      "repository": "Tender-Days",
+      "previousDescription": "Concept: privacy-first baby tracking for feedings, diapers, sleep, growth, and milestones.",
+      "description": "Concept for an on-device baby-care journal covering feedings, diapers, sleep, growth, and milestones; caregiver sync deferred.",
+      "verifiedDescription": "Concept for an on-device baby-care journal covering feedings, diapers, sleep, growth, and milestones; caregiver sync deferred.",
+      "nameVerified": true
+    },
+    {
+      "repository": "Turnstamp",
+      "previousDescription": "Concept: before-and-after cleaning reports with photos, checklists, issues, signatures, and PDFs.",
+      "description": "Concept for on-device cleaning reports with before/after photos, checklists, notes, signatures, and selected PDF exports.",
+      "verifiedDescription": "Concept for on-device cleaning reports with before/after photos, checklists, notes, signatures, and selected PDF exports.",
+      "nameVerified": true
+    },
+    {
+      "repository": "What-We-Own",
+      "previousDescription": "Concept: cloudless home inventory for insurance and household records.",
+      "description": "Concept for a combined on-device home and moving inventory; Claim Crate and Steward requirements will consolidate here.",
+      "verifiedDescription": "Concept for a combined on-device home and moving inventory; Claim Crate and Steward requirements will consolidate here.",
+      "nameVerified": true
+    },
+    {
+      "repository": "app-legal",
+      "previousDescription": "Public legal and support pages for Majestic Made apps",
+      "description": "Paused legal/support website source and pre-release drafts; reconcile retained documents with final apps before publication.",
+      "verifiedDescription": "Paused legal/support website source and pre-release drafts; reconcile retained documents with final apps before publication.",
+      "nameVerified": true
+    },
+    {
+      "repository": "brand-assets",
+      "previousDescription": "Majestic Made LLC static logos, vector masters, PNG and PDF exports, favicons, and brand usage guidance.",
+      "description": "Static Majestic Made brand assets: editable vector masters, transparent logo exports, favicons, provenance, and local validation.",
+      "verifiedDescription": "Static Majestic Made brand assets: editable vector masters, transparent logo exports, favicons, provenance, and local validation.",
+      "nameVerified": true
+    },
+    {
+      "repository": "lockbox",
+      "previousDescription": "Lockbox \u2014 cloudless estate-planning vault for wills, directives, accounts; includes Postdate time-released messages (MAJESTIC MADE)",
+      "description": "Planning-only family emergency-document vault with on-device encryption and deliberate recovery/handoff; timed messages deferred.",
+      "verifiedDescription": "Planning-only family emergency-document vault with on-device encryption and deliberate recovery/handoff; timed messages deferred.",
+      "nameVerified": true
+    },
+    {
+      "repository": "steward",
+      "previousDescription": "Steward \u2014 cloudless iOS home inventory with on-device CV tagging + insurance-ready PDF export (MAJESTIC MADE)",
+      "description": "Retained home-inventory landing-page and waitlist source; planned consolidation into What We Own and Majestic-Made-Hub.",
+      "verifiedDescription": "Retained home-inventory landing-page and waitlist source; planned consolidation into What We Own and Majestic-Made-Hub.",
+      "nameVerified": true
+    },
+    {
+      "repository": "wolfe-server-apps",
+      "previousDescription": "Hardened Docker/Next.js template for future server-backed Majestic Made apps on wolfe-mac.",
+      "description": "Deferred Docker/Next.js scaffolds for Majestic-operated services; no app backend implementation or supported customer self-hosting kit.",
+      "verifiedDescription": "Deferred Docker/Next.js scaffolds for Majestic-operated services; no app backend implementation or supported customer self-hosting kit.",
+      "nameVerified": true
+    },
+    {
+      "repository": "wolfe-server-infra",
+      "previousDescription": "Server hardening, service configs, runbooks, and automation for wolfe-mac.",
+      "description": "Retained infrastructure automation and runbooks for the retired server stack; automatic service recovery disabled and hosting deferred.",
+      "verifiedDescription": "Retained infrastructure automation and runbooks for the retired server stack; automatic service recovery disabled and hosting deferred.",
+      "nameVerified": true
+    }
+  ]
+}

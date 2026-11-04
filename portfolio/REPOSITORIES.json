@@ -494,7 +494,7 @@
       "requiredPaths": [
         "README.md"
       ],
-      "sourceRef": "main"
+      "sourceRef": "dev"
     },
     {
       "name": "lockbox",
@@ -512,7 +512,7 @@
         "README.md",
         "docs/2026-05-09-handoff-packet.md"
       ],
-      "sourceRef": "main"
+      "sourceRef": "dev"
     },
     {
       "name": "dossier",

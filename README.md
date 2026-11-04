@@ -14,6 +14,7 @@ unlocks, with Skepbook's established pricing preserved.
   native privacy/recovery/billing, and deliberately adopted immutable shared-package revisions.
 - [Independent product release requirements](portfolio/RELEASE_DEFINITION.md).
 - [Latest software/source qualification](portfolio/GIT_SOURCE_ADOPTION_2026-11-04.md).
+- [Main promotion and repository metadata review](portfolio/MAIN_PROMOTION_2026-11-04.md).
 
 The seven implemented apps and template pass their recorded software and immutable-source checks.
 Physical iPhone/Android privacy and actual native-store purchase/restore checks remain pending.
