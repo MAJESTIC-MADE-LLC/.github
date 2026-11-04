@@ -350,9 +350,9 @@
       "role": "release-candidate",
       "stage": "Shared foundation implemented; physical/store qualification pending",
       "focus": "Child routines, chores, approvals, points, rewards, and optional allowance tracking.",
-      "status": "Native monthly/annual subscription source and separate 14-day non-billing trial are implemented. Core creation/editing requires current access; existing records, exports, deletion and encrypted backup/recovery remain available after expiration. Verified historical permanent ownership is restore-only.",
+      "status": "Native monthly/annual subscription source and a separate 14-day non-billing trial are implemented. Core creation/editing and new imports require current access; existing records, exports and authenticated encrypted backup/recovery remain available after expiration. Verified historical permanent ownership is restore-only. A record-deletion UI/API remains product work before release.",
       "launchEvidence": "Current subscription source has app-owned local validation records; historical foundation software/build evidence retains its original scope. Actual signed-store purchase and physical-device acceptance remain pending.",
-      "next": "Provision the approved monthly/annual native store products and qualify real purchases, renewal, cancellation, refunds, restore and offline expiry on physical devices; then complete independent product release gates in the unchanged queue.",
+      "next": "Complete the record-deletion workflow; provision monthly/annual store products and qualify real purchases, renewal, cancellation, refunds, restore and offline expiry on physical devices; then complete independent release gates in the unchanged queue.",
       "concern": "Physical/store qualification is pending. Archive capacity and reminder horizon are bounded; family synchronization and managed child-record hosting are not implemented release features.",
       "localCheckout": true,
       "requiredPaths": [

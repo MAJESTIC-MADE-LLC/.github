@@ -129,10 +129,11 @@ sharing and direct sync over a LAN/user private network. Authorized clients hold
 readable-data processing; local encrypted storage and recovery remain usable without a host.
 Opt-in sync enrollment grants scoped standing transfer authorization, separate from manual exports.
 
-Document shared enrollment, membership/role verification, atomic local change journals, encrypted
-record/attachment transport, retry/conflict interfaces, recovery and disconnect behavior now. No
-sync package, host runtime, generator flag, new dependency or app migration is implemented here.
-The machine-readable baseline, actual app capability declarations and immutable package revisions
+Shared enrollment, atomic encrypted journals, source-built MLS, separate storage/coordinator roles,
+reference clients and an explicitly selected reference generator now have optional implementations.
+The [implementation report](https://github.com/MAJESTIC-MADE-LLC/App-Template/blob/dev/docs/HOSTING_IMPLEMENTATION.md)
+records reference limits and qualification. No consumer synchronization is enabled by this work.
+The consumer machine-readable baseline, app capability declarations and immutable package revisions
 remain unchanged. Future sync and push need explicit optional capabilities, reviewed provider-policy
 exceptions where applicable, exact dependency pins and renewed source-bound qualification; neither
 is an implicit public-lookup exception or permission to initialize a backend in default scaffolds.
@@ -149,9 +150,8 @@ The 17-product public release queue, existing qualification scope and independen
 ### Resolved hosting extension contracts — November 4, 2026
 
 The [hosting roadmap](USER_OWNED_HOSTING.md) links four detailed template contracts that resolve
-all seven review findings. Proposed future pins (OpenMLS 0.9.2, matching Flutter Rust Bridge
-2.13.0, Rust 1.99.1) are design selections, not additions to this standard's current machine
-baseline. The Rust ciphertext daemon has no record keys. A separately authorized headless Dart
+all seven review findings. Optional reference pins (OpenMLS 0.9.2, matching Flutter Rust Bridge
+2.13.0, Rust 1.99.1) are isolated from this standard's current consumer machine baseline. The Rust ciphertext daemon has no record keys. A separately authorized headless Dart
 coordinator reuses product rules and may decrypt selected collections, with independent role TLS
 trust/credentials. Prove the native service, transaction/MLS and grants contracts with generated
 clients before app adoption. Current dependency policy, package SHA and launch gates stay intact.

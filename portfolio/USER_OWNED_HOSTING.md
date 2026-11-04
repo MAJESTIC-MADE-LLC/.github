@@ -1,7 +1,7 @@
 # Optional user-owned hosting
 
-Approved and review findings resolved November 4, 2026. **Design and adoption roadmap only;
-not implemented or qualified.** This extends the [shared foundation](STACK_STANDARD.md).
+Approved and review findings resolved November 4, 2026. **Shared reference source is implemented;
+production service qualification and consumer adoption remain pending.** This extends the [shared foundation](STACK_STANDARD.md).
 Current runtime dependencies, immutable package revisions and foundation qualification keep
 their existing scope. Hosting adds no current-launch prerequisite. The
 [17-product release order](LAUNCH_SLATE.md), approved base prices, website pause and independent
@@ -47,9 +47,9 @@ The first sync profile requires coordinator enrollment for selected shared colle
 that trust keeps them local. One workspace-wide membership/cap ledger prevents independent
 collections from multiplying the included member/device allowance.
 
-The future reference pins OpenMLS **0.9.2**, matching Flutter Rust Bridge **2.13.0**, and proposed
-Rust **1.99.1**; these are design selections, not installed dependencies. Recheck advisories and
-qualify source-built native libraries before adoption. Product support targets are macOS **15+**
+The optional reference pins OpenMLS **0.9.2**, Flutter Rust Bridge **2.13.0**, and Rust **1.99.1**,
+with Flutter **3.47.8**/Dart **3.13.7**. These are isolated optional dependencies; default consumer
+pins are unchanged. Recheck advisories and qualify source-built native libraries before adoption. Product support targets are macOS **15+**
 and vendor-supported Windows **11 25H2+**, distributing only tested architectures. The
 [desktop contract](https://github.com/MAJESTIC-MADE-LLC/App-Template/blob/dev/docs/HOSTING_DESKTOP_CONTRACT.md)
 specifies service identities, unattended key access, signed installers, TLS lifecycle and local
@@ -57,7 +57,11 @@ network permission/denial behavior. Native spikes must prove these choices befor
 
 ## Seven review findings and their resolutions
 
-All seven are **resolved as design requirements**. Runtime implementation and evidence remain pending.
+All seven are **resolved as design requirements**. Reference code and local evidence now exist;
+[implementation status](https://github.com/MAJESTIC-MADE-LLC/App-Template/blob/dev/docs/HOSTING_IMPLEMENTATION.md)
+separates completed checks from remaining qualification. The first reference supports one collection
+per workspace. A generic product-owned transaction API and a true multicollection capacity ledger
+remain gates before application adoption.
 
 | Finding | Required resolution | Detailed template contract |
 | --- | --- | --- |
@@ -128,15 +132,19 @@ are repaired by direct catch-up over the owner's reachable private network.
 [Apple background-delivery guidance](https://developer.apple.com/documentation/usernotifications/pushing-background-updates-to-your-app),
 [FCM encryption guidance](https://firebase.google.com/docs/cloud-messaging/encryption).
 
-Both metadata services require separate implementation, privacy review, operating budgets and
-deployment authorization. Keep them outside today's default mobile dependency graph. No hosted
+The metadata-only verifier has undeployed source and injected-vendor tests; production store
+attribution, credentials and operations remain unqualified. The push bridge is not implemented.
+Both require privacy review, operating budgets and separate deployment authorization. Keep them outside today's default mobile dependency graph. No hosted
 record service or Majestic app account is introduced by this design.
 
 ## Adoption roadmap and evidence
 
 The [template guidance](https://github.com/MAJESTIC-MADE-LLC/App-Template/blob/dev/docs/USER_OWNED_HOSTING.md)
-links the four detailed contracts. These describe future interfaces, not existing packages/APIs
-or generator flags. Keep current machine policies and immutable package pins intact.
+links the four detailed contracts. The optional reference now exports packages/APIs and a separate
+reference generator; see its [runbook](https://github.com/MAJESTIC-MADE-LLC/App-Template/blob/dev/docs/HOSTING_REFERENCE_RUNBOOK.md)
+and implementation report. Keep current consumer machine policies and immutable package pins intact.
+A source commit, passing unit test or simulator build does not qualify signed service installation,
+physical devices, live-store grants or product migrations.
 
 | Future phase | Products | Required work |
 | --- | --- | --- |
