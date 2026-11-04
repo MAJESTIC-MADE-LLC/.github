@@ -21,7 +21,7 @@ class PortfolioStatusTest(unittest.TestCase):
     def test_current_manifest_has_expected_inventory(self) -> None:
         repositories = self.manifest["repositories"]
 
-        self.assertEqual(len(repositories), 28)
+        self.assertEqual(len(repositories), 27)
         self.assertEqual(
             {repository["name"] for repository in repositories},
             {
@@ -31,7 +31,6 @@ class PortfolioStatusTest(unittest.TestCase):
                 "App-Template",
                 "Campsake",
                 "Kinwall",
-                "Claim-Crate",
                 "Tender-Days",
                 "Divefolio",
                 "Creelmark",
@@ -78,7 +77,7 @@ class PortfolioStatusTest(unittest.TestCase):
 
         portfolio_status.validate_manifest(expanded)
 
-        self.assertIn("29 repositories", portfolio_status.render_status(expanded))
+        self.assertIn("28 repositories", portfolio_status.render_status(expanded))
         self.assertIn("17 products", portfolio_status.render_status(expanded))
 
     def test_virtual_product_is_rendered_without_becoming_a_repository(self) -> None:
@@ -108,7 +107,7 @@ class PortfolioStatusTest(unittest.TestCase):
 
     def test_consolidation_requires_an_active_product_target(self) -> None:
         invalid = copy.deepcopy(self.manifest)
-        repository = portfolio_status.repositories_by_name(invalid)["Claim-Crate"]
+        repository = portfolio_status.repositories_by_name(invalid)["steward"]
         repository["consolidatesInto"] = "Kinwall"
         with self.assertRaisesRegex(portfolio_status.PortfolioError, "active product"):
             portfolio_status.validate_manifest(invalid)

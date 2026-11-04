@@ -13,7 +13,7 @@ Website publication is paused. [Support & legal drafts](https://github.com/MAJES
 - **On-device by default:** consumer records stay on the user's device; exports are deliberate.
 - **User-owned hosting later:** optional customer servers can support collaboration where useful;
   company-operated storage is not the default and self-hosting is not yet a portfolio-wide feature.
-- **Affordable local software:** prefer permanent premium unlocks and low operating cost.
+- **Affordable subscriptions:** monthly/annual core access, with one-time purchases limited to optional extras.
 - **Useful recovery and portability:** verify encrypted backups and basic export, without holding
   the user's private keys or records.
 
@@ -24,8 +24,10 @@ Stage labels describe source/planning evidence, not public availability. Follow 
 after the [shared foundation](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/STACK_STANDARD.md)
 qualifies across the template and all seven existing apps on iOS and Android. That gate is pending;
 subsequent product-specific [release gates](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/RELEASE_DEFINITION.md)
-remain separate. All seven apps now implement the shared local foundation and native permanent
-unlock integration. Daymerit's household is account-free/local; Namefold has an encrypted native
+remain separate. All seven apps implement the local foundation; most still require migration from
+permanent-unlock billing to the approved [subscriptions](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/PRICING.md).
+Skepbook's monthly/yearly subscription source is present but actual store qualification remains pending.
+Daymerit's household is account-free/local; Namefold has an encrypted native
 wallet and a static PWA with unencrypted browser drafts/backups. Managed links remain deferred.
 
 The [alignment decisions](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/ALIGNMENT.md),
@@ -43,7 +45,7 @@ record implemented behavior and remaining acceptance work. The October 24, 2026 
 | Fine Notes | Private tasting notes for wine, whiskey, coffee, and cigars. | Shared foundation implemented; physical/store qualification pending |
 | Namefold | On-device contact wallet, QR/vCard exchange and a free static local-sharing PWA. | Shared foundation implemented; physical/store qualification pending |
 | Daymerit | Child routines, chores, approvals, points, rewards, and optional allowance tracking. | Shared foundation implemented; physical/store qualification pending |
-| Turnstamp | Before/after cleaning reports with photos, checklists, issues, signatures, and PDFs. | Concept only |
+| Turnstamp | Fast cleaning documentation and professional client handoffs for solo residential, deep-clean and move-out cleaners. | Concept only |
 | What We Own | Home inventory, moving boxes, condition/damage records, receipts, and insurance-oriented exports. | Concept only |
 | Creelmark | Fishing journal with private catches, photos, and encrypted spot records. | Concept only |
 | Campsake | Camping and RV trip log with site notes and recap exports. | Concept only |
@@ -53,7 +55,6 @@ record implemented behavior and remaining acceptance work. The October 24, 2026 
 | Object Lore | Collector registry for coins, stamps, cards, watches, and militaria. | Concept only |
 | Quiet Arcade | Ad-free offline puzzles with date-seeded daily boards and local progress. | Hub concept only; no repository |
 | Lockbox | Local estate/document vault, trusted-person handoff, and user-controlled recovery. | Planning documentation only |
-| Claim Crate | PCS and household move inventory with claim-ready exports. | Concept only; consolidating into What We Own |
 | Kinwall | Family-safety concept pending platform, consent, privacy, and legal feasibility review. | Research only; no release slot |
 <!-- END GENERATED: product-lineup -->
 

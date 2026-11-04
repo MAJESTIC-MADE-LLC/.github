@@ -21,9 +21,12 @@ currently **pending**; files, dependency declarations and earlier product tests 
   database/archive migration and restore contracts; never replace a user's vault as incidental cleanup.
 - Select SQLite3MultipleCiphers through the `sqlite3` build hook (`source: sqlite3mc`). Existing
   SQLCipher databases require tested compatibility settings/migrations, not an assumed format match.
-- Use native non-consumable store billing behind the shared purchase interface. Keep existing records
-  and basic export/recovery available without an active entitlement. Products retain their own prices.
-- Ship no Supabase, Firebase, Sentry, RevenueCat or hosted-AI provider SDKs in mobile dependency graphs.
+- Target native auto-renewable monthly/annual subscriptions for core access, at the approved
+  [product prices](PRICING.md). One-time purchases may cover optional extras only; no new permanent
+  core unlocks. The reference/shared non-consumable adapter is current implementation, not the
+  approved commercial target, and needs qualified subscription support before adoption for new offers.
+  Keep existing records, basic export and backup/recovery available without an active entitlement.
+- Ship no Supabase, Firebase, Sentry, RevenueCat or hosted-AI provider SDKs in current mobile dependency graphs.
   Do not initialize a backend or remote telemetry merely because a prior template supported it.
 - Generic network libraries are forbidden in the default template's first-party dependencies.
   A particular application may declare a necessary, user-triggered public lookup with an explicit
@@ -36,10 +39,11 @@ PDF and QR libraries must be justified by the application's capability; they are
 features for every app. Do not add permissions or new product scope to satisfy a generic checklist.
 
 The owner confirmed on 2026-11-03 that there are no public customers and all prior purchases
-are tests. Preserve existing test records, durable IDs and Skepbook's established permanent
-SKU/pricing. Do not invent a paying-customer entitlement-transfer requirement or grant native
+are tests. Preserve existing test records, durable IDs and verified legacy purchase compatibility.
+The November 4 subscription decision supersedes earlier permanent-core pricing: Skepbook's targets
+are $24.99/year or $2.99/month; current source includes both choices, with store setup and qualification pending. Do not grant
 ownership from unverified legacy test state. Real product configuration and store test evidence
-remain separate, pending checks.
+remain separate, pending checks. Historical signed-off evidence does not qualify changed billing.
 
 The release baseline includes the patched Flutter 3.47.8 / Dart 3.13.7 SDK, required by the
 [publisher's TLS advisory](https://github.com/dart-lang/sdk/security/advisories/GHSA-frr6-h895-5pxp).
@@ -115,6 +119,42 @@ Each evidence entry in a consumer's `foundation.json` identifies the actual `rec
 live in `FOUNDATION_QUALIFICATION.json`, reference files inside this governance repo and bind to the
 reported `cohortFingerprint`; physical/store records also identify `recordedBy`. Preserve real logs
 or dated manual observations. Do not fill evidence fields for checks that have not occurred.
+
+## Planned optional hosting extension — November 4, 2026
+
+The [user-owned hosting design](USER_OWNED_HOSTING.md) and
+[template extension contracts](https://github.com/MAJESTIC-MADE-LLC/App-Template/blob/dev/docs/USER_OWNED_HOSTING.md)
+approve future optional Mac/Windows ciphertext hosting, host-managed identities, scoped collection
+sharing and direct sync over a LAN/user private network. Authorized clients hold keys and perform
+readable-data processing; local encrypted storage and recovery remain usable without a host.
+Opt-in sync enrollment grants scoped standing transfer authorization, separate from manual exports.
+
+Document shared enrollment, membership/role verification, atomic local change journals, encrypted
+record/attachment transport, retry/conflict interfaces, recovery and disconnect behavior now. No
+sync package, host runtime, generator flag, new dependency or app migration is implemented here.
+The machine-readable baseline, actual app capability declarations and immutable package revisions
+remain unchanged. Future sync and push need explicit optional capabilities, reviewed provider-policy
+exceptions where applicable, exact dependency pins and renewed source-bound qualification; neither
+is an implicit public-lookup exception or permission to initialize a backend in default scaffolds.
+
+The approved optional Majestic notification bridge may relay authenticated opaque update hints
+through Apple/Google. It receives routing metadata, not record content/keys; developer push secrets
+stay out of household installers. Push does not establish private-network reachability or guarantee
+background execution. Disabling it must preserve direct sync and offline work.
+
+This is future expansion outside current launch work, not another foundation prerequisite. Prove
+generated reference clients, then pilot Pantry Clock before later product adoption in the roadmap.
+The 17-product public release queue, existing qualification scope and independent approvals remain.
+
+### Resolved hosting extension contracts — November 4, 2026
+
+The [hosting roadmap](USER_OWNED_HOSTING.md) links four detailed template contracts that resolve
+all seven review findings. Proposed future pins (OpenMLS 0.9.2, matching Flutter Rust Bridge
+2.13.0, Rust 1.99.1) are design selections, not additions to this standard's current machine
+baseline. The Rust ciphertext daemon has no record keys. A separately authorized headless Dart
+coordinator reuses product rules and may decrypt selected collections, with independent role TLS
+trust/credentials. Prove the native service, transaction/MLS and grants contracts with generated
+clients before app adoption. Current dependency policy, package SHA and launch gates stay intact.
 
 ## Web, concepts and operations
 

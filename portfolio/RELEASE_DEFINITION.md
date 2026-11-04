@@ -31,8 +31,11 @@ A README, manifest label, mockup, simulator-only demo or historical report is no
   app and Namefold's native local wallet/static PWA are implemented; physical/store/provenance
   qualification is pending. Namefold browser drafts/JSON backups are unencrypted, unlike its native vault.
 - Default consumer records to encrypted on-device storage without a mandatory company account.
-  Only deliberate user actions export records. Optional customer-owned hosting requires its own
-  tested consent, encryption, pairing, access, recovery, and provider-exit design before release.
+  Only deliberate user actions export records. Future optional sync uses explicit destination/
+  collection enrollment as scoped standing transfer authorization, separate from manual exports.
+  The [approved hosting design](USER_OWNED_HOSTING.md) requires its own tested encryption, pairing,
+  access, recovery, disconnect and provider-exit behavior before that feature releases. It is
+  design-only future expansion and adds no prerequisite for current local-app launches.
 - Verify data inventory, data flows, retention, export, deletion, and encrypted backup/restore.
   A PDF/CSV or a single shared note is not a complete restorable vault backup. Do not rely on
   untested system backup or promise recovery of a key or passphrase Majestic does not hold.
@@ -55,12 +58,16 @@ A README, manifest label, mockup, simulator-only demo or historical report is no
 
 ## Commercial and legal
 
-- Keep Skepbook's permanent unlock. Use the shared native permanent-unlock purchase foundation in
-  the other apps, preserving compatibility. Product-specific pricing and store presentation still
-  require their own approval and validation. Native permanent-unlock integration is implemented
-  across all seven apps; configured products and real transaction/restore qualification remain pending.
-- Verify store products, purchase restoration, cancellation/migration where relevant, and what
-  entitlement loss permits. Existing records and basic user export must remain accessible.
+- Use the approved [monthly/annual subscription prices](PRICING.md) for core access. No new
+  permanent core-app unlocks; one-time purchases are limited to optional extras. Most current
+  adapters remain permanent-unlock implementations; Skepbook's monthly/yearly subscription source changes
+  do not qualify other products or establish actual store availability.
+- Verify subscription enrollment, renewal, cancellation through the paid-through date, expiration,
+  grace/retry, refund/revocation, restore and bounded offline entitlement behavior. Preserve authentic
+  legacy lifetime ownership separately from new sales and validate optional-extra restoration.
+- Existing records, basic user export, encrypted backup/recovery and deletion remain accessible
+  after expiration. A fourteen-day local trial never starts billing automatically. Store setup,
+  changed-binary validation and actual transaction qualification remain pending release work.
 - Privacy policy, terms, support, screenshots, and store forms describe actual behavior and have
   product-specific launch approval. Records/exports do not replace qualified professional advice.
 - Unit economics include store fees, support, and any explicitly approved ongoing services. Do not
