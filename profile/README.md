@@ -6,7 +6,7 @@
 
 MAJESTIC MADE LLC is an independent software studio building practical apps for data people do not want scattered across random services. We design for clear ownership, useful exports, quiet interfaces, and privacy choices that can be understood without legal translation.
 
-Website publication is paused. [Support & legal drafts](https://github.com/MAJESTIC-MADE-LLC/app-legal) | [Contact](mailto:support@majesticmade.dev)
+Website publication is paused. [Support & legal drafts](https://github.com/MAJESTIC-MADE-LLC/app-legal) | [Contact](https://majesticmade.dev/contact)
 
 ## Focus
 
