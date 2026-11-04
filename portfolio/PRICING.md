@@ -25,7 +25,12 @@ Approved by the owner November 4, 2026. These US launch targets supersede earlie
 | Lockbox | $3.99 | $29.99 | Emergency-document vault and deliberate recipient handoff; automatic future delivery deferred |
 | Kinwall | $2.99 | $24.99 | Provisional research target only; feasibility and useful scope must be established before an offer |
 
-Most implemented apps still use permanent-unlock code. Their prices above are approved subscription targets, not evidence that an expiring subscription is implemented. Skepbook's November 4 source now contains monthly/yearly subscription choices; configured store availability and signed-store acceptance remain pending. Namefold's existing free static PWA is a separate helper, not a paid native entitlement or a permanent unlock. Concepts have no implemented subscriptions or released apps. Dossier and Off Record remain excluded and have no approved price.
+All seven implemented native apps now have monthly/annual subscription source and a separate
+14-day local trial. Configured identifiers and local tests are not live store availability or
+signed-store acceptance. Store product provisioning, actual transactions and physical-device
+qualification remain pending. Namefold's existing free static PWA is a separate helper. Concepts
+have no implemented subscriptions or released apps. Dossier and Off Record remain excluded and
+have no approved price.
 
 ## Access, trial and recovery
 

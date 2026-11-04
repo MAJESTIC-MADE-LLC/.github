@@ -112,3 +112,15 @@ Change the manifest first, then run `python3 scripts/portfolio_status.py --write
 Generated tables must not be edited by hand. Counts derive from inventory; dated app test/build
 results remain historical until actually rerun. Documentation-only concept notes do not become
 app implementation evidence.
+
+## Source implementation and promotion — November 4, 2026
+
+All seven native apps now implement monthly/annual subscriptions, a separate non-billing
+14-day local trial and expiration-aware core writes with preserved existing-data/recovery
+rights. Optional hosting reference/runtime source and the metadata-only verifier also exist;
+consumer enrollment, signed service installation and production deployment remain pending.
+This current status supersedes earlier pending-migration/design-only wording above.
+
+The owner explicitly authorized logical commits for all current repository changes on dev,
+pushes, direct dev-to-main promotion and matching dev branches in this turn. This authorization
+does not publish websites or apps, configure store inventory or waive release qualification.
