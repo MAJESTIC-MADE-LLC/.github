@@ -118,6 +118,23 @@
     "Skepbook/pubspec.yaml": {
       "declarationsSha256": "a7aa00ba94643652950076c58de3540da7bea4c57cf0a8507046ef79d8890f60",
       "lockSha256": "e8adfb18401d9cd2113b8f0e1fc64b94c4cde90535e616980dc1eb0ac3765c06"
+    },
+    "Pantry-Clock/hosting_pilot/pubspec.yaml": {
+      "declarationsSha256": "acef0116b208a9921d2883f0f9cfde7013bab1d388e8408842dfd7f9e697ba80",
+      "lockSha256": "2f8a1c86b12a0c1861c923f3f666dbbc4cac6547340690db65625ca0f5bf67b4"
     }
-  }
+  },
+  "developmentPilots": [
+    {
+      "path": "Pantry-Clock/hosting_pilot",
+      "productionApp": "Pantry-Clock",
+      "kind": "optional-hosting-development",
+      "pathSources": {
+        "pantry_clock": "Pantry-Clock",
+        "majestic_hosting": "App-Template/packages/majestic_hosting",
+        "majestic_sync": "App-Template/packages/majestic_sync",
+        "majestic_sync_crypto": "App-Template/packages/majestic_sync_crypto"
+      }
+    }
+  ]
 }

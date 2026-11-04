@@ -132,7 +132,8 @@ Opt-in sync enrollment grants scoped standing transfer authorization, separate f
 Shared enrollment, atomic encrypted journals, source-built MLS, separate storage/coordinator roles,
 reference clients and an explicitly selected reference generator now have optional implementations.
 The [implementation report](https://github.com/MAJESTIC-MADE-LLC/App-Template/blob/dev/docs/HOSTING_IMPLEMENTATION.md)
-records reference limits and qualification. No consumer synchronization is enabled by this work.
+records reference limits and qualification. Default production consumer synchronization remains disabled;
+Pantry Clock's separately registered development pilot is under qualification.
 The consumer machine-readable baseline, app capability declarations and immutable package revisions
 remain unchanged. Future sync and push need explicit optional capabilities, reviewed provider-policy
 exceptions where applicable, exact dependency pins and renewed source-bound qualification; neither

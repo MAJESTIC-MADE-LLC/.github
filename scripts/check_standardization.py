@@ -110,6 +110,64 @@ def check_node(root: Path, policy: dict, framework: bool) -> list[str]:
     return errors
 
 
+def check_development_pilot(workspace: Path, profile: dict, standard: dict) -> list[str]:
+    """An explicit local composition cannot rewrite the production app graph."""
+    errors = []
+    root = foundation.within(workspace, profile['path'])
+    parent = foundation.within(workspace, profile['productionApp'])
+    spec = foundation.parse_pubspec((root / 'pubspec.yaml').read_text())
+    lock = foundation.parse_lock((root / 'pubspec.lock').read_text())
+    parent_spec = foundation.parse_pubspec((parent / 'pubspec.yaml').read_text())
+    parent_lock = foundation.parse_lock((parent / 'pubspec.lock').read_text())
+    resolved = foundation.package_config_roots(root)
+    if profile.get('kind') != 'optional-hosting-development':
+        errors.append('unsupported development profile')
+    if (root / '.flutter-version').read_text().strip() != standard['toolchain']['flutter']:
+        errors.append('pilot Flutter pin differs from canonical baseline')
+    if not spec['encryptedSqliteHook']:
+        errors.append('pilot must select encrypted sqlite3mc')
+    expected_paths = profile['pathSources']
+    actual_paths = {name for name, value in spec['dependencies'].items() if 'path' in value}
+    if actual_paths != set(expected_paths):
+        errors.append('pilot local dependency inventory differs from registered sources')
+    for name, relative in expected_paths.items():
+        expected = foundation.within(workspace, relative)
+        declaration = spec['dependencies'].get(name, {})
+        entry = lock.get(name, {})
+        if (set(declaration) != {'version', 'path'} or
+                (root / declaration.get('path', '')).resolve() != expected or
+                entry.get('source') != 'path' or
+                (root / entry.get('path', '')).resolve() != expected or
+                resolved.get(name) != expected):
+            errors.append(f'{name}: pilot manifest/lock/resolution must identify its registered local source')
+    for name, entry in parent_lock.items():
+        if name in lock and entry.get('version') != lock[name].get('version'):
+            errors.append(f'{name}: pilot must retain the production app resolved version')
+    versions = {**standard['coreDependencies'], **standard['compatibilityDependencies'],
+                **standard['resolvedPlatformDependencies'],
+                **{name: config['version'] for name, config in standard['optionalDependencies'].items()}}
+    for name, entry in lock.items():
+        if foundation.provider_is_prohibited(name, standard):
+            errors.append(f'{name}: provider SDKs are forbidden in the hosting pilot')
+        if name in versions and entry.get('version') != versions[name]:
+            errors.append(f'{name}: pilot resolution differs from canonical baseline')
+    for name, config in {**standard['packages'], **standard['optionalSharedPackages']}.items():
+        if name not in lock:
+            continue
+        approved = foundation.git_descriptor(config['git'])
+        entry = lock[name]
+        if (entry.get('source') != 'git' or entry.get('resolved-ref') != approved['ref'] or
+                any(entry.get(key) != value for key, value in approved.items())):
+            errors.append(f'{name}: pilot core foundation must retain the approved immutable source')
+        else:
+            foundation.qualified_git_package(name, config, resolved[name], workspace,
+                                             verify_provider_worktree=False)
+    optional = {'majestic_hosting', 'majestic_sync', 'majestic_sync_crypto'}
+    if optional & (set(parent_spec['dependencies']) | set(parent_lock)):
+        errors.append('development hosting packages leaked into the production app graph')
+    return errors
+
+
 def check(workspace: Path) -> dict:
     governance = workspace / '.github'
     standard = foundation.read_json(governance / 'portfolio/STACK_STANDARD.json')
@@ -162,6 +220,11 @@ def check(workspace: Path) -> dict:
             errors.extend(f"{project['path']}: {e}" for e in check_node(root, standard['webPolicy'], project['framework']))
         except (OSError, ValueError, KeyError, TypeError) as error:
             errors.append(f"{project['path']}: {error}")
+    for profile in policy.get('developmentPilots', []):
+        try:
+            errors.extend(f"{profile['path']}: {error}" for error in check_development_pilot(workspace, profile, standard))
+        except (OSError, ValueError, TypeError, KeyError) as error:
+            errors.append(f"{profile['path']}: {error}")
     workflow_count = 0
     for repo in repos:
         for workflow in sorted((repo / '.github/workflows').glob('*.y*ml')):

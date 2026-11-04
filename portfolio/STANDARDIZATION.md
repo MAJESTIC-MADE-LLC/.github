@@ -76,3 +76,12 @@ scaffolding is separate operational material, not the consumer hosting/runtime t
 
 Software alignment passing does not mean physical-device/store acceptance, current foundation
 evidence, signed installers or self-hosting product integration has been completed.
+
+## Registered hosting development pilots
+
+`Pantry-Clock/hosting_pilot` is the first explicit optional-hosting development composition. Its
+local Pantry/shared-source bindings and dependency/lock fingerprints are registered in
+`STANDARDIZATION.json`. The guard verifies those exact paths and all overlapping production/core
+versions, and rejects hosting packages leaking into the production app graph. This permits source
+implementation and native engineering builds before a new shared Git revision is published. It
+does not relax production provenance or release qualification, or adopt a second product.

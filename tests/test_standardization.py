@@ -19,7 +19,7 @@ class StandardizationTest(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
-        self.root = Path(self.temp.name)
+        self.root = Path(self.temp.name).resolve()
 
     def node_fixture(self):
         policy = {'nodeExact': '26.13.0', 'sharedDependencies': {'next': '16.4.3', 'react': '19.3.1'}}
@@ -147,6 +147,55 @@ class StandardizationTest(unittest.TestCase):
         self.assertEqual(guard.cohort_errors(standard, matrix), [])
         standard['consumers'].pop()
         self.assertTrue(guard.cohort_errors(standard, matrix))
+
+    def test_development_pilot_cannot_drift_or_leak_into_the_production_graph(self):
+        parent = self.root / 'app'
+        root = parent / 'hosting_pilot'
+        shared = self.root / 'foundation/majestic_sync'
+        for path in (parent, root, shared):
+            path.mkdir(parents=True, exist_ok=True)
+        (parent / 'pubspec.yaml').write_text('name: app\ndependencies:\n  flutter:\n    sdk: flutter\n')
+        parent_lock = 'packages:\n  drift:\n    source: hosted\n    version: "2.35.0"\n'
+        (parent / 'pubspec.lock').write_text(parent_lock)
+        (root / '.flutter-version').write_text('3.47.8\n')
+        (root / 'pubspec.yaml').write_text('''name: pilot
+dependencies:
+  app:
+    path: ..
+  majestic_sync:
+    path: ../../foundation/majestic_sync
+hooks:
+  user_defines:
+    sqlite3:
+      source: sqlite3mc
+''')
+        pilot_lock = parent_lock + '''  app:
+    source: path
+    description:
+      path: ..
+    version: "1.0.0"
+  majestic_sync:
+    source: path
+    description:
+      path: ../../foundation/majestic_sync
+    version: "0.1.0"
+'''
+        (root / 'pubspec.lock').write_text(pilot_lock)
+        profile = {'path': 'app/hosting_pilot', 'productionApp': 'app',
+                   'kind': 'optional-hosting-development',
+                   'pathSources': {'app': 'app', 'majestic_sync': 'foundation/majestic_sync'}}
+        standard = {'toolchain': {'flutter': '3.47.8'}, 'packages': {}, 'optionalSharedPackages': {},
+                    'coreDependencies': {'drift': '2.35.0'}, 'compatibilityDependencies': {},
+                    'resolvedPlatformDependencies': {}, 'optionalDependencies': {},
+                    'prohibitedProviderPrefixes': ['firebase'], 'prohibitedProviderPackages': []}
+        with patch.object(guard.foundation, 'package_config_roots', return_value={'app': parent, 'majestic_sync': shared}):
+            self.assertEqual(guard.check_development_pilot(self.root, profile, standard), [])
+            (root / 'pubspec.lock').write_text(pilot_lock.replace('2.35.0', '9.9.9'))
+            self.assertTrue(guard.check_development_pilot(self.root, profile, standard))
+            (root / 'pubspec.lock').write_text(pilot_lock)
+            (parent / 'pubspec.lock').write_text(parent_lock + '  majestic_sync:\n    source: path\n    version: "0.1.0"\n')
+            self.assertIn('development hosting packages leaked into the production app graph',
+                          guard.check_development_pilot(self.root, profile, standard))
 
 
 if __name__ == '__main__':

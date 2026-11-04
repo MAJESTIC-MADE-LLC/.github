@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "evidenceDate": "2026-11-04",
-  "evidenceSummary": "November 4 source update implements monthly/annual native subscriptions and separate non-billing 14-day local trials in all seven existing apps, with expiration-aware writes and preserved reading/export/deletion/encrypted recovery. Real-store provisioning, signed purchase acceptance and physical-device qualification remain pending. Optional hosting reference/runtime and metadata verifier source now exist with local contracts; no consumer synchronization, service installation or verifier deployment is enabled. Earlier foundation evidence retains its original scope; the product release order and publication pause remain unchanged. Claim Crate remains consolidated into What We Own; 27 physical repositories remain.",
+  "evidenceSummary": "November 4 source update implements monthly/annual native subscriptions and separate non-billing 14-day local trials in all seven existing apps, with expiration-aware writes and preserved reading/export/deletion/encrypted recovery. Real-store provisioning, signed purchase acceptance and physical-device qualification remain pending. Optional hosting reference/runtime and metadata verifier source now exist with local contracts; no consumer synchronization, service installation or verifier deployment is enabled. Earlier foundation evidence retains its original scope; the product release order and publication pause remain unchanged. Claim Crate remains consolidated into What We Own; 27 physical repositories remain. Subsequent local implementation adds generic typed product hosting and the first Pantry Clock development pilot with real TLS/MLS tests; default production pins, deployment and release qualification remain unchanged.",
   "launchOrder": [
     "Skepbook",
     "Ridelore",
@@ -112,7 +112,7 @@
       "name": "App-Template",
       "displayName": "App-Template",
       "role": "shared",
-      "status": "Maintained Flutter reference and capability-selecting generator with four core and four optional shared packages at 0.1.0. Encrypted records, recovery, native privacy/locking and cached-first native purchases are integrated; local tests, both native builds and owned runtime checks pass. Optional hosting now has separately tested transactional sync/MLS/storage/coordinator, reference clients/generator, desktop control/packaging and undeployed metadata-only workspace verifier source; consumers retain existing immutable pins.",
+      "status": "Maintained Flutter reference and capability-selecting generator with four core and four optional shared packages at 0.1.0. Encrypted records, recovery, native privacy/locking and cached-first native purchases are integrated; local tests, both native builds and owned runtime checks pass. Optional hosting now has separately tested transactional sync/MLS/storage/coordinator, reference clients/generator, desktop control/packaging and undeployed metadata-only workspace verifier source; consumers retain existing immutable pins. Generic typed product operations, caller-owned encrypted transactions, atomic migration batches, app-scoped clients/coordinators/setup and independently verified client grants now support the Pantry Clock development pilot.",
       "next": "Finish representative physical-device/store qualification before any app release; maintain the published immutable foundation, generator and common contracts through deliberate updates.",
       "concern": "Private Git access is required to resolve the published shared packages. Local compilation and simulator/emulator evidence do not establish physical-device/store qualification.",
       "localCheckout": true,
@@ -408,10 +408,10 @@
       "role": "release-candidate",
       "stage": "Shared foundation implemented; physical/store qualification pending",
       "focus": "Pantry, fridge, freezer, and counter expiration tracking.",
-      "status": "Native monthly/annual subscription source and separate 14-day non-billing trial are implemented. Core creation/editing requires current access; existing records, exports, deletion and encrypted backup/recovery remain available after expiration. Verified historical permanent ownership is restore-only.",
+      "status": "Native monthly/annual subscription source and separate 14-day non-billing trial are implemented. Core creation/editing requires current access; existing records, exports, deletion and encrypted backup/recovery remain available after expiration. Verified historical permanent ownership is restore-only. An explicitly registered local hosting pilot now implements selected household inventory, exact quantities, product-scoped TLS/MLS, role/verified-grant checks and disconnected encrypted recovery; the production app does not enable hosting.",
       "launchEvidence": "Current subscription source has app-owned local validation records; historical foundation software/build evidence retains its original scope. Actual signed-store purchase and physical-device acceptance remain pending.",
       "next": "Provision the approved monthly/annual native store products and qualify real purchases, renewal, cancellation, refunds, restore and offline expiry on physical devices; then complete independent product release gates in the unchanged queue.",
-      "concern": "Physical-device/store qualification remains pending. Suggested dates are editable defaults, not food-safety advice; CSV export is distinct from full encrypted recovery.",
+      "concern": "Physical-device/store qualification remains pending. Suggested dates are editable defaults, not food-safety advice; CSV export is distinct from full encrypted recovery. Publishing/adopting a new immutable hosting revision, live licensing, signed services, Windows credential provisioning and physical hosting qualification remain pending.",
       "localCheckout": true,
       "requiredPaths": [
         ".github/workflows/flutter-ci.yml",
@@ -420,7 +420,7 @@
         "test"
       ],
       "disposition": "active",
-      "targetDataModel": "Local food inventory and editable date suggestions; user-controlled exports/recovery and subscription-only core access; no required catalog service. First future optional-hosting product pilot after generated reference clients: shared inventory with concurrent quantity/deletion handling; not a current launch prerequisite."
+      "targetDataModel": "Local food inventory and editable date suggestions; user-controlled exports/recovery and subscription-only core access; no required catalog service. First optional-hosting development pilot implemented for selected shared inventory, with concurrent quantity/deletion handling and encrypted disconnected recovery. Production adoption/qualification remain pending; not a current local-launch prerequisite."
     },
     {
       "name": "app-legal",
@@ -551,7 +551,7 @@
       "product": "Ridelore",
       "defaultDataLocation": "Shared encrypted SQLite and encrypted attachments; processing stays on device",
       "remoteServices": "Explicit native store actions and optional user-requested identity/recall lookup",
-      "paidBoundary": "Approved core subscription: $2.99/month or $19.99/year; optional extras only may be one-time purchases; current permanent adapter still needs migration",
+      "paidBoundary": "Approved core subscription: $2.99/month or $19.99/year; optional extras only may be one-time purchases; monthly/yearly source present, store setup and acceptance pending",
       "guardrails": "Hosted provider source archived; preserve encrypted owner recovery; no managed sync, hosted binder or remote AI in this release; disclose optional lookup",
       "productId": "Ridelore",
       "targetDataModel": "Local motorcycle binder and user-controlled encrypted backups; subscription-only core access; on-device processing; optional user-owned sync later. Future optional ciphertext hosting may synchronize owner devices and selected garage/binder members; not a current launch prerequisite."
@@ -560,7 +560,7 @@
       "product": "Paws",
       "defaultDataLocation": "Shared encrypted SQLite containing authenticated legacy pet-vault envelopes",
       "remoteServices": "Explicit native Apple/Google store actions; cached ownership loads locally",
-      "paidBoundary": "Approved core subscription: $1.99/month or $14.99/year; optional extras only may be one-time purchases; current permanent adapter still needs migration",
+      "paidBoundary": "Approved core subscription: $1.99/month or $14.99/year; optional extras only may be one-time purchases; monthly/yearly source present, store setup and acceptance pending",
       "guardrails": "No mandatory hosted account or analytics; native backup exclusions; local PDF and complete encrypted owner recovery; physical/store/provenance qualification pending",
       "productId": "Paws",
       "targetDataModel": "Local pet records and user-controlled PDF/backup exports; subscription-only core access; no veterinary diagnosis or required account. Future optional ciphertext hosting may share selected caregiver records after the Pantry Clock pilot; not a current launch prerequisite."
@@ -569,16 +569,16 @@
       "product": "Pantry Clock",
       "defaultDataLocation": "Shared encrypted SQLite containing authenticated legacy inventory envelopes",
       "remoteServices": "Explicit native Apple/Google store actions; cached ownership loads locally",
-      "paidBoundary": "Approved core subscription: $0.99/month or $9.99/year; optional extras only may be one-time purchases; current permanent adapter still needs migration",
+      "paidBoundary": "Approved core subscription: $0.99/month or $9.99/year; optional extras only may be one-time purchases; monthly/yearly source present, store setup and acceptance pending",
       "guardrails": "No mandatory hosted account or analytics; local CSV plus complete encrypted owner recovery; editable dates; physical/store/provenance qualification pending",
       "productId": "Pantry-Clock",
-      "targetDataModel": "Local food inventory and editable date suggestions; user-controlled exports/recovery and subscription-only core access; no required catalog service. First future optional-hosting product pilot after generated reference clients: shared inventory with concurrent quantity/deletion handling; not a current launch prerequisite."
+      "targetDataModel": "Local food inventory and editable date suggestions; user-controlled exports/recovery and subscription-only core access; no required catalog service. First optional-hosting development pilot implemented for selected shared inventory, with concurrent quantity/deletion handling and encrypted disconnected recovery. Production adoption/qualification remain pending; not a current local-launch prerequisite."
     },
     {
       "product": "Fine Notes",
       "defaultDataLocation": "Shared encrypted SQLite containing authenticated legacy tasting-vault envelopes",
       "remoteServices": "Explicit native Apple/Google store actions; cached ownership loads locally",
-      "paidBoundary": "Approved core subscription: $2.99/month or $19.99/year; optional extras only may be one-time purchases; current permanent adapter still needs migration",
+      "paidBoundary": "Approved core subscription: $2.99/month or $19.99/year; optional extras only may be one-time purchases; monthly/yearly source present, store setup and acceptance pending",
       "guardrails": "Selected-note encrypted sharing and complete encrypted owner recovery; no remote valuation; physical/store/provenance qualification pending",
       "productId": "Fine-Notes",
       "targetDataModel": "Keep wine, whiskey, coffee, and cigars in one local tasting app; deliberate encrypted sharing, manual valuations, and subscription-only core access. Future optional ciphertext hosting may synchronize devices and explicitly shared collections while preserving tasting authorship; not a current launch prerequisite."
@@ -587,7 +587,7 @@
       "product": "Namefold",
       "defaultDataLocation": "Native shared encrypted SQLite; separate static PWA uses unencrypted browser drafts/JSON backups",
       "remoteServices": "Native store actions only in wallet; initial static-site download for PWA; no hosted contact/link API",
-      "paidBoundary": "Approved core subscription: $1.99/month or $14.99/year; optional extras only may be one-time purchases; current permanent adapter still needs migration",
+      "paidBoundary": "Approved core subscription: $1.99/month or $14.99/year; optional extras only may be one-time purchases; monthly/yearly source present, store setup and acceptance pending",
       "guardrails": "Native encrypted recovery differs from unencrypted browser backup; old Worker/D1 source archived; managed links deferred, user-owned hosting later; publication paused",
       "productId": "Namefold",
       "targetDataModel": "Encrypted native contact wallet with QR/vCard exchange and owner backups; separate free static PWA with unencrypted browser drafts/JSON backups; managed links deferred. Core active use is subscription-only; optional extras may be one-time purchases. Future optional ciphertext hosting is selective private native-wallet sync; public links/profiles and the PWA remain separate. Not a current launch prerequisite."
@@ -596,7 +596,7 @@
       "product": "Daymerit",
       "defaultDataLocation": "Shared encrypted SQLite on parent/shared tablet; no required hosted household account",
       "remoteServices": "Explicit native Apple/Google store actions; local reminders/proofs do not require a record server",
-      "paidBoundary": "Approved core subscription: $2.99/month or $24.99/year; optional extras only may be one-time purchases; current permanent adapter still needs migration",
+      "paidBoundary": "Approved core subscription: $2.99/month or $24.99/year; optional extras only may be one-time purchases; monthly/yearly source present, store setup and acceptance pending",
       "guardrails": "Parent PIN boundaries, bounded authenticated owner recovery and local child board implemented; hosted source archived; user-owned family sync later; physical/store/provenance qualification pending",
       "productId": "Daymerit",
       "targetDataModel": "Local parent/shared-tablet chores and allowance records; subscription-only core access; no managed storage of child records; user-owned family sync only later. Future optional ciphertext hosting may add parent/child devices with verified roles and exactly-once ledger effects after the Pantry Clock pilot; not a current launch prerequisite."
