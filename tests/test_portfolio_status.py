@@ -21,35 +21,105 @@ class PortfolioStatusTest(unittest.TestCase):
     def test_current_manifest_has_expected_inventory(self) -> None:
         repositories = self.manifest["repositories"]
 
-        self.assertEqual(len(repositories), 23)
+        self.assertEqual(len(repositories), 28)
         self.assertEqual(
             {repository["name"] for repository in repositories},
             {
                 ".github",
-                "Almanac",
-                "Apiary",
+                "Fine-Notes",
+                "Skepbook",
                 "App-Template",
-                "Bivy",
-                "Chat-Armor",
-                "Convoy",
-                "Cradle",
-                "Deep-Six",
-                "Hook",
+                "Campsake",
+                "Kinwall",
+                "Claim-Crate",
+                "Tender-Days",
+                "Divefolio",
+                "Creelmark",
                 "Majestic-Made-Hub",
                 "Paws",
-                "Range",
-                "ReachMe",
-                "RideBinder",
-                "RoomProof",
-                "RoutineCue",
-                "Steward",
-                "Trove",
-                "Use-By",
+                "Brassmark",
+                "Namefold",
+                "Ridelore",
+                "Turnstamp",
+                "Daymerit",
+                "What-We-Own",
+                "Object-Lore",
+                "Pantry-Clock",
                 "app-legal",
                 "wolfe-server-apps",
                 "wolfe-server-infra",
+                "steward",
+                "lockbox",
+                "dossier",
+                "off-record",
+                "brand-assets",
             },
         )
+        self.assertEqual(
+            sum(repository["role"] == "release-candidate" for repository in repositories),
+            7,
+        )
+        self.assertEqual(
+            self.manifest["launchOrder"],
+            [
+                "Skepbook", "Ridelore", "Paws", "Pantry-Clock", "Fine-Notes",
+                "Namefold", "Daymerit", "Turnstamp", "What-We-Own", "Creelmark",
+                "Campsake", "Tender-Days", "Divefolio", "Brassmark", "Object-Lore",
+                "quiet-arcade", "lockbox",
+            ],
+        )
+
+    def test_inventory_counts_are_derived_and_not_a_fixed_launch_gate(self) -> None:
+        expanded = copy.deepcopy(self.manifest)
+        shared = copy.deepcopy(expanded["repositories"][0])
+        shared["name"] = "Additional-Support"
+        shared["displayName"] = "Additional Support"
+        expanded["repositories"].append(shared)
+
+        portfolio_status.validate_manifest(expanded)
+
+        self.assertIn("29 repositories", portfolio_status.render_status(expanded))
+        self.assertIn("17 products", portfolio_status.render_status(expanded))
+
+    def test_virtual_product_is_rendered_without_becoming_a_repository(self) -> None:
+        self.assertNotIn(
+            "quiet-arcade", portfolio_status.repositories_by_name(self.manifest)
+        )
+        self.assertIn("| 16 | Quiet Arcade |", portfolio_status.render_launch_table(self.manifest))
+
+    def test_virtual_product_rejects_collisions_and_unsafe_source_paths(self) -> None:
+        invalid = copy.deepcopy(self.manifest)
+        invalid["virtualProducts"][0]["id"] = "Skepbook"
+        with self.assertRaisesRegex(portfolio_status.PortfolioError, "collides"):
+            portfolio_status.validate_manifest(invalid)
+
+        invalid = copy.deepcopy(self.manifest)
+        invalid["virtualProducts"][0]["sourcePath"] = "../outside.md"
+        with self.assertRaisesRegex(portfolio_status.PortfolioError, "normalized relative path"):
+            portfolio_status.validate_manifest(invalid)
+
+    def test_launch_queue_rejects_support_excluded_and_consolidating_repositories(self) -> None:
+        for name in ("App-Template", "dossier", "off-record", "Claim-Crate", "steward", "Kinwall"):
+            with self.subTest(name=name):
+                invalid = copy.deepcopy(self.manifest)
+                invalid["launchOrder"][-1] = name
+                with self.assertRaisesRegex(portfolio_status.PortfolioError, "launchOrder"):
+                    portfolio_status.validate_manifest(invalid)
+
+    def test_consolidation_requires_an_active_product_target(self) -> None:
+        invalid = copy.deepcopy(self.manifest)
+        repository = portfolio_status.repositories_by_name(invalid)["Claim-Crate"]
+        repository["consolidatesInto"] = "Kinwall"
+        with self.assertRaisesRegex(portfolio_status.PortfolioError, "active product"):
+            portfolio_status.validate_manifest(invalid)
+
+    def test_data_matrix_covers_concept_and_virtual_queue_entries(self) -> None:
+        invalid = copy.deepcopy(self.manifest)
+        invalid["dataMatrix"] = [
+            row for row in invalid["dataMatrix"] if row["productId"] != "quiet-arcade"
+        ]
+        with self.assertRaisesRegex(portfolio_status.PortfolioError, "every active product"):
+            portfolio_status.validate_manifest(invalid)
 
     def test_duplicate_repository_is_rejected(self) -> None:
         invalid = copy.deepcopy(self.manifest)
@@ -101,16 +171,16 @@ class PortfolioStatusTest(unittest.TestCase):
             with self.assertRaisesRegex(portfolio_status.PortfolioError, "duplicate key"):
                 portfolio_status.load_manifest(path)
 
-    def test_data_matrix_rejects_non_string_repository(self) -> None:
+    def test_data_matrix_rejects_non_string_product_id(self) -> None:
         invalid = copy.deepcopy(self.manifest)
-        invalid["dataMatrix"][0]["repository"] = []
+        invalid["dataMatrix"][0]["productId"] = []
 
         with self.assertRaisesRegex(portfolio_status.PortfolioError, "non-empty string"):
             portfolio_status.validate_manifest(invalid)
 
     def test_launch_order_cannot_omit_a_release_candidate(self) -> None:
         invalid = copy.deepcopy(self.manifest)
-        invalid["launchOrder"][-1] = "Bivy"
+        invalid["launchOrder"][-1] = "Campsake"
 
         with self.assertRaisesRegex(portfolio_status.PortfolioError, "launchOrder"):
             portfolio_status.validate_manifest(invalid)
@@ -265,7 +335,10 @@ class PortfolioStatusTest(unittest.TestCase):
             "truncated": False,
             "tree": [
                 {"path": path, "type": "blob"}
-                for path in sorted(portfolio_status.CONCEPT_REMOTE_ALLOWLIST)
+                for path in sorted(
+                    portfolio_status.CONCEPT_REMOTE_ALLOWLIST
+                    | {"docs/PORTFOLIO_ALIGNMENT.md", "docs/handoff/planning.md"}
+                )
             ]
         }
         with mock.patch.object(
@@ -293,6 +366,22 @@ class PortfolioStatusTest(unittest.TestCase):
                 portfolio_status.PortfolioError, "app/lib/main.dart"
             ):
                 portfolio_status.verify_github(manifest, "example")
+
+    def test_github_verification_uses_main_for_legacy_planning_repository(self) -> None:
+        manifest = {
+            "repositories": [{"name": "Example", "role": "concept", "sourceRef": "main"}]
+        }
+        tree = {"truncated": False, "tree": [{"path": "README.md", "type": "blob"}]}
+        with mock.patch.object(
+            portfolio_status,
+            "run_command",
+            side_effect=[json.dumps([{"name": "Example"}]), json.dumps(tree)],
+        ) as command:
+            portfolio_status.verify_github(manifest, "example")
+        self.assertEqual(
+            command.call_args_list[-1].args[0][-1],
+            "repos/example/Example/git/trees/main?recursive=1",
+        )
 
     def test_github_verification_rejects_truncated_tree(self) -> None:
         manifest = {"repositories": [{"name": "Example", "role": "concept"}]}

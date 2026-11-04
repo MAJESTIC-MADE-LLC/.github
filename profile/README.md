@@ -1,46 +1,58 @@
 # MAJESTIC MADE
 
-**Privacy-conscious software for personal records, family routines, and everyday operations.**
+**Affordable apps with private on-device records and user-controlled exports.**
 
 MAJESTIC MADE LLC is an independent software studio building practical apps for data people do not want scattered across random services. We design for clear ownership, useful exports, quiet interfaces, and privacy choices that can be understood without legal translation.
 
-[Website](https://majesticmade.dev) | [Support & legal](https://github.com/MAJESTIC-MADE-LLC/app-legal) | [Contact](mailto:support@majesticmade.dev)
+Website publication is paused. [Support & legal drafts](https://github.com/MAJESTIC-MADE-LLC/app-legal) | [Contact](mailto:support@majesticmade.dev)
 
 ## Focus
 
-- **Local-first by default:** personal records should stay close to the person who owns them when the product can work that way.
-- **Cloud only with a reason:** sync, collaboration, and account features should earn their complexity and be explained plainly.
-- **Built for real workflows:** our apps favor checklists, exports, reminders, photos, and review flows over novelty for its own sake.
-- **No dark patterns:** privacy, pricing, and data handling should be direct.
+- **On-device by default:** consumer records stay on the user's device; exports are deliberate.
+- **User-owned hosting later:** optional customer servers can support collaboration where useful;
+  company-operated storage is not the default and self-hosting is not yet a portfolio-wide feature.
+- **Affordable local software:** prefer permanent premium unlocks and low operating cost.
+- **Useful recovery and portability:** verify encrypted backups and basic export, without holding
+  the user's private keys or records.
 
 ## Product Lineup
 
-No product is deployed yet. The first launch is held until seven products satisfy the shared
-[release definition](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/RELEASE_DEFINITION.md).
-The detailed [repository status](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/STATUS.md)
-is generated from the canonical portfolio inventory. Stage labels describe repository status, not
-public availability.
+Stage labels describe source/planning evidence, not public availability. Follow the
+[sequential release queue](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/LAUNCH_SLATE.md)
+after the [shared foundation](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/STACK_STANDARD.md)
+qualifies across the template and all seven existing apps on iOS and Android. That gate is pending;
+subsequent product-specific [release gates](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/RELEASE_DEFINITION.md)
+remain separate. All seven apps now implement the shared local foundation and native permanent
+unlock integration. Daymerit's household is account-free/local; Namefold has an encrypted native
+wallet and a static PWA with unencrypted browser drafts/backups. Managed links remain deferred.
+
+The [alignment decisions](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/ALIGNMENT.md),
+[repository status](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/STATUS.md), and
+[data matrix](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/DATA_COST_MATRIX.md)
+record implemented behavior and remaining acceptance work. The October 24, 2026 website pause remains in force.
 
 <!-- BEGIN GENERATED: product-lineup -->
 | Product | Focus | Stage |
 | --- | --- | --- |
-| Chat Armor | Family-safety concept pending platform, consent, privacy, and legal feasibility review. | Research concept |
-| RideBinder | Motorcycle maintenance, documents, receipts, reminders, and resale history. | Functional release candidate |
-| RoomProof | Before/after cleaning reports with photos, checklists, issues, signatures, and PDFs. | Concept only |
-| RoutineCue | Child routines, chores, approvals, points, rewards, and optional allowance tracking. | Functional release candidate |
-| ReachMe | Local contact wallet, QR sharing, and optional expiring public links. | Functional release candidate |
-| Paws | Pet health records, medications, incidents, and vet-ready exports. | Functional release candidate |
-| Range | Firearm registry, range log, ammo inventory, and license vault. | Concept only |
-| Use By | Pantry, fridge, freezer, and counter expiration tracking. | Functional release candidate |
-| Cradle | Feedings, diapers, sleep, growth, and milestone tracking. | Concept only |
-| Almanac | Private tasting notes for wine, whiskey, coffee, and cigars. | Functional release candidate |
-| Trove | Collector registry for coins, stamps, cards, watches, and militaria. | Concept only |
-| Convoy | PCS and household move inventory with claim-ready exports. | Concept only |
-| Steward | Home inventory for insurance and household records. | Concept only |
-| Deep Six | Scuba logbook with sites, buddies, and certification-ready records. | Concept only |
-| Hook | Fishing journal with private catches, photos, and encrypted spot records. | Concept only |
-| Bivy | Camping and RV trip log with site notes and recap exports. | Concept only |
-| Apiary | Offline iPhone beekeeping logbook with encrypted records and backups. | Functional release candidate |
+| Skepbook | Offline beekeeping logbook with encrypted records and backups. | Shared foundation implemented; physical/store qualification pending |
+| Ridelore | Motorcycle maintenance, documents, receipts, reminders, and resale history. | Shared foundation implemented; physical/store qualification pending |
+| Paws | Pet health records, medications, incidents, and vet-ready exports. | Shared foundation implemented; physical/store qualification pending |
+| Pantry Clock | Pantry, fridge, freezer, and counter expiration tracking. | Shared foundation implemented; physical/store qualification pending |
+| Fine Notes | Private tasting notes for wine, whiskey, coffee, and cigars. | Shared foundation implemented; physical/store qualification pending |
+| Namefold | On-device contact wallet, QR/vCard exchange and a free static local-sharing PWA. | Shared foundation implemented; physical/store qualification pending |
+| Daymerit | Child routines, chores, approvals, points, rewards, and optional allowance tracking. | Shared foundation implemented; physical/store qualification pending |
+| Turnstamp | Before/after cleaning reports with photos, checklists, issues, signatures, and PDFs. | Concept only |
+| What We Own | Home inventory, moving boxes, condition/damage records, receipts, and insurance-oriented exports. | Concept only |
+| Creelmark | Fishing journal with private catches, photos, and encrypted spot records. | Concept only |
+| Campsake | Camping and RV trip log with site notes and recap exports. | Concept only |
+| Tender Days | Feedings, diapers, sleep, growth, and milestone tracking. | Concept only |
+| Divefolio | Scuba logbook with sites, buddies, and certification-ready records. | Concept only |
+| Brassmark | Firearm registry, range log, ammo inventory, and license vault. | Concept only |
+| Object Lore | Collector registry for coins, stamps, cards, watches, and militaria. | Concept only |
+| Quiet Arcade | Ad-free offline puzzles with date-seeded daily boards and local progress. | Hub concept only; no repository |
+| Lockbox | Local estate/document vault, trusted-person handoff, and user-controlled recovery. | Planning documentation only |
+| Claim Crate | PCS and household move inventory with claim-ready exports. | Concept only; consolidating into What We Own |
+| Kinwall | Family-safety concept pending platform, consent, privacy, and legal feasibility review. | Research only; no release slot |
 <!-- END GENERATED: product-lineup -->
 
 ## Public Repositories
@@ -54,4 +66,4 @@ Most product repositories stay private while apps are under development. Public 
 
 ## Connect
 
-Explore the catalog at [majesticmade.dev](https://majesticmade.dev) or contact [support@majesticmade.dev](mailto:support@majesticmade.dev).
+Contact [support@majesticmade.dev](mailto:support@majesticmade.dev). The website remains unpublished pending an explicit owner decision.

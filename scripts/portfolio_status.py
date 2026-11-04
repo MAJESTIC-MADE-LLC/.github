@@ -24,7 +24,9 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 MANIFEST_PATH = REPO_ROOT / "portfolio" / "REPOSITORIES.json"
 STATUS_PATH = REPO_ROOT / "portfolio" / "STATUS.md"
 
-ROLE_COUNTS = {"release-candidate": 7, "concept": 10, "shared": 6}
+ROLES = {"release-candidate", "concept", "shared", "experimental"}
+PRODUCT_ROLES = {"release-candidate", "concept"}
+DISPOSITIONS = {"active", "support", "research", "consolidating", "excluded"}
 REQUIRED_REPOSITORY_FIELDS = {
     "name",
     "displayName",
@@ -33,6 +35,7 @@ REQUIRED_REPOSITORY_FIELDS = {
     "next",
     "concern",
     "localCheckout",
+    "disposition",
 }
 CONCEPT_REMOTE_ALLOWLIST = {
     ".github/dependabot.yml",
@@ -156,11 +159,18 @@ def load_manifest(path: Path = MANIFEST_PATH) -> dict[str, Any]:
 def validate_manifest(manifest: dict[str, Any]) -> None:
     if not isinstance(manifest, dict):
         raise PortfolioError("manifest must be an object")
-    if manifest.get("schemaVersion") != 1:
-        raise PortfolioError("schemaVersion must be 1")
+    if manifest.get("schemaVersion") != 2:
+        raise PortfolioError("schemaVersion must be 2")
     require_text(manifest.get("evidenceDate"), "evidenceDate")
     require_text(manifest.get("evidenceSummary"), "evidenceSummary")
-
+    foundation = manifest.get("foundationStandard")
+    if not isinstance(foundation, dict) or foundation.get("requiredBeforeAnyAppRelease") is not True:
+        raise PortfolioError("foundationStandard must require the shared gate before any app release")
+    if foundation.get("status") not in {"pending", "adopting", "verified"}:
+        raise PortfolioError("foundationStandard has unsupported status")
+    require_text(foundation.get("version"), "foundationStandard.version")
+    for field in ("standard", "checker", "qualification"):
+        validate_relative_path(foundation.get(field), f"foundationStandard.{field}")
     repositories = manifest.get("repositories")
     if not isinstance(repositories, list):
         raise PortfolioError("repositories must be a list")
@@ -174,19 +184,25 @@ def validate_manifest(manifest: dict[str, Any]) -> None:
             raise PortfolioError(
                 f"repositories[{index}] is missing: {', '.join(sorted(missing))}"
             )
-        name = validate_repository_name(
-            repository["name"], f"repositories[{index}].name"
-        )
+        name = validate_repository_name(repository["name"], f"repositories[{index}].name")
         names.append(name)
         for field in ("displayName", "status", "next", "concern"):
             require_text(repository[field], f"{name}.{field}")
         if not isinstance(repository["localCheckout"], bool):
             raise PortfolioError(f"{name}.localCheckout must be a boolean")
+        source_ref = require_text(repository.get("sourceRef", "dev"), f"{name}.sourceRef")
+        if source_ref not in {"dev", "main"}:
+            raise PortfolioError(f"{name}.sourceRef must be dev or main")
         role = require_text(repository["role"], f"{name}.role")
-        if role not in ROLE_COUNTS:
+        if role not in ROLES:
             raise PortfolioError(f"{name} has unsupported role {role!r}")
-        if role in {"release-candidate", "concept"}:
-            for field in ("stage", "focus"):
+        disposition = require_text(repository["disposition"], f"{name}.disposition")
+        if disposition not in DISPOSITIONS:
+            raise PortfolioError(f"{name} has unsupported disposition {disposition!r}")
+        if role not in PRODUCT_ROLES and disposition == "active":
+            raise PortfolioError("only product repositories may have active disposition")
+        if role in PRODUCT_ROLES:
+            for field in ("stage", "focus", "targetDataModel"):
                 require_text(repository.get(field), f"{name}.{field}")
         if role == "release-candidate":
             require_text(repository.get("launchEvidence"), f"{name}.launchEvidence")
@@ -196,65 +212,92 @@ def validate_manifest(manifest: dict[str, Any]) -> None:
         if repository["localCheckout"] and not required_paths:
             raise PortfolioError(f"{name} is missing requiredPaths")
         for path_index, relative_path in enumerate(required_paths or []):
-            validate_relative_path(
-                relative_path, f"{name}.requiredPaths[{path_index}]"
-            )
-
+            validate_relative_path(relative_path, f"{name}.requiredPaths[{path_index}]")
     if len(names) != len(set(names)):
         duplicates = sorted(name for name, count in Counter(names).items() if count > 1)
         raise PortfolioError(f"duplicate repositories: {', '.join(duplicates)}")
 
-    role_counts = Counter(repository["role"] for repository in repositories)
-    if dict(role_counts) != ROLE_COUNTS:
-        raise PortfolioError(
-            f"repository role counts must be {ROLE_COUNTS}, found {dict(role_counts)}"
-        )
-
     repository_names = set(names)
+    virtual_products = manifest.get("virtualProducts")
+    if not isinstance(virtual_products, list):
+        raise PortfolioError("virtualProducts must be a list")
+    virtual_ids: list[str] = []
+    for index, product in enumerate(virtual_products):
+        if not isinstance(product, dict):
+            raise PortfolioError(f"virtualProducts[{index}] must be an object")
+        product_id = validate_repository_name(product.get("id"), "virtual product id")
+        virtual_ids.append(product_id)
+        if product_id in repository_names:
+            raise PortfolioError("virtual product id collides with a repository")
+        if product.get("role") != "concept":
+            raise PortfolioError("virtual products must be concepts")
+        disposition = require_text(product.get("disposition"), f"{product_id}.disposition")
+        if disposition not in {"active", "research"}:
+            raise PortfolioError("virtual product disposition must be active or research")
+        for field in (
+            "displayName", "stage", "focus", "status", "next", "concern", "targetDataModel"
+        ):
+            require_text(product.get(field), f"{product_id}.{field}")
+        source_repository = validate_repository_name(
+            product.get("sourceRepository"), f"{product_id}.sourceRepository"
+        )
+        if source_repository not in repository_names:
+            raise PortfolioError("virtual product references unknown source repository")
+        validate_relative_path(product.get("sourcePath"), f"{product_id}.sourcePath")
+    if len(virtual_ids) != len(set(virtual_ids)):
+        raise PortfolioError("duplicate virtual product id")
+
+    products = {
+        repository["name"]: repository
+        for repository in repositories
+        if repository["role"] in PRODUCT_ROLES
+    }
+    products.update({product["id"]: product for product in virtual_products})
+    for repository in repositories:
+        target = repository.get("consolidatesInto")
+        if repository["disposition"] == "consolidating":
+            validate_repository_name(target, f"{repository['name']}.consolidatesInto")
+            if target not in products or products[target]["disposition"] != "active":
+                raise PortfolioError("consolidation target must be an active product")
+            if target == repository["name"]:
+                raise PortfolioError("repository cannot consolidate into itself")
+        elif target is not None:
+            raise PortfolioError("only consolidating repositories may declare consolidatesInto")
+
+    active_products = {
+        product_id for product_id, product in products.items()
+        if product["disposition"] == "active"
+    }
     launch_order = manifest.get("launchOrder")
-    if not isinstance(launch_order, list) or len(launch_order) != 7:
-        raise PortfolioError("launchOrder must contain exactly seven repositories")
+    if not isinstance(launch_order, list) or not launch_order:
+        raise PortfolioError("launchOrder must be a non-empty list")
     for index, name in enumerate(launch_order):
         validate_repository_name(name, f"launchOrder[{index}]")
     if len(launch_order) != len(set(launch_order)):
         raise PortfolioError("launchOrder contains duplicates")
-    release_candidates = {
-        repository["name"]
-        for repository in repositories
-        if repository["role"] == "release-candidate"
-    }
-    if set(launch_order) != release_candidates:
-        raise PortfolioError("launchOrder must contain every release candidate exactly once")
+    if set(launch_order) != active_products:
+        raise PortfolioError("launchOrder must contain every active product exactly once")
 
     product_lineup = manifest.get("productLineup")
-    if not isinstance(product_lineup, list) or len(product_lineup) != 17:
-        raise PortfolioError("productLineup must contain exactly seventeen products")
+    if not isinstance(product_lineup, list):
+        raise PortfolioError("productLineup must be a list")
     for index, name in enumerate(product_lineup):
         validate_repository_name(name, f"productLineup[{index}]")
     if len(product_lineup) != len(set(product_lineup)):
         raise PortfolioError("productLineup contains duplicates")
-    product_repositories = {
-        repository["name"]
-        for repository in repositories
-        if repository["role"] in {"release-candidate", "concept"}
-    }
-    if set(product_lineup) != product_repositories:
+    if set(product_lineup) != set(products):
         raise PortfolioError(
-            "productLineup must contain every concept and release candidate exactly once"
+            "productLineup must contain every physical and virtual product exactly once"
         )
 
     data_matrix = manifest.get("dataMatrix")
-    if not isinstance(data_matrix, list) or len(data_matrix) != 8:
-        raise PortfolioError("dataMatrix must contain the seven launch apps and Hub/waitlists")
+    if not isinstance(data_matrix, list):
+        raise PortfolioError("dataMatrix must be a list")
     if any(not isinstance(row, dict) for row in data_matrix):
         raise PortfolioError("every dataMatrix row must be an object")
     matrix_fields = {
-        "product",
-        "repository",
-        "defaultDataLocation",
-        "remoteServices",
-        "paidBoundary",
-        "guardrails",
+        "product", "productId", "defaultDataLocation", "remoteServices",
+        "paidBoundary", "guardrails", "targetDataModel",
     }
     for row in data_matrix:
         missing = matrix_fields - row.keys()
@@ -264,30 +307,30 @@ def validate_manifest(manifest: dict[str, Any]) -> None:
                 f"{', '.join(sorted(missing))}"
             )
         product = require_text(row["product"], "dataMatrix.product")
-        validate_repository_name(row["repository"], f"dataMatrix[{product}].repository")
-        for field in (
-            "defaultDataLocation",
-            "remoteServices",
-            "paidBoundary",
-            "guardrails",
-        ):
+        validate_repository_name(row["productId"], f"dataMatrix[{product}].productId")
+        for field in matrix_fields - {"product", "productId"}:
             require_text(row[field], f"dataMatrix[{product}].{field}")
-        if row["repository"] not in repository_names:
-            raise PortfolioError(
-                f"dataMatrix references unknown repository {row['repository']}"
-            )
-    matrix_repositories = [row["repository"] for row in data_matrix]
-    if len(matrix_repositories) != len(set(matrix_repositories)):
-        raise PortfolioError("dataMatrix contains duplicate repositories")
-    expected_matrix = release_candidates | {"Majestic-Made-Hub"}
-    if set(matrix_repositories) != expected_matrix:
-        raise PortfolioError(
-            "dataMatrix must contain every release candidate and Majestic-Made-Hub"
-        )
+        if row["productId"] not in set(products) | {"Majestic-Made-Hub"}:
+            raise PortfolioError(f"dataMatrix references unknown product {row['productId']}")
+    matrix_ids = [row["productId"] for row in data_matrix]
+    if len(matrix_ids) != len(set(matrix_ids)):
+        raise PortfolioError("dataMatrix contains duplicate products")
+    if set(matrix_ids) != active_products | {"Majestic-Made-Hub"}:
+        raise PortfolioError("dataMatrix must contain every active product and Majestic-Made-Hub")
 
 
 def repositories_by_name(manifest: dict[str, Any]) -> dict[str, dict[str, Any]]:
     return {repository["name"]: repository for repository in manifest["repositories"]}
+
+
+def products_by_id(manifest: dict[str, Any]) -> dict[str, dict[str, Any]]:
+    products = {
+        repository["name"]: repository
+        for repository in manifest["repositories"]
+        if repository["role"] in PRODUCT_ROLES
+    }
+    products.update({product["id"]: product for product in manifest["virtualProducts"]})
+    return products
 
 
 def generated_block(identifier: str, body: str) -> str:
@@ -300,27 +343,38 @@ def generated_block(identifier: str, body: str) -> str:
 
 def render_status(manifest: dict[str, Any]) -> str:
     rows = [
-        "| Repository | Status | What should happen next | Problems or concerns |",
-        "| --- | --- | --- | --- |",
+        "| Repository | Disposition | Current evidence | What should happen next | Problems or concerns |",
+        "| --- | --- | --- | --- | --- |",
     ]
     for repository in manifest["repositories"]:
         rows.append(
-            "| {displayName} | {status} | {next} | {concern} |".format(
+            "| {displayName} | {disposition} | {status} | {next} | {concern} |".format(
                 **{
                     field: markdown_text(repository[field])
-                    for field in ("displayName", "status", "next", "concern")
+                    for field in ("displayName", "disposition", "status", "next", "concern")
                 }
             )
         )
 
     counts = Counter(repository["role"] for repository in manifest["repositories"])
+    virtual_count = len(manifest["virtualProducts"])
+    virtual_summary = (
+        "There is also 1 Hub-only concept without a repository. "
+        if virtual_count == 1
+        else f"There are also {virtual_count} Hub-only concepts without repositories. "
+    )
     summary = (
         f"The organization has {len(manifest['repositories'])} repositories: "
         f"{counts['release-candidate']} functional release candidates, "
-        f"{counts['concept']} concept-only product repositories, and "
+        f"{counts['concept']} concept/research product repositories, "
         f"{counts['shared']} shared, governance, legal, website, template, or "
-        "infrastructure repositories. The implementation count is seven; the shared "
-        "public-release gate is not complete."
+        f"infrastructure repositories, and {counts['experimental']} excluded experimental "
+        f"repositories. {virtual_summary}"
+        f"The sequential queue has {len(manifest['launchOrder'])} "
+        "products across implementation stages; queue position does not establish readiness. "
+        "The template and all seven existing apps must first adopt and qualify the shared "
+        f"foundation (recorded status: {manifest['foundationStandard']['status']}); "
+        "then each product completes its independent release gate."
     )
     body = "\n".join(
         [
@@ -352,16 +406,16 @@ def render_status(manifest: dict[str, Any]) -> str:
 
 
 def render_launch_table(manifest: dict[str, Any]) -> str:
-    repositories = repositories_by_name(manifest)
+    products = products_by_id(manifest)
     rows = [
-        "| Order | Product | Current evidence | Next release milestone | Main concern |",
+        "| Order | Product | Recorded implementation evidence | Next release milestone | Main concern |",
         "| --- | --- | --- | --- | --- |",
     ]
     for order, name in enumerate(manifest["launchOrder"], start=1):
-        repository = repositories[name]
+        repository = products[name]
         rows.append(
             f"| {order} | {markdown_text(repository['displayName'])} | "
-            f"{markdown_text(repository['launchEvidence'])} | "
+            f"{markdown_text(repository.get('launchEvidence', repository['status']))} | "
             f"{markdown_text(repository['next'])} | "
             f"{markdown_text(repository['concern'])} |"
         )
@@ -369,13 +423,13 @@ def render_launch_table(manifest: dict[str, Any]) -> str:
 
 
 def render_profile_table(manifest: dict[str, Any]) -> str:
-    repositories = repositories_by_name(manifest)
+    products = products_by_id(manifest)
     rows = [
         "| Product | Focus | Stage |",
         "| --- | --- | --- |",
     ]
     for name in manifest["productLineup"]:
-        repository = repositories[name]
+        repository = products[name]
         rows.append(
             f"| {markdown_text(repository['displayName'])} | "
             f"{markdown_text(repository['focus'])} | "
@@ -386,8 +440,8 @@ def render_profile_table(manifest: dict[str, Any]) -> str:
 
 def render_data_matrix(manifest: dict[str, Any]) -> str:
     rows = [
-        "| Product | Default data location | Remote services | Paid boundary | Mandatory guardrails |",
-        "| --- | --- | --- | --- | --- |",
+        "| Product | Current data location | Current remote services | Commercial direction | Approved product direction | Guardrails / remaining work |",
+        "| --- | --- | --- | --- | --- | --- |",
     ]
     for row in manifest["dataMatrix"]:
         rows.append(
@@ -395,6 +449,7 @@ def render_data_matrix(manifest: dict[str, Any]) -> str:
             f"{markdown_text(row['defaultDataLocation'])} | "
             f"{markdown_text(row['remoteServices'])} | "
             f"{markdown_text(row['paidBoundary'])} | "
+            f"{markdown_text(row['targetDataModel'])} | "
             f"{markdown_text(row['guardrails'])} |"
         )
     return generated_block("data-cost-matrix", "\n".join(rows))
@@ -624,6 +679,20 @@ def verify_workspace(manifest: dict[str, Any], workspace_root: Path) -> None:
                 raise PortfolioError(f"{name}: evidence path escapes checkout")
             if not evidence_path.exists():
                 failures.append(f"{name}: missing {relative_path}")
+    local_repositories = {
+        repository["name"] for repository in manifest["repositories"]
+        if repository["localCheckout"]
+    }
+    for product in manifest.get("virtualProducts", []):
+        source_repository = product["sourceRepository"]
+        if source_repository not in local_repositories:
+            continue
+        source_checkout = (workspace_root / source_repository).resolve(strict=False)
+        source_path = (source_checkout / product["sourcePath"]).resolve(strict=False)
+        if not source_path.is_relative_to(source_checkout):
+            raise PortfolioError("virtual product source escapes checkout")
+        if not source_path.is_file():
+            failures.append(f"{product['id']}: missing source {product['sourcePath']}")
     if failures:
         raise PortfolioError("workspace evidence failed:\n- " + "\n- ".join(failures))
 
@@ -682,13 +751,14 @@ def verify_github(manifest: dict[str, Any], owner: str) -> None:
         if repository["role"] != "concept":
             continue
         repository_name = validate_repository_name(repository["name"])
+        source_ref = repository.get("sourceRef", "dev")
         raw_tree = run_command(
             [
                 "gh",
                 "api",
-                f"repos/{owner}/{repository_name}/git/trees/dev?recursive=1",
+                f"repos/{owner}/{repository_name}/git/trees/{source_ref}?recursive=1",
             ],
-            f"read dev tree for {owner}/{repository_name}",
+            f"read {source_ref} tree for {owner}/{repository_name}",
         )
         tree_payload = decode_json(raw_tree, "GitHub tree", dict)
         if tree_payload.get("truncated") is not False:
@@ -706,7 +776,10 @@ def verify_github(manifest: dict[str, Any], owner: str) -> None:
                 raise PortfolioError(f"{repository_name}: tree item {index} is malformed")
             if item_type == "blob":
                 files.add(path)
-        unexpected = sorted(files - CONCEPT_REMOTE_ALLOWLIST)
+        unexpected = sorted(
+            path for path in files - CONCEPT_REMOTE_ALLOWLIST
+            if not (path.startswith("docs/") and path.endswith(".md"))
+        )
         if "README.md" not in files or unexpected:
             details = []
             if "README.md" not in files:

@@ -14,7 +14,9 @@ take precedence over this organization default.
 
 1. Start from the current `dev` branch and keep the change focused.
 2. Follow the repository's setup, test, formatting, and static-analysis instructions.
-3. Add or update tests for changed behavior.
+3. Add or update tests for changed behavior. Consumer mobile work follows the
+   [shared foundation standard](portfolio/STACK_STANDARD.md); run the read-only local adoption checker
+   and preserve honest source-bound evidence before release.
 4. Document changes to data collection, storage, retention, deletion, authentication, cloud use,
    third-party services, or recurring cost.
 5. Open the pull request against `dev`. The `main` branch is release-only and is updated by

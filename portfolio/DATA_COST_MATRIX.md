@@ -1,28 +1,63 @@
 # Data and Cost Matrix
 
-Review this file before adding any SDK, hosted feature, background job, or externally stored field.
-Dollar budgets must be approved by both founders before external testing because provider prices can
-change. Free features must have a bounded worst-case cost.
+The [shared foundation standard](STACK_STANDARD.md) is implemented across the seven current
+consumer apps. Local analysis/tests and both native release builds pass; physical-device, native-store
+and immutable-package qualification remain pending before any app release.
+
+Updated November 3, 2026. Current columns describe implemented behavior; concept rows remain
+planning only. The approved-direction column includes continuing constraints and explicit deferrals.
+Archived cloud/subscription code and dated reports are historical evidence, not the active mobile
+operating model. Static PWA browser storage is explicitly distinct from encrypted native storage.
 
 <!-- BEGIN GENERATED: data-cost-matrix -->
-| Product | Default data location | Remote services | Paid boundary | Mandatory guardrails |
-| --- | --- | --- | --- | --- |
-| Apiary | Encrypted SQLite and app-private files | Apple purchase processing only | One-time permanent unlock | No automatic upload; manual encrypted backup; no analytics |
-| ReachMe | SQLite/browser storage | Optional Cloudflare D1 links; Apple/RevenueCat purchases | More profiles, links, and premium styling | Field-by-field publish consent; 10-link cap; 12-month expiry; revoke/delete; request limits |
-| RideBinder | Local SQLite and files | Optional Supabase Auth/Postgres/Storage/Functions, RevenueCat, NHTSA, and optional OpenAI extraction | Cloud backup/sync/share and remote extraction | Remote flags off by default; 1 GB/user storage cap; five-link cap; AI rate cap; 90-day post-Pro purge |
-| RoutineCue | Supabase account data with small local caches | Supabase, RevenueCat, Firebase/APNs | Plus/Pro household features | Private proof bucket; Free 7-day, Plus 90-day, Pro 12-month proof retention; daily cleanup; device/session limits |
-| Paws | AES-256-GCM encrypted app-private vault; key/verifier in platform secure storage | RevenueCat and store purchase processing only | Creating pets and health records | No account/backend/analytics; single-device v1; Android backup and transfer disabled; on-device PDF export |
-| Almanac | Encrypted on-device vault | RevenueCat and store purchase processing only | Creating inventory/tastings and encrypted note import/share | No account/backend/analytics; single-device v1; encrypted single-note transfer; no remote valuation |
-| Use By | Encrypted on-device inventory | RevenueCat and store purchase processing only | Adding inventory items | No account/backend/database/analytics; single-device v1; manual CSV export; suggested dates remain editable |
-| Hub/waitlists | Browser plus Supabase submissions | Supabase and hosting | Business overhead | Collect email and product only; consent copy, deletion process, and field bounds; production bot/rate controls still required |
+| Product | Current data location | Current remote services | Commercial direction | Approved product direction | Guardrails / remaining work |
+| --- | --- | --- | --- | --- | --- |
+| Skepbook | Shared encrypted SQLite and encrypted app-private attachments | Explicit native Apple/Google store actions; cached ownership loads locally | Native one-time permanent unlock implemented; established pricing preserved | Keep the existing encrypted offline logbook, manual encrypted backups, no account or analytics, and permanent unlock. | No automatic record upload or analytics; owner-encrypted backups; physical/store/provenance qualification pending |
+| Ridelore | Shared encrypted SQLite and encrypted attachments; processing stays on device | Explicit native store actions and optional user-requested identity/recall lookup | Native permanent local premium unlock implemented; pricing/store transaction QA pending | Local motorcycle binder and user-controlled encrypted backups; permanent local premium unlock; on-device processing; optional user-owned sync later. | Hosted provider source archived; preserve encrypted owner recovery; no managed sync, hosted binder or remote AI in this release; disclose optional lookup |
+| Paws | Shared encrypted SQLite containing authenticated legacy pet-vault envelopes | Explicit native Apple/Google store actions; cached ownership loads locally | Native permanent local premium unlock implemented; store/pricing QA pending | Local pet records and user-controlled PDF/backup exports; permanent local premium unlock; no veterinary diagnosis or required account. | No mandatory hosted account or analytics; native backup exclusions; local PDF and complete encrypted owner recovery; physical/store/provenance qualification pending |
+| Pantry Clock | Shared encrypted SQLite containing authenticated legacy inventory envelopes | Explicit native Apple/Google store actions; cached ownership loads locally | Native permanent local premium unlock implemented; store/pricing QA pending | Local food inventory and editable date suggestions; user-controlled exports/recovery and permanent local premium unlock; no required catalog service. | No mandatory hosted account or analytics; local CSV plus complete encrypted owner recovery; editable dates; physical/store/provenance qualification pending |
+| Fine Notes | Shared encrypted SQLite containing authenticated legacy tasting-vault envelopes | Explicit native Apple/Google store actions; cached ownership loads locally | Native permanent local premium unlock implemented; store/pricing QA pending | Keep wine, whiskey, coffee, and cigars in one local tasting app; deliberate encrypted sharing, manual valuations, and permanent local premium unlock. | Selected-note encrypted sharing and complete encrypted owner recovery; no remote valuation; physical/store/provenance qualification pending |
+| Namefold | Native shared encrypted SQLite; separate static PWA uses unencrypted browser drafts/JSON backups | Native store actions only in wallet; initial static-site download for PWA; no hosted contact/link API | Native permanent-unlock integration implemented; PWA is free/account-free; store/pricing QA pending | Encrypted native contact wallet with QR/vCard exchange and owner backups; separate free static PWA with unencrypted browser drafts/JSON backups; managed links deferred. | Native encrypted recovery differs from unencrypted browser backup; old Worker/D1 source archived; managed links deferred, user-owned hosting later; publication paused |
+| Daymerit | Shared encrypted SQLite on parent/shared tablet; no required hosted household account | Explicit native Apple/Google store actions; local reminders/proofs do not require a record server | Native permanent local premium unlock implemented; store/pricing QA pending | Local parent/shared-tablet chores and allowance records; permanent local premium unlock; no managed storage of child records; user-owned family sync only later. | Parent PIN boundaries, bounded authenticated owner recovery and local child board implemented; hosted source archived; user-owned family sync later; physical/store/provenance qualification pending |
+| Turnstamp | No implemented application; planning only | No implemented application services | Target: permanent local premium unlock | On-device job evidence and deliberate client PDF exports; permanent local premium unlock; no mandatory location upload or job server. | Verify encryption, recovery, selective export, and accurate disclosures before release |
+| What We Own | No implemented application; planning only | No implemented application services | Target: permanent local premium unlock | One local home-and-move inventory with user-controlled backups and claim-oriented exports; on-device entry assistance; permanent local premium unlock. | Verify encryption, recovery, selective export, and accurate disclosures before release |
+| Creelmark | No implemented application; planning only | No implemented application services | Target: permanent local premium unlock | Private local fishing journal; omit locations and photo metadata from exports by default unless selected; optional user-owned hosting later. | Verify encryption, recovery, selective export, and accurate disclosures before release |
+| Campsake | No implemented application; planning only | No implemented application services | Target: permanent local premium unlock | Local camping/RV trip journal with deliberate recap exports and user-controlled backup; no required trip server. | Verify encryption, recovery, selective export, and accurate disclosures before release |
+| Tender Days | No implemented application; planning only | No implemented application services | Target: permanent local premium unlock | On-device baby-care journal; deliberate caregiver summaries; optional local-network or user-owned sharing only after verification. | Verify encryption, recovery, selective export, and accurate disclosures before release |
+| Divefolio | No implemented application; planning only | No implemented application services | Target: permanent local premium unlock | Offline dive logbook and selected exports; no dive-computer replacement, live safety decision, or certification-acceptance promise. | Verify encryption, recovery, selective export, and accurate disclosures before release |
+| Brassmark | No implemented application; planning only | No implemented application services | Target: permanent local premium unlock | Separate encrypted local firearm/range records, maintenance counts, and deliberate exports; no centralized registry or compliance claim. | Verify encryption, recovery, selective export, and accurate disclosures before release |
+| Object Lore | No implemented application; planning only | No implemented application services | Target: permanent local premium unlock | Local specialist collection records, manual value history, user-controlled recovery and exports; no required valuation feed. | Verify encryption, recovery, selective export, and accurate disclosures before release |
+| Quiet Arcade | No implemented application; planning only | No implemented application services | Target: permanent local premium unlock | Offline puzzles and device-local progress, with no game server, accounts, advertisements, or analytics. | Verify encryption, recovery, selective export, and accurate disclosures before release |
+| Lockbox | No implemented application; planning only | No implemented application services | Target: permanent local premium unlock | Encrypted on-device estate documents and explicit encrypted export/handoff; no autonomous delivery promise or mandatory managed vault. | Verify encryption, recovery, selective export, and accurate disclosures before release |
+| Hub/waitlists | Cloudflare D1 form implementation; publication paused | Cloudflare Pages/Functions/D1 and anti-abuse tooling; no relaunch authorized | Business overhead | Keep website publication paused; any future waitlist is a minimal, disclosed business-contact flow separate from consumer app records. | Consent, bounds, retention, deletion, bot/rate controls; preserve the 2026-10-24 website pause |
 <!-- END GENERATED: data-cost-matrix -->
 
-## Approval Checklist for Any Remote Feature
+## Portfolio defaults
 
-- List every transmitted and retained field, processor, region if material, purpose, and retention.
-- Define authentication, authorization, encryption, export, deletion, incident, and provider-exit paths.
-- Set per-user quotas, endpoint rate limits, storage lifecycle rules, and a remote kill switch.
-- Record fixed monthly cost, cost per active free user, cost per paid user, and a high-usage scenario.
-- Configure spend alerts before real users; investigate at 50%, 75%, and 90% of the approved budget.
-- Charge for recurring-cost features at a margin that survives store fees and the high-usage scenario.
-- Update privacy, terms, support, store disclosures, tests, and marketing before enabling the feature.
+- Native consumer records remain encrypted on-device; exports happen through deliberate user
+  actions. Namefold's separate static PWA keeps browser drafts/JSON backups unencrypted. No app
+  requires a hosted record account or Majestic-operated record storage.
+- Optional customer-owned servers may be offered later, with tested installation, pairing,
+  encryption, access, recovery, and upgrade behavior. Running a server in Majestic's account is
+  company hosting, not customer self-hosting. Self-hosting is not an implemented portfolio promise.
+- Native permanent-unlock integration is implemented across all seven apps; keep Skepbook's
+  established SKU/pricing. Existing records and basic export remain accessible. Disclose native
+  Apple/Google billing metadata; RevenueCat source is archived and is not an active mobile service.
+- Encrypted owner backup/recovery is implemented across all seven native apps with documented
+  bounds and retained legacy readers where applicable. Validate physical-device, cancellation,
+  cross-platform and large-vault behavior before release. Reports, CSVs and selected-note sharing are separate
+  export capabilities and do not by themselves establish restorable full-vault recovery.
+- Network lookups, public contact publishing, website forms, and remote AI each require their own
+  field-level explanation. Prefer on-device processing and user-triggered export. Defer managed
+  public links, hosted binders, child proof storage, and remote document AI in local release targets.
+- Keep the October 24 website pause. The Hub's current form implementation is Cloudflare D1,
+  distinct from consumer records; legacy Supabase form descriptions are superseded.
+
+## Before enabling any remote capability
+
+- Document transmitted fields, purpose, recipient/server owner, retention, deletion, and consent.
+- Verify access controls, encryption, export/recovery, endpoint limits, outage behavior, and the
+  user's ability to stop using the service without losing local records.
+- Record per-user cost and high-usage limits for any company service; configure quotas and spend
+  alerts before real data. Do not create paid plans, accounts, or infrastructure in a docs pass.
+- Reconcile actual binaries, support, privacy/legal pages, and store disclosures before release.
