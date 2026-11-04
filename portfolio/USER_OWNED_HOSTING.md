@@ -1,7 +1,7 @@
 # Optional user-owned hosting
 
-Approved and review findings resolved November 4, 2026. **Shared reference source is implemented;
-production service qualification and consumer adoption remain pending.** This extends the [shared foundation](STACK_STANDARD.md).
+Approved and review findings resolved November 4, 2026. **Shared reference source is published and Pantry Clock’s regular build adopts it;
+production service and physical/store qualification remain pending.** This extends the [shared foundation](STACK_STANDARD.md).
 Current runtime dependencies, immutable package revisions and foundation qualification keep
 their existing scope. Hosting adds no current-launch prerequisite. The
 [17-product release order](LAUNCH_SLATE.md), approved base prices, website pause and independent
@@ -142,7 +142,10 @@ record service or Majestic app account is introduced by this design.
 The [template guidance](https://github.com/MAJESTIC-MADE-LLC/App-Template/blob/dev/docs/USER_OWNED_HOSTING.md)
 links the four detailed contracts. The optional reference now exports packages/APIs and a separate
 reference generator; see its [runbook](https://github.com/MAJESTIC-MADE-LLC/App-Template/blob/dev/docs/HOSTING_REFERENCE_RUNBOOK.md)
-and implementation report. Keep current consumer machine policies and immutable package pins intact.
+and implementation report. Core consumer pins remain intact. The three optional modules are published together at immutable
+`3c81cd84da760e17ec358799156e66014a2651e4`, registered as an explicit capability and adopted only
+by Pantry Clock. Its former pilot is a thin harness over the regular implementation. Policy rejects
+mutable refs, unapproved consumers, source overrides and mismatched harness dependencies.
 A source commit, passing unit test or simulator build does not qualify signed service installation,
 physical devices, live-store grants or product migrations.
 
@@ -183,5 +186,8 @@ Before adopting hosting in apps, record source-bound evidence for the detailed c
 - Owner/member cross-store access, limits, refund/expiry/outage/clock handling, content-free metadata
   services and recovery/export without any paid grant or host.
 
-These tests have **not** run for a hosting runtime. Documentation validation does not qualify
-future binaries. Physical-device, native-store and individual product approvals remain required.
+Local source tests now cover real TLS/MLS/storage traffic, atomic quantities/migration, grant
+rejection and disconnected recovery in the reference and Pantry Clock. Pantry’s regular native
+build evidence is recorded separately from its earlier pilot evidence. Signed services, live
+store attribution and physical-device qualification are still pending; local fixtures do not
+qualify those operational boundaries. Physical-device, native-store and individual product approvals remain required.

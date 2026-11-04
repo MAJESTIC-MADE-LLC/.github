@@ -85,3 +85,16 @@ local Pantry/shared-source bindings and dependency/lock fingerprints are registe
 versions, and rejects hosting packages leaking into the production app graph. This permits source
 implementation and native engineering builds before a new shared Git revision is published. It
 does not relax production provenance or release qualification, or adopt a second product.
+
+## Explicit optional hosting adoption
+
+Pantry Clock’s regular app and thin integration harness now resolve the three optional modules
+from published Git revision `3c81cd84da760e17ec358799156e66014a2651e4`. The four core pins remain
+unchanged. `hostingPolicy` requires the complete package set, explicit `user_owned_hosting`
+capability, approved consumer identity, exact transitive pins, native LAN permission/disclosure
+and verified Git/cache provenance. A thin harness may use only its registered parent app as a
+local source and must agree with its parent’s optional sources. Overrides and moving refs fail.
+
+Only the two reviewed Pantry dependency fingerprints were updated. Existing qualification
+records were not restamped. Native iOS linker configuration is covered by staged-input guards;
+native binaries and generated provenance remain ignored. Each later product adopts deliberately.

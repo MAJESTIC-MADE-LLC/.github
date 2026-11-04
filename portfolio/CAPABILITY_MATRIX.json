@@ -121,7 +121,8 @@
         "contacts": "not_applicable",
         "widgets": "not_applicable",
         "network_lookup": "not_applicable",
-        "selected_encrypted_share": "not_applicable"
+        "selected_encrypted_share": "not_applicable",
+        "user_owned_hosting": "required"
       }
     },
     {

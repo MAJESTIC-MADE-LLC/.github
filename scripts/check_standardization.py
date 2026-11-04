@@ -75,6 +75,39 @@ def cohort_errors(standard: dict, matrix: dict) -> list[str]:
     return errors
 
 
+def hosting_policy_errors(standard: dict) -> list[str]:
+    policy = standard.get('hostingPolicy')
+    if policy is None:
+        return []
+    errors = []
+    packages = policy.get('packages', [])
+    approved = policy.get('approvedConsumers', [])
+    applications = {c['id'] for c in standard['consumers'] if c['kind'] == 'application'}
+    if policy.get('capability') != 'user_owned_hosting':
+        errors.append('hosting policy requires the explicit user_owned_hosting capability')
+    if (not isinstance(packages, list) or len(packages) != 3 or
+            set(packages) != {'majestic_hosting', 'majestic_sync', 'majestic_sync_crypto'}):
+        errors.append('hosting policy must register the complete three-package implementation')
+    if (not isinstance(approved, list) or len(approved) != len(set(approved)) or
+            set(approved) - applications or not approved):
+        errors.append('hosting approved consumers must be explicit, unique native applications')
+    sources = []
+    for name in packages:
+        config = standard.get('optionalSharedPackages', {}).get(name, {})
+        if config.get('capabilities') != [policy.get('capability')]:
+            errors.append(f'{name}: hosting package capability differs from canonical policy')
+        try:
+            source = foundation.git_descriptor(config.get('git'))
+            sources.append((source['url'], source['ref']))
+            if source['path'] != f'packages/{name}':
+                errors.append(f'{name}: hosting source path differs from its package identity')
+        except foundation.FoundationError as error:
+            errors.append(f'{name}: {error}')
+    if len(set(sources)) > 1:
+        errors.append('hosting modules must resolve together from one approved immutable foundation revision')
+    return errors
+
+
 def check_node(root: Path, policy: dict, framework: bool) -> list[str]:
     errors = []
     version = policy['nodeExact']
@@ -111,7 +144,7 @@ def check_node(root: Path, policy: dict, framework: bool) -> list[str]:
 
 
 def check_development_pilot(workspace: Path, profile: dict, standard: dict) -> list[str]:
-    """An explicit local composition cannot rewrite the production app graph."""
+    """Verify an explicit hosting composition and its production-source boundary."""
     errors = []
     root = foundation.within(workspace, profile['path'])
     parent = foundation.within(workspace, profile['productionApp'])
@@ -120,16 +153,43 @@ def check_development_pilot(workspace: Path, profile: dict, standard: dict) -> l
     parent_spec = foundation.parse_pubspec((parent / 'pubspec.yaml').read_text())
     parent_lock = foundation.parse_lock((parent / 'pubspec.lock').read_text())
     resolved = foundation.package_config_roots(root)
-    if profile.get('kind') != 'optional-hosting-development':
+    kind = profile.get('kind')
+    hosting_packages = set(standard.get('hostingPolicy', {}).get('packages', []))
+    if kind not in {'optional-hosting-development', 'optional-hosting-consumer'}:
         errors.append('unsupported development profile')
     if (root / '.flutter-version').read_text().strip() != standard['toolchain']['flutter']:
         errors.append('pilot Flutter pin differs from canonical baseline')
     if not spec['encryptedSqliteHook']:
         errors.append('pilot must select encrypted sqlite3mc')
     expected_paths = profile['pathSources']
+    if kind == 'optional-hosting-consumer':
+        if (root / 'pubspec_overrides.yaml').exists():
+            errors.append('qualified hosting harness overrides must be declared in its registered manifest')
+        if expected_paths != {parent_spec.get('name'): profile['productionApp']}:
+            errors.append('a qualified consumer harness may use only its regular application as a local path')
+        adopted = {c['path']: c['id'] for c in standard['consumers']}
+        if adopted.get(profile['productionApp']) not in standard.get('hostingPolicy', {}).get('approvedConsumers', []):
+            errors.append('qualified hosting harness parent is not an approved consumer')
     actual_paths = {name for name, value in spec['dependencies'].items() if 'path' in value}
     if actual_paths != set(expected_paths):
         errors.append('pilot local dependency inventory differs from registered sources')
+    if kind == 'optional-hosting-consumer':
+        for section in ('dev_dependencies', 'dependency_overrides'):
+            if any('path' in value for value in spec[section].values()):
+                errors.append('qualified hosting harness cannot introduce additional local dependency sources')
+        for name in hosting_packages:
+            config = standard.get('optionalSharedPackages', {}).get(name, {})
+            declaration = spec['dependencies'].get(name, {})
+            try:
+                approved = foundation.git_descriptor(config.get('git'))
+                if (set(declaration) - {'version', 'git'} or
+                        foundation.git_descriptor(declaration.get('git')) != approved or
+                        declaration.get('version') not in {'', config['version']}):
+                    errors.append(f'{name}: qualified harness must directly declare the approved immutable Git source')
+            except foundation.FoundationError as error:
+                errors.append(f'{name}: {error}')
+            if name in spec['dependency_overrides']:
+                errors.append(f'{name}: qualified harness cannot override hosting sources')
     for name, relative in expected_paths.items():
         expected = foundation.within(workspace, relative)
         declaration = spec['dependencies'].get(name, {})
@@ -159,12 +219,18 @@ def check_development_pilot(workspace: Path, profile: dict, standard: dict) -> l
         if (entry.get('source') != 'git' or entry.get('resolved-ref') != approved['ref'] or
                 any(entry.get(key) != value for key, value in approved.items())):
             errors.append(f'{name}: pilot core foundation must retain the approved immutable source')
+        elif name not in resolved:
+            errors.append(f'{name}: pilot package is absent from package_config')
         else:
             foundation.qualified_git_package(name, config, resolved[name], workspace,
                                              verify_provider_worktree=False)
     optional = {'majestic_hosting', 'majestic_sync', 'majestic_sync_crypto'}
-    if optional & (set(parent_spec['dependencies']) | set(parent_lock)):
+    if kind == 'optional-hosting-development' and optional & (set(parent_spec['dependencies']) | set(parent_lock)):
         errors.append('development hosting packages leaked into the production app graph')
+    if kind == 'optional-hosting-consumer':
+        for name in hosting_packages:
+            if name not in lock or name not in parent_lock or lock[name] != parent_lock[name]:
+                errors.append(f'{name}: qualified harness must resolve the same immutable hosting source as its parent')
     return errors
 
 
@@ -173,7 +239,7 @@ def check(workspace: Path) -> dict:
     standard = foundation.read_json(governance / 'portfolio/STACK_STANDARD.json')
     policy = foundation.read_json(governance / 'portfolio/STANDARDIZATION.json')
     matrix = foundation.read_json(governance / 'portfolio/CAPABILITY_MATRIX.json')
-    errors = cohort_errors(standard, matrix)
+    errors = cohort_errors(standard, matrix) + hosting_policy_errors(standard)
     repos = repositories(workspace)
     for repo in repos:
         if not repo.is_dir() or not (repo / '.git').exists():
@@ -265,6 +331,7 @@ def governed(relative: str) -> bool:
                             'portfolio/STANDARDIZATION.json', 'portfolio/REPOSITORIES.json'}
             or relative.startswith('scripts/') and relative.endswith('.py')
             or relative == 'tool/check_hosting.py'
+            or relative.startswith('ios/') and relative.endswith('.xcconfig')
             or relative.startswith('android/') and relative.endswith(('.gradle', '.kts', '.properties')))
 
 

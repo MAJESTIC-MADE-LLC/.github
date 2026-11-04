@@ -10,6 +10,7 @@ import argparse
 import hashlib
 import json
 import os
+import plistlib
 import re
 import subprocess
 import sys
@@ -17,6 +18,7 @@ from datetime import datetime
 from pathlib import Path, PurePosixPath
 from typing import Any
 from urllib.parse import unquote as uri_unquote, urlsplit
+import xml.etree.ElementTree as ET
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 STANDARD_PATH = REPO_ROOT / "portfolio/STACK_STANDARD.json"
@@ -472,6 +474,61 @@ def selected_shared_packages(standard: dict[str, Any], manifest: dict[str, Any],
     return selected
 
 
+def hosting_adoption_errors(consumer: dict[str, str], standard: dict[str, Any], manifest: dict[str, Any],
+                            pubspec: dict[str, Any], lock: dict[str, Any]) -> list[str]:
+    """Optional hosting is an explicit product adoption, never a default graph."""
+    policy = standard.get('hostingPolicy', {})
+    packages = set(policy.get('packages', []))
+    declared = set(manifest.get('packages', {})) | set(lock)
+    for section in ('dependencies', 'dev_dependencies', 'dependency_overrides'):
+        declared.update(pubspec.get(section, {}))
+    present = packages & declared
+    capability = policy.get('capability', 'user_owned_hosting')
+    enabled = manifest.get('capabilities', {}).get(capability) == 'required'
+    if not present and not enabled:
+        return []
+    errors = []
+    if consumer['kind'] != 'application' or consumer['id'] not in policy.get('approvedConsumers', []):
+        errors.append('optional hosting is not approved for this consumer; forbidden in the default template')
+    if not enabled:
+        errors.append(f'optional hosting requires declared {capability} capability')
+    for section, values in [('manifest', manifest.get('packages', {})),
+                            ('direct dependencies', pubspec.get('dependencies', {})), ('lockfile', lock)]:
+        missing = packages - set(values)
+        if missing:
+            errors.append(f'hosting {section} must include the complete approved package set: ' + ', '.join(sorted(missing)))
+    for name in packages:
+        if name in pubspec.get('dependency_overrides', {}):
+            errors.append(f'{name}: production hosting source overrides are forbidden')
+    for name, version in policy.get('dependencyPins', {}).items():
+        if lock.get(name, {}).get('version') != version:
+            errors.append(f'resolved hosting dependency {name} must be {version}')
+    return errors
+
+
+def hosting_platform_errors(app_root: Path) -> list[str]:
+    """Manual private-host pairing needs native network permission/disclosure."""
+    errors = []
+    try:
+        document = ET.parse(app_root / 'android/app/src/main/AndroidManifest.xml')
+        permission = '{http://schemas.android.com/apk/res/android}name'
+        names = {node.attrib.get(permission) for node in document.getroot().findall('uses-permission')}
+        if 'android.permission.INTERNET' not in names:
+            errors.append('hosting requires an explicit Android INTERNET permission')
+    except (OSError, ET.ParseError) as error:
+        errors.append(f'hosting Android manifest cannot be verified: {error}')
+    try:
+        info = plistlib.loads((app_root / 'ios/Runner/Info.plist').read_bytes())
+        purpose = info.get('NSLocalNetworkUsageDescription')
+        if not isinstance(purpose, str) or not purpose.strip():
+            errors.append('hosting requires an explicit iOS local-network purpose')
+        if 'NSBonjourServices' in info:
+            errors.append('manual hosting pairing must not declare unused Bonjour discovery')
+    except (OSError, ValueError, TypeError) as error:
+        errors.append(f'hosting iOS local-network disclosure cannot be verified: {error}')
+    return errors
+
+
 def inspect_consumer(consumer: dict[str, str], standard: dict[str, Any], matrix: dict[str, Any], workspace: Path, *, enforce_dev: bool = True, verify_provider_worktree: bool = True) -> dict[str, Any]:
     app_root = within(workspace, consumer["path"])
     errors: list[str] = []
@@ -502,6 +559,10 @@ def inspect_consumer(consumer: dict[str, str], standard: dict[str, Any], matrix:
     if not pubspec.get("encryptedSqliteHook"):
         errors.append("consumer must select the sqlite3mc encrypted SQLite build hook")
     lock = parse_lock((app_root / "pubspec.lock").read_text())
+    errors.extend(hosting_adoption_errors(consumer, standard, manifest, pubspec, lock))
+    hosting_policy = standard.get('hostingPolicy', {})
+    if manifest.get('capabilities', {}).get(hosting_policy.get('capability', 'user_owned_hosting')) == 'required':
+        errors.extend(hosting_platform_errors(app_root))
     selected_packages = selected_shared_packages(standard, manifest, pubspec, lock)
     for name, config in selected_packages.items():
         if name in standard.get("optionalSharedPackages", {}) and not any(
@@ -589,6 +650,27 @@ def inspect_consumer(consumer: dict[str, str], standard: dict[str, Any], matrix:
                         errors.append(f"{name} requires declared {optional['capability']} capability")
                 if approved and dependency.get("version") != approved:
                     errors.append(f"first-party {name} constraint must be exact {approved}")
+                if base != app_root and name in selected_packages:
+                    # Pub converts relative sibling dependencies inside a Git
+                    # package into Git dependencies at that same commit. Verify
+                    # the actual resolved edge, not an unrelated local folder.
+                    target = resolved_roots.get(name)
+                    if dependency.get('path') is not None:
+                        if set(dependency) != {'version', 'path'} or (base / dependency['path']).resolve() != target:
+                            errors.append(f'{name}: first-party sibling source differs from its approved resolved Git package')
+                    elif dependency.get('git') is not None:
+                        try:
+                            if (set(dependency) - {'version', 'git'} or
+                                    dependency.get('version') not in {'', selected_packages[name]['version']} or
+                                    git_descriptor(dependency['git']) != git_descriptor(selected_packages[name]['git'])):
+                                errors.append(f'{name}: first-party Git edge differs from its approved source')
+                        except FoundationError as error:
+                            errors.append(f'{name}: {error}')
+                    else:
+                        errors.append(f'{name}: maintained shared edges require the approved immutable Git source')
+                if base != app_root and name in hosting_policy.get('dependencyPins', {}) and base.name in hosting_policy.get('packages', []):
+                    if dependency.get('version') != hosting_policy['dependencyPins'][name]:
+                        errors.append(f'first-party hosting {name} constraint must be exact {hosting_policy["dependencyPins"][name]}')
                 if name in standard["networkPackages"]:
                     if consumer["kind"] == "template" or manifest.get("capabilities", {}).get("network_lookup") != "required" or not manifest.get("networkLookups"):
                         errors.append(f"direct {name} requires an app-specific disclosed network lookup; forbidden in the default template")

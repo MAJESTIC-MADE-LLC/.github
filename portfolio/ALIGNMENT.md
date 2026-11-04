@@ -124,3 +124,13 @@ This current status supersedes earlier pending-migration/design-only wording abo
 The owner explicitly authorized logical commits for all current repository changes on dev,
 pushes, direct dev-to-main promotion and matching dev branches in this turn. This authorization
 does not publish websites or apps, configure store inventory or waive release qualification.
+
+## Published Pantry Clock adoption — November 4, 2026
+
+The owner subsequently authorized pending dev pushes and regular-build hosting adoption.
+Those pending branches are pushed. Pantry Clock now consumes the published optional hosting
+modules, with its existing core pins/private-data identities preserved. Its integration harness
+imports the same regular implementation. Pairing and manual synchronization remain explicit;
+startup/cached reads do not connect, and malformed optional hosting keys cannot block the private
+vault. Live licensing, signed services and physical/store qualification remain pending. Work then
+continues through the approved hosting roadmap one app at a time; release order is unchanged.

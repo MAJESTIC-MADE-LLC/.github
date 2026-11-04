@@ -292,6 +292,42 @@
         "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
         "path": "packages/majestic_qr"
       }
+    },
+    "majestic_hosting": {
+      "path": "App-Template/packages/majestic_hosting",
+      "version": "0.1.0",
+      "capabilities": [
+        "user_owned_hosting"
+      ],
+      "git": {
+        "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+        "ref": "3c81cd84da760e17ec358799156e66014a2651e4",
+        "path": "packages/majestic_hosting"
+      }
+    },
+    "majestic_sync": {
+      "path": "App-Template/packages/majestic_sync",
+      "version": "0.1.0",
+      "capabilities": [
+        "user_owned_hosting"
+      ],
+      "git": {
+        "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+        "ref": "3c81cd84da760e17ec358799156e66014a2651e4",
+        "path": "packages/majestic_sync"
+      }
+    },
+    "majestic_sync_crypto": {
+      "path": "App-Template/packages/majestic_sync_crypto",
+      "version": "0.1.0",
+      "capabilities": [
+        "user_owned_hosting"
+      ],
+      "git": {
+        "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+        "ref": "3c81cd84da760e17ec358799156e66014a2651e4",
+        "path": "packages/majestic_sync_crypto"
+      }
     }
   },
   "resolvedPlatformDependencies": {
@@ -355,5 +391,23 @@
       "ios/Flutter/ephemeral"
     ],
     "gitPackageScope": "Every tracked package byte/mode at the approved full Git revision; SDK-generated app registrants/configuration are derived from retained pubspec/lock/native sources. Qualified release artifact hashes are recorded separately."
+  },
+  "hostingPolicy": {
+    "capability": "user_owned_hosting",
+    "approvedConsumers": [
+      "Pantry-Clock"
+    ],
+    "packages": [
+      "majestic_hosting",
+      "majestic_sync",
+      "majestic_sync_crypto"
+    ],
+    "dependencyPins": {
+      "crypto": "3.0.7",
+      "jose": "0.3.5+2",
+      "flutter_rust_bridge": "2.13.0",
+      "path": "1.9.1"
+    },
+    "scope": "Explicit optional private-network hosting; no automatic enrollment or default template backend. Source adoption is separate from device/store/service release qualification."
   }
 }

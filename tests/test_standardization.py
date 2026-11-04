@@ -111,6 +111,8 @@ class StandardizationTest(unittest.TestCase):
         self.assertTrue(guard.snapshot_errors(self.root, None))
         self.assertTrue(guard.governed('hosting/reference_app/ios/Runner/Info.plist'))
         self.assertTrue(guard.governed('hosting/reference_app/android/app/src/main/AndroidManifest.xml'))
+        self.assertTrue(guard.governed('ios/Flutter/MajesticCrypto.xcconfig'))
+        self.assertTrue(guard.governed('ios/Flutter/Release.xcconfig'))
 
     def test_hook_git_reads_ignore_inherited_cross_repository_environment(self):
         self.init_repo()
@@ -147,6 +149,75 @@ class StandardizationTest(unittest.TestCase):
         self.assertEqual(guard.cohort_errors(standard, matrix), [])
         standard['consumers'].pop()
         self.assertTrue(guard.cohort_errors(standard, matrix))
+
+    def test_optional_hosting_registry_requires_explicit_native_consumers_and_one_immutable_source(self):
+        standard = guard.foundation.read_json(guard.ROOT / 'portfolio/STACK_STANDARD.json')
+        self.assertEqual(guard.hosting_policy_errors(standard), [])
+        for change in (
+            lambda policy: policy['hostingPolicy'].update(approvedConsumers=['App-Template']),
+            lambda policy: policy['hostingPolicy'].update(approvedConsumers=['future-unregistered-app']),
+            lambda policy: policy['hostingPolicy'].update(capability='network_lookup'),
+            lambda policy: policy['hostingPolicy']['packages'].pop(),
+            lambda policy: policy['optionalSharedPackages']['majestic_sync']['git'].update(ref='dev'),
+            lambda policy: policy['optionalSharedPackages']['majestic_sync']['git'].update(ref='a' * 40),
+            lambda policy: policy['optionalSharedPackages']['majestic_sync'].update(capabilities=['network_lookup']),
+        ):
+            candidate = copy.deepcopy(standard)
+            change(candidate)
+            self.assertTrue(guard.hosting_policy_errors(candidate))
+
+    def test_qualified_harness_keeps_only_parent_path_and_the_same_three_git_modules(self):
+        parent = self.root / 'app'
+        root = parent / 'hosting_pilot'
+        root.mkdir(parents=True)
+        modules = ('majestic_hosting', 'majestic_sync', 'majestic_sync_crypto')
+        revision = 'a' * 40
+        url = 'https://github.com/MAJESTIC-MADE-LLC/App-Template.git'
+        sources = {name: {'version': '0.1.0', 'git': {
+            'url': url, 'ref': revision, 'path': f'packages/{name}'}} for name in modules}
+        dependencies = ''.join(f'  {name}:\n    git:\n      url: {url}\n      ref: {revision}\n      path: packages/{name}\n' for name in modules)
+        parent_spec = 'name: app\ndependencies:\n' + dependencies
+        pilot_spec = ('name: pilot\ndependencies:\n  app:\n    path: ..\n' + dependencies +
+                      'hooks:\n  user_defines:\n    sqlite3:\n      source: sqlite3mc\n')
+        parent_lock = 'packages:\n' + ''.join(
+            f'  {name}:\n    source: git\n    version: "0.1.0"\n    description:\n      url: {url}\n      ref: {revision}\n      resolved-ref: {revision}\n      path: packages/{name}\n' for name in modules)
+        pilot_lock = parent_lock + '  app:\n    source: path\n    description:\n      path: ..\n    version: "1.0.0"\n'
+        for name, text in [('pubspec.yaml', pilot_spec), ('pubspec.lock', pilot_lock), ('.flutter-version', '3.47.8\n')]:
+            (root / name).write_text(text)
+        (parent / 'pubspec.yaml').write_text(parent_spec)
+        (parent / 'pubspec.lock').write_text(parent_lock)
+        profile = {'path': 'app/hosting_pilot', 'productionApp': 'app',
+                   'kind': 'optional-hosting-consumer', 'pathSources': {'app': 'app'}}
+        standard = {'toolchain': {'flutter': '3.47.8'}, 'packages': {}, 'optionalSharedPackages': sources,
+                    'coreDependencies': {}, 'compatibilityDependencies': {}, 'resolvedPlatformDependencies': {},
+                    'optionalDependencies': {}, 'prohibitedProviderPrefixes': ['firebase'], 'prohibitedProviderPackages': [],
+                    'consumers': [{'id': 'Pantry-Clock', 'path': 'app', 'kind': 'application'}],
+                    'hostingPolicy': {'packages': list(modules), 'approvedConsumers': ['Pantry-Clock']}}
+        resolved = {'app': parent, **{name: self.root / name for name in modules}}
+        with patch.object(guard.foundation, 'package_config_roots', return_value=resolved), \
+                patch.object(guard.foundation, 'qualified_git_package') as qualify:
+            self.assertEqual(guard.check_development_pilot(self.root, profile, standard), [])
+            self.assertEqual(qualify.call_count, 3)
+            for spec in (pilot_spec.replace(revision, 'dev'),
+                         pilot_spec + '\ndependency_overrides:\n  majestic_sync:\n    path: ../../majestic_sync\n'):
+                (root / 'pubspec.yaml').write_text(spec)
+                self.assertTrue(guard.check_development_pilot(self.root, profile, standard))
+            (root / 'pubspec.yaml').write_text(pilot_spec)
+            hidden_override = root / 'pubspec_overrides.yaml'
+            hidden_override.write_text('dependency_overrides:\n  majestic_sync:\n    path: ../../majestic_sync\n')
+            self.assertIn('qualified hosting harness overrides must be declared in its registered manifest',
+                          guard.check_development_pilot(self.root, profile, standard))
+            hidden_override.unlink()
+            profile['pathSources']['majestic_sync'] = 'majestic_sync'
+            self.assertTrue(guard.check_development_pilot(self.root, profile, standard))
+            del profile['pathSources']['majestic_sync']
+            (parent / 'pubspec.lock').write_text(parent_lock.replace(revision, 'b' * 40))
+            self.assertTrue(any('same immutable hosting source' in error for error in
+                                guard.check_development_pilot(self.root, profile, standard)))
+            (parent / 'pubspec.lock').write_text(parent_lock)
+            standard['hostingPolicy']['approvedConsumers'] = ['another-app']
+            self.assertIn('qualified hosting harness parent is not an approved consumer',
+                          guard.check_development_pilot(self.root, profile, standard))
 
     def test_development_pilot_cannot_drift_or_leak_into_the_production_graph(self):
         parent = self.root / 'app'

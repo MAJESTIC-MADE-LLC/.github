@@ -104,8 +104,8 @@
       "lockSha256": "311b59e434c457bb2023237982e30f90e36213ba561bd0920cb4112526e86e8f"
     },
     "Pantry-Clock/pubspec.yaml": {
-      "declarationsSha256": "691aef36a15f649a7406ab3f76645200747a5579a48abe75540e8a82110079a5",
-      "lockSha256": "bc2f94b6055786905ec1a62ba09c779e70ae8f67d15c9c2a743638d7d71d1c5c"
+      "declarationsSha256": "f65bfdccd5dcb3441d749bf65be71469ba26533fce7a14ce63be26d3595ef995",
+      "lockSha256": "e48ade780d7156023015abc8683a1ac19cf1b694d54bfbcc30faa0270701c16f"
     },
     "Paws/pubspec.yaml": {
       "declarationsSha256": "1ae29ad4ced4105fcb66c127dc83afa0ef5904aa749a9b5da73aa74ae17a242c",
@@ -120,20 +120,17 @@
       "lockSha256": "e8adfb18401d9cd2113b8f0e1fc64b94c4cde90535e616980dc1eb0ac3765c06"
     },
     "Pantry-Clock/hosting_pilot/pubspec.yaml": {
-      "declarationsSha256": "acef0116b208a9921d2883f0f9cfde7013bab1d388e8408842dfd7f9e697ba80",
-      "lockSha256": "2f8a1c86b12a0c1861c923f3f666dbbc4cac6547340690db65625ca0f5bf67b4"
+      "declarationsSha256": "fb535b8ef4a6efcee315e11ede827ad321671af67323e97b75c8bbe7541e4472",
+      "lockSha256": "1caea4421ffcd0a14e2cf45f1040905a18cbc87bf9cd80721d8f9aa1b36d442b"
     }
   },
   "developmentPilots": [
     {
       "path": "Pantry-Clock/hosting_pilot",
       "productionApp": "Pantry-Clock",
-      "kind": "optional-hosting-development",
+      "kind": "optional-hosting-consumer",
       "pathSources": {
-        "pantry_clock": "Pantry-Clock",
-        "majestic_hosting": "App-Template/packages/majestic_hosting",
-        "majestic_sync": "App-Template/packages/majestic_sync",
-        "majestic_sync_crypto": "App-Template/packages/majestic_sync_crypto"
+        "pantry_clock": "Pantry-Clock"
       }
     }
   ]
