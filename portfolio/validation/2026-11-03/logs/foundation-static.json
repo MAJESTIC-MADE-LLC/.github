@@ -1,0 +1,154 @@
+{
+  "foundationVersion": "0.1.0",
+  "results": [
+    {
+      "application": "App-Template",
+      "declaredStatus": "adopting",
+      "staticAdoption": "passed",
+      "errors": [],
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "foundationEvidence": "pending",
+      "pendingEvidence": [
+        "analysis: pending",
+        "tests: pending",
+        "ios_release_build: pending",
+        "android_release_build: pending",
+        "generated_template_smoke: pending"
+      ]
+    },
+    {
+      "application": "Skepbook",
+      "declaredStatus": "adopting",
+      "staticAdoption": "passed",
+      "errors": [],
+      "sourceFingerprint": "c026f0890add55db5c7f0a97c4a7111cd3f1212f8530691d8a12ab6b0b91beda",
+      "foundationEvidence": "pending",
+      "pendingEvidence": [
+        "analysis: pending",
+        "tests: pending",
+        "ios_release_build: pending",
+        "android_release_build: pending",
+        "foundation_contracts: pending",
+        "migration_contracts: pending"
+      ]
+    },
+    {
+      "application": "Ridelore",
+      "declaredStatus": "adopting",
+      "staticAdoption": "passed",
+      "errors": [],
+      "sourceFingerprint": "67aca237d30393a48a416d6af7ce0604d0a78d92a411d5d5007a0e366ac9d0e8",
+      "foundationEvidence": "pending",
+      "pendingEvidence": [
+        "analysis: pending",
+        "tests: pending",
+        "ios_release_build: pending",
+        "android_release_build: pending",
+        "foundation_contracts: pending",
+        "migration_contracts: pending"
+      ]
+    },
+    {
+      "application": "Paws",
+      "declaredStatus": "adopting",
+      "staticAdoption": "passed",
+      "errors": [],
+      "sourceFingerprint": "1de78853f62afc3f2fbdad0ae73b78b9e4c18dcb65599148d6250aacbe434905",
+      "foundationEvidence": "pending",
+      "pendingEvidence": [
+        "analysis: pending",
+        "tests: pending",
+        "ios_release_build: pending",
+        "android_release_build: pending",
+        "foundation_contracts: pending",
+        "migration_contracts: pending"
+      ]
+    },
+    {
+      "application": "Pantry-Clock",
+      "declaredStatus": "adopting",
+      "staticAdoption": "passed",
+      "errors": [],
+      "sourceFingerprint": "9801ec36fa06e6a212c74939851c52b910fa1786ee690c79861941e0fa9953d3",
+      "foundationEvidence": "pending",
+      "pendingEvidence": [
+        "analysis: pending",
+        "tests: pending",
+        "ios_release_build: pending",
+        "android_release_build: pending",
+        "foundation_contracts: pending",
+        "migration_contracts: pending"
+      ]
+    },
+    {
+      "application": "Fine-Notes",
+      "declaredStatus": "adopting",
+      "staticAdoption": "passed",
+      "errors": [],
+      "sourceFingerprint": "c5f4766741e4c55359a6114e1cb781e3655cbcd96ba7ab92b1a4abe6cb8b410a",
+      "foundationEvidence": "pending",
+      "pendingEvidence": [
+        "analysis: pending",
+        "tests: pending",
+        "ios_release_build: pending",
+        "android_release_build: pending",
+        "foundation_contracts: pending",
+        "migration_contracts: pending"
+      ]
+    },
+    {
+      "application": "Namefold",
+      "declaredStatus": "adopting",
+      "staticAdoption": "passed",
+      "errors": [],
+      "sourceFingerprint": "790aab5c0827fa8912c342020db16337460dc0d087cfbc8334dc1e3c78691724",
+      "foundationEvidence": "pending",
+      "pendingEvidence": [
+        "analysis: pending",
+        "tests: pending",
+        "ios_release_build: pending",
+        "android_release_build: pending",
+        "foundation_contracts: pending",
+        "migration_contracts: pending"
+      ]
+    },
+    {
+      "application": "Daymerit",
+      "declaredStatus": "adopting",
+      "staticAdoption": "passed",
+      "errors": [],
+      "sourceFingerprint": "098d7268a7721399d3924a78ee1e63186768387861c031f743d46be2e9306ad7",
+      "foundationEvidence": "pending",
+      "pendingEvidence": [
+        "analysis: pending",
+        "tests: pending",
+        "ios_release_build: pending",
+        "android_release_build: pending",
+        "foundation_contracts: pending",
+        "migration_contracts: pending"
+      ]
+    }
+  ],
+  "cohortFingerprint": "a2b53fd8ebd38f5dbc0f56348c406e590a9a04cb749a052dd206c38258da0842",
+  "qualificationPending": [
+    "shared_package_tests: pending",
+    "physical_privacy_ios: pending",
+    "physical_privacy_android: pending",
+    "native_store_ios: pending",
+    "native_store_android: pending"
+  ],
+  "immutablePackageRevisions": "pending",
+  "productionPending": [
+    "App-Template: immutable_package_revisions pending (unpublished workspace resolution; production Git-source qualification remains required)",
+    "Skepbook: immutable_package_revisions pending (unpublished workspace resolution; production Git-source qualification remains required)",
+    "Ridelore: immutable_package_revisions pending (unpublished workspace resolution; production Git-source qualification remains required)",
+    "Paws: immutable_package_revisions pending (unpublished workspace resolution; production Git-source qualification remains required)",
+    "Pantry-Clock: immutable_package_revisions pending (unpublished workspace resolution; production Git-source qualification remains required)",
+    "Fine-Notes: immutable_package_revisions pending (unpublished workspace resolution; production Git-source qualification remains required)",
+    "Namefold: immutable_package_revisions pending (unpublished workspace resolution; production Git-source qualification remains required)",
+    "Daymerit: immutable_package_revisions pending (unpublished workspace resolution; production Git-source qualification remains required)"
+  ],
+  "developmentQualification": "pending",
+  "foundationGate": "pending",
+  "productReleaseQA": "separate; this checker cannot approve publication"
+}

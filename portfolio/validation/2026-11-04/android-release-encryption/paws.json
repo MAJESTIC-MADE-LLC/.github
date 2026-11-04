@@ -1,0 +1,25 @@
+{
+  "product": "paws",
+  "package": "com.majesticmade.paws",
+  "serial": "emulator-5560",
+  "api": 30,
+  "image": "Google APIs ARM64 (non-Play), new temporary AVD",
+  "offline": true,
+  "releaseArtifact": "/Users/bespin-starter/Documents/Majestic/Paws/build/app/outputs/flutter-apk/app-release.apk",
+  "releaseArtifactSha256": "7c690fe2698293cc708d83a104eab76143933080132745500463da6bdb16e4b2",
+  "installedTemporaryCopy": "/tmp/paws-patched-smoke.apk",
+  "installedCopySha256": "a3aae90b8c79627ede9f1738826a98a2f89b22d3e1fded9690f51e52778e45b6",
+  "compiledContentIdenticalToRelease": true,
+  "installedReleaseNotDebuggable": true,
+  "arm64Sqlite3mcSha256": "99a2ee91bdd6e7644fe0a8659e2c3599ea5bef2528aaecbe3ffe809ad4869b2a",
+  "databases": [
+    {
+      "path": "/data/user/0/com.majesticmade.paws/files/paws.sqlite",
+      "headerHex": "fc9a1f7eb9a95464eae3e01fd59ea542",
+      "ordinarySQLiteExit": 26,
+      "ordinarySQLiteMessage": "Error: file is not a database"
+    }
+  ],
+  "scope": "Only this owned temporary emulator/app UID. No keys read or logged. Opaque header plus ordinary-SQLite rejection complements successful app read/write; it is not a standalone security audit.",
+  "evidenceRecordedUtc": "2026-11-04T14:08:34.570534+00:00"
+}

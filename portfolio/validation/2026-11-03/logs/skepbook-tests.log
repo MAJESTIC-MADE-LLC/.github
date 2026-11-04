@@ -1,0 +1,135 @@
+00:00 +0: loading /Users/bespin-starter/Documents/Majestic/Skepbook/test/entitlement_service_test.dart
+00:00 +0: /Users/bespin-starter/Documents/Majestic/Skepbook/test/app_lock_service_test.dart: missing state preserves the opt-in lock default
+00:00 +1: /Users/bespin-starter/Documents/Majestic/Skepbook/test/entitlement_service_test.dart: starts the trial on first write instead of first launch
+00:00 +2: /Users/bespin-starter/Documents/Majestic/Skepbook/test/entitlement_service_test.dart: starts the trial on first write instead of first launch
+00:00 +3: /Users/bespin-starter/Documents/Majestic/Skepbook/test/entitlement_service_test.dart: starts the trial on first write instead of first launch
+00:00 +4: /Users/bespin-starter/Documents/Majestic/Skepbook/test/entitlement_service_test.dart: starts the trial on first write instead of first launch
+00:00 +5: /Users/bespin-starter/Documents/Majestic/Skepbook/test/entitlement_service_test.dart: starts the trial on first write instead of first launch
+00:00 +6: /Users/bespin-starter/Documents/Majestic/Skepbook/test/app_lock_service_test.dart: authentication continues to allow device credentials
+00:00 +7: /Users/bespin-starter/Documents/Majestic/Skepbook/test/app_lock_service_test.dart: authentication continues to allow device credentials
+00:00 +8: /Users/bespin-starter/Documents/Majestic/Skepbook/test/app_lock_service_test.dart: authentication continues to allow device credentials
+00:00 +9: /Users/bespin-starter/Documents/Majestic/Skepbook/test/entitlement_service_test.dart: reports trial days using the guarded entitlement clock
+00:00 +10: /Users/bespin-starter/Documents/Majestic/Skepbook/test/entitlement_service_test.dart: rolling the device clock backward cannot extend the trial
+00:00 +11: /Users/bespin-starter/Documents/Majestic/Skepbook/test/entitlement_service_test.dart: corrupt trial metadata fails closed without crashing
+00:00 +12: /Users/bespin-starter/Documents/Majestic/Skepbook/test/entitlement_service_test.dart: confirmed revocation preserves original trial clock and read access
+00:02 +13: /Users/bespin-starter/Documents/Majestic/Skepbook/test/export_service_test.dart: CSV archive keeps stable files, columns, and escaping
+00:04 +14: /Users/bespin-starter/Documents/Majestic/Skepbook/test/export_service_test.dart: CSV archive neutralizes formula strings but preserves numbers
+00:04 +15: /Users/bespin-starter/Documents/Majestic/Skepbook/test/export_service_test.dart: hive report renders locally without embedding coordinates
+00:04 +16: /Users/bespin-starter/Documents/Majestic/Skepbook/test/export_service_test.dart: bundled PDF fonts preserve supported Unicode and expose missing glyphs
+00:04 +17: /Users/bespin-starter/Documents/Majestic/Skepbook/test/export_service_test.dart: all report types embed offline fonts and stable Unicode fixtures
+00:05 +18: /Users/bespin-starter/Documents/Majestic/Skepbook/test/export_service_test.dart: long names, table cells and multi-page notes export without truncation
+00:05 +19: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: encrypted backup round-trips in replace mode
+00:05 +20: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: encrypted backup round-trips in replace mode
+00:06 +21: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: legacy Apiary backups remain restorable after rename
+00:07 +22: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: legacy Apiary backups remain restorable after rename
+00:08 +23: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore checks write access before reading the backup
+00:08 +24: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: wrong passphrase and corruption are rejected before data changes
+00:09 +25: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: wrong passphrase and corruption are rejected before data changes
+00:09 +26: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: wrong passphrase and corruption are rejected before data changes
+00:09 +27: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: wrong passphrase and corruption are rejected before data changes
+00:09 +28: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: wrong passphrase and corruption are rejected before data changes
+00:09 +29: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: wrong passphrase and corruption are rejected before data changes
+00:09 +30: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: wrong passphrase and corruption are rejected before data changes
+00:09 +31: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: wrong passphrase and corruption are rejected before data changes
+00:09 +32: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: wrong passphrase and corruption are rejected before data changes
+00:09 +33: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: wrong passphrase and corruption are rejected before data changes
+00:10 +34: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: wrong passphrase and corruption are rejected before data changes
+00:10 +35: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: wrong passphrase and corruption are rejected before data changes
+00:10 +36: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: wrong passphrase and corruption are rejected before data changes
+00:11 +37: /Users/bespin-starter/Documents/Majestic/Skepbook/test/attachment_vault_test.dart: new photos are sanitized, encrypted and rendered through memory bytes
+00:11 +38: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore rejects an oversized encrypted file before parsing
+00:11 +39: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore rejects oversized archive metadata before decoding it
+00:11 +40: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: backup creation and restore share attachment size limits
+00:12 +41: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore rejects excessive ZIP entries before archive decoding
+00:15 +42: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore rejects excessive ZIP entries before archive decoding
+00:15 +43: /Users/bespin-starter/Documents/Majestic/Skepbook/test/purchase_service_test.dart: loads only the configured permanent product
+00:15 +44: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:15 +45: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:15 +46: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:15 +47: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:15 +48: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:15 +49: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:15 +50: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +51: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +52: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +53: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +54: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +55: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +56: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +57: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +58: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +59: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +60: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +61: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +62: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +63: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +64: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +65: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +66: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +67: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +68: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +69: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +70: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +71: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +72: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +73: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +74: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +75: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore bounds actual expansion when ZIP sizes lie
+00:16 +76: /Users/bespin-starter/Documents/Majestic/Skepbook/test/database_factory_test.dart: rename opens existing encrypted records under the durable filename
+00:17 +77: /Users/bespin-starter/Documents/Majestic/Skepbook/test/database_factory_test.dart: rename opens existing encrypted records under the durable filename
+00:17 +78: /Users/bespin-starter/Documents/Majestic/Skepbook/test/database_factory_test.dart: rename opens existing encrypted records under the durable filename
+00:17 +79: /Users/bespin-starter/Documents/Majestic/Skepbook/test/database_factory_test.dart: rename opens existing encrypted records under the durable filename
+00:18 +80: /Users/bespin-starter/Documents/Majestic/Skepbook/test/database_factory_test.dart: rename opens existing encrypted records under the durable filename
+00:18 +81: /Users/bespin-starter/Documents/Majestic/Skepbook/test/database_factory_test.dart: rename opens existing encrypted records under the durable filename
+00:18 +82: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: replace restores verified attachment bytes
+00:18 +83: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: replace restores verified attachment bytes
+00:19 +84: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: replace restores verified attachment bytes
+00:19 +85: /Users/bespin-starter/Documents/Majestic/Skepbook/test/database_test.dart: export holds a consistent snapshot while another connection writes
+00:19 +86: /Users/bespin-starter/Documents/Majestic/Skepbook/test/database_factory_test.dart: startup encrypts verified legacy photos before exposing the database
+00:20 +87: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore keeps committed attachment bytes intact until DB publication
+00:20 +88: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore keeps committed attachment bytes intact until DB publication
+00:20 +89: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore keeps committed attachment bytes intact until DB publication
+00:20 +90: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore keeps committed attachment bytes intact until DB publication
+00:20 +91: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore keeps committed attachment bytes intact until DB publication
+00:20 +92: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore keeps committed attachment bytes intact until DB publication
+00:20 +93: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore keeps committed attachment bytes intact until DB publication
+00:20 +94: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore keeps committed attachment bytes intact until DB publication
+00:20 +95: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore keeps committed attachment bytes intact until DB publication
+00:20 +96: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore keeps committed attachment bytes intact until DB publication
+00:20 +97: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore keeps committed attachment bytes intact until DB publication
+00:22 +98: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore keeps committed attachment bytes intact until DB publication
+00:22 +99: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore keeps committed attachment bytes intact until DB publication
+00:22 +100: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore keeps committed attachment bytes intact until DB publication
+00:22 +101: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore keeps committed attachment bytes intact until DB publication
+00:22 +102: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore keeps committed attachment bytes intact until DB publication
+00:22 +103: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore keeps committed attachment bytes intact until DB publication
+00:22 +104: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore keeps committed attachment bytes intact until DB publication
+00:22 +105: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore keeps committed attachment bytes intact until DB publication
+00:22 +106: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: restore keeps committed attachment bytes intact until DB publication
+00:22 +107: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: merge accepts a prior backup after Replace changed physical paths
+00:24 +108: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: merge accepts a prior backup after Replace changed physical paths
+00:25 +109: /Users/bespin-starter/Documents/Majestic/Skepbook/test/app_lifecycle_privacy_test.dart: native-picker lifecycle preserves the hidden route and unsaved form
+00:25 +110: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: Replace remaps pending photo-conflict paths to installed files
+00:25 +111: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: Replace remaps pending photo-conflict paths to installed files
+00:26 +112: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: Replace remaps pending photo-conflict paths to installed files
+00:26 +113: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: Replace remaps pending photo-conflict paths to installed files
+00:26 +114: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: unavailable photo conflict variant is rejected without changing records
+00:27 +115: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: replace removes attachment files absent from the backup
+00:29 +116: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: backup creation rejects paths outside the attachment directory
+00:29 +117: /Users/bespin-starter/Documents/Majestic/Skepbook/test/accessibility_test.dart: new-apiary controls remain usable with large text
+00:29 +118: /Users/bespin-starter/Documents/Majestic/Skepbook/test/accessibility_test.dart: new-apiary controls remain usable with large text
+00:30 +119: /Users/bespin-starter/Documents/Majestic/Skepbook/test/accessibility_test.dart: new-apiary controls remain usable with large text
+00:30 +120: /Users/bespin-starter/Documents/Majestic/Skepbook/test/accessibility_test.dart: new-apiary controls remain usable with large text
+00:30 +121: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: merge rejects attachment conflicts before replacing local bytes
+00:30 +122: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: merge rejects attachment conflicts before replacing local bytes
+00:30 +123: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: merge rejects attachment conflicts before replacing local bytes
+00:31 +124: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: merge rejects attachment conflicts before replacing local bytes
+00:31 +125: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: merge rejects attachment conflicts before replacing local bytes
+00:31 +126: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: merge rejects attachment conflicts before replacing local bytes
+00:31 +127: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: merge rejects attachment conflicts before replacing local bytes
+00:31 +128: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: merge rejects attachment conflicts before replacing local bytes
+00:31 +129: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: merge rejects attachment conflicts before replacing local bytes
+00:31 +130: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: merge rejects attachment conflicts before replacing local bytes
+00:31 +131: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: merge rejects attachment conflicts before replacing local bytes
+00:31 +132: /Users/bespin-starter/Documents/Majestic/Skepbook/test/backup_service_test.dart: staging failure leaves records and attachments unchanged
+00:33 +133: All tests passed!

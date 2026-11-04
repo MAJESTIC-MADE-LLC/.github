@@ -1,0 +1,71 @@
+00:00 +0: loading /Users/bespin-starter/Documents/Majestic/Daymerit/test/core/config/app_config_test.dart
+00:00 +0: /Users/bespin-starter/Documents/Majestic/Daymerit/test/core/config/app_config_test.dart: unknown environments and release builds with development config fail closed
+00:00 +1: /Users/bespin-starter/Documents/Majestic/Daymerit/test/core/config/app_config_test.dart: native production configuration requires identity and public legal URLs only
+00:00 +2: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: PIN setup publishes a salted verifier and only an unlocked parent can replace it
+00:00 +3: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: PIN setup publishes a salted verifier and only an unlocked parent can replace it
+00:00 +4: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: PIN setup publishes a salted verifier and only an unlocked parent can replace it
+00:00 +5: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: PIN setup publishes a salted verifier and only an unlocked parent can replace it
+00:00 +6: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: PIN setup publishes a salted verifier and only an unlocked parent can replace it
+00:00 +7: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: PIN setup publishes a salted verifier and only an unlocked parent can replace it
+00:00 +8: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: PIN setup publishes a salted verifier and only an unlocked parent can replace it
+00:00 +9: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: PIN setup publishes a salted verifier and only an unlocked parent can replace it
+00:00 +10: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: PIN setup publishes a salted verifier and only an unlocked parent can replace it
+00:00 +11: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: PIN setup publishes a salted verifier and only an unlocked parent can replace it
+00:00 +12: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: PIN setup publishes a salted verifier and only an unlocked parent can replace it
+00:00 +13: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: PIN setup publishes a salted verifier and only an unlocked parent can replace it
+00:00 +14: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: PIN setup publishes a salted verifier and only an unlocked parent can replace it
+00:00 +15: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: PIN setup publishes a salted verifier and only an unlocked parent can replace it
+00:00 +16: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: PIN setup publishes a salted verifier and only an unlocked parent can replace it
+00:00 +17: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: PIN setup publishes a salted verifier and only an unlocked parent can replace it
+00:00 +18: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: PIN setup publishes a salted verifier and only an unlocked parent can replace it
+00:00 +19: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: unpaid local board shows only selected child tasks and keeps owner backup available
+00:00 +20: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: unpaid local board shows only selected child tasks and keeps owner backup available
+00:00 +21: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: unpaid local board shows only selected child tasks and keeps owner backup available
+00:01 +22: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: unpaid local board shows only selected child tasks and keeps owner backup available
+00:01 +23: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: unpaid local board shows only selected child tasks and keeps owner backup available
+00:01 +24: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: unpaid local board shows only selected child tasks and keeps owner backup available
+00:01 +25: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: unpaid local board shows only selected child tasks and keeps owner backup available
+00:01 +26: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: unpaid local board shows only selected child tasks and keeps owner backup available
+00:01 +27: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: unpaid local board shows only selected child tasks and keeps owner backup available
+00:01 +28: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: unpaid local board shows only selected child tasks and keeps owner backup available
+00:01 +29: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: unpaid local board shows only selected child tasks and keeps owner backup available
+00:01 +30: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: unpaid local board shows only selected child tasks and keeps owner backup available
+00:01 +31: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: unpaid local board shows only selected child tasks and keeps owner backup available
+00:01 +32: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: unpaid local board shows only selected child tasks and keeps owner backup available
+00:01 +33: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: unpaid local board shows only selected child tasks and keeps owner backup available
+00:01 +34: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: unpaid local board shows only selected child tasks and keeps owner backup available
+00:01 +35: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: unpaid local board shows only selected child tasks and keeps owner backup available
+00:01 +36: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: unpaid local board shows only selected child tasks and keeps owner backup available
+00:02 +37: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: unpaid local board shows only selected child tasks and keeps owner backup available
+00:02 +38: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_controller_foundation_test.dart: actual controller performs the local loop and background lock preserves child/parent boundaries
+00:02 +39: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: the recovery boolean alone or a different household backup cannot reset parent access
+00:02 +40: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: the recovery boolean alone or a different household backup cannot reset parent access
+00:02 +41: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: background closes a parent dialog and hides its semantics until a fresh unlock
+00:02 +42: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: background closes a parent dialog and hides its semantics until a fresh unlock
+00:02 +43: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_screen_test.dart: background closes a parent dialog and hides its semantics until a fresh unlock
+00:02 +44: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: an attacker-created archive with a copied household ID cannot reset the current parent PIN
+00:02 +45: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: an attacker-created archive with a copied household ID cannot reset the current parent PIN
+00:02 +46: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_controller_foundation_test.dart: wrong/corrupt backups do not replace the current household or its parent credential
+00:03 +47: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_controller_foundation_test.dart: wrong/corrupt backups do not replace the current household or its parent credential
+00:03 +48: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: restored-generation PIN setup retains the prior generation credential unchanged
+00:03 +49: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: restored-generation PIN setup retains the prior generation credential unchanged
+00:03 +50: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_controller_foundation_test.dart: full owner recovery binds a new PIN generation and reminder failure leaves data usable
+00:03 +51: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_controller_foundation_test.dart: full owner recovery binds a new PIN generation and reminder failure leaves data usable
+00:03 +52: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_controller_foundation_test.dart: full owner recovery binds a new PIN generation and reminder failure leaves data usable
+00:03 +53: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_controller_foundation_test.dart: full owner recovery binds a new PIN generation and reminder failure leaves data usable
+00:03 +54: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/parent_access/parent_access_controller_test.dart: background during verification and failed secure writes cannot unlock parent controls
+00:03 +55: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_vault_archive_test.dart: restart completes pointer-prepared only after the complete new generation is verified
+00:04 +56: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_controller_foundation_test.dart: forged same-ID archive cannot replace a locked household, pointer or parent PIN
+00:04 +57: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_controller_foundation_test.dart: forged same-ID archive cannot replace a locked household, pointer or parent PIN
+00:04 +58: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_controller_foundation_test.dart: forged same-ID archive cannot replace a locked household, pointer or parent PIN
+00:04 +59: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_vault_archive_test.dart: restart completes pointer-target-promoted only after the complete new generation is verified
+00:04 +60: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_controller_foundation_test.dart: camera adapter proof is actually included in the full controller backup and restored unchanged
+00:04 +61: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_controller_foundation_test.dart: camera adapter proof is actually included in the full controller backup and restored unchanged
+00:05 +62: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_controller_foundation_test.dart: camera adapter proof is actually included in the full controller backup and restored unchanged
+00:05 +63: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_vault_archive_test.dart: a fresh authenticated owner archive can supersede a pending selection whose key is lost
+00:05 +64: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_controller_foundation_test.dart: loss of premium gates only new quota additions, while records and full backup remain available
+00:05 +65: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_vault_archive_test.dart: authenticated owner archive recovers after device keys are lost without replacing old key names
+00:05 +66: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_vault_archive_test.dart: archive rejects absent/corrupt/extra/traversing proofs before any destination generation changes
+00:06 +67: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_vault_archive_test.dart: authenticated older null-authority backup upgrades only for a fresh restored generation
+00:06 +68: /Users/bespin-starter/Documents/Majestic/Daymerit/test/features/household/household_vault_archive_test.dart: wrong passphrase, cross-product backup and archive size bounds cannot authorize restoration
+00:07 +69: All tests passed!

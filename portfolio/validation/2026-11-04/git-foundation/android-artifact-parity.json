@@ -1,0 +1,47 @@
+{
+  "scope": "All seven rebuilt Git-source canonical APKs are byte-for-byte identical to the earlier independently inspected release-encryption artifacts. Existing runtime/restore observations keep their original dates and apply to the same Android binary bytes; this does not create physical-device or store evidence.",
+  "results": [
+    {
+      "application": "Skepbook",
+      "sha256": "1abb0844cf813ba4a08ebcba55c4d3f62fa36cba41a499279a2c5a5ce2573a8e",
+      "identicalToPreviousReleaseEncryptionArtifact": true,
+      "priorRecord": "Skepbook/docs/validation/2026-11-03/foundation/android-release-encryption.json"
+    },
+    {
+      "application": "Ridelore",
+      "sha256": "889dad8dafb2ef0f67c1e441a70da978fb184447115a1a53bed56c5a68d000b5",
+      "identicalToPreviousReleaseEncryptionArtifact": true,
+      "priorRecord": "Ridelore/docs/validation/2026-11-03/foundation/android-release-encryption.json"
+    },
+    {
+      "application": "Paws",
+      "sha256": "7c690fe2698293cc708d83a104eab76143933080132745500463da6bdb16e4b2",
+      "identicalToPreviousReleaseEncryptionArtifact": true,
+      "priorRecord": "Paws/docs/validation/2026-11-03/foundation/android-release-encryption.json"
+    },
+    {
+      "application": "Pantry-Clock",
+      "sha256": "afbb8d03bfc1a3c1005d780abbad022148946914bbea91badff6944c0ea89a92",
+      "identicalToPreviousReleaseEncryptionArtifact": true,
+      "priorRecord": "Pantry-Clock/docs/validation/2026-11-03/foundation/android-release-encryption.json"
+    },
+    {
+      "application": "Fine-Notes",
+      "sha256": "72cb014d99ef0088271d4027271a14e2651d9abdc5dc66671d70365bf56eb754",
+      "identicalToPreviousReleaseEncryptionArtifact": true,
+      "priorRecord": "Fine-Notes/docs/validation/2026-11-03/foundation/android-release-encryption.json"
+    },
+    {
+      "application": "Namefold",
+      "sha256": "25b068e4149b1a748804f243dce56891a36ba6390f9d88f27dc29122cef6b5fb",
+      "identicalToPreviousReleaseEncryptionArtifact": true,
+      "priorRecord": "Namefold/app/docs/validation/2026-11-03/foundation/android-release-encryption.json"
+    },
+    {
+      "application": "Daymerit",
+      "sha256": "4f9b44785b8956cff78cb4cc1cd98a347c0274442091d2bf499d96db586095d0",
+      "identicalToPreviousReleaseEncryptionArtifact": true,
+      "priorRecord": "Daymerit/docs/validation/2026-11-03/foundation/android-release-encryption.json"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+00:00 +0: loading /Users/bespin-starter/Documents/Majestic/Namefold/app/test/security/native_screen_privacy_test.dart
+00:00 +0: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/security/native_screen_privacy_test.dart: iOS covers sensitive content while inactive or captured
+00:01 +1: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/features/settings/backup_service_test.dart: new backups use the product-bound shared codec and retain stable profile IDs
+00:02 +2: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/features/settings/backup_service_test.dart: preserves the former Namefold PBKDF2 reader and rejects duplicate IDs
+00:06 +3: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/features/settings/backup_service_test.dart: imports pre-rename ReachMe backups without changing their encryption
+00:07 +4: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/features/settings/backup_service_test.dart: imports pre-rename ReachMe backups without changing their encryption
+00:08 +5: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/features/settings/backup_service_test.dart: imports pre-rename ReachMe backups without changing their encryption
+00:08 +6: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/release/ios_target_version_test.dart: every iOS build path enforces the documented iOS 15 minimum
+00:08 +7: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/features/settings/backup_service_test.dart: encrypted backup round trips and rejects a wrong passphrase
+00:09 +8: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/features/settings/backup_service_test.dart: rejects oversized and attacker-selected KDF work before decrypting
+00:11 +9: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/features/scanner/scanner_lifecycle_test.dart: scanner is disabled while hidden, backgrounded and previewing; nothing saves before confirmation
+00:11 +10: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/features/scanner/scanner_lifecycle_test.dart: scanner is disabled while hidden, backgrounded and previewing; nothing saves before confirmation
+00:11 +11: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/features/scanner/scanner_lifecycle_test.dart: scanner is disabled while hidden, backgrounded and previewing; nothing saves before confirmation
+00:11 +12: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/features/scanner/scanner_lifecycle_test.dart: scanner is disabled while hidden, backgrounded and previewing; nothing saves before confirmation
+00:11 +13: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/features/scanner/scanner_lifecycle_test.dart: scanner is disabled while hidden, backgrounded and previewing; nothing saves before confirmation
+00:15 +14: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/services/local_database_migration_test.dart: native plaintext wallet preserves reachme filename, UUIDs, profiles and preferences
+00:17 +15: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/services/local_database_migration_test.dart: native plaintext wallet preserves reachme filename, UUIDs, profiles and preferences
+00:17 +16: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/services/local_database_migration_test.dart: native plaintext wallet preserves reachme filename, UUIDs, profiles and preferences
+00:17 +17: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/services/local_database_migration_test.dart: native plaintext wallet preserves reachme filename, UUIDs, profiles and preferences
+00:17 +18: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/services/local_database_migration_test.dart: native plaintext wallet preserves reachme filename, UUIDs, profiles and preferences
+00:18 +19: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/services/local_database_migration_test.dart: missing, malformed and wrong keys never replace an established wallet
+00:18 +20: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/services/local_database_migration_test.dart: native caller resumes claimed migration without creating an empty wallet
+00:19 +21: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/services/local_database_migration_test.dart: native caller resumes claimed migration without creating an empty wallet
+00:19 +22: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/services/local_database_migration_test.dart: native caller resumes claimed migration without creating an empty wallet
+00:19 +23: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/services/local_database_migration_test.dart: native caller resumes claimed migration without creating an empty wallet
+00:19 +24: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/services/local_database_migration_test.dart: native caller resumes claimed migration without creating an empty wallet
+00:19 +25: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/services/local_database_migration_test.dart: native caller resumes claimed migration without creating an empty wallet
+00:19 +26: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/services/local_database_migration_test.dart: native caller resumes claimed migration without creating an empty wallet
+00:19 +27: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/services/local_database_migration_test.dart: native caller resumes claimed migration without creating an empty wallet
+00:20 +28: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/services/local_database_migration_test.dart: native caller resumes previous-preserved migration without creating an empty wallet
+00:22 +29: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/widgets/widget_share_consent_test.dart: declining widget export keeps the trusted selection; acceptance and stop affect only the projection
+00:22 +30: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/widgets/widget_share_consent_test.dart: declining widget export keeps the trusted selection; acceptance and stop affect only the projection
+00:22 +31: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/services/local_database_migration_test.dart: native protection failure happens before key creation or private opening
+00:23 +32: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/services/local_database_migration_test.dart: first key creation can restart before opening the new database
+00:23 +33: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/services/local_database_migration_test.dart: an established missing database is never reset as a new empty wallet
+00:23 +34: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/widgets/device_lock_scope_test.dart: waits for resume before automatic cold-start unlock
+00:23 +35: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/widgets/device_lock_scope_test.dart: waits for resume before automatic cold-start unlock
+00:23 +36: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/widgets/device_lock_scope_test.dart: waits for resume before automatic cold-start unlock
+00:24 +37: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/widgets/device_lock_scope_test.dart: cold start stays covered until enabled lock authenticates
+00:24 +38: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/widgets/device_lock_scope_test.dart: disabled lock reveals only after preference resolution
+00:24 +39: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/widgets/device_lock_scope_test.dart: backgrounding requires a fresh successful unlock
+00:24 +40: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/widgets/device_lock_scope_test.dart: system-auth inactive transition preserves the pending unlock
+00:24 +41: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/widgets/device_lock_scope_test.dart: uninterrupted enrollment reveals with no second prompt
+00:24 +42: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/widgets/device_lock_scope_test.dart: inactive enrollment defers its grant until resume
+00:24 +43: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/widgets/device_lock_scope_test.dart: backgrounded enrollment requires a fresh resume unlock
+00:24 +44: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/shared/widgets/device_lock_scope_test.dart: native-picker cover preserves editable State and blocks hidden focus
+00:27 +45: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/foundation_entitlement_test.dart: cached native access owned=false never connects at wallet startup; entitlement loss keeps records/recovery
+00:28 +46: /Users/bespin-starter/Documents/Majestic/Namefold/app/test/foundation_entitlement_test.dart: cached native access owned=true never connects at wallet startup; entitlement loss keeps records/recovery
+00:28 +47: All tests passed!

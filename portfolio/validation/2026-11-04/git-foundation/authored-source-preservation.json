@@ -1,0 +1,45 @@
+{
+  "scope": "All authored runtime/native/test/package inputs remain identical to the initial reviewed migration commits; subsequent application changes are dependency descriptors, logs and guidance. SDK-generated ignored files are handled separately by source fingerprint policy v2.",
+  "applications": [
+    {
+      "application": "App-Template",
+      "validatedSourceCommit": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+      "authoredRuntimeAndNativeChangesAfterAdoption": []
+    },
+    {
+      "application": "Skepbook",
+      "validatedSourceCommit": "9ac42b75b958cfc37a7ec573fc68409a49e6614b",
+      "authoredRuntimeAndNativeChangesAfterAdoption": []
+    },
+    {
+      "application": "Ridelore",
+      "validatedSourceCommit": "91a49b406712b24b29d97f478fd66b426767de49",
+      "authoredRuntimeAndNativeChangesAfterAdoption": []
+    },
+    {
+      "application": "Paws",
+      "validatedSourceCommit": "b2f739c9f849710a03576c04108d9f3dce9ae0fb",
+      "authoredRuntimeAndNativeChangesAfterAdoption": []
+    },
+    {
+      "application": "Pantry-Clock",
+      "validatedSourceCommit": "726c3ce6a1d2a4d4a4f3064b1e0b9e8102dea6cb",
+      "authoredRuntimeAndNativeChangesAfterAdoption": []
+    },
+    {
+      "application": "Fine-Notes",
+      "validatedSourceCommit": "3854075ccca7258918e654c32162abb9430adb82",
+      "authoredRuntimeAndNativeChangesAfterAdoption": []
+    },
+    {
+      "application": "Namefold",
+      "validatedSourceCommit": "d39e532fdfeefcb44687e111a6c3ffefb21ec73c",
+      "authoredRuntimeAndNativeChangesAfterAdoption": []
+    },
+    {
+      "application": "Daymerit",
+      "validatedSourceCommit": "d990b9b48b9264a7adf4bbacff1f9eb56da58aaf",
+      "authoredRuntimeAndNativeChangesAfterAdoption": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+00:00 +0: loading /Users/bespin-starter/Documents/Majestic/App-Template/test/generator_test.dart
+00:00 +0: /Users/bespin-starter/Documents/Majestic/App-Template/test/generator_test.dart: generator validates options without creating output
+00:00 +1: /Users/bespin-starter/Documents/Majestic/App-Template/test/generator_test.dart: Dart literal escaping preserves dollar signs and quotes
+00:00 +2: /Users/bespin-starter/Documents/Majestic/App-Template/test/reference_picker_lifecycle_test.dart: picker result waits for foreground before reauthorization
+00:00 +3: /Users/bespin-starter/Documents/Majestic/App-Template/test/reference_picker_lifecycle_test.dart: picker result waits for foreground before reauthorization
+00:00 +4: /Users/bespin-starter/Documents/Majestic/App-Template/test/reference_picker_lifecycle_test.dart: picker result waits for foreground before reauthorization
+00:00 +5: /Users/bespin-starter/Documents/Majestic/App-Template/test/reference_picker_lifecycle_test.dart: picker result waits for foreground before reauthorization
+00:00 +6: /Users/bespin-starter/Documents/Majestic/App-Template/test/reference_picker_lifecycle_test.dart: picker result waits for foreground before reauthorization
+00:00 +7: /Users/bespin-starter/Documents/Majestic/App-Template/test/reference_picker_lifecycle_test.dart: picker result waits for foreground before reauthorization
+00:00 +8: /Users/bespin-starter/Documents/Majestic/App-Template/test/reference_picker_lifecycle_test.dart: picker result waits for foreground before reauthorization
+00:01 +9: /Users/bespin-starter/Documents/Majestic/App-Template/test/reference_picker_lifecycle_test.dart: picker result waits for foreground before reauthorization
+00:01 +10: /Users/bespin-starter/Documents/Majestic/App-Template/test/reference_picker_lifecycle_test.dart: picker result waits for foreground before reauthorization
+00:01 +11: /Users/bespin-starter/Documents/Majestic/App-Template/test/reference_lifecycle_test.dart: private UI locks across lifecycle while verified restore updates shared access
+00:01 +12: /Users/bespin-starter/Documents/Majestic/App-Template/test/reference_lifecycle_test.dart: private UI locks across lifecycle while verified restore updates shared access
+00:01 +13: /Users/bespin-starter/Documents/Majestic/App-Template/test/reference_lifecycle_test.dart: private UI locks across lifecycle while verified restore updates shared access
+00:01 +14: /Users/bespin-starter/Documents/Majestic/App-Template/test/reference_lifecycle_test.dart: private UI locks across lifecycle while verified restore updates shared access
+00:01 +15: /Users/bespin-starter/Documents/Majestic/App-Template/test/reference_lifecycle_test.dart: private UI locks across lifecycle while verified restore updates shared access
+00:01 +16: All tests passed!

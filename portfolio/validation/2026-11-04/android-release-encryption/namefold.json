@@ -1,0 +1,33 @@
+{
+  "product": "namefold",
+  "package": "dev.majesticmade.namefold",
+  "serial": "emulator-5560",
+  "api": 30,
+  "image": "Google APIs ARM64 (non-Play), new temporary AVD",
+  "offline": true,
+  "releaseArtifact": "/Users/bespin-starter/Documents/Majestic/Namefold/app/build/app/outputs/flutter-apk/app-release.apk",
+  "releaseArtifactSha256": "25b068e4149b1a748804f243dce56891a36ba6390f9d88f27dc29122cef6b5fb",
+  "installedTemporaryCopy": "/tmp/namefold-patched-smoke.apk",
+  "installedCopySha256": "355aefedab2d50643f3472ebd20337a5195df56ce849eac7efca7f9cac7b30a1",
+  "compiledContentIdenticalToRelease": true,
+  "installedReleaseNotDebuggable": true,
+  "arm64Sqlite3mcSha256": "99a2ee91bdd6e7644fe0a8659e2c3599ea5bef2528aaecbe3ffe809ad4869b2a",
+  "databases": [
+    {
+      "path": "/data/user/0/dev.majesticmade.namefold/app_flutter/reachme.sqlite",
+      "headerHex": "5d7b2b76ee940e45a0769fc5af5df6eb",
+      "ordinarySQLiteExit": 26,
+      "ordinarySQLiteMessage": "Error: file is not a database"
+    }
+  ],
+  "scope": "Only this owned temporary emulator/app UID. No keys read or logged. Opaque header plus ordinary-SQLite rejection complements successful app read/write; it is not a standalone security audit.",
+  "coldRestart": "Actual final release created Foundation contact through native UI, force-stopped, cold-reopened with same saved profile offline.",
+  "uiEvidence": [
+    "/tmp/namefold-final-release-start.xml",
+    "/tmp/namefold-final-release-cold-profile.xml",
+    "/tmp/namefold-final-release-widget-consent.xml",
+    "/tmp/namefold-final-release-widget-cleared.xml"
+  ],
+  "widgetProjection": "Actual final release: explicit consent creates public local PNG; Stop sharing removes it while Foundation wallet profile remains. This intentional export is outside the private wallet lock, not an encrypted private attachment.",
+  "evidenceRecordedUtc": "2026-11-04T14:08:34.570250+00:00"
+}

@@ -1,0 +1,38 @@
+{
+  "product": "skepbook",
+  "package": "dev.majesticmade.skepbook",
+  "serial": "emulator-5560",
+  "api": 30,
+  "image": "Google APIs ARM64 (non-Play), new temporary AVD",
+  "offline": true,
+  "releaseArtifact": "/Users/bespin-starter/Documents/Majestic/Skepbook/build/app/outputs/flutter-apk/app-release.apk",
+  "releaseArtifactSha256": "1abb0844cf813ba4a08ebcba55c4d3f62fa36cba41a499279a2c5a5ce2573a8e",
+  "installedTemporaryCopy": "/tmp/skepbook-patched-smoke.apk",
+  "installedCopySha256": "f79f7ddd5e6906c0dcdb3f30678a2bd0b868dbad11163f7f64e844682bcacc3d",
+  "compiledContentIdenticalToRelease": true,
+  "installedReleaseNotDebuggable": true,
+  "arm64Sqlite3mcSha256": "99a2ee91bdd6e7644fe0a8659e2c3599ea5bef2528aaecbe3ffe809ad4869b2a",
+  "databases": [
+    {
+      "path": "/data/user/0/dev.majesticmade.skepbook/files/apiary.sqlite",
+      "headerHex": "368c250c9336df6a1bc0d869ed977f44",
+      "ordinarySQLiteExit": 26,
+      "ordinarySQLiteMessage": "Error: file is not a database"
+    }
+  ],
+  "scope": "Only this owned temporary emulator/app UID. No keys read or logged. Opaque header plus ordinary-SQLite rejection complements successful app read/write; it is not a standalone security audit.",
+  "attachments": [
+    {
+      "path": "/data/user/0/dev.majesticmade.skepbook/files/attachments/7147a212-871d-4bc4-b2f5-b1a1f5214509.jpg",
+      "headerHex": "7b22666f726d6174223a226d616a6573",
+      "source": "Actual app-driven emulated-camera capture, Done, private attachment publication"
+    }
+  ],
+  "coldRestart": "Actual final release reopened private database and authenticated recorded attachment at startup; Foundation photo card retained after force-stop.",
+  "uiEvidence": [
+    "/tmp/skepbook-final-release-photo-written.xml",
+    "/tmp/skepbook-final-release-cold-start.xml",
+    "/tmp/skepbook-final-release-cold-photo.xml"
+  ],
+  "evidenceRecordedUtc": "2026-11-04T14:08:34.568929+00:00"
+}

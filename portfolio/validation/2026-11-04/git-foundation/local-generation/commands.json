@@ -1,0 +1,23 @@
+[
+  {
+    "check": "pub-get",
+    "exitCode": 0,
+    "seconds": 1.35,
+    "sha256": "892cde186170d13a9eea404f0e63852f583340cc167efe1812c49a047e66562a",
+    "record": "pub-get.log"
+  },
+  {
+    "check": "analysis",
+    "exitCode": 0,
+    "seconds": 3.94,
+    "sha256": "f8c8f564477247fa718396dc0d21c0fea82d40c7233eb519c5ca0264414e0e73",
+    "record": "analysis.log"
+  },
+  {
+    "check": "tests",
+    "exitCode": 0,
+    "seconds": 14.21,
+    "sha256": "fb5e50b0fe4575e39e4fe194b9e9438963820a5f44097dddc60cad0e1ce9fe39",
+    "record": "tests.log"
+  }
+]

@@ -1,0 +1,228 @@
+Waiting for another flutter command to release the startup lock...
+00:00 +0: loading /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/config/app_config_test.dart
+00:00 +0: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/config/app_config_test.dart: environment parsing rejects unknown values instead of enabling development
+00:00 +1: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/config/app_config_test.dart: release builds reject development even with otherwise valid configuration
+00:00 +2: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/config/app_config_test.dart: release production validates public links without provider credentials
+00:00 +3: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/config/app_config_test.dart: native configuration requires no hosted service credentials
+00:00 +4: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/config/app_config_test.dart: production requires usable public support and legal URLs
+00:00 +5: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/services/biometric_auth_service_test.dart: legacy boolean preference is migrated to disabled
+00:00 +6: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/services/biometric_auth_service_test.dart: Android enrollment binding requires API 28 or newer
+00:00 +7: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/services/biometric_auth_service_test.dart: missing enrollment binding disables biometric state
+00:00 +8: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/services/biometric_auth_service_test.dart: enabling writes versioned metadata and protected binding
+00:01 +9: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/validation/input_validators_test.dart: InputValidators validates email format
+00:02 +10: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/validation/input_validators_test.dart: InputValidators requires strong enough starter passwords
+00:02 +11: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/validation/input_validators_test.dart: InputValidators validates matching password confirmation
+00:02 +12: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/validation/input_validators_test.dart: InputValidators requires and confirms a longer backup recovery password
+00:02 +13: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/widgets/app_button_test.dart: AppButton shows loading indicator and disables tap
+00:02 +14: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/security/native_security_policy_test.dart: native platforms protect sensitive screen content
+00:02 +15: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/security/native_security_policy_test.dart: native platform-security channel matches Dart
+00:02 +16: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/security/native_security_policy_test.dart: pre-deployment rename keeps clean-break native identities
+00:03 +17: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:03 +18: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:03 +19: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:04 +20: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:04 +21: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:04 +22: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:04 +23: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:05 +24: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:05 +25: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:05 +26: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:06 +27: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:06 +28: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:06 +29: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:06 +30: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:06 +31: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:06 +32: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:06 +33: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:06 +34: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:06 +35: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:06 +36: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:06 +37: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:06 +38: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/inventory_backup_service_test.dart: share cleans the encrypted temporary file after success and failure
+00:07 +39: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: focused backup dialog closes across background without disposed controllers
+00:07 +40: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: focused backup dialog closes across background without disposed controllers
+00:07 +41: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: focused backup dialog closes across background without disposed controllers
+00:07 +42: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: focused backup dialog closes across background without disposed controllers
+00:07 +43: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: focused backup dialog closes across background without disposed controllers
+00:07 +44: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/core/router/lifecycle_route_retention_test.dart: cold locked or unconfigured navigation cannot mount the private home
+00:08 +45: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/inventory_models_test.dart: inventory JSON round trip preserves status and dates
+00:08 +46: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/inventory_models_test.dart: category shelf-life defaults match the product rules
+00:09 +47: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/inventory_controller_test.dart: sorts by urgency and retains used/wasted history
+00:09 +48: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/inventory_controller_test.dart: calculates use-by defaults as calendar days
+00:09 +49: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/inventory_controller_test.dart: preview cannot add food
+00:09 +50: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/inventory_controller_test.dart: preview can use and delete existing inventory
+00:10 +51: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/foundation_storage_test.dart: preserves legacy ciphertext and IDs while new updates use encrypted SQL
+00:11 +52: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/foundation_storage_test.dart: preserves legacy ciphertext and IDs while new updates use encrypted SQL
+00:11 +53: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/foundation_storage_test.dart: preserves legacy ciphertext and IDs while new updates use encrypted SQL
+00:11 +53: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/local_account/local_account_controller_test.dart: invalidated binding clears biometric controller state
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ Biometric enrollment changed.
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   _FakeBiometricAuthService.authenticate (file:///Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/local_account/local_account_controller_test.dart:573:7)
+│ #1   LocalAccountController.unlockWithBiometrics.<anonymous closure> (package:pantry_clock/features/local_account/application/local_account_controller.dart:312:61)
+│ #2   LocalActionUnlockPolicy.run.<anonymous closure> (package:majestic_privacy/src/local_action_unlock_policy.dart:20:40)
+│ #3   LocalActionUnlockPolicy.authenticate (package:majestic_privacy/src/local_action_unlock_policy.dart:45:29)
+│ #4   LocalAppLock.unlock (package:majestic_privacy/src/local_app_lock.dart:81:32)
+│ #5   LocalActionUnlockPolicy.run (package:majestic_privacy/src/local_action_unlock_policy.dart:26:35)
+│ #6   LocalAccountController._runUnlockAction.<anonymous closure> (package:pantry_clock/features/local_account/application/local_account_controller.dart:384:46)
+│ #7   LocalAccountController._runLocalAction (package:pantry_clock/features/local_account/application/local_account_controller.dart:406:26)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:21:00.035 (+0:00:00.021914)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Biometric enrollment changed.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:11 +54: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/foundation_storage_test.dart: preserves legacy ciphertext and IDs while new updates use encrypted SQL
+00:11 +55: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/foundation_storage_test.dart: preserves legacy ciphertext and IDs while new updates use encrypted SQL
+00:11 +55: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/local_account/local_account_controller_test.dart: orphaned vault blocks ordinary account creation
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ Existing encrypted data must be recovered or erased before creating a new local account.
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   LocalAccountController.createAccount.<anonymous closure> (package:pantry_clock/features/local_account/application/local_account_controller.dart:119:9)
+│ #1   LocalActionUnlockPolicy.run.<anonymous closure> (package:majestic_privacy/src/local_action_unlock_policy.dart:20:40)
+│ #2   LocalActionUnlockPolicy.authenticate (package:majestic_privacy/src/local_action_unlock_policy.dart:45:29)
+│ #3   LocalAppLock.unlock (package:majestic_privacy/src/local_app_lock.dart:81:32)
+│ #4   LocalActionUnlockPolicy.run (package:majestic_privacy/src/local_action_unlock_policy.dart:26:35)
+│ #5   LocalAccountController._runSetupAction.<anonymous closure> (package:pantry_clock/features/local_account/application/local_account_controller.dart:373:47)
+│ #6   LocalAccountController._runLocalAction (package:pantry_clock/features/local_account/application/local_account_controller.dart:406:26)
+│ #7   LocalAccountController._runSetupAction (package:pantry_clock/features/local_account/application/local_account_controller.dart:372:7)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:21:00.052 (+0:00:00.038760)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Existing encrypted data must be recovered or erased before creating a new local account.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:11 +56: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/foundation_storage_test.dart: preserves legacy ciphertext and IDs while new updates use encrypted SQL
+00:11 +56: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/local_account/local_account_controller_test.dart: bootstrap inspection failure preserves blocking unknown state
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ Bad state: inspection failed
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   _ThrowingInspectionRecoveryRepository.hasVault (file:///Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/local_account/local_account_controller_test.dart:500:30)
+│ #1   LocalAccountController._bootstrap (package:pantry_clock/features/local_account/application/local_account_controller.dart:93:54)
+│ #2   <asynchronous suspension>
+│ #3   main.<anonymous closure> (file:///Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/local_account/local_account_controller_test.dart:144:7)
+│ #4   <asynchronous suspension>
+│ #5   Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+│ #6   <asynchronous suspension>
+│ #7   Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:21:00.058 (+0:00:00.044929)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Something went wrong. Please try again.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ Existing encrypted data must be recovered or erased before creating a new local account.
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   LocalAccountController.createAccount.<anonymous closure> (package:pantry_clock/features/local_account/application/local_account_controller.dart:119:9)
+│ #1   LocalActionUnlockPolicy.run.<anonymous closure> (package:majestic_privacy/src/local_action_unlock_policy.dart:20:40)
+│ #2   LocalActionUnlockPolicy.authenticate (package:majestic_privacy/src/local_action_unlock_policy.dart:45:29)
+│ #3   LocalAppLock.unlock (package:majestic_privacy/src/local_app_lock.dart:81:32)
+│ #4   LocalActionUnlockPolicy.run (package:majestic_privacy/src/local_action_unlock_policy.dart:26:35)
+│ #5   LocalAccountController._runSetupAction.<anonymous closure> (package:pantry_clock/features/local_account/application/local_account_controller.dart:373:47)
+│ #6   LocalAccountController._runLocalAction (package:pantry_clock/features/local_account/application/local_account_controller.dart:406:26)
+│ #7   LocalAccountController._runSetupAction (package:pantry_clock/features/local_account/application/local_account_controller.dart:372:7)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:21:00.060 (+0:00:00.046628)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Existing encrypted data must be recovered or erased before creating a new local account.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:11 +57: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/foundation_storage_test.dart: preserves legacy ciphertext and IDs while new updates use encrypted SQL
+00:11 +58: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/foundation_storage_test.dart: preserves legacy ciphertext and IDs while new updates use encrypted SQL
+00:11 +58: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/local_account/local_account_controller_test.dart: ordinary setup reconciles a durably written account marker
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ Encrypted backup recovery is available only during local account setup.
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   LocalAccountController.recoverFromBackup.<anonymous closure> (package:pantry_clock/features/local_account/application/local_account_controller.dart:184:9)
+│ #1   LocalActionUnlockPolicy.run.<anonymous closure> (package:majestic_privacy/src/local_action_unlock_policy.dart:20:40)
+│ #2   LocalActionUnlockPolicy.authenticate (package:majestic_privacy/src/local_action_unlock_policy.dart:45:29)
+│ #3   LocalAppLock.unlock (package:majestic_privacy/src/local_app_lock.dart:81:32)
+│ #4   LocalActionUnlockPolicy.run (package:majestic_privacy/src/local_action_unlock_policy.dart:26:35)
+│ #5   LocalAccountController._runSetupAction.<anonymous closure> (package:pantry_clock/features/local_account/application/local_account_controller.dart:373:47)
+│ #6   LocalAccountController._runLocalAction (package:pantry_clock/features/local_account/application/local_account_controller.dart:406:26)
+│ #7   LocalAccountController._runSetupAction (package:pantry_clock/features/local_account/application/local_account_controller.dart:372:7)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:21:00.069 (+0:00:00.055497)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Encrypted backup recovery is available only during local account setup.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:11 +59: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/foundation_storage_test.dart: preserves legacy ciphertext and IDs while new updates use encrypted SQL
+00:11 +59: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/local_account/local_account_controller_test.dart: invalid backup leaves credentials and vault untouched
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ The backup or recovery password is invalid.
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   LocalAccountController.recoverFromBackup.<anonymous closure> (package:pantry_clock/features/local_account/application/local_account_controller.dart:212:9)
+│ #1   LocalActionUnlockPolicy.run.<anonymous closure> (package:majestic_privacy/src/local_action_unlock_policy.dart:20:40)
+│ #2   LocalActionUnlockPolicy.authenticate (package:majestic_privacy/src/local_action_unlock_policy.dart:45:29)
+│ #3   LocalAppLock.unlock (package:majestic_privacy/src/local_app_lock.dart:81:32)
+│ #4   LocalActionUnlockPolicy.run (package:majestic_privacy/src/local_action_unlock_policy.dart:26:35)
+│ #5   LocalAccountController._runSetupAction.<anonymous closure> (package:pantry_clock/features/local_account/application/local_account_controller.dart:373:47)
+│ #6   LocalAccountController._runLocalAction (package:pantry_clock/features/local_account/application/local_account_controller.dart:406:26)
+│ #7   LocalAccountController._runSetupAction (package:pantry_clock/features/local_account/application/local_account_controller.dart:372:7)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:21:00.073 (+0:00:00.059873)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ The backup or recovery password is invalid.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:11 +60: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/foundation_storage_test.dart: preserves legacy ciphertext and IDs while new updates use encrypted SQL
+00:11 +60: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/local_account/local_account_controller_test.dart: credential failure leaves the recovered vault orphaned and locked
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ Bad state: credential write failed
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   _FailingSetupAccountRepository.createAccount (file:///Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/local_account/local_account_controller_test.dart:449:5)
+│ #1   LocalAccountController.recoverFromBackup.<anonymous closure> (package:pantry_clock/features/local_account/application/local_account_controller.dart:228:39)
+│ #2   <asynchronous suspension>
+│ #3   LocalActionUnlockPolicy.run.<anonymous closure> (package:majestic_privacy/src/local_action_unlock_policy.dart:20:28)
+│ #4   <asynchronous suspension>
+│ #5   LocalActionUnlockPolicy.authenticate (package:majestic_privacy/src/local_action_unlock_policy.dart:45:14)
+│ #6   <asynchronous suspension>
+│ #7   LocalAppLock.unlock (package:majestic_privacy/src/local_app_lock.dart:81:18)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:21:00.077 (+0:00:00.063198)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Something went wrong. Please try again.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:11 +61: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/foundation_storage_test.dart: preserves legacy ciphertext and IDs while new updates use encrypted SQL
+00:11 +61: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/local_account/local_account_controller_test.dart: durable credentials reconcile recovery success after reported failure
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ Encrypted backup recovery is available only during local account setup.
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   LocalAccountController.recoverFromBackup.<anonymous closure> (package:pantry_clock/features/local_account/application/local_account_controller.dart:184:9)
+│ #1   LocalActionUnlockPolicy.run.<anonymous closure> (package:majestic_privacy/src/local_action_unlock_policy.dart:20:40)
+│ #2   LocalActionUnlockPolicy.authenticate (package:majestic_privacy/src/local_action_unlock_policy.dart:45:29)
+│ #3   LocalAppLock.unlock (package:majestic_privacy/src/local_app_lock.dart:81:32)
+│ #4   LocalActionUnlockPolicy.run (package:majestic_privacy/src/local_action_unlock_policy.dart:26:35)
+│ #5   LocalAccountController._runSetupAction.<anonymous closure> (package:pantry_clock/features/local_account/application/local_account_controller.dart:373:47)
+│ #6   LocalAccountController._runLocalAction (package:pantry_clock/features/local_account/application/local_account_controller.dart:406:26)
+│ #7   LocalAccountController._runSetupAction (package:pantry_clock/features/local_account/application/local_account_controller.dart:372:7)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:21:00.081 (+0:00:00.067175)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Encrypted backup recovery is available only during local account setup.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:11 +62: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/foundation_storage_test.dart: preserves legacy ciphertext and IDs while new updates use encrypted SQL
+00:11 +62: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/local_account/local_account_controller_test.dart: ambiguous replacement failure preserves blocking state
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ Bad state: replacement cleanup failed
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   _FailingRecoveryRepository.replaceWithFreshKey (file:///Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/local_account/local_account_controller_test.dart:494:5)
+│ #1   LocalAccountController.recoverFromBackup.<anonymous closure> (package:pantry_clock/features/local_account/application/local_account_controller.dart:220:34)
+│ #2   <asynchronous suspension>
+│ #3   LocalActionUnlockPolicy.run.<anonymous closure> (package:majestic_privacy/src/local_action_unlock_policy.dart:20:28)
+│ #4   <asynchronous suspension>
+│ #5   LocalActionUnlockPolicy.authenticate (package:majestic_privacy/src/local_action_unlock_policy.dart:45:14)
+│ #6   <asynchronous suspension>
+│ #7   LocalAppLock.unlock (package:majestic_privacy/src/local_app_lock.dart:81:18)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:21:00.084 (+0:00:00.070995)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Something went wrong. Please try again.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:11 +63: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/foundation_storage_test.dart: preserves legacy ciphertext and IDs while new updates use encrypted SQL
+00:11 +64: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/foundation_storage_test.dart: preserves legacy ciphertext and IDs while new updates use encrypted SQL
+00:12 +65: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/local_account/local_account_repository_test.dart: locks password verification after five failures across restarts
+00:13 +66: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/local_account/local_account_repository_test.dart: locks password verification after five failures across restarts
+00:14 +67: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/local_account/local_account_repository_test.dart: locks password verification after five failures across restarts
+00:14 +68: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/inventory/foundation_storage_test.dart: shared backup codec reads both new and original authenticated archives
+00:14 +69: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/local_account/local_account_repository_test.dart: successful verification clears accumulated failures
+00:15 +70: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/local_account/local_account_repository_test.dart: corrupt throttle state fails closed for one bounded cooldown
+00:15 +71: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/local_account/local_account_repository_test.dart: overlapping password verification is rejected as busy
+00:16 +72: /Users/bespin-starter/Documents/Majestic/Pantry-Clock/test/features/local_account/local_account_repository_test.dart: account marker remains absent when throttle cleanup fails
+00:17 +73: All tests passed!

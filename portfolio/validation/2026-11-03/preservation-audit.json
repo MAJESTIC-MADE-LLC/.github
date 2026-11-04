@@ -1,0 +1,3027 @@
+{
+  "auditDate": "2026-11-03",
+  "baseline": "majestic-foundation-20261103-baseline",
+  "exceptions": [],
+  "repos": {
+    ".github": {
+      "baselineFiles": 20,
+      "baselineHead": "d99d6bc73dff509fea84bba35d1bc23e3aa987c2",
+      "branch": "dev",
+      "dev": "d99d6bc73dff509fea84bba35d1bc23e3aa987c2",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 0,
+      "head": "d99d6bc73dff509fea84bba35d1bc23e3aa987c2",
+      "missing": [],
+      "missingCount": 0
+    },
+    "App-Template": {
+      "baselineFiles": 154,
+      "baselineHead": "7b0f77724fde151c9665d2545940783202faacac",
+      "branch": "dev",
+      "dev": "7b0f77724fde151c9665d2545940783202faacac",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 42,
+      "head": "7b0f77724fde151c9665d2545940783202faacac",
+      "missing": [
+        {
+          "baselineDirty": false,
+          "baselineSha256": "57e1f15df557f82a9a9f878aee5196528f2360ef7ff9f962bba9b32211811746",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/core/config/app_config.dart"
+          ],
+          "path": "lib/core/config/app_config.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "2f4431f331654b08e63a8e2e759149a6a59f7e5f6e3f44888a682892c1cdc6cb",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/features/auth/presentation/update_password_page.dart"
+          ],
+          "path": "lib/features/auth/presentation/update_password_page.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "4e1efa8f45abb37a9b0b20d865624d9f2be979b1a1b10f5687745dd6ec5db69d",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/core/theme/app_theme.dart"
+          ],
+          "path": "lib/core/theme/app_theme.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "fa9c0e5c3e523cbc5bbc78ff38cdb9f34f3bbd7437af727326a49620b3bba24b",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/features/subscriptions/application/subscription_controller.dart"
+          ],
+          "path": "lib/features/subscriptions/application/subscription_controller.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "a4d3585b155ff84c77e6529ef2f44c4f3d9c7afd1784c2fc21cda9bd6d3a08a2",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/features/auth/data/auth_repository.dart"
+          ],
+          "path": "lib/features/auth/data/auth_repository.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "74ba85a23a2ec13be589bc1f72f3cbbec9fcc6bdfcaa437b8c236bed8cadb002",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/features/local_account/presentation/cloud_upgrade_page.dart"
+          ],
+          "path": "lib/features/local_account/presentation/cloud_upgrade_page.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "5ecb07a00cd0a020b32b41fb1224e08c28612714bd6da82b677fea31ca43dc3d",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/core/monitoring/error_reporter.dart"
+          ],
+          "path": "lib/core/monitoring/error_reporter.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "1ce86946f52fa6dce518e7b0d5b869d7419d5ccc2cf067a98bf13c1f7791cb5e",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/features/local_account/application/local_account_controller.dart"
+          ],
+          "path": "lib/features/local_account/application/local_account_controller.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "294fb95f9f3dbc6e399aad3555ae37fddf77810c61fa4d2622a4f05c3818cbd1",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/test/core/config/app_config_test.dart"
+          ],
+          "path": "test/core/config/app_config_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "a20f5c63bae2d5533858591c9d5d481ba2e290db71b1171cfde643434c08e3a4",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/features/auth/presentation/splash_page.dart"
+          ],
+          "path": "lib/features/auth/presentation/splash_page.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "cc7bc7c38930e22f0656be3a519228a76b564141fc9ffcb6f32ca1442b7c707a",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/test/features/home/presentation/home_page_test.dart"
+          ],
+          "path": "test/features/home/presentation/home_page_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "faee946098d0ae360ec70cb3e85a9662c081df5e197f3c2b3f23444c89ca022f",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/core/logging/app_logger.dart"
+          ],
+          "path": "lib/core/logging/app_logger.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "b0480968e08ae0fd7bb8ea4afc86e4632ee08b43a3149b82ec68587d0561e936",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/test/features/auth/auth_controller_test.dart"
+          ],
+          "path": "test/features/auth/auth_controller_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "9fc95395aa9b54e782e9f6464312b5b531d4a146706c61b61397f036809996cf",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/core/widgets/loading_view.dart"
+          ],
+          "path": "lib/core/widgets/loading_view.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "9a34c27e7eb2c885d220d0ee7d1f89ab8f8677c8cdbb2a3baba11d2fab2a06a0",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/core/services/device_bound_secure_storage.dart"
+          ],
+          "path": "lib/core/services/device_bound_secure_storage.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "8cb965e6e785fc0ea104d26793aaf59ccc710545231b51bb28ae93dc8e3a81bb",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/core/router/app_router.dart"
+          ],
+          "path": "lib/core/router/app_router.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "a8d75c2402d0ec07560de28f24ab271439e4368671fd7c1f2a926944f3878363",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/test/features/local_account/local_account_repository_test.dart"
+          ],
+          "path": "test/features/local_account/local_account_repository_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "7df243b00682638ca87c44b70da43ca1736567f3146739fc35fcb5677d4c9bcf",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/test/features/local_account/local_account_controller_test.dart"
+          ],
+          "path": "test/features/local_account/local_account_controller_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "f19e7af6eb1f733fb7db5310f789e7032f68557770e773ec065535a666d08fd4",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/core/validation/input_validators.dart"
+          ],
+          "path": "lib/core/validation/input_validators.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "62ac434dfb7cde1b7c1bbe7f1df5f84f7ed977a8845c8339b74565a77122ae0d",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/features/subscriptions/data/revenue_cat_service.dart"
+          ],
+          "path": "lib/features/subscriptions/data/revenue_cat_service.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "6ae6bc29776442e12fb864d207a68b7b828ba59b68a2add06af465208718bc92",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/test/core/widgets/app_button_test.dart"
+          ],
+          "path": "test/core/widgets/app_button_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "0dc72184feb279c48a284fc8b81797c1e71e0dd9d3bdaf32b414108a3027cdd2",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/core/services/platform_security_service.dart"
+          ],
+          "path": "lib/core/services/platform_security_service.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "2eaba8c267c847671515ebc31f6bff5cda6917fd5b0b203dd0c302b114f07352",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/features/local_account/data/local_account_repository.dart"
+          ],
+          "path": "lib/features/local_account/data/local_account_repository.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "772e16411937f5666cbae6f4add5a52d0745585f9e5077ff23a4be2100b7ba42",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/test/security/native_security_policy_test.dart"
+          ],
+          "path": "test/security/native_security_policy_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "d23cfe067e198c6d5fe937eecf81e6001d9071d0ffc2e7c0a6984e3fe12e15e7",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/test/security/supabase_rls_policy_test.dart"
+          ],
+          "path": "test/security/supabase_rls_policy_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "b99590dc1465e2277a1e7e60af5724861a6bb25c1b8cd2823f1ff579afaa519a",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/features/auth/presentation/auth_scaffold.dart"
+          ],
+          "path": "lib/features/auth/presentation/auth_scaffold.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "444492a97bf4fb1b7ead5567ef7a53e2c53e93cbfa744a239d6ec99259744691",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/core/widgets/app_text_field.dart"
+          ],
+          "path": "lib/core/widgets/app_text_field.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "a8b0f2d3024f9b7fc54492373dd38518a6465cff2713015daf2a957472fdceb8",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/features/auth/presentation/sign_up_page.dart"
+          ],
+          "path": "lib/features/auth/presentation/sign_up_page.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "a2cc127e8e0cf95072ecdf4e8aa6d53f781de77b0ef0035fa4bf97f40008847c",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/test/core/services/biometric_auth_service_test.dart"
+          ],
+          "path": "test/core/services/biometric_auth_service_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "57930fcf11d5ce6974e4efc1d183f26bc190e4d4d554f1226601bcf36f018ef8",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/features/auth/presentation/reset_password_page.dart"
+          ],
+          "path": "lib/features/auth/presentation/reset_password_page.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "0aa209adfc4425325418b73a601fd46e8da256bc970f5bfe30ad4468774a5850",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/test/core/validation/input_validators_test.dart"
+          ],
+          "path": "test/core/validation/input_validators_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "52532aeb27d8c3d11cc0e24f819ad94a234643cbe85612745ead097ca9c0be81",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/features/auth/presentation/unlock_page.dart"
+          ],
+          "path": "lib/features/auth/presentation/unlock_page.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "a95f508b718cffe46624591042f33cc43c60da56190fb7a84540674fd450c325",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/core/widgets/app_button.dart"
+          ],
+          "path": "lib/core/widgets/app_button.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "efcb1d6064ccb0093260470cd7de947b87d8f41c77617a0de4fb6f2dc945ab74",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/features/local_account/presentation/local_account_setup_page.dart"
+          ],
+          "path": "lib/features/local_account/presentation/local_account_setup_page.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "fd384092efd8af82fd163d35a2489d01ec10ff6a09f62d5984a210792fe14b74",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/features/auth/application/auth_controller.dart"
+          ],
+          "path": "lib/features/auth/application/auth_controller.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "bad0a159e09c2962c8bcd343d18faf2eaab0e11ce989ce788dda0ae5fbec46c5",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/features/local_account/presentation/local_unlock_page.dart"
+          ],
+          "path": "lib/features/local_account/presentation/local_unlock_page.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "01708e27a6ad8a990c6f984fa49caee380e31ef65f6ab8df765672df884bee8d",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/test/security/android_backup_policy_test.dart"
+          ],
+          "path": "test/security/android_backup_policy_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "6fc1cbb0020701ece9390e1d408934cf398758778e30e960c481d0f80003ebe2",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/core/errors/app_exception.dart"
+          ],
+          "path": "lib/core/errors/app_exception.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "21b9da228d911c6cd0898b267613275fb3e505107afd1cb5a894f53fc9145745",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/core/services/biometric_auth_service.dart"
+          ],
+          "path": "lib/core/services/biometric_auth_service.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "6ba5bbb9c8892caab0729ba1e88fa79f4f8b6f2b08bae853e917005477566cf9",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/test/core/services/device_bound_secure_storage_test.dart"
+          ],
+          "path": "test/core/services/device_bound_secure_storage_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "da9fa2e38d3dbee27f1dd5b56e8c3054eece937ccb67a71b78b73b950923df19",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/features/home/presentation/home_page.dart"
+          ],
+          "path": "lib/features/home/presentation/home_page.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "b9c38547b299efb24a43f7517ecfe83b1c89a936eea1a10b203d9c967e6f3bb1",
+          "exactCurrentMatches": [
+            "legacy/cloud_template/lib/features/auth/presentation/sign_in_page.dart"
+          ],
+          "path": "lib/features/auth/presentation/sign_in_page.dart"
+        }
+      ],
+      "missingCount": 42
+    },
+    "Brassmark": {
+      "baselineFiles": 7,
+      "baselineHead": "c497d2ff002619b51939dc22db8e4839576e033a",
+      "branch": "dev",
+      "dev": "c497d2ff002619b51939dc22db8e4839576e033a",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 0,
+      "head": "c497d2ff002619b51939dc22db8e4839576e033a",
+      "missing": [],
+      "missingCount": 0
+    },
+    "Campsake": {
+      "baselineFiles": 7,
+      "baselineHead": "b5cc5a557bf198fe6c51dc8dc7caef28d043ff7e",
+      "branch": "dev",
+      "dev": "b5cc5a557bf198fe6c51dc8dc7caef28d043ff7e",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 0,
+      "head": "b5cc5a557bf198fe6c51dc8dc7caef28d043ff7e",
+      "missing": [],
+      "missingCount": 0
+    },
+    "Claim-Crate": {
+      "baselineFiles": 7,
+      "baselineHead": "13e93da6a4863ea4abc96f3010fbc92616610004",
+      "branch": "dev",
+      "dev": "13e93da6a4863ea4abc96f3010fbc92616610004",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 0,
+      "head": "13e93da6a4863ea4abc96f3010fbc92616610004",
+      "missing": [],
+      "missingCount": 0
+    },
+    "Creelmark": {
+      "baselineFiles": 7,
+      "baselineHead": "f6e39adbb9cbd8f4782d2cb706094d3ef62fa3a4",
+      "branch": "dev",
+      "dev": "f6e39adbb9cbd8f4782d2cb706094d3ef62fa3a4",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 0,
+      "head": "f6e39adbb9cbd8f4782d2cb706094d3ef62fa3a4",
+      "missing": [],
+      "missingCount": 0
+    },
+    "Daymerit": {
+      "baselineFiles": 507,
+      "baselineHead": "e664c3300ffd71026383d69627750587cc6c1e21",
+      "branch": "dev",
+      "dev": "e664c3300ffd71026383d69627750587cc6c1e21",
+      "dirtyMissingCount": 69,
+      "exactArchivedCount": 153,
+      "head": "e664c3300ffd71026383d69627750587cc6c1e21",
+      "missing": [
+        {
+          "baselineDirty": true,
+          "baselineSha256": "48cd1cd67f94899e98377ec65a0791306e9c3d1c22e3f4f5ffbb8ee4764cc330",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/notification_payload_test.dart"
+          ],
+          "path": "test/unit/notification_payload_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "42023dbb88c84795067516f50cf1258a568e2096bb7e11df51068bca7690b33b",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/invites/invite_payloads.dart"
+          ],
+          "path": "lib/features/invites/invite_payloads.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "0ddd363a2d8075c86c4385b24b1b8d1cd43d1e1f34105ebd8b4f6bb2fc6ed1f2",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/widget/settings_components_test.dart"
+          ],
+          "path": "test/widget/settings_components_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "6812717c3eb79163ea6cea29589cfa7c7f92367a935eddf5e9f877da7f37ca80",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/settings_payload_test.dart"
+          ],
+          "path": "test/unit/settings_payload_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "b101e0a61b7ae85e65063f2349401bdce464418cfde85ab3902d7589f215cda7",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/shared/widgets/app_error_view.dart"
+          ],
+          "path": "lib/shared/widgets/app_error_view.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/features/onboarding/.gitkeep"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "9158038d4c8c66b6a0316e8a7bd0673269c20d483a80db511b80e5c27b1e7984",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/approval_payload_test.dart"
+          ],
+          "path": "test/unit/approval_payload_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "951af680921a269a5b7d2384d2dda77bc3bd8c8fe6b44325f4c13ecda88c4dfc",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/routine_screens.dart"
+          ],
+          "path": "lib/features/routines/routine_screens.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "0554a63842be64992d5e9da64c27a9560d5dd2d20d05ff5ac789333d69fec547",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/reward_controller.dart"
+          ],
+          "path": "lib/features/rewards/reward_controller.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "8dbebd4b0507c5b24d660512a6f8c4619a2d71234229f49c0c53fc479def9b78",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/settings_screens.dart"
+          ],
+          "path": "lib/features/settings/settings_screens.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "1b9f6a41be45c387b1c704239ace1eda1a3227fc4566b8add2fe08c88bc8deaa",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/auth/app_session_controller.dart"
+          ],
+          "path": "lib/features/auth/app_session_controller.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "3e71683e5534dff3dfb1fa93a3d77da14848538255f5657f4754f4f3c70b81b1",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/shared/widgets/boot_screen.dart"
+          ],
+          "path": "lib/shared/widgets/boot_screen.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "0802ef5f1baa85a35d29cd04f284f1b690eed295ef1cb203611b1ee9451f1d03",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/shared/adaptive/child_display.dart"
+          ],
+          "path": "lib/shared/adaptive/child_display.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "6cf43be9824db9824baee3d5c340903c4f56d116df0f9c7151a8ef33caa2cf02",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/widget/child_profile_components_test.dart"
+          ],
+          "path": "test/widget/child_profile_components_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "374c8356b07d8bb3c0ccee0b6ed0d40adff9d2ec228d4c255898d943d664a80b",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/bootstrap.dart"
+          ],
+          "path": "lib/bootstrap.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "81e51a90904b42eef759738e13a636eb7ba7261b1cf07e5d8469aa1558d539ff",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/repository_providers.dart"
+          ],
+          "path": "lib/data/repositories/repository_providers.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "e2ebf8ea541b0bb9dc4c5849cb5a5c5d2447f8e12b8c6ca26ec804a5683359aa",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/allowance_payload_test.dart"
+          ],
+          "path": "test/unit/allowance_payload_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "f7b2bca5b67c2e87edf30f83fe629c001d61ddf2bdb00c127716ef4a58f0c3e3",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/edge_function_names.dart"
+          ],
+          "path": "lib/data/repositories/edge_function_names.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "58ad9f1330108da572a09b1fedacc20626996153b3e84ebb19208fd40a983d68",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/settings_controller.dart"
+          ],
+          "path": "lib/features/settings/settings_controller.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "410552372cbe200e68cd6c5ce5e146f5a8fda6b3c295ecb4fa47bb4906b43e11",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/reward_payloads.dart"
+          ],
+          "path": "lib/features/rewards/reward_payloads.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "598368438493215a6782dcfecaad464e543550022a3828c4436eb17312e23564",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/shared/widgets/daymerit_cards.dart"
+          ],
+          "path": "lib/shared/widgets/daymerit_cards.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/features/family_board/.gitkeep"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "c748a21c671ff8226534bfd43b31fea143dce9c9b72d608f99e0e3fa17c3acfe",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/widget_test.dart"
+          ],
+          "path": "test/widget_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "62f678d78495b6656e26e7de21e6d1bda1364f49d7018d136d3bed71b1be8813",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/invites/invite_controller.dart"
+          ],
+          "path": "lib/features/invites/invite_controller.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/features/routines/.gitkeep"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "f3e746f56b2246cc414860e96bfc978e88c6d1374cee962eaa6ff347d84b8d03",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/backend_enum_contract_test.dart"
+          ],
+          "path": "test/unit/backend_enum_contract_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/features/tasks/.gitkeep"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "8cb9b950c92593f9912751ba10137f912a7460f4327f874e94a63350f37a1068",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/auth/auth_controller.dart"
+          ],
+          "path": "lib/features/auth/auth_controller.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/data/services/analytics/.gitkeep"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/data/models/.gitkeep"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/features/child_mode/.gitkeep"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "c8802e55bec54ed7cec8f012648d1264bb9d8fa2c9b99d40e1f76030a227024b",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/shared/widgets/navigation_buttons.dart"
+          ],
+          "path": "lib/shared/widgets/navigation_buttons.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "a48c9422e3fe833f023bef975b056a9dd957e548256972d4ba4969bcf004ca1f",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/proof_media_service.dart"
+          ],
+          "path": "lib/features/proof/proof_media_service.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "2ec4ab0a0b5ae3ebdedc7d084f6fed12a9c757ae2deb4d053b38e680cbf642c5",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/widget/route_placeholder_test.dart"
+          ],
+          "path": "test/widget/route_placeholder_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "3face0493568ae61316f6d035605610d89366e9ba312fa997c6f50d595606ed4",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/child_profile_screens.dart"
+          ],
+          "path": "lib/features/children/child_profile_screens.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "753b227f5f8ab5ff75411c173746e003aa77667b4970461b5e7cd07690065814",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/shared/loading/app_loading_view.dart"
+          ],
+          "path": "lib/shared/loading/app_loading_view.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "64b33eb8ef7d527fecc7e90c3d57bb4468703ba76fa6fcf77bf25f5aa39a12d0",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/client_env_contract_test.dart"
+          ],
+          "path": "test/unit/client_env_contract_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "5be3c457cf6fd639e9897098b88eba07359fd8eb3f33f5d4a2fcb378e83d6cea",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/core/config/env.dart"
+          ],
+          "path": "lib/core/config/env.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "929974cf7d6d55d6aa665f55ee5ea7dc2c8f112c666b3581d0aeca38c55e4b96",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/revenuecat_service.dart"
+          ],
+          "path": "lib/data/services/revenuecat/revenuecat_service.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "96a41e4ed61dbb08b37dd8aa29c7d6434feca337ce202aa91c6ede841eeab20c",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/approval_controller.dart"
+          ],
+          "path": "lib/features/approvals/approval_controller.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "27a4aaa31d138537fec8bb6603ac6f58751da3548cbca68ada33b3ff1e7bfa69",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/widget/responsive_audit_test.dart"
+          ],
+          "path": "test/widget/responsive_audit_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/data/services/revenuecat/.gitkeep"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "45226aa16a8ad8723d3ae7cd34e81a4ee55d460815eb243592fe19f90322b269",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/shared/widgets/async_value_view.dart"
+          ],
+          "path": "lib/shared/widgets/async_value_view.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/features/children/.gitkeep"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "0d23b6bd62dec6a75f4ca37e3b63cdd0fcd734e7890a635cd0e61a51595febff",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/subscription_controller.dart"
+          ],
+          "path": "lib/features/subscriptions/subscription_controller.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/features/subscriptions/.gitkeep"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "05ab7d318cfdb04ca6007a1a5a0c2fcb5bad431830a471a03f02f602de2a4b51",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/widget/routine_components_test.dart"
+          ],
+          "path": "test/widget/routine_components_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "38c25874d885acbe0d844ffc33eeb93e92c90592da19b142c4495f77834a1ff4",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/core/routing/app_router.dart"
+          ],
+          "path": "lib/core/routing/app_router.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/shared/icons/.gitkeep"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "4f90e51cc900fa75b037b56844749daeca45f602a529649a92746fd754f75793",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/app_confirmation_dialog.dart"
+          ],
+          "path": "lib/shared/dialogs/app_confirmation_dialog.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "035dd64c7e7e10d5670a2a3d8608c85366296c56c14d743f6d64e3623956457a",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/native_screen_privacy_test.dart"
+          ],
+          "path": "test/unit/native_screen_privacy_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "a7d34be6c5ac28f000eac413700c01517b1dd5ad6fa8cfb911558a12c85b4c84",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/parent_shell_navigation_test.dart"
+          ],
+          "path": "test/unit/parent_shell_navigation_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "0027f5017fa5f83cddd6bb1e6a5cb8a26b54e2001ad34af9d05dcfd69e311459",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/auth/auth_screens.dart"
+          ],
+          "path": "lib/features/auth/auth_screens.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "044422c2ea1bafc1dd3a91532e65ea71486b58da3ad2d1eb5fa8748cd9368f97",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/notifications/notification_payloads.dart"
+          ],
+          "path": "lib/features/notifications/notification_payloads.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "f7a9756a5fb246083927f48d6ab2f1815c6ed256b5fd484a63487ea80669dfd8",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/today_screens.dart"
+          ],
+          "path": "lib/features/today/today_screens.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "f0ee99119d44fe0f75f7028c9ec7d422251b36e241775c87ac70b2674bede592",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/widget/navigation_buttons_test.dart"
+          ],
+          "path": "test/widget/navigation_buttons_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "42c97cb57e13daa417411fc0e570bd92d2a314fd7c2b2e2f4d1ad4399567e618",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/widget/approval_components_test.dart"
+          ],
+          "path": "test/widget/approval_components_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "f9a2372525a34e8916977023d05a6e66c4b4b341713cadaec1b1b8df669899f7",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/widget/design_components_test.dart"
+          ],
+          "path": "test/widget/design_components_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "e78fc3574d45ec75cfa2f16850d29788d17c51945ac5fd1d10e6acbe161181de",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/edge_function_contract_test.dart"
+          ],
+          "path": "test/unit/edge_function_contract_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "9225e1fbcbfd2d05bfeaa1405c637551bef9bc92fecb37298de088a5d6fe5b16",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/invite_payload_test.dart"
+          ],
+          "path": "test/unit/invite_payload_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "2ac59f762d56dc023ce62e1b8247d453db56e7914bd59c250a1cda4791ff19d4",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/core/routing/app_route_guards.dart"
+          ],
+          "path": "lib/core/routing/app_route_guards.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "29370b8423f6c261d81f141ef84768e60e41860ed6dda5048d01184f623f5f26",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/proof_payloads.dart"
+          ],
+          "path": "lib/features/proof/proof_payloads.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "a17bf493aed4389d7fec54efea068bd61bd9a6112cc7a34b94d5aac354b3c441",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/privacy_redactor_test.dart"
+          ],
+          "path": "test/unit/privacy_redactor_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "aea4aa89e59a84a12cf4b63a5f6edafb7a4cba4fbd2f161b83f7241c16b1d0d7",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/core/errors/app_exception.dart"
+          ],
+          "path": "lib/core/errors/app_exception.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/shared/forms/.gitkeep"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "d074d1987bd8108dffc1a6938028ed3df10144b4c2160361ef338cd53002ed1a",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/shared/widgets/parent_shell.dart"
+          ],
+          "path": "lib/shared/widgets/parent_shell.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "9cae1ec1c5184a1f72e5b44548678445a096635e45307083d3218c808b52fb11",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/auth/auth_validation.dart"
+          ],
+          "path": "lib/features/auth/auth_validation.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "524ea3f36cd9c57e832e2570040e52b9c6305916c2c243e25759adf35baa7969",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/widget/auth_onboarding_screens_test.dart"
+          ],
+          "path": "test/widget/auth_onboarding_screens_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "700140d6b9f1b67fba6200278035fb463d9036ab9d048a7aa27af501cb99263d",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/child_profile_controller.dart"
+          ],
+          "path": "lib/features/children/child_profile_controller.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "dace41154f6a97fb71f88fb64d3978551c1af01db5ed64d6fbc1113f69202d90",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/routine_payload_test.dart"
+          ],
+          "path": "test/unit/routine_payload_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "38647997337e73762cd1ee4b62da68c36cd75e08ea7e1ed5891599efc43afe57",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/proof_controller.dart"
+          ],
+          "path": "lib/features/proof/proof_controller.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "b5c358dbbb386ead78cae747536a5ec58b7a6d3d88994f4112f4f0ef6ae6e4b8",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/settings_payloads.dart"
+          ],
+          "path": "lib/features/settings/settings_payloads.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "57c811f95bae7920f348430ddc441ebe952b08c55d33a729200a1aee7c0cc33d",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/child_profile_payloads.dart"
+          ],
+          "path": "lib/features/children/child_profile_payloads.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "af5e61d6e7497b7cd247bff330cedc1ee09031795f6f1cdf32946a58dc1b3f40",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/invites/invite_screens.dart"
+          ],
+          "path": "lib/features/invites/invite_screens.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "3a61d40e868983a22c42c1218c57de9d60f6022fed454476e13d56819d24bdf3",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/feature_gate_service_test.dart"
+          ],
+          "path": "test/unit/feature_gate_service_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "7d632a5e7b439d49d7994b80ece9ec9a00f49bdaeb7210030c58a25284e4f183",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/revenuecat_bootstrap.dart"
+          ],
+          "path": "lib/data/services/revenuecat/revenuecat_bootstrap.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "3174f7b180d87a4f4fd9826d891fc27276a69edec9d67b7c310fba75786a06ff",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/core/routing/app_routes.dart"
+          ],
+          "path": "lib/core/routing/app_routes.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "f3cbf1a7037dc4b935ded47f34de64a31e905d7db8ed28f801fa3df566927086",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/final_contract_validation_test.dart"
+          ],
+          "path": "test/unit/final_contract_validation_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "b2db8bca2e3dbcca8944f87e52c9b68322d755fc0010c8f079ca7ef6c884d6c1",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/notification_controller_test.dart"
+          ],
+          "path": "test/unit/notification_controller_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "9c30da9a1f329558c4274adc941334e289e470e2f93d2fe0fc98d8c1fce427f2",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/feature_gate_service.dart"
+          ],
+          "path": "lib/data/services/revenuecat/feature_gate_service.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "6f38922a30e780fd040c03d114cd4122e063029d0684d973cfff67b55b4e6d80",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/store_metadata_test.dart"
+          ],
+          "path": "test/unit/store_metadata_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/features/allowance/.gitkeep"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "2b3a1ba04cda1f4d8994bb2238fa7385fb7b5d05d0059cd354be5d5ee34d0af5",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/core/constants/app_assets.dart"
+          ],
+          "path": "lib/core/constants/app_assets.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "58134a2404b178b4d53767a0b9e811d5b0fbebcbd16c86d3bf87629fd764a220",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/supabase_function_client.dart"
+          ],
+          "path": "lib/data/services/supabase/supabase_function_client.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "73331130484bff2531a03b2b76f97d302428b033cc79b58ad92367f86d550c22",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/allowance_controller_test.dart"
+          ],
+          "path": "test/unit/allowance_controller_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "186924897662f82bee6710be00d19cb6ef040f15a8913a714120ccc8fa55bf03",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/daymerit_icons.dart"
+          ],
+          "path": "lib/shared/icons/daymerit_icons.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "df356dc2b2da64f51b93796de567261b31f2009ab68faa1aa6e296a06852108a",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/app/app.dart"
+          ],
+          "path": "lib/app/app.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "3509304643e579a47ff68ef2222c14bb7e1b7a754cc966db739fc3e8107e4de5",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/entitlement_state.dart"
+          ],
+          "path": "lib/features/subscriptions/entitlement_state.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "6e3f401c1686e955c5900b7c32ba6a10bbacdfa4e8a3818ac96cffb9949d0b3f",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/today_models_test.dart"
+          ],
+          "path": "test/unit/today_models_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "5b135479828ed52e61e87d34193853b147350f295822f1929bab77631705c12d",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/widget/subscription_screen_test.dart"
+          ],
+          "path": "test/widget/subscription_screen_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "c0d5ff55f38f78bcf738660956a0124191e32f309ba4cb80ea890ffecb3205c0",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/core/utils/app_logger.dart"
+          ],
+          "path": "lib/core/utils/app_logger.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/features/rewards/.gitkeep"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "a5a3433f6e60b98fe7a12b914aa18ee7793d634d199ac924151d67edf09344f9",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/backend_repositories.dart"
+          ],
+          "path": "lib/data/repositories/backend_repositories.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "28034ae3fc8c3edf7c25fc05d89c9052d6ab894f0cc8e407bd61ee4bd17e79ad",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/core/constants/app_metadata.dart"
+          ],
+          "path": "lib/core/constants/app_metadata.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "3869059a0f078a2ffb93d508c9cd8b31f4e57ef8d816e13b7e9520cb62bcfdc8",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/allowance_payloads.dart"
+          ],
+          "path": "lib/features/allowance/allowance_payloads.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "4452d69ad07639d06683cba9c0c635a7ffc8fc285599219d5b2b151e94c5a694",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/routine_controller.dart"
+          ],
+          "path": "lib/features/routines/routine_controller.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "39e0c57e2eee955fc9b4c6175ba79433e4f99b0762f444d8d60625481b1d2ae9",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/parent_gate_dialog.dart"
+          ],
+          "path": "lib/shared/dialogs/parent_gate_dialog.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "62011ef5f01ceee82cae80d631c28a11bba58f90eaa9a18354d345657856ff1e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/supabase_query_client.dart"
+          ],
+          "path": "lib/data/services/supabase/supabase_query_client.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "7c369ecbcfb8e64fb6b9372eb2df8dc0e4b1f3db58a13f2a4f068775c3417e79",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/reward_payload_test.dart"
+          ],
+          "path": "test/unit/reward_payload_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e15a129277e66829e4f2b3ac9a3e42c619596fa480edd5380fb340c5679746ea",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/notifications/notification_controller.dart"
+          ],
+          "path": "lib/features/notifications/notification_controller.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "62b7e19b3e8013a3fc460639d071405ab077276e94d7fc6a857d7dc3a6f14d9e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/widget/notification_components_test.dart"
+          ],
+          "path": "test/widget/notification_components_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "2033f153858148efacffbd14238060d8886daab50d3c2eb357df2a1adc326d16",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/allowance_controller.dart"
+          ],
+          "path": "lib/features/allowance/allowance_controller.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/features/approvals/.gitkeep"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "940e80842581144eff851456ef43f8cc3517a984e01c2b42e23a6e0861c0cf87",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/supabase_providers.dart"
+          ],
+          "path": "lib/data/services/supabase/supabase_providers.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "07b533f8410f7c3ce2fb091c515455e62e7a0730c4aa3187466aa1f724919290",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/offline_services_test.dart"
+          ],
+          "path": "test/unit/offline_services_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "b065765f95199145d0f00da33dbdf13e87a2fbfd09b4ec6df5c9ebeec40c98b4",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/child_display_test.dart"
+          ],
+          "path": "test/unit/child_display_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "f75f0bc90fedfc8c7fc93f1ae3031c3bdc06b6da27b957bf925186a05923c539",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/allowance_screens.dart"
+          ],
+          "path": "lib/features/allowance/allowance_screens.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "8da5b37305c41db63d379055a69dae0813acf844f47a75e30cbcba2c94698769",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/json_helpers.dart"
+          ],
+          "path": "lib/data/models/json_helpers.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "a9af4399a08c61417629464a8f97382a0e20eb8380f6133af5844f30f2c78bd4",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/widget/allowance_components_test.dart"
+          ],
+          "path": "test/widget/allowance_components_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "623a97ce6597bd3a3862df0268b279ec616e7b00375c24e3362c3b5f13dac035",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/offline/offline_services.dart"
+          ],
+          "path": "lib/features/offline/offline_services.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "6fcfebaf5f174eaee3f1e5cecae635d0ad0ab76c81751addfd514b81f2f12574",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/paywall_models.dart"
+          ],
+          "path": "lib/features/subscriptions/paywall_models.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "a918c9b28267be947b0d12fcc8a3a6f9bfddbec9d52088976c6b08187f3e672a",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/app/providers.dart"
+          ],
+          "path": "lib/app/providers.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "ad8a7a7dbc2527528bac3d1b01b57aa1870dc122ddb671754fae12a08118d82b",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/child_profile_payload_test.dart"
+          ],
+          "path": "test/unit/child_profile_payload_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/data/repositories/.gitkeep"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "975eb3919a4f4d7e2cc3b4574b647cf9d0e514254fc2bf36f53d33fcc68eb1ef",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/shared/empty_states/app_empty_state.dart"
+          ],
+          "path": "lib/shared/empty_states/app_empty_state.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "7087e5e261bec30988238db5588123b70d97f36831e2a7b60e0fd403f400dc90",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/subscription_contract.dart"
+          ],
+          "path": "lib/features/subscriptions/subscription_contract.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "6b707f2a863d2b5b4d27be563d2b5f989395df0a601f230eb19557e215ffe37e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/revenuecat_providers.dart"
+          ],
+          "path": "lib/data/services/revenuecat/revenuecat_providers.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "f5eec16159a0f99c218a49d4173b957d06632adf0fda130d8de128d844c6696e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/revenuecat_contract_test.dart"
+          ],
+          "path": "test/unit/revenuecat_contract_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "17a13a9d4ad37d4c6d22c32bf8254e9a52e14484ae9812a712f035946cb388e0",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/core/utils/app_logger_provider.dart"
+          ],
+          "path": "lib/core/utils/app_logger_provider.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/data/services/storage/.gitkeep"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "7196a85680631ddef842a11d9384ddc854e7e6a2983b93370c9378b8ab7a9a78",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/mvp_flow_contract_test.dart"
+          ],
+          "path": "test/unit/mvp_flow_contract_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "ee835de2e0108bd0e150d6bd160d8f16b400d515c7afef0497460ed99e5b597f",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/routine_payloads.dart"
+          ],
+          "path": "lib/features/routines/routine_payloads.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "4510c8d416990e3a8a1e35e3ff6ef810591b9b4364da2217b18c09fd536ed52d",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/approval_payloads.dart"
+          ],
+          "path": "lib/features/approvals/approval_payloads.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "e2e0923af48ecec05eb32121760f45538add9586d015f9c49703aab2f55fa088",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/supabase_auth_service.dart"
+          ],
+          "path": "lib/data/services/supabase/supabase_auth_service.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/data/services/supabase/.gitkeep"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "71b55a991987b4571957e6d644401ec161e0ff79e4e35a9ca6de24e80005a54d",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/widget/proof_screens_test.dart"
+          ],
+          "path": "test/widget/proof_screens_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "0dcb09774af076ea72b386403c0ec3a70d4744151f0814f77875df77fd7261d1",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/shared/widgets/daymerit_notices.dart"
+          ],
+          "path": "lib/shared/widgets/daymerit_notices.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "2676fc569f2d01050667f6c2dab6347cbc8d4cba3ecd372c808437549ad43b30",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/notifications/notification_screens.dart"
+          ],
+          "path": "lib/features/notifications/notification_screens.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "3ecebc5db7587d5673c765ee785d60ff8993034ae69127200aa780759c1a2273",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/core/errors/result.dart"
+          ],
+          "path": "lib/core/errors/result.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "67f0a8fbe31497062022302f99271406b554090ee181a69bde5fc8d7e4943ecf",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/auth_onboarding_test.dart"
+          ],
+          "path": "test/unit/auth_onboarding_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/data/services/notifications/.gitkeep"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "3e295b9e70456ec6aea13aa37b9a7b2c11f692caa5052bf7acb7a4223ca8a580",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/widget/reward_components_test.dart"
+          ],
+          "path": "test/widget/reward_components_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "0e30e2c55b154707ff0916bde579130734c7eccca855d6dfd19894ff0566d95e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/core/routing/app_page_transitions.dart"
+          ],
+          "path": "lib/core/routing/app_page_transitions.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/shared/dialogs/.gitkeep"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "13e11a7e39e08c8034eb7d447ad8c960c6396285d973a30ac1d18d0886101ceb",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/subscription_screen.dart"
+          ],
+          "path": "lib/features/subscriptions/subscription_screen.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/features/privacy/.gitkeep"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "f7be98e9cc4f545e572486197b83866f4035d91dae9784bd0a96c77a5275faae",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/core/utils/privacy_redactor.dart"
+          ],
+          "path": "lib/core/utils/privacy_redactor.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "0f15166f0762b98d59ef67c6bdcfba32ceff673e6bc6e99701fcf3dd1c48d84c",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/backend_enums.dart"
+          ],
+          "path": "lib/data/models/backend_enums.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "6398c9106ad729e93eb874fe2717850640d934d3759430fb328a3b2527efcc14",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/invite_controller_test.dart"
+          ],
+          "path": "test/unit/invite_controller_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "5f522ac2adc1bc173108f55a8cbd9415e607e1ec9ce7c9f5559efd0c56d2456a",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/reward_screens.dart"
+          ],
+          "path": "lib/features/rewards/reward_screens.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "457189d7465c32c0fea355ed6bc4513c5039581630640e8acdfe88b335a2a938",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/proof_screens.dart"
+          ],
+          "path": "lib/features/proof/proof_screens.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "9ea5b48ad7e8faf6f7634ff5209bb5d84446957abdb4ee88261ce8a8a5945b01",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/today_controller.dart"
+          ],
+          "path": "lib/features/today/today_controller.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "f807016eb9d4900e3fbb4437bf186b90f842396cad8d79225ca7a0fe0e3d8adb",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/today_models.dart"
+          ],
+          "path": "lib/features/today/today_models.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "0e38dcc4581b4304aa599d3d1eea5c93cdaa12836ba64ebd53e37ea26a8f6951",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/backend_models.dart"
+          ],
+          "path": "lib/data/models/backend_models.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "8006938abb9a306d7057d7ba3e5465fce22600e031459a7aa73f4eca6e5b70ab",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/approval_screens.dart"
+          ],
+          "path": "lib/features/approvals/approval_screens.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/features/proof/.gitkeep"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/features/today/.gitkeep"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "3b17dae8cd30d328ec4509f3ffcf38d3cdbd1b9b8396fbfe5a1a52cbd3992daf",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/proof_payload_test.dart"
+          ],
+          "path": "test/unit/proof_payload_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "e544535ca87c45bbcf3495423e0781d4fba16276f78a5e07a1049447cdc1e63e",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/data/models/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/repositories/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/analytics/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/notifications/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/revenuecat/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/storage/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/data/services/supabase/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/allowance/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/approvals/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/child_mode/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/children/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/family_board/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/onboarding/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/privacy/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/proof/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/rewards/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/routines/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/settings/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/subscriptions/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/tasks/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/features/today/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/dialogs/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/forms/.gitkeep",
+            "legacy/cloud_mobile_2026-11-03/lib/shared/icons/.gitkeep",
+            "integration_test/.gitkeep",
+            "lib/features/household/.gitkeep"
+          ],
+          "path": "lib/features/settings/.gitkeep"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "6d8df5c74bfbb31044f8dbc730196d4776113bc6d76030ee8ff4da392c513d13",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/lib/shared/formatting/display_formatters.dart"
+          ],
+          "path": "lib/shared/formatting/display_formatters.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "d03c568998151528bc7b56580bf55d44561543af445351ea64b027399913a875",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/widget/invite_screens_test.dart"
+          ],
+          "path": "test/widget/invite_screens_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "385d309f9b92b3e04830e738205a19f8950d2fde21df35cbf57c5b7d464bc202",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/widget/today_screens_test.dart"
+          ],
+          "path": "test/widget/today_screens_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "f2ab5348be192869a878e73c030949968baf9ef734717f6e465415d63ab77ca0",
+          "exactCurrentMatches": [
+            "legacy/cloud_mobile_2026-11-03/test/unit/route_security_contract_test.dart"
+          ],
+          "path": "test/unit/route_security_contract_test.dart"
+        }
+      ],
+      "missingCount": 153
+    },
+    "Divefolio": {
+      "baselineFiles": 7,
+      "baselineHead": "65d745deb6f01fec21700847d50611d9c0fdc0e5",
+      "branch": "dev",
+      "dev": "65d745deb6f01fec21700847d50611d9c0fdc0e5",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 0,
+      "head": "65d745deb6f01fec21700847d50611d9c0fdc0e5",
+      "missing": [],
+      "missingCount": 0
+    },
+    "Fine-Notes": {
+      "baselineFiles": 136,
+      "baselineHead": "392564cc95162266666cd1a42d6bd742f256f993",
+      "branch": "dev",
+      "dev": "392564cc95162266666cd1a42d6bd742f256f993",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 3,
+      "head": "392564cc95162266666cd1a42d6bd742f256f993",
+      "missing": [
+        {
+          "baselineDirty": false,
+          "baselineSha256": "7f3760ff5b3f7894c1ee96fd4435741ab420cc45b59fc3f780ad98dacdf456f9",
+          "exactCurrentMatches": [
+            "legacy/revenuecat/lib/features/subscriptions/application/subscription_controller.dart"
+          ],
+          "path": "lib/features/subscriptions/application/subscription_controller.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "62ac434dfb7cde1b7c1bbe7f1df5f84f7ed977a8845c8339b74565a77122ae0d",
+          "exactCurrentMatches": [
+            "legacy/revenuecat/lib/features/subscriptions/data/revenue_cat_service.dart"
+          ],
+          "path": "lib/features/subscriptions/data/revenue_cat_service.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "4e3a1935bac64e49c97914dc69ebf632ef92591be9ce7362c1b302b55464026b",
+          "exactCurrentMatches": [
+            "legacy/revenuecat/test/features/subscriptions/subscription_controller_test.dart"
+          ],
+          "path": "test/features/subscriptions/subscription_controller_test.dart"
+        }
+      ],
+      "missingCount": 3
+    },
+    "Kinwall": {
+      "baselineFiles": 7,
+      "baselineHead": "78a560a125a5743fea5186dd6504c8eec7eb4685",
+      "branch": "dev",
+      "dev": "78a560a125a5743fea5186dd6504c8eec7eb4685",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 0,
+      "head": "78a560a125a5743fea5186dd6504c8eec7eb4685",
+      "missing": [],
+      "missingCount": 0
+    },
+    "Majestic-Made-Hub": {
+      "baselineFiles": 260,
+      "baselineHead": "daf0f4de4787e71601ab50186f28ab53bb88c2a6",
+      "branch": "dev",
+      "dev": "daf0f4de4787e71601ab50186f28ab53bb88c2a6",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 0,
+      "head": "daf0f4de4787e71601ab50186f28ab53bb88c2a6",
+      "missing": [],
+      "missingCount": 0
+    },
+    "Namefold": {
+      "baselineFiles": 168,
+      "baselineHead": "4abf1af688e8f827c46c0a1c35c7b851cabd574b",
+      "branch": "dev",
+      "dev": "4abf1af688e8f827c46c0a1c35c7b851cabd574b",
+      "dirtyMissingCount": 21,
+      "exactArchivedCount": 34,
+      "head": "4abf1af688e8f827c46c0a1c35c7b851cabd574b",
+      "missing": [
+        {
+          "baselineDirty": false,
+          "baselineSha256": "6ee1f8c38eb9d975dcd0956bdc2de1e92b80082a9c0426c7f4f5f764b07799b2",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/drizzle/0000_equal_stark_industries.sql"
+          ],
+          "path": "web/drizzle/0000_equal_stark_industries.sql"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "d1fc60479d6046d5c9798111ea0997e8d39a3a7e3df9b4b2c15b5e45938bad86",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/lib/link-contract.ts"
+          ],
+          "path": "web/lib/link-contract.ts"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "38e44551ca1c141fca652bbb1df17dbfc7af06968bd01098a08631945b07658a",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/app/api/links/[slug]/report/route.ts"
+          ],
+          "path": "web/app/api/links/[slug]/report/route.ts"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "2ce8f72fd99261178fa8c5ea2f52cf8282a35df23ab4c1559339fc3007224901",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/drizzle/0001_stale_orphan.sql"
+          ],
+          "path": "web/drizzle/0001_stale_orphan.sql"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "cc3e691466a2f452643fa047472b8160f9dacf6699b805a0d7d2b67c1c117dfc",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/drizzle/meta/_journal.json"
+          ],
+          "path": "web/drizzle/meta/_journal.json"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "c8af73d708e32be0a262c373c1e4f413b8f3e04191421199bba9ad7cf295f1ca",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/app/.well-known/apple-app-site-association/route.ts"
+          ],
+          "path": "web/app/.well-known/apple-app-site-association/route.ts"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/postcss.config.mjs"
+          ],
+          "path": "web/postcss.config.mjs"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "4bba1536ec71eba37e19bbc9f65f273e410fd86c0efd9c1c11043bcf734eae7e",
+          "exactCurrentMatches": [
+            "legacy/native-cloud-2026-11-03/app/test/features/publishing/publish_link_sheet_test.dart"
+          ],
+          "path": "app/test/features/publishing/publish_link_sheet_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "3978c16ea15b1bd51e466e3a7f3811e17462c851bb9aac13997b68bbf0efb418",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/app/[slug]/page.tsx"
+          ],
+          "path": "web/app/[slug]/page.tsx"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "303400d128ba486bab0b0e01d45f2652214f7f585d06cfa525e8acedabedba56",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/app/api/links/[slug]/route.ts"
+          ],
+          "path": "web/app/api/links/[slug]/route.ts"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "569954488eee02bb1e7c4a3359a98625858819dd3a031e31a8c81765ecb5ae37",
+          "exactCurrentMatches": [
+            "legacy/native-cloud-2026-11-03/app/lib/features/publishing/data/short_link_service.dart"
+          ],
+          "path": "app/lib/features/publishing/data/short_link_service.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "b21fd87a5ee957f3dadb886bb6c54c1bd3299e64b71abfb3c475461dc780dd75",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/db/schema.ts"
+          ],
+          "path": "web/db/schema.ts"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "a3af0598bb32ee3152034db14683b8425e7977394ab705796ace18a8b985b293",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/drizzle/meta/0001_snapshot.json"
+          ],
+          "path": "web/drizzle/meta/0001_snapshot.json"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "ceb60e1451db016c9fae3344a7fee562cbc9a340ded5bd7f57b54ca85f16dbdd",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/lib/public-shell-cache.ts"
+          ],
+          "path": "web/lib/public-shell-cache.ts"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "d087aacd1bf5b325a39ff8df0212d49c6015f52bf7b7d2bef5c3bc60afc311fa",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/tests/rendered-html.test.mjs"
+          ],
+          "path": "web/tests/rendered-html.test.mjs"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "81b7cbfaeb970611572256aba0e313425beb3809f6426f63750696c15d9c756b",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/build/sites-vite-plugin.ts"
+          ],
+          "path": "web/build/sites-vite-plugin.ts"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "52449f6b0bc7b2b37a57bbbfaab092c1fcc44c8ca7bf31d1433cac358a93e304",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/vite.config.ts"
+          ],
+          "path": "web/vite.config.ts"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "7ee912362cf0c3986f7a2e19d91375a282be8dd64133b7df7cd727b9ae751466",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/worker/index.ts"
+          ],
+          "path": "web/worker/index.ts"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "a5632d9006a2691e648c4fa8f9f4da6bd57413ad0b85a2ea180cd62f9847160e",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/tests/d1-lifecycle.test.mjs"
+          ],
+          "path": "web/tests/d1-lifecycle.test.mjs"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "721ba8b1d22ea845e43cafcbd56837c065fef142c86aa42d34f2d60d81236276",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/tests/public-shell-cache.test.mjs"
+          ],
+          "path": "web/tests/public-shell-cache.test.mjs"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "49d75525938d22d3f0c1749108c196e9c4b6f4e028c82db419a6e877128451e3",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/app/components/report-link.tsx"
+          ],
+          "path": "web/app/components/report-link.tsx"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "8c3dd9f74457bb87fa32b3850eb316a4dbf96ffbc542cd6c4ec7ab7406681dd9",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/tests/link-api.test.mjs"
+          ],
+          "path": "web/tests/link-api.test.mjs"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "48fe27a16398fd7997031ef0e523c359eba6a535843ae9e3a94a538ef4e854c5",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/lib/links.ts"
+          ],
+          "path": "web/lib/links.ts"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "dc7610b00b918e0ffff1360a63626f16655ced3064b2eaf96095a4101fb14bcd",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/db/index.ts"
+          ],
+          "path": "web/db/index.ts"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "348cfda68fd5881f41f295450d3aeb66b576a947748873b6a66fd9eafa8d910f",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/tests/migrations.test.mjs"
+          ],
+          "path": "web/tests/migrations.test.mjs"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "e9c0b46c3a4566bba8e3acef0854a1285e24575f8e39a91c5f316ffeac0a6bcd",
+          "exactCurrentMatches": [
+            "legacy/native-cloud-2026-11-03/app/test/features/publishing/short_link_service_test.dart"
+          ],
+          "path": "app/test/features/publishing/short_link_service_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "7c1eb518e0c3a4d795b6ce129d8beb078ecd720655790cbec634968b8f56ace7",
+          "exactCurrentMatches": [
+            "legacy/native-cloud-2026-11-03/app/lib/features/publishing/presentation/publish_link_sheet.dart"
+          ],
+          "path": "app/lib/features/publishing/presentation/publish_link_sheet.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "a273426c6dc6028621a82b8dec60bfccf7b18bd5e1378a53dd7c823c5ed0a553",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/build/pwa-precache-plugin.ts"
+          ],
+          "path": "web/build/pwa-precache-plugin.ts"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "0ed4c61b80614196451172ccabd07dd559c1a8e4f6c0c6aea2c4f7a0d9b177b4",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/app/api/links/[slug]/vcard/route.ts"
+          ],
+          "path": "web/app/api/links/[slug]/vcard/route.ts"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "8e2fa4a127c33887596f26cffc5a33129021a3395d9fae14803d6a60b4a1dea4",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/tests/link-contract.test.ts"
+          ],
+          "path": "web/tests/link-contract.test.ts"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "b3cc611f73f5e15cfa0ea000ef651a0ebd094aed3bac9241442e1ebe00e835fd",
+          "exactCurrentMatches": [
+            "legacy/native-cloud-2026-11-03/app/lib/features/subscriptions/application/subscription_store.dart"
+          ],
+          "path": "app/lib/features/subscriptions/application/subscription_store.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "af081f7384aaeb0082cf422e29f139d137ca2f6a57c69b2c37b9fb1f8479867b",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/drizzle.config.ts"
+          ],
+          "path": "web/drizzle.config.ts"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "af9986a2497349264e3cc187347a1506708a73f784fdf451bd7ce09e1643d165",
+          "exactCurrentMatches": [
+            "legacy/native-cloud-2026-11-03/app/test/features/subscriptions/subscription_controller_test.dart"
+          ],
+          "path": "app/test/features/subscriptions/subscription_controller_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "76d1df50d8b4b27adefe02f0900af7472fd9837fad573ed66cfd6725c8bc1fbc",
+          "exactCurrentMatches": [
+            "legacy/cloud_hosted_web/drizzle/meta/0000_snapshot.json"
+          ],
+          "path": "web/drizzle/meta/0000_snapshot.json"
+        }
+      ],
+      "missingCount": 34
+    },
+    "Object-Lore": {
+      "baselineFiles": 7,
+      "baselineHead": "ce53bb0d174b9cfb275534554849b832b1fc9a20",
+      "branch": "dev",
+      "dev": "ce53bb0d174b9cfb275534554849b832b1fc9a20",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 0,
+      "head": "ce53bb0d174b9cfb275534554849b832b1fc9a20",
+      "missing": [],
+      "missingCount": 0
+    },
+    "Pantry-Clock": {
+      "baselineFiles": 132,
+      "baselineHead": "e7194145fdf38f1e5546eeef025178263e1472c6",
+      "branch": "dev",
+      "dev": "e7194145fdf38f1e5546eeef025178263e1472c6",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 3,
+      "head": "e7194145fdf38f1e5546eeef025178263e1472c6",
+      "missing": [
+        {
+          "baselineDirty": false,
+          "baselineSha256": "f58b1d1951e7baddb8006ebd504f634cd994d4fb7dea85e7a21d4eaa6c9002a5",
+          "exactCurrentMatches": [
+            "legacy/revenuecat/lib/features/subscriptions/application/subscription_controller.dart"
+          ],
+          "path": "lib/features/subscriptions/application/subscription_controller.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "62ac434dfb7cde1b7c1bbe7f1df5f84f7ed977a8845c8339b74565a77122ae0d",
+          "exactCurrentMatches": [
+            "legacy/revenuecat/lib/features/subscriptions/data/revenue_cat_service.dart"
+          ],
+          "path": "lib/features/subscriptions/data/revenue_cat_service.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "0916a5bd14414d600c8e8a7b29a5302b2f9564464f190d7ab768cb4ba9bae90c",
+          "exactCurrentMatches": [
+            "legacy/revenuecat/test/features/subscriptions/subscription_controller_test.dart"
+          ],
+          "path": "test/features/subscriptions/subscription_controller_test.dart"
+        }
+      ],
+      "missingCount": 3
+    },
+    "Paws": {
+      "baselineFiles": 131,
+      "baselineHead": "e79d0692bfb7b82da5f4c1e717ff5c4f156d229a",
+      "branch": "dev",
+      "dev": "e79d0692bfb7b82da5f4c1e717ff5c4f156d229a",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 3,
+      "head": "e79d0692bfb7b82da5f4c1e717ff5c4f156d229a",
+      "missing": [
+        {
+          "baselineDirty": false,
+          "baselineSha256": "a0cb244dd4f0292b962e5080599636192440a86671d42620c3d3908d27a3a334",
+          "exactCurrentMatches": [
+            "legacy/revenuecat/lib/features/subscriptions/application/subscription_controller.dart"
+          ],
+          "path": "lib/features/subscriptions/application/subscription_controller.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "62ac434dfb7cde1b7c1bbe7f1df5f84f7ed977a8845c8339b74565a77122ae0d",
+          "exactCurrentMatches": [
+            "legacy/revenuecat/lib/features/subscriptions/data/revenue_cat_service.dart"
+          ],
+          "path": "lib/features/subscriptions/data/revenue_cat_service.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "b30a3ecb64f947ae523ff14b4723f043a8ed88728c16a8532995fd32ed981ed2",
+          "exactCurrentMatches": [
+            "legacy/revenuecat/test/features/subscriptions/subscription_controller_test.dart"
+          ],
+          "path": "test/features/subscriptions/subscription_controller_test.dart"
+        }
+      ],
+      "missingCount": 3
+    },
+    "Ridelore": {
+      "baselineFiles": 424,
+      "baselineHead": "4b6c2dd41bcf49ed89e4a4303f041e8e41db9fbe",
+      "branch": "dev",
+      "dev": "4b6c2dd41bcf49ed89e4a4303f041e8e41db9fbe",
+      "dirtyMissingCount": 19,
+      "exactArchivedCount": 27,
+      "head": "4b6c2dd41bcf49ed89e4a4303f041e8e41db9fbe",
+      "missing": [
+        {
+          "baselineDirty": false,
+          "baselineSha256": "dd743a4d8d295691455517a7f385f7d06eb88cd84bbd6d4113b5f2a270047b67",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/lib/shared/services/supabase_service.dart"
+          ],
+          "path": "lib/shared/services/supabase_service.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "7bf96585449a9f98cfed2b230dbc095181b01ec0dfc9678a37f49a30d05823d5",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/test/features/shared_binders/domain/shared_binder_snapshot_builder_test.dart"
+          ],
+          "path": "test/features/shared_binders/domain/shared_binder_snapshot_builder_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "b38e7bd466311d83d03864f1f32441b63af884a3fe242a90a491104adefca8ae",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/test/shared/config/app_config_test.dart"
+          ],
+          "path": "test/shared/config/app_config_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "a6a7ecec797eb1ae78114994e41a78857d179152988eb5013f6acfe00619365a",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/test/shared/bootstrap/app_bootstrap_test.dart"
+          ],
+          "path": "test/shared/bootstrap/app_bootstrap_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "386324e6a22dc989c3ad6b2a79b0a483b19a415d5d3b16e23ace42fea7da77ea",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/lib/features/shared_binders/domain/shared_binder_snapshot_builder.dart"
+          ],
+          "path": "lib/features/shared_binders/domain/shared_binder_snapshot_builder.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "8604ed5c953c613692c0fa75ba34882c6e770774aa28a778dba302fdd1e7cc8c",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/lib/shared/services/cloud_sync_service.dart"
+          ],
+          "path": "lib/shared/services/cloud_sync_service.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "c620369cdc936c59aedec6010af1d4aa3df876755d40978cda67118ae5e4a7d9",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/lib/shared/services/resumable_upload_service.dart"
+          ],
+          "path": "lib/shared/services/resumable_upload_service.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "771057e02a1a61718cc89836a2ec6d18a7d3489c5589c514ada0ce2517e1ec1b",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/lib/features/settings/data/subscription_profile_repository.dart"
+          ],
+          "path": "lib/features/settings/data/subscription_profile_repository.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "8d684e2cd30e1a4b0f82f87f6b97b1fad6e795ea8479719234e18d688f182ddd",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/test/features/settings/presentation/settings_screen_test.dart"
+          ],
+          "path": "test/features/settings/presentation/settings_screen_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "429be05e64a04ed32af2eca3dbe1e062318effe078132f980a164191114f4ef4",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/lib/features/auth/presentation/sign_in_screen.dart"
+          ],
+          "path": "lib/features/auth/presentation/sign_in_screen.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "5f3891cf381c2948876c9f4f243bac4b88561afe79839d9974ef2aac76df5123",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/lib/shared/widgets/app_cloud_sync_scope.dart"
+          ],
+          "path": "lib/shared/widgets/app_cloud_sync_scope.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "9b3f6286aae8c8a59c251c7b1735ecd73f16380f9828b76cc197dc52b88dd2c0",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/test/features/shared_binders/presentation/share_binder_wizard_screen_test.dart"
+          ],
+          "path": "test/features/shared_binders/presentation/share_binder_wizard_screen_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "e290e69e0ee8df3d114ab87277f959c348dcb2f210becfeb557945290d3270e1",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/test/shared/services/resumable_upload_service_test.dart"
+          ],
+          "path": "test/shared/services/resumable_upload_service_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "b32b388a84ad08aadb43d4320e8d0c6fd8daee0b3e348a633915520520080ae9",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/lib/features/shared_binders/data/shared_binder_repository.dart"
+          ],
+          "path": "lib/features/shared_binders/data/shared_binder_repository.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "ce2fb09d218d272b74e7adfcd5ca35298edad8f81e247334cb9e50ac8ddc5812",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/lib/features/auth/data/auth_repository.dart"
+          ],
+          "path": "lib/features/auth/data/auth_repository.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "cc9be5522e22ead488da6c9ca6929b48da6c19221d0cc31d248b51bfecec7f5a",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/test/features/settings/presentation/profile_screen_test.dart"
+          ],
+          "path": "test/features/settings/presentation/profile_screen_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "a5ac62c21d4fdf894c5dbafec08a7d27efc21fb8082f262a3dea6a622071f410",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/lib/features/shared_binders/presentation/share_binder_wizard_screen.dart"
+          ],
+          "path": "lib/features/shared_binders/presentation/share_binder_wizard_screen.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "37131e761d0618709f3c4b91cf703acfd4e9cc23c19dd3da912d3a54c972a796",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/lib/shared/services/revenuecat_service.dart"
+          ],
+          "path": "lib/shared/services/revenuecat_service.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "4358843bbc10ea19ab3408e3cd9dc4cc6b5c8fc609c539c835340c847f93032c",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/test/features/shared_binders/presentation/shared_binders_screen_test.dart"
+          ],
+          "path": "test/features/shared_binders/presentation/shared_binders_screen_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "acc8a30850f9bec96937b1f8f6f626a9ba651d76abf45584d93045812982d6d1",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/test/features/auth/application/auth_controller_test.dart"
+          ],
+          "path": "test/features/auth/application/auth_controller_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "09b2857b0f2273310c4a83939ac978ab3a2eb806ced9e6e6bc9e683b75fdb74b",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/test/shared/application/app_feature_flags_test.dart"
+          ],
+          "path": "test/shared/application/app_feature_flags_test.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "d487cf7ef6160a380b747d34dc370646985d74d261bd332f413dd7b54965d41f",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/lib/features/auth/presentation/sign_up_screen.dart"
+          ],
+          "path": "lib/features/auth/presentation/sign_up_screen.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "90488bf8027a2d07d1703cd39842b02004075588f023b8f7e2620abd469cbef5",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/test/features/auth/presentation/sign_up_screen_test.dart"
+          ],
+          "path": "test/features/auth/presentation/sign_up_screen_test.dart"
+        },
+        {
+          "baselineDirty": false,
+          "baselineSha256": "9c364ccb9a769147443c0c88b29765a52dc5791b48eb627291cbaab012731572",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/lib/features/shared_binders/application/shared_binder_providers.dart"
+          ],
+          "path": "lib/features/shared_binders/application/shared_binder_providers.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "c1905402a82f66e9d112d39ae2b47cd06d0c90a297361208f6df9fd86fa95c0d",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/lib/features/shared_binders/presentation/shared_binders_screen.dart"
+          ],
+          "path": "lib/features/shared_binders/presentation/shared_binders_screen.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "09e624aca526316b2b83e48eb01e5880b7247f1586f9be3b16e790126dab0263",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/lib/features/settings/presentation/sync_conflicts_screen.dart"
+          ],
+          "path": "lib/features/settings/presentation/sync_conflicts_screen.dart"
+        },
+        {
+          "baselineDirty": true,
+          "baselineSha256": "eb520874bf2f859ad9e791005cab1b11492117d3acde949f07f360027e901308",
+          "exactCurrentMatches": [
+            "legacy/cloud-mobile-2026-11-03/test/features/auth/presentation/sign_in_screen_test.dart"
+          ],
+          "path": "test/features/auth/presentation/sign_in_screen_test.dart"
+        }
+      ],
+      "missingCount": 27
+    },
+    "Skepbook": {
+      "baselineFiles": 153,
+      "baselineHead": "11fdfa115291b30a5921eea707e6617a154d22b8",
+      "branch": "dev",
+      "dev": "11fdfa115291b30a5921eea707e6617a154d22b8",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 0,
+      "head": "11fdfa115291b30a5921eea707e6617a154d22b8",
+      "missing": [],
+      "missingCount": 0
+    },
+    "Tender-Days": {
+      "baselineFiles": 7,
+      "baselineHead": "a097f1d4e430b3a1dffb6b1fe94965a4d8325b50",
+      "branch": "dev",
+      "dev": "a097f1d4e430b3a1dffb6b1fe94965a4d8325b50",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 0,
+      "head": "a097f1d4e430b3a1dffb6b1fe94965a4d8325b50",
+      "missing": [],
+      "missingCount": 0
+    },
+    "Turnstamp": {
+      "baselineFiles": 8,
+      "baselineHead": "164e8b0c98d3dff9b33626e4f23dbeffb5489017",
+      "branch": "dev",
+      "dev": "164e8b0c98d3dff9b33626e4f23dbeffb5489017",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 0,
+      "head": "164e8b0c98d3dff9b33626e4f23dbeffb5489017",
+      "missing": [],
+      "missingCount": 0
+    },
+    "What-We-Own": {
+      "baselineFiles": 7,
+      "baselineHead": "98c3c4d84b619a08ff6d90b1328b0a8bb92bc0fa",
+      "branch": "dev",
+      "dev": "98c3c4d84b619a08ff6d90b1328b0a8bb92bc0fa",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 0,
+      "head": "98c3c4d84b619a08ff6d90b1328b0a8bb92bc0fa",
+      "missing": [],
+      "missingCount": 0
+    },
+    "app-legal": {
+      "baselineFiles": 149,
+      "baselineHead": "e35d75c1e551b60d90b9f558315fb573c5407d2f",
+      "branch": "dev",
+      "dev": "e35d75c1e551b60d90b9f558315fb573c5407d2f",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 0,
+      "head": "e35d75c1e551b60d90b9f558315fb573c5407d2f",
+      "missing": [],
+      "missingCount": 0
+    },
+    "brand-assets": {
+      "baselineFiles": 114,
+      "baselineHead": "8599a60c24036220a07ac8f572929962e1a72424",
+      "branch": "dev",
+      "dev": "8599a60c24036220a07ac8f572929962e1a72424",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 0,
+      "head": "8599a60c24036220a07ac8f572929962e1a72424",
+      "missing": [],
+      "missingCount": 0
+    },
+    "lockbox": {
+      "baselineFiles": 6,
+      "baselineHead": "13f9b07a8ca7b50bab614767d0c21eb2302c5618",
+      "branch": "dev",
+      "dev": "13f9b07a8ca7b50bab614767d0c21eb2302c5618",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 0,
+      "head": "13f9b07a8ca7b50bab614767d0c21eb2302c5618",
+      "missing": [],
+      "missingCount": 0
+    },
+    "steward": {
+      "baselineFiles": 32,
+      "baselineHead": "5d01fb28c27ed671931ae6c9ba1357f7f4784f82",
+      "branch": "dev",
+      "dev": "5d01fb28c27ed671931ae6c9ba1357f7f4784f82",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 0,
+      "head": "5d01fb28c27ed671931ae6c9ba1357f7f4784f82",
+      "missing": [],
+      "missingCount": 0
+    },
+    "wolfe-server-apps": {
+      "baselineFiles": 16,
+      "baselineHead": "b3536d637f672b81c33bff2be5f668dabd1743f4",
+      "branch": "dev",
+      "dev": "b3536d637f672b81c33bff2be5f668dabd1743f4",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 0,
+      "head": "b3536d637f672b81c33bff2be5f668dabd1743f4",
+      "missing": [],
+      "missingCount": 0
+    },
+    "wolfe-server-infra": {
+      "baselineFiles": 47,
+      "baselineHead": "9cb2d5b9c6d8b9770f0227bad4addc2ee903c142",
+      "branch": "dev",
+      "dev": "9cb2d5b9c6d8b9770f0227bad4addc2ee903c142",
+      "dirtyMissingCount": 0,
+      "exactArchivedCount": 0,
+      "head": "9cb2d5b9c6d8b9770f0227bad4addc2ee903c142",
+      "missing": [],
+      "missingCount": 0
+    }
+  },
+  "summary": {
+    "exactCurrentCopies": 265,
+    "originallyDirtyRemovedFiles": 109,
+    "removedOriginalPaths": 265,
+    "repositories": 26,
+    "unchangedHeadAndDev": 26
+  }
+}

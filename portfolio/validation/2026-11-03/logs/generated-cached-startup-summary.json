@@ -1,0 +1,11 @@
+{
+  "package": "dev.majesticmade.majestic_patched",
+  "pid": "9210",
+  "observationSeconds": 25,
+  "log": "generated-cached-startup.log",
+  "matches": {
+    "storeOrTransport": [],
+    "fatal": []
+  },
+  "scope": "Fresh release-process log observation only, not packet capture or universal no-network proof."
+}

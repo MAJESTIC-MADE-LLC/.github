@@ -1,0 +1,3 @@
+00:00 +0: loading /private/tmp/majestic-foundation-published-20261104/packages/majestic_reminders/test/local_reminders_test.dart
+00:00 +0: past reminders do not initialize native services or prompt for permission
+00:00 +1: All tests passed!

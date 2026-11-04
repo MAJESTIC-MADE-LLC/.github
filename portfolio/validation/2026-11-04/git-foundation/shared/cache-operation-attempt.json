@@ -1,0 +1,10 @@
+[
+  {
+    "package": "majestic_app",
+    "check": "pub-get",
+    "exitCode": 1,
+    "seconds": 0.22,
+    "sha256": "7f9ae202b501b8d7e598add36fc0b8ff8a3a6b8d904e24f33004f9bad71d9418",
+    "record": "majestic_app-pub-get.log"
+  }
+]

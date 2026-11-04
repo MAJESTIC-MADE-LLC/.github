@@ -1,0 +1,325 @@
+Waiting for another flutter command to release the startup lock...
+00:00 +0: loading /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/config/app_config_test.dart
+00:00 +0: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/config/app_config_test.dart: environment parsing rejects unknown values instead of enabling development
+00:00 +1: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/config/app_config_test.dart: release builds reject development even with otherwise valid configuration
+00:00 +2: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/config/app_config_test.dart: release production validates public links without provider credentials
+00:00 +3: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/config/app_config_test.dart: native configuration requires no hosted service credentials
+00:00 +4: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/config/app_config_test.dart: production requires usable public support and legal URLs
+00:00 +5: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/services/device_bound_secure_storage_test.dart: Apple secure-storage items do not migrate to another device
+00:00 +6: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/services/device_bound_secure_storage_test.dart: biometric marker is enrollment-bound and isolated
+00:01 +7: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/services/biometric_auth_service_test.dart: legacy boolean preference is migrated to disabled
+00:02 +8: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/widgets/app_button_test.dart: AppButton shows loading indicator and disables tap
+00:02 +9: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/widgets/app_button_test.dart: AppButton shows loading indicator and disables tap
+00:02 +10: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/widgets/app_button_test.dart: AppButton shows loading indicator and disables tap
+00:02 +11: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/widgets/app_button_test.dart: AppButton shows loading indicator and disables tap
+00:02 +12: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/widgets/app_button_test.dart: AppButton shows loading indicator and disables tap
+00:02 +13: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/widgets/app_button_test.dart: AppButton shows loading indicator and disables tap
+00:02 +14: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/widgets/app_button_test.dart: AppButton shows loading indicator and disables tap
+00:02 +15: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/validation/input_validators_test.dart: InputValidators requires strong enough starter passwords
+00:02 +16: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/validation/input_validators_test.dart: InputValidators validates matching password confirmation
+00:03 +17: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/router/app_router_test.dart: router cannot leave Setup before recovery commit completes
+00:04 +18: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/router/app_router_test.dart: router cannot leave Setup before recovery commit completes
+00:04 +19: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/router/app_router_test.dart: router cannot leave Setup before recovery commit completes
+00:04 +20: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/router/app_router_test.dart: router cannot leave Setup before recovery commit completes
+00:05 +21: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/router/app_router_test.dart: router cannot leave Setup before recovery commit completes
+00:05 +22: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/router/app_router_test.dart: router cannot leave Setup before recovery commit completes
+00:05 +23: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:05 +24: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:07 +25: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/router/lifecycle_route_retention_test.dart: focused selected-note secret dialog closes across background without disposed controllers
+00:07 +26: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/router/lifecycle_route_retention_test.dart: focused selected-note secret dialog closes across background without disposed controllers
+00:07 +27: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/router/lifecycle_route_retention_test.dart: focused selected-note secret dialog closes across background without disposed controllers
+00:07 +28: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/router/lifecycle_route_retention_test.dart: focused selected-note secret dialog closes across background without disposed controllers
+00:07 +29: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/router/lifecycle_route_retention_test.dart: focused selected-note secret dialog closes across background without disposed controllers
+00:07 +29: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/fine_notes_vault_controller_test.dart: failed recovery staging preserves the pristine controller
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ Bad state: save failed
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   MemoryVault.stageNewAccountRecovery (file:///Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/fine_notes_vault_controller_test.dart:36:19)
+│ #1   <asynchronous suspension>
+│ #2   FineNotesVaultController._runRecoveryOperation (package:fine_notes/features/collection/application/fine_notes_vault_controller.dart:310:7)
+│ #3   <asynchronous suspension>
+│ #4   main.<anonymous closure> (file:///Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/fine_notes_vault_controller_test.dart:184:7)
+│ #5   <asynchronous suspension>
+│ #6   Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+│ #7   <asynchronous suspension>
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:20:55.984 (+0:00:00.022900)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Fine Notes vault operation failed
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:07 +30: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/router/lifecycle_route_retention_test.dart: focused selected-note secret dialog closes across background without disposed controllers
+00:07 +30: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/fine_notes_vault_controller_test.dart: recovery staging rejects an existing vault
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ FormatException: Recovery target is not pristine.
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   MemoryVault.stageNewAccountRecovery (file:///Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/fine_notes_vault_controller_test.dart:34:7)
+│ #1   <asynchronous suspension>
+│ #2   FineNotesVaultController._runRecoveryOperation (package:fine_notes/features/collection/application/fine_notes_vault_controller.dart:310:7)
+│ #3   <asynchronous suspension>
+│ #4   main.<anonymous closure> (file:///Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/fine_notes_vault_controller_test.dart:212:7)
+│ #5   <asynchronous suspension>
+│ #6   Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+│ #7   <asynchronous suspension>
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:20:55.994 (+0:00:00.032732)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Fine Notes vault operation failed
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:07 +31: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/router/lifecycle_route_retention_test.dart: focused selected-note secret dialog closes across background without disposed controllers
+00:08 +32: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/router/lifecycle_route_retention_test.dart: cold locked or unconfigured navigation cannot mount the private home
+00:08 +33: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/router/lifecycle_route_retention_test.dart: cold locked or unconfigured navigation cannot mount the private home
+00:09 +34: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/router/lifecycle_route_retention_test.dart: cold locked or unconfigured navigation cannot mount the private home
+00:09 +35: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/router/lifecycle_route_retention_test.dart: cold locked or unconfigured navigation cannot mount the private home
+00:09 +36: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/core/router/lifecycle_route_retention_test.dart: cold locked or unconfigured navigation cannot mount the private home
+00:09 +37: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/fine_notes_vault_repository_test.dart: authenticated promotion retains ownership until publication
+00:09 +38: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/fine_notes_vault_repository_test.dart: promotion rejects changed pending bytes before touching active state
+00:09 +39: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/fine_notes_vault_repository_test.dart: recovery creates a different target-device vault key
+00:10 +40: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/fine_notes_vault_repository_test.dart: recovery rejects every active, temporary, or pending artifact
+00:10 +41: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/fine_notes_vault_repository_test.dart: acquire then recheck preserves an artifact appearing before reservation
+00:10 +42: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/fine_notes_vault_repository_test.dart: a vault appearing during staging is preserved and never promoted
+00:10 +43: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/fine_notes_vault_repository_test.dart: concurrent save waits for staging then fails against its reservation
+00:10 +44: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/fine_notes_vault_repository_test.dart: two repository instances share the same recovery reservation
+00:10 +45: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/fine_notes_vault_repository_test.dart: exact rollback removes unchanged promoted artifacts
+00:10 +46: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/fine_notes_vault_repository_test.dart: key replacement makes rollback delete no transaction artifacts
+00:10 +47: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/fine_notes_vault_repository_test.dart: file deletion failure retains every matching recovery key
+00:10 +48: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/fine_notes_vault_repository_test.dart: partial stage failure remains fail-closed when bytes do not match
+00:10 +49: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/fine_notes_vault_repository_test.dart: post-publication cleanup failure preserves a loadable vault
+00:10 +50: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/fine_notes_vault_repository_test.dart: restart with pending artifacts blocks load, save, and recovery
+00:10 +51: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/foundation_storage_test.dart: migrates IDs and relationships; updates only the encrypted database
+00:12 +52: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/foundation_storage_test.dart: migrates IDs and relationships; updates only the encrypted database
+00:13 +53: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/foundation_storage_test.dart: migrates IDs and relationships; updates only the encrypted database
+00:13 +54: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/foundation_storage_test.dart: migrates IDs and relationships; updates only the encrypted database
+00:13 +55: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/foundation_storage_test.dart: migrates IDs and relationships; updates only the encrypted database
+00:13 +56: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/foundation_storage_test.dart: migrates IDs and relationships; updates only the encrypted database
+00:14 +57: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/sharing/encrypted_note_service_test.dart: encrypted note round trip reveals only the selected packet
+00:14 +58: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/sharing/encrypted_note_service_test.dart: encrypted note round trip reveals only the selected packet
+00:14 +58: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/foundation_storage_test.dart: account publication reservation protects SQL snapshots across instances
+WARNING (drift): It looks like you've created the database class _RecordDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _RecordDatabase (package:majestic_storage/src/record_files.dart)
+#4      new EncryptedRecordDirectory (package:majestic_storage/src/record_files.dart:87:20)
+#5      SqliteFineNotesVaultRepository._records.<anonymous closure> (package:fine_notes/features/collection/data/fine_notes_vault_repository.dart:679:21)
+<asynchronous suspension>
+#6      new SqliteFineNotesVaultRepository.<anonymous closure> (package:fine_notes/features/collection/data/fine_notes_vault_repository.dart:647:40)
+<asynchronous suspension>
+#7      EncryptedFineNotesVaultRepository._recoveryPaths (package:fine_notes/features/collection/data/fine_notes_vault_repository.dart:553:18)
+<asynchronous suspension>
+#8      EncryptedFineNotesVaultRepository.save (package:fine_notes/features/collection/data/fine_notes_vault_repository.dart:128:27)
+<asynchronous suspension>
+#9      Throws._matchFuture (package:matcher/src/expect/throws_matcher.dart:103:19)
+<asynchronous suspension>
+#10     _expect.<anonymous closure> (package:matcher/src/expect/expect.dart:153:17)
+<asynchronous suspension>
+#11     StackZoneSpecification._registerCallback.<anonymous closure> (package:stack_trace/src/stack_zone_specification.dart:114:42)
+<asynchronous suspension>
+#12     expectLater.<anonymous closure> (package:flutter_test/src/widget_tester.dart:508:19)
+<asynchronous suspension>
+#13     main.<anonymous closure> (file:///Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/foundation_storage_test.dart:91:7)
+<asynchronous suspension>
+#14     Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#15     Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#16     Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+00:14 +59: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/sharing/encrypted_note_service_test.dart: encrypted note round trip reveals only the selected packet
+00:14 +60: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/sharing/encrypted_note_service_test.dart: encrypted note round trip reveals only the selected packet
+00:14 +61: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/sharing/foundation_sharing_test.dart: unpaid user sharing writes only an encrypted artifact and cleans it
+00:14 +62: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/sharing/foundation_sharing_test.dart: unpaid user sharing writes only an encrypted artifact and cleans it
+00:14 +63: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/foundation_storage_test.dart: shared backups preserve relationships and read the original format
+00:15 +64: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/foundation_storage_test.dart: shared backups preserve relationships and read the original format
+00:15 +64: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_controller_test.dart: stored biometric preference is unavailable when no biometrics remain
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ Biometric unlock is not enabled or no longer available on this device.
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   LocalAccountController.unlockWithBiometrics.<anonymous closure> (package:fine_notes/features/local_account/application/local_account_controller.dart:255:9)
+│ #1   LocalActionUnlockPolicy.run.<anonymous closure> (package:majestic_privacy/src/local_action_unlock_policy.dart:20:40)
+│ #2   LocalActionUnlockPolicy.authenticate (package:majestic_privacy/src/local_action_unlock_policy.dart:45:29)
+│ #3   LocalAppLock.unlock (package:majestic_privacy/src/local_app_lock.dart:81:32)
+│ #4   LocalActionUnlockPolicy.run (package:majestic_privacy/src/local_action_unlock_policy.dart:26:35)
+│ #5   LocalAccountController._runUnlockAction.<anonymous closure> (package:fine_notes/features/local_account/application/local_account_controller.dart:333:46)
+│ #6   LocalAccountController._runLocalAction (package:fine_notes/features/local_account/application/local_account_controller.dart:355:26)
+│ #7   LocalAccountController._runUnlockAction (package:fine_notes/features/local_account/application/local_account_controller.dart:332:7)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:21:03.377 (+0:00:00.008642)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Biometric unlock is not enabled or no longer available on this device.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:15 +65: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/collection/foundation_storage_test.dart: shared backups preserve relationships and read the original format
+00:15 +66: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/sharing/encrypted_note_service_test.dart: rejects unexpected envelope and payload fields
+00:15 +67: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/sharing/foundation_sharing_test.dart: original PBKDF2 shared notes still authenticate and preserve selected fields
+00:15 +68: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/sharing/foundation_sharing_test.dart: original PBKDF2 shared notes still authenticate and preserve selected fields
+00:15 +69: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/sharing/foundation_sharing_test.dart: original PBKDF2 shared notes still authenticate and preserve selected fields
+00:15 +70: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/sharing/foundation_sharing_test.dart: original PBKDF2 shared notes still authenticate and preserve selected fields
+00:15 +71: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/sharing/foundation_sharing_test.dart: original PBKDF2 shared notes still authenticate and preserve selected fields
+00:15 +72: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/sharing/foundation_sharing_test.dart: original PBKDF2 shared notes still authenticate and preserve selected fields
+00:16 +72: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_controller_test.dart: invalidated enrollment clears controller biometric state
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ Biometric enrollment changed.
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   _FakeBiometricAuthService.authenticate (file:///Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_controller_test.dart:643:7)
+│ #1   LocalAccountController.unlockWithBiometrics.<anonymous closure> (package:fine_notes/features/local_account/application/local_account_controller.dart:261:61)
+│ #2   LocalActionUnlockPolicy.run.<anonymous closure> (package:majestic_privacy/src/local_action_unlock_policy.dart:20:40)
+│ #3   LocalActionUnlockPolicy.authenticate (package:majestic_privacy/src/local_action_unlock_policy.dart:45:29)
+│ #4   LocalAppLock.unlock (package:majestic_privacy/src/local_app_lock.dart:81:32)
+│ #5   LocalActionUnlockPolicy.run (package:majestic_privacy/src/local_action_unlock_policy.dart:26:35)
+│ #6   LocalAccountController._runUnlockAction.<anonymous closure> (package:fine_notes/features/local_account/application/local_account_controller.dart:333:46)
+│ #7   LocalAccountController._runLocalAction (package:fine_notes/features/local_account/application/local_account_controller.dart:355:26)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:21:04.460 (+0:00:01.091520)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Biometric enrollment changed.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:16 +73: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/sharing/foundation_sharing_test.dart: original PBKDF2 shared notes still authenticate and preserve selected fields
+00:17 +74: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/sharing/foundation_sharing_test.dart: original PBKDF2 shared notes still authenticate and preserve selected fields
+00:17 +75: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_controller_test.dart: background lock invalidates an in-flight biometric unlock
+00:17 +76: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/sharing/encrypted_note_service_test.dart: removes its unique temporary export when sharing fails
+00:17 +77: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/sharing/encrypted_note_service_test.dart: removes its unique temporary export when sharing fails
+00:17 +78: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/sharing/encrypted_note_service_test.dart: removes its unique temporary export when sharing fails
+00:17 +78: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_controller_test.dart: failed recovery vault commit leaves no local account
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ The restored vault could not be saved. No local account was created.
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   LocalAccountController._createAccount.<anonymous closure> (package:fine_notes/features/local_account/application/local_account_controller.dart:156:11)
+│ #1   <asynchronous suspension>
+│ #2   LocalActionUnlockPolicy.run.<anonymous closure> (package:majestic_privacy/src/local_action_unlock_policy.dart:20:28)
+│ #3   <asynchronous suspension>
+│ #4   LocalActionUnlockPolicy.authenticate (package:majestic_privacy/src/local_action_unlock_policy.dart:45:14)
+│ #5   <asynchronous suspension>
+│ #6   LocalAppLock.unlock (package:majestic_privacy/src/local_app_lock.dart:81:18)
+│ #7   <asynchronous suspension>
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:21:06.220 (+0:00:02.851684)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ The restored vault could not be saved. No local account was created.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:17 +79: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/sharing/encrypted_note_service_test.dart: removes its unique temporary export when sharing fails
+00:17 +80: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_setup_recovery_test.dart: cancelled import stays on Setup without changing state
+00:18 +81: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_setup_recovery_test.dart: cancelled import stays on Setup without changing state
+00:18 +82: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_repository_test.dart: locks password verification after five failures across restarts
+00:18 +82: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_controller_test.dart: account commit failure rolls back staged recovery artifacts
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ Bad state: injected account commit failure
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   _FailingCommitLocalAccountRepository.commitPreparedAccount (file:///Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_controller_test.dart:580:5)
+│ #1   LocalAccountController._createAccount.<anonymous closure> (package:fine_notes/features/local_account/application/local_account_controller.dart:168:39)
+│ #2   <asynchronous suspension>
+│ #3   LocalActionUnlockPolicy.run.<anonymous closure> (package:majestic_privacy/src/local_action_unlock_policy.dart:20:28)
+│ #4   <asynchronous suspension>
+│ #5   LocalActionUnlockPolicy.authenticate (package:majestic_privacy/src/local_action_unlock_policy.dart:45:14)
+│ #6   <asynchronous suspension>
+│ #7   LocalAppLock.unlock (package:majestic_privacy/src/local_app_lock.dart:81:18)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:21:06.909 (+0:00:03.540850)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Something went wrong. Please try again.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:18 +83: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_repository_test.dart: locks password verification after five failures across restarts
+00:19 +84: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_repository_test.dart: locks password verification after five failures across restarts
+00:19 +85: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_repository_test.dart: locks password verification after five failures across restarts
+00:19 +86: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_repository_test.dart: locks password verification after five failures across restarts
+00:19 +86: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_controller_test.dart: prepublication failure discards credentials before rollback
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ The restored vault could not be finalized. No local account was created.
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   LocalAccountController._createAccount.<anonymous closure> (package:fine_notes/features/local_account/application/local_account_controller.dart:164:11)
+│ #1   <asynchronous suspension>
+│ #2   LocalActionUnlockPolicy.run.<anonymous closure> (package:majestic_privacy/src/local_action_unlock_policy.dart:20:28)
+│ #3   <asynchronous suspension>
+│ #4   LocalActionUnlockPolicy.authenticate (package:majestic_privacy/src/local_action_unlock_policy.dart:45:14)
+│ #5   <asynchronous suspension>
+│ #6   LocalAppLock.unlock (package:majestic_privacy/src/local_app_lock.dart:81:18)
+│ #7   <asynchronous suspension>
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:21:07.817 (+0:00:04.448749)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ The restored vault could not be finalized. No local account was created.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:19 +87: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_repository_test.dart: locks password verification after five failures across restarts
+00:19 +87: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_controller_test.dart: ambiguous marker failure discards marker before rollback
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ Bad state: ambiguous marker failure after durable write
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   _RecordingLocalAccountRepository.commitPreparedAccount (file:///Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_controller_test.dart:606:7)
+│ #1   <asynchronous suspension>
+│ #2   LocalAccountController._createAccount.<anonymous closure> (package:fine_notes/features/local_account/application/local_account_controller.dart:168:9)
+│ #3   <asynchronous suspension>
+│ #4   LocalActionUnlockPolicy.run.<anonymous closure> (package:majestic_privacy/src/local_action_unlock_policy.dart:20:28)
+│ #5   <asynchronous suspension>
+│ #6   LocalActionUnlockPolicy.authenticate (package:majestic_privacy/src/local_action_unlock_policy.dart:45:14)
+│ #7   <asynchronous suspension>
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:21:08.186 (+0:00:04.817221)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Something went wrong. Please try again.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:19 +88: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_repository_test.dart: locks password verification after five failures across restarts
+00:20 +89: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_repository_test.dart: locks password verification after five failures across restarts
+00:20 +89: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_controller_test.dart: failed ambiguous marker discard never rolls back the vault
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ Bad state: injected marker discard failure
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   _RecordingLocalAccountRepository.discardPreparedAccount (file:///Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_controller_test.dart:614:7)
+│ #1   LocalAccountController._createAccount.<anonymous closure> (package:fine_notes/features/local_account/application/local_account_controller.dart:174:43)
+│ #2   <asynchronous suspension>
+│ #3   LocalActionUnlockPolicy.run.<anonymous closure> (package:majestic_privacy/src/local_action_unlock_policy.dart:20:28)
+│ #4   <asynchronous suspension>
+│ #5   LocalActionUnlockPolicy.authenticate (package:majestic_privacy/src/local_action_unlock_policy.dart:45:14)
+│ #6   <asynchronous suspension>
+│ #7   LocalAppLock.unlock (package:majestic_privacy/src/local_app_lock.dart:81:18)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:21:08.542 (+0:00:05.173187)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Fine Notes could not discard an ambiguously published local account.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ Bad state: ambiguous marker failure after durable write
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   _RecordingLocalAccountRepository.commitPreparedAccount (file:///Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_controller_test.dart:606:7)
+│ #1   <asynchronous suspension>
+│ #2   LocalAccountController._createAccount.<anonymous closure> (package:fine_notes/features/local_account/application/local_account_controller.dart:168:9)
+│ #3   <asynchronous suspension>
+│ #4   LocalActionUnlockPolicy.run.<anonymous closure> (package:majestic_privacy/src/local_action_unlock_policy.dart:20:28)
+│ #5   <asynchronous suspension>
+│ #6   LocalActionUnlockPolicy.authenticate (package:majestic_privacy/src/local_action_unlock_policy.dart:45:14)
+│ #7   <asynchronous suspension>
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:21:08.543 (+0:00:05.174488)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Something went wrong. Please try again.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:20 +90: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_repository_test.dart: locks password verification after five failures across restarts
+00:20 +91: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_controller_test.dart: postpublication cleanup failure preserves account and vault
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ 18:21:08.887 (+0:00:05.518484)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Fine Notes could not clean up its published recovery transaction.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:20 +92: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_repository_test.dart: successful verification clears accumulated failures
+00:20 +92: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_controller_test.dart: normal setup requires an explicit pristine-vault proof
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ Local account setup requires an empty vault and vault-key state.
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   LocalAccountController._createAccount.<anonymous closure> (package:fine_notes/features/local_account/application/local_account_controller.dart:133:9)
+│ #1   <asynchronous suspension>
+│ #2   LocalActionUnlockPolicy.run.<anonymous closure> (package:majestic_privacy/src/local_action_unlock_policy.dart:20:28)
+│ #3   <asynchronous suspension>
+│ #4   LocalActionUnlockPolicy.authenticate (package:majestic_privacy/src/local_action_unlock_policy.dart:45:14)
+│ #5   <asynchronous suspension>
+│ #6   LocalAppLock.unlock (package:majestic_privacy/src/local_app_lock.dart:81:18)
+│ #7   <asynchronous suspension>
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:21:08.895 (+0:00:05.526398)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Local account setup requires an empty vault and vault-key state.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:20 +93: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_repository_test.dart: successful verification clears accumulated failures
+00:21 +94: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_repository_test.dart: corrupt throttle state fails closed for one bounded cooldown
+00:21 +95: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_repository_test.dart: far-future throttle timestamps are clamped to one cooldown
+00:21 +96: /Users/bespin-starter/Documents/Majestic/Fine-Notes/test/features/local_account/local_account_repository_test.dart: overlapping password verification is rejected as busy
+00:22 +97: All tests passed!

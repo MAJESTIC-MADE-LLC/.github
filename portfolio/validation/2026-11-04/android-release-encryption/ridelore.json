@@ -1,0 +1,32 @@
+{
+  "product": "ridelore",
+  "package": "com.majesticmade.ridelore",
+  "serial": "emulator-5560",
+  "api": 30,
+  "image": "Google APIs ARM64 (non-Play), new temporary AVD",
+  "offline": true,
+  "releaseArtifact": "/Users/bespin-starter/Documents/Majestic/Ridelore/build/app/outputs/flutter-apk/app-release.apk",
+  "releaseArtifactSha256": "889dad8dafb2ef0f67c1e441a70da978fb184447115a1a53bed56c5a68d000b5",
+  "installedTemporaryCopy": "/tmp/ridelore-patched-smoke.apk",
+  "installedCopySha256": "04ed19609577927494a7c1b261d77b42d05ad137d7c62a7b03fe1c439b12e268",
+  "compiledContentIdenticalToRelease": true,
+  "installedReleaseNotDebuggable": true,
+  "arm64Sqlite3mcSha256": "99a2ee91bdd6e7644fe0a8659e2c3599ea5bef2528aaecbe3ffe809ad4869b2a",
+  "databases": [
+    {
+      "path": "/data/user/0/com.majesticmade.ridelore/files/ridelore.sqlite",
+      "headerHex": "845d6d12a1d53230bd5107d55ad50baf",
+      "ordinarySQLiteExit": 26,
+      "ordinarySQLiteMessage": "Error: file is not a database"
+    }
+  ],
+  "scope": "Only this owned temporary emulator/app UID. No keys read or logged. Opaque header plus ordinary-SQLite rejection complements successful app read/write; it is not a standalone security audit.",
+  "coldRestart": "Actual final production-configured release manually created 2024 Honda CB500X without VIN/network action, force-stopped, cold-reopened to same Garage bike offline.",
+  "uiEvidence": [
+    "/tmp/ridelore-final-release-start.xml",
+    "/tmp/ridelore-final-release-bike-created.xml",
+    "/tmp/ridelore-final-release-cold-bike.xml"
+  ],
+  "productionFixture": "test/fixtures/local_release/app_config.production.json",
+  "evidenceRecordedUtc": "2026-11-04T14:08:34.569963+00:00"
+}

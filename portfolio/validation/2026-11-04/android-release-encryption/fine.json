@@ -1,0 +1,25 @@
+{
+  "product": "fine",
+  "package": "com.majesticmade.finenotes",
+  "serial": "emulator-5560",
+  "api": 30,
+  "image": "Google APIs ARM64 (non-Play), new temporary AVD",
+  "offline": true,
+  "releaseArtifact": "/Users/bespin-starter/Documents/Majestic/Fine-Notes/build/app/outputs/flutter-apk/app-release.apk",
+  "releaseArtifactSha256": "72cb014d99ef0088271d4027271a14e2651d9abdc5dc66671d70365bf56eb754",
+  "installedTemporaryCopy": "/tmp/fine-patched-smoke.apk",
+  "installedCopySha256": "aa8312ed8bde91bdcc8599fe258aedfc7286ff672be85a2b2e8f7a9d04aca991",
+  "compiledContentIdenticalToRelease": true,
+  "installedReleaseNotDebuggable": true,
+  "arm64Sqlite3mcSha256": "99a2ee91bdd6e7644fe0a8659e2c3599ea5bef2528aaecbe3ffe809ad4869b2a",
+  "databases": [
+    {
+      "path": "/data/user/0/com.majesticmade.finenotes/files/fine_notes.sqlite",
+      "headerHex": "7ed1ea5ad37bed8e940444dd07d4a1cf",
+      "ordinarySQLiteExit": 26,
+      "ordinarySQLiteMessage": "Error: file is not a database"
+    }
+  ],
+  "scope": "Only this owned temporary emulator/app UID. No keys read or logged. Opaque header plus ordinary-SQLite rejection complements successful app read/write; it is not a standalone security audit.",
+  "evidenceRecordedUtc": "2026-11-04T14:08:34.571401+00:00"
+}

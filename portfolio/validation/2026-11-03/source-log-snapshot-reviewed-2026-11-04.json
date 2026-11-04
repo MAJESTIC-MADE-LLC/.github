@@ -1,0 +1,952 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-11-04T14:15:24.415844+00:00",
+  "foundationVersion": "0.1.0",
+  "toolchain": {
+    "flutter": "3.47.8",
+    "dart": "3.13.7",
+    "dartConstraint": ">=3.13.7 <4.0.0",
+    "channel": "stable",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "consumers": [
+    {
+      "application": "App-Template",
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "staticAdoption": "passed",
+      "errors": []
+    },
+    {
+      "application": "Skepbook",
+      "sourceFingerprint": "c026f0890add55db5c7f0a97c4a7111cd3f1212f8530691d8a12ab6b0b91beda",
+      "staticAdoption": "passed",
+      "errors": []
+    },
+    {
+      "application": "Ridelore",
+      "sourceFingerprint": "67aca237d30393a48a416d6af7ce0604d0a78d92a411d5d5007a0e366ac9d0e8",
+      "staticAdoption": "passed",
+      "errors": []
+    },
+    {
+      "application": "Paws",
+      "sourceFingerprint": "1de78853f62afc3f2fbdad0ae73b78b9e4c18dcb65599148d6250aacbe434905",
+      "staticAdoption": "passed",
+      "errors": []
+    },
+    {
+      "application": "Pantry-Clock",
+      "sourceFingerprint": "9801ec36fa06e6a212c74939851c52b910fa1786ee690c79861941e0fa9953d3",
+      "staticAdoption": "passed",
+      "errors": []
+    },
+    {
+      "application": "Fine-Notes",
+      "sourceFingerprint": "c5f4766741e4c55359a6114e1cb781e3655cbcd96ba7ab92b1a4abe6cb8b410a",
+      "staticAdoption": "passed",
+      "errors": []
+    },
+    {
+      "application": "Namefold",
+      "sourceFingerprint": "790aab5c0827fa8912c342020db16337460dc0d087cfbc8334dc1e3c78691724",
+      "staticAdoption": "passed",
+      "errors": []
+    },
+    {
+      "application": "Daymerit",
+      "sourceFingerprint": "098d7268a7721399d3924a78ee1e63186768387861c031f743d46be2e9306ad7",
+      "staticAdoption": "passed",
+      "errors": []
+    }
+  ],
+  "cohortFingerprint": "a2b53fd8ebd38f5dbc0f56348c406e590a9a04cb749a052dd206c38258da0842",
+  "logs": [
+    {
+      "application": "App-Template",
+      "check": "analysis",
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/reference-analysis.log",
+      "sha256": "73701d63a67a34502361b27545d98625a104d260a088675e5d2984371952684c",
+      "bytes": 97,
+      "modifiedAt": "2026-11-04T02:22:46.168642+00:00"
+    },
+    {
+      "application": "App-Template",
+      "check": "analysis",
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "path": "/Users/bespin-starter/Documents/Majestic/App-Template/docs/validation/2026-11-03/foundation/analysis.log",
+      "sha256": "73701d63a67a34502361b27545d98625a104d260a088675e5d2984371952684c",
+      "bytes": 97,
+      "modifiedAt": "2026-11-04T14:12:56.499256+00:00"
+    },
+    {
+      "application": "App-Template",
+      "check": "android_release_build",
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/reference-android.log",
+      "sha256": "f37e55a46f664a83367ed28e4a2d31bbe4046ec9465983de04760815d445ab99",
+      "bytes": 1548,
+      "modifiedAt": "2026-11-04T02:22:46.169504+00:00"
+    },
+    {
+      "application": "App-Template",
+      "check": "android_release_build",
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "path": "/Users/bespin-starter/Documents/Majestic/App-Template/docs/validation/2026-11-03/foundation/android_release_build.log",
+      "sha256": "f37e55a46f664a83367ed28e4a2d31bbe4046ec9465983de04760815d445ab99",
+      "bytes": 1548,
+      "modifiedAt": "2026-11-04T14:12:56.500103+00:00"
+    },
+    {
+      "application": "App-Template",
+      "check": "foundation_contracts",
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/reference-cold-persistence.log",
+      "sha256": "b1ab36af2165389ad408a627a55b182e2e955fb55c2f8ff422ac63773643c0c6",
+      "bytes": 635,
+      "modifiedAt": "2026-11-04T02:22:46.171999+00:00"
+    },
+    {
+      "application": "App-Template",
+      "check": "foundation_contracts",
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/reference-database-inspection.log",
+      "sha256": "b4750875d95becc9a3de05df41c6bf9fca9b0c40b03954be89cd83e678989d41",
+      "bytes": 330,
+      "modifiedAt": "2026-11-04T02:22:46.172263+00:00"
+    },
+    {
+      "application": "App-Template",
+      "check": "foundation_contracts",
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/reference-export-independent-decode.log",
+      "sha256": "723e4ca536c008b144795b8cf2bac1cb3a8fba21d6026830dad3122858d20806",
+      "bytes": 160,
+      "modifiedAt": "2026-11-04T02:22:46.172514+00:00"
+    },
+    {
+      "application": "App-Template",
+      "check": "foundation_contracts",
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/reference-owner-roundtrip.log",
+      "sha256": "e019fc84b89c6527abbed3200d7f006421f9893dad765dfecba718c56c6dd9f8",
+      "bytes": 3492,
+      "modifiedAt": "2026-11-04T02:22:46.171658+00:00"
+    },
+    {
+      "application": "App-Template",
+      "check": "generated_template_smoke",
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/generated-android.log",
+      "sha256": "b841b409e829be29b9160989addaa900d0f6020ec50e5529f47ab95b87022ea5",
+      "bytes": 1566,
+      "modifiedAt": "2026-11-04T02:22:46.171007+00:00"
+    },
+    {
+      "application": "App-Template",
+      "check": "generated_template_smoke",
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/generated-cached-startup.log",
+      "sha256": "dc19182a866aaa0cbb7abf8434db74577346bc5a3e3295ea080509ce032890b9",
+      "bytes": 6079,
+      "modifiedAt": "2026-11-04T02:25:51.355428+00:00"
+    },
+    {
+      "application": "App-Template",
+      "check": "generated_template_smoke",
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/generated-ios.log",
+      "sha256": "8d4eb20e75e3d21108aaeab5170e2d15be571d1337d5c1890c89c73281d2c725",
+      "bytes": 693,
+      "modifiedAt": "2026-11-04T02:22:46.171354+00:00"
+    },
+    {
+      "application": "App-Template",
+      "check": "generated_template_smoke",
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/generated-tests.log",
+      "sha256": "1cba4d63d0db0c9200eda73bcb38c4c5a92c2f63250956df82db33869a3c86b3",
+      "bytes": 1823,
+      "modifiedAt": "2026-11-04T02:22:46.170701+00:00"
+    },
+    {
+      "application": "App-Template",
+      "check": "generated_template_smoke",
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/ios-simulator-cold.log",
+      "sha256": "ca2028a7bc724a6da6d1438c06cd5b1f9b551bb304fdb56200edaa3098db06f7",
+      "bytes": 609,
+      "modifiedAt": "2026-11-04T02:27:54.902632+00:00"
+    },
+    {
+      "application": "App-Template",
+      "check": "generated_template_smoke",
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/ios-simulator-write.log",
+      "sha256": "ea57d6a39dcb7d85fddb3bda405be057ca263877584193cf7ae3ad695fce6c13",
+      "bytes": 609,
+      "modifiedAt": "2026-11-04T02:27:54.902354+00:00"
+    },
+    {
+      "application": "App-Template",
+      "check": "generated_template_smoke",
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "path": "/Users/bespin-starter/Documents/Majestic/App-Template/docs/validation/2026-11-03/foundation/GENERATED_TEMPLATE_SMOKE.md",
+      "sha256": "07f18660217536fec363d4f5c4b53132313b77ffa61c48825d35e85dd8200565",
+      "bytes": 5059,
+      "modifiedAt": "2026-11-04T14:12:56.505306+00:00"
+    },
+    {
+      "application": "App-Template",
+      "check": "ios_release_build",
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/reference-ios.log",
+      "sha256": "c0888c2caf491f40008541a68d182938db551075969b7816a69a7d772fa7fab2",
+      "bytes": 611,
+      "modifiedAt": "2026-11-04T02:22:46.169941+00:00"
+    },
+    {
+      "application": "App-Template",
+      "check": "ios_release_build",
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "path": "/Users/bespin-starter/Documents/Majestic/App-Template/docs/validation/2026-11-03/foundation/ios_release_build.log",
+      "sha256": "c0888c2caf491f40008541a68d182938db551075969b7816a69a7d772fa7fab2",
+      "bytes": 611,
+      "modifiedAt": "2026-11-04T14:12:56.500457+00:00"
+    },
+    {
+      "application": "App-Template",
+      "check": "tests",
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/reference-tests.log",
+      "sha256": "a38e282911a711e946c63a4bdcc605aefc03826b3d89480ebb90da0474a70701",
+      "bytes": 2800,
+      "modifiedAt": "2026-11-04T02:22:46.169078+00:00"
+    },
+    {
+      "application": "App-Template",
+      "check": "tests",
+      "sourceFingerprint": "c4136095251121d55ed7f7f121c944a97dba15329ec5bdc449e9bde5902208bb",
+      "path": "/Users/bespin-starter/Documents/Majestic/App-Template/docs/validation/2026-11-03/foundation/tests.log",
+      "sha256": "a38e282911a711e946c63a4bdcc605aefc03826b3d89480ebb90da0474a70701",
+      "bytes": 2800,
+      "modifiedAt": "2026-11-04T14:12:56.499790+00:00"
+    },
+    {
+      "application": "Daymerit",
+      "check": "analysis",
+      "sourceFingerprint": "098d7268a7721399d3924a78ee1e63186768387861c031f743d46be2e9306ad7",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/daymerit-analysis.log",
+      "sha256": "675e65931de7b8cd47386d171bd407fb0fafc900d4a0a2ce828bd16d4c7fa26d",
+      "bytes": 96,
+      "modifiedAt": "2026-11-04T02:30:17.344331+00:00"
+    },
+    {
+      "application": "Daymerit",
+      "check": "analysis",
+      "sourceFingerprint": "098d7268a7721399d3924a78ee1e63186768387861c031f743d46be2e9306ad7",
+      "path": "/Users/bespin-starter/Documents/Majestic/Daymerit/docs/validation/2026-11-03/foundation/analysis.log",
+      "sha256": "675e65931de7b8cd47386d171bd407fb0fafc900d4a0a2ce828bd16d4c7fa26d",
+      "bytes": 96,
+      "modifiedAt": "2026-11-04T14:12:26.083647+00:00"
+    },
+    {
+      "application": "Daymerit",
+      "check": "android_release_build",
+      "sourceFingerprint": "098d7268a7721399d3924a78ee1e63186768387861c031f743d46be2e9306ad7",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/daymerit-android.log",
+      "sha256": "e295860169f2f465077aab0a324a85ee808a626b1c2709f1751f32f6e5a3c285",
+      "bytes": 1420,
+      "modifiedAt": "2026-11-04T02:30:17.340478+00:00"
+    },
+    {
+      "application": "Daymerit",
+      "check": "android_release_build",
+      "sourceFingerprint": "098d7268a7721399d3924a78ee1e63186768387861c031f743d46be2e9306ad7",
+      "path": "/Users/bespin-starter/Documents/Majestic/Daymerit/docs/validation/2026-11-03/foundation/android_release_build.log",
+      "sha256": "e295860169f2f465077aab0a324a85ee808a626b1c2709f1751f32f6e5a3c285",
+      "bytes": 1420,
+      "modifiedAt": "2026-11-04T14:12:26.084062+00:00"
+    },
+    {
+      "application": "Daymerit",
+      "check": "foundation_contracts",
+      "sourceFingerprint": "098d7268a7721399d3924a78ee1e63186768387861c031f743d46be2e9306ad7",
+      "path": "/Users/bespin-starter/Documents/Majestic/Daymerit/docs/validation/2026-11-03/foundation/contracts.md",
+      "sha256": "29c3b42bf8a8ba654549df631d7bbaaa724c94aaaa1e70a40e2974be6d26d1a2",
+      "bytes": 3408,
+      "modifiedAt": "2026-11-04T14:14:15.017797+00:00"
+    },
+    {
+      "application": "Daymerit",
+      "check": "ios_release_build",
+      "sourceFingerprint": "098d7268a7721399d3924a78ee1e63186768387861c031f743d46be2e9306ad7",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/daymerit-ios.log",
+      "sha256": "40638c34d5d8cf5564624f6b6d4f7d616e9b1b3a8702283903ef4714494564db",
+      "bytes": 613,
+      "modifiedAt": "2026-11-04T02:30:17.340822+00:00"
+    },
+    {
+      "application": "Daymerit",
+      "check": "ios_release_build",
+      "sourceFingerprint": "098d7268a7721399d3924a78ee1e63186768387861c031f743d46be2e9306ad7",
+      "path": "/Users/bespin-starter/Documents/Majestic/Daymerit/docs/validation/2026-11-03/foundation/ios_release_build.log",
+      "sha256": "40638c34d5d8cf5564624f6b6d4f7d616e9b1b3a8702283903ef4714494564db",
+      "bytes": 613,
+      "modifiedAt": "2026-11-04T14:12:26.084196+00:00"
+    },
+    {
+      "application": "Daymerit",
+      "check": "migration_contracts",
+      "sourceFingerprint": "098d7268a7721399d3924a78ee1e63186768387861c031f743d46be2e9306ad7",
+      "path": "/Users/bespin-starter/Documents/Majestic/Daymerit/docs/validation/2026-11-03/foundation/contracts.md",
+      "sha256": "29c3b42bf8a8ba654549df631d7bbaaa724c94aaaa1e70a40e2974be6d26d1a2",
+      "bytes": 3408,
+      "modifiedAt": "2026-11-04T14:14:15.017797+00:00"
+    },
+    {
+      "application": "Daymerit",
+      "check": "tests",
+      "sourceFingerprint": "098d7268a7721399d3924a78ee1e63186768387861c031f743d46be2e9306ad7",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/daymerit-tests.log",
+      "sha256": "ca0adfb316a4a42065b9295351cbf8a4bfdb16ac3ab0cba6445e4053dfa5d871",
+      "bytes": 14278,
+      "modifiedAt": "2026-11-04T02:30:17.344636+00:00"
+    },
+    {
+      "application": "Daymerit",
+      "check": "tests",
+      "sourceFingerprint": "098d7268a7721399d3924a78ee1e63186768387861c031f743d46be2e9306ad7",
+      "path": "/Users/bespin-starter/Documents/Majestic/Daymerit/docs/validation/2026-11-03/foundation/tests.log",
+      "sha256": "ca0adfb316a4a42065b9295351cbf8a4bfdb16ac3ab0cba6445e4053dfa5d871",
+      "bytes": 14278,
+      "modifiedAt": "2026-11-04T14:12:26.083903+00:00"
+    },
+    {
+      "application": "Fine-Notes",
+      "check": "analysis",
+      "sourceFingerprint": "c5f4766741e4c55359a6114e1cb781e3655cbcd96ba7ab92b1a4abe6cb8b410a",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/fine-analysis.log",
+      "sha256": "c91b8b081f490b66f0cf042ecb95f15074075c7971fdecb35868a2bc808a55a8",
+      "bytes": 96,
+      "modifiedAt": "2026-11-04T02:30:17.343460+00:00"
+    },
+    {
+      "application": "Fine-Notes",
+      "check": "analysis",
+      "sourceFingerprint": "c5f4766741e4c55359a6114e1cb781e3655cbcd96ba7ab92b1a4abe6cb8b410a",
+      "path": "/Users/bespin-starter/Documents/Majestic/Fine-Notes/docs/validation/2026-11-03/foundation/analysis.log",
+      "sha256": "c91b8b081f490b66f0cf042ecb95f15074075c7971fdecb35868a2bc808a55a8",
+      "bytes": 96,
+      "modifiedAt": "2026-11-04T14:12:26.081568+00:00"
+    },
+    {
+      "application": "Fine-Notes",
+      "check": "android_release_build",
+      "sourceFingerprint": "c5f4766741e4c55359a6114e1cb781e3655cbcd96ba7ab92b1a4abe6cb8b410a",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/fine-android.log",
+      "sha256": "decfe0e581eb473d83bf674fee184205951ca533f646be1e4ff4694c6cd945d1",
+      "bytes": 1402,
+      "modifiedAt": "2026-11-04T02:30:17.339883+00:00"
+    },
+    {
+      "application": "Fine-Notes",
+      "check": "android_release_build",
+      "sourceFingerprint": "c5f4766741e4c55359a6114e1cb781e3655cbcd96ba7ab92b1a4abe6cb8b410a",
+      "path": "/Users/bespin-starter/Documents/Majestic/Fine-Notes/docs/validation/2026-11-03/foundation/android_release_build.log",
+      "sha256": "decfe0e581eb473d83bf674fee184205951ca533f646be1e4ff4694c6cd945d1",
+      "bytes": 1402,
+      "modifiedAt": "2026-11-04T14:12:26.081917+00:00"
+    },
+    {
+      "application": "Fine-Notes",
+      "check": "foundation_contracts",
+      "sourceFingerprint": "c5f4766741e4c55359a6114e1cb781e3655cbcd96ba7ab92b1a4abe6cb8b410a",
+      "path": "/Users/bespin-starter/Documents/Majestic/Fine-Notes/docs/validation/2026-11-03/foundation/contracts.md",
+      "sha256": "3e8d5932f242c0db3e6a1145f34a82d539d85b4b8e77af0fd35967ae82c4594b",
+      "bytes": 3290,
+      "modifiedAt": "2026-11-04T14:14:15.015553+00:00"
+    },
+    {
+      "application": "Fine-Notes",
+      "check": "ios_release_build",
+      "sourceFingerprint": "c5f4766741e4c55359a6114e1cb781e3655cbcd96ba7ab92b1a4abe6cb8b410a",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/fine-ios.log",
+      "sha256": "5286e6b4129af7fdcddeab0a0eaffe353b2b504a3747f3eefa77b5a4c8186fe2",
+      "bytes": 614,
+      "modifiedAt": "2026-11-04T02:30:17.340197+00:00"
+    },
+    {
+      "application": "Fine-Notes",
+      "check": "ios_release_build",
+      "sourceFingerprint": "c5f4766741e4c55359a6114e1cb781e3655cbcd96ba7ab92b1a4abe6cb8b410a",
+      "path": "/Users/bespin-starter/Documents/Majestic/Fine-Notes/docs/validation/2026-11-03/foundation/ios_release_build.log",
+      "sha256": "5286e6b4129af7fdcddeab0a0eaffe353b2b504a3747f3eefa77b5a4c8186fe2",
+      "bytes": 614,
+      "modifiedAt": "2026-11-04T14:12:26.082047+00:00"
+    },
+    {
+      "application": "Fine-Notes",
+      "check": "migration_contracts",
+      "sourceFingerprint": "c5f4766741e4c55359a6114e1cb781e3655cbcd96ba7ab92b1a4abe6cb8b410a",
+      "path": "/Users/bespin-starter/Documents/Majestic/Fine-Notes/docs/validation/2026-11-03/foundation/contracts.md",
+      "sha256": "3e8d5932f242c0db3e6a1145f34a82d539d85b4b8e77af0fd35967ae82c4594b",
+      "bytes": 3290,
+      "modifiedAt": "2026-11-04T14:14:15.015553+00:00"
+    },
+    {
+      "application": "Fine-Notes",
+      "check": "tests",
+      "sourceFingerprint": "c5f4766741e4c55359a6114e1cb781e3655cbcd96ba7ab92b1a4abe6cb8b410a",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/fine-tests.log",
+      "sha256": "b8b4482e5548d8f74758190737ba0943988a6b6afd91209eaaa6d6adeb753a03",
+      "bytes": 50352,
+      "modifiedAt": "2026-11-04T02:30:17.343986+00:00"
+    },
+    {
+      "application": "Fine-Notes",
+      "check": "tests",
+      "sourceFingerprint": "c5f4766741e4c55359a6114e1cb781e3655cbcd96ba7ab92b1a4abe6cb8b410a",
+      "path": "/Users/bespin-starter/Documents/Majestic/Fine-Notes/docs/validation/2026-11-03/foundation/tests.log",
+      "sha256": "b8b4482e5548d8f74758190737ba0943988a6b6afd91209eaaa6d6adeb753a03",
+      "bytes": 50352,
+      "modifiedAt": "2026-11-04T14:12:26.081691+00:00"
+    },
+    {
+      "application": "Namefold",
+      "check": "analysis",
+      "sourceFingerprint": "790aab5c0827fa8912c342020db16337460dc0d087cfbc8334dc1e3c78691724",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/namefold-analysis.log",
+      "sha256": "e971cff1623c189bf80b253d2199fc4217debc06d867c6789671ef5e3de09f59",
+      "bytes": 163,
+      "modifiedAt": "2026-11-04T02:30:17.338554+00:00"
+    },
+    {
+      "application": "Namefold",
+      "check": "analysis",
+      "sourceFingerprint": "790aab5c0827fa8912c342020db16337460dc0d087cfbc8334dc1e3c78691724",
+      "path": "/Users/bespin-starter/Documents/Majestic/Namefold/app/docs/validation/2026-11-03/foundation/analysis.log",
+      "sha256": "e971cff1623c189bf80b253d2199fc4217debc06d867c6789671ef5e3de09f59",
+      "bytes": 163,
+      "modifiedAt": "2026-11-04T14:12:26.082637+00:00"
+    },
+    {
+      "application": "Namefold",
+      "check": "android_release_build",
+      "sourceFingerprint": "790aab5c0827fa8912c342020db16337460dc0d087cfbc8334dc1e3c78691724",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/namefold-android.log",
+      "sha256": "72cb6c8e00efd878a01c65941368c89408416a085f78f4385931ebc00003b2f6",
+      "bytes": 3173,
+      "modifiedAt": "2026-11-04T02:30:17.338010+00:00"
+    },
+    {
+      "application": "Namefold",
+      "check": "android_release_build",
+      "sourceFingerprint": "790aab5c0827fa8912c342020db16337460dc0d087cfbc8334dc1e3c78691724",
+      "path": "/Users/bespin-starter/Documents/Majestic/Namefold/app/docs/validation/2026-11-03/foundation/android_release_build.log",
+      "sha256": "72cb6c8e00efd878a01c65941368c89408416a085f78f4385931ebc00003b2f6",
+      "bytes": 3173,
+      "modifiedAt": "2026-11-04T14:12:26.083181+00:00"
+    },
+    {
+      "application": "Namefold",
+      "check": "foundation_contracts",
+      "sourceFingerprint": "790aab5c0827fa8912c342020db16337460dc0d087cfbc8334dc1e3c78691724",
+      "path": "/Users/bespin-starter/Documents/Majestic/Namefold/app/docs/validation/2026-11-03/foundation/contracts.md",
+      "sha256": "86ad4b5e7d738dc73a28eba6316276255c79739af68b90a82ae53f027300321d",
+      "bytes": 3313,
+      "modifiedAt": "2026-11-04T14:14:15.016493+00:00"
+    },
+    {
+      "application": "Namefold",
+      "check": "ios_release_build",
+      "sourceFingerprint": "790aab5c0827fa8912c342020db16337460dc0d087cfbc8334dc1e3c78691724",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/namefold-ios.log",
+      "sha256": "0968766c43a953d86301cf58daa7387c319f09425e107cb0ad04c49d131dcd72",
+      "bytes": 2371,
+      "modifiedAt": "2026-11-04T02:30:17.338306+00:00"
+    },
+    {
+      "application": "Namefold",
+      "check": "ios_release_build",
+      "sourceFingerprint": "790aab5c0827fa8912c342020db16337460dc0d087cfbc8334dc1e3c78691724",
+      "path": "/Users/bespin-starter/Documents/Majestic/Namefold/app/docs/validation/2026-11-03/foundation/ios_release_build.log",
+      "sha256": "0968766c43a953d86301cf58daa7387c319f09425e107cb0ad04c49d131dcd72",
+      "bytes": 2371,
+      "modifiedAt": "2026-11-04T14:12:26.083307+00:00"
+    },
+    {
+      "application": "Namefold",
+      "check": "migration_contracts",
+      "sourceFingerprint": "790aab5c0827fa8912c342020db16337460dc0d087cfbc8334dc1e3c78691724",
+      "path": "/Users/bespin-starter/Documents/Majestic/Namefold/app/docs/validation/2026-11-03/foundation/contracts.md",
+      "sha256": "86ad4b5e7d738dc73a28eba6316276255c79739af68b90a82ae53f027300321d",
+      "bytes": 3313,
+      "modifiedAt": "2026-11-04T14:14:15.016493+00:00"
+    },
+    {
+      "application": "Namefold",
+      "check": "tests",
+      "sourceFingerprint": "790aab5c0827fa8912c342020db16337460dc0d087cfbc8334dc1e3c78691724",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/namefold-tests.log",
+      "sha256": "48cb19ad1be87ba75c2443ec7e1801e2cd53381f5bd347548e8514d4c425ffe8",
+      "bytes": 9093,
+      "modifiedAt": "2026-11-04T02:30:17.338932+00:00"
+    },
+    {
+      "application": "Namefold",
+      "check": "tests",
+      "sourceFingerprint": "790aab5c0827fa8912c342020db16337460dc0d087cfbc8334dc1e3c78691724",
+      "path": "/Users/bespin-starter/Documents/Majestic/Namefold/app/docs/validation/2026-11-03/foundation/tests.log",
+      "sha256": "48cb19ad1be87ba75c2443ec7e1801e2cd53381f5bd347548e8514d4c425ffe8",
+      "bytes": 9093,
+      "modifiedAt": "2026-11-04T14:12:26.082954+00:00"
+    },
+    {
+      "application": "Pantry-Clock",
+      "check": "analysis",
+      "sourceFingerprint": "9801ec36fa06e6a212c74939851c52b910fa1786ee690c79861941e0fa9953d3",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/pantry-analysis.log",
+      "sha256": "f921a3bec9dd42aadd6226a7183350522e2864c13c1f364e5ae4a41cd7a65be3",
+      "bytes": 163,
+      "modifiedAt": "2026-11-04T02:30:17.342679+00:00"
+    },
+    {
+      "application": "Pantry-Clock",
+      "check": "analysis",
+      "sourceFingerprint": "9801ec36fa06e6a212c74939851c52b910fa1786ee690c79861941e0fa9953d3",
+      "path": "/Users/bespin-starter/Documents/Majestic/Pantry-Clock/docs/validation/2026-11-03/foundation/analysis.log",
+      "sha256": "f921a3bec9dd42aadd6226a7183350522e2864c13c1f364e5ae4a41cd7a65be3",
+      "bytes": 163,
+      "modifiedAt": "2026-11-04T14:12:26.080834+00:00"
+    },
+    {
+      "application": "Pantry-Clock",
+      "check": "android_release_build",
+      "sourceFingerprint": "9801ec36fa06e6a212c74939851c52b910fa1786ee690c79861941e0fa9953d3",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/pantry-android.log",
+      "sha256": "8af019ef77ebba7ded0b83938b6f48bdefbe4030cafbea75aa46959c467f49f8",
+      "bytes": 1402,
+      "modifiedAt": "2026-11-04T02:30:17.339227+00:00"
+    },
+    {
+      "application": "Pantry-Clock",
+      "check": "android_release_build",
+      "sourceFingerprint": "9801ec36fa06e6a212c74939851c52b910fa1786ee690c79861941e0fa9953d3",
+      "path": "/Users/bespin-starter/Documents/Majestic/Pantry-Clock/docs/validation/2026-11-03/foundation/android_release_build.log",
+      "sha256": "8af019ef77ebba7ded0b83938b6f48bdefbe4030cafbea75aa46959c467f49f8",
+      "bytes": 1402,
+      "modifiedAt": "2026-11-04T14:12:26.081121+00:00"
+    },
+    {
+      "application": "Pantry-Clock",
+      "check": "foundation_contracts",
+      "sourceFingerprint": "9801ec36fa06e6a212c74939851c52b910fa1786ee690c79861941e0fa9953d3",
+      "path": "/Users/bespin-starter/Documents/Majestic/Pantry-Clock/docs/validation/2026-11-03/foundation/contracts.md",
+      "sha256": "6194aa249048f38d7ed51de9f1579d2401078ec0b051bc5ecc734488402e40a1",
+      "bytes": 3267,
+      "modifiedAt": "2026-11-04T14:14:15.014572+00:00"
+    },
+    {
+      "application": "Pantry-Clock",
+      "check": "ios_release_build",
+      "sourceFingerprint": "9801ec36fa06e6a212c74939851c52b910fa1786ee690c79861941e0fa9953d3",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/pantry-ios.log",
+      "sha256": "c8dfcce3f2131028c9b67929e8245fe5e5b7a2c94ffc095310acf56fdda163a8",
+      "bytes": 616,
+      "modifiedAt": "2026-11-04T02:30:17.339540+00:00"
+    },
+    {
+      "application": "Pantry-Clock",
+      "check": "ios_release_build",
+      "sourceFingerprint": "9801ec36fa06e6a212c74939851c52b910fa1786ee690c79861941e0fa9953d3",
+      "path": "/Users/bespin-starter/Documents/Majestic/Pantry-Clock/docs/validation/2026-11-03/foundation/ios_release_build.log",
+      "sha256": "c8dfcce3f2131028c9b67929e8245fe5e5b7a2c94ffc095310acf56fdda163a8",
+      "bytes": 616,
+      "modifiedAt": "2026-11-04T14:12:26.081233+00:00"
+    },
+    {
+      "application": "Pantry-Clock",
+      "check": "migration_contracts",
+      "sourceFingerprint": "9801ec36fa06e6a212c74939851c52b910fa1786ee690c79861941e0fa9953d3",
+      "path": "/Users/bespin-starter/Documents/Majestic/Pantry-Clock/docs/validation/2026-11-03/foundation/contracts.md",
+      "sha256": "6194aa249048f38d7ed51de9f1579d2401078ec0b051bc5ecc734488402e40a1",
+      "bytes": 3267,
+      "modifiedAt": "2026-11-04T14:14:15.014572+00:00"
+    },
+    {
+      "application": "Pantry-Clock",
+      "check": "tests",
+      "sourceFingerprint": "9801ec36fa06e6a212c74939851c52b910fa1786ee690c79861941e0fa9953d3",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/pantry-tests.log",
+      "sha256": "ca009c9dc6713103d0cfa80199355b59ccb1567904977f687698f03c32ea4f8f",
+      "bytes": 39066,
+      "modifiedAt": "2026-11-04T02:30:17.343111+00:00"
+    },
+    {
+      "application": "Pantry-Clock",
+      "check": "tests",
+      "sourceFingerprint": "9801ec36fa06e6a212c74939851c52b910fa1786ee690c79861941e0fa9953d3",
+      "path": "/Users/bespin-starter/Documents/Majestic/Pantry-Clock/docs/validation/2026-11-03/foundation/tests.log",
+      "sha256": "ca009c9dc6713103d0cfa80199355b59ccb1567904977f687698f03c32ea4f8f",
+      "bytes": 39066,
+      "modifiedAt": "2026-11-04T14:12:26.080968+00:00"
+    },
+    {
+      "application": "Paws",
+      "check": "analysis",
+      "sourceFingerprint": "1de78853f62afc3f2fbdad0ae73b78b9e4c18dcb65599148d6250aacbe434905",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/paws-analysis.log",
+      "sha256": "24947286c4fa7f55320f229ca5a64c7d186b25ef005dc1125a93fd2bd2161187",
+      "bytes": 163,
+      "modifiedAt": "2026-11-04T02:30:17.341707+00:00"
+    },
+    {
+      "application": "Paws",
+      "check": "analysis",
+      "sourceFingerprint": "1de78853f62afc3f2fbdad0ae73b78b9e4c18dcb65599148d6250aacbe434905",
+      "path": "/Users/bespin-starter/Documents/Majestic/Paws/docs/validation/2026-11-03/foundation/analysis.log",
+      "sha256": "24947286c4fa7f55320f229ca5a64c7d186b25ef005dc1125a93fd2bd2161187",
+      "bytes": 163,
+      "modifiedAt": "2026-11-04T14:12:26.079948+00:00"
+    },
+    {
+      "application": "Paws",
+      "check": "android_release_build",
+      "sourceFingerprint": "1de78853f62afc3f2fbdad0ae73b78b9e4c18dcb65599148d6250aacbe434905",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/paws-android.log",
+      "sha256": "2f0e3be7c909eb107390c47dcae0f7fceeeb1e93c2b3c16754b6c1a39613f807",
+      "bytes": 1402,
+      "modifiedAt": "2026-11-04T02:30:17.341110+00:00"
+    },
+    {
+      "application": "Paws",
+      "check": "android_release_build",
+      "sourceFingerprint": "1de78853f62afc3f2fbdad0ae73b78b9e4c18dcb65599148d6250aacbe434905",
+      "path": "/Users/bespin-starter/Documents/Majestic/Paws/docs/validation/2026-11-03/foundation/android_release_build.log",
+      "sha256": "2f0e3be7c909eb107390c47dcae0f7fceeeb1e93c2b3c16754b6c1a39613f807",
+      "bytes": 1402,
+      "modifiedAt": "2026-11-04T14:12:26.080383+00:00"
+    },
+    {
+      "application": "Paws",
+      "check": "foundation_contracts",
+      "sourceFingerprint": "1de78853f62afc3f2fbdad0ae73b78b9e4c18dcb65599148d6250aacbe434905",
+      "path": "/Users/bespin-starter/Documents/Majestic/Paws/docs/validation/2026-11-03/foundation/contracts.md",
+      "sha256": "731b6df5ea3b46bb7602fb6492be78835ea09b13374a1d63b9b7d7f9ff9d8836",
+      "bytes": 3363,
+      "modifiedAt": "2026-11-04T14:14:15.013614+00:00"
+    },
+    {
+      "application": "Paws",
+      "check": "ios_release_build",
+      "sourceFingerprint": "1de78853f62afc3f2fbdad0ae73b78b9e4c18dcb65599148d6250aacbe434905",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/paws-ios.log",
+      "sha256": "e5b406aea0c4154552f6a2097d370c5b879813f87fdb44d23e720a1536ff30a6",
+      "bytes": 609,
+      "modifiedAt": "2026-11-04T02:30:17.341456+00:00"
+    },
+    {
+      "application": "Paws",
+      "check": "ios_release_build",
+      "sourceFingerprint": "1de78853f62afc3f2fbdad0ae73b78b9e4c18dcb65599148d6250aacbe434905",
+      "path": "/Users/bespin-starter/Documents/Majestic/Paws/docs/validation/2026-11-03/foundation/ios_release_build.log",
+      "sha256": "e5b406aea0c4154552f6a2097d370c5b879813f87fdb44d23e720a1536ff30a6",
+      "bytes": 609,
+      "modifiedAt": "2026-11-04T14:12:26.080499+00:00"
+    },
+    {
+      "application": "Paws",
+      "check": "migration_contracts",
+      "sourceFingerprint": "1de78853f62afc3f2fbdad0ae73b78b9e4c18dcb65599148d6250aacbe434905",
+      "path": "/Users/bespin-starter/Documents/Majestic/Paws/docs/validation/2026-11-03/foundation/contracts.md",
+      "sha256": "731b6df5ea3b46bb7602fb6492be78835ea09b13374a1d63b9b7d7f9ff9d8836",
+      "bytes": 3363,
+      "modifiedAt": "2026-11-04T14:14:15.013614+00:00"
+    },
+    {
+      "application": "Paws",
+      "check": "tests",
+      "sourceFingerprint": "1de78853f62afc3f2fbdad0ae73b78b9e4c18dcb65599148d6250aacbe434905",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/paws-tests.log",
+      "sha256": "0afce13b53457d0f724675be33440b676d6cde0585f404481a120dcbea846420",
+      "bytes": 22160,
+      "modifiedAt": "2026-11-04T02:30:17.342033+00:00"
+    },
+    {
+      "application": "Paws",
+      "check": "tests",
+      "sourceFingerprint": "1de78853f62afc3f2fbdad0ae73b78b9e4c18dcb65599148d6250aacbe434905",
+      "path": "/Users/bespin-starter/Documents/Majestic/Paws/docs/validation/2026-11-03/foundation/tests.log",
+      "sha256": "0afce13b53457d0f724675be33440b676d6cde0585f404481a120dcbea846420",
+      "bytes": 22160,
+      "modifiedAt": "2026-11-04T14:12:26.080255+00:00"
+    },
+    {
+      "application": "Ridelore",
+      "check": "analysis",
+      "sourceFingerprint": "67aca237d30393a48a416d6af7ce0604d0a78d92a411d5d5007a0e366ac9d0e8",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/ridelore-analysis.log",
+      "sha256": "a613cdbf5d4bce301d2c3231a3c526b79984059169715ae6e5d1f597ad908287",
+      "bytes": 96,
+      "modifiedAt": "2026-11-04T02:30:17.334434+00:00"
+    },
+    {
+      "application": "Ridelore",
+      "check": "analysis",
+      "sourceFingerprint": "67aca237d30393a48a416d6af7ce0604d0a78d92a411d5d5007a0e366ac9d0e8",
+      "path": "/Users/bespin-starter/Documents/Majestic/Ridelore/docs/validation/2026-11-03/foundation/analysis.log",
+      "sha256": "a613cdbf5d4bce301d2c3231a3c526b79984059169715ae6e5d1f597ad908287",
+      "bytes": 96,
+      "modifiedAt": "2026-11-04T14:12:26.077812+00:00"
+    },
+    {
+      "application": "Ridelore",
+      "check": "android_release_build",
+      "sourceFingerprint": "67aca237d30393a48a416d6af7ce0604d0a78d92a411d5d5007a0e366ac9d0e8",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/ridelore-android.log",
+      "sha256": "5dc878fb64362510b468b78c9631ca7b76bdb34e411450e3767c3f9d9321bafb",
+      "bytes": 1441,
+      "modifiedAt": "2026-11-04T02:30:17.333716+00:00"
+    },
+    {
+      "application": "Ridelore",
+      "check": "android_release_build",
+      "sourceFingerprint": "67aca237d30393a48a416d6af7ce0604d0a78d92a411d5d5007a0e366ac9d0e8",
+      "path": "/Users/bespin-starter/Documents/Majestic/Ridelore/docs/validation/2026-11-03/foundation/android_release_build.log",
+      "sha256": "5dc878fb64362510b468b78c9631ca7b76bdb34e411450e3767c3f9d9321bafb",
+      "bytes": 1441,
+      "modifiedAt": "2026-11-04T14:12:26.079428+00:00"
+    },
+    {
+      "application": "Ridelore",
+      "check": "foundation_contracts",
+      "sourceFingerprint": "67aca237d30393a48a416d6af7ce0604d0a78d92a411d5d5007a0e366ac9d0e8",
+      "path": "/Users/bespin-starter/Documents/Majestic/Ridelore/docs/validation/2026-11-03/foundation/contracts.md",
+      "sha256": "25e29e4db97e999b373889ea49c945b4bea1ab1f8bf0e075ffee2d499c11d787",
+      "bytes": 3264,
+      "modifiedAt": "2026-11-04T14:14:15.012697+00:00"
+    },
+    {
+      "application": "Ridelore",
+      "check": "ios_release_build",
+      "sourceFingerprint": "67aca237d30393a48a416d6af7ce0604d0a78d92a411d5d5007a0e366ac9d0e8",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/ridelore-ios.log",
+      "sha256": "b53bafc381633e21d68040d5a7105ba4cca85249f49535f20ae99a2982618f48",
+      "bytes": 613,
+      "modifiedAt": "2026-11-04T02:30:17.334032+00:00"
+    },
+    {
+      "application": "Ridelore",
+      "check": "ios_release_build",
+      "sourceFingerprint": "67aca237d30393a48a416d6af7ce0604d0a78d92a411d5d5007a0e366ac9d0e8",
+      "path": "/Users/bespin-starter/Documents/Majestic/Ridelore/docs/validation/2026-11-03/foundation/ios_release_build.log",
+      "sha256": "b53bafc381633e21d68040d5a7105ba4cca85249f49535f20ae99a2982618f48",
+      "bytes": 613,
+      "modifiedAt": "2026-11-04T14:12:26.079555+00:00"
+    },
+    {
+      "application": "Ridelore",
+      "check": "migration_contracts",
+      "sourceFingerprint": "67aca237d30393a48a416d6af7ce0604d0a78d92a411d5d5007a0e366ac9d0e8",
+      "path": "/Users/bespin-starter/Documents/Majestic/Ridelore/docs/validation/2026-11-03/foundation/contracts.md",
+      "sha256": "25e29e4db97e999b373889ea49c945b4bea1ab1f8bf0e075ffee2d499c11d787",
+      "bytes": 3264,
+      "modifiedAt": "2026-11-04T14:14:15.012697+00:00"
+    },
+    {
+      "application": "Ridelore",
+      "check": "tests",
+      "sourceFingerprint": "67aca237d30393a48a416d6af7ce0604d0a78d92a411d5d5007a0e366ac9d0e8",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/ridelore-tests.log",
+      "sha256": "15c6676348bfdd10f5f7c1f2957bdd4fff96f721ea3fed5af99e24454b357c15",
+      "bytes": 1514197,
+      "modifiedAt": "2026-11-04T02:30:17.337053+00:00"
+    },
+    {
+      "application": "Ridelore",
+      "check": "tests",
+      "sourceFingerprint": "67aca237d30393a48a416d6af7ce0604d0a78d92a411d5d5007a0e366ac9d0e8",
+      "path": "/Users/bespin-starter/Documents/Majestic/Ridelore/docs/validation/2026-11-03/foundation/tests.log",
+      "sha256": "15c6676348bfdd10f5f7c1f2957bdd4fff96f721ea3fed5af99e24454b357c15",
+      "bytes": 1514197,
+      "modifiedAt": "2026-11-04T14:12:26.078340+00:00"
+    },
+    {
+      "application": "Skepbook",
+      "check": "analysis",
+      "sourceFingerprint": "c026f0890add55db5c7f0a97c4a7111cd3f1212f8530691d8a12ab6b0b91beda",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/skepbook-analysis.log",
+      "sha256": "f06e6a81d4bb1fc25b89736205abec9a6c63bf08abd937914c2d275ecbfee8b7",
+      "bytes": 163,
+      "modifiedAt": "2026-11-04T02:30:17.332789+00:00"
+    },
+    {
+      "application": "Skepbook",
+      "check": "analysis",
+      "sourceFingerprint": "c026f0890add55db5c7f0a97c4a7111cd3f1212f8530691d8a12ab6b0b91beda",
+      "path": "/Users/bespin-starter/Documents/Majestic/Skepbook/docs/validation/2026-11-03/foundation/analysis.log",
+      "sha256": "f06e6a81d4bb1fc25b89736205abec9a6c63bf08abd937914c2d275ecbfee8b7",
+      "bytes": 163,
+      "modifiedAt": "2026-11-04T14:12:26.076747+00:00"
+    },
+    {
+      "application": "Skepbook",
+      "check": "android_release_build",
+      "sourceFingerprint": "c026f0890add55db5c7f0a97c4a7111cd3f1212f8530691d8a12ab6b0b91beda",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/skepbook-android.log",
+      "sha256": "2e5e6c001a3252f990667f1196b9b4bbc00ac1aa4842b07a4a9a523839b72046",
+      "bytes": 1421,
+      "modifiedAt": "2026-11-04T02:30:17.332150+00:00"
+    },
+    {
+      "application": "Skepbook",
+      "check": "android_release_build",
+      "sourceFingerprint": "c026f0890add55db5c7f0a97c4a7111cd3f1212f8530691d8a12ab6b0b91beda",
+      "path": "/Users/bespin-starter/Documents/Majestic/Skepbook/docs/validation/2026-11-03/foundation/android_release_build.log",
+      "sha256": "2e5e6c001a3252f990667f1196b9b4bbc00ac1aa4842b07a4a9a523839b72046",
+      "bytes": 1421,
+      "modifiedAt": "2026-11-04T14:12:26.077300+00:00"
+    },
+    {
+      "application": "Skepbook",
+      "check": "foundation_contracts",
+      "sourceFingerprint": "c026f0890add55db5c7f0a97c4a7111cd3f1212f8530691d8a12ab6b0b91beda",
+      "path": "/Users/bespin-starter/Documents/Majestic/Skepbook/docs/validation/2026-11-03/foundation/contracts.md",
+      "sha256": "c8c36517ce32cf269edfc7e9d555567a4922b155902cc50f4fef9578258bd598",
+      "bytes": 3234,
+      "modifiedAt": "2026-11-04T14:14:15.011329+00:00"
+    },
+    {
+      "application": "Skepbook",
+      "check": "ios_release_build",
+      "sourceFingerprint": "c026f0890add55db5c7f0a97c4a7111cd3f1212f8530691d8a12ab6b0b91beda",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/skepbook-ios.log",
+      "sha256": "ab03d8558a4fec5c7d4a3b5d7dbe840aedeef7ee6ffeb69fd0bd3807df154c17",
+      "bytes": 613,
+      "modifiedAt": "2026-11-04T02:30:17.332500+00:00"
+    },
+    {
+      "application": "Skepbook",
+      "check": "ios_release_build",
+      "sourceFingerprint": "c026f0890add55db5c7f0a97c4a7111cd3f1212f8530691d8a12ab6b0b91beda",
+      "path": "/Users/bespin-starter/Documents/Majestic/Skepbook/docs/validation/2026-11-03/foundation/ios_release_build.log",
+      "sha256": "ab03d8558a4fec5c7d4a3b5d7dbe840aedeef7ee6ffeb69fd0bd3807df154c17",
+      "bytes": 613,
+      "modifiedAt": "2026-11-04T14:12:26.077425+00:00"
+    },
+    {
+      "application": "Skepbook",
+      "check": "migration_contracts",
+      "sourceFingerprint": "c026f0890add55db5c7f0a97c4a7111cd3f1212f8530691d8a12ab6b0b91beda",
+      "path": "/Users/bespin-starter/Documents/Majestic/Skepbook/docs/validation/2026-11-03/foundation/contracts.md",
+      "sha256": "c8c36517ce32cf269edfc7e9d555567a4922b155902cc50f4fef9578258bd598",
+      "bytes": 3234,
+      "modifiedAt": "2026-11-04T14:14:15.011329+00:00"
+    },
+    {
+      "application": "Skepbook",
+      "check": "tests",
+      "sourceFingerprint": "c026f0890add55db5c7f0a97c4a7111cd3f1212f8530691d8a12ab6b0b91beda",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/skepbook-tests.log",
+      "sha256": "e9956e6ece30ecad8ba8f4590fb1524f776bfe43d31cec7c95b71b3aa30d31af",
+      "bytes": 20356,
+      "modifiedAt": "2026-11-04T02:30:17.333265+00:00"
+    },
+    {
+      "application": "Skepbook",
+      "check": "tests",
+      "sourceFingerprint": "c026f0890add55db5c7f0a97c4a7111cd3f1212f8530691d8a12ab6b0b91beda",
+      "path": "/Users/bespin-starter/Documents/Majestic/Skepbook/docs/validation/2026-11-03/foundation/tests.log",
+      "sha256": "e9956e6ece30ecad8ba8f4590fb1524f776bfe43d31cec7c95b71b3aa30d31af",
+      "bytes": 20356,
+      "modifiedAt": "2026-11-04T14:12:26.077145+00:00"
+    },
+    {
+      "application": "cohort",
+      "check": "shared_package_tests",
+      "sourceFingerprint": "a2b53fd8ebd38f5dbc0f56348c406e590a9a04cb749a052dd206c38258da0842",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/SHARED_PACKAGES.md",
+      "sha256": "b7ccf73de0dfb8367d7ad20d030d2ded81b6cedfe540f066eb4a2b3eb3f86216",
+      "bytes": 2650,
+      "modifiedAt": "2026-11-04T14:12:56.508823+00:00"
+    },
+    {
+      "application": "cohort",
+      "check": "shared_package_tests",
+      "sourceFingerprint": "a2b53fd8ebd38f5dbc0f56348c406e590a9a04cb749a052dd206c38258da0842",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/shared-app-tests.log",
+      "sha256": "8344095ad36cda5b11a8c28c2887edba1c190d587be08c6305eb17b00fe54c61",
+      "bytes": 1064,
+      "modifiedAt": "2026-11-04T02:30:17.349606+00:00"
+    },
+    {
+      "application": "cohort",
+      "check": "shared_package_tests",
+      "sourceFingerprint": "a2b53fd8ebd38f5dbc0f56348c406e590a9a04cb749a052dd206c38258da0842",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/shared-media-tests.log",
+      "sha256": "2bb2bcc3f348556e766f52009f310b74d7df4173fbf461581f95ed0fb44f5b4e",
+      "bytes": 324,
+      "modifiedAt": "2026-11-04T02:30:17.347559+00:00"
+    },
+    {
+      "application": "cohort",
+      "check": "shared_package_tests",
+      "sourceFingerprint": "a2b53fd8ebd38f5dbc0f56348c406e590a9a04cb749a052dd206c38258da0842",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/shared-privacy-tests.log",
+      "sha256": "3f68e92d29d5d9b433ffde6d8cab4da9547b0cd40e36b1f434ff548f24b3733f",
+      "bytes": 2650,
+      "modifiedAt": "2026-11-04T02:30:17.345126+00:00"
+    },
+    {
+      "application": "cohort",
+      "check": "shared_package_tests",
+      "sourceFingerprint": "a2b53fd8ebd38f5dbc0f56348c406e590a9a04cb749a052dd206c38258da0842",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/shared-purchases-tests.log",
+      "sha256": "429742340cb2e6f2e38ea67340733852cc458e6dce24cea9e01d575557f3716c",
+      "bytes": 3593,
+      "modifiedAt": "2026-11-04T02:30:17.345742+00:00"
+    },
+    {
+      "application": "cohort",
+      "check": "shared_package_tests",
+      "sourceFingerprint": "a2b53fd8ebd38f5dbc0f56348c406e590a9a04cb749a052dd206c38258da0842",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/shared-qr-tests.log",
+      "sha256": "6acf619a4689e735da42c1b581fa1aeb89c7679c527996e3694a50d73a731d5a",
+      "bytes": 301,
+      "modifiedAt": "2026-11-04T02:30:17.349121+00:00"
+    },
+    {
+      "application": "cohort",
+      "check": "shared_package_tests",
+      "sourceFingerprint": "a2b53fd8ebd38f5dbc0f56348c406e590a9a04cb749a052dd206c38258da0842",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/shared-reminders-tests.log",
+      "sha256": "662b3e9e8e7b70ae4ca9eb9a92f89dedb600c2b5c0f357a0850d9d0e3000b3ed",
+      "bytes": 243,
+      "modifiedAt": "2026-11-04T02:30:17.348559+00:00"
+    },
+    {
+      "application": "cohort",
+      "check": "shared_package_tests",
+      "sourceFingerprint": "a2b53fd8ebd38f5dbc0f56348c406e590a9a04cb749a052dd206c38258da0842",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/shared-reports-tests.log",
+      "sha256": "fbfeea1868d463f8142fc3f401e0ce17a0dd207f702d68817c0e566671925f90",
+      "bytes": 244,
+      "modifiedAt": "2026-11-04T02:30:17.348053+00:00"
+    },
+    {
+      "application": "cohort",
+      "check": "shared_package_tests",
+      "sourceFingerprint": "a2b53fd8ebd38f5dbc0f56348c406e590a9a04cb749a052dd206c38258da0842",
+      "path": "/Users/bespin-starter/Documents/Majestic/.github/portfolio/validation/2026-11-03/logs/shared-storage-tests.log",
+      "sha256": "0c11ea3016590eda5df7d71021b67fe418934c8a0e00201af905e7469095fa40",
+      "bytes": 9833,
+      "modifiedAt": "2026-11-04T02:30:17.347005+00:00"
+    }
+  ],
+  "assessment": "Unassessed source/log snapshot. Owner review records actual checks separately; physical/store qualification is never inferred.",
+  "sourcesChangedSincePriorSnapshot": []
+}

@@ -1,0 +1,72 @@
+--------- beginning of main
+11-04 08:57:56.542  3648  3648 I c_git_referenc: The ClassLoaderContext is a special shared library.
+11-04 08:57:56.560  3648  3648 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-04 08:57:56.560  3648  3648 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-04 08:57:56.637  3648  3673 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-04 08:57:56.638  3648  3673 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-04 08:57:56.638  3648  3673 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-04 08:57:56.706  3648  3648 W c_git_referenc: Accessing hidden method Landroid/view/SurfaceControl$Builder;->setHidden(Z)Landroid/view/SurfaceControl$Builder; (blacklist, linking, denied)
+11-04 08:57:56.712  3648  3675 D skia    : [SkFontMgr Android Parser] '/product/etc/fonts_customization.xml' could not be opened
+11-04 08:57:56.736  3648  3648 W c_git_reference: type=1400 audit(0.0:44): avc: denied { read } for name="max_map_count" dev="proc" ino=52185 scontext=u:r:untrusted_app:s0:c173,c256,c512,c768 tcontext=u:object_r:proc_max_map_count:s0 tclass=file permissive=0 app=dev.majesticmade.majestic_git_reference
+11-04 08:57:56.743  3648  3676 D HostConnection: HostConnection::get() New Host Connection established 0xb4000079061b8e10, tid 3676
+11-04 08:57:56.781  3648  3676 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 
+11-04 08:57:56.782  3648  3676 E flutter : [ERROR:flutter/impeller/toolkit/egl/egl.cc(56)] EGL Error: Success (12288) in ../../../flutter/impeller/toolkit/egl/display.cc:161
+11-04 08:57:56.782  3648  3676 E flutter : [ERROR:flutter/impeller/toolkit/egl/egl.cc(56)] EGL Error: Success (12288) in ../../../flutter/impeller/toolkit/egl/display.cc:161
+11-04 08:57:56.782  3648  3676 D EGL_emulation: eglCreateContext: 0xb4000078f620d880: maj 3 min 1 rcv 4
+11-04 08:57:56.782  3648  3676 D EGL_emulation: eglCreateContext: 0xb4000078f6211500: maj 3 min 1 rcv 4
+11-04 08:57:56.783  3648  3676 D EGL_emulation: eglMakeCurrent: 0xb4000078f6211500: ver 3 1 (tinfo 0xb400007896208ec0) (first time)
+11-04 08:57:56.812  3648  3676 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+11-04 08:57:56.813  3648  3677 D HostConnection: HostConnection::get() New Host Connection established 0xb4000079061ba190, tid 3677
+11-04 08:57:56.815  3648  3677 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 
+11-04 08:57:56.815  3648  3677 D EGL_emulation: eglMakeCurrent: 0xb4000078f6211500: ver 3 1 (tinfo 0xb4000078962099a0) (first time)
+11-04 08:57:57.013  3648  3670 D HostConnection: HostConnection::get() New Host Connection established 0xb4000079061c8050, tid 3670
+11-04 08:57:57.016  3648  3670 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 
+11-04 08:57:57.016  3648  3670 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-04 08:57:57.017  3648  3670 D EGL_emulation: eglCreateContext: 0xb4000078f61e6210: maj 3 min 1 rcv 4
+11-04 08:57:57.018  3648  3670 D EGL_emulation: eglMakeCurrent: 0xb4000078f61e6210: ver 3 1 (tinfo 0xb400007896205b60) (first time)
+11-04 08:57:57.030  3648  3670 I Gralloc4: mapper 4.x is not supported
+11-04 08:57:57.030  3648  3670 D HostConnection: createUnique: call
+11-04 08:57:57.030  3648  3670 D HostConnection: HostConnection::get() New Host Connection established 0xb4000079061c7150, tid 3670
+11-04 08:57:57.033  3648  3670 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma ANDROID_EMU_hwc_color_transform GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 
+11-04 08:57:57.310  3648  3681 W KeyStore: KeyStore exception
+11-04 08:57:57.310  3648  3681 W KeyStore: android.os.ServiceSpecificException:  (code 7)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2387)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.os.Parcel.createException(Parcel.java:2357)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.os.Parcel.readException(Parcel.java:2340)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.os.Parcel.readException(Parcel.java:2282)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.security.keystore.IKeystoreService$Stub$Proxy.get(IKeystoreService.java:988)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.security.KeyStore.get(KeyStore.java:233)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.security.KeyStore.get(KeyStore.java:222)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.security.keystore.AndroidKeyStoreSpi.engineGetCertificate(AndroidKeyStoreSpi.java:160)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at java.security.KeyStore.getCertificate(KeyStore.java:1120)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at m40.<init>(r8-map-id-9fbc06e0286ecec7f0f6dbd113525aae27b3651789f3c511a549d8e2c6a0e9bd:54)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at id0.a(r8-map-id-9fbc06e0286ecec7f0f6dbd113525aae27b3651789f3c511a549d8e2c6a0e9bd:14)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at qg1.c(r8-map-id-9fbc06e0286ecec7f0f6dbd113525aae27b3651789f3c511a549d8e2c6a0e9bd:11)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at xa0.j(r8-map-id-9fbc06e0286ecec7f0f6dbd113525aae27b3651789f3c511a549d8e2c6a0e9bd:48)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at xa0.i(r8-map-id-9fbc06e0286ecec7f0f6dbd113525aae27b3651789f3c511a549d8e2c6a0e9bd:294)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at ab0.run(r8-map-id-9fbc06e0286ecec7f0f6dbd113525aae27b3651789f3c511a549d8e2c6a0e9bd:178)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.os.Looper.loop(Looper.java:223)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-04 08:57:57.310  3648  3681 W KeyStore: KeyStore exception
+11-04 08:57:57.310  3648  3681 W KeyStore: android.os.ServiceSpecificException:  (code 7)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2387)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.os.Parcel.createException(Parcel.java:2357)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.os.Parcel.readException(Parcel.java:2340)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.os.Parcel.readException(Parcel.java:2282)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.security.keystore.IKeystoreService$Stub$Proxy.get(IKeystoreService.java:988)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.security.KeyStore.get(KeyStore.java:233)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.security.KeyStore.get(KeyStore.java:222)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.security.keystore.AndroidKeyStoreSpi.engineGetCertificate(AndroidKeyStoreSpi.java:165)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at java.security.KeyStore.getCertificate(KeyStore.java:1120)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at m40.<init>(r8-map-id-9fbc06e0286ecec7f0f6dbd113525aae27b3651789f3c511a549d8e2c6a0e9bd:54)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at id0.a(r8-map-id-9fbc06e0286ecec7f0f6dbd113525aae27b3651789f3c511a549d8e2c6a0e9bd:14)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at qg1.c(r8-map-id-9fbc06e0286ecec7f0f6dbd113525aae27b3651789f3c511a549d8e2c6a0e9bd:11)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at xa0.j(r8-map-id-9fbc06e0286ecec7f0f6dbd113525aae27b3651789f3c511a549d8e2c6a0e9bd:48)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at xa0.i(r8-map-id-9fbc06e0286ecec7f0f6dbd113525aae27b3651789f3c511a549d8e2c6a0e9bd:294)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at ab0.run(r8-map-id-9fbc06e0286ecec7f0f6dbd113525aae27b3651789f3c511a549d8e2c6a0e9bd:178)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.os.Handler.handleCallback(Handler.java:938)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.os.Looper.loop(Looper.java:223)
+11-04 08:57:57.310  3648  3681 W KeyStore: 	at android.os.HandlerThread.run(HandlerThread.java:67)

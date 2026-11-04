@@ -1,0 +1,4 @@
+INSTRUMENTATION_RESULT: database0=reference.sqlite bytes=20480 header=b482446406ea2fdeaeedc32f91d91571 sqlitePlainHeader=false containsSyntheticMarker=false
+INSTRUMENTATION_RESULT: databaseFileCount=1
+INSTRUMENTATION_RESULT: scope=Only database ciphertext/header inspected; no key or secure-store access.
+INSTRUMENTATION_CODE: -1

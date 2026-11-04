@@ -1,0 +1,37 @@
+{
+  "revision": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+  "device": "owned headless API30 QA emulator",
+  "package": "dev.majesticmade.majestic_git_reference",
+  "canonicalApkSha256": "2a4d9b4f10c6ff951fea9c00de859d9ef22593674383d2485e2c34ec021b3062",
+  "temporaryQaApkSha256": "d535e666276dbb70a04951d0e281ccf28109f10b7c4cbd78f71f952be0cf07d2",
+  "nonSignatureEntriesIdentical": true,
+  "processAlive": true,
+  "lockedStartupObserved": true,
+  "backendCredentialsSupplied": false,
+  "scope": "Canonical release APK is unsigned and initially rejected installation for missing certificates. Startup used a temporary debug-signed copy with identical non-signature ZIP contents; canonical artifact unchanged. Emulator startup only, not physical-device/store qualification.",
+  "operations": [
+    {
+      "command": [
+        "install",
+        "-r",
+        "/tmp/majestic-git-ref-debug-signed.apk"
+      ],
+      "exitCode": 0,
+      "stdout": "Serving...\nPerforming Incremental Install\nSuccess\nInstall command complete in 238 ms\n",
+      "stderr": "All files should be loaded. Notifying the device.\n"
+    },
+    {
+      "command": [
+        "shell",
+        "am",
+        "start",
+        "-W",
+        "-n",
+        "dev.majesticmade.majestic_git_reference/.MainActivity"
+      ],
+      "exitCode": 0,
+      "stdout": "Starting: Intent { cmp=dev.majesticmade.majestic_git_reference/.MainActivity }\nStatus: ok\nLaunchState: COLD\nActivity: dev.majesticmade.majestic_git_reference/.MainActivity\nTotalTime: 1259\nWaitTime: 1293\nComplete\n",
+      "stderr": ""
+    }
+  ]
+}

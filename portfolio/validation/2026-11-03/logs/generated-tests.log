@@ -1,0 +1,11 @@
+00:00 +0: loading /private/tmp/majestic-foundation-picker-qualification-20261103/test/reference_lifecycle_test.dart
+00:00 +0: /private/tmp/majestic-foundation-picker-qualification-20261103/test/reference_lifecycle_test.dart: private UI locks across lifecycle while verified restore updates shared access
+00:00 +1: /private/tmp/majestic-foundation-picker-qualification-20261103/test/reference_lifecycle_test.dart: private UI locks across lifecycle while verified restore updates shared access
+00:00 +2: /private/tmp/majestic-foundation-picker-qualification-20261103/test/reference_lifecycle_test.dart: private UI locks across lifecycle while verified restore updates shared access
+00:01 +3: /private/tmp/majestic-foundation-picker-qualification-20261103/test/reference_lifecycle_test.dart: private UI locks across lifecycle while verified restore updates shared access
+00:01 +4: /private/tmp/majestic-foundation-picker-qualification-20261103/test/reference_lifecycle_test.dart: private UI locks across lifecycle while verified restore updates shared access
+00:01 +5: /private/tmp/majestic-foundation-picker-qualification-20261103/test/reference_lifecycle_test.dart: private UI locks across lifecycle while verified restore updates shared access
+00:01 +6: /private/tmp/majestic-foundation-picker-qualification-20261103/test/reference_storage_test.dart: lost device key recovery preserves old bytes and switches only after verified save
+00:01 +7: /private/tmp/majestic-foundation-picker-qualification-20261103/test/reference_storage_test.dart: an invalid vault pointer fails closed rather than creating a default replacement
+00:01 +8: /private/tmp/majestic-foundation-picker-qualification-20261103/test/reference_storage_test.dart: oversized records are rejected before any saved value is replaced
+00:01 +9: All tests passed!

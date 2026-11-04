@@ -1,0 +1,10 @@
+00:00 +0: loading /private/tmp/majestic-foundation-picker-qualification-20261103/integration_test/native_smoke_test.dart
+The following plugins do not support Swift Package Manager for ios:
+  - majestic_privacy
+  - majestic_purchases
+This will become an error in a future version of Flutter. Please contact the plugin maintainers to request Swift Package Manager adoption.
+Running Xcode build...                                          
+Xcode build done.                                           21.9s
+00:00 +0: native encrypted persistence and local lock
+00:06 +1: (tearDownAll)
+00:06 +1: All tests passed!

@@ -1,0 +1,30 @@
+{
+  "product": "daymerit",
+  "package": "com.majesticmade.daymerit",
+  "serial": "emulator-5560",
+  "api": 30,
+  "image": "Google APIs ARM64 (non-Play), new temporary AVD",
+  "offline": true,
+  "releaseArtifact": "/Users/bespin-starter/Documents/Majestic/Daymerit/build/app/outputs/flutter-apk/app-release.apk",
+  "releaseArtifactSha256": "4f9b44785b8956cff78cb4cc1cd98a347c0274442091d2bf499d96db586095d0",
+  "installedTemporaryCopy": "/tmp/daymerit-patched-smoke.apk",
+  "installedCopySha256": "d9d77ea88f5149a943666d10578a4e8b7ed30976aa5e3b6b5860111e6b710ae2",
+  "compiledContentIdenticalToRelease": true,
+  "installedReleaseNotDebuggable": true,
+  "arm64Sqlite3mcSha256": "99a2ee91bdd6e7644fe0a8659e2c3599ea5bef2528aaecbe3ffe809ad4869b2a",
+  "databases": [
+    {
+      "path": "/data/user/0/com.majesticmade.daymerit/files/Daymerit/daymerit.sqlite",
+      "headerHex": "c03050ff6bb76958522e2eb694c61b6d",
+      "ordinarySQLiteExit": 26,
+      "ordinarySQLiteMessage": "Error: file is not a database"
+    }
+  ],
+  "scope": "Only this owned temporary emulator/app UID. No keys read or logged. Opaque header plus ordinary-SQLite rejection complements successful app read/write; it is not a standalone security audit.",
+  "coldRestart": "Owned AVD full cold reboot and final APK upgrade retained FoundationFamily/Avery, approved StoryTime, task+1/reward-1 ledger and0balance. No reset or duplicate approval.",
+  "uiEvidence": [
+    "/tmp/daymerit-api30-recovered-history.xml",
+    "/tmp/daymerit-final-release-upgrade-history.xml"
+  ],
+  "evidenceRecordedUtc": "2026-11-04T14:08:34.571764+00:00"
+}

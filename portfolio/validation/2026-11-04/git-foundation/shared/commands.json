@@ -1,0 +1,194 @@
+[
+  {
+    "package": "majestic_app",
+    "check": "pub-get",
+    "exitCode": 0,
+    "seconds": 0.55,
+    "sha256": "d1ff455d37aaace5b6a3a4b1d5fd56d3b420302acbd2e73f7d840e216ec98822",
+    "record": "majestic_app-pub-get.log"
+  },
+  {
+    "package": "majestic_app",
+    "check": "analysis",
+    "exitCode": 0,
+    "seconds": 5.59,
+    "sha256": "9f7fc9918a3131754d5c29eff9b4ea8992ea76d0223b49ad9cf5c9a8188d07a0",
+    "record": "majestic_app-analysis.log"
+  },
+  {
+    "package": "majestic_app",
+    "check": "tests",
+    "exitCode": 0,
+    "seconds": 13.32,
+    "sha256": "7fa056e2a0ea580b796559c8fb86ee39346006ef0324db7bb7c39c8e4264e4b5",
+    "record": "majestic_app-tests.log"
+  },
+  {
+    "package": "majestic_media",
+    "check": "pub-get",
+    "exitCode": 0,
+    "seconds": 0.35,
+    "sha256": "c3c0c13e687220a4dce9e6999f0879f25c06f93be9148407e0afcbd1e1a9d83e",
+    "record": "majestic_media-pub-get.log"
+  },
+  {
+    "package": "majestic_media",
+    "check": "analysis",
+    "exitCode": 0,
+    "seconds": 5.31,
+    "sha256": "e8ecb90fcf43045483520e53fb374cc05fd6acabb638905013d5fbd7792df24c",
+    "record": "majestic_media-analysis.log"
+  },
+  {
+    "package": "majestic_media",
+    "check": "tests",
+    "exitCode": 0,
+    "seconds": 10.3,
+    "sha256": "f342f97a39296bf8deb70cd7120bb6caf47fc54aa1978f6723731cbaf8b4ff91",
+    "record": "majestic_media-tests.log"
+  },
+  {
+    "package": "majestic_privacy",
+    "check": "pub-get",
+    "exitCode": 0,
+    "seconds": 0.51,
+    "sha256": "51af67c6a0b35efba7dbb62e9224d5882541dbfd7fc7dd809be28124b5b7fd2f",
+    "record": "majestic_privacy-pub-get.log"
+  },
+  {
+    "package": "majestic_privacy",
+    "check": "analysis",
+    "exitCode": 0,
+    "seconds": 3.64,
+    "sha256": "a0c2d6de3b5727ed93686c4eb09199e24314592c3f353a0054504cfcdec95e4f",
+    "record": "majestic_privacy-analysis.log"
+  },
+  {
+    "package": "majestic_privacy",
+    "check": "tests",
+    "exitCode": 0,
+    "seconds": 13.84,
+    "sha256": "e2a43b3084b6944b0c9932581ff708308283e91444dd6f443b288a4c46f1a098",
+    "record": "majestic_privacy-tests.log"
+  },
+  {
+    "package": "majestic_purchases",
+    "check": "pub-get",
+    "exitCode": 0,
+    "seconds": 0.46,
+    "sha256": "59676d042ebaa57529b69b0c7e627a77a0418331d464b35b1e1369a4abd96346",
+    "record": "majestic_purchases-pub-get.log"
+  },
+  {
+    "package": "majestic_purchases",
+    "check": "analysis",
+    "exitCode": 0,
+    "seconds": 3.92,
+    "sha256": "0be75803a982e7c4540dc65aad0f3b63dca13f2ac198569bf56a334b4fbcc67a",
+    "record": "majestic_purchases-analysis.log"
+  },
+  {
+    "package": "majestic_purchases",
+    "check": "tests",
+    "exitCode": 0,
+    "seconds": 9.6,
+    "sha256": "0de90e3faf6df2a51176b008b0b0f18c436f0cbb1b9e23a78b4d15af983d1a6b",
+    "record": "majestic_purchases-tests.log"
+  },
+  {
+    "package": "majestic_qr",
+    "check": "pub-get",
+    "exitCode": 0,
+    "seconds": 0.79,
+    "sha256": "8af068ff20393717f850ce4ae7347b917323e95543e38c5f9fa6dfa70652a3cf",
+    "record": "majestic_qr-pub-get.log"
+  },
+  {
+    "package": "majestic_qr",
+    "check": "analysis",
+    "exitCode": 0,
+    "seconds": 4.27,
+    "sha256": "70bfdeb1a2f6ba144002eb3f56b7e5bc30edc32c9d9c74a6fdeaf829b9f8c7a3",
+    "record": "majestic_qr-analysis.log"
+  },
+  {
+    "package": "majestic_qr",
+    "check": "tests",
+    "exitCode": 0,
+    "seconds": 6.35,
+    "sha256": "3eb7c3e432c4c04f295e7703ae1ea77e524cb0863b11daaaacc1165bbf2efc37",
+    "record": "majestic_qr-tests.log"
+  },
+  {
+    "package": "majestic_reminders",
+    "check": "pub-get",
+    "exitCode": 0,
+    "seconds": 0.34,
+    "sha256": "46106abad351ec47323f6c710350b04c10ddecc14c84388fb5531a96206e26f3",
+    "record": "majestic_reminders-pub-get.log"
+  },
+  {
+    "package": "majestic_reminders",
+    "check": "analysis",
+    "exitCode": 0,
+    "seconds": 4.03,
+    "sha256": "414df9175da985968e2d6ac6f239f6fb2607ccb164c8cc9c46a553aa4b238cdf",
+    "record": "majestic_reminders-analysis.log"
+  },
+  {
+    "package": "majestic_reminders",
+    "check": "tests",
+    "exitCode": 0,
+    "seconds": 5.28,
+    "sha256": "f22292784d34ac25a1e89ddebf62993b8ba90b82fbc220ca291abdcbc3c0ef86",
+    "record": "majestic_reminders-tests.log"
+  },
+  {
+    "package": "majestic_reports",
+    "check": "pub-get",
+    "exitCode": 0,
+    "seconds": 0.34,
+    "sha256": "23a139c7c684b1290677c7459cf4939c75a679965655fd757f4f6ffc269d70d0",
+    "record": "majestic_reports-pub-get.log"
+  },
+  {
+    "package": "majestic_reports",
+    "check": "analysis",
+    "exitCode": 0,
+    "seconds": 3.02,
+    "sha256": "e8fed33af5b631e996bc3e7a736601015efe1e384eeab3c860079c94fd0510c9",
+    "record": "majestic_reports-analysis.log"
+  },
+  {
+    "package": "majestic_reports",
+    "check": "tests",
+    "exitCode": 0,
+    "seconds": 7.39,
+    "sha256": "0f27ca48af6f7dd9e2830719c605eee1d06f2be8b8a0e68f35056c5a06f6fd81",
+    "record": "majestic_reports-tests.log"
+  },
+  {
+    "package": "majestic_storage",
+    "check": "pub-get",
+    "exitCode": 0,
+    "seconds": 0.32,
+    "sha256": "6c7cf96675012fc683fc545a4271061915be065e40f9b73e2fc7d2a507c61990",
+    "record": "majestic_storage-pub-get.log"
+  },
+  {
+    "package": "majestic_storage",
+    "check": "analysis",
+    "exitCode": 0,
+    "seconds": 6.59,
+    "sha256": "aa5d6c357d756bdc5d17df16eea2da10a33c56df66c761fa192266d74fde5bc8",
+    "record": "majestic_storage-analysis.log"
+  },
+  {
+    "package": "majestic_storage",
+    "check": "tests",
+    "exitCode": 0,
+    "seconds": 14.37,
+    "sha256": "2201a1c401a1238b8cf0a1b44d32b2f1218dc103fcafcf5c5f387532714559d1",
+    "record": "majestic_storage-tests.log"
+  }
+]

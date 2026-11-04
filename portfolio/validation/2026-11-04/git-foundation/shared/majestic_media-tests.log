@@ -1,0 +1,4 @@
+00:00 +0: loading /private/tmp/majestic-foundation-published-20261104/packages/majestic_media/test/local_image_processor_test.dart
+00:00 +0: local photos lose identifying metadata and preserve bounded aspect ratio
+00:00 +1: rejects dimensions and input bounds before decoding full image pixels
+00:00 +2: All tests passed!

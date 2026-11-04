@@ -1,0 +1,42 @@
+Synthetic package fresh install. start=11-03 20:21:58.000, pid=9210, observation=25 seconds, no store action.
+--------- beginning of main
+11-03 20:21:58.313  9210  9210 I ajestic_patched: Using CollectorTypeCMC GC.
+11-03 20:21:58.317  9210  9210 E ajestic_patched: Not starting debugger since process cannot load the jdwp agent.
+11-03 20:21:58.318  9210  9210 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-03 20:21:58.504  9210  9210 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-03 20:21:58.504  9210  9210 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+11-03 20:21:58.568  9210  9210 D nativeloader: Configuring clns-9 for other apk /data/app/~~_ckEbTtbcU_uyh9PwHyELw==/dev.majesticmade.majestic_patched-KTI6tWsvekQpYmGlDtcJKg==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~_ckEbTtbcU_uyh9PwHyELw==/dev.majesticmade.majestic_patched-KTI6tWsvekQpYmGlDtcJKg==/lib/arm64:/data/app/~~_ckEbTtbcU_uyh9PwHyELw==/dev.majesticmade.majestic_patched-KTI6tWsvekQpYmGlDtcJKg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/dev.majesticmade.majestic_patched
+11-03 20:21:58.601  9210  9210 I ajestic_patched: AssetManager2(0xb400007632418b38) locale list changing from [] to [en-US]
+11-03 20:21:58.668  9210  9210 V GraphicsEnvironment: Currently set values for:
+11-03 20:21:58.669  9210  9210 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-03 20:21:58.669  9210  9210 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-03 20:21:58.669  9210  9210 V GraphicsEnvironment: dev.majesticmade.majestic_patched is not listed in per-application setting
+11-03 20:21:58.669  9210  9210 V GraphicsEnvironment: ANGLE allowlist from config: com.dreamgames.royalmatch com.dts.freefiremax com.dxx.firenow com.gramgames.mergedragons com.ludo.king com.mojang.minecraftpe com.my.defense com.nintendo.zaka com.os.airforce com.playrix.fishdomdd.gplay io.teslatech.callbreak jp.konami.prospia net.peakgames.toonblast
+11-03 20:21:58.677  9210  9210 V GraphicsEnvironment: dev.majesticmade.majestic_patched is not listed in ANGLE allowlist or settings, returning default
+11-03 20:21:58.677  9210  9210 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+--------- beginning of system
+11-03 20:21:58.925  9210  9230 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+11-03 20:21:59.003  9210  9210 I ajestic_patched: AssetManager2(0xb400007632419178) locale list changing from [] to [en-US]
+11-03 20:21:59.040  9210  9210 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+11-03 20:21:59.122  9210  9210 D CompatChangeReporter: Compat change id reported: 377864165; UID 10229; state: ENABLED
+11-03 20:21:59.123  9210  9210 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+11-03 20:21:59.301  9210  9232 D nativeloader: Load /data/app/~~_ckEbTtbcU_uyh9PwHyELw==/dev.majesticmade.majestic_patched-KTI6tWsvekQpYmGlDtcJKg==/base.apk!/lib/arm64-v8a/libflutter.so using class loader ns clns-9 (caller=/data/app/~~_ckEbTtbcU_uyh9PwHyELw==/dev.majesticmade.majestic_patched-KTI6tWsvekQpYmGlDtcJKg==/base.apk): ok
+11-03 20:21:59.359  9210  9233 D skia    : [SkFontMgr Android Parser] '/product/etc/fonts_customization.xml' could not be opened
+11-03 20:21:59.364  9210  9210 I ajestic_patched: AssetManager2(0xb40000763241d638) locale list changing from [] to [en-US]
+11-03 20:21:59.368  9210  9230 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+11-03 20:21:59.369  9210  9230 I EGL_emulation: Opening libGLESv2_emulation.so
+11-03 20:21:59.375  9210  9230 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-03 20:21:59.375  9210  9230 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-03 20:21:59.392  9210  9210 W ajestic_patched: type=1400 audit(0.0:108): avc:  denied  { read } for  name="max_map_count" dev="proc" ino=48611 scontext=u:r:untrusted_app:s0:c229,c256,c512,c768 tcontext=u:object_r:proc_max_map_count:s0 tclass=file permissive=0 app=dev.majesticmade.majestic_patched
+11-03 20:21:59.479  9210  9234 I flutter : [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+11-03 20:21:59.680  9210  9210 D nativeloader: Load /data/app/~~_ckEbTtbcU_uyh9PwHyELw==/dev.majesticmade.majestic_patched-KTI6tWsvekQpYmGlDtcJKg==/base.apk!/lib/arm64-v8a/libdartjni.so using class loader ns clns-9 (caller=/data/app/~~_ckEbTtbcU_uyh9PwHyELw==/dev.majesticmade.majestic_patched-KTI6tWsvekQpYmGlDtcJKg==/base.apk): ok
+11-03 20:21:59.730  9210  9210 W HWUI    : Unknown dataspace 0
+11-03 20:21:59.808  9210  9210 I WindowExtensionsImpl: Initializing Window Extensions, vendor API level=9, activity embedding enabled=true
+11-03 20:22:00.308  9210  9210 D WindowLayoutComponentImpl: Register WindowLayoutInfoListener on Context=dev.majesticmade.majestic_patched.MainActivity@d4c86ad, of which baseContext=android.app.ContextImpl@1a71b5c
+11-03 20:22:00.333  9210  9239 V Configuration: Updating configuration, locales updated from [en_US] to [en]
+11-03 20:22:00.334  9210  9239 I ajestic_patched: AssetManager2(0xb40000763241ccd8) locale list changing from [] to [en]
+11-03 20:22:00.423  9210  9239 V Configuration: Updating configuration, locales updated from [en] to [en_US]
+11-03 20:22:00.423  9210  9239 I ajestic_patched: AssetManager2(0xb4000076324278b8) locale list changing from [] to [en-US]
+11-03 20:22:00.914  9210  9210 D InsetsController: hide(ime(), fromIme=false)
+11-03 20:22:00.914  9210  9210 I ImeTracker: dev.majesticmade.majestic_patched:7f00b9cf: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-03 20:22:04.720  9210  9273 D ProfileInstaller: Installing profile for dev.majesticmade.majestic_patched

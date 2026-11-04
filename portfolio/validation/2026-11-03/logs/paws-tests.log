@@ -1,0 +1,151 @@
+00:00 +0: loading /Users/bespin-starter/Documents/Majestic/Paws/test/core/config/app_config_test.dart
+00:00 +0: /Users/bespin-starter/Documents/Majestic/Paws/test/core/services/device_bound_secure_storage_test.dart: Apple secure-storage items do not migrate to another device
+00:00 +1: /Users/bespin-starter/Documents/Majestic/Paws/test/core/services/device_bound_secure_storage_test.dart: biometric enrollment binding is isolated and invalidates on change
+00:00 +2: /Users/bespin-starter/Documents/Majestic/Paws/test/core/config/app_config_test.dart: environment parsing rejects unknown values instead of enabling development
+00:00 +3: /Users/bespin-starter/Documents/Majestic/Paws/test/core/config/app_config_test.dart: release builds reject development even with otherwise valid configuration
+00:00 +4: /Users/bespin-starter/Documents/Majestic/Paws/test/core/config/app_config_test.dart: release production validates public links without provider credentials
+00:00 +5: /Users/bespin-starter/Documents/Majestic/Paws/test/core/config/app_config_test.dart: local configuration needs no provider credentials or account
+00:00 +6: /Users/bespin-starter/Documents/Majestic/Paws/test/core/config/app_config_test.dart: production configuration keeps public disclosure and native identity checks
+00:01 +7: /Users/bespin-starter/Documents/Majestic/Paws/test/core/services/biometric_auth_service_test.dart: unchanged enrollment binding permits biometric unlock
+00:01 +8: /Users/bespin-starter/Documents/Majestic/Paws/test/core/services/biometric_auth_service_test.dart: missing enrollment binding fails closed and disables unlock
+00:01 +9: /Users/bespin-starter/Documents/Majestic/Paws/test/core/services/biometric_auth_service_test.dart: canceling enrollment confirmation does not enable unlock
+00:01 +10: /Users/bespin-starter/Documents/Majestic/Paws/test/core/services/biometric_auth_service_test.dart: re-enabling uses a fresh key after enrollment invalidation
+00:01 +11: /Users/bespin-starter/Documents/Majestic/Paws/test/core/services/biometric_auth_service_test.dart: partial cleanup failure still revokes biometric unlock
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ Bad state: simulated keychain cleanup failure
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   DeleteFailingStorage.delete (file:///Users/bespin-starter/Documents/Majestic/Paws/test/core/services/biometric_auth_service_test.dart:48:7)
+│ #1   BiometricAuthService.setEnabled (package:paws/core/services/biometric_auth_service.dart:83:28)
+│ #2   <asynchronous suspension>
+│ #3   main.<anonymous closure> (file:///Users/bespin-starter/Documents/Majestic/Paws/test/core/services/biometric_auth_service_test.dart:149:5)
+│ #4   <asynchronous suspension>
+│ #5   Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+│ #6   <asynchronous suspension>
+│ #7   Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:20:52.027 (+0:00:00.029398)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ Could not remove the disabled biometric enrollment binding
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:01 +12: /Users/bespin-starter/Documents/Majestic/Paws/test/core/services/biometric_auth_service_test.dart: Android versions below API 28 keep biometric unlock unavailable
+00:03 +13: /Users/bespin-starter/Documents/Majestic/Paws/test/core/widgets/app_button_test.dart: AppButton shows loading indicator and disables tap
+00:03 +14: /Users/bespin-starter/Documents/Majestic/Paws/test/core/widgets/app_button_test.dart: AppButton shows loading indicator and disables tap
+00:04 +15: /Users/bespin-starter/Documents/Majestic/Paws/test/core/validation/input_validators_test.dart: InputValidators requires strong enough starter passwords
+00:04 +16: /Users/bespin-starter/Documents/Majestic/Paws/test/core/validation/input_validators_test.dart: InputValidators validates matching password confirmation
+00:04 +17: /Users/bespin-starter/Documents/Majestic/Paws/test/security/ios_backup_policy_test.dart: iOS excludes local Application Support data from system backup
+00:04 +18: /Users/bespin-starter/Documents/Majestic/Paws/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:04 +19: /Users/bespin-starter/Documents/Majestic/Paws/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:04 +20: /Users/bespin-starter/Documents/Majestic/Paws/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:06 +21: /Users/bespin-starter/Documents/Majestic/Paws/test/core/router/lifecycle_route_retention_test.dart: native picker continuation and route state survive background lock without hidden input
+00:06 +22: /Users/bespin-starter/Documents/Majestic/Paws/test/core/router/lifecycle_route_retention_test.dart: focused backup dialog closes across background without disposed controllers
+00:07 +23: /Users/bespin-starter/Documents/Majestic/Paws/test/features/pets/sqlite_paws_vault_repository_test.dart: migrates legacy IDs and keys, writes SQL only and survives reopen
+00:08 +24: /Users/bespin-starter/Documents/Majestic/Paws/test/features/pets/sqlite_paws_vault_repository_test.dart: migrates legacy IDs and keys, writes SQL only and survives reopen
+00:08 +25: /Users/bespin-starter/Documents/Majestic/Paws/test/features/pets/sqlite_paws_vault_repository_test.dart: migrates legacy IDs and keys, writes SQL only and survives reopen
+00:08 +26: /Users/bespin-starter/Documents/Majestic/Paws/test/features/pets/sqlite_paws_vault_repository_test.dart: migrates legacy IDs and keys, writes SQL only and survives reopen
+00:08 +27: /Users/bespin-starter/Documents/Majestic/Paws/test/features/pets/sqlite_paws_vault_repository_test.dart: migrates legacy IDs and keys, writes SQL only and survives reopen
+00:08 +28: /Users/bespin-starter/Documents/Majestic/Paws/test/features/pets/sqlite_paws_vault_repository_test.dart: migrates legacy IDs and keys, writes SQL only and survives reopen
+00:08 +29: /Users/bespin-starter/Documents/Majestic/Paws/test/features/pets/sqlite_paws_vault_repository_test.dart: migrates legacy IDs and keys, writes SQL only and survives reopen
+00:08 +30: /Users/bespin-starter/Documents/Majestic/Paws/test/features/pets/sqlite_paws_vault_repository_test.dart: migrates legacy IDs and keys, writes SQL only and survives reopen
+00:08 +31: /Users/bespin-starter/Documents/Majestic/Paws/test/features/pets/sqlite_paws_vault_repository_test.dart: migrates legacy IDs and keys, writes SQL only and survives reopen
+00:08 +32: /Users/bespin-starter/Documents/Majestic/Paws/test/features/pets/sqlite_paws_vault_repository_test.dart: migrates legacy IDs and keys, writes SQL only and survives reopen
+00:09 +33: /Users/bespin-starter/Documents/Majestic/Paws/test/features/pets/sqlite_paws_vault_repository_test.dart: migrates legacy IDs and keys, writes SQL only and survives reopen
+00:10 +34: /Users/bespin-starter/Documents/Majestic/Paws/test/features/pets/sqlite_paws_vault_repository_test.dart: fresh-key recovery resumes across repository restarts without resetting data
+00:11 +35: /Users/bespin-starter/Documents/Majestic/Paws/test/features/pets/sqlite_paws_vault_repository_test.dart: missing container key never falls back to stale legacy data
+00:12 +36: /Users/bespin-starter/Documents/Majestic/Paws/test/features/pets/sqlite_paws_vault_repository_test.dart: concurrent writes retain an authenticated complete snapshot
+WARNING (drift): It looks like you've created the database class _RecordDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _RecordDatabase (package:majestic_storage/src/record_files.dart)
+#4      new EncryptedRecordDirectory (package:majestic_storage/src/record_files.dart:87:20)
+#5      SqlitePawsVaultRepository._records.<anonymous closure> (package:paws/features/pets/data/paws_vault_repository.dart:352:21)
+<asynchronous suspension>
+#6      new SqlitePawsVaultRepository.<anonymous closure> (package:paws/features/pets/data/paws_vault_repository.dart:315:40)
+<asynchronous suspension>
+#7      EncryptedPawsVaultRepository.save (package:paws/features/pets/data/paws_vault_repository.dart:69:18)
+<asynchronous suspension>
+#8      serialFileOperation (package:majestic_storage/src/io_helpers.dart:23:12)
+<asynchronous suspension>
+#9      Future.wait.<anonymous closure> (dart:async/future.dart:567:21)
+<asynchronous suspension>
+#10     main.<anonymous closure> (file:///Users/bespin-starter/Documents/Majestic/Paws/test/features/pets/sqlite_paws_vault_repository_test.dart:100:5)
+<asynchronous suspension>
+#11     Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#12     Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#13     Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+00:12 +37: /Users/bespin-starter/Documents/Majestic/Paws/test/features/pets/paws_vault_controller_test.dart: adds a pet and cascades deletion to its health entries
+00:12 +38: /Users/bespin-starter/Documents/Majestic/Paws/test/features/pets/paws_vault_controller_test.dart: unowned permanent access cannot add pets or health entries
+00:12 +39: /Users/bespin-starter/Documents/Majestic/Paws/test/features/pets/paws_vault_controller_test.dart: inactive subscriptions can delete existing local data
+00:12 +40: /Users/bespin-starter/Documents/Majestic/Paws/test/features/pets/paws_vault_controller_test.dart: recovery replaces the full vault without a subscription gate
+00:12 +41: /Users/bespin-starter/Documents/Majestic/Paws/test/features/pets/paws_vault_controller_test.dart: recovery waits for delayed vault bootstrap before replacing
+00:13 +42: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/paws_backup_service_test.dart: default Argon2id profile creates an authenticated round trip
+00:14 +43: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/paws_backup_service_test.dart: backup contains neither plaintext nor the recovery password
+00:14 +44: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/paws_backup_service_test.dart: wrong password and ciphertext tampering fail closed
+00:14 +45: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/paws_backup_service_test.dart: rejects unsupported KDF costs before deriving a key
+00:14 +46: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/paws_backup_service_test.dart: rejects future payload versions rather than dropping fields
+00:14 +47: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/paws_backup_service_test.dart: rejects duplicate ids and orphan health records before export
+00:14 +48: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/paws_backup_service_test.dart: rejects an authenticated payload with unknown fields
+00:14 +49: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/paws_backup_service_test.dart: rejects selected files above the 16 MiB cap before reading
+00:14 +50: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/paws_backup_service_test.dart: removes encrypted temporary backup after sharing succeeds
+00:14 +51: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/paws_backup_service_test.dart: removes encrypted temporary backup when sharing fails
+00:14 +52: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/backup_capacity_test.dart: valid eleven MiB legacy payload restores and re-exports completely
+00:15 +53: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/backup_capacity_test.dart: valid eleven MiB legacy payload restores and re-exports completely
+00:15 +54: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/backup_capacity_test.dart: valid eleven MiB legacy payload restores and re-exports completely
+00:15 +55: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/backup_capacity_test.dart: valid eleven MiB legacy payload restores and re-exports completely
+00:16 +56: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/backup_capacity_test.dart: valid eleven MiB legacy payload restores and re-exports completely
+00:16 +57: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/backup_capacity_test.dart: valid eleven MiB legacy payload restores and re-exports completely
+00:17 +58: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/backup_capacity_test.dart: valid eleven MiB legacy payload restores and re-exports completely
+00:17 +58: /Users/bespin-starter/Documents/Majestic/Paws/test/features/local_account/local_account_controller_test.dart: failed recovery does not create an account
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ The restored vault could not be installed. No local account was created.
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   LocalAccountController.createAccount.<anonymous closure> (package:paws/features/local_account/application/local_account_controller.dart:99:11)
+│ #1   <asynchronous suspension>
+│ #2   LocalActionUnlockPolicy.run.<anonymous closure> (package:majestic_privacy/src/local_action_unlock_policy.dart:20:28)
+│ #3   <asynchronous suspension>
+│ #4   LocalActionUnlockPolicy.authenticate (package:majestic_privacy/src/local_action_unlock_policy.dart:45:14)
+│ #5   <asynchronous suspension>
+│ #6   LocalAppLock.unlock (package:majestic_privacy/src/local_app_lock.dart:81:18)
+│ #7   <asynchronous suspension>
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:21:07.803 (+0:00:00.385412)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ The restored vault could not be installed. No local account was created.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:17 +59: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/backup_capacity_test.dart: valid eleven MiB legacy payload restores and re-exports completely
+00:17 +60: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/backup_capacity_test.dart: valid eleven MiB legacy payload restores and re-exports completely
+00:17 +61: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/backup_capacity_test.dart: valid eleven MiB legacy payload restores and re-exports completely
+00:17 +62: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/backup_capacity_test.dart: valid eleven MiB legacy payload restores and re-exports completely
+00:18 +62: /Users/bespin-starter/Documents/Majestic/Paws/test/features/local_account/local_account_controller_test.dart: failed recovery finalization clears the local account
+┌───────────────────────────────────────────────────────────────────────────────────────────────────
+│ The restored vault could not be finalized. No local account was created.
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ #0   LocalAccountController.createAccount.<anonymous closure> (package:paws/features/local_account/application/local_account_controller.dart:105:11)
+│ #1   <asynchronous suspension>
+│ #2   LocalActionUnlockPolicy.run.<anonymous closure> (package:majestic_privacy/src/local_action_unlock_policy.dart:20:28)
+│ #3   <asynchronous suspension>
+│ #4   LocalActionUnlockPolicy.authenticate (package:majestic_privacy/src/local_action_unlock_policy.dart:45:14)
+│ #5   <asynchronous suspension>
+│ #6   LocalAppLock.unlock (package:majestic_privacy/src/local_app_lock.dart:81:18)
+│ #7   <asynchronous suspension>
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ 18:21:08.175 (+0:00:00.757828)
+├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+│ The restored vault could not be finalized. No local account was created.
+└───────────────────────────────────────────────────────────────────────────────────────────────────
+00:18 +63: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/backup_capacity_test.dart: valid eleven MiB legacy payload restores and re-exports completely
+00:18 +64: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/backup_capacity_test.dart: valid eleven MiB legacy payload restores and re-exports completely
+00:19 +65: /Users/bespin-starter/Documents/Majestic/Paws/test/features/local_account/local_account_repository_test.dart: locks password verification after five failures across restarts
+00:20 +66: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/backup_capacity_test.dart: picker accepts a new archive beyond sixteen MiB up to its exact cap
+00:21 +67: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/backup_capacity_test.dart: picker accepts a new archive beyond sixteen MiB up to its exact cap
+00:21 +68: /Users/bespin-starter/Documents/Majestic/Paws/test/features/recovery/backup_capacity_test.dart: picker accepts a new archive beyond sixteen MiB up to its exact cap
+00:21 +69: /Users/bespin-starter/Documents/Majestic/Paws/test/features/local_account/local_account_repository_test.dart: overlapping password verification is rejected as busy
+00:21 +70: /Users/bespin-starter/Documents/Majestic/Paws/test/features/local_account/local_account_repository_test.dart: overlapping password verification is rejected as busy
+00:22 +71: /Users/bespin-starter/Documents/Majestic/Paws/test/features/local_account/local_account_repository_test.dart: overlapping password verification is rejected as busy
+00:22 +72: All tests passed!
