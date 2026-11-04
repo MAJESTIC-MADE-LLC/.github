@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "foundationVersion": "0.1.0",
+  "decisionDate": "2026-11-03",
+  "gate": {
+    "status": "pending",
+    "scope": "Shared foundation adoption and qualification before any app release; individual product QA and approval remain later gates.",
+    "requiredApps": [
+      "Skepbook",
+      "Ridelore",
+      "Paws",
+      "Pantry-Clock",
+      "Fine-Notes",
+      "Namefold",
+      "Daymerit"
+    ],
+    "requiredTemplate": "App-Template"
+  },
+  "toolchain": {
+    "flutter": "3.47.8",
+    "dart": "3.13.7",
+    "dartConstraint": ">=3.13.7 <4.0.0",
+    "channel": "stable",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "coreDependencies": {
+    "flutter_riverpod": "3.4.3",
+    "go_router": "18.0.1",
+    "drift": "2.35.0",
+    "sqlite3": "3.6.0",
+    "flutter_secure_storage": "11.1.1",
+    "local_auth": "3.0.2",
+    "cryptography": "2.9.0",
+    "in_app_purchase": "3.3.0"
+  },
+  "optionalDependencies": {
+    "flutter_local_notifications": {
+      "version": "22.3.1",
+      "capability": "reminders"
+    },
+    "timezone": {
+      "version": "0.11.1",
+      "capability": "reminders"
+    },
+    "pdf": {
+      "version": "3.13.0",
+      "capability": "pdf"
+    },
+    "share_plus": {
+      "version": "13.3.0",
+      "capability": "export_import"
+    },
+    "file_picker": {
+      "version": "13.0.0",
+      "capability": "export_import"
+    },
+    "image_picker": {
+      "version": "1.2.3",
+      "capability": "camera"
+    },
+    "geolocator": {
+      "version": "14.0.3",
+      "capability": "location_snapshot"
+    },
+    "qr_flutter": {
+      "version": "4.1.0",
+      "capability": "qr"
+    },
+    "mobile_scanner": {
+      "version": "7.4.2",
+      "capability": "qr"
+    },
+    "flutter_contacts": {
+      "version": "2.5.0",
+      "capability": "contacts"
+    },
+    "home_widget": {
+      "version": "0.9.4",
+      "capability": "widgets"
+    },
+    "flutter_zxing": {
+      "version": "3.1.0",
+      "capability": "qr"
+    },
+    "camera": {
+      "version": "0.12.2",
+      "capability": "camera"
+    },
+    "file_selector": {
+      "version": "1.1.0",
+      "capability": "export_import"
+    }
+  },
+  "packages": {
+    "majestic_app": {
+      "path": "App-Template/packages/majestic_app",
+      "version": "0.1.0",
+      "git": {
+        "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+        "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+        "path": "packages/majestic_app"
+      }
+    },
+    "majestic_privacy": {
+      "path": "App-Template/packages/majestic_privacy",
+      "version": "0.1.0",
+      "git": {
+        "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+        "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+        "path": "packages/majestic_privacy"
+      }
+    },
+    "majestic_storage": {
+      "path": "App-Template/packages/majestic_storage",
+      "version": "0.1.0",
+      "git": {
+        "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+        "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+        "path": "packages/majestic_storage"
+      }
+    },
+    "majestic_purchases": {
+      "path": "App-Template/packages/majestic_purchases",
+      "version": "0.1.0",
+      "git": {
+        "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+        "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+        "path": "packages/majestic_purchases"
+      }
+    }
+  },
+  "packageProvenance": "workspace-unpublished",
+  "prohibitedProviderPrefixes": [
+    "supabase",
+    "firebase",
+    "cloud_firestore",
+    "sentry",
+    "revenuecat",
+    "openai",
+    "dart_openai",
+    "google_generative_ai"
+  ],
+  "prohibitedProviderPackages": [
+    "purchases_flutter",
+    "flutter_firebase_chat_core",
+    "amplify_flutter"
+  ],
+  "networkPackages": [
+    "http",
+    "dio"
+  ],
+  "consumerChecks": [
+    "analysis",
+    "tests",
+    "ios_release_build",
+    "android_release_build",
+    "foundation_contracts",
+    "migration_contracts"
+  ],
+  "templateChecks": [
+    "analysis",
+    "tests",
+    "ios_release_build",
+    "android_release_build",
+    "generated_template_smoke"
+  ],
+  "qualificationChecks": [
+    "shared_package_tests",
+    "physical_privacy_ios",
+    "physical_privacy_android",
+    "native_store_ios",
+    "native_store_android"
+  ],
+  "consumers": [
+    {
+      "id": "App-Template",
+      "path": "App-Template",
+      "kind": "template"
+    },
+    {
+      "id": "Skepbook",
+      "path": "Skepbook",
+      "kind": "application"
+    },
+    {
+      "id": "Ridelore",
+      "path": "Ridelore",
+      "kind": "application"
+    },
+    {
+      "id": "Paws",
+      "path": "Paws",
+      "kind": "application"
+    },
+    {
+      "id": "Pantry-Clock",
+      "path": "Pantry-Clock",
+      "kind": "application"
+    },
+    {
+      "id": "Fine-Notes",
+      "path": "Fine-Notes",
+      "kind": "application"
+    },
+    {
+      "id": "Namefold",
+      "path": "Namefold/app",
+      "kind": "application"
+    },
+    {
+      "id": "Daymerit",
+      "path": "Daymerit",
+      "kind": "application"
+    }
+  ],
+  "excludedRepositories": [
+    "dossier",
+    "off-record"
+  ],
+  "webPolicy": {
+    "profile": "separate TypeScript/React web surfaces where needed",
+    "nodeMajor": 26,
+    "consumerMobileBackendRequired": false,
+    "steward": "consolidate marketing into Hub; do not add a separate app stack",
+    "nodeExact": "26.8.2"
+  },
+  "compatibilityDependencies": {
+    "image": "4.9.1",
+    "archive": "4.0.9",
+    "drift_dev": "2.35.0"
+  },
+  "optionalSharedPackages": {
+    "majestic_reports": {
+      "path": "App-Template/packages/majestic_reports",
+      "version": "0.1.0",
+      "capabilities": [
+        "pdf"
+      ],
+      "git": {
+        "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+        "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+        "path": "packages/majestic_reports"
+      }
+    },
+    "majestic_reminders": {
+      "path": "App-Template/packages/majestic_reminders",
+      "version": "0.1.0",
+      "capabilities": [
+        "reminders"
+      ],
+      "git": {
+        "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+        "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+        "path": "packages/majestic_reminders"
+      }
+    },
+    "majestic_media": {
+      "path": "App-Template/packages/majestic_media",
+      "version": "0.1.0",
+      "capabilities": [
+        "camera",
+        "attachments"
+      ],
+      "git": {
+        "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+        "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+        "path": "packages/majestic_media"
+      }
+    },
+    "majestic_qr": {
+      "path": "App-Template/packages/majestic_qr",
+      "version": "0.1.0",
+      "capabilities": [
+        "qr"
+      ],
+      "git": {
+        "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+        "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+        "path": "packages/majestic_qr"
+      }
+    }
+  },
+  "resolvedPlatformDependencies": {
+    "local_auth_android": "2.3.0",
+    "local_auth_darwin": "2.0.5",
+    "flutter_secure_storage_darwin": "0.4.3",
+    "flutter_secure_storage_platform_interface": "2.1.1",
+    "in_app_purchase_storekit": "0.4.16",
+    "path_provider_android": "2.3.1",
+    "native_toolchain_c": "0.19.5",
+    "file_picker_darwin": "2.4.2",
+    "file_picker_platform_interface": "4.2.0",
+    "file_picker_web": "4.2.0",
+    "file_picker_linux": "2.0.3",
+    "android_file_picker": "2.1.3",
+    "jni": "1.1.1",
+    "jni_flutter": "1.0.4+1",
+    "image_picker_android": "0.8.13+25",
+    "image_picker_ios": "0.8.13+14"
+  },
+  "androidToolchain": {
+    "agp": "9.1.0",
+    "kotlin": "2.4.0",
+    "gradle": "9.3.1",
+    "jvmTarget": 17,
+    "javaRuntimeMinimum": 17,
+    "observedLocalRuntime": "Android Studio JBR 21.0.8"
+  },
+  "sdkSecurityBaseline": {
+    "advisory": "https://github.com/dart-lang/sdk/security/advisories/GHSA-frr6-h895-5pxp",
+    "minimumPatchedFlutter": "3.47.8",
+    "minimumPatchedDart": "3.13.7",
+    "validation": "Isolated SDK revision and all eight consumer resolutions verified; current local analyzers/tests and both native release builds pass. Physical-device, native-store and immutable-package qualification remain pending.",
+    "observedSdk": {
+      "frameworkVersion": "3.47.8",
+      "frameworkRevision": "737ba8f885dc774b53b442759999a312c9461e4e",
+      "engineRevision": "cf636b1dfb818dd6a3ff16e390e93b1a036969c8",
+      "dartSdkVersion": "3.13.7"
+    }
+  },
+  "productionChecks": [
+    "immutable_package_revisions"
+  ],
+  "observedLocalAppleToolchain": {
+    "xcode": "27.2",
+    "build": "27B52",
+    "scope": "Local qualification only; no CI runs claimed."
+  },
+  "sourceFingerprintPolicy": {
+    "version": 2,
+    "excludedGeneratedFiles": [
+      "android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "android/local.properties",
+      "ios/Flutter/.last_build_id",
+      "ios/Flutter/Generated.xcconfig",
+      "ios/Flutter/flutter_export_environment.sh",
+      "ios/Runner/GeneratedPluginRegistrant.h",
+      "ios/Runner/GeneratedPluginRegistrant.m"
+    ],
+    "excludedGeneratedDirectories": [
+      "ios/Flutter/ephemeral"
+    ],
+    "gitPackageScope": "Every tracked package byte/mode at the approved full Git revision; SDK-generated app registrants/configuration are derived from retained pubspec/lock/native sources. Qualified release artifact hashes are recorded separately."
+  }
+}

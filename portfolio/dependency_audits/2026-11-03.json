@@ -1,0 +1,3236 @@
+{
+  "date": "2026-11-03",
+  "scope": "All eight consumer lockfiles; full package-version diff after final approved resolution, before native qualification.",
+  "sdkObserved": {
+    "frameworkVersion": "3.47.8",
+    "frameworkRevision": "737ba8f885dc774b53b442759999a312c9461e4e",
+    "engineRevision": "cf636b1dfb818dd6a3ff16e390e93b1a036969c8",
+    "dartSdkVersion": "3.13.7"
+  },
+  "baselineResolution": "passed",
+  "errors": [],
+  "consumerCount": 8,
+  "packageCount": 220,
+  "remainingVersionDifferences": {
+    "_fe_analyzer_shared": {
+      "versions": {
+        "108.0.0": [
+          "Skepbook"
+        ],
+        "103.0.0": [
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "analyzer": {
+      "versions": {
+        "14.4.0": [
+          "Skepbook"
+        ],
+        "13.3.0": [
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "build_daemon": {
+      "versions": {
+        "4.1.6": [
+          "Skepbook",
+          "Ridelore"
+        ],
+        "4.1.7": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "build_runner": {
+      "versions": {
+        "2.16.1": [
+          "Skepbook"
+        ],
+        "2.15.0": [
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "built_collection": {
+      "versions": {
+        "5.1.1": [
+          "Skepbook",
+          "Ridelore"
+        ],
+        "5.1.2": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "cupertino_ui": {
+      "versions": {
+        "1.0.2": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Daymerit"
+        ],
+        "1.1.5": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "dart_style": {
+      "versions": {
+        "3.1.13": [
+          "Skepbook",
+          "Ridelore"
+        ],
+        "3.1.14": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "dbus": {
+      "versions": {
+        "0.8.0": [
+          "App-Template",
+          "Namefold"
+        ],
+        "0.7.15": [
+          "Skepbook",
+          "Ridelore",
+          "Fine-Notes",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "file_selector_macos": {
+      "versions": {
+        "0.9.5+1": [
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Daymerit"
+        ],
+        "0.9.5+2": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "http_multi_server": {
+      "versions": {
+        "3.2.2": [
+          "Skepbook",
+          "Ridelore"
+        ],
+        "3.2.3": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "image_picker_platform_interface": {
+      "versions": {
+        "2.11.1": [
+          "Skepbook",
+          "Ridelore",
+          "Daymerit"
+        ],
+        "2.11.2": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "material_ui": {
+      "versions": {
+        "1.2.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Daymerit"
+        ],
+        "1.9.0": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "objective_c": {
+      "versions": {
+        "9.6.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Daymerit"
+        ],
+        "9.6.2": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "package_config": {
+      "versions": {
+        "3.0.0": [
+          "App-Template",
+          "Skepbook",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Daymerit"
+        ],
+        "2.2.0": [
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "package_info_plus": {
+      "versions": {
+        "10.2.1": [
+          "Skepbook"
+        ],
+        "10.1.0": [
+          "Ridelore"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "petitparser": {
+      "versions": {
+        "7.1.0": [
+          "App-Template",
+          "Namefold"
+        ],
+        "7.0.2": [
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Fine-Notes",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "posix": {
+      "versions": {
+        "6.5.2": [
+          "Skepbook",
+          "Ridelore",
+          "Paws"
+        ],
+        "6.5.4": [
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "pubspec_parse": {
+      "versions": {
+        "1.6.0": [
+          "Skepbook",
+          "Ridelore"
+        ],
+        "1.7.0": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "qr": {
+      "versions": {
+        "3.0.2": [
+          "Skepbook",
+          "Ridelore",
+          "Paws"
+        ],
+        "3.0.3": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "shared_preferences": {
+      "versions": {
+        "2.5.5": [
+          "Ridelore"
+        ],
+        "2.5.6": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "shared_preferences_android": {
+      "versions": {
+        "2.4.28": [
+          "Ridelore"
+        ],
+        "2.5.4": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "shared_preferences_foundation": {
+      "versions": {
+        "2.5.7": [
+          "Ridelore"
+        ],
+        "2.6.1": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "shelf": {
+      "versions": {
+        "1.4.2": [
+          "Skepbook",
+          "Ridelore"
+        ],
+        "1.4.3": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "source_gen": {
+      "versions": {
+        "4.3.0": [
+          "Skepbook"
+        ],
+        "4.2.4": [
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "sqlparser": {
+      "versions": {
+        "0.45.0": [
+          "Skepbook",
+          "Ridelore"
+        ],
+        "0.45.1": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "url_launcher": {
+      "versions": {
+        "6.3.2": [
+          "Ridelore"
+        ],
+        "6.3.3": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "uuid": {
+      "versions": {
+        "4.6.0": [
+          "App-Template",
+          "Skepbook",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Daymerit"
+        ],
+        "4.5.3": [
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "vector_math": {
+      "versions": {
+        "2.4.2": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Daymerit"
+        ],
+        "2.4.0": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "vm_service": {
+      "versions": {
+        "15.3.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Daymerit"
+        ],
+        "15.4.0": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "web": {
+      "versions": {
+        "1.1.1": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Daymerit"
+        ],
+        "1.1.2": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "windows_file_picker": {
+      "versions": {
+        "2.0.1": [
+          "App-Template",
+          "Namefold",
+          "Daymerit"
+        ],
+        "2.0.0": [
+          "Skepbook",
+          "Ridelore",
+          "Fine-Notes"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "xml": {
+      "versions": {
+        "7.1.0": [
+          "App-Template",
+          "Namefold"
+        ],
+        "7.0.1": [
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Fine-Notes",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    }
+  },
+  "allResolvedPackages": {
+    "_fe_analyzer_shared": {
+      "versions": {
+        "108.0.0": [
+          "Skepbook"
+        ],
+        "103.0.0": [
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "analyzer": {
+      "versions": {
+        "14.4.0": [
+          "Skepbook"
+        ],
+        "13.3.0": [
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "android_file_picker": {
+      "versions": {
+        "2.1.3": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "archive": {
+      "versions": {
+        "4.0.9": [
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "args": {
+      "versions": {
+        "2.7.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "async": {
+      "versions": {
+        "2.13.1": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "barcode": {
+      "versions": {
+        "2.2.9": [
+          "Skepbook",
+          "Ridelore",
+          "Paws"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "bidi": {
+      "versions": {
+        "2.0.13": [
+          "Skepbook",
+          "Ridelore",
+          "Paws"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "boolean_selector": {
+      "versions": {
+        "2.1.2": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "build": {
+      "versions": {
+        "4.0.11": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "build_config": {
+      "versions": {
+        "1.3.3": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "build_daemon": {
+      "versions": {
+        "4.1.6": [
+          "Skepbook",
+          "Ridelore"
+        ],
+        "4.1.7": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "build_runner": {
+      "versions": {
+        "2.16.1": [
+          "Skepbook"
+        ],
+        "2.15.0": [
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "built_collection": {
+      "versions": {
+        "5.1.1": [
+          "Skepbook",
+          "Ridelore"
+        ],
+        "5.1.2": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "built_value": {
+      "versions": {
+        "8.13.0": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "camera": {
+      "versions": {
+        "0.12.2": [
+          "Namefold"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "camera_android_camerax": {
+      "versions": {
+        "0.7.6+1": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "camera_avfoundation": {
+      "versions": {
+        "0.11.1": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "camera_platform_interface": {
+      "versions": {
+        "2.15.0": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "camera_web": {
+      "versions": {
+        "0.3.5+7": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "characters": {
+      "versions": {
+        "1.4.1": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "charcode": {
+      "versions": {
+        "1.4.0": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "checked_yaml": {
+      "versions": {
+        "2.0.4": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "cli_util": {
+      "versions": {
+        "0.5.2": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "clock": {
+      "versions": {
+        "1.1.3": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "code_assets": {
+      "versions": {
+        "2.1.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "collection": {
+      "versions": {
+        "1.19.1": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "convert": {
+      "versions": {
+        "3.1.2": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "cross_file": {
+      "versions": {
+        "0.3.5+5": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "crypto": {
+      "versions": {
+        "3.0.7": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "cryptography": {
+      "versions": {
+        "2.9.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "cupertino_icons": {
+      "versions": {
+        "1.0.9": [
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "cupertino_ui": {
+      "versions": {
+        "1.0.2": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Daymerit"
+        ],
+        "1.1.5": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "dart_style": {
+      "versions": {
+        "3.1.13": [
+          "Skepbook",
+          "Ridelore"
+        ],
+        "3.1.14": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "dbus": {
+      "versions": {
+        "0.8.0": [
+          "App-Template",
+          "Namefold"
+        ],
+        "0.7.15": [
+          "Skepbook",
+          "Ridelore",
+          "Fine-Notes",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "drift": {
+      "versions": {
+        "2.35.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "drift_dev": {
+      "versions": {
+        "2.35.0": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "drift_flutter": {
+      "versions": {
+        "0.3.1": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "equatable": {
+      "versions": {
+        "2.1.0": [
+          "Skepbook",
+          "Ridelore",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "fake_async": {
+      "versions": {
+        "1.3.3": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "ffi": {
+      "versions": {
+        "2.2.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "ffi_leak_tracker": {
+      "versions": {
+        "0.1.2": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "file": {
+      "versions": {
+        "7.0.1": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "file_picker": {
+      "versions": {
+        "13.0.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "file_picker_darwin": {
+      "versions": {
+        "2.4.2": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "file_picker_linux": {
+      "versions": {
+        "2.0.3": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "file_picker_platform_interface": {
+      "versions": {
+        "4.2.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "file_picker_web": {
+      "versions": {
+        "4.2.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "file_selector": {
+      "versions": {
+        "1.1.0": [
+          "Paws",
+          "Pantry-Clock"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "file_selector_android": {
+      "versions": {
+        "0.5.2+11": [
+          "Paws",
+          "Pantry-Clock"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "file_selector_ios": {
+      "versions": {
+        "0.5.3+6": [
+          "Paws",
+          "Pantry-Clock"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "file_selector_linux": {
+      "versions": {
+        "0.9.4+1": [
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "file_selector_macos": {
+      "versions": {
+        "0.9.5+1": [
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Daymerit"
+        ],
+        "0.9.5+2": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "file_selector_platform_interface": {
+      "versions": {
+        "2.7.0": [
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "file_selector_web": {
+      "versions": {
+        "0.9.5": [
+          "Paws",
+          "Pantry-Clock"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "file_selector_windows": {
+      "versions": {
+        "0.9.3+6": [
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "fixnum": {
+      "versions": {
+        "1.1.1": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "flutter": {
+      "versions": {
+        "0.0.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "flutter_contacts": {
+      "versions": {
+        "2.5.0": [
+          "Namefold"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "flutter_driver": {
+      "versions": {
+        "0.0.0": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "flutter_lints": {
+      "versions": {
+        "6.0.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "flutter_local_notifications": {
+      "versions": {
+        "22.3.1": [
+          "Skepbook",
+          "Ridelore",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "flutter_local_notifications_linux": {
+      "versions": {
+        "8.0.1": [
+          "Skepbook",
+          "Ridelore",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "flutter_local_notifications_platform_interface": {
+      "versions": {
+        "12.2.0": [
+          "Skepbook",
+          "Ridelore",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "flutter_local_notifications_web": {
+      "versions": {
+        "1.0.0": [
+          "Skepbook",
+          "Ridelore",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "flutter_local_notifications_windows": {
+      "versions": {
+        "3.1.1": [
+          "Skepbook",
+          "Ridelore",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "flutter_localizations": {
+      "versions": {
+        "0.0.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "flutter_plugin_android_lifecycle": {
+      "versions": {
+        "2.0.35": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "flutter_riverpod": {
+      "versions": {
+        "3.4.3": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "flutter_secure_storage": {
+      "versions": {
+        "11.1.1": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "flutter_secure_storage_darwin": {
+      "versions": {
+        "0.4.3": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "flutter_secure_storage_linux": {
+      "versions": {
+        "3.0.3": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "flutter_secure_storage_platform_interface": {
+      "versions": {
+        "2.1.1": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "flutter_secure_storage_web": {
+      "versions": {
+        "2.1.1": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "flutter_secure_storage_windows": {
+      "versions": {
+        "4.2.2": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "flutter_test": {
+      "versions": {
+        "0.0.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "flutter_timezone": {
+      "versions": {
+        "5.1.0": [
+          "Skepbook",
+          "Ridelore",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "flutter_web_plugins": {
+      "versions": {
+        "0.0.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "flutter_zxing": {
+      "versions": {
+        "3.1.0": [
+          "Namefold"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "fuchsia_remote_debug_protocol": {
+      "versions": {
+        "0.0.0": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "geoclue": {
+      "versions": {
+        "0.1.1": [
+          "Skepbook"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "geolocator": {
+      "versions": {
+        "14.0.3": [
+          "Skepbook"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "geolocator_android": {
+      "versions": {
+        "5.0.3": [
+          "Skepbook"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "geolocator_apple": {
+      "versions": {
+        "2.3.14": [
+          "Skepbook"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "geolocator_linux": {
+      "versions": {
+        "0.2.6": [
+          "Skepbook"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "geolocator_platform_interface": {
+      "versions": {
+        "4.3.0": [
+          "Skepbook"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "geolocator_web": {
+      "versions": {
+        "4.1.4": [
+          "Skepbook"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "geolocator_windows": {
+      "versions": {
+        "0.2.5": [
+          "Skepbook"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "glob": {
+      "versions": {
+        "2.2.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "go_router": {
+      "versions": {
+        "18.0.1": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "graphs": {
+      "versions": {
+        "2.3.2": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "gsettings": {
+      "versions": {
+        "0.2.8": [
+          "Skepbook"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "home_widget": {
+      "versions": {
+        "0.9.4": [
+          "Namefold"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "hooks": {
+      "versions": {
+        "2.2.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "http": {
+      "versions": {
+        "1.6.0": [
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "http_multi_server": {
+      "versions": {
+        "3.2.2": [
+          "Skepbook",
+          "Ridelore"
+        ],
+        "3.2.3": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "http_parser": {
+      "versions": {
+        "4.1.2": [
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "image": {
+      "versions": {
+        "4.9.1": [
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "image_picker": {
+      "versions": {
+        "1.2.3": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "image_picker_android": {
+      "versions": {
+        "0.8.13+25": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "image_picker_for_web": {
+      "versions": {
+        "3.1.1": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "image_picker_ios": {
+      "versions": {
+        "0.8.13+14": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "image_picker_linux": {
+      "versions": {
+        "0.2.2": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "image_picker_macos": {
+      "versions": {
+        "0.2.2+1": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "image_picker_platform_interface": {
+      "versions": {
+        "2.11.1": [
+          "Skepbook",
+          "Ridelore",
+          "Daymerit"
+        ],
+        "2.11.2": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "image_picker_windows": {
+      "versions": {
+        "0.2.2": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "in_app_purchase": {
+      "versions": {
+        "3.3.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "in_app_purchase_android": {
+      "versions": {
+        "0.5.3": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "in_app_purchase_platform_interface": {
+      "versions": {
+        "1.4.1": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "in_app_purchase_storekit": {
+      "versions": {
+        "0.4.16": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "integration_test": {
+      "versions": {
+        "0.0.0": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "intl": {
+      "versions": {
+        "0.20.3": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "io": {
+      "versions": {
+        "1.1.0": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "jni": {
+      "versions": {
+        "1.1.1": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "jni_flutter": {
+      "versions": {
+        "1.0.4+1": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "jni_util": {
+      "versions": {
+        "1.0.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "json_annotation": {
+      "versions": {
+        "4.12.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "leak_tracker": {
+      "versions": {
+        "11.0.2": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "leak_tracker_flutter_testing": {
+      "versions": {
+        "3.0.10": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "leak_tracker_testing": {
+      "versions": {
+        "3.0.2": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "lints": {
+      "versions": {
+        "6.1.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "listen": {
+      "versions": {
+        "1.0.1": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "local_auth": {
+      "versions": {
+        "3.0.2": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "local_auth_android": {
+      "versions": {
+        "2.3.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "local_auth_darwin": {
+      "versions": {
+        "2.0.5": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "local_auth_platform_interface": {
+      "versions": {
+        "1.1.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "local_auth_windows": {
+      "versions": {
+        "2.0.2": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "logger": {
+      "versions": {
+        "2.8.0": [
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "logging": {
+      "versions": {
+        "1.3.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "majestic_app": {
+      "versions": {
+        "0.1.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "majestic_media": {
+      "versions": {
+        "0.1.0": [
+          "Skepbook",
+          "Ridelore",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "majestic_privacy": {
+      "versions": {
+        "0.1.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "majestic_purchases": {
+      "versions": {
+        "0.1.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "majestic_qr": {
+      "versions": {
+        "0.1.0": [
+          "Namefold"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "majestic_reminders": {
+      "versions": {
+        "0.1.0": [
+          "Skepbook",
+          "Ridelore",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "majestic_reports": {
+      "versions": {
+        "0.1.0": [
+          "Skepbook",
+          "Ridelore",
+          "Paws"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "majestic_storage": {
+      "versions": {
+        "0.1.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "matcher": {
+      "versions": {
+        "0.12.20": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "material_color_utilities": {
+      "versions": {
+        "0.13.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "material_ui": {
+      "versions": {
+        "1.2.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Daymerit"
+        ],
+        "1.9.0": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "meta": {
+      "versions": {
+        "1.19.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "mime": {
+      "versions": {
+        "2.1.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "mocktail": {
+      "versions": {
+        "1.0.5": [
+          "Skepbook"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "native_toolchain_c": {
+      "versions": {
+        "0.19.5": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "objective_c": {
+      "versions": {
+        "9.6.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Daymerit"
+        ],
+        "9.6.2": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "package_config": {
+      "versions": {
+        "3.0.0": [
+          "App-Template",
+          "Skepbook",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Daymerit"
+        ],
+        "2.2.0": [
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "package_info_plus": {
+      "versions": {
+        "10.2.1": [
+          "Skepbook"
+        ],
+        "10.1.0": [
+          "Ridelore"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "package_info_plus_platform_interface": {
+      "versions": {
+        "4.1.0": [
+          "Skepbook",
+          "Ridelore"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "path": {
+      "versions": {
+        "1.9.1": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "path_parsing": {
+      "versions": {
+        "1.1.0": [
+          "Skepbook",
+          "Ridelore",
+          "Paws"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "path_provider": {
+      "versions": {
+        "2.1.6": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "path_provider_android": {
+      "versions": {
+        "2.3.1": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "path_provider_foundation": {
+      "versions": {
+        "2.6.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "path_provider_linux": {
+      "versions": {
+        "2.2.2": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "path_provider_platform_interface": {
+      "versions": {
+        "2.1.3": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "path_provider_windows": {
+      "versions": {
+        "2.3.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "pdf": {
+      "versions": {
+        "3.13.0": [
+          "Skepbook",
+          "Ridelore",
+          "Paws"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "petitparser": {
+      "versions": {
+        "7.1.0": [
+          "App-Template",
+          "Namefold"
+        ],
+        "7.0.2": [
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Fine-Notes",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "platform": {
+      "versions": {
+        "3.2.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "plugin_platform_interface": {
+      "versions": {
+        "2.1.8": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "pool": {
+      "versions": {
+        "1.5.3": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "posix": {
+      "versions": {
+        "6.5.2": [
+          "Skepbook",
+          "Ridelore",
+          "Paws"
+        ],
+        "6.5.4": [
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "process": {
+      "versions": {
+        "5.0.6": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "pub_semver": {
+      "versions": {
+        "2.2.1": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "pubspec_parse": {
+      "versions": {
+        "1.6.0": [
+          "Skepbook",
+          "Ridelore"
+        ],
+        "1.7.0": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "qr": {
+      "versions": {
+        "3.0.2": [
+          "Skepbook",
+          "Ridelore",
+          "Paws"
+        ],
+        "3.0.3": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "qr_flutter": {
+      "versions": {
+        "4.1.0": [
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "recase": {
+      "versions": {
+        "4.1.0": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "record_use": {
+      "versions": {
+        "1.1.1": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "riverpod": {
+      "versions": {
+        "3.4.3": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "share_plus": {
+      "versions": {
+        "13.3.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "share_plus_platform_interface": {
+      "versions": {
+        "7.2.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "shared_preferences": {
+      "versions": {
+        "2.5.5": [
+          "Ridelore"
+        ],
+        "2.5.6": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "shared_preferences_android": {
+      "versions": {
+        "2.4.28": [
+          "Ridelore"
+        ],
+        "2.5.4": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "shared_preferences_foundation": {
+      "versions": {
+        "2.5.7": [
+          "Ridelore"
+        ],
+        "2.6.1": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "shared_preferences_linux": {
+      "versions": {
+        "2.4.1": [
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "shared_preferences_platform_interface": {
+      "versions": {
+        "2.4.2": [
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "shared_preferences_web": {
+      "versions": {
+        "2.4.3": [
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "shared_preferences_windows": {
+      "versions": {
+        "2.4.1": [
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "shelf": {
+      "versions": {
+        "1.4.2": [
+          "Skepbook",
+          "Ridelore"
+        ],
+        "1.4.3": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "shelf_web_socket": {
+      "versions": {
+        "3.0.0": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "sky_engine": {
+      "versions": {
+        "0.0.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "source_gen": {
+      "versions": {
+        "4.3.0": [
+          "Skepbook"
+        ],
+        "4.2.4": [
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "source_span": {
+      "versions": {
+        "1.10.2": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "sqlcipher_flutter_libs": {
+      "versions": {
+        "0.7.0+eol": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "sqlite3": {
+      "versions": {
+        "3.6.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "sqlite3_flutter_libs": {
+      "versions": {
+        "0.6.0+eol": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "sqlparser": {
+      "versions": {
+        "0.45.0": [
+          "Skepbook",
+          "Ridelore"
+        ],
+        "0.45.1": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "stack_trace": {
+      "versions": {
+        "1.12.2": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "state_notifier": {
+      "versions": {
+        "1.0.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "stream_channel": {
+      "versions": {
+        "2.1.4": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "stream_transform": {
+      "versions": {
+        "2.1.2": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "string_scanner": {
+      "versions": {
+        "1.4.1": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "sync_http": {
+      "versions": {
+        "0.3.1": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "term_glyph": {
+      "versions": {
+        "1.2.2": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "test_api": {
+      "versions": {
+        "0.7.12": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "timezone": {
+      "versions": {
+        "0.11.1": [
+          "Skepbook",
+          "Ridelore",
+          "Daymerit"
+        ]
+      },
+      "policy": "exact shared baseline"
+    },
+    "typed_data": {
+      "versions": {
+        "1.4.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "url_launcher": {
+      "versions": {
+        "6.3.2": [
+          "Ridelore"
+        ],
+        "6.3.3": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "url_launcher_android": {
+      "versions": {
+        "6.3.33": [
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "url_launcher_ios": {
+      "versions": {
+        "6.4.2": [
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "url_launcher_linux": {
+      "versions": {
+        "3.2.3": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "url_launcher_macos": {
+      "versions": {
+        "3.2.6": [
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "url_launcher_platform_interface": {
+      "versions": {
+        "2.3.2": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "url_launcher_web": {
+      "versions": {
+        "2.4.3": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "url_launcher_windows": {
+      "versions": {
+        "3.1.6": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "uuid": {
+      "versions": {
+        "4.6.0": [
+          "App-Template",
+          "Skepbook",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Daymerit"
+        ],
+        "4.5.3": [
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "vector_math": {
+      "versions": {
+        "2.4.2": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Daymerit"
+        ],
+        "2.4.0": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "vm_service": {
+      "versions": {
+        "15.3.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Daymerit"
+        ],
+        "15.4.0": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "watcher": {
+      "versions": {
+        "1.2.1": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "web": {
+      "versions": {
+        "1.1.1": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Daymerit"
+        ],
+        "1.1.2": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "web_socket": {
+      "versions": {
+        "1.0.1": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "web_socket_channel": {
+      "versions": {
+        "3.0.3": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "webdriver": {
+      "versions": {
+        "3.2.0": [
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "win32": {
+      "versions": {
+        "6.4.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "windows_file_picker": {
+      "versions": {
+        "2.0.1": [
+          "App-Template",
+          "Namefold",
+          "Daymerit"
+        ],
+        "2.0.0": [
+          "Skepbook",
+          "Ridelore",
+          "Fine-Notes"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "xdg_directories": {
+      "versions": {
+        "1.1.0": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "xml": {
+      "versions": {
+        "7.1.0": [
+          "App-Template",
+          "Namefold"
+        ],
+        "7.0.1": [
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Fine-Notes",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "yaml": {
+      "versions": {
+        "3.1.4": [
+          "App-Template",
+          "Skepbook",
+          "Ridelore",
+          "Paws",
+          "Pantry-Clock",
+          "Fine-Notes",
+          "Namefold",
+          "Daymerit"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    },
+    "yaml_edit": {
+      "versions": {
+        "2.2.4": [
+          "Skepbook",
+          "Ridelore",
+          "Namefold"
+        ]
+      },
+      "policy": "product dependency or transitive adapter"
+    }
+  },
+  "qualification": "Resolution only. Native builds, physical-device and store checks are separate; no release approval implied."
+}
