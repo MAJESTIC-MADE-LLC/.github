@@ -1,4 +1,6 @@
-# MAJESTIC MADE
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MAJESTIC-MADE-LLC/.github/6944f161839264aaa97ee913527c9648b84b5e49/profile/assets/majestic-made-horizontal-color.svg" alt="Majestic Made LLC" width="720">
+</p>
 
 **Affordable apps with private on-device records and user-controlled exports.**
 
