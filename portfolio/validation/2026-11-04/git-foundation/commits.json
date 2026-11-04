@@ -1,0 +1,651 @@
+{
+  "recordedAt": "2026-11-04T15:23:19.799115+00:00",
+  "includedRepositoryCount": 26,
+  "excluded": [
+    "Dossier",
+    "OffRecord"
+  ],
+  "publishedSharedSource": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+  "publishedTemplateDev": "10d54d75bfe6f90785a083b010ad3daa6f960007",
+  "note": "Logical authored commits plus preserved upstream CI/branding ancestry. No main promotion, deployment or hosted CI run. Exact post-record final status is retained separately in /tmp/majestic-git-adoption-20261104/final-status.json.",
+  "repositories": [
+    {
+      "repository": ".github",
+      "branch": "dev",
+      "baselineHead": "d99d6bc73dff509fea84bba35d1bc23e3aa987c2",
+      "headBeforeFinalGovernanceRecord": "87925c97ca9ffa7499e874439b659406148edb33",
+      "localMainHead": "d99d6bc73dff509fea84bba35d1bc23e3aa987c2",
+      "historySinceBaseline": [
+        {
+          "sha": "87925c97ca9ffa7499e874439b659406148edb33",
+          "subject": "Merge upstream branding and main-only CI history into dev"
+        },
+        {
+          "sha": "7ffb30e7a7503e2fcb812f6d4999e33a5ab6f096",
+          "subject": "ci: restrict organization documentation checks to main"
+        },
+        {
+          "sha": "a0da553c478e2c4b1c95f7b0a339cd1b0505b574",
+          "subject": "docs: preserve foundation qualification and Git adoption evidence"
+        },
+        {
+          "sha": "f292109e31e8d7acdfc699be1afb095b9c34c748",
+          "subject": "feat: enforce shared mobile foundation and immutable Git source policy"
+        },
+        {
+          "sha": "b3908d45166225571ee56e0c41a27dfcb8072118",
+          "subject": "docs: align portfolio inventory and independent product release order"
+        },
+        {
+          "sha": "7f1b383bb57f51597bfa45c2b0b031358d569110",
+          "subject": "Restore transparent organization profile banner"
+        },
+        {
+          "sha": "f55c8ec79a738f63d181ef139b4e3edd59bc17b7",
+          "subject": "Pin profile banner to the updated light-backed artwork"
+        },
+        {
+          "sha": "470dc20740591fe63fdb7e6b64beb86e120b94da",
+          "subject": "Keep profile color logo legible on dark backgrounds"
+        },
+        {
+          "sha": "6944f161839264aaa97ee913527c9648b84b5e49",
+          "subject": "Use horizontal color logo in organization profile"
+        },
+        {
+          "sha": "268ab7e931cdbc23c48107e1a8fee86bca66dab3",
+          "subject": "ci: run workflow only on pushes to main"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "The governance repo stores this record in a subsequent local dev commit; its exact self-referential final SHA is intentionally outside this JSON."
+    },
+    {
+      "repository": "App-Template",
+      "branch": "dev",
+      "baselineHead": "7b0f77724fde151c9665d2545940783202faacac",
+      "headBeforeFinalGovernanceRecord": "10d54d75bfe6f90785a083b010ad3daa6f960007",
+      "localMainHead": "7b0f77724fde151c9665d2545940783202faacac",
+      "historySinceBaseline": [
+        {
+          "sha": "10d54d75bfe6f90785a083b010ad3daa6f960007",
+          "subject": "docs: record immutable foundation qualification and source provenance"
+        },
+        {
+          "sha": "4bbe24304652b8e3abdf76142325dc708700bed1",
+          "subject": "build: pin shared foundation to published immutable Git sources"
+        },
+        {
+          "sha": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "subject": "Merge remote main-only CI history into dev"
+        },
+        {
+          "sha": "d1355f9c5b7efdd0fca685ea8e571f593d4c92e6",
+          "subject": "ci: enforce main-only checks with qualified Flutter toolchain"
+        },
+        {
+          "sha": "7f015ca0fad96366d3c479d04a3e7e6e8b17340c",
+          "subject": "docs: record portfolio alignment and local foundation qualification"
+        },
+        {
+          "sha": "4b73b9911c4ced4ed8be8e2360353ad262d28cec",
+          "subject": "feat: establish shared offline mobile foundation and generator"
+        },
+        {
+          "sha": "5702659c6036a5b2dd75b76961b376f0c19bfcde",
+          "subject": "ci: run workflow only on pushes to main"
+        },
+        {
+          "sha": "5583d94b86c311f94ea0bd962a4503952a8243d5",
+          "subject": "ci: run workflow only on pushes to main"
+        }
+      ],
+      "publishedInThisPhase": true,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "Brassmark",
+      "branch": "dev",
+      "baselineHead": "c497d2ff002619b51939dc22db8e4839576e033a",
+      "headBeforeFinalGovernanceRecord": "b0c6f1b299807adc3064bac9cc201c5a6579c145",
+      "localMainHead": "c497d2ff002619b51939dc22db8e4839576e033a",
+      "historySinceBaseline": [
+        {
+          "sha": "b0c6f1b299807adc3064bac9cc201c5a6579c145",
+          "subject": "docs: align concept scope with local-first portfolio"
+        },
+        {
+          "sha": "07beab8b481f58ece3c3f89edb0f616f8201ae09",
+          "subject": "ci: restrict concept governance to main"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "Campsake",
+      "branch": "dev",
+      "baselineHead": "b5cc5a557bf198fe6c51dc8dc7caef28d043ff7e",
+      "headBeforeFinalGovernanceRecord": "1816a02c1c4b78e0691e2a1ad79c13544025e121",
+      "localMainHead": "b5cc5a557bf198fe6c51dc8dc7caef28d043ff7e",
+      "historySinceBaseline": [
+        {
+          "sha": "1816a02c1c4b78e0691e2a1ad79c13544025e121",
+          "subject": "docs: align concept scope with local-first portfolio"
+        },
+        {
+          "sha": "e7ee51536099441c26fe9df74c2c3cd2456cb8b1",
+          "subject": "ci: restrict concept governance to main"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "Claim-Crate",
+      "branch": "dev",
+      "baselineHead": "13e93da6a4863ea4abc96f3010fbc92616610004",
+      "headBeforeFinalGovernanceRecord": "4fe0d3cf7f152d66bd6ad32b3619859c0c888ed1",
+      "localMainHead": "13e93da6a4863ea4abc96f3010fbc92616610004",
+      "historySinceBaseline": [
+        {
+          "sha": "4fe0d3cf7f152d66bd6ad32b3619859c0c888ed1",
+          "subject": "docs: align concept scope with local-first portfolio"
+        },
+        {
+          "sha": "2dce21708f1ad5902b946638066679c267b0e9bd",
+          "subject": "ci: restrict concept governance to main"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "Creelmark",
+      "branch": "dev",
+      "baselineHead": "f6e39adbb9cbd8f4782d2cb706094d3ef62fa3a4",
+      "headBeforeFinalGovernanceRecord": "8e25e9938399138e9153463b322827e317c55df5",
+      "localMainHead": "f6e39adbb9cbd8f4782d2cb706094d3ef62fa3a4",
+      "historySinceBaseline": [
+        {
+          "sha": "8e25e9938399138e9153463b322827e317c55df5",
+          "subject": "docs: align concept scope with local-first portfolio"
+        },
+        {
+          "sha": "ad1b09aee6dbab845ad3e51eefd09844d6d87e3e",
+          "subject": "ci: restrict concept governance to main"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "Daymerit",
+      "branch": "dev",
+      "baselineHead": "e664c3300ffd71026383d69627750587cc6c1e21",
+      "headBeforeFinalGovernanceRecord": "6aa4a174f3ac1965bbcb3964836de6be72659b8c",
+      "localMainHead": "e664c3300ffd71026383d69627750587cc6c1e21",
+      "historySinceBaseline": [
+        {
+          "sha": "6aa4a174f3ac1965bbcb3964836de6be72659b8c",
+          "subject": "docs: record immutable foundation qualification and source provenance"
+        },
+        {
+          "sha": "c758b6f8ad9fa1003ccc031980da85f5ac671efe",
+          "subject": "build: pin shared foundation to published immutable Git sources"
+        },
+        {
+          "sha": "d990b9b48b9264a7adf4bbacff1f9eb56da58aaf",
+          "subject": "merge: retain remote main-only CI history"
+        },
+        {
+          "sha": "f97ea0550af17bd4c7474c685e47b2bc6a631431",
+          "subject": "docs: record portfolio direction and foundation evidence"
+        },
+        {
+          "sha": "86a73e0e72fdda6c08649a2f275eeaf9054eb03e",
+          "subject": "feat: adopt the private local app foundation"
+        },
+        {
+          "sha": "d0f35adc759438696d33ff74b78b307974fb455a",
+          "subject": "ci: run workflow only on pushes to main"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "Divefolio",
+      "branch": "dev",
+      "baselineHead": "65d745deb6f01fec21700847d50611d9c0fdc0e5",
+      "headBeforeFinalGovernanceRecord": "aa826e2e983d44d1e1252b6e5b2f6ce74e42027f",
+      "localMainHead": "65d745deb6f01fec21700847d50611d9c0fdc0e5",
+      "historySinceBaseline": [
+        {
+          "sha": "aa826e2e983d44d1e1252b6e5b2f6ce74e42027f",
+          "subject": "docs: align concept scope with local-first portfolio"
+        },
+        {
+          "sha": "2f14a926a1360a34daa2e559d5b88110a5a08fa7",
+          "subject": "ci: restrict concept governance to main"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "Fine-Notes",
+      "branch": "dev",
+      "baselineHead": "392564cc95162266666cd1a42d6bd742f256f993",
+      "headBeforeFinalGovernanceRecord": "1ce0b0e748974568743ef3d9e42255655f708414",
+      "localMainHead": "392564cc95162266666cd1a42d6bd742f256f993",
+      "historySinceBaseline": [
+        {
+          "sha": "1ce0b0e748974568743ef3d9e42255655f708414",
+          "subject": "docs: record immutable foundation qualification and source provenance"
+        },
+        {
+          "sha": "1c6de891e14c6e0e2bd30dc1891964a8bcb77ee8",
+          "subject": "build: pin shared foundation to published immutable Git sources"
+        },
+        {
+          "sha": "3854075ccca7258918e654c32162abb9430adb82",
+          "subject": "merge: retain remote main-only CI history"
+        },
+        {
+          "sha": "fffac70edbb43c0381fd98621650739400ce068d",
+          "subject": "docs: record portfolio direction and foundation evidence"
+        },
+        {
+          "sha": "9aa91ec71b913a8fb566a1eb72bfbe0c06271f42",
+          "subject": "feat: adopt the private local app foundation"
+        },
+        {
+          "sha": "a4b75a426313a883ecb31d157adc549291af5f8d",
+          "subject": "ci: run workflow only on pushes to main"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "Kinwall",
+      "branch": "dev",
+      "baselineHead": "78a560a125a5743fea5186dd6504c8eec7eb4685",
+      "headBeforeFinalGovernanceRecord": "6380bc59e13813fead907caec39aeb656e6b22e6",
+      "localMainHead": "78a560a125a5743fea5186dd6504c8eec7eb4685",
+      "historySinceBaseline": [
+        {
+          "sha": "6380bc59e13813fead907caec39aeb656e6b22e6",
+          "subject": "docs: align concept scope with local-first portfolio"
+        },
+        {
+          "sha": "02166c26ee20c8d0f469b9a79532cb66061d4bab",
+          "subject": "ci: restrict concept governance to main"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "Majestic-Made-Hub",
+      "branch": "dev",
+      "baselineHead": "daf0f4de4787e71601ab50186f28ab53bb88c2a6",
+      "headBeforeFinalGovernanceRecord": "bcf0afc58a0a8386f459b622254c39999a31562b",
+      "localMainHead": "daf0f4de4787e71601ab50186f28ab53bb88c2a6",
+      "historySinceBaseline": [
+        {
+          "sha": "bcf0afc58a0a8386f459b622254c39999a31562b",
+          "subject": "docs: align release guidance and preserve historical snapshots"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "Namefold",
+      "branch": "dev",
+      "baselineHead": "4abf1af688e8f827c46c0a1c35c7b851cabd574b",
+      "headBeforeFinalGovernanceRecord": "8e1d5dc4a52b69f7a42fcc4086eb0db31471942d",
+      "localMainHead": "4abf1af688e8f827c46c0a1c35c7b851cabd574b",
+      "historySinceBaseline": [
+        {
+          "sha": "8e1d5dc4a52b69f7a42fcc4086eb0db31471942d",
+          "subject": "docs: record immutable foundation qualification and source provenance"
+        },
+        {
+          "sha": "8e11ea04205c12dd6a65fa55c0d25ba6976abd61",
+          "subject": "build: pin shared foundation to published immutable Git sources"
+        },
+        {
+          "sha": "d39e532fdfeefcb44687e111a6c3ffefb21ec73c",
+          "subject": "merge: retain remote main-only CI history"
+        },
+        {
+          "sha": "170310c173f0c5500f9daab4ff669572ba771057",
+          "subject": "docs: record portfolio direction and foundation evidence"
+        },
+        {
+          "sha": "68b1b58751e421591cee318c2d1db5de58cf74e8",
+          "subject": "feat: adopt the private local app foundation"
+        },
+        {
+          "sha": "60fabb39827aa2d1932f52ef486fa3acca602ae8",
+          "subject": "ci: run workflow only on pushes to main"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "Object-Lore",
+      "branch": "dev",
+      "baselineHead": "ce53bb0d174b9cfb275534554849b832b1fc9a20",
+      "headBeforeFinalGovernanceRecord": "543288f03577c4a24226fd1ac121d50f3353aef3",
+      "localMainHead": "ce53bb0d174b9cfb275534554849b832b1fc9a20",
+      "historySinceBaseline": [
+        {
+          "sha": "543288f03577c4a24226fd1ac121d50f3353aef3",
+          "subject": "docs: align concept scope with local-first portfolio"
+        },
+        {
+          "sha": "88d419d3764c919c87a84567bfbec7512618241d",
+          "subject": "ci: restrict concept governance to main"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "Pantry-Clock",
+      "branch": "dev",
+      "baselineHead": "e7194145fdf38f1e5546eeef025178263e1472c6",
+      "headBeforeFinalGovernanceRecord": "3bf2021ab07c978dc7cb892fa65dc8c14b21bdcf",
+      "localMainHead": "e7194145fdf38f1e5546eeef025178263e1472c6",
+      "historySinceBaseline": [
+        {
+          "sha": "3bf2021ab07c978dc7cb892fa65dc8c14b21bdcf",
+          "subject": "docs: record immutable foundation qualification and source provenance"
+        },
+        {
+          "sha": "88680d502ec7652093af02fa28abad8dc57c0fc9",
+          "subject": "build: pin shared foundation to published immutable Git sources"
+        },
+        {
+          "sha": "726c3ce6a1d2a4d4a4f3064b1e0b9e8102dea6cb",
+          "subject": "merge: retain remote main-only CI history"
+        },
+        {
+          "sha": "2a9d29dd9d4cf45c6bc80c358205c3c469a413b9",
+          "subject": "docs: record portfolio direction and foundation evidence"
+        },
+        {
+          "sha": "429a11bfc4fee338158ea57ebd2713fcf591324f",
+          "subject": "feat: adopt the private local app foundation"
+        },
+        {
+          "sha": "74da8d211e888694177f0006d61fce12a2e198c3",
+          "subject": "ci: run workflow only on pushes to main"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "Paws",
+      "branch": "dev",
+      "baselineHead": "e79d0692bfb7b82da5f4c1e717ff5c4f156d229a",
+      "headBeforeFinalGovernanceRecord": "a8d056665566adf2b9f3ac8212b81743ccc6b84a",
+      "localMainHead": "e79d0692bfb7b82da5f4c1e717ff5c4f156d229a",
+      "historySinceBaseline": [
+        {
+          "sha": "a8d056665566adf2b9f3ac8212b81743ccc6b84a",
+          "subject": "docs: record immutable foundation qualification and source provenance"
+        },
+        {
+          "sha": "658c77525e0b9d5b715522ecfbafd3793d361cff",
+          "subject": "build: pin shared foundation to published immutable Git sources"
+        },
+        {
+          "sha": "b2f739c9f849710a03576c04108d9f3dce9ae0fb",
+          "subject": "merge: retain remote main-only CI history"
+        },
+        {
+          "sha": "b2c9ddf1b4caee414f6826c8142212defcd9f5e0",
+          "subject": "docs: record portfolio direction and foundation evidence"
+        },
+        {
+          "sha": "27425102feedb06d5fe576a51eb2c53a611c0a13",
+          "subject": "feat: adopt the private local app foundation"
+        },
+        {
+          "sha": "192f209b5adb38bbc9bcfd701d4c6ba262bb4d6e",
+          "subject": "ci: run workflow only on pushes to main"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "Ridelore",
+      "branch": "dev",
+      "baselineHead": "4b6c2dd41bcf49ed89e4a4303f041e8e41db9fbe",
+      "headBeforeFinalGovernanceRecord": "6d7070ec625975fc9ff1be4b12578328f112db7e",
+      "localMainHead": "4b6c2dd41bcf49ed89e4a4303f041e8e41db9fbe",
+      "historySinceBaseline": [
+        {
+          "sha": "6d7070ec625975fc9ff1be4b12578328f112db7e",
+          "subject": "docs: record immutable foundation qualification and source provenance"
+        },
+        {
+          "sha": "8cb34b7428237a33099f30eda70a3313062e5a22",
+          "subject": "build: pin shared foundation to published immutable Git sources"
+        },
+        {
+          "sha": "91a49b406712b24b29d97f478fd66b426767de49",
+          "subject": "merge: retain remote main-only CI history"
+        },
+        {
+          "sha": "1759b826eeb40a9ea4b2827d4a09305f0515ac69",
+          "subject": "docs: record portfolio direction and foundation evidence"
+        },
+        {
+          "sha": "389937b8b27324d9256629981dbd6df75ca984b8",
+          "subject": "feat: adopt the private local app foundation"
+        },
+        {
+          "sha": "21870d6315247f4e0c28d326e736ea474f958ddf",
+          "subject": "ci: run workflow only on pushes to main"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "Skepbook",
+      "branch": "dev",
+      "baselineHead": "11fdfa115291b30a5921eea707e6617a154d22b8",
+      "headBeforeFinalGovernanceRecord": "ef398be02387fd80e44ac157927694868dee4d35",
+      "localMainHead": "6226c27ea3dfb40b59193e208ca1498394e2bd1e",
+      "historySinceBaseline": [
+        {
+          "sha": "ef398be02387fd80e44ac157927694868dee4d35",
+          "subject": "docs: record immutable foundation qualification and source provenance"
+        },
+        {
+          "sha": "1975c682f6d163fe7bba798d06a3cb628ff03830",
+          "subject": "build: pin shared foundation to published immutable Git sources"
+        },
+        {
+          "sha": "9ac42b75b958cfc37a7ec573fc68409a49e6614b",
+          "subject": "docs: record portfolio direction and foundation evidence"
+        },
+        {
+          "sha": "5a4c595edfc676b4bfbf1f639057e0b5b1537652",
+          "subject": "feat: adopt the private local app foundation"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "Tender-Days",
+      "branch": "dev",
+      "baselineHead": "a097f1d4e430b3a1dffb6b1fe94965a4d8325b50",
+      "headBeforeFinalGovernanceRecord": "ee54f01a8259cab47428373964c699f363ad93b7",
+      "localMainHead": "a097f1d4e430b3a1dffb6b1fe94965a4d8325b50",
+      "historySinceBaseline": [
+        {
+          "sha": "ee54f01a8259cab47428373964c699f363ad93b7",
+          "subject": "docs: align concept scope with local-first portfolio"
+        },
+        {
+          "sha": "516bd1a937e132991308c2c7233571b4e911e2b1",
+          "subject": "ci: restrict concept governance to main"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "Turnstamp",
+      "branch": "dev",
+      "baselineHead": "164e8b0c98d3dff9b33626e4f23dbeffb5489017",
+      "headBeforeFinalGovernanceRecord": "82e55831695a51483ff53ecb1be1c52a38b72796",
+      "localMainHead": "164e8b0c98d3dff9b33626e4f23dbeffb5489017",
+      "historySinceBaseline": [
+        {
+          "sha": "82e55831695a51483ff53ecb1be1c52a38b72796",
+          "subject": "docs: align concept scope with local-first portfolio"
+        },
+        {
+          "sha": "cdd2a33ba83b0a4ffe2c373beb70a9bff439bf65",
+          "subject": "ci: restrict concept governance to main"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "What-We-Own",
+      "branch": "dev",
+      "baselineHead": "98c3c4d84b619a08ff6d90b1328b0a8bb92bc0fa",
+      "headBeforeFinalGovernanceRecord": "7ceb17f260217ed4e12b5f95dbb8cc8d3b712d7b",
+      "localMainHead": "98c3c4d84b619a08ff6d90b1328b0a8bb92bc0fa",
+      "historySinceBaseline": [
+        {
+          "sha": "7ceb17f260217ed4e12b5f95dbb8cc8d3b712d7b",
+          "subject": "docs: align concept scope with local-first portfolio"
+        },
+        {
+          "sha": "fc71f37070b847f1778e3ecdf79a6f713c33f1aa",
+          "subject": "ci: restrict concept governance to main"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "app-legal",
+      "branch": "dev",
+      "baselineHead": "e35d75c1e551b60d90b9f558315fb573c5407d2f",
+      "headBeforeFinalGovernanceRecord": "0dd6e2f654c60208307f06311c32eefe75d0cf5e",
+      "localMainHead": "e35d75c1e551b60d90b9f558315fb573c5407d2f",
+      "historySinceBaseline": [
+        {
+          "sha": "0dd6e2f654c60208307f06311c32eefe75d0cf5e",
+          "subject": "docs: align legal review with local-first release gates"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "brand-assets",
+      "branch": "dev",
+      "baselineHead": "8599a60c24036220a07ac8f572929962e1a72424",
+      "headBeforeFinalGovernanceRecord": "532b256850de0e5de019376fc2e1dbafd2f85e69",
+      "localMainHead": "8599a60c24036220a07ac8f572929962e1a72424",
+      "historySinceBaseline": [
+        {
+          "sha": "532b256850de0e5de019376fc2e1dbafd2f85e69",
+          "subject": "docs: align branding work with the product release queue"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "lockbox",
+      "branch": "dev",
+      "baselineHead": "13f9b07a8ca7b50bab614767d0c21eb2302c5618",
+      "headBeforeFinalGovernanceRecord": "af479f92dcd5c06d9fc365b63ce02ef0fe33de2d",
+      "localMainHead": "13f9b07a8ca7b50bab614767d0c21eb2302c5618",
+      "historySinceBaseline": [
+        {
+          "sha": "af479f92dcd5c06d9fc365b63ce02ef0fe33de2d",
+          "subject": "docs: scope the local emergency vault and defer timed delivery"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "steward",
+      "branch": "dev",
+      "baselineHead": "5d01fb28c27ed671931ae6c9ba1357f7f4784f82",
+      "headBeforeFinalGovernanceRecord": "12f83c0c0a07b9a659af3e3bd3443b9ec18d8618",
+      "localMainHead": "5d01fb28c27ed671931ae6c9ba1357f7f4784f82",
+      "historySinceBaseline": [
+        {
+          "sha": "12f83c0c0a07b9a659af3e3bd3443b9ec18d8618",
+          "subject": "docs: consolidate inventory direction into What We Own"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "wolfe-server-apps",
+      "branch": "dev",
+      "baselineHead": "b3536d637f672b81c33bff2be5f668dabd1743f4",
+      "headBeforeFinalGovernanceRecord": "bc11ac4f033966f331e199781d163ad0af8a76d5",
+      "localMainHead": "b3536d637f672b81c33bff2be5f668dabd1743f4",
+      "historySinceBaseline": [
+        {
+          "sha": "bc11ac4f033966f331e199781d163ad0af8a76d5",
+          "subject": "docs: defer hosting until an approved product need"
+        },
+        {
+          "sha": "ae090c55c0121976e9586a6f8739bbc7dbb83f4f",
+          "subject": "ci: restrict template validation to main"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    },
+    {
+      "repository": "wolfe-server-infra",
+      "branch": "dev",
+      "baselineHead": "9cb2d5b9c6d8b9770f0227bad4addc2ee903c142",
+      "headBeforeFinalGovernanceRecord": "4007d10000c5b2f5702173170843d5b7451d1a82",
+      "localMainHead": "9cb2d5b9c6d8b9770f0227bad4addc2ee903c142",
+      "historySinceBaseline": [
+        {
+          "sha": "4007d10000c5b2f5702173170843d5b7451d1a82",
+          "subject": "ci: restrict infrastructure validation to main"
+        },
+        {
+          "sha": "4986818ebc3f72dbeb262c83ea9a7c61211e73b0",
+          "subject": "fix: keep retired infrastructure from restarting automatically"
+        },
+        {
+          "sha": "615fa3639384e0155eed3bd3bb550875d2c749ca",
+          "subject": "docs: align infrastructure with local-first product releases"
+        }
+      ],
+      "publishedInThisPhase": false,
+      "scope": "Final reviewed dev commit; other repositories were not pushed."
+    }
+  ]
+}
