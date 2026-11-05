@@ -15,9 +15,7 @@
       "framework": false
     }
   ],
-  "manifestExceptions": {
-    "steward/package.json": "Retained consolidating legacy marketing source; no standalone consumer app. New active Node applications must use the canonical baseline."
-  },
+  "manifestExceptions": {},
   "dependencyBaselines": {
     "App-Template/hosting/control_app/pubspec.yaml": {
       "declarationsSha256": "a5b352807407661e04bfbd8330e16a299521f4026d44790542c109ef707a1e86",
@@ -76,16 +74,16 @@
       "lockSha256": "f758f2db5ec49a1b360affbb5fc5f3e90287df20bf347691ff07ee56eae26571"
     },
     "App-Template/pubspec.yaml": {
-      "declarationsSha256": "5b14507155cab717d666cf88c9dd24bad88735e7f32053dcb7273a2b7bfb651b",
-      "lockSha256": "3eecfe61562804eae66751e99bb9a6867d89d3fba1bb75b225c66e9e391515bb"
+      "declarationsSha256": "4c6d1126354e037cd652470ef7d9e84c808bf11427adb883c5e8725e4311e34b",
+      "lockSha256": "ebfc889ae3774345d0fadbf447d4f4f5d15def6508334a168b4e89efd93cf702"
     },
     "App-Template/services/workspace_verifier/package.json": {
       "declarationsSha256": "8cc60f120b14d8e0318d1652594ad87a99d3a237836e3065c9a563cd72511a30",
       "lockSha256": "9ddc745388c4160e6d00af6c8dcf02dbedec7ac0b56278a9c1b6428168702242"
     },
     "Daymerit/pubspec.yaml": {
-      "declarationsSha256": "9177ac2b25bc26e21c949cb4ffe40cd1e850d18583bcbe8a4479e90fc7582c38",
-      "lockSha256": "d263260e74218b856f604421184d080df442b9d825692bdfd5c109ec932a7a2f"
+      "declarationsSha256": "8c1f61e5fcc58ba22e387627ed7ce1fdd966afe9c398f6b3679789c3a1e511b7",
+      "lockSha256": "0faf1602c2f90494072c138afc279c2c630ce06a707c075ebd49712e940f0de6"
     },
     "Fine-Notes/pubspec.yaml": {
       "declarationsSha256": "39c422b805d93cbb39cc05ecde4e1da8a2a3bcb608c17c86ae721e3eda6b2794",
@@ -104,12 +102,12 @@
       "lockSha256": "311b59e434c457bb2023237982e30f90e36213ba561bd0920cb4112526e86e8f"
     },
     "Pantry-Clock/pubspec.yaml": {
-      "declarationsSha256": "e307d92a4b425bfee1b3d85fcc966fd159e1a73c31427749d72f542fd2a8e795",
-      "lockSha256": "4b5bef9ca9248299ba5d9d0fb1722b0e496ea103053cb6767942955e3c1fde57"
+      "declarationsSha256": "976a880872eef4c0cb4cd714bb8d091d9c8c22a69689c3b10ba2729b7d34f2fb",
+      "lockSha256": "2b69e151335237361c65e7ddecf029f932de158ad617eee170ea54e2f8531c18"
     },
     "Paws/pubspec.yaml": {
-      "declarationsSha256": "fa40b13ee62ffffad182a050e5103e833c17cc944983e28b88c8d197c40e3c04",
-      "lockSha256": "b4f69a301dbef0d8764e24465a79830691cf7b9aa99b7d6017c31c035b3159d8"
+      "declarationsSha256": "c206b7e28c59b0c9273c16c82015ad374c59029c25d21050de5b675268e24029",
+      "lockSha256": "37325d282440826fb7c5f745563173f87101274dbc3e32fd6dfb414dc417573f"
     },
     "Ridelore/pubspec.yaml": {
       "declarationsSha256": "b516974e88034d2fc91ab74b09aaab0b4f58541943f7b328853a1c3fa63084f0",
@@ -120,8 +118,8 @@
       "lockSha256": "e8adfb18401d9cd2113b8f0e1fc64b94c4cde90535e616980dc1eb0ac3765c06"
     },
     "Pantry-Clock/hosting_pilot/pubspec.yaml": {
-      "declarationsSha256": "25abf80b73519275905865aed2c14270ff6ad5fad814f4959fdfb35568f2a623",
-      "lockSha256": "9d92697fc2ec8c1cbb372ad659b5375edd9cfc17c8d7b1f08407c43c57792a02"
+      "declarationsSha256": "5216f10c4895ac6a232716402bf23c5c329cda716ccabe8ed8e11dd9d1d63e34",
+      "lockSha256": "18f55a85682e506db89ca4cbdd591cfaef362361cef820e670cb15dc46bb6496"
     }
   },
   "developmentPilots": [

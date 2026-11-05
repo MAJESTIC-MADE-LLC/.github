@@ -2,7 +2,8 @@
 
 The canonical versions and package sources live in `STACK_STANDARD.json`; capability applicability
 lives in `CAPABILITY_MATRIX.json`. `STANDARDIZATION.json` registers active manifests, exact dependency
-declaration/lock fingerprints, Node projects and the retained Steward marketing exception. It does
+declaration/lock fingerprints, Node projects. Steward’s former marketing application is archived; its buildless transition surface
+has no active Node manifest or exception. This registry does
 not qualify a release. The foundation's pending device/store/source-evidence gates remain unchanged.
 
 ## Local enforcement
@@ -71,7 +72,7 @@ After publishing a new reviewed foundation revision, deliberately migrate/resolv
 Flutter 3.47.8 / Dart 3.13.7 and the existing immutable foundation commit remain unchanged. Active
 Node projects use 26.13.0, the latest LTS entry verified November 4 against the
 [official Node release index](https://nodejs.org/dist/index.json). Hub and Namefold web use Next
-16.4.3 and React/React DOM 19.3.1. Steward is retained legacy marketing; company server Docker
+16.4.3 and React/React DOM 19.3.1. Steward’s active marketing is consolidated into Hub; its old Next.js source is an archive. Company server Docker
 scaffolding is separate operational material, not the consumer hosting/runtime template.
 
 Software alignment passing does not mean physical-device/store acceptance, current foundation
@@ -101,13 +102,24 @@ native binaries and generated provenance remain ignored. Each later product adop
 
 ## Shared session adoption
 
-The three optional modules now resolve together from published Git
-`f5942ed7a2b318e48ec7e47ce9f46ba531e02c31`. Only Pantry Clock and Paws are approved consumers.
-Both delegate generic native hosting orchestration to `HostingSessionEngine`; typed product
+The three optional modules resolve together from the full immutable Git revision approved in
+`STACK_STANDARD.json`. Pantry Clock, Paws and Daymerit are approved consumers.
+Pantry Clock and Paws delegate generic native hosting orchestration to `HostingSessionEngine`; typed product
 models, selected-source adapters and portable archive schemas remain app-owned. Pantry's legacy
 hosting namespace, selectors and proposal format remain compatible. Paws has an independent scope
 and preserves private database, key and legacy backup identities.
 
-Three reviewed dependency baselines advanced: Pantry regular app, its thin harness and Paws.
-Only optional sources advance; core/report modules retain their original immutable pins. All
+Daymerit composes `HostingWorkspaceSessionEngine` over the same maintained scope engine. Its
+owner-signed global allocation, isolated parent/child/proof groups and recoverable enrollment/source
+staging belong to the shared foundation; product rules and native consent remain app-owned.
+Four reviewed dependency baselines advance together: Pantry regular app, its thin harness, Paws
+and Daymerit. Only optional sources advance; core/report/media/reminder modules retain their original immutable pins. All
 other products retain their current graph. Production qualification evidence remains separate.
+
+## Validation efficiency — November 5, 2026
+
+Standalone foundation checks and the portfolio guard now use the same workflow-policy parser.
+The portfolio pass checks each workflow once while retaining each native consumer’s exact Flutter
+CI pin check. Git object integrity checks are shared only within one invocation for each repository
+and immutable revision; package files, modes and extra source are still inspected on every use.
+Nothing is cached across invocations, and release qualification remains independent.

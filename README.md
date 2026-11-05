@@ -29,7 +29,7 @@ Claim Crate's requirements and source documents are consolidated into What We Ow
 independent app or subscription. Its redundant remote and local repository was deleted under the
 owner's explicit November 4 instruction after verified preservation; see
 [the consolidation record](portfolio/CLAIM_CRATE_CONSOLIDATION.md).
-Steward remains retained marketing source; signup migration is separate. Kinwall remains research-only.
+Steward marketing now consolidates in Hub, with its previous stack archived. Live signup-list reconciliation and domain cutover remain pending. Kinwall remains research-only.
 
 Normal work stays on `dev`. Promote directly to `main` only on explicit owner instruction, then sync
 `dev` to the same commit. Open a pull request only if requested. GitHub Actions may run only for allowed

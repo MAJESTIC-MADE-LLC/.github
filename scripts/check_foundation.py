@@ -7,7 +7,10 @@ Static adoption is deliberately distinct from the source-bound qualification gat
 from __future__ import annotations
 
 import argparse
+from contextlib import contextmanager
+from contextvars import ContextVar
 import hashlib
+import importlib.util
 import json
 import os
 import plistlib
@@ -21,6 +24,15 @@ from urllib.parse import unquote as uri_unquote, urlsplit
 import xml.etree.ElementTree as ET
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
+# One implementation owns workflow policy in both standalone and portfolio checks.
+# Load by path as this module is also imported directly by external tooling/tests.
+_workflow_spec = importlib.util.spec_from_file_location(
+    "majestic_workflow_policy", REPO_ROOT / "scripts/workflow_policy.py")
+workflow_policy = importlib.util.module_from_spec(_workflow_spec)
+sys.modules[_workflow_spec.name] = workflow_policy
+_workflow_spec.loader.exec_module(workflow_policy)
+_verified_git_objects: ContextVar[set[tuple[Path, str]] | None] = ContextVar(
+    "verified_git_objects", default=None)
 STANDARD_PATH = REPO_ROOT / "portfolio/STACK_STANDARD.json"
 STATUSES = {"pending", "adopting", "verified"}
 GIT_REF = re.compile(r"[0-9a-f]{40}\Z")
@@ -44,6 +56,23 @@ IGNORED_PARTS = {
 
 class FoundationError(ValueError):
     pass
+
+
+@contextmanager
+def git_verification_scope():
+    """Deduplicate immutable object checks during one validation, never across runs.
+
+    Package files, modes and extra source are still inspected on every call.
+    Nested checks share the invocation's object checks; standalone calls do not.
+    """
+    if _verified_git_objects.get() is not None:
+        yield
+        return
+    token = _verified_git_objects.set(set())
+    try:
+        yield
+    finally:
+        _verified_git_objects.reset(token)
 
 
 def unique_keys(pairs: list[tuple[str, Any]]) -> dict[str, Any]:
@@ -208,7 +237,12 @@ def git_package_content(repository: Path, source: dict[str, str]) -> str:
     actual = git_read(repository, "rev-parse", "--verify", f"{revision}^{{commit}}").decode().strip()
     if actual != revision:
         raise FoundationError("qualified Git commit is absent from the source repository")
-    git_read(repository, "fsck", "--strict", "--no-reflogs", revision)
+    checked = _verified_git_objects.get()
+    object_key = (repository.resolve(), revision)
+    if checked is None or object_key not in checked:
+        git_read(repository, "fsck", "--strict", "--no-reflogs", revision)
+        if checked is not None:
+            checked.add(object_key)
     raw = git_read(repository, "ls-tree", "-r", "-z", "--full-tree", revision, "--", subdir)
     package = repository / subdir
     if not package.is_dir():
@@ -334,40 +368,8 @@ def provider_is_prohibited(name: str, standard: dict[str, Any]) -> bool:
 
 
 def check_workflow(text: str) -> list[str]:
-    errors = []
-    event_block = re.search(r"(?ms)^on:\s*\n(.*?)(?=^\S|\Z)", text)
-    if not event_block:
-        return ["unsupported/missing explicit on mapping"]
-    events = re.findall(r"(?m)^  ([\w-]+):", event_block.group(1))
-    if not events or set(events) - {"push", "workflow_dispatch"}:
-        errors.append("only main push and workflow_dispatch events are allowed")
-    if "push" in events:
-        push = re.search(r"(?ms)^  push:\s*\n(.*?)(?=^  \S|\Z)", event_block.group(1))
-        if not push or not re.search(r"(?m)^    branches:\s*\[\s*['\"]?main['\"]?\s*\]\s*$", push.group(1)):
-            errors.append("push must be filtered to branches: [main]")
-        if push and re.search(r"(?m)^    (tags|branches-ignore|tags-ignore):", push.group(1)):
-            errors.append("alternate push branch/tag filters are forbidden")
-    if re.search(r"(?m)^\s+inputs:", event_block.group(1)):
-        errors.append("workflow dispatch inputs are outside the allowed policy")
-    jobs = re.search(r"(?ms)^jobs:\s*\n(.*)\Z", text)
-    if not jobs:
-        errors.append("workflow has no jobs mapping")
-    else:
-        for job in re.finditer(r"(?ms)^  ([\w-]+):\s*\n(.*?)(?=^  \S|\Z)", jobs.group(1)):
-            header = re.split(r"(?m)^    (?:steps|uses):", job.group(2), maxsplit=1)[0]
-            guard = re.search(r"(?m)^    if:\s*(.*)$", header)
-            expression = re.sub(r"\s+", " ", guard.group(1).strip()) if guard else ""
-            expression = expression.removeprefix("${{").removesuffix("}}").strip()
-            expression = expression.replace('"', "'")
-            allowed_guards = {
-                "github.ref == 'refs/heads/main'",
-                "github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')",
-            }
-            if expression not in allowed_guards:
-                errors.append(f"job {job.group(1)} lacks a main-ref execution guard")
-    if re.search(r"(?m)^\s+ref:", text):
-        errors.append("checkout/ref overrides are not allowed")
-    return errors
+    """Compatibility entry point backed by the canonical fail-closed validator."""
+    return workflow_policy.check_workflow(text)
 
 
 def android_toolchain_errors(app_root: Path, baseline: dict[str, Any]) -> list[str]:
@@ -529,7 +531,7 @@ def hosting_platform_errors(app_root: Path) -> list[str]:
     return errors
 
 
-def inspect_consumer(consumer: dict[str, str], standard: dict[str, Any], matrix: dict[str, Any], workspace: Path, *, enforce_dev: bool = True, verify_provider_worktree: bool = True) -> dict[str, Any]:
+def inspect_consumer(consumer: dict[str, str], standard: dict[str, Any], matrix: dict[str, Any], workspace: Path, *, enforce_dev: bool = True, verify_provider_worktree: bool = True, validate_workflows: bool = True) -> dict[str, Any]:
     app_root = within(workspace, consumer["path"])
     errors: list[str] = []
     manifest = read_json(app_root / "foundation.json")
@@ -689,7 +691,8 @@ def inspect_consumer(consumer: dict[str, str], standard: dict[str, Any], matrix:
         errors.append("foundation adoption work must remain on dev")
     for workflow in sorted((repository / ".github/workflows").glob("*.y*ml")):
         workflow_text = workflow.read_text()
-        errors.extend(f"{workflow.name}: {error}" for error in check_workflow(workflow_text))
+        if validate_workflows:
+            errors.extend(f"{workflow.name}: {error}" for error in check_workflow(workflow_text))
         errors.extend(f"{workflow.name}: {error}" for error in flutter_ci_version_errors(workflow_text, standard["toolchain"]["flutter"]))
     fingerprint = source_fingerprint(app_root, package_roots, workspace, qualified_packages)
     checks = standard["templateChecks"] if consumer["kind"] == "template" else standard["consumerChecks"]
@@ -710,6 +713,7 @@ def immutable_revision_errors(results: list[dict[str, Any]]) -> list[str]:
             or row.get("immutablePackageRevisions") != "passed" or row.get("staticAdoption") != "passed"]
 
 
+@git_verification_scope()
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--workspace-root", type=Path, default=REPO_ROOT.parent)

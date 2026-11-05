@@ -70,7 +70,7 @@ Launch with no additional purchases required for a complete core workflow. Optio
 
 ## Consolidated products
 
-Claim Crate is a workflow within What We Own, with no separate app, subscription or release slot. Its source requirements are preserved in `What-We-Own/docs/history/claim-crate` and its integrated product specification. Steward remains retained marketing source with no independent consumer subscription; signup/content migration is separate. Postdate remains deferred Lockbox research, with no separate app price.
+Claim Crate is a workflow within What We Own, with no separate app, subscription or release slot. Its source requirements are preserved in `What-We-Own/docs/history/claim-crate` and its integrated product specification. Steward marketing now consolidates in Hub with no independent consumer subscription; the previous stack is archived. Live-list reconciliation preserves the original one-launch-email/founding-rate promise and requires fresh consent for ongoing updates. Postdate remains deferred Lockbox research, with no separate app price.
 
 ## Competitive research basis
 

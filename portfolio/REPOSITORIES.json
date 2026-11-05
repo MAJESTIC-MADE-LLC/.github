@@ -229,7 +229,7 @@
       "displayName": "Majestic-Made-Hub",
       "role": "shared",
       "status": "Next.js static portfolio and Cloudflare Pages Functions/D1 form implementation. Website publication is paused under the 2026-10-24 founder decision; Cloudflare is unpublished.",
-      "next": "Keep publication paused; align descriptions and queue with canonical portfolio notes, and plan steward content/link/signup consolidation before any relaunch.",
+      "next": "Keep publication paused; validate the consolidated Steward transition, fresh What We Own signup and consent-preserving legacy review before an explicitly approved relaunch.",
       "concern": "D1 waitlist/form data is a separate disclosed business flow; legacy Supabase references are not the current form implementation. No relaunch or infrastructure changes are authorized.",
       "localCheckout": true,
       "requiredPaths": [
@@ -371,8 +371,8 @@
       "stage": "Concept only",
       "focus": "Home inventory, moving boxes, condition/damage records, receipts, and insurance-oriented exports.",
       "status": "Concept-only combined home/moving/PCS/claims requirements now incorporate Claim Crate; original source files, commits and checksums are preserved under docs/history/claim-crate. No app is implemented.",
-      "next": "Build one belongings dataset across home inventory, moving boxes/QR, condition/damage evidence and owner-reviewed claim exports, at $2.99/month or $24.99/year. Verify encrypted recovery; Steward marketing/signup migration remains separate.",
-      "concern": "Requirements consolidation and Claim Crate source-repository deletion are complete; no app, inventory migration, carrier/insurance integration or Steward signup migration is implemented.",
+      "next": "Build one belongings dataset across home inventory, moving boxes/QR, condition/damage evidence and owner-reviewed claim exports, at $2.99/month or $24.99/year. Verify encrypted recovery; Steward marketing now uses Hub; live legacy-list reconciliation and cutover remain separate.",
+      "concern": "Requirements consolidation and Claim Crate source-repository deletion are complete; no app, inventory migration, carrier/insurance integration or live Steward subscriber migration is implemented.",
       "localCheckout": true,
       "requiredPaths": [
         ".github/workflows/concept-governance.yml",
@@ -472,16 +472,19 @@
     },
     {
       "name": "steward",
-      "displayName": "steward legacy landing page",
+      "displayName": "Steward transition archive",
       "role": "shared",
       "disposition": "consolidating",
       "consolidatesInto": "What-We-Own",
-      "status": "Retained marketing/waitlist source; consumer inventory requirements belong to What We Own, including the consolidated Claim Crate workflow. No independent app or subscription.",
-      "next": "Plan content, URL, and consent-preserving waitlist migration into the Hub/What We Own; then consider archival separately.",
-      "concern": "Legacy marketing includes provider/analytics/form integrations; keep publication paused and do not imply consolidation has happened.",
+      "status": "Marketing content and fresh What We Own signup consolidate in Hub. The previous Next.js implementation is preserved with checksums under legacy/landing-2026-11-05; the active repository is buildless and has no Node manifest or stack exception.",
+      "next": "Keep publication paused. Before any approved cutover, export and reconcile the original list using the private review importer; preserve the one-launch-email/founding-rate promise and require fresh consent for ongoing What We Own updates.",
+      "concern": "No live subscriber export, transfer, deletion or domain/DNS cutover has occurred. Legacy permission does not authorize ongoing product updates; retain the original source records and promises.",
       "localCheckout": true,
       "requiredPaths": [
-        "README.md"
+        "README.md",
+        "public/index.html",
+        "docs/CONSOLIDATION.md",
+        "legacy/landing-2026-11-05/SOURCE_MANIFEST.json"
       ],
       "sourceRef": "dev"
     },

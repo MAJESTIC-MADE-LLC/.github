@@ -16,7 +16,7 @@ if sys.version_info < (3, 11):
     sys.exit('Portfolio standardization requires Python 3.11+ (including the standard-library TOML reader).')
 
 import check_foundation as foundation
-import workflow_policy
+workflow_policy = foundation.workflow_policy
 
 ROOT = Path(__file__).resolve().parents[1]
 SKIP = foundation.IGNORED_PARTS | {
@@ -234,6 +234,7 @@ def check_development_pilot(workspace: Path, profile: dict, standard: dict) -> l
     return errors
 
 
+@foundation.git_verification_scope()
 def check(workspace: Path) -> dict:
     governance = workspace / '.github'
     standard = foundation.read_json(governance / 'portfolio/STACK_STANDARD.json')
@@ -274,7 +275,7 @@ def check(workspace: Path) -> dict:
     native = []
     for consumer in standard['consumers']:
         try:
-            row = foundation.inspect_consumer(consumer, standard, matrix, workspace, enforce_dev=False, verify_provider_worktree=False)
+            row = foundation.inspect_consumer(consumer, standard, matrix, workspace, enforce_dev=False, verify_provider_worktree=False, validate_workflows=False)
             native.append({'application': consumer['id'], 'staticAdoption': row['staticAdoption'],
                            'foundationEvidence': row['foundationEvidence']})
             errors.extend(f"{consumer['id']}: {error}" for error in row['errors'])
@@ -369,8 +370,7 @@ def main() -> int:
     workspace = args.workspace_root.resolve()
     try:
         if args.print_dependency_baseline:
-            baseline = {p: dependency_baseline(workspace / p) for p in sorted(discover_manifests(repositories(workspace), workspace))
-                        if p != 'steward/package.json'}
+            baseline = {p: dependency_baseline(workspace / p) for p in sorted(discover_manifests(repositories(workspace), workspace))}
             print(json.dumps(baseline, indent=2))
             return 0
         extra = []

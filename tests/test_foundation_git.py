@@ -158,11 +158,70 @@ hooks:
         self.assertEqual(result['immutablePackageRevisions'], 'pending')
         self.assertTrue(foundation.immutable_revision_errors([result]))
 
+    def test_portfolio_workflow_deduplication_retains_flutter_version_checks(self):
+        args = self.consumer_fixture()
+        workflows = self.app / '.github/workflows'
+        workflows.mkdir(parents=True)
+        (workflows / 'ci.yml').write_text('''on:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  verify:
+    if: ${{ github.ref == 'refs/heads/main' && github.event_name == 'push' }}
+    steps:
+      - uses: subosito/flutter-action@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+        with:
+          flutter-version: 0.0.0
+''')
+        result = foundation.inspect_consumer(*args, self.workspace, validate_workflows=False)
+        self.assertTrue(any('Flutter CI SDK' in error for error in result['errors']))
+
     def test_real_git_objects_and_encoded_cache_uri_are_qualified(self):
         qualified = self.verify()
         self.assertIn(self.revision, qualified['identity'])
         self.assertEqual(len(qualified['contentSha256']), 64)
         self.assertEqual(qualified['root'], self.checkout / self.source['path'])
+
+    def test_object_checks_are_deduplicated_only_within_one_invocation(self):
+        with mock.patch.object(foundation, 'git_read', wraps=foundation.git_read) as read:
+            with foundation.git_verification_scope():
+                self.verify()
+                with foundation.git_verification_scope():
+                    self.verify()
+            fsck = [call for call in read.call_args_list if call.args[1] == 'fsck']
+            # Provider and Pub checkout are separate object databases.
+            self.assertEqual(len(fsck), 2)
+            with foundation.git_verification_scope():
+                self.verify()
+            self.assertEqual(sum(call.args[1] == 'fsck' for call in read.call_args_list), 4)
+
+    def test_deduplicated_objects_never_cache_mutable_package_bytes(self):
+        with foundation.git_verification_scope():
+            self.verify()
+            path = self.checkout / self.source['path'] / 'lib/majestic_app.dart'
+            path.write_text('// changed during validation\n')
+            with self.assertRaisesRegex(foundation.FoundationError, 'content differs'):
+                self.verify()
+
+    def test_failed_object_checks_are_not_cached(self):
+        original = foundation.git_read
+        attempts = 0
+
+        def fail_once(repository, *args):
+            nonlocal attempts
+            if args[0] == 'fsck':
+                attempts += 1
+                if attempts == 1:
+                    raise foundation.FoundationError('synthetic corrupt objects')
+            return original(repository, *args)
+
+        with foundation.git_verification_scope(), mock.patch.object(foundation, 'git_read', side_effect=fail_once):
+            with self.assertRaisesRegex(foundation.FoundationError, 'corrupt objects'):
+                self.verify()
+            self.verify()
+        self.assertEqual(attempts, 3)
 
     def test_cached_dart_native_asset_and_extra_source_tampering_are_rejected(self):
         for relative in ['lib/majestic_app.dart', 'ios/Sources/Privacy.swift', 'assets/offline.bin']:

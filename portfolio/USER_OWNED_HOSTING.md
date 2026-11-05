@@ -1,6 +1,6 @@
 # Optional user-owned hosting
 
-Approved and review findings resolved November 4, 2026. **Shared reference source is published and Pantry Clock and Paws regular builds adopt it;
+Approved and review findings resolved November 4, 2026; runtime adoption updated November 5. **Shared source is published and Pantry Clock, Paws and Daymerit regular builds adopt it;
 production service and physical/store qualification remain pending.** This extends the [shared foundation](STACK_STANDARD.md).
 Current runtime dependencies, immutable package revisions and foundation qualification keep
 their existing scope. Hosting adds no current-launch prerequisite. The
@@ -142,19 +142,26 @@ record service or Majestic app account is introduced by this design.
 The [template guidance](https://github.com/MAJESTIC-MADE-LLC/App-Template/blob/dev/docs/USER_OWNED_HOSTING.md)
 links the four detailed contracts. The optional reference now exports packages/APIs and a separate
 reference generator; see its [runbook](https://github.com/MAJESTIC-MADE-LLC/App-Template/blob/dev/docs/HOSTING_REFERENCE_RUNBOOK.md)
-and implementation report. Core consumer pins remain intact. The three optional modules are published together at immutable
-`f5942ed7a2b318e48ec7e47ce9f46ba531e02c31`, registered as an explicit capability and adopted only
-by Pantry Clock and Paws. Both use one shared session engine for native lifecycle, pairing,
+and implementation report. Core consumer pins remain intact. The three optional modules are published together at
+the full immutable revision approved in `STACK_STANDARD.json`, registered as an explicit capability and adopted
+by Pantry Clock, Paws and Daymerit. All use the maintained scope engine for native lifecycle, pairing,
 membership, journaled mutations and rollback-safe recovery. Its former pilot is a thin harness over the regular implementation. Policy rejects
 mutable refs, unapproved consumers, source overrides and mismatched harness dependencies.
 A source commit, passing unit test or simulator build does not qualify signed service installation,
 physical devices, live-store grants or product migrations.
 
+Daymerit additionally composes a shared multi-scope workspace session: one parent group and
+independent child/proof groups, with signed global principal allocations and four adult seats
+excluding children. Typed commands preserve confirmed-only financial decisions; selected source
+staging, interrupted enrollment and authenticated disconnected family recovery retain durable
+boundaries. Product/native/server tests use real TLS, MLS and the ciphertext daemon. Its implementation
+does not qualify signed desktop service packaging or production licensing operations.
+
 | Future phase | Products | Required work |
 | --- | --- | --- |
 | Reference qualification | App-Template generated clients and desktop services | Prove the headless coordinator/native-key spike, atomic storage/MLS bridge, role-separated TLS, signed grants and all seven resolutions with two independently generated iOS/Android clients before product adoption. |
 | First product pilot | Pantry Clock | Shared household inventory, staged snapshot migration, exact quantity/deletion/conflict semantics and preserved legacy backups. |
-| Next | Daymerit; Paws | Scoped child/caregiver data, verified household grants, pending-versus-confirmed financial decisions and distinct care events/tasks. |
+| Implemented development adoption | Daymerit; Paws | Daymerit isolated parent/child/proof data, household grants and confirmed ledger rules; Paws distinct pet/care events. Production operational/device/store qualification remains pending. |
 | Later | Skepbook; Ridelore; Fine Notes | Selected apiaries, vehicle binders and tasting collections; preserve relationships, attachment access and authorship. |
 | Selective | Namefold | Private native-wallet sync only. Public profiles/links and the browser-local PWA remain separate architecture/consent decisions. |
 | Later own-device adoption | Turnstamp | After reference-client/Pantry Clock qualification, sync selected property/job collections among the solo cleaner's own approved devices. Preserve original photographs, report versions and complaint/re-clean links; review concurrent edits and deletion conflicts. Explicitly enroll the trusted coordinator for selected plaintext access while keeping the storage daemon ciphertext-only. No helpers, client accounts/portals or hosted client report links; no first-release prerequisite or new pricing. |

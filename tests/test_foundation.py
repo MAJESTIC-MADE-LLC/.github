@@ -69,6 +69,8 @@ sdks:
   push:
     branches: [main]
   workflow_dispatch:
+permissions:
+  contents: read
 jobs:
   check:
     if: ${{ github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch') }}

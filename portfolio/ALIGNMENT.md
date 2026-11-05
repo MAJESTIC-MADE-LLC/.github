@@ -141,3 +141,12 @@ The optional source has subsequently advanced to published Git
 `f5942ed7a2b318e48ec7e47ce9f46ba531e02c31`. Pantry Clock and Paws now share its native session
 engine; their typed domains, private vaults and recovery formats remain independent. Current work
 and pushes remain on dev; this adoption does not promote main or deploy a service.
+
+## Steward source consolidation — November 5, 2026
+
+Steward marketing and fresh What We Own signup now use Hub routes and its approved web stack.
+The former Next.js application is preserved byte-for-byte in Steward’s dated legacy archive;
+its active repository is a buildless transition surface with no Node manifest or stack exception.
+The private offline review importer preserves the original one-launch-email/founding-rate consent
+and source provenance without enrolling anyone in ongoing product updates. Live export/count
+reconciliation and domain cutover remain unperformed under the publication pause.
