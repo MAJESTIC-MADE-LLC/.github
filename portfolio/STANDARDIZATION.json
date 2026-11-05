@@ -82,8 +82,8 @@
       "lockSha256": "9ddc745388c4160e6d00af6c8dcf02dbedec7ac0b56278a9c1b6428168702242"
     },
     "Daymerit/pubspec.yaml": {
-      "declarationsSha256": "8c1f61e5fcc58ba22e387627ed7ce1fdd966afe9c398f6b3679789c3a1e511b7",
-      "lockSha256": "0faf1602c2f90494072c138afc279c2c630ce06a707c075ebd49712e940f0de6"
+      "declarationsSha256": "051e1e748ed9c64af190146385a220ecfce420104516d9b1e5d20833a7aae6a3",
+      "lockSha256": "32045c7faeea842fbbb8ed98171beb24177d8fcbef988e2cfad80de3270b35f9"
     },
     "Fine-Notes/pubspec.yaml": {
       "declarationsSha256": "39c422b805d93cbb39cc05ecde4e1da8a2a3bcb608c17c86ae721e3eda6b2794",
@@ -102,12 +102,12 @@
       "lockSha256": "311b59e434c457bb2023237982e30f90e36213ba561bd0920cb4112526e86e8f"
     },
     "Pantry-Clock/pubspec.yaml": {
-      "declarationsSha256": "976a880872eef4c0cb4cd714bb8d091d9c8c22a69689c3b10ba2729b7d34f2fb",
-      "lockSha256": "2b69e151335237361c65e7ddecf029f932de158ad617eee170ea54e2f8531c18"
+      "declarationsSha256": "180605766d8e32c163ed8eeb3bb0cafdc10afc2a7289f3bc7cffff998b2e65c3",
+      "lockSha256": "d450554a151ea09904a95302dff2bbe2e81dcc57b1617cb68da0548fc80d2d3d"
     },
     "Paws/pubspec.yaml": {
-      "declarationsSha256": "c206b7e28c59b0c9273c16c82015ad374c59029c25d21050de5b675268e24029",
-      "lockSha256": "37325d282440826fb7c5f745563173f87101274dbc3e32fd6dfb414dc417573f"
+      "declarationsSha256": "0cc37438cf9ee1f08c3628c2ad542f3b3af8c743f4d59e2cefc17dde17a2e365",
+      "lockSha256": "13a8a773bbe3d80ea98199543d0230d581c7e84541d10156bff3f0bd35547712"
     },
     "Ridelore/pubspec.yaml": {
       "declarationsSha256": "b516974e88034d2fc91ab74b09aaab0b4f58541943f7b328853a1c3fa63084f0",
@@ -118,8 +118,8 @@
       "lockSha256": "e8adfb18401d9cd2113b8f0e1fc64b94c4cde90535e616980dc1eb0ac3765c06"
     },
     "Pantry-Clock/hosting_pilot/pubspec.yaml": {
-      "declarationsSha256": "5216f10c4895ac6a232716402bf23c5c329cda716ccabe8ed8e11dd9d1d63e34",
-      "lockSha256": "18f55a85682e506db89ca4cbdd591cfaef362361cef820e670cb15dc46bb6496"
+      "declarationsSha256": "3be740a437e7ffe6936396215a583a923cdf57dd315a06d776dff099fff53199",
+      "lockSha256": "b7d0dc764882abfd2fc190589cf40354aabeb731e0d9d38bdf38857db4e50939"
     }
   },
   "developmentPilots": [
