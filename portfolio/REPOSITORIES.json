@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "evidenceDate": "2026-11-04",
-  "evidenceSummary": "November 4 source update implements monthly/annual native subscriptions and separate non-billing 14-day local trials in all seven existing apps, with expiration-aware writes and preserved reading/export/deletion/encrypted recovery. Real-store provisioning, signed purchase acceptance and physical-device qualification remain pending. Optional hosting reference/runtime and metadata verifier source now exist with local contracts; service installation and verifier deployment remain unqualified; optional consumer synchronization is implemented only for deliberately adopted apps. Earlier foundation evidence retains its original scope; the product release order and publication pause remain unchanged. Claim Crate remains consolidated into What We Own; 27 physical repositories remain. Subsequent implementation publishes generic typed product hosting and adopts it in Pantry Clock's regular build with real TLS/MLS tests. Core foundation pins remain unchanged; live licensing, service deployment and physical/store release qualification remain pending.",
+  "evidenceSummary": "November 4 source update implements monthly/annual native subscriptions and separate non-billing 14-day local trials in all seven existing apps, with expiration-aware writes and preserved reading/export/deletion/encrypted recovery. Real-store provisioning, signed purchase acceptance and physical-device qualification remain pending. Optional hosting reference/runtime and metadata verifier source now exist with local contracts; service installation and verifier deployment remain unqualified; optional consumer synchronization is implemented only for deliberately adopted apps. Earlier foundation evidence retains its original scope; the product release order and publication pause remain unchanged. Claim Crate remains consolidated into What We Own; 27 physical repositories remain. Subsequent implementation publishes generic typed product hosting and adopts it in Pantry Clock and Paws regular builds through one shared session engine, with real Rust/TLS/MLS tests. Core foundation pins remain unchanged; live licensing, service deployment and physical/store release qualification remain pending.",
   "launchOrder": [
     "Skepbook",
     "Ridelore",
@@ -112,7 +112,7 @@
       "name": "App-Template",
       "displayName": "App-Template",
       "role": "shared",
-      "status": "Maintained Flutter reference and capability-selecting generator with four core and four optional shared packages at 0.1.0. Encrypted records, recovery, native privacy/locking and cached-first native purchases are integrated; local tests, both native builds and owned runtime checks pass. Optional hosting now has separately tested transactional sync/MLS/storage/coordinator, reference clients/generator, desktop control/packaging and undeployed metadata-only workspace verifier source; core consumer pins remain unchanged; optional hosting source is published and deliberately adopted by Pantry Clock. Generic typed product operations, caller-owned encrypted transactions, atomic migration batches, app-scoped clients/coordinators/setup and independently verified client grants now support Pantry Clock's regular build and thin integration harness.",
+      "status": "Maintained Flutter reference and capability-selecting generator with four core and seven optional shared packages at 0.1.0. Encrypted records, recovery, native privacy/locking and cached-first native purchases are integrated; local tests, both native builds and owned runtime checks pass. Optional hosting now has separately tested transactional sync/MLS/storage/coordinator, reference clients/generator, desktop control/packaging and undeployed metadata-only workspace verifier source; core consumer pins remain unchanged; optional hosting source is published and deliberately adopted by Pantry Clock and Paws. Generic typed product operations, caller-owned encrypted transactions, atomic migration batches, app-scoped clients/coordinators/setup and independently verified client grants now support Pantry Clock and Paws through one pure-Dart native session engine, with product-owned typed adapters and recovery formats.",
       "next": "Finish representative physical-device/store qualification before any app release; maintain the published immutable foundation, generator and common contracts through deliberate updates.",
       "concern": "Private Git access is required to resolve the published shared packages. Local compilation and simulator/emulator evidence do not establish physical-device/store qualification.",
       "localCheckout": true,
@@ -248,10 +248,10 @@
       "role": "release-candidate",
       "stage": "Shared foundation implemented; physical/store qualification pending",
       "focus": "Pet health records, medications, incidents, and vet-ready exports.",
-      "status": "Native monthly/annual subscription source and separate 14-day non-billing trial are implemented. Core creation/editing requires current access; existing records, exports, deletion and encrypted backup/recovery remain available after expiration. Verified historical permanent ownership is restore-only.",
+      "status": "Native monthly/annual subscription source and separate 14-day non-billing trial are implemented. Core creation/editing requires current access; existing records, exports, deletion and encrypted backup/recovery remain available after expiration. Verified historical permanent ownership is restore-only. The regular build now adopts published optional care-circle hosting through the same session engine as Pantry Clock. Explicitly selected pet/event DTOs preserve signed authorship, distinct duplicate review, terminal parent/child deletion, pending/conflict separation and disconnected encrypted recovery. Private vaults, keys, PDFs and legacy backup readers remain independent.",
       "launchEvidence": "Current subscription source has app-owned local validation records; historical foundation software/build evidence retains its original scope. Actual signed-store purchase and physical-device acceptance remain pending.",
       "next": "Provision the approved monthly/annual native store products and qualify real purchases, renewal, cancellation, refunds, restore and offline expiry on physical devices; then complete independent product release gates in the unchanged queue.",
-      "concern": "Physical-device/reliability and store transactions remain pending. Recordkeeping and exports do not provide veterinary diagnosis.",
+      "concern": "Physical-device/reliability and store transactions remain pending. Recordkeeping and exports do not provide veterinary diagnosis. Live workspace licensing, signed desktop services, Windows credential provisioning and physical hosting qualification remain pending. First shared scope is bounded to 64 pets and 128 retained event slots/64 KiB per pet.",
       "localCheckout": true,
       "requiredPaths": [
         ".github/workflows/flutter-ci.yml",
@@ -260,7 +260,7 @@
         "test"
       ],
       "disposition": "active",
-      "targetDataModel": "Local pet records and user-controlled PDF/backup exports; subscription-only core access; no veterinary diagnosis or required account. Future optional ciphertext hosting may share selected caregiver records after the Pantry Clock pilot; not a current launch prerequisite."
+      "targetDataModel": "Local pet records and user-controlled PDF/backup exports; subscription-only core access; no veterinary diagnosis or required account. Optional care-circle hosting now shares selected pet summaries and individually selected logged events through owner-managed ciphertext storage and an independently approved coordinator; live licensing, service and physical qualification remain pending; not a current launch prerequisite."
     },
     {
       "name": "Brassmark",
@@ -408,7 +408,7 @@
       "role": "release-candidate",
       "stage": "Shared foundation implemented; physical/store qualification pending",
       "focus": "Pantry, fridge, freezer, and counter expiration tracking.",
-      "status": "Native monthly/annual subscription source and separate 14-day non-billing trial are implemented. Core creation/editing requires current access; existing records, exports, deletion and encrypted backup/recovery remain available after expiration. Verified historical permanent ownership is restore-only. The regular build now adopts published immutable optional hosting packages for explicitly selected household inventory, exact quantities, product-scoped TLS/MLS, role/verified-grant checks and disconnected encrypted recovery. Startup and cached reads do not connect; private inventory remains separate.",
+      "status": "Native monthly/annual subscription source and separate 14-day non-billing trial are implemented. Core creation/editing requires current access; existing records, exports, deletion and encrypted backup/recovery remain available after expiration. Verified historical permanent ownership is restore-only. The regular build now adopts published immutable optional hosting packages for explicitly selected household inventory, exact quantities, product-scoped TLS/MLS, role/verified-grant checks and disconnected encrypted recovery. Startup and cached reads do not connect; private inventory remains separate. Its native facade now delegates generic pairing, permissions, encrypted journals and recovery selection to the same shared engine as Paws, preserving its durable layout.",
       "launchEvidence": "Current subscription source has app-owned local validation records; historical foundation software/build evidence retains its original scope. Actual signed-store purchase and physical-device acceptance remain pending.",
       "next": "Provision the approved monthly/annual native store products and qualify real purchases, renewal, cancellation, refunds, restore and offline expiry on physical devices; then complete independent product release gates in the unchanged queue.",
       "concern": "Physical-device/store qualification remains pending. Suggested dates are editable defaults, not food-safety advice; CSV export is distinct from full encrypted recovery. Live licensing, signed services, Windows credential provisioning and physical hosting qualification remain pending; published-source adoption is complete for the regular build.",
@@ -559,11 +559,11 @@
     {
       "product": "Paws",
       "defaultDataLocation": "Shared encrypted SQLite containing authenticated legacy pet-vault envelopes",
-      "remoteServices": "Explicit native Apple/Google store actions; cached ownership loads locally",
+      "remoteServices": "Explicit native Apple/Google store actions; cached ownership loads locally; explicit optional pairing/manual synchronization with an owner-managed care-circle host",
       "paidBoundary": "Approved core subscription: $1.99/month or $14.99/year; optional extras only may be one-time purchases; monthly/yearly source present, store setup and acceptance pending",
       "guardrails": "No mandatory hosted account or analytics; native backup exclusions; local PDF and complete encrypted owner recovery; physical/store/provenance qualification pending",
       "productId": "Paws",
-      "targetDataModel": "Local pet records and user-controlled PDF/backup exports; subscription-only core access; no veterinary diagnosis or required account. Future optional ciphertext hosting may share selected caregiver records after the Pantry Clock pilot; not a current launch prerequisite."
+      "targetDataModel": "Local pet records and user-controlled PDF/backup exports; subscription-only core access; no veterinary diagnosis or required account. Optional care-circle hosting now shares selected pet summaries and individually selected logged events through owner-managed ciphertext storage and an independently approved coordinator; live licensing, service and physical qualification remain pending; not a current launch prerequisite."
     },
     {
       "product": "Pantry Clock",

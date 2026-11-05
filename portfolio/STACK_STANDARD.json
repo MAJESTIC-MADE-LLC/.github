@@ -301,7 +301,7 @@
       ],
       "git": {
         "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
-        "ref": "3c81cd84da760e17ec358799156e66014a2651e4",
+        "ref": "f5942ed7a2b318e48ec7e47ce9f46ba531e02c31",
         "path": "packages/majestic_hosting"
       }
     },
@@ -313,7 +313,7 @@
       ],
       "git": {
         "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
-        "ref": "3c81cd84da760e17ec358799156e66014a2651e4",
+        "ref": "f5942ed7a2b318e48ec7e47ce9f46ba531e02c31",
         "path": "packages/majestic_sync"
       }
     },
@@ -325,7 +325,7 @@
       ],
       "git": {
         "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
-        "ref": "3c81cd84da760e17ec358799156e66014a2651e4",
+        "ref": "f5942ed7a2b318e48ec7e47ce9f46ba531e02c31",
         "path": "packages/majestic_sync_crypto"
       }
     }
@@ -395,7 +395,8 @@
   "hostingPolicy": {
     "capability": "user_owned_hosting",
     "approvedConsumers": [
-      "Pantry-Clock"
+      "Pantry-Clock",
+      "Paws"
     ],
     "packages": [
       "majestic_hosting",

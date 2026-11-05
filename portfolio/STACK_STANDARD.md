@@ -194,3 +194,12 @@ before a qualification batch, then `--compare NEW.json --log Paws tests /path/to
 afterward. It reports source drift and exact log hashes without editing manifests or interpreting
 logs as passes. The owner records actual validation separately. Physical/store qualification is
 never inferred from simulator or build output.
+
+## Optional hosting source
+
+The default template still has no record backend. Only explicitly approved consumers may add the
+complete optional hosting/sync/crypto set, currently Pantry Clock and Paws at published Git
+`f5942ed7a2b318e48ec7e47ce9f46ba531e02c31`. Both use the same native session engine; product
+schemas and scopes stay separate. Core/report sources retain their existing immutable revisions.
+See [drift enforcement](STANDARDIZATION.md) for exact manifest, lock, cache, capability and native
+permission checks. Source adoption does not replace physical/store or signed-service qualification.

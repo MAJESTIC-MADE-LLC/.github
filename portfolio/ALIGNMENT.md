@@ -45,7 +45,7 @@ Current evidence and target changes remain separate in [status](STATUS.md) and t
 - Kinwall remains research only. Dossier is explicitly excluded from this pass; Off Record remains
   paused/excluded experimental work. Quiet Arcade is a Hub-only concept and has no repo yet.
 
-## Future optional user-owned hosting — November 4, 2026
+## Optional user-owned hosting — November 4, 2026
 
 The approved [hosting architecture and adoption roadmap](USER_OWNED_HOSTING.md) extends the
 local foundation with a future Mac/Windows host, host-managed accounts, scoped collection sharing
@@ -54,18 +54,20 @@ perform readable-data processing. Pairing requires client/recovery authority, no
 access alone. Use a LAN or user-configured private network/VPN for remote connections. An optional
 minimal Majestic push bridge carries opaque update hints and routing metadata, never records or keys.
 
-This pass documents contracts only. Current mobile graphs, package pins, storage/recovery behavior,
-foundation prerequisites and the public release order stay unchanged. Future reference clients prove
-the protocol first, Pantry Clock pilots it, Daymerit/Paws follow, Skepbook/Ridelore/Fine Notes follow
-later and Namefold receives selective native-wallet sync. This engineering roadmap adds no launch
-blocker or implementation claim. Public publishing and Kinwall platform access remain separate.
+Reference/runtime source and the Pantry Clock/Paws regular integrations now implement these
+contracts locally. Both consume the published shared session engine; core/report package pins and
+private data identities remain unchanged. Daymerit follows, then Skepbook/Ridelore/Fine Notes and
+selective Namefold native-wallet sync. Source adoption adds no local-launch prerequisite. Signed
+services, live licensing and physical/store qualification remain pending; the public release order,
+publication pause and Kinwall platform-access boundary are unchanged.
 
 The resolved hosting design distinguishes the ciphertext daemon from an independently enrolled
 trusted desktop coordinator that can read selected collections. It adopts explicit background
 services, current publication permits, atomic storage/crypto journals, disconnected restore/rejoin
 and verified app-specific workspace grants. Shared Daymerit financial actions await confirmation.
 Both the optional push bridge and purchase/grant verifier are disclosed metadata-only exceptions;
-neither receives app records or decryption keys. Runtime implementation remains future work.
+neither receives app records or decryption keys. Verifier source is undeployed; the push bridge is
+not implemented. Customer service and physical-device qualification remain pending.
 
 ## Naming and operating rules
 
@@ -77,9 +79,9 @@ artifacts; do not blindly replace them or imply that app/store identity migratio
 No further repository renames or deletions follow from this decision. Foundation code lives in the maintained App-Template packages; keep app-specific identities and compatibility adapters.
 
 New core app access is subscription-only at the [approved monthly/annual prices](PRICING.md).
-One-time purchases may cover optional extras, never a permanent core unlock. Most current apps
-still implement permanent adapters and need a qualified migration. Skepbook's monthly/yearly subscription
-source is present; store setup and actual store acceptance remain pending. Preserve
+One-time purchases may cover optional extras, never a permanent core unlock. All seven implemented
+apps now have monthly/yearly subscription source and separate non-billing local trials; store setup
+and actual store acceptance remain pending. Preserve
 verified legacy ownership, existing record reading/export and full encrypted backup/recovery after
 expiration. Historical evidence does not qualify changed billing or configure store products.
 
@@ -134,3 +136,8 @@ imports the same regular implementation. Pairing and manual synchronization rema
 startup/cached reads do not connect, and malformed optional hosting keys cannot block the private
 vault. Live licensing, signed services and physical/store qualification remain pending. Work then
 continues through the approved hosting roadmap one app at a time; release order is unchanged.
+
+The optional source has subsequently advanced to published Git
+`f5942ed7a2b318e48ec7e47ce9f46ba531e02c31`. Pantry Clock and Paws now share its native session
+engine; their typed domains, private vaults and recovery formats remain independent. Current work
+and pushes remain on dev; this adoption does not promote main or deploy a service.

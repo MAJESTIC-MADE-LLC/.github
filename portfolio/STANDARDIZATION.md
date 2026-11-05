@@ -98,3 +98,16 @@ local source and must agree with its parent’s optional sources. Overrides and 
 Only the two reviewed Pantry dependency fingerprints were updated. Existing qualification
 records were not restamped. Native iOS linker configuration is covered by staged-input guards;
 native binaries and generated provenance remain ignored. Each later product adopts deliberately.
+
+## Shared session adoption
+
+The three optional modules now resolve together from published Git
+`f5942ed7a2b318e48ec7e47ce9f46ba531e02c31`. Only Pantry Clock and Paws are approved consumers.
+Both delegate generic native hosting orchestration to `HostingSessionEngine`; typed product
+models, selected-source adapters and portable archive schemas remain app-owned. Pantry's legacy
+hosting namespace, selectors and proposal format remain compatible. Paws has an independent scope
+and preserves private database, key and legacy backup identities.
+
+Three reviewed dependency baselines advanced: Pantry regular app, its thin harness and Paws.
+Only optional sources advance; core/report modules retain their original immutable pins. All
+other products retain their current graph. Production qualification evidence remains separate.

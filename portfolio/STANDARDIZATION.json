@@ -104,12 +104,12 @@
       "lockSha256": "311b59e434c457bb2023237982e30f90e36213ba561bd0920cb4112526e86e8f"
     },
     "Pantry-Clock/pubspec.yaml": {
-      "declarationsSha256": "f65bfdccd5dcb3441d749bf65be71469ba26533fce7a14ce63be26d3595ef995",
-      "lockSha256": "e48ade780d7156023015abc8683a1ac19cf1b694d54bfbcc30faa0270701c16f"
+      "declarationsSha256": "e307d92a4b425bfee1b3d85fcc966fd159e1a73c31427749d72f542fd2a8e795",
+      "lockSha256": "4b5bef9ca9248299ba5d9d0fb1722b0e496ea103053cb6767942955e3c1fde57"
     },
     "Paws/pubspec.yaml": {
-      "declarationsSha256": "1ae29ad4ced4105fcb66c127dc83afa0ef5904aa749a9b5da73aa74ae17a242c",
-      "lockSha256": "37c2776e2c36b43c2fce3ac3f8e00061971d7b1fbdd303ef5ba0d1f140ac61f0"
+      "declarationsSha256": "fa40b13ee62ffffad182a050e5103e833c17cc944983e28b88c8d197c40e3c04",
+      "lockSha256": "b4f69a301dbef0d8764e24465a79830691cf7b9aa99b7d6017c31c035b3159d8"
     },
     "Ridelore/pubspec.yaml": {
       "declarationsSha256": "b516974e88034d2fc91ab74b09aaab0b4f58541943f7b328853a1c3fa63084f0",
@@ -120,8 +120,8 @@
       "lockSha256": "e8adfb18401d9cd2113b8f0e1fc64b94c4cde90535e616980dc1eb0ac3765c06"
     },
     "Pantry-Clock/hosting_pilot/pubspec.yaml": {
-      "declarationsSha256": "fb535b8ef4a6efcee315e11ede827ad321671af67323e97b75c8bbe7541e4472",
-      "lockSha256": "1caea4421ffcd0a14e2cf45f1040905a18cbc87bf9cd80721d8f9aa1b36d442b"
+      "declarationsSha256": "25abf80b73519275905865aed2c14270ff6ad5fad814f4959fdfb35568f2a623",
+      "lockSha256": "9d92697fc2ec8c1cbb372ad659b5375edd9cfc17c8d7b1f08407c43c57792a02"
     }
   },
   "developmentPilots": [
