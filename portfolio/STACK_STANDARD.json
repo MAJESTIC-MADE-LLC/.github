@@ -396,7 +396,8 @@
     "capability": "user_owned_hosting",
     "approvedConsumers": [
       "Pantry-Clock",
-      "Paws"
+      "Paws",
+      "Daymerit"
     ],
     "packages": [
       "majestic_hosting",
