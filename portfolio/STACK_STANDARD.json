@@ -301,7 +301,7 @@
       ],
       "git": {
         "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
-        "ref": "5e72d2e60f9c77ab713a671b05fdedd11e7ceb0a",
+        "ref": "fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac",
         "path": "packages/majestic_hosting"
       }
     },
@@ -313,7 +313,7 @@
       ],
       "git": {
         "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
-        "ref": "5e72d2e60f9c77ab713a671b05fdedd11e7ceb0a",
+        "ref": "fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac",
         "path": "packages/majestic_sync"
       }
     },
@@ -325,7 +325,7 @@
       ],
       "git": {
         "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
-        "ref": "5e72d2e60f9c77ab713a671b05fdedd11e7ceb0a",
+        "ref": "fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac",
         "path": "packages/majestic_sync_crypto"
       }
     }

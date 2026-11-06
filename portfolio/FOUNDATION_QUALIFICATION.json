@@ -5,14 +5,14 @@
   "evidence": {
     "shared_package_tests": {
       "status": "passed",
-      "record": "portfolio/validation/2026-11-06/native-hosting-deletion/SHARED_PACKAGES.md",
-      "sha256": "f896fdf46407d0af2c2abc2ee5bd3f7af64d152964b14503b781e8423d3b492a",
-      "sourceFingerprint": "b32d296ea025a0ba3da6115c5ea7156558efe65f08074d3dcebeb43d6c193c28",
+      "record": "portfolio/validation/2026-11-06/host-packaging/SHARED_PACKAGES.md",
+      "sha256": "a67f13133bcd07123751ac5fb65eb757322055ec04e4a016b9aa68550ec7dd13",
+      "sourceFingerprint": "ec81075d82b0c298c2de59e27d4efc53ec668296bdfa0e48e5684b83656fe287",
       "sourceFingerprintPolicyVersion": 2,
-      "recordedAt": "2026-11-06T18:41:38.966940+00:00",
-      "recordedBy": "Codex local native hosting and private deletion software qualification",
-      "scope": "Fresh eleven-package analyses and 250 tests bound to current eight-consumer source cohort. Physical/store checks remain pending."
+      "recordedAt": "2026-11-06T20:43:03.337655+00:00",
+      "recordedBy": "Codex local host service packaging and protected provisioning software qualification",
+      "scope": "Fresh eleven-package analyses and 264 tests bound to current eight-consumer source cohort. Physical/store checks remain pending."
     }
   },
-  "note": "Current-source software refreshed for Skepbook native hosting, Daymerit private deletion and all optional consumers. Physical iOS/Android privacy and actual native-store checks remain pending; operational and independent product-release gates remain separate."
+  "note": "Current-source software refreshed for desktop service packaging, protected Windows provisioning and all optional consumers. Physical iOS/Android privacy and actual native-store checks remain pending; operational and independent product-release gates remain separate."
 }

@@ -1,0 +1,13 @@
+{
+  "previous": "5e72d2e60f9c77ab713a671b05fdedd11e7ceb0a",
+  "revision": "fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac",
+  "manifests": [
+    "Skepbook/pubspec.yaml",
+    "Daymerit/pubspec.yaml",
+    "Paws/pubspec.yaml",
+    "Pantry-Clock/pubspec.yaml",
+    "Pantry-Clock/hosting_pilot/pubspec.yaml"
+  ],
+  "transitivePackages": "unchanged",
+  "resolverSerialization": "New letter-leading Git refs no longer need YAML quotes; semantic refs alone changed"
+}

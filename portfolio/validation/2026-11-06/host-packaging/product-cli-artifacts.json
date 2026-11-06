@@ -1,0 +1,1665 @@
+{
+  "schemaVersion": 1,
+  "revision": "fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac",
+  "scope": "Mac arm64 compiled CLI bundles and secret-free engineering package assembly only; no service install, key provisioning, publisher signing or OS lifecycle acceptance",
+  "runnerResults": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-cli-retry/results.json",
+  "runnerResultsSha256": "3fdc414b06fb751d7480c86419bf273fb0381433dd1913c8967f698c1fe083f0",
+  "prerequisites": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-cli-retry-prerequisites.json",
+  "prerequisitesSha256": "21690fdc27e6532ef2b76fcfb28f2296d96b88ba2fe9b53b3d94beaff20697cd",
+  "qualifiedSqliteRelocationProbe": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/native-layout-results.json",
+  "qualifiedSqliteRelocationProbeSha256": "e4cc8d85c3872790ac702881c7eb06d4f3fd164c1aba1ac39c241b4bb8e0cee0",
+  "sourceSnapshots": {
+    "App-Template": {
+      "head": "fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac",
+      "sourceSha256": "1f8e7ae0d6756f876ec395c4132275a8b90578b0067a77d631c5c428f0001261"
+    },
+    "Skepbook": {
+      "head": "e64f3210865697fe726e2444c987f11efa7be4dc",
+      "sourceSha256": "df1f6ae427085067e36c2da0b0f9c7c9550e61aa0114a7ee3e97343541abefdc"
+    },
+    "Daymerit": {
+      "head": "ddf421dafbd711ad5ebec8490733b8d10e28dea1",
+      "sourceSha256": "d4cf0abc4ee18498938a9bb906985f6f0c8254c8e75a7a35c7a9587ad477d172"
+    },
+    "Paws": {
+      "head": "68e93ac961b5d056854495198fd3076c158b24f1",
+      "sourceSha256": "6a8104a1b952b72e3bbaa986ce9f3d5e55c3b5cdf85edd2a116c2369fab9c88a"
+    },
+    "Pantry-Clock": {
+      "head": "2cf6ac22033e978ed2b2d30ee3bbf2e59241c5ea",
+      "sourceSha256": "af97b87ae8855e5efaaf6ed3e172447af075d4f63931a72ce3f348848ee52179"
+    },
+    "native:/Users/bespin-starter/.pub-cache/git/App-Template-fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac": {
+      "head": "fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac",
+      "sourceSha256": "1f8e7ae0d6756f876ec395c4132275a8b90578b0067a77d631c5c428f0001261"
+    }
+  },
+  "sourceChangedDuringValidation": false,
+  "scripts": {
+    "run_product_cli_retry.py": "b90e3eec64df42626afbb044c9d2b77d4c50f8f3de15cbe6ccae7583be9ff561",
+    "check_cli_prerequisites_retry.py": "24f36171687fe2eec2a7c6c12aea89e05000f366592aecf6a4aa04fc6c368645",
+    "probe_product_cli.py": "53bf1182371efa4085978f2fe05aff2695325fb1454b6ba1667c3ce3209831b5",
+    "inspect_product_cli.py": "92153d24c9d456f50c14220364cb478ac10a42f17da5ee34aee7c121123757ca",
+    "lock_native.py": "e86a07b2bbecbc89a2485bc9ee4528551f14ce391873de74661e512fb375e4d2"
+  },
+  "products": {
+    "skepbook": {
+      "path": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/skepbook-macos-arm64",
+      "sourceDirectory": "Skepbook",
+      "manifestSha256": "6c375bb928ec381e7e10d220012a27d7ee082424de09cbf25eeb68582a205091",
+      "packageTree": {
+        "files": [
+          {
+            "path": "app-helpers/service-manager",
+            "sha256": "670b7725b6648844515a967504906b3a4b29ccf30afe3b429835fa43e506a1aa",
+            "size": 62432,
+            "mode": "0o755"
+          },
+          {
+            "path": "coordinator/compatibility.json",
+            "sha256": "c7aafa94666a5dd532c9950e01ef38fc46671cca1c4c51fa4f5305a1a79df144",
+            "size": 66,
+            "mode": "0o644"
+          },
+          {
+            "path": "coordinator/credential-helper",
+            "sha256": "7f338d059fe1be5dc4765a6b5cd871973b4c5c046ff773d1025f9c6e3ab8b473",
+            "size": 90464,
+            "mode": "0o755"
+          },
+          {
+            "path": "coordinator/lib/libmajestic_crypto.dylib",
+            "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+            "size": 3613664,
+            "mode": "0o755"
+          },
+          {
+            "path": "coordinator/lib/libsqlite3mc.dylib",
+            "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+            "size": 1946864,
+            "mode": "0o644"
+          },
+          {
+            "path": "coordinator/lib/objective_c.dylib",
+            "sha256": "8d471eb1ae9726ca6907cc05a295a9994c5ac4147f385de29d1bed2a7b3cdd62",
+            "size": 233696,
+            "mode": "0o755"
+          },
+          {
+            "path": "coordinator/service",
+            "sha256": "2c262344e2a2f4bfa3229cd8528d9c69f76586c4de1a8db7c5c96c6bd5c3c9ee",
+            "size": 10885872,
+            "mode": "0o755"
+          },
+          {
+            "path": "installer/com.majestic.host.coordinator.plist",
+            "sha256": "112a226ecdeed518294c1d324285fbbc2ba5274829a1babdbc474112e276dfe4",
+            "size": 785,
+            "mode": "0o644"
+          },
+          {
+            "path": "installer/com.majestic.host.storage.plist",
+            "sha256": "fd6a08d7ca719ce5daa61a2a805a4a515951f63b7a4455245252d034eaf154fc",
+            "size": 769,
+            "mode": "0o644"
+          },
+          {
+            "path": "installer/package_app.py",
+            "sha256": "ba24cdc59da305cddd95383453ae0d8252a79f29142af2c5b7a8192d2ebec6c4",
+            "size": 3344,
+            "mode": "0o755"
+          },
+          {
+            "path": "installer/package_host.py",
+            "sha256": "1a3c6e01ba8d0b6dc7ee146c30c4c5b2539fca78b5e5a4e990220f292871fc96",
+            "size": 16871,
+            "mode": "0o644"
+          },
+          {
+            "path": "installer/prepare_macos_instance.py",
+            "sha256": "0cbddeb0f61c9e3ebc20eb42f534bfc0a1a75549435eb33041de16f360d2b578",
+            "size": 9110,
+            "mode": "0o644"
+          },
+          {
+            "path": "installer/run-service.sh",
+            "sha256": "3d1a471297d0a27709227f41db7d6d10b1c96f1b9de0506fa5725204c0b81aa4",
+            "size": 1975,
+            "mode": "0o644"
+          },
+          {
+            "path": "installer/setup.sh",
+            "sha256": "e42efd10e4aa49f44d5d93c073c581b70e3df7cab675bdb9ad70bcb98114dc74",
+            "size": 20084,
+            "mode": "0o644"
+          },
+          {
+            "path": "manifest.json",
+            "sha256": "6c375bb928ec381e7e10d220012a27d7ee082424de09cbf25eeb68582a205091",
+            "size": 4430,
+            "mode": "0o644"
+          },
+          {
+            "path": "setup/bin/setup_skepbook",
+            "sha256": "22714e95dfd3d71704f1f50056aa192727bbbc21d700771bef9a2fa4accb6cc3",
+            "size": 9441248,
+            "mode": "0o755"
+          },
+          {
+            "path": "setup/lib/libmajestic_crypto.dylib",
+            "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+            "size": 3613664,
+            "mode": "0o755"
+          },
+          {
+            "path": "setup/lib/libsqlite3mc.dylib",
+            "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+            "size": 1946864,
+            "mode": "0o644"
+          },
+          {
+            "path": "setup/lib/objective_c.dylib",
+            "sha256": "8d471eb1ae9726ca6907cc05a295a9994c5ac4147f385de29d1bed2a7b3cdd62",
+            "size": 233696,
+            "mode": "0o755"
+          },
+          {
+            "path": "storage/compatibility.json",
+            "sha256": "c7aafa94666a5dd532c9950e01ef38fc46671cca1c4c51fa4f5305a1a79df144",
+            "size": 66,
+            "mode": "0o644"
+          },
+          {
+            "path": "storage/credential-helper",
+            "sha256": "7f338d059fe1be5dc4765a6b5cd871973b4c5c046ff773d1025f9c6e3ab8b473",
+            "size": 90464,
+            "mode": "0o755"
+          },
+          {
+            "path": "storage/service",
+            "sha256": "144464807061cbe227bd9ac0285b922411cd9cf7cf1b998971cfece5198bbf64",
+            "size": 4994192,
+            "mode": "0o755"
+          }
+        ],
+        "treeSha256": "ca2b2f90a47a7388604f2722d14646c0907585b9b079ae6c88f81526a90f3850",
+        "treeAlgorithm": "sha256 of sorted compact JSON per-file path/sha256/size/mode list"
+      },
+      "fileCount": 21,
+      "payloadBytes": 37206190,
+      "manifest": {
+        "architecture": "arm64",
+        "distribution": "unsigned-engineering; publisher signing and OS acceptance required",
+        "files": [
+          {
+            "executable": true,
+            "path": "app-helpers/service-manager",
+            "sha256": "670b7725b6648844515a967504906b3a4b29ccf30afe3b429835fa43e506a1aa",
+            "size": 62432
+          },
+          {
+            "executable": false,
+            "path": "coordinator/compatibility.json",
+            "sha256": "c7aafa94666a5dd532c9950e01ef38fc46671cca1c4c51fa4f5305a1a79df144",
+            "size": 66
+          },
+          {
+            "executable": true,
+            "path": "coordinator/credential-helper",
+            "sha256": "7f338d059fe1be5dc4765a6b5cd871973b4c5c046ff773d1025f9c6e3ab8b473",
+            "size": 90464
+          },
+          {
+            "executable": true,
+            "path": "coordinator/lib/libmajestic_crypto.dylib",
+            "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+            "size": 3613664
+          },
+          {
+            "executable": false,
+            "path": "coordinator/lib/libsqlite3mc.dylib",
+            "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+            "size": 1946864
+          },
+          {
+            "executable": true,
+            "path": "coordinator/lib/objective_c.dylib",
+            "sha256": "8d471eb1ae9726ca6907cc05a295a9994c5ac4147f385de29d1bed2a7b3cdd62",
+            "size": 233696
+          },
+          {
+            "executable": true,
+            "path": "coordinator/service",
+            "sha256": "2c262344e2a2f4bfa3229cd8528d9c69f76586c4de1a8db7c5c96c6bd5c3c9ee",
+            "size": 10885872
+          },
+          {
+            "executable": false,
+            "path": "installer/com.majestic.host.coordinator.plist",
+            "sha256": "112a226ecdeed518294c1d324285fbbc2ba5274829a1babdbc474112e276dfe4",
+            "size": 785
+          },
+          {
+            "executable": false,
+            "path": "installer/com.majestic.host.storage.plist",
+            "sha256": "fd6a08d7ca719ce5daa61a2a805a4a515951f63b7a4455245252d034eaf154fc",
+            "size": 769
+          },
+          {
+            "executable": true,
+            "path": "installer/package_app.py",
+            "sha256": "ba24cdc59da305cddd95383453ae0d8252a79f29142af2c5b7a8192d2ebec6c4",
+            "size": 3344
+          },
+          {
+            "executable": false,
+            "path": "installer/package_host.py",
+            "sha256": "1a3c6e01ba8d0b6dc7ee146c30c4c5b2539fca78b5e5a4e990220f292871fc96",
+            "size": 16871
+          },
+          {
+            "executable": false,
+            "path": "installer/prepare_macos_instance.py",
+            "sha256": "0cbddeb0f61c9e3ebc20eb42f534bfc0a1a75549435eb33041de16f360d2b578",
+            "size": 9110
+          },
+          {
+            "executable": false,
+            "path": "installer/run-service.sh",
+            "sha256": "3d1a471297d0a27709227f41db7d6d10b1c96f1b9de0506fa5725204c0b81aa4",
+            "size": 1975
+          },
+          {
+            "executable": false,
+            "path": "installer/setup.sh",
+            "sha256": "e42efd10e4aa49f44d5d93c073c581b70e3df7cab675bdb9ad70bcb98114dc74",
+            "size": 20084
+          },
+          {
+            "executable": true,
+            "path": "setup/bin/setup_skepbook",
+            "sha256": "22714e95dfd3d71704f1f50056aa192727bbbc21d700771bef9a2fa4accb6cc3",
+            "size": 9441248
+          },
+          {
+            "executable": true,
+            "path": "setup/lib/libmajestic_crypto.dylib",
+            "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+            "size": 3613664
+          },
+          {
+            "executable": false,
+            "path": "setup/lib/libsqlite3mc.dylib",
+            "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+            "size": 1946864
+          },
+          {
+            "executable": true,
+            "path": "setup/lib/objective_c.dylib",
+            "sha256": "8d471eb1ae9726ca6907cc05a295a9994c5ac4147f385de29d1bed2a7b3cdd62",
+            "size": 233696
+          },
+          {
+            "executable": false,
+            "path": "storage/compatibility.json",
+            "sha256": "c7aafa94666a5dd532c9950e01ef38fc46671cca1c4c51fa4f5305a1a79df144",
+            "size": 66
+          },
+          {
+            "executable": true,
+            "path": "storage/credential-helper",
+            "sha256": "7f338d059fe1be5dc4765a6b5cd871973b4c5c046ff773d1025f9c6e3ab8b473",
+            "size": 90464
+          },
+          {
+            "executable": true,
+            "path": "storage/service",
+            "sha256": "144464807061cbe227bd9ac0285b922411cd9cf7cf1b998971cfece5198bbf64",
+            "size": 4994192
+          }
+        ],
+        "platform": "macos",
+        "productId": "skepbook",
+        "schemaVersion": 1,
+        "services": {
+          "coordinator": {
+            "directory": "coordinator"
+          },
+          "storage": {
+            "directory": "storage"
+          }
+        },
+        "toolchains": {
+          "dart": "3.13.7",
+          "flutter": "3.47.8",
+          "rust": "1.99.1"
+        }
+      },
+      "bundles": {
+        "coordinator": {
+          "executableSha256": "2c262344e2a2f4bfa3229cd8528d9c69f76586c4de1a8db7c5c96c6bd5c3c9ee",
+          "executableMatchesCompiledBundle": true,
+          "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/skepbook-macos-arm64/coordinator/service:\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.100.2)\n\t/System/Library/Frameworks/Security.framework/Versions/A/Security (compatibility version 1.0.0, current version 61123.100.169)\n\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 2420.0.0)\n\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 2420.0.0)\n\t/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices (compatibility version 1.0.0, current version 1226.0.0)\n",
+          "libraries": {
+            "lib/libmajestic_crypto.dylib": {
+              "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+              "size": 3613664,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/skepbook-macos-arm64/coordinator/lib/libmajestic_crypto.dylib:\n\t/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/deps/libmajestic_crypto.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.40.3)\n"
+            },
+            "lib/libsqlite3mc.dylib": {
+              "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+              "size": 1946864,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/skepbook-macos-arm64/coordinator/lib/libsqlite3mc.dylib:\n\t@rpath/lib/libsqlite3mc.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 5026.5.4)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)\n"
+            },
+            "lib/objective_c.dylib": {
+              "sha256": "8d471eb1ae9726ca6907cc05a295a9994c5ac4147f385de29d1bed2a7b3cdd62",
+              "size": 233696,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/skepbook-macos-arm64/coordinator/lib/objective_c.dylib:\n\t@rpath/lib/objective_c.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.40.3)\n"
+            }
+          },
+          "rustBridgeExports": [
+            "_frb_get_rust_content_hash",
+            "_frb_init_frb_dart_api_dl",
+            "_frb_pde_ffi_dispatcher_primary",
+            "_frb_pde_ffi_dispatcher_sync"
+          ],
+          "sqliteByteIdenticalToQualifiedRelocationProbe": true,
+          "rawCliBundle": {
+            "files": [
+              {
+                "path": "bin/skepbook_coordinator",
+                "sha256": "2c262344e2a2f4bfa3229cd8528d9c69f76586c4de1a8db7c5c96c6bd5c3c9ee",
+                "size": 10885872,
+                "mode": "0o755"
+              },
+              {
+                "path": "lib/libsqlite3mc.dylib",
+                "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+                "size": 1946864,
+                "mode": "0o644"
+              },
+              {
+                "path": "lib/objective_c.dylib",
+                "sha256": "8d471eb1ae9726ca6907cc05a295a9994c5ac4147f385de29d1bed2a7b3cdd62",
+                "size": 233696,
+                "mode": "0o755"
+              }
+            ],
+            "treeSha256": "64f7334acc039d243e38fe7a47762620636fc368e14a1811a2614b360c49162f",
+            "treeAlgorithm": "sha256 of sorted compact JSON per-file path/sha256/size/mode list"
+          }
+        },
+        "setup": {
+          "executableSha256": "22714e95dfd3d71704f1f50056aa192727bbbc21d700771bef9a2fa4accb6cc3",
+          "executableMatchesCompiledBundle": true,
+          "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/skepbook-macos-arm64/setup/bin/setup_skepbook:\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.100.2)\n\t/System/Library/Frameworks/Security.framework/Versions/A/Security (compatibility version 1.0.0, current version 61123.100.169)\n\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 2420.0.0)\n\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 2420.0.0)\n\t/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices (compatibility version 1.0.0, current version 1226.0.0)\n",
+          "libraries": {
+            "lib/libmajestic_crypto.dylib": {
+              "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+              "size": 3613664,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/skepbook-macos-arm64/setup/lib/libmajestic_crypto.dylib:\n\t/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/deps/libmajestic_crypto.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.40.3)\n"
+            },
+            "lib/libsqlite3mc.dylib": {
+              "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+              "size": 1946864,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/skepbook-macos-arm64/setup/lib/libsqlite3mc.dylib:\n\t@rpath/lib/libsqlite3mc.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 5026.5.4)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)\n"
+            },
+            "lib/objective_c.dylib": {
+              "sha256": "8d471eb1ae9726ca6907cc05a295a9994c5ac4147f385de29d1bed2a7b3cdd62",
+              "size": 233696,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/skepbook-macos-arm64/setup/lib/objective_c.dylib:\n\t@rpath/lib/objective_c.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.40.3)\n"
+            }
+          },
+          "rustBridgeExports": [
+            "_frb_get_rust_content_hash",
+            "_frb_init_frb_dart_api_dl",
+            "_frb_pde_ffi_dispatcher_primary",
+            "_frb_pde_ffi_dispatcher_sync"
+          ],
+          "sqliteByteIdenticalToQualifiedRelocationProbe": true,
+          "rawCliBundle": {
+            "files": [
+              {
+                "path": "bin/setup_skepbook",
+                "sha256": "22714e95dfd3d71704f1f50056aa192727bbbc21d700771bef9a2fa4accb6cc3",
+                "size": 9441248,
+                "mode": "0o755"
+              },
+              {
+                "path": "lib/libsqlite3mc.dylib",
+                "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+                "size": 1946864,
+                "mode": "0o644"
+              },
+              {
+                "path": "lib/objective_c.dylib",
+                "sha256": "8d471eb1ae9726ca6907cc05a295a9994c5ac4147f385de29d1bed2a7b3cdd62",
+                "size": 233696,
+                "mode": "0o755"
+              }
+            ],
+            "treeSha256": "fc5c7a2a4dd3ef21108da86a490dc93d53984204fa63ae898e6d81675ed915e6",
+            "treeAlgorithm": "sha256 of sorted compact JSON per-file path/sha256/size/mode list"
+          }
+        }
+      },
+      "secretFreeInventoryVerified": true
+    },
+    "daymerit": {
+      "path": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/daymerit-macos-arm64",
+      "sourceDirectory": "Daymerit",
+      "manifestSha256": "3d8bfa4a02a8ba6a7702ce3210cc7147ff0d403ddd7c6e498d226ce98a8ab66e",
+      "packageTree": {
+        "files": [
+          {
+            "path": "app-helpers/service-manager",
+            "sha256": "670b7725b6648844515a967504906b3a4b29ccf30afe3b429835fa43e506a1aa",
+            "size": 62432,
+            "mode": "0o755"
+          },
+          {
+            "path": "coordinator/compatibility.json",
+            "sha256": "c7aafa94666a5dd532c9950e01ef38fc46671cca1c4c51fa4f5305a1a79df144",
+            "size": 66,
+            "mode": "0o644"
+          },
+          {
+            "path": "coordinator/credential-helper",
+            "sha256": "7f338d059fe1be5dc4765a6b5cd871973b4c5c046ff773d1025f9c6e3ab8b473",
+            "size": 90464,
+            "mode": "0o755"
+          },
+          {
+            "path": "coordinator/lib/libmajestic_crypto.dylib",
+            "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+            "size": 3613664,
+            "mode": "0o755"
+          },
+          {
+            "path": "coordinator/lib/libsqlite3mc.dylib",
+            "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+            "size": 1946864,
+            "mode": "0o644"
+          },
+          {
+            "path": "coordinator/lib/objective_c.dylib",
+            "sha256": "90702b791f31a4621ba3f4a16f11af11fab8f6bee5fbbc4a88b19494a253d2ee",
+            "size": 233696,
+            "mode": "0o755"
+          },
+          {
+            "path": "coordinator/service",
+            "sha256": "09b772c4e932b43a7ebce64c85ed735ba6ffec556d67a9f711c271a65103937f",
+            "size": 11115696,
+            "mode": "0o755"
+          },
+          {
+            "path": "installer/com.majestic.host.coordinator.plist",
+            "sha256": "112a226ecdeed518294c1d324285fbbc2ba5274829a1babdbc474112e276dfe4",
+            "size": 785,
+            "mode": "0o644"
+          },
+          {
+            "path": "installer/com.majestic.host.storage.plist",
+            "sha256": "fd6a08d7ca719ce5daa61a2a805a4a515951f63b7a4455245252d034eaf154fc",
+            "size": 769,
+            "mode": "0o644"
+          },
+          {
+            "path": "installer/package_app.py",
+            "sha256": "ba24cdc59da305cddd95383453ae0d8252a79f29142af2c5b7a8192d2ebec6c4",
+            "size": 3344,
+            "mode": "0o755"
+          },
+          {
+            "path": "installer/package_host.py",
+            "sha256": "1a3c6e01ba8d0b6dc7ee146c30c4c5b2539fca78b5e5a4e990220f292871fc96",
+            "size": 16871,
+            "mode": "0o644"
+          },
+          {
+            "path": "installer/prepare_macos_instance.py",
+            "sha256": "0cbddeb0f61c9e3ebc20eb42f534bfc0a1a75549435eb33041de16f360d2b578",
+            "size": 9110,
+            "mode": "0o644"
+          },
+          {
+            "path": "installer/run-service.sh",
+            "sha256": "3d1a471297d0a27709227f41db7d6d10b1c96f1b9de0506fa5725204c0b81aa4",
+            "size": 1975,
+            "mode": "0o644"
+          },
+          {
+            "path": "installer/setup.sh",
+            "sha256": "e42efd10e4aa49f44d5d93c073c581b70e3df7cab675bdb9ad70bcb98114dc74",
+            "size": 20084,
+            "mode": "0o644"
+          },
+          {
+            "path": "manifest.json",
+            "sha256": "3d8bfa4a02a8ba6a7702ce3210cc7147ff0d403ddd7c6e498d226ce98a8ab66e",
+            "size": 4430,
+            "mode": "0o644"
+          },
+          {
+            "path": "setup/bin/setup_daymerit",
+            "sha256": "bc8161e08f8d166e1f5c2933bac66d29f978878871cad2af01fdec0aac171ae6",
+            "size": 8965184,
+            "mode": "0o755"
+          },
+          {
+            "path": "setup/lib/libmajestic_crypto.dylib",
+            "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+            "size": 3613664,
+            "mode": "0o755"
+          },
+          {
+            "path": "setup/lib/libsqlite3mc.dylib",
+            "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+            "size": 1946864,
+            "mode": "0o644"
+          },
+          {
+            "path": "setup/lib/objective_c.dylib",
+            "sha256": "90702b791f31a4621ba3f4a16f11af11fab8f6bee5fbbc4a88b19494a253d2ee",
+            "size": 233696,
+            "mode": "0o755"
+          },
+          {
+            "path": "storage/compatibility.json",
+            "sha256": "c7aafa94666a5dd532c9950e01ef38fc46671cca1c4c51fa4f5305a1a79df144",
+            "size": 66,
+            "mode": "0o644"
+          },
+          {
+            "path": "storage/credential-helper",
+            "sha256": "7f338d059fe1be5dc4765a6b5cd871973b4c5c046ff773d1025f9c6e3ab8b473",
+            "size": 90464,
+            "mode": "0o755"
+          },
+          {
+            "path": "storage/service",
+            "sha256": "144464807061cbe227bd9ac0285b922411cd9cf7cf1b998971cfece5198bbf64",
+            "size": 4994192,
+            "mode": "0o755"
+          }
+        ],
+        "treeSha256": "2b6f97ef06c06e5076777a0e0b3c2ae6df53ced27631bf677badbbdf4da2029d",
+        "treeAlgorithm": "sha256 of sorted compact JSON per-file path/sha256/size/mode list"
+      },
+      "fileCount": 21,
+      "payloadBytes": 36959950,
+      "manifest": {
+        "architecture": "arm64",
+        "distribution": "unsigned-engineering; publisher signing and OS acceptance required",
+        "files": [
+          {
+            "executable": true,
+            "path": "app-helpers/service-manager",
+            "sha256": "670b7725b6648844515a967504906b3a4b29ccf30afe3b429835fa43e506a1aa",
+            "size": 62432
+          },
+          {
+            "executable": false,
+            "path": "coordinator/compatibility.json",
+            "sha256": "c7aafa94666a5dd532c9950e01ef38fc46671cca1c4c51fa4f5305a1a79df144",
+            "size": 66
+          },
+          {
+            "executable": true,
+            "path": "coordinator/credential-helper",
+            "sha256": "7f338d059fe1be5dc4765a6b5cd871973b4c5c046ff773d1025f9c6e3ab8b473",
+            "size": 90464
+          },
+          {
+            "executable": true,
+            "path": "coordinator/lib/libmajestic_crypto.dylib",
+            "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+            "size": 3613664
+          },
+          {
+            "executable": false,
+            "path": "coordinator/lib/libsqlite3mc.dylib",
+            "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+            "size": 1946864
+          },
+          {
+            "executable": true,
+            "path": "coordinator/lib/objective_c.dylib",
+            "sha256": "90702b791f31a4621ba3f4a16f11af11fab8f6bee5fbbc4a88b19494a253d2ee",
+            "size": 233696
+          },
+          {
+            "executable": true,
+            "path": "coordinator/service",
+            "sha256": "09b772c4e932b43a7ebce64c85ed735ba6ffec556d67a9f711c271a65103937f",
+            "size": 11115696
+          },
+          {
+            "executable": false,
+            "path": "installer/com.majestic.host.coordinator.plist",
+            "sha256": "112a226ecdeed518294c1d324285fbbc2ba5274829a1babdbc474112e276dfe4",
+            "size": 785
+          },
+          {
+            "executable": false,
+            "path": "installer/com.majestic.host.storage.plist",
+            "sha256": "fd6a08d7ca719ce5daa61a2a805a4a515951f63b7a4455245252d034eaf154fc",
+            "size": 769
+          },
+          {
+            "executable": true,
+            "path": "installer/package_app.py",
+            "sha256": "ba24cdc59da305cddd95383453ae0d8252a79f29142af2c5b7a8192d2ebec6c4",
+            "size": 3344
+          },
+          {
+            "executable": false,
+            "path": "installer/package_host.py",
+            "sha256": "1a3c6e01ba8d0b6dc7ee146c30c4c5b2539fca78b5e5a4e990220f292871fc96",
+            "size": 16871
+          },
+          {
+            "executable": false,
+            "path": "installer/prepare_macos_instance.py",
+            "sha256": "0cbddeb0f61c9e3ebc20eb42f534bfc0a1a75549435eb33041de16f360d2b578",
+            "size": 9110
+          },
+          {
+            "executable": false,
+            "path": "installer/run-service.sh",
+            "sha256": "3d1a471297d0a27709227f41db7d6d10b1c96f1b9de0506fa5725204c0b81aa4",
+            "size": 1975
+          },
+          {
+            "executable": false,
+            "path": "installer/setup.sh",
+            "sha256": "e42efd10e4aa49f44d5d93c073c581b70e3df7cab675bdb9ad70bcb98114dc74",
+            "size": 20084
+          },
+          {
+            "executable": true,
+            "path": "setup/bin/setup_daymerit",
+            "sha256": "bc8161e08f8d166e1f5c2933bac66d29f978878871cad2af01fdec0aac171ae6",
+            "size": 8965184
+          },
+          {
+            "executable": true,
+            "path": "setup/lib/libmajestic_crypto.dylib",
+            "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+            "size": 3613664
+          },
+          {
+            "executable": false,
+            "path": "setup/lib/libsqlite3mc.dylib",
+            "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+            "size": 1946864
+          },
+          {
+            "executable": true,
+            "path": "setup/lib/objective_c.dylib",
+            "sha256": "90702b791f31a4621ba3f4a16f11af11fab8f6bee5fbbc4a88b19494a253d2ee",
+            "size": 233696
+          },
+          {
+            "executable": false,
+            "path": "storage/compatibility.json",
+            "sha256": "c7aafa94666a5dd532c9950e01ef38fc46671cca1c4c51fa4f5305a1a79df144",
+            "size": 66
+          },
+          {
+            "executable": true,
+            "path": "storage/credential-helper",
+            "sha256": "7f338d059fe1be5dc4765a6b5cd871973b4c5c046ff773d1025f9c6e3ab8b473",
+            "size": 90464
+          },
+          {
+            "executable": true,
+            "path": "storage/service",
+            "sha256": "144464807061cbe227bd9ac0285b922411cd9cf7cf1b998971cfece5198bbf64",
+            "size": 4994192
+          }
+        ],
+        "platform": "macos",
+        "productId": "daymerit",
+        "schemaVersion": 1,
+        "services": {
+          "coordinator": {
+            "directory": "coordinator"
+          },
+          "storage": {
+            "directory": "storage"
+          }
+        },
+        "toolchains": {
+          "dart": "3.13.7",
+          "flutter": "3.47.8",
+          "rust": "1.99.1"
+        }
+      },
+      "bundles": {
+        "coordinator": {
+          "executableSha256": "09b772c4e932b43a7ebce64c85ed735ba6ffec556d67a9f711c271a65103937f",
+          "executableMatchesCompiledBundle": true,
+          "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/daymerit-macos-arm64/coordinator/service:\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.100.2)\n\t/System/Library/Frameworks/Security.framework/Versions/A/Security (compatibility version 1.0.0, current version 61123.100.169)\n\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 2420.0.0)\n\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 2420.0.0)\n\t/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices (compatibility version 1.0.0, current version 1226.0.0)\n",
+          "libraries": {
+            "lib/libmajestic_crypto.dylib": {
+              "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+              "size": 3613664,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/daymerit-macos-arm64/coordinator/lib/libmajestic_crypto.dylib:\n\t/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/deps/libmajestic_crypto.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.40.3)\n"
+            },
+            "lib/libsqlite3mc.dylib": {
+              "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+              "size": 1946864,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/daymerit-macos-arm64/coordinator/lib/libsqlite3mc.dylib:\n\t@rpath/lib/libsqlite3mc.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 5026.5.4)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)\n"
+            },
+            "lib/objective_c.dylib": {
+              "sha256": "90702b791f31a4621ba3f4a16f11af11fab8f6bee5fbbc4a88b19494a253d2ee",
+              "size": 233696,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/daymerit-macos-arm64/coordinator/lib/objective_c.dylib:\n\t@rpath/lib/objective_c.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.40.3)\n"
+            }
+          },
+          "rustBridgeExports": [
+            "_frb_get_rust_content_hash",
+            "_frb_init_frb_dart_api_dl",
+            "_frb_pde_ffi_dispatcher_primary",
+            "_frb_pde_ffi_dispatcher_sync"
+          ],
+          "sqliteByteIdenticalToQualifiedRelocationProbe": true,
+          "rawCliBundle": {
+            "files": [
+              {
+                "path": "bin/daymerit_coordinator",
+                "sha256": "09b772c4e932b43a7ebce64c85ed735ba6ffec556d67a9f711c271a65103937f",
+                "size": 11115696,
+                "mode": "0o755"
+              },
+              {
+                "path": "lib/libsqlite3mc.dylib",
+                "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+                "size": 1946864,
+                "mode": "0o644"
+              },
+              {
+                "path": "lib/objective_c.dylib",
+                "sha256": "90702b791f31a4621ba3f4a16f11af11fab8f6bee5fbbc4a88b19494a253d2ee",
+                "size": 233696,
+                "mode": "0o755"
+              }
+            ],
+            "treeSha256": "8373aca99278c2dea3843094e60fa895363b3277b45c79e90da31fe6f65d50a3",
+            "treeAlgorithm": "sha256 of sorted compact JSON per-file path/sha256/size/mode list"
+          }
+        },
+        "setup": {
+          "executableSha256": "bc8161e08f8d166e1f5c2933bac66d29f978878871cad2af01fdec0aac171ae6",
+          "executableMatchesCompiledBundle": true,
+          "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/daymerit-macos-arm64/setup/bin/setup_daymerit:\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.100.2)\n\t/System/Library/Frameworks/Security.framework/Versions/A/Security (compatibility version 1.0.0, current version 61123.100.169)\n\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 2420.0.0)\n\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 2420.0.0)\n\t/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices (compatibility version 1.0.0, current version 1226.0.0)\n",
+          "libraries": {
+            "lib/libmajestic_crypto.dylib": {
+              "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+              "size": 3613664,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/daymerit-macos-arm64/setup/lib/libmajestic_crypto.dylib:\n\t/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/deps/libmajestic_crypto.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.40.3)\n"
+            },
+            "lib/libsqlite3mc.dylib": {
+              "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+              "size": 1946864,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/daymerit-macos-arm64/setup/lib/libsqlite3mc.dylib:\n\t@rpath/lib/libsqlite3mc.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 5026.5.4)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)\n"
+            },
+            "lib/objective_c.dylib": {
+              "sha256": "90702b791f31a4621ba3f4a16f11af11fab8f6bee5fbbc4a88b19494a253d2ee",
+              "size": 233696,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/daymerit-macos-arm64/setup/lib/objective_c.dylib:\n\t@rpath/lib/objective_c.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.40.3)\n"
+            }
+          },
+          "rustBridgeExports": [
+            "_frb_get_rust_content_hash",
+            "_frb_init_frb_dart_api_dl",
+            "_frb_pde_ffi_dispatcher_primary",
+            "_frb_pde_ffi_dispatcher_sync"
+          ],
+          "sqliteByteIdenticalToQualifiedRelocationProbe": true,
+          "rawCliBundle": {
+            "files": [
+              {
+                "path": "bin/setup_daymerit",
+                "sha256": "bc8161e08f8d166e1f5c2933bac66d29f978878871cad2af01fdec0aac171ae6",
+                "size": 8965184,
+                "mode": "0o755"
+              },
+              {
+                "path": "lib/libsqlite3mc.dylib",
+                "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+                "size": 1946864,
+                "mode": "0o644"
+              },
+              {
+                "path": "lib/objective_c.dylib",
+                "sha256": "90702b791f31a4621ba3f4a16f11af11fab8f6bee5fbbc4a88b19494a253d2ee",
+                "size": 233696,
+                "mode": "0o755"
+              }
+            ],
+            "treeSha256": "ff411d59ea3c6b55653fcda98b9601d27d7d64b363933e98a3c4357dbc9d0574",
+            "treeAlgorithm": "sha256 of sorted compact JSON per-file path/sha256/size/mode list"
+          }
+        }
+      },
+      "secretFreeInventoryVerified": true
+    },
+    "paws": {
+      "path": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/paws-macos-arm64",
+      "sourceDirectory": "Paws",
+      "manifestSha256": "7d7e94450fd95523a24261ff5fcb8910574310302455913c4b32cc9168360613",
+      "packageTree": {
+        "files": [
+          {
+            "path": "app-helpers/service-manager",
+            "sha256": "670b7725b6648844515a967504906b3a4b29ccf30afe3b429835fa43e506a1aa",
+            "size": 62432,
+            "mode": "0o755"
+          },
+          {
+            "path": "coordinator/compatibility.json",
+            "sha256": "c7aafa94666a5dd532c9950e01ef38fc46671cca1c4c51fa4f5305a1a79df144",
+            "size": 66,
+            "mode": "0o644"
+          },
+          {
+            "path": "coordinator/credential-helper",
+            "sha256": "7f338d059fe1be5dc4765a6b5cd871973b4c5c046ff773d1025f9c6e3ab8b473",
+            "size": 90464,
+            "mode": "0o755"
+          },
+          {
+            "path": "coordinator/lib/libmajestic_crypto.dylib",
+            "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+            "size": 3613664,
+            "mode": "0o755"
+          },
+          {
+            "path": "coordinator/lib/libsqlite3mc.dylib",
+            "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+            "size": 1946864,
+            "mode": "0o644"
+          },
+          {
+            "path": "coordinator/lib/objective_c.dylib",
+            "sha256": "c8d1ede428fe0635800636cc8404c133a069ead2d8e27274981a12d6c18059cc",
+            "size": 233664,
+            "mode": "0o755"
+          },
+          {
+            "path": "coordinator/service",
+            "sha256": "a6232e1c608639b23d650a3a8e852f8bb0a3351f31d75fb786212c5c113ceb2a",
+            "size": 9490512,
+            "mode": "0o755"
+          },
+          {
+            "path": "installer/com.majestic.host.coordinator.plist",
+            "sha256": "112a226ecdeed518294c1d324285fbbc2ba5274829a1babdbc474112e276dfe4",
+            "size": 785,
+            "mode": "0o644"
+          },
+          {
+            "path": "installer/com.majestic.host.storage.plist",
+            "sha256": "fd6a08d7ca719ce5daa61a2a805a4a515951f63b7a4455245252d034eaf154fc",
+            "size": 769,
+            "mode": "0o644"
+          },
+          {
+            "path": "installer/package_app.py",
+            "sha256": "ba24cdc59da305cddd95383453ae0d8252a79f29142af2c5b7a8192d2ebec6c4",
+            "size": 3344,
+            "mode": "0o755"
+          },
+          {
+            "path": "installer/package_host.py",
+            "sha256": "1a3c6e01ba8d0b6dc7ee146c30c4c5b2539fca78b5e5a4e990220f292871fc96",
+            "size": 16871,
+            "mode": "0o644"
+          },
+          {
+            "path": "installer/prepare_macos_instance.py",
+            "sha256": "0cbddeb0f61c9e3ebc20eb42f534bfc0a1a75549435eb33041de16f360d2b578",
+            "size": 9110,
+            "mode": "0o644"
+          },
+          {
+            "path": "installer/run-service.sh",
+            "sha256": "3d1a471297d0a27709227f41db7d6d10b1c96f1b9de0506fa5725204c0b81aa4",
+            "size": 1975,
+            "mode": "0o644"
+          },
+          {
+            "path": "installer/setup.sh",
+            "sha256": "e42efd10e4aa49f44d5d93c073c581b70e3df7cab675bdb9ad70bcb98114dc74",
+            "size": 20084,
+            "mode": "0o644"
+          },
+          {
+            "path": "manifest.json",
+            "sha256": "7d7e94450fd95523a24261ff5fcb8910574310302455913c4b32cc9168360613",
+            "size": 4421,
+            "mode": "0o644"
+          },
+          {
+            "path": "setup/bin/setup_paws",
+            "sha256": "7954a80e36ac938c39fca16c2a3566cfa70121b2a4147fe12e50995c70e0d11e",
+            "size": 8866688,
+            "mode": "0o755"
+          },
+          {
+            "path": "setup/lib/libmajestic_crypto.dylib",
+            "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+            "size": 3613664,
+            "mode": "0o755"
+          },
+          {
+            "path": "setup/lib/libsqlite3mc.dylib",
+            "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+            "size": 1946864,
+            "mode": "0o644"
+          },
+          {
+            "path": "setup/lib/objective_c.dylib",
+            "sha256": "c8d1ede428fe0635800636cc8404c133a069ead2d8e27274981a12d6c18059cc",
+            "size": 233664,
+            "mode": "0o755"
+          },
+          {
+            "path": "storage/compatibility.json",
+            "sha256": "c7aafa94666a5dd532c9950e01ef38fc46671cca1c4c51fa4f5305a1a79df144",
+            "size": 66,
+            "mode": "0o644"
+          },
+          {
+            "path": "storage/credential-helper",
+            "sha256": "7f338d059fe1be5dc4765a6b5cd871973b4c5c046ff773d1025f9c6e3ab8b473",
+            "size": 90464,
+            "mode": "0o755"
+          },
+          {
+            "path": "storage/service",
+            "sha256": "144464807061cbe227bd9ac0285b922411cd9cf7cf1b998971cfece5198bbf64",
+            "size": 4994192,
+            "mode": "0o755"
+          }
+        ],
+        "treeSha256": "4a5e565ce96c1826b0d89d03b6aee3325fb1066b314132778e65782be790fe1c",
+        "treeAlgorithm": "sha256 of sorted compact JSON per-file path/sha256/size/mode list"
+      },
+      "fileCount": 21,
+      "payloadBytes": 35236206,
+      "manifest": {
+        "architecture": "arm64",
+        "distribution": "unsigned-engineering; publisher signing and OS acceptance required",
+        "files": [
+          {
+            "executable": true,
+            "path": "app-helpers/service-manager",
+            "sha256": "670b7725b6648844515a967504906b3a4b29ccf30afe3b429835fa43e506a1aa",
+            "size": 62432
+          },
+          {
+            "executable": false,
+            "path": "coordinator/compatibility.json",
+            "sha256": "c7aafa94666a5dd532c9950e01ef38fc46671cca1c4c51fa4f5305a1a79df144",
+            "size": 66
+          },
+          {
+            "executable": true,
+            "path": "coordinator/credential-helper",
+            "sha256": "7f338d059fe1be5dc4765a6b5cd871973b4c5c046ff773d1025f9c6e3ab8b473",
+            "size": 90464
+          },
+          {
+            "executable": true,
+            "path": "coordinator/lib/libmajestic_crypto.dylib",
+            "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+            "size": 3613664
+          },
+          {
+            "executable": false,
+            "path": "coordinator/lib/libsqlite3mc.dylib",
+            "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+            "size": 1946864
+          },
+          {
+            "executable": true,
+            "path": "coordinator/lib/objective_c.dylib",
+            "sha256": "c8d1ede428fe0635800636cc8404c133a069ead2d8e27274981a12d6c18059cc",
+            "size": 233664
+          },
+          {
+            "executable": true,
+            "path": "coordinator/service",
+            "sha256": "a6232e1c608639b23d650a3a8e852f8bb0a3351f31d75fb786212c5c113ceb2a",
+            "size": 9490512
+          },
+          {
+            "executable": false,
+            "path": "installer/com.majestic.host.coordinator.plist",
+            "sha256": "112a226ecdeed518294c1d324285fbbc2ba5274829a1babdbc474112e276dfe4",
+            "size": 785
+          },
+          {
+            "executable": false,
+            "path": "installer/com.majestic.host.storage.plist",
+            "sha256": "fd6a08d7ca719ce5daa61a2a805a4a515951f63b7a4455245252d034eaf154fc",
+            "size": 769
+          },
+          {
+            "executable": true,
+            "path": "installer/package_app.py",
+            "sha256": "ba24cdc59da305cddd95383453ae0d8252a79f29142af2c5b7a8192d2ebec6c4",
+            "size": 3344
+          },
+          {
+            "executable": false,
+            "path": "installer/package_host.py",
+            "sha256": "1a3c6e01ba8d0b6dc7ee146c30c4c5b2539fca78b5e5a4e990220f292871fc96",
+            "size": 16871
+          },
+          {
+            "executable": false,
+            "path": "installer/prepare_macos_instance.py",
+            "sha256": "0cbddeb0f61c9e3ebc20eb42f534bfc0a1a75549435eb33041de16f360d2b578",
+            "size": 9110
+          },
+          {
+            "executable": false,
+            "path": "installer/run-service.sh",
+            "sha256": "3d1a471297d0a27709227f41db7d6d10b1c96f1b9de0506fa5725204c0b81aa4",
+            "size": 1975
+          },
+          {
+            "executable": false,
+            "path": "installer/setup.sh",
+            "sha256": "e42efd10e4aa49f44d5d93c073c581b70e3df7cab675bdb9ad70bcb98114dc74",
+            "size": 20084
+          },
+          {
+            "executable": true,
+            "path": "setup/bin/setup_paws",
+            "sha256": "7954a80e36ac938c39fca16c2a3566cfa70121b2a4147fe12e50995c70e0d11e",
+            "size": 8866688
+          },
+          {
+            "executable": true,
+            "path": "setup/lib/libmajestic_crypto.dylib",
+            "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+            "size": 3613664
+          },
+          {
+            "executable": false,
+            "path": "setup/lib/libsqlite3mc.dylib",
+            "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+            "size": 1946864
+          },
+          {
+            "executable": true,
+            "path": "setup/lib/objective_c.dylib",
+            "sha256": "c8d1ede428fe0635800636cc8404c133a069ead2d8e27274981a12d6c18059cc",
+            "size": 233664
+          },
+          {
+            "executable": false,
+            "path": "storage/compatibility.json",
+            "sha256": "c7aafa94666a5dd532c9950e01ef38fc46671cca1c4c51fa4f5305a1a79df144",
+            "size": 66
+          },
+          {
+            "executable": true,
+            "path": "storage/credential-helper",
+            "sha256": "7f338d059fe1be5dc4765a6b5cd871973b4c5c046ff773d1025f9c6e3ab8b473",
+            "size": 90464
+          },
+          {
+            "executable": true,
+            "path": "storage/service",
+            "sha256": "144464807061cbe227bd9ac0285b922411cd9cf7cf1b998971cfece5198bbf64",
+            "size": 4994192
+          }
+        ],
+        "platform": "macos",
+        "productId": "paws",
+        "schemaVersion": 1,
+        "services": {
+          "coordinator": {
+            "directory": "coordinator"
+          },
+          "storage": {
+            "directory": "storage"
+          }
+        },
+        "toolchains": {
+          "dart": "3.13.7",
+          "flutter": "3.47.8",
+          "rust": "1.99.1"
+        }
+      },
+      "bundles": {
+        "coordinator": {
+          "executableSha256": "a6232e1c608639b23d650a3a8e852f8bb0a3351f31d75fb786212c5c113ceb2a",
+          "executableMatchesCompiledBundle": true,
+          "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/paws-macos-arm64/coordinator/service:\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.100.2)\n\t/System/Library/Frameworks/Security.framework/Versions/A/Security (compatibility version 1.0.0, current version 61123.100.169)\n\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 2420.0.0)\n\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 2420.0.0)\n\t/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices (compatibility version 1.0.0, current version 1226.0.0)\n",
+          "libraries": {
+            "lib/libmajestic_crypto.dylib": {
+              "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+              "size": 3613664,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/paws-macos-arm64/coordinator/lib/libmajestic_crypto.dylib:\n\t/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/deps/libmajestic_crypto.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.40.3)\n"
+            },
+            "lib/libsqlite3mc.dylib": {
+              "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+              "size": 1946864,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/paws-macos-arm64/coordinator/lib/libsqlite3mc.dylib:\n\t@rpath/lib/libsqlite3mc.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 5026.5.4)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)\n"
+            },
+            "lib/objective_c.dylib": {
+              "sha256": "c8d1ede428fe0635800636cc8404c133a069ead2d8e27274981a12d6c18059cc",
+              "size": 233664,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/paws-macos-arm64/coordinator/lib/objective_c.dylib:\n\t@rpath/lib/objective_c.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.40.3)\n"
+            }
+          },
+          "rustBridgeExports": [
+            "_frb_get_rust_content_hash",
+            "_frb_init_frb_dart_api_dl",
+            "_frb_pde_ffi_dispatcher_primary",
+            "_frb_pde_ffi_dispatcher_sync"
+          ],
+          "sqliteByteIdenticalToQualifiedRelocationProbe": true,
+          "rawCliBundle": {
+            "files": [
+              {
+                "path": "bin/paws_coordinator",
+                "sha256": "a6232e1c608639b23d650a3a8e852f8bb0a3351f31d75fb786212c5c113ceb2a",
+                "size": 9490512,
+                "mode": "0o755"
+              },
+              {
+                "path": "lib/libsqlite3mc.dylib",
+                "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+                "size": 1946864,
+                "mode": "0o644"
+              },
+              {
+                "path": "lib/objective_c.dylib",
+                "sha256": "c8d1ede428fe0635800636cc8404c133a069ead2d8e27274981a12d6c18059cc",
+                "size": 233664,
+                "mode": "0o755"
+              }
+            ],
+            "treeSha256": "7ef8854a1529b3b0c5405ee923e7b815e2cca19b4f04497153f894dd8d07835d",
+            "treeAlgorithm": "sha256 of sorted compact JSON per-file path/sha256/size/mode list"
+          }
+        },
+        "setup": {
+          "executableSha256": "7954a80e36ac938c39fca16c2a3566cfa70121b2a4147fe12e50995c70e0d11e",
+          "executableMatchesCompiledBundle": true,
+          "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/paws-macos-arm64/setup/bin/setup_paws:\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.100.2)\n\t/System/Library/Frameworks/Security.framework/Versions/A/Security (compatibility version 1.0.0, current version 61123.100.169)\n\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 2420.0.0)\n\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 2420.0.0)\n\t/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices (compatibility version 1.0.0, current version 1226.0.0)\n",
+          "libraries": {
+            "lib/libmajestic_crypto.dylib": {
+              "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+              "size": 3613664,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/paws-macos-arm64/setup/lib/libmajestic_crypto.dylib:\n\t/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/deps/libmajestic_crypto.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.40.3)\n"
+            },
+            "lib/libsqlite3mc.dylib": {
+              "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+              "size": 1946864,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/paws-macos-arm64/setup/lib/libsqlite3mc.dylib:\n\t@rpath/lib/libsqlite3mc.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 5026.5.4)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)\n"
+            },
+            "lib/objective_c.dylib": {
+              "sha256": "c8d1ede428fe0635800636cc8404c133a069ead2d8e27274981a12d6c18059cc",
+              "size": 233664,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/paws-macos-arm64/setup/lib/objective_c.dylib:\n\t@rpath/lib/objective_c.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.40.3)\n"
+            }
+          },
+          "rustBridgeExports": [
+            "_frb_get_rust_content_hash",
+            "_frb_init_frb_dart_api_dl",
+            "_frb_pde_ffi_dispatcher_primary",
+            "_frb_pde_ffi_dispatcher_sync"
+          ],
+          "sqliteByteIdenticalToQualifiedRelocationProbe": true,
+          "rawCliBundle": {
+            "files": [
+              {
+                "path": "bin/setup_paws",
+                "sha256": "7954a80e36ac938c39fca16c2a3566cfa70121b2a4147fe12e50995c70e0d11e",
+                "size": 8866688,
+                "mode": "0o755"
+              },
+              {
+                "path": "lib/libsqlite3mc.dylib",
+                "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+                "size": 1946864,
+                "mode": "0o644"
+              },
+              {
+                "path": "lib/objective_c.dylib",
+                "sha256": "c8d1ede428fe0635800636cc8404c133a069ead2d8e27274981a12d6c18059cc",
+                "size": 233664,
+                "mode": "0o755"
+              }
+            ],
+            "treeSha256": "4dcf241a2f006cbcf0a3711f16e5d2c9ef7dd5e1527a285db6160b4700c75d00",
+            "treeAlgorithm": "sha256 of sorted compact JSON per-file path/sha256/size/mode list"
+          }
+        }
+      },
+      "secretFreeInventoryVerified": true
+    },
+    "pantry": {
+      "path": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/pantry-macos-arm64",
+      "sourceDirectory": "Pantry-Clock/hosting_pilot",
+      "manifestSha256": "2b9cde3efb381e3d47bde5e7b6e54a1e5d37e62b9915e7f6853a4bbf3826f437",
+      "packageTree": {
+        "files": [
+          {
+            "path": "app-helpers/service-manager",
+            "sha256": "670b7725b6648844515a967504906b3a4b29ccf30afe3b429835fa43e506a1aa",
+            "size": 62432,
+            "mode": "0o755"
+          },
+          {
+            "path": "coordinator/compatibility.json",
+            "sha256": "c7aafa94666a5dd532c9950e01ef38fc46671cca1c4c51fa4f5305a1a79df144",
+            "size": 66,
+            "mode": "0o644"
+          },
+          {
+            "path": "coordinator/credential-helper",
+            "sha256": "7f338d059fe1be5dc4765a6b5cd871973b4c5c046ff773d1025f9c6e3ab8b473",
+            "size": 90464,
+            "mode": "0o755"
+          },
+          {
+            "path": "coordinator/lib/libmajestic_crypto.dylib",
+            "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+            "size": 3613664,
+            "mode": "0o755"
+          },
+          {
+            "path": "coordinator/lib/libsqlite3mc.dylib",
+            "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+            "size": 1946864,
+            "mode": "0o644"
+          },
+          {
+            "path": "coordinator/lib/objective_c.dylib",
+            "sha256": "c54e5a0da5fa75fd8ec4b8c67cc1fc9e6f0109fa01a944820d54981d2fc9e0bc",
+            "size": 233840,
+            "mode": "0o755"
+          },
+          {
+            "path": "coordinator/service",
+            "sha256": "45a67f7b31f0e4c48c08daa1e485a3002b918279ca2976ffae7e1f34dbb642d8",
+            "size": 9490512,
+            "mode": "0o755"
+          },
+          {
+            "path": "installer/com.majestic.host.coordinator.plist",
+            "sha256": "112a226ecdeed518294c1d324285fbbc2ba5274829a1babdbc474112e276dfe4",
+            "size": 785,
+            "mode": "0o644"
+          },
+          {
+            "path": "installer/com.majestic.host.storage.plist",
+            "sha256": "fd6a08d7ca719ce5daa61a2a805a4a515951f63b7a4455245252d034eaf154fc",
+            "size": 769,
+            "mode": "0o644"
+          },
+          {
+            "path": "installer/package_app.py",
+            "sha256": "ba24cdc59da305cddd95383453ae0d8252a79f29142af2c5b7a8192d2ebec6c4",
+            "size": 3344,
+            "mode": "0o755"
+          },
+          {
+            "path": "installer/package_host.py",
+            "sha256": "1a3c6e01ba8d0b6dc7ee146c30c4c5b2539fca78b5e5a4e990220f292871fc96",
+            "size": 16871,
+            "mode": "0o644"
+          },
+          {
+            "path": "installer/prepare_macos_instance.py",
+            "sha256": "0cbddeb0f61c9e3ebc20eb42f534bfc0a1a75549435eb33041de16f360d2b578",
+            "size": 9110,
+            "mode": "0o644"
+          },
+          {
+            "path": "installer/run-service.sh",
+            "sha256": "3d1a471297d0a27709227f41db7d6d10b1c96f1b9de0506fa5725204c0b81aa4",
+            "size": 1975,
+            "mode": "0o644"
+          },
+          {
+            "path": "installer/setup.sh",
+            "sha256": "e42efd10e4aa49f44d5d93c073c581b70e3df7cab675bdb9ad70bcb98114dc74",
+            "size": 20084,
+            "mode": "0o644"
+          },
+          {
+            "path": "manifest.json",
+            "sha256": "2b9cde3efb381e3d47bde5e7b6e54a1e5d37e62b9915e7f6853a4bbf3826f437",
+            "size": 4425,
+            "mode": "0o644"
+          },
+          {
+            "path": "setup/bin/setup_pantry",
+            "sha256": "2bf463f69c67f3e508fcfe74b128a27dd1f72867c3ae6baf6346bb94e83db8c4",
+            "size": 8866688,
+            "mode": "0o755"
+          },
+          {
+            "path": "setup/lib/libmajestic_crypto.dylib",
+            "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+            "size": 3613664,
+            "mode": "0o755"
+          },
+          {
+            "path": "setup/lib/libsqlite3mc.dylib",
+            "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+            "size": 1946864,
+            "mode": "0o644"
+          },
+          {
+            "path": "setup/lib/objective_c.dylib",
+            "sha256": "c54e5a0da5fa75fd8ec4b8c67cc1fc9e6f0109fa01a944820d54981d2fc9e0bc",
+            "size": 233840,
+            "mode": "0o755"
+          },
+          {
+            "path": "storage/compatibility.json",
+            "sha256": "c7aafa94666a5dd532c9950e01ef38fc46671cca1c4c51fa4f5305a1a79df144",
+            "size": 66,
+            "mode": "0o644"
+          },
+          {
+            "path": "storage/credential-helper",
+            "sha256": "7f338d059fe1be5dc4765a6b5cd871973b4c5c046ff773d1025f9c6e3ab8b473",
+            "size": 90464,
+            "mode": "0o755"
+          },
+          {
+            "path": "storage/service",
+            "sha256": "144464807061cbe227bd9ac0285b922411cd9cf7cf1b998971cfece5198bbf64",
+            "size": 4994192,
+            "mode": "0o755"
+          }
+        ],
+        "treeSha256": "a5cfc2ab53273c6b08be300ffbfcc8046b20bb513dcfd3a047c42433c8264172",
+        "treeAlgorithm": "sha256 of sorted compact JSON per-file path/sha256/size/mode list"
+      },
+      "fileCount": 21,
+      "payloadBytes": 35236558,
+      "manifest": {
+        "architecture": "arm64",
+        "distribution": "unsigned-engineering; publisher signing and OS acceptance required",
+        "files": [
+          {
+            "executable": true,
+            "path": "app-helpers/service-manager",
+            "sha256": "670b7725b6648844515a967504906b3a4b29ccf30afe3b429835fa43e506a1aa",
+            "size": 62432
+          },
+          {
+            "executable": false,
+            "path": "coordinator/compatibility.json",
+            "sha256": "c7aafa94666a5dd532c9950e01ef38fc46671cca1c4c51fa4f5305a1a79df144",
+            "size": 66
+          },
+          {
+            "executable": true,
+            "path": "coordinator/credential-helper",
+            "sha256": "7f338d059fe1be5dc4765a6b5cd871973b4c5c046ff773d1025f9c6e3ab8b473",
+            "size": 90464
+          },
+          {
+            "executable": true,
+            "path": "coordinator/lib/libmajestic_crypto.dylib",
+            "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+            "size": 3613664
+          },
+          {
+            "executable": false,
+            "path": "coordinator/lib/libsqlite3mc.dylib",
+            "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+            "size": 1946864
+          },
+          {
+            "executable": true,
+            "path": "coordinator/lib/objective_c.dylib",
+            "sha256": "c54e5a0da5fa75fd8ec4b8c67cc1fc9e6f0109fa01a944820d54981d2fc9e0bc",
+            "size": 233840
+          },
+          {
+            "executable": true,
+            "path": "coordinator/service",
+            "sha256": "45a67f7b31f0e4c48c08daa1e485a3002b918279ca2976ffae7e1f34dbb642d8",
+            "size": 9490512
+          },
+          {
+            "executable": false,
+            "path": "installer/com.majestic.host.coordinator.plist",
+            "sha256": "112a226ecdeed518294c1d324285fbbc2ba5274829a1babdbc474112e276dfe4",
+            "size": 785
+          },
+          {
+            "executable": false,
+            "path": "installer/com.majestic.host.storage.plist",
+            "sha256": "fd6a08d7ca719ce5daa61a2a805a4a515951f63b7a4455245252d034eaf154fc",
+            "size": 769
+          },
+          {
+            "executable": true,
+            "path": "installer/package_app.py",
+            "sha256": "ba24cdc59da305cddd95383453ae0d8252a79f29142af2c5b7a8192d2ebec6c4",
+            "size": 3344
+          },
+          {
+            "executable": false,
+            "path": "installer/package_host.py",
+            "sha256": "1a3c6e01ba8d0b6dc7ee146c30c4c5b2539fca78b5e5a4e990220f292871fc96",
+            "size": 16871
+          },
+          {
+            "executable": false,
+            "path": "installer/prepare_macos_instance.py",
+            "sha256": "0cbddeb0f61c9e3ebc20eb42f534bfc0a1a75549435eb33041de16f360d2b578",
+            "size": 9110
+          },
+          {
+            "executable": false,
+            "path": "installer/run-service.sh",
+            "sha256": "3d1a471297d0a27709227f41db7d6d10b1c96f1b9de0506fa5725204c0b81aa4",
+            "size": 1975
+          },
+          {
+            "executable": false,
+            "path": "installer/setup.sh",
+            "sha256": "e42efd10e4aa49f44d5d93c073c581b70e3df7cab675bdb9ad70bcb98114dc74",
+            "size": 20084
+          },
+          {
+            "executable": true,
+            "path": "setup/bin/setup_pantry",
+            "sha256": "2bf463f69c67f3e508fcfe74b128a27dd1f72867c3ae6baf6346bb94e83db8c4",
+            "size": 8866688
+          },
+          {
+            "executable": true,
+            "path": "setup/lib/libmajestic_crypto.dylib",
+            "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+            "size": 3613664
+          },
+          {
+            "executable": false,
+            "path": "setup/lib/libsqlite3mc.dylib",
+            "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+            "size": 1946864
+          },
+          {
+            "executable": true,
+            "path": "setup/lib/objective_c.dylib",
+            "sha256": "c54e5a0da5fa75fd8ec4b8c67cc1fc9e6f0109fa01a944820d54981d2fc9e0bc",
+            "size": 233840
+          },
+          {
+            "executable": false,
+            "path": "storage/compatibility.json",
+            "sha256": "c7aafa94666a5dd532c9950e01ef38fc46671cca1c4c51fa4f5305a1a79df144",
+            "size": 66
+          },
+          {
+            "executable": true,
+            "path": "storage/credential-helper",
+            "sha256": "7f338d059fe1be5dc4765a6b5cd871973b4c5c046ff773d1025f9c6e3ab8b473",
+            "size": 90464
+          },
+          {
+            "executable": true,
+            "path": "storage/service",
+            "sha256": "144464807061cbe227bd9ac0285b922411cd9cf7cf1b998971cfece5198bbf64",
+            "size": 4994192
+          }
+        ],
+        "platform": "macos",
+        "productId": "pantry",
+        "schemaVersion": 1,
+        "services": {
+          "coordinator": {
+            "directory": "coordinator"
+          },
+          "storage": {
+            "directory": "storage"
+          }
+        },
+        "toolchains": {
+          "dart": "3.13.7",
+          "flutter": "3.47.8",
+          "rust": "1.99.1"
+        }
+      },
+      "bundles": {
+        "coordinator": {
+          "executableSha256": "45a67f7b31f0e4c48c08daa1e485a3002b918279ca2976ffae7e1f34dbb642d8",
+          "executableMatchesCompiledBundle": true,
+          "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/pantry-macos-arm64/coordinator/service:\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.100.2)\n\t/System/Library/Frameworks/Security.framework/Versions/A/Security (compatibility version 1.0.0, current version 61123.100.169)\n\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 2420.0.0)\n\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 2420.0.0)\n\t/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices (compatibility version 1.0.0, current version 1226.0.0)\n",
+          "libraries": {
+            "lib/libmajestic_crypto.dylib": {
+              "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+              "size": 3613664,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/pantry-macos-arm64/coordinator/lib/libmajestic_crypto.dylib:\n\t/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/deps/libmajestic_crypto.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.40.3)\n"
+            },
+            "lib/libsqlite3mc.dylib": {
+              "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+              "size": 1946864,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/pantry-macos-arm64/coordinator/lib/libsqlite3mc.dylib:\n\t@rpath/lib/libsqlite3mc.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 5026.5.4)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)\n"
+            },
+            "lib/objective_c.dylib": {
+              "sha256": "c54e5a0da5fa75fd8ec4b8c67cc1fc9e6f0109fa01a944820d54981d2fc9e0bc",
+              "size": 233840,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/pantry-macos-arm64/coordinator/lib/objective_c.dylib:\n\t@rpath/lib/objective_c.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.40.3)\n"
+            }
+          },
+          "rustBridgeExports": [
+            "_frb_get_rust_content_hash",
+            "_frb_init_frb_dart_api_dl",
+            "_frb_pde_ffi_dispatcher_primary",
+            "_frb_pde_ffi_dispatcher_sync"
+          ],
+          "sqliteByteIdenticalToQualifiedRelocationProbe": true,
+          "rawCliBundle": {
+            "files": [
+              {
+                "path": "bin/pantry_coordinator",
+                "sha256": "45a67f7b31f0e4c48c08daa1e485a3002b918279ca2976ffae7e1f34dbb642d8",
+                "size": 9490512,
+                "mode": "0o755"
+              },
+              {
+                "path": "lib/libsqlite3mc.dylib",
+                "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+                "size": 1946864,
+                "mode": "0o644"
+              },
+              {
+                "path": "lib/objective_c.dylib",
+                "sha256": "c54e5a0da5fa75fd8ec4b8c67cc1fc9e6f0109fa01a944820d54981d2fc9e0bc",
+                "size": 233840,
+                "mode": "0o755"
+              }
+            ],
+            "treeSha256": "7c3d9320bd622f2b973b9b8c20db87dc3c010c0da596e4dd9e42ec3b144ddafe",
+            "treeAlgorithm": "sha256 of sorted compact JSON per-file path/sha256/size/mode list"
+          }
+        },
+        "setup": {
+          "executableSha256": "2bf463f69c67f3e508fcfe74b128a27dd1f72867c3ae6baf6346bb94e83db8c4",
+          "executableMatchesCompiledBundle": true,
+          "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/pantry-macos-arm64/setup/bin/setup_pantry:\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.100.2)\n\t/System/Library/Frameworks/Security.framework/Versions/A/Security (compatibility version 1.0.0, current version 61123.100.169)\n\t/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation (compatibility version 150.0.0, current version 2420.0.0)\n\t/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 2420.0.0)\n\t/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices (compatibility version 1.0.0, current version 1226.0.0)\n",
+          "libraries": {
+            "lib/libmajestic_crypto.dylib": {
+              "sha256": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+              "size": 3613664,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/pantry-macos-arm64/setup/lib/libmajestic_crypto.dylib:\n\t/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/deps/libmajestic_crypto.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.40.3)\n"
+            },
+            "lib/libsqlite3mc.dylib": {
+              "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+              "size": 1946864,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/pantry-macos-arm64/setup/lib/libsqlite3mc.dylib:\n\t@rpath/lib/libsqlite3mc.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (compatibility version 300.0.0, current version 5026.5.4)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)\n"
+            },
+            "lib/objective_c.dylib": {
+              "sha256": "c54e5a0da5fa75fd8ec4b8c67cc1fc9e6f0109fa01a944820d54981d2fc9e0bc",
+              "size": 233840,
+              "linkedLibraries": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-packages/pantry-macos-arm64/setup/lib/objective_c.dylib:\n\t@rpath/lib/objective_c.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1359.40.3)\n"
+            }
+          },
+          "rustBridgeExports": [
+            "_frb_get_rust_content_hash",
+            "_frb_init_frb_dart_api_dl",
+            "_frb_pde_ffi_dispatcher_primary",
+            "_frb_pde_ffi_dispatcher_sync"
+          ],
+          "sqliteByteIdenticalToQualifiedRelocationProbe": true,
+          "rawCliBundle": {
+            "files": [
+              {
+                "path": "bin/setup_pantry",
+                "sha256": "2bf463f69c67f3e508fcfe74b128a27dd1f72867c3ae6baf6346bb94e83db8c4",
+                "size": 8866688,
+                "mode": "0o755"
+              },
+              {
+                "path": "lib/libsqlite3mc.dylib",
+                "sha256": "90660d999836321409aade589972ba4bca5a7758094fdb93720381343a0e3717",
+                "size": 1946864,
+                "mode": "0o644"
+              },
+              {
+                "path": "lib/objective_c.dylib",
+                "sha256": "c54e5a0da5fa75fd8ec4b8c67cc1fc9e6f0109fa01a944820d54981d2fc9e0bc",
+                "size": 233840,
+                "mode": "0o755"
+              }
+            ],
+            "treeSha256": "178b7c2e06b71380f007b956569172165cdc40157290e826b8374ce6b5970820",
+            "treeAlgorithm": "sha256 of sorted compact JSON per-file path/sha256/size/mode list"
+          }
+        }
+      },
+      "secretFreeInventoryVerified": true
+    }
+  },
+  "remainingGates": [
+    "Developer ID signing/notarization and signed installer acceptance",
+    "Dedicated service UID/System Keychain unattended operation on Mac",
+    "Supported minimum OS and x86_64 execution; physical logout/reboot lifecycle"
+  ],
+  "preservedAttempt": {
+    "path": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/product-cli/results.json",
+    "sha256": "b4e25f018be4c6973f09063314cd71b4026ca48db0f19515f73989a93a9b8973",
+    "reason": "Unsupported Rust serve --help probe corrected to side-effect-free no-argument usage; prior attempt and logs unchanged"
+  }
+}

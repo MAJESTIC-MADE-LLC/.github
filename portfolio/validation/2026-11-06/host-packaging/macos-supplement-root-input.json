@@ -1,0 +1,128 @@
+{
+  "acceptedChecks": 7,
+  "artifacts": [
+    {
+      "path": "macos/run-04/artifacts/arm64/credential-helper",
+      "sha256": "7f338d059fe1be5dc4765a6b5cd871973b4c5c046ff773d1025f9c6e3ab8b473",
+      "size": 90464
+    },
+    {
+      "path": "macos/run-04/artifacts/arm64/service-manager",
+      "sha256": "670b7725b6648844515a967504906b3a4b29ccf30afe3b429835fa43e506a1aa",
+      "size": 62432
+    },
+    {
+      "path": "macos/run-04/artifacts/test-helper-builds.json",
+      "sha256": "20ba53f5d5f765de0db24b1541761e642b545e30e69c245f670b4ed575e5bd37",
+      "size": 727
+    },
+    {
+      "path": "macos/run-04/artifacts/x86_64/credential-helper",
+      "sha256": "911f668a8b66a6d7c26e1662d9993b007a36a093cef45d545c106da4d3f65310",
+      "size": 68808
+    },
+    {
+      "path": "macos/run-04/artifacts/x86_64/service-manager",
+      "sha256": "5a873deecec4d4fb057fb3543e3e0b868417ae5176ab27b6548095b1fe2bc131",
+      "size": 36888
+    }
+  ],
+  "evidenceDirectory": "/Users/bespin-starter/Documents/Majestic/.archives/validation/host-packaging-2026-11-06/macos/run-04",
+  "logs": [
+    {
+      "exitCode": 0,
+      "name": "environment",
+      "path": "macos/run-04/environment.log",
+      "sha256": "de1725dd7dac0e59cab6086ead0f2021440c267b95caa37f571c97078a2f8e48"
+    },
+    {
+      "exitCode": 0,
+      "name": "signing-identities",
+      "path": "macos/run-04/signing-identities.log",
+      "sha256": "0ad30eb1563c325d77f4dc564c5d96851d5a39205307f5cdd7d762b59688f87a"
+    },
+    {
+      "exitCode": 0,
+      "name": "macos-checks",
+      "path": "macos/run-04/macos-checks.log",
+      "sha256": "7c4a7333ba4c85ee3a4725e004ef309da30fdc03a13eaaf2409cf0406cb47edb"
+    },
+    {
+      "exitCode": 0,
+      "name": "build-arm64",
+      "path": "macos/run-04/build-arm64.log",
+      "sha256": "a0760d18d29e191dc673776c622734dbf4878190478e64c3d27a122de572ed48"
+    },
+    {
+      "exitCode": 0,
+      "name": "build-x86_64",
+      "path": "macos/run-04/build-x86_64.log",
+      "sha256": "a0760d18d29e191dc673776c622734dbf4878190478e64c3d27a122de572ed48"
+    },
+    {
+      "exitCode": 0,
+      "name": "syntax-build.sh",
+      "path": "macos/run-04/syntax-build.sh.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "exitCode": 0,
+      "name": "syntax-run-service.sh",
+      "path": "macos/run-04/syntax-run-service.sh.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "exitCode": 0,
+      "name": "syntax-setup.sh",
+      "path": "macos/run-04/syntax-setup.sh.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "exitCode": 0,
+      "name": "plist-storage",
+      "path": "macos/run-04/plist-storage.log",
+      "sha256": "5f7ad76668e488afae872fd79f7d2b89b68f25f844b5a5e597cb46b6fe7e0364"
+    },
+    {
+      "exitCode": 0,
+      "name": "plist-coordinator",
+      "path": "macos/run-04/plist-coordinator.log",
+      "sha256": "7365cc0b1ce24ea08e3d3ec6e6eb96077c4b8dca98ceec2f29221a46e5f37568"
+    }
+  ],
+  "metadata": [
+    {
+      "path": "macos/run-04/result.json",
+      "sha256": "44eeb03f60b058b07b64da55e0159beba2c04c1941a03eb83caf0345d758b077"
+    },
+    {
+      "path": "macos/run-04/source-before.json",
+      "sha256": "4693218f086efa4c8304a01935eb3787f3ecaa16cd7d8b95f3c8aea3dbedfb88"
+    },
+    {
+      "path": "macos/run-04/source-after.json",
+      "sha256": "4693218f086efa4c8304a01935eb3787f3ecaa16cd7d8b95f3c8aea3dbedfb88"
+    },
+    {
+      "path": "macos/run-04/commands.json",
+      "sha256": "7d45a125741dac75ccac2b466079f7054704b412b429dff3b4abe1bade007b04"
+    },
+    {
+      "path": "macos/run-04/artifacts.json",
+      "sha256": "12faa706d9844c6f4aaff8ba5a2e7e059d028278951a8f986c32525f266b8246"
+    }
+  ],
+  "newCheck": "Actual maintained read-only policy functions reject UID501 private files/directories/links and root-owned world-writable ancestry; protected /private ancestry accepted; nonprivileged provision and plan have no privileged mutations",
+  "productionInputPolicy": "Administrator-created root-owned private inputs only; full nonsymlink root-owned non-group/other-writable ancestor chain, no extra ACLs, exact files/DB graph; ordinary-user developer fixtures do not qualify production provisioning.",
+  "qualificationScope": "macOS arm64 developer components plus isolated GUI launchd and temporary Keychain; x86_64 cross-compilation only",
+  "remainingGates": [
+    "No valid Developer ID identities: signed/notarized installer acceptance unavailable",
+    "No unattended admin access: actual dedicated-UID System Keychain/SMAppService system-daemon install/update/uninstall not exercised",
+    "Actual logout/reboot, minimum supported macOS and x86_64 execution acceptance pending"
+  ],
+  "schemaVersion": 1,
+  "sourceFingerprint": "6ddcdb98363d2086ee7938c4b4441136c1d84d14eda7f8c2f9e2a36049ee128b",
+  "sourceStable": true,
+  "status": "draft-for-root-review",
+  "supersedesSourceScope": "macos-supplement.json run-03 remains unchanged; this supplement covers root-controlled input hardening"
+}

@@ -1,0 +1,571 @@
+{
+  "capturedAt": "2026-11-06T20:26:43.903955+00:00",
+  "cohortFingerprint": "ec81075d82b0c298c2de59e27d4efc53ec668296bdfa0e48e5684b83656fe287",
+  "consumers": [
+    {
+      "application": "App-Template",
+      "declaredStatus": "adopting",
+      "sourceFingerprintPolicyVersion": 2,
+      "packageProvenance": "git-immutable",
+      "immutablePackageRevisions": "passed",
+      "verifiedPackageSources": [
+        {
+          "package": "majestic_app",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_app",
+          "contentSha256": "695756a24f21d2820ce4e7e81b29745945371d248751244175916c0dcb690716"
+        },
+        {
+          "package": "majestic_privacy",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_privacy",
+          "contentSha256": "0f8e6ddcb1f9ceca18e9b2db99e508df0ea3f443475f8e2b273689df538c1e92"
+        },
+        {
+          "package": "majestic_storage",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_storage",
+          "contentSha256": "879ac3ac9a3ae30eae1a03a71231a5cd99797855b9867d0ab3af94cd0233907e"
+        },
+        {
+          "package": "majestic_purchases",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_purchases",
+          "contentSha256": "1b0d06f939fed40d58989b3b5af5bdcc70b38e5e8cd1da9045f7665c6eac8e37"
+        }
+      ],
+      "staticAdoption": "passed",
+      "errors": [],
+      "sourceFingerprint": "5f8869190230b285baad1b3ea247b5dc2cdc633a2e6e95f3eba48c798420e596",
+      "foundationEvidence": "pending",
+      "pendingEvidence": [
+        "analysis: evidence belongs to another source fingerprint",
+        "tests: evidence belongs to another source fingerprint",
+        "ios_release_build: evidence belongs to another source fingerprint",
+        "android_release_build: evidence belongs to another source fingerprint",
+        "generated_template_smoke: evidence belongs to another source fingerprint"
+      ]
+    },
+    {
+      "application": "Skepbook",
+      "declaredStatus": "adopting",
+      "sourceFingerprintPolicyVersion": 2,
+      "packageProvenance": "git-immutable",
+      "immutablePackageRevisions": "passed",
+      "verifiedPackageSources": [
+        {
+          "package": "majestic_app",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_app",
+          "contentSha256": "695756a24f21d2820ce4e7e81b29745945371d248751244175916c0dcb690716"
+        },
+        {
+          "package": "majestic_privacy",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_privacy",
+          "contentSha256": "0f8e6ddcb1f9ceca18e9b2db99e508df0ea3f443475f8e2b273689df538c1e92"
+        },
+        {
+          "package": "majestic_storage",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_storage",
+          "contentSha256": "879ac3ac9a3ae30eae1a03a71231a5cd99797855b9867d0ab3af94cd0233907e"
+        },
+        {
+          "package": "majestic_purchases",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_purchases",
+          "contentSha256": "1b0d06f939fed40d58989b3b5af5bdcc70b38e5e8cd1da9045f7665c6eac8e37"
+        },
+        {
+          "package": "majestic_reports",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_reports",
+          "contentSha256": "7de592b0a329110c255b4397ed8ba7953c86417926d33e914293ef1acf76e761"
+        },
+        {
+          "package": "majestic_reminders",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_reminders",
+          "contentSha256": "63de312143d66580702eaba3e9c462adffc86f2b436f7252a792bf0993266213"
+        },
+        {
+          "package": "majestic_media",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_media",
+          "contentSha256": "f8e5381bbd9aaa1f2eecc744285e919d8387b632c2f7b11d830b1114409f6b7b"
+        },
+        {
+          "package": "majestic_qr",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_qr",
+          "contentSha256": "9ca5b3ed16cee40eece0e208c4b0d8a66fec0aea48e18bade2e6412dac0135f0"
+        },
+        {
+          "package": "majestic_hosting",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac",
+          "path": "packages/majestic_hosting",
+          "contentSha256": "3f59c8c387e81553deea12665c7eb9e880653817ac450239927d7b8b829a7b4e"
+        },
+        {
+          "package": "majestic_sync",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac",
+          "path": "packages/majestic_sync",
+          "contentSha256": "c449b08b7a6799123075ad23cd7aa977e0c7a826319e53fbf705cc85a9d2878e"
+        },
+        {
+          "package": "majestic_sync_crypto",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac",
+          "path": "packages/majestic_sync_crypto",
+          "contentSha256": "39d1751b0b80e74d8efdf0db0aa95146569afe8f726efb84001a77bca83d8e72"
+        }
+      ],
+      "staticAdoption": "passed",
+      "errors": [],
+      "sourceFingerprint": "5a8aabeab33f0eed75e3cc5dcb6862fc9661f8766a485d44514b33b8d2482346",
+      "foundationEvidence": "pending",
+      "pendingEvidence": [
+        "analysis: evidence belongs to another source fingerprint",
+        "tests: evidence belongs to another source fingerprint",
+        "ios_release_build: evidence belongs to another source fingerprint",
+        "android_release_build: evidence belongs to another source fingerprint",
+        "foundation_contracts: evidence belongs to another source fingerprint",
+        "migration_contracts: evidence belongs to another source fingerprint"
+      ]
+    },
+    {
+      "application": "Ridelore",
+      "declaredStatus": "adopting",
+      "sourceFingerprintPolicyVersion": 2,
+      "packageProvenance": "git-immutable",
+      "immutablePackageRevisions": "passed",
+      "verifiedPackageSources": [
+        {
+          "package": "majestic_app",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_app",
+          "contentSha256": "695756a24f21d2820ce4e7e81b29745945371d248751244175916c0dcb690716"
+        },
+        {
+          "package": "majestic_privacy",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_privacy",
+          "contentSha256": "0f8e6ddcb1f9ceca18e9b2db99e508df0ea3f443475f8e2b273689df538c1e92"
+        },
+        {
+          "package": "majestic_storage",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_storage",
+          "contentSha256": "879ac3ac9a3ae30eae1a03a71231a5cd99797855b9867d0ab3af94cd0233907e"
+        },
+        {
+          "package": "majestic_purchases",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_purchases",
+          "contentSha256": "1b0d06f939fed40d58989b3b5af5bdcc70b38e5e8cd1da9045f7665c6eac8e37"
+        },
+        {
+          "package": "majestic_reports",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_reports",
+          "contentSha256": "7de592b0a329110c255b4397ed8ba7953c86417926d33e914293ef1acf76e761"
+        },
+        {
+          "package": "majestic_reminders",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_reminders",
+          "contentSha256": "63de312143d66580702eaba3e9c462adffc86f2b436f7252a792bf0993266213"
+        },
+        {
+          "package": "majestic_media",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_media",
+          "contentSha256": "f8e5381bbd9aaa1f2eecc744285e919d8387b632c2f7b11d830b1114409f6b7b"
+        }
+      ],
+      "staticAdoption": "passed",
+      "errors": [],
+      "sourceFingerprint": "475813586f7445bb4bb3c75e43057280b658522a2227738c50c37104ffeda46e",
+      "foundationEvidence": "passed",
+      "pendingEvidence": []
+    },
+    {
+      "application": "Paws",
+      "declaredStatus": "adopting",
+      "sourceFingerprintPolicyVersion": 2,
+      "packageProvenance": "git-immutable",
+      "immutablePackageRevisions": "passed",
+      "verifiedPackageSources": [
+        {
+          "package": "majestic_app",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_app",
+          "contentSha256": "695756a24f21d2820ce4e7e81b29745945371d248751244175916c0dcb690716"
+        },
+        {
+          "package": "majestic_privacy",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_privacy",
+          "contentSha256": "0f8e6ddcb1f9ceca18e9b2db99e508df0ea3f443475f8e2b273689df538c1e92"
+        },
+        {
+          "package": "majestic_storage",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_storage",
+          "contentSha256": "879ac3ac9a3ae30eae1a03a71231a5cd99797855b9867d0ab3af94cd0233907e"
+        },
+        {
+          "package": "majestic_purchases",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_purchases",
+          "contentSha256": "1b0d06f939fed40d58989b3b5af5bdcc70b38e5e8cd1da9045f7665c6eac8e37"
+        },
+        {
+          "package": "majestic_reports",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_reports",
+          "contentSha256": "7de592b0a329110c255b4397ed8ba7953c86417926d33e914293ef1acf76e761"
+        },
+        {
+          "package": "majestic_hosting",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac",
+          "path": "packages/majestic_hosting",
+          "contentSha256": "3f59c8c387e81553deea12665c7eb9e880653817ac450239927d7b8b829a7b4e"
+        },
+        {
+          "package": "majestic_sync",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac",
+          "path": "packages/majestic_sync",
+          "contentSha256": "c449b08b7a6799123075ad23cd7aa977e0c7a826319e53fbf705cc85a9d2878e"
+        },
+        {
+          "package": "majestic_sync_crypto",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac",
+          "path": "packages/majestic_sync_crypto",
+          "contentSha256": "39d1751b0b80e74d8efdf0db0aa95146569afe8f726efb84001a77bca83d8e72"
+        }
+      ],
+      "staticAdoption": "passed",
+      "errors": [],
+      "sourceFingerprint": "3e314c37c2b1d584f0d31d67d96d87262adba0b11b6371a5d68cef2692017d02",
+      "foundationEvidence": "pending",
+      "pendingEvidence": [
+        "analysis: evidence belongs to another source fingerprint",
+        "tests: evidence belongs to another source fingerprint",
+        "ios_release_build: evidence belongs to another source fingerprint",
+        "android_release_build: evidence belongs to another source fingerprint",
+        "foundation_contracts: evidence belongs to another source fingerprint",
+        "migration_contracts: evidence belongs to another source fingerprint"
+      ]
+    },
+    {
+      "application": "Pantry-Clock",
+      "declaredStatus": "adopting",
+      "sourceFingerprintPolicyVersion": 2,
+      "packageProvenance": "git-immutable",
+      "immutablePackageRevisions": "passed",
+      "verifiedPackageSources": [
+        {
+          "package": "majestic_app",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_app",
+          "contentSha256": "695756a24f21d2820ce4e7e81b29745945371d248751244175916c0dcb690716"
+        },
+        {
+          "package": "majestic_privacy",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_privacy",
+          "contentSha256": "0f8e6ddcb1f9ceca18e9b2db99e508df0ea3f443475f8e2b273689df538c1e92"
+        },
+        {
+          "package": "majestic_storage",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_storage",
+          "contentSha256": "879ac3ac9a3ae30eae1a03a71231a5cd99797855b9867d0ab3af94cd0233907e"
+        },
+        {
+          "package": "majestic_purchases",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_purchases",
+          "contentSha256": "1b0d06f939fed40d58989b3b5af5bdcc70b38e5e8cd1da9045f7665c6eac8e37"
+        },
+        {
+          "package": "majestic_hosting",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac",
+          "path": "packages/majestic_hosting",
+          "contentSha256": "3f59c8c387e81553deea12665c7eb9e880653817ac450239927d7b8b829a7b4e"
+        },
+        {
+          "package": "majestic_sync",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac",
+          "path": "packages/majestic_sync",
+          "contentSha256": "c449b08b7a6799123075ad23cd7aa977e0c7a826319e53fbf705cc85a9d2878e"
+        },
+        {
+          "package": "majestic_sync_crypto",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac",
+          "path": "packages/majestic_sync_crypto",
+          "contentSha256": "39d1751b0b80e74d8efdf0db0aa95146569afe8f726efb84001a77bca83d8e72"
+        }
+      ],
+      "staticAdoption": "passed",
+      "errors": [],
+      "sourceFingerprint": "b9f73a41ce12400b03e77818ff0c3274f701f85f511274baac52361a0af73617",
+      "foundationEvidence": "pending",
+      "pendingEvidence": [
+        "analysis: evidence belongs to another source fingerprint",
+        "tests: evidence belongs to another source fingerprint",
+        "ios_release_build: evidence belongs to another source fingerprint",
+        "android_release_build: evidence belongs to another source fingerprint",
+        "foundation_contracts: evidence belongs to another source fingerprint",
+        "migration_contracts: evidence belongs to another source fingerprint"
+      ]
+    },
+    {
+      "application": "Fine-Notes",
+      "declaredStatus": "adopting",
+      "sourceFingerprintPolicyVersion": 2,
+      "packageProvenance": "git-immutable",
+      "immutablePackageRevisions": "passed",
+      "verifiedPackageSources": [
+        {
+          "package": "majestic_app",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_app",
+          "contentSha256": "695756a24f21d2820ce4e7e81b29745945371d248751244175916c0dcb690716"
+        },
+        {
+          "package": "majestic_privacy",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_privacy",
+          "contentSha256": "0f8e6ddcb1f9ceca18e9b2db99e508df0ea3f443475f8e2b273689df538c1e92"
+        },
+        {
+          "package": "majestic_storage",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_storage",
+          "contentSha256": "879ac3ac9a3ae30eae1a03a71231a5cd99797855b9867d0ab3af94cd0233907e"
+        },
+        {
+          "package": "majestic_purchases",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_purchases",
+          "contentSha256": "1b0d06f939fed40d58989b3b5af5bdcc70b38e5e8cd1da9045f7665c6eac8e37"
+        }
+      ],
+      "staticAdoption": "passed",
+      "errors": [],
+      "sourceFingerprint": "30361cc8b066da5977230e4e81c32984e53d076038545999949b422a4324ba73",
+      "foundationEvidence": "passed",
+      "pendingEvidence": []
+    },
+    {
+      "application": "Namefold",
+      "declaredStatus": "adopting",
+      "sourceFingerprintPolicyVersion": 2,
+      "packageProvenance": "git-immutable",
+      "immutablePackageRevisions": "passed",
+      "verifiedPackageSources": [
+        {
+          "package": "majestic_app",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_app",
+          "contentSha256": "695756a24f21d2820ce4e7e81b29745945371d248751244175916c0dcb690716"
+        },
+        {
+          "package": "majestic_privacy",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_privacy",
+          "contentSha256": "0f8e6ddcb1f9ceca18e9b2db99e508df0ea3f443475f8e2b273689df538c1e92"
+        },
+        {
+          "package": "majestic_storage",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_storage",
+          "contentSha256": "879ac3ac9a3ae30eae1a03a71231a5cd99797855b9867d0ab3af94cd0233907e"
+        },
+        {
+          "package": "majestic_purchases",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_purchases",
+          "contentSha256": "1b0d06f939fed40d58989b3b5af5bdcc70b38e5e8cd1da9045f7665c6eac8e37"
+        },
+        {
+          "package": "majestic_qr",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_qr",
+          "contentSha256": "9ca5b3ed16cee40eece0e208c4b0d8a66fec0aea48e18bade2e6412dac0135f0"
+        }
+      ],
+      "staticAdoption": "passed",
+      "errors": [],
+      "sourceFingerprint": "55cfcf8789027575504d6ebc6918498b9b022231ea41c383f182e5acf706004e",
+      "foundationEvidence": "passed",
+      "pendingEvidence": []
+    },
+    {
+      "application": "Daymerit",
+      "declaredStatus": "adopting",
+      "sourceFingerprintPolicyVersion": 2,
+      "packageProvenance": "git-immutable",
+      "immutablePackageRevisions": "passed",
+      "verifiedPackageSources": [
+        {
+          "package": "majestic_app",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_app",
+          "contentSha256": "695756a24f21d2820ce4e7e81b29745945371d248751244175916c0dcb690716"
+        },
+        {
+          "package": "majestic_privacy",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_privacy",
+          "contentSha256": "0f8e6ddcb1f9ceca18e9b2db99e508df0ea3f443475f8e2b273689df538c1e92"
+        },
+        {
+          "package": "majestic_storage",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_storage",
+          "contentSha256": "879ac3ac9a3ae30eae1a03a71231a5cd99797855b9867d0ab3af94cd0233907e"
+        },
+        {
+          "package": "majestic_purchases",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_purchases",
+          "contentSha256": "1b0d06f939fed40d58989b3b5af5bdcc70b38e5e8cd1da9045f7665c6eac8e37"
+        },
+        {
+          "package": "majestic_reminders",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_reminders",
+          "contentSha256": "63de312143d66580702eaba3e9c462adffc86f2b436f7252a792bf0993266213"
+        },
+        {
+          "package": "majestic_media",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "d2895cba9ac5bc121369a409fb1e528071a98a2d",
+          "path": "packages/majestic_media",
+          "contentSha256": "f8e5381bbd9aaa1f2eecc744285e919d8387b632c2f7b11d830b1114409f6b7b"
+        },
+        {
+          "package": "majestic_hosting",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac",
+          "path": "packages/majestic_hosting",
+          "contentSha256": "3f59c8c387e81553deea12665c7eb9e880653817ac450239927d7b8b829a7b4e"
+        },
+        {
+          "package": "majestic_sync",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac",
+          "path": "packages/majestic_sync",
+          "contentSha256": "c449b08b7a6799123075ad23cd7aa977e0c7a826319e53fbf705cc85a9d2878e"
+        },
+        {
+          "package": "majestic_sync_crypto",
+          "url": "https://github.com/MAJESTIC-MADE-LLC/App-Template.git",
+          "ref": "fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac",
+          "path": "packages/majestic_sync_crypto",
+          "contentSha256": "39d1751b0b80e74d8efdf0db0aa95146569afe8f726efb84001a77bca83d8e72"
+        }
+      ],
+      "staticAdoption": "passed",
+      "errors": [],
+      "sourceFingerprint": "ed7fb7b8e67a47e89a6e44c58f0e41d4a7ce9af840dfc7216d5dc12e244e8f18",
+      "foundationEvidence": "pending",
+      "pendingEvidence": [
+        "analysis: evidence belongs to another source fingerprint",
+        "tests: evidence belongs to another source fingerprint",
+        "ios_release_build: evidence belongs to another source fingerprint",
+        "android_release_build: evidence belongs to another source fingerprint",
+        "foundation_contracts: evidence belongs to another source fingerprint",
+        "migration_contracts: evidence belongs to another source fingerprint"
+      ]
+    }
+  ],
+  "snapshots": {
+    "App-Template": {
+      "head": "fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac",
+      "sourceSha256": "1f8e7ae0d6756f876ec395c4132275a8b90578b0067a77d631c5c428f0001261"
+    },
+    "Skepbook": {
+      "head": "e64f3210865697fe726e2444c987f11efa7be4dc",
+      "sourceSha256": "df1f6ae427085067e36c2da0b0f9c7c9550e61aa0114a7ee3e97343541abefdc"
+    },
+    "Ridelore": {
+      "head": "1a0fc86bf55c3ca82b5dd9fed5847aa497941bc0",
+      "sourceSha256": "c5ea2cb10fb61905a1d7eef7e39c27e519307d5797aef16c7149addc1e7caa16"
+    },
+    "Paws": {
+      "head": "68e93ac961b5d056854495198fd3076c158b24f1",
+      "sourceSha256": "6a8104a1b952b72e3bbaa986ce9f3d5e55c3b5cdf85edd2a116c2369fab9c88a"
+    },
+    "Pantry-Clock": {
+      "head": "2cf6ac22033e978ed2b2d30ee3bbf2e59241c5ea",
+      "sourceSha256": "af97b87ae8855e5efaaf6ed3e172447af075d4f63931a72ce3f348848ee52179"
+    },
+    "Fine-Notes": {
+      "head": "32a9c1a1321484d92c85cca176029fb504492f41",
+      "sourceSha256": "16349a1d90d4717533dbea85b0e680e0a65c615381e55d6077d1040755b19709"
+    },
+    "Namefold": {
+      "head": "db543230f78a97b3f0baa4a1c4e1b280730525b5",
+      "sourceSha256": "4650f6a5517ffe25e2bced0895cab045abeb70f83eafb5526e25e5b7bec5b33c"
+    },
+    "Daymerit": {
+      "head": "ddf421dafbd711ad5ebec8490733b8d10e28dea1",
+      "sourceSha256": "d4cf0abc4ee18498938a9bb906985f6f0c8254c8e75a7a35c7a9587ad477d172"
+    }
+  }
+}

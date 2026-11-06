@@ -1,0 +1,49 @@
+{
+  "standardization": "passed",
+  "repositories": 25,
+  "workflowCount": 22,
+  "native": [
+    {
+      "application": "App-Template",
+      "staticAdoption": "passed",
+      "foundationEvidence": "passed"
+    },
+    {
+      "application": "Skepbook",
+      "staticAdoption": "passed",
+      "foundationEvidence": "passed"
+    },
+    {
+      "application": "Ridelore",
+      "staticAdoption": "passed",
+      "foundationEvidence": "passed"
+    },
+    {
+      "application": "Paws",
+      "staticAdoption": "passed",
+      "foundationEvidence": "passed"
+    },
+    {
+      "application": "Pantry-Clock",
+      "staticAdoption": "passed",
+      "foundationEvidence": "passed"
+    },
+    {
+      "application": "Fine-Notes",
+      "staticAdoption": "passed",
+      "foundationEvidence": "passed"
+    },
+    {
+      "application": "Namefold",
+      "staticAdoption": "passed",
+      "foundationEvidence": "passed"
+    },
+    {
+      "application": "Daymerit",
+      "staticAdoption": "passed",
+      "foundationEvidence": "passed"
+    }
+  ],
+  "errors": [],
+  "releaseQualification": "separate; run check_foundation.py --release-gate; no evidence is refreshed"
+}

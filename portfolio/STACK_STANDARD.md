@@ -188,7 +188,11 @@ never inferred from simulator or build output.
 
 The default template still has no record backend. Only explicitly approved consumers may add the
 complete optional hosting/sync/crypto set, currently Skepbook, Pantry Clock, Paws and Daymerit at published Git
-`5e72d2e60f9c77ab713a671b05fdedd11e7ceb0a`. They share maintained scope/workspace engines; product
+`fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac`. They share maintained scope/workspace engines; product
 schemas and scopes stay separate. Core/report sources retain their existing immutable revisions.
 See [drift enforcement](STANDARDIZATION.md) for exact manifest, lock, cache, capability and native
 permission checks. Source adoption does not replace physical/store or signed-service qualification.
+
+## Host packaging and credential qualification
+
+Desktop packaging and protected Windows credential provisioning are implemented and locally component-tested. The [current qualification dossier](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/validation/2026-11-06/host-packaging/RESULTS.md) separates passed engineering/component checks from publisher signing, actual Mac daemon/approval, interactive Windows owner IPC, logout/reboot, production licensing and physical/store acceptance. Earlier dated evidence retains its original scope. No website was published.

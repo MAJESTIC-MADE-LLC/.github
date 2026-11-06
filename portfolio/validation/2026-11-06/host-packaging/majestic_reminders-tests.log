@@ -1,0 +1,3 @@
+00:00 +0: loading /Users/bespin-starter/Documents/Majestic/App-Template/packages/majestic_reminders/test/local_reminders_test.dart
+00:00 +0: past reminders do not initialize native services or prompt for permission
+00:00 +1: All tests passed!

@@ -49,7 +49,7 @@ See [pricing](PRICING.md), [status](STATUS.md) and the [data matrix](DATA_COST_M
 
 The [hosting architecture](USER_OWNED_HOSTING.md) distinguishes the ciphertext-only storage daemon
 from an independently enrolled desktop coordinator trusted to read selected collections. The
-published optional modules at `5e72d2e60f9c77ab713a671b05fdedd11e7ceb0a` are deliberately adopted by
+published optional modules at `fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac` are deliberately adopted by
 Skepbook, Pantry Clock, Paws and Daymerit; core/report/media/reminder pins remain unchanged. Shared scope and
 workspace engines provide pairing, encrypted journals, verified grants and disconnected recovery;
 product-specific DTOs, rules, private vaults and legacy readers remain independent.
@@ -114,7 +114,11 @@ cleanup has a durable retry marker. Existing exports, old backups and hosted cop
 cannot be recalled; authenticated restoration of an older backup can reintroduce
 its contents. This makes no forensic-erasure claim.
 
-See the [current software dossier](validation/2026-11-06/native-hosting-deletion/RESULTS.md).
-Signed services, Windows credential provisioning, production licensing, physical
+See the [current software dossier](validation/2026-11-06/host-packaging/RESULTS.md).
+Signed services and remaining OS lifecycle acceptance, production licensing, physical
 privacy checks and real native-store acceptance remain separate. Release order,
 pricing and the website publication pause remain unchanged.
+
+## Host packaging and credential qualification
+
+Desktop packaging and protected Windows credential provisioning are implemented and locally component-tested. The [current qualification dossier](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/validation/2026-11-06/host-packaging/RESULTS.md) separates passed engineering/component checks from publisher signing, actual Mac daemon/approval, interactive Windows owner IPC, logout/reboot, production licensing and physical/store acceptance. Earlier dated evidence retains its original scope. No website was published.

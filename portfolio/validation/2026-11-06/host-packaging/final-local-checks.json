@@ -1,0 +1,44 @@
+[
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-q"
+    ],
+    "log": "governance-tests.log",
+    "sha256": "d0281c8a744e2d369c3225bf23e3169895765fd560a3ec8fd3332ade49c81f0e",
+    "exitCode": 0,
+    "tests": 120
+  },
+  {
+    "command": [
+      "npm",
+      "test"
+    ],
+    "log": "hub-tests.log",
+    "sha256": "8723a6e71d011b9b1efba1d8a879ffd3429fe653fd8d495f064a8314e8f024f8",
+    "exitCode": 0,
+    "tests": 201
+  },
+  {
+    "command": [
+      "cargo",
+      "+1.99.1",
+      "clippy",
+      "--locked",
+      "--workspace",
+      "--all-targets",
+      "--",
+      "-D",
+      "warnings"
+    ],
+    "log": "rust-clippy.log",
+    "sha256": "cbad3e526dd89d5bff8a3fc4552fe58586db996b923a31cb8e637eef6e98bd9a",
+    "exitCode": 0,
+    "tests": null
+  }
+]

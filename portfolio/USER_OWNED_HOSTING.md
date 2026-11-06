@@ -223,7 +223,11 @@ cleanup has a durable retry marker. Existing exports, old backups and hosted cop
 cannot be recalled; authenticated restoration of an older backup can reintroduce
 its contents. This makes no forensic-erasure claim.
 
-See the [current software dossier](validation/2026-11-06/native-hosting-deletion/RESULTS.md).
-Signed services, Windows credential provisioning, production licensing, physical
+See the [current software dossier](validation/2026-11-06/host-packaging/RESULTS.md).
+Signed services and remaining OS lifecycle acceptance, production licensing, physical
 privacy checks and real native-store acceptance remain separate. Release order,
 pricing and the website publication pause remain unchanged.
+
+## Host packaging and credential qualification
+
+Desktop packaging and protected Windows credential provisioning are implemented and locally component-tested. The [current qualification dossier](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/validation/2026-11-06/host-packaging/RESULTS.md) separates passed engineering/component checks from publisher signing, actual Mac daemon/approval, interactive Windows owner IPC, logout/reboot, production licensing and physical/store acceptance. Earlier dated evidence retains its original scope. No website was published.
