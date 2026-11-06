@@ -82,8 +82,8 @@
       "lockSha256": "9ddc745388c4160e6d00af6c8dcf02dbedec7ac0b56278a9c1b6428168702242"
     },
     "Daymerit/pubspec.yaml": {
-      "declarationsSha256": "6f9d4eb6131b231e0eb9cec398b19e88c010f1756f54bf83f97345322776ee2c",
-      "lockSha256": "98a514817ae01eaac18c85d5370810f8dbbc6a9778e822a78b993ba429660b6b"
+      "declarationsSha256": "cf1c54848f64352baeaed1781746fe7a3daa1fb4e41987d93011abb49ee1aaa1",
+      "lockSha256": "ee25624a5cb3093089d4cb4d8b0552d189205c640d5ca034789bf393bcc6daa0"
     },
     "Fine-Notes/pubspec.yaml": {
       "declarationsSha256": "39c422b805d93cbb39cc05ecde4e1da8a2a3bcb608c17c86ae721e3eda6b2794",
@@ -102,24 +102,24 @@
       "lockSha256": "311b59e434c457bb2023237982e30f90e36213ba561bd0920cb4112526e86e8f"
     },
     "Pantry-Clock/pubspec.yaml": {
-      "declarationsSha256": "bd4b7932acb578803123e49c3878cdf81716da5a35bc6e2cd112cf9da914bd80",
-      "lockSha256": "3a191cb60c713ea62a75997954cdd8ae54a8f7896c08cabd3ed56c092a64fdea"
+      "declarationsSha256": "643169bc6658ca14d2b1696a78ea30780ffa964761b7ac820ea6d51b96df0667",
+      "lockSha256": "f66e4537195de4b2b62771befa5e0936501d43d66f58cdf74e362326ec8e7015"
     },
     "Paws/pubspec.yaml": {
-      "declarationsSha256": "cce9e751e8c9c71551cbd2734978563df23dd3f092c35c1c635c1ab73684040e",
-      "lockSha256": "3710ede25d10065cf76cb2af881bc6f9c77723e9131d74d7119a2c0ddcaff426"
+      "declarationsSha256": "610937776d2a4f5b2a9c724d676f10345a06ef179b0bb97441fba20658722f32",
+      "lockSha256": "fee5e6a334fe53497a67d20d0f12410392ffd4ae547c36f203a8732d773c891e"
     },
     "Ridelore/pubspec.yaml": {
       "declarationsSha256": "b516974e88034d2fc91ab74b09aaab0b4f58541943f7b328853a1c3fa63084f0",
       "lockSha256": "55b9bb97fc20b0e491f5ae7c130ccda45c3908a9ebebd742e471a38a5638bb08"
     },
     "Skepbook/pubspec.yaml": {
-      "declarationsSha256": "c7c55f42bebc4828f5ec629e4655c0be89e0182e0012404c192a4fb80037652e",
-      "lockSha256": "cf8ff90c8ef1593ab1241cd54f5f6c8965cb5c401d70f645e62a81535078e59f"
+      "declarationsSha256": "a46719236daca37240bcaec3754045c9380503c2f04d47644312de22ec1dba0d",
+      "lockSha256": "a2e127097cd4fa681048efc1f95cf3b718e5a54c96ea3e0fa8c975b7973fd793"
     },
     "Pantry-Clock/hosting_pilot/pubspec.yaml": {
-      "declarationsSha256": "440a98001c84ad5138bb00c960cfe59db15ff241490b94f741510a329e3444ac",
-      "lockSha256": "dc8224555b1e0aec078d52477c71a291300f3502c316171a012ffd714b485d5c"
+      "declarationsSha256": "f78bfda3738812d5f24d0e1c7019c45cdcb4aba3d0a270e0c26eb347c4183863",
+      "lockSha256": "fb91631ff07c17bc8bcc8723fd83b7c64f8ece39c86946bc7e8b826873eb4bdc"
     }
   },
   "developmentPilots": [

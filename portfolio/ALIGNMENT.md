@@ -49,7 +49,7 @@ See [pricing](PRICING.md), [status](STATUS.md) and the [data matrix](DATA_COST_M
 
 The [hosting architecture](USER_OWNED_HOSTING.md) distinguishes the ciphertext-only storage daemon
 from an independently enrolled desktop coordinator trusted to read selected collections. The
-published optional modules at `fa2f501d441e436cb2e9be02c7b5bad1de894a6b` are deliberately adopted by
+published optional modules at `5e72d2e60f9c77ab713a671b05fdedd11e7ceb0a` are deliberately adopted by
 Skepbook, Pantry Clock, Paws and Daymerit; core/report/media/reminder pins remain unchanged. Shared scope and
 workspace engines provide pairing, encrypted journals, verified grants and disconnected recovery;
 product-specific DTOs, rules, private vaults and legacy readers remain independent.

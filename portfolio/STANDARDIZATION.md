@@ -84,7 +84,7 @@ pre-launch integrations; their operational qualification remains separate.
 `Pantry-Clock/hosting_pilot` began as the registered development composition and is now a thin
 harness over Pantry Clock's regular implementation. The app and harness, Skepbook, Paws and Daymerit resolve
 the complete optional module set from published Git
-`fa2f501d441e436cb2e9be02c7b5bad1de894a6b`. The core pins remain unchanged.
+`5e72d2e60f9c77ab713a671b05fdedd11e7ceb0a`. The core pins remain unchanged.
 
 `hostingPolicy` requires the complete package set, explicit `user_owned_hosting` capability,
 approved consumer identity, exact transitive pins, native LAN permission/disclosure and verified

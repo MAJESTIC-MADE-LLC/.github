@@ -188,7 +188,7 @@ never inferred from simulator or build output.
 
 The default template still has no record backend. Only explicitly approved consumers may add the
 complete optional hosting/sync/crypto set, currently Skepbook, Pantry Clock, Paws and Daymerit at published Git
-`fa2f501d441e436cb2e9be02c7b5bad1de894a6b`. They share maintained scope/workspace engines; product
+`5e72d2e60f9c77ab713a671b05fdedd11e7ceb0a`. They share maintained scope/workspace engines; product
 schemas and scopes stay separate. Core/report sources retain their existing immutable revisions.
 See [drift enforcement](STANDARDIZATION.md) for exact manifest, lock, cache, capability and native
 permission checks. Source adoption does not replace physical/store or signed-service qualification.
