@@ -366,6 +366,51 @@ class PortfolioStatusTest(unittest.TestCase):
             ):
                 portfolio_status.verify_github(manifest, "example")
 
+    def test_github_verification_preserves_exact_consolidated_archive(self) -> None:
+        manifest = {"repositories": [{"name": "What-We-Own", "role": "concept"}]}
+        archive_path = "docs/history/claim-crate"
+        archive = {
+            "path": archive_path,
+            "type": "tree",
+            "mode": "040000",
+            "sha": portfolio_status.CONCEPT_REMOTE_ARCHIVES["What-We-Own"][archive_path],
+        }
+        files = [
+            {"path": "README.md", "type": "blob"},
+            archive,
+            {"path": archive_path + "/PROVENANCE.json", "type": "blob"},
+            {"path": archive_path + "/scripts/validate_concept_repo.py", "type": "blob"},
+        ]
+
+        def verify(repository: str, entries: list[dict]) -> None:
+            candidate = copy.deepcopy(manifest)
+            candidate["repositories"][0]["name"] = repository
+            with mock.patch.object(
+                portfolio_status,
+                "run_command",
+                side_effect=[
+                    json.dumps([{"name": repository}]),
+                    json.dumps({"truncated": False, "tree": entries}),
+                ],
+            ):
+                portfolio_status.verify_github(candidate, "example")
+
+        verify("What-We-Own", files)
+        for field, changed_value in (("sha", "0" * 40), ("type", "blob"), ("mode", "120000")):
+            with self.subTest(field=field):
+                changed = copy.deepcopy(files)
+                changed[1][field] = changed_value
+                with self.assertRaisesRegex(portfolio_status.PortfolioError, "archive changed"):
+                    verify("What-We-Own", changed)
+        with self.assertRaisesRegex(portfolio_status.PortfolioError, "archive is missing"):
+            verify("What-We-Own", [files[0]])
+        for path in ("lib/main.dart", archive_path + "-new/main.dart", "docs/history/other/main.dart"):
+            with self.subTest(path=path):
+                with self.assertRaisesRegex(portfolio_status.PortfolioError, "implementation evidence"):
+                    verify("What-We-Own", files + [{"path": path, "type": "blob"}])
+        with self.assertRaisesRegex(portfolio_status.PortfolioError, "implementation evidence"):
+            verify("Other-Concept", files)
+
     def test_github_verification_uses_main_for_legacy_planning_repository(self) -> None:
         manifest = {
             "repositories": [{"name": "Example", "role": "concept", "sourceRef": "main"}]

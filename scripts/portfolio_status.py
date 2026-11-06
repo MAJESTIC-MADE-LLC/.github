@@ -46,6 +46,14 @@ CONCEPT_REMOTE_ALLOWLIST = {
     "project-status.json",
     "scripts/validate_concept_repo.py",
 }
+# Preserved consolidation evidence is not active application implementation. Pin the
+# complete Git tree (including every nested file and mode), rather than exempting a
+# generic history directory where new implementation could otherwise be hidden.
+CONCEPT_REMOTE_ARCHIVES = {
+    "What-We-Own": {
+        "docs/history/claim-crate": "6cf2806181232be46a022606307bfa9a14f91446",
+    },
+}
 REPOSITORY_NAME_PATTERN = re.compile(r"(?!-)[A-Za-z0-9._-]{1,100}\Z")
 GITHUB_OWNER_PATTERN = re.compile(
     r"(?!.*--)[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?\Z"
@@ -767,6 +775,8 @@ def verify_github(manifest: dict[str, Any], owner: str) -> None:
         if not isinstance(tree, list):
             raise PortfolioError(f"{repository_name}: GitHub tree is malformed")
         files: set[str] = set()
+        archive_policy = CONCEPT_REMOTE_ARCHIVES.get(repository_name, {})
+        verified_archives: set[str] = set()
         for index, item in enumerate(tree):
             if not isinstance(item, dict):
                 raise PortfolioError(f"{repository_name}: tree item {index} is malformed")
@@ -776,9 +786,27 @@ def verify_github(manifest: dict[str, Any], owner: str) -> None:
                 raise PortfolioError(f"{repository_name}: tree item {index} is malformed")
             if item_type == "blob":
                 files.add(path)
+            if path in archive_policy:
+                if (
+                    item_type != "tree"
+                    or item.get("mode") != "040000"
+                    or item.get("sha") != archive_policy[path]
+                ):
+                    raise PortfolioError(
+                        f"{repository_name}: preserved archive changed: "
+                        + safe_external_text(path)
+                    )
+                verified_archives.add(path)
+        missing_archives = archive_policy.keys() - verified_archives
+        if missing_archives:
+            raise PortfolioError(
+                f"{repository_name}: preserved archive is missing: "
+                + ", ".join(safe_external_text(path) for path in sorted(missing_archives))
+            )
         unexpected = sorted(
             path for path in files - CONCEPT_REMOTE_ALLOWLIST
             if not (path.startswith("docs/") and path.endswith(".md"))
+            and not any(path.startswith(archive + "/") for archive in verified_archives)
         )
         if "README.md" not in files or unexpected:
             details = []

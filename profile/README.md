@@ -11,8 +11,9 @@ Website publication is paused. [Support & legal drafts](https://github.com/MAJES
 ## Focus
 
 - **On-device by default:** consumer records stay on the user's device; exports are deliberate.
-- **User-owned hosting later:** optional customer servers can support collaboration where useful;
-  company-operated storage is not the default and self-hosting is not yet a portfolio-wide feature.
+- **Optional user-owned hosting:** Pantry Clock, Paws and Daymerit have pre-launch source
+  integrations for selected records. Service, licensing and physical qualification remain pending;
+  other products adopt separately and self-hosting is not yet a portfolio-wide feature.
 - **Affordable subscriptions:** monthly/annual core access, with one-time purchases limited to optional extras.
 - **Useful recovery and portability:** verify encrypted backups and basic export, without holding
   the user's private keys or records.
@@ -24,9 +25,9 @@ Stage labels describe source/planning evidence, not public availability. Follow 
 after the [shared foundation](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/STACK_STANDARD.md)
 qualifies across the template and all seven existing apps on iOS and Android. That gate is pending;
 subsequent product-specific [release gates](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/RELEASE_DEFINITION.md)
-remain separate. All seven apps implement the local foundation; most still require migration from
-permanent-unlock billing to the approved [subscriptions](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/PRICING.md).
-Skepbook's monthly/yearly subscription source is present but actual store qualification remains pending.
+remain separate. All seven apps implement the local foundation, monthly/annual
+[subscriptions](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/PRICING.md) and
+a separate non-billing 14-day local trial. Store setup and actual store qualification remain pending.
 Daymerit's household is account-free/local; Namefold has an encrypted native
 wallet and a static PWA with unencrypted browser drafts/backups. Managed links remain deferred.
 

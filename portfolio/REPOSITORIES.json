@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "evidenceDate": "2026-11-04",
-  "evidenceSummary": "November 4 source update implements monthly/annual native subscriptions and separate non-billing 14-day local trials in all seven existing apps, with expiration-aware writes and preserved reading/export/deletion/encrypted recovery. Real-store provisioning, signed purchase acceptance and physical-device qualification remain pending. Optional hosting reference/runtime and metadata verifier source now exist with local contracts; service installation and verifier deployment remain unqualified; optional consumer synchronization is implemented only for deliberately adopted apps. Earlier foundation evidence retains its original scope; the product release order and publication pause remain unchanged. Claim Crate remains consolidated into What We Own; 27 physical repositories remain. Subsequent implementation publishes generic typed product hosting and adopts it in Pantry Clock and Paws regular builds through one shared session engine, with real Rust/TLS/MLS tests. Core foundation pins remain unchanged; live licensing, service deployment and physical/store release qualification remain pending.",
+  "evidenceDate": "2026-11-06",
+  "evidenceSummary": "Overview reconciled November 6 against November 5 source and validation records. All seven existing apps implement monthly/annual native subscriptions and separate non-billing 14-day local trials; real-store provisioning, signed purchase acceptance and physical-device qualification remain pending. Published optional hosting revision f74c7e709730b75e073a01bfcb7ef07100819a79 is deliberately adopted in Pantry Clock, Paws and Daymerit regular builds, with real Rust/TLS/MLS tests and app-owned native-build records. Core foundation pins remain unchanged. Current source-bound foundation evidence, signed services, live licensing and physical/store release qualification remain separate pending gates. Claim Crate is consolidated into What We Own; Steward marketing source is consolidated into Hub with its prior runtime archived, while live-list reconciliation and domain cutover remain unperformed. The 27-repository inventory, 17-product queue and website publication pause remain unchanged. Earlier dated evidence retains its original scope.",
   "launchOrder": [
     "Skepbook",
     "Ridelore",
@@ -112,8 +112,8 @@
       "name": "App-Template",
       "displayName": "App-Template",
       "role": "shared",
-      "status": "Maintained Flutter reference and capability-selecting generator with four core and seven optional shared packages at 0.1.0. Encrypted records, recovery, native privacy/locking and cached-first native purchases are integrated; local tests, both native builds and owned runtime checks pass. Optional hosting now has separately tested transactional sync/MLS/storage/coordinator, reference clients/generator, desktop control/packaging and undeployed metadata-only workspace verifier source; core consumer pins remain unchanged; optional hosting source is published and deliberately adopted by Pantry Clock and Paws. Generic typed product operations, caller-owned encrypted transactions, atomic migration batches, app-scoped clients/coordinators/setup and independently verified client grants now support Pantry Clock and Paws through one pure-Dart native session engine, with product-owned typed adapters and recovery formats.",
-      "next": "Finish representative physical-device/store qualification before any app release; maintain the published immutable foundation, generator and common contracts through deliberate updates.",
+      "status": "Maintained Flutter reference and capability-selecting generator with four core and seven optional shared packages at 0.1.0. Encrypted records, recovery, native privacy/locking, monthly/annual subscriptions and a separate 14-day non-billing trial are implemented, with app-owned local tests and native-build records. Published optional hosting provides transactional sync/MLS/storage/coordinator, reference clients/generator and undeployed metadata-only workspace verifier source. Pantry Clock, Paws and Daymerit deliberately adopt optional source f74c7e709730b75e073a01bfcb7ef07100819a79; core consumer pins remain unchanged. Shared scope/workspace engines preserve product-owned typed adapters, private identities and recovery formats.",
+      "next": "Refresh current source-bound foundation evidence and finish representative physical-device/store qualification before any app release; maintain the published immutable foundation, generator and common contracts through deliberate updates.",
       "concern": "Private Git access is required to resolve the published shared packages. Local compilation and simulator/emulator evidence do not establish physical-device/store qualification.",
       "localCheckout": true,
       "requiredPaths": [
@@ -248,8 +248,8 @@
       "role": "release-candidate",
       "stage": "Shared foundation implemented; physical/store qualification pending",
       "focus": "Pet health records, medications, incidents, and vet-ready exports.",
-      "status": "Native monthly/annual subscription source and separate 14-day non-billing trial are implemented. Core creation/editing requires current access; existing records, exports, deletion and encrypted backup/recovery remain available after expiration. Verified historical permanent ownership is restore-only. The regular build now adopts published optional care-circle hosting through the same session engine as Pantry Clock. Explicitly selected pet/event DTOs preserve signed authorship, distinct duplicate review, terminal parent/child deletion, pending/conflict separation and disconnected encrypted recovery. Private vaults, keys, PDFs and legacy backup readers remain independent.",
-      "launchEvidence": "Current subscription source has app-owned local validation records; historical foundation software/build evidence retains its original scope. Actual signed-store purchase and physical-device acceptance remain pending.",
+      "status": "Native monthly/annual subscription source and separate 14-day non-billing trial are implemented. Core creation/editing requires current access; existing records, exports, deletion and encrypted backup/recovery remain available after expiration. Verified historical permanent ownership is restore-only. The regular build now adopts published optional care-circle hosting through the same maintained scope engine as Pantry Clock and Daymerit. Explicitly selected pet/event DTOs preserve signed authorship, distinct duplicate review, terminal parent/child deletion, pending/conflict separation and disconnected encrypted recovery. Private vaults, keys, PDFs and legacy backup readers remain independent.",
+      "launchEvidence": "November 5 published-source compatibility validation records 196 app tests, clean analysis and rebuilt Android/iOS artifacts at optional hosting source f74c7e709730b75e073a01bfcb7ef07100819a79. Actual signed-store purchase and physical-device acceptance remain pending; historical foundation evidence retains its original scope.",
       "next": "Provision the approved monthly/annual native store products and qualify real purchases, renewal, cancellation, refunds, restore and offline expiry on physical devices; then complete independent product release gates in the unchanged queue.",
       "concern": "Physical-device/reliability and store transactions remain pending. Recordkeeping and exports do not provide veterinary diagnosis. Live workspace licensing, signed desktop services, Windows credential provisioning and physical hosting qualification remain pending. First shared scope is bounded to 64 pets and 128 retained event slots/64 KiB per pet.",
       "localCheckout": true,
@@ -350,10 +350,10 @@
       "role": "release-candidate",
       "stage": "Shared foundation implemented; physical/store qualification pending",
       "focus": "Child routines, chores, approvals, points, rewards, and optional allowance tracking.",
-      "status": "Native monthly/annual subscription source and a separate 14-day non-billing trial are implemented. Core creation/editing and new imports require current access; existing records, exports and authenticated encrypted backup/recovery remain available after expiration. Verified historical permanent ownership is restore-only. A record-deletion UI/API remains product work before release.",
-      "launchEvidence": "Current subscription source has app-owned local validation records; historical foundation software/build evidence retains its original scope. Actual signed-store purchase and physical-device acceptance remain pending.",
+      "status": "Native monthly/annual subscription source and a separate 14-day non-billing trial are implemented. Core creation/editing and new imports require current access; existing records, exports and authenticated encrypted backup/recovery remain available after expiration. Verified historical permanent ownership is restore-only. A record-deletion UI/API remains product work before release. The regular app now adopts published optional family hosting: isolated parent/child/proof scopes, signed household allocations, confirmed financial decisions, proof inventory/deletion, recoverable enrollment and encrypted disconnected family recovery. Invited children and caregivers use the owner household grant; private household keys, proof files and legacy archives remain independent.",
+      "launchEvidence": "November 5 published-source validation records 223 app tests, real Rust/TLS/MLS product/network tests, Android release-mode and unsigned iOS builds. These engineering results do not establish physical-device or actual signed-store acceptance; historical foundation evidence retains its original scope.",
       "next": "Complete the record-deletion workflow; provision monthly/annual store products and qualify real purchases, renewal, cancellation, refunds, restore and offline expiry on physical devices; then complete independent release gates in the unchanged queue.",
-      "concern": "Physical/store qualification is pending. Archive capacity and reminder horizon are bounded; family synchronization and managed child-record hosting are not implemented release features.",
+      "concern": "Physical/store qualification is pending. General record-deletion release work remains distinct from implemented shared proof deletion. Archive capacity and reminder horizon are bounded. Signed desktop services, Windows credential provisioning, production licensing and physical hosting qualification remain pending; no managed child-record storage is provided.",
       "localCheckout": true,
       "requiredPaths": [
         ".github/workflows/ci.yml",
@@ -362,7 +362,7 @@
         "foundation.json"
       ],
       "disposition": "active",
-      "targetDataModel": "Local parent/shared-tablet chores and allowance records; subscription-only core access; no managed storage of child records; user-owned family sync only later. Future optional ciphertext hosting may add parent/child devices with verified roles and exactly-once ledger effects after the Pantry Clock pilot; not a current launch prerequisite."
+      "targetDataModel": "Local parent/shared-tablet chores and allowance records with subscription-only core access and no managed storage of child records. The regular build implements explicit optional user-owned family hosting with isolated parent/child/proof groups, verified roles, confirmed financial decisions and encrypted disconnected recovery. Service, licensing and physical/store qualification remain pending; hosting adds no current local-launch prerequisite."
     },
     {
       "name": "What-We-Own",
@@ -408,8 +408,8 @@
       "role": "release-candidate",
       "stage": "Shared foundation implemented; physical/store qualification pending",
       "focus": "Pantry, fridge, freezer, and counter expiration tracking.",
-      "status": "Native monthly/annual subscription source and separate 14-day non-billing trial are implemented. Core creation/editing requires current access; existing records, exports, deletion and encrypted backup/recovery remain available after expiration. Verified historical permanent ownership is restore-only. The regular build now adopts published immutable optional hosting packages for explicitly selected household inventory, exact quantities, product-scoped TLS/MLS, role/verified-grant checks and disconnected encrypted recovery. Startup and cached reads do not connect; private inventory remains separate. Its native facade now delegates generic pairing, permissions, encrypted journals and recovery selection to the same shared engine as Paws, preserving its durable layout.",
-      "launchEvidence": "Current subscription source has app-owned local validation records; historical foundation software/build evidence retains its original scope. Actual signed-store purchase and physical-device acceptance remain pending.",
+      "status": "Native monthly/annual subscription source and separate 14-day non-billing trial are implemented. Core creation/editing requires current access; existing records, exports, deletion and encrypted backup/recovery remain available after expiration. Verified historical permanent ownership is restore-only. The regular build now adopts published immutable optional hosting packages for explicitly selected household inventory, exact quantities, product-scoped TLS/MLS, role/verified-grant checks and disconnected encrypted recovery. Startup and cached reads do not connect; private inventory remains separate. Its native facade now delegates generic pairing, permissions, encrypted journals and recovery selection to the same maintained scope engine as Paws and Daymerit, preserving its durable layout.",
+      "launchEvidence": "November 5 published-source compatibility validation records 188 app tests, clean analysis and rebuilt Android/iOS artifacts at optional hosting source f74c7e709730b75e073a01bfcb7ef07100819a79. Actual signed-store purchase and physical-device acceptance remain pending; historical foundation evidence retains its original scope.",
       "next": "Provision the approved monthly/annual native store products and qualify real purchases, renewal, cancellation, refunds, restore and offline expiry on physical devices; then complete independent product release gates in the unchanged queue.",
       "concern": "Physical-device/store qualification remains pending. Suggested dates are editable defaults, not food-safety advice; CSV export is distinct from full encrypted recovery. Live licensing, signed services, Windows credential provisioning and physical hosting qualification remain pending; published-source adoption is complete for the regular build.",
       "localCheckout": true,
@@ -553,7 +553,7 @@
     {
       "product": "Ridelore",
       "defaultDataLocation": "Shared encrypted SQLite and encrypted attachments; processing stays on device",
-      "remoteServices": "Explicit native store actions and optional user-requested identity/recall lookup",
+      "remoteServices": "Explicit native store actions and opt-in NHTSA VIN/model-year decoding; recall status stays manual",
       "paidBoundary": "Approved core subscription: $2.99/month or $19.99/year; optional extras only may be one-time purchases; monthly/yearly source present, store setup and acceptance pending",
       "guardrails": "Hosted provider source archived; preserve encrypted owner recovery; no managed sync, hosted binder or remote AI in this release; disclose optional lookup",
       "productId": "Ridelore",
@@ -598,11 +598,11 @@
     {
       "product": "Daymerit",
       "defaultDataLocation": "Shared encrypted SQLite on parent/shared tablet; no required hosted household account",
-      "remoteServices": "Explicit native Apple/Google store actions; local reminders/proofs do not require a record server",
+      "remoteServices": "Explicit native Apple/Google store actions; optional consented private-network synchronization with an owner-managed family host; no required record server",
       "paidBoundary": "Approved core subscription: $2.99/month or $24.99/year; optional extras only may be one-time purchases; monthly/yearly source present, store setup and acceptance pending",
-      "guardrails": "Parent PIN boundaries, bounded authenticated owner recovery and local child board implemented; hosted source archived; user-owned family sync later; physical/store/provenance qualification pending",
+      "guardrails": "Private parent PIN/household boundaries remain independent; selected parent/child/proof groups, confirmed financial decisions, proof deletion and disconnected encrypted family recovery implemented; service/licensing/physical/store and current foundation evidence remain pending",
       "productId": "Daymerit",
-      "targetDataModel": "Local parent/shared-tablet chores and allowance records; subscription-only core access; no managed storage of child records; user-owned family sync only later. Future optional ciphertext hosting may add parent/child devices with verified roles and exactly-once ledger effects after the Pantry Clock pilot; not a current launch prerequisite."
+      "targetDataModel": "Local parent/shared-tablet chores and allowance records with subscription-only core access and no managed storage of child records. The regular build implements explicit optional user-owned family hosting with isolated parent/child/proof groups, verified roles, confirmed financial decisions and encrypted disconnected recovery. Service, licensing and physical/store qualification remain pending; hosting adds no current local-launch prerequisite."
     },
     {
       "product": "Turnstamp",
