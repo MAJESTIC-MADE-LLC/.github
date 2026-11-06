@@ -4,7 +4,9 @@ Organization profile, repository inventory, product release queue, and shared co
 for Majestic Made LLC. This repository supports the apps; it is not a consumer product.
 
 Consumer records stay on-device by default, with deliberate owner exports and encrypted recovery.
-Optional user-owned hosting has reference/runtime source; consumer integration and deployment remain pending. Native store billing communicates with Apple/Google;
+Optional user-owned hosting has published reference/runtime source and regular-build integrations
+in Pantry Clock, Paws and Daymerit; signed services, live licensing and physical qualification
+remain pending. Native store billing communicates with Apple/Google;
 product-specific network capabilities must be disclosed. Core app access is subscription-only for
 new purchases; one-time purchases are limited to optional extras. See the approved
 [monthly/annual prices and access policy](portfolio/PRICING.md).
@@ -15,21 +17,23 @@ new purchases; one-time purchases are limited to optional extras. See the approv
   native privacy/recovery/billing, and deliberately adopted immutable shared-package revisions.
 - [Enforced portfolio standardization](portfolio/STANDARDIZATION.md): one offline drift gate and
   tracked local commit/push hooks for native apps, web surfaces, optional hosting and main-only CI.
-- [Future user-owned hosting](portfolio/USER_OWNED_HOSTING.md): optional Mac/Windows ciphertext storage with a separately
+- [Optional user-owned hosting](portfolio/USER_OWNED_HOSTING.md): optional Mac/Windows ciphertext storage with a separately
   trusted selected-collection coordinator, private-network sharing and bounded workspace grants; no new launch prerequisite.
 - [Independent product release requirements](portfolio/RELEASE_DEFINITION.md).
-- [Latest software/source qualification](portfolio/GIT_SOURCE_ADOPTION_2026-11-04.md).
+- [November 4 software/source qualification](portfolio/GIT_SOURCE_ADOPTION_2026-11-04.md).
 - [Main promotion and repository metadata review](portfolio/MAIN_PROMOTION_2026-11-04.md).
 
-The seven implemented apps and template pass their recorded software and immutable-source checks.
-Physical iPhone/Android privacy and actual native-store purchase/restore checks remain pending.
+The seven implemented apps and template have dated software and immutable-source validation records.
+Current source-bound foundation evidence must remain complete after source changes; physical
+iPhone/Android privacy and actual native-store purchase/restore qualification remain pending.
 A promotion to `main` records accepted source; it does not establish store readiness or deploy a website.
 The website publication pause remains in force. Dossier and OffRecord are excluded from this initiative.
 Claim Crate's requirements and source documents are consolidated into What We Own, with no
 independent app or subscription. Its redundant remote and local repository was deleted under the
 owner's explicit November 4 instruction after verified preservation; see
 [the consolidation record](portfolio/CLAIM_CRATE_CONSOLIDATION.md).
-Steward marketing now consolidates in Hub, with its previous stack archived. Live signup-list reconciliation and domain cutover remain pending. Kinwall remains research-only.
+Steward marketing is consolidated in Hub, with its previous stack archived. Live signup-list
+reconciliation and domain cutover remain pending. Kinwall remains research-only.
 
 Normal work stays on `dev`. Promote directly to `main` only on explicit owner instruction, then sync
 `dev` to the same commit. Open a pull request only if requested. GitHub Actions may run only for allowed
@@ -44,4 +48,4 @@ python3 -m unittest discover -s tests -v
 ```
 
 The checker reports a pending foundation gate honestly. `--release-gate` remains nonzero until the
-missing physical/store evidence is recorded. No command here submits an app or provisions a backend.
+current source-bound cohort and missing physical/store evidence are recorded. No command here submits an app or provisions a backend.

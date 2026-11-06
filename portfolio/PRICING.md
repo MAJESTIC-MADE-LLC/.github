@@ -1,6 +1,6 @@
 # Subscription pricing and access policy
 
-Approved by the owner November 4, 2026. These US launch targets supersede earlier permanent-core-unlock directions. Prices are USD before applicable taxes; annual prices are the total charged once per year, not monthly equivalents. Store configuration, billing migrations and release qualification are separate work. Nothing in this document publishes a product or enables billing.
+Approved by the owner November 4, 2026. These US launch targets supersede earlier permanent-core-unlock directions. Prices are USD before applicable taxes; annual prices are the total charged once per year, not monthly equivalents. Subscription source is implemented in all seven existing apps and the template; store configuration and release qualification remain separate work. Nothing in this document publishes a product or enables billing.
 
 ## Core subscriptions
 
@@ -12,7 +12,7 @@ Approved by the owner November 4, 2026. These US launch targets supersede earlie
 | Pantry Clock | $0.99 | $9.99 | Current manual inventory; $14.99/year is a later target only after barcode entry and reminders ship and the changed offering is validated |
 | Fine Notes | $2.99 | $19.99 | Wine, whiskey, coffee and cigars together; no category charges |
 | Namefold | $1.99 | $14.99 | Native contact wallet and local QR/vCard exchange; no hosted-link entitlement implied |
-| Daymerit | $2.99 | $24.99 | One household subscription; no per-child charge; separate-device sync deferred |
+| Daymerit | $2.99 | $24.99 | One household subscription; no per-child charge; optional family-hosting source implemented, operational qualification pending |
 | Turnstamp | $9.99 | $79.99 | Solo cleaner reports; no team, dispatch, payment or hosted-portal service implied |
 | What We Own | $2.99 | $24.99 | One home/moving/claims inventory, including former Claim Crate requirements |
 | Creelmark | $2.99 | $19.99 | Private catch/spot journal; no live-map or forecasting subscription implied |
@@ -41,14 +41,16 @@ have no approved price.
 - Preserve authentic pre-existing lifetime ownership as a compatibility obligation where applicable; do not sell new lifetime core access or reinterpret a non-consumable as an expiring purchase. Unverified legacy labels/test flags do not establish ownership.
 - Do not charge separately for children, tasting categories, core records, basic exports, necessary reports, backup or recovery. What We Own includes home inventory, moves and claim-packet workflows in the same subscription.
 
-## Future shared-workspace access
+## Optional shared-workspace access
 
 The [resolved optional hosting plan](USER_OWNED_HOSTING.md) includes one verified owner workspace
 across iOS/Android at the existing core price: Pantry Clock/Paws/Fine Notes six people, Skepbook
 three, Ridelore four, Daymerit four adult caregivers with no per-child charge, and Namefold one
 owner's devices. Counts include the owner and span selected collections. No extra-seat fee or
 host surcharge is introduced for the first hosting version; larger-team pricing needs a later
-decision. These are future capabilities, not current store offers.
+decision. Pantry Clock, Paws and Daymerit have pre-launch source integrations; the other products
+remain later adopters. Live licensing and actual store qualification remain pending, so these are
+not current store offers.
 
 The [workspace entitlement contract](https://github.com/MAJESTIC-MADE-LLC/App-Template/blob/dev/docs/HOSTING_ENTITLEMENT_CONTRACT.md)
 requires a minimal metadata-only verifier and bounded signed grants; inviting a member alone

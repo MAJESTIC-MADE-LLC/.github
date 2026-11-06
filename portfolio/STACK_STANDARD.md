@@ -23,8 +23,9 @@ currently **pending**; files, dependency declarations and earlier product tests 
   SQLCipher databases require tested compatibility settings/migrations, not an assumed format match.
 - Target native auto-renewable monthly/annual subscriptions for core access, at the approved
   [product prices](PRICING.md). One-time purchases may cover optional extras only; no new permanent
-  core unlocks. The reference/shared non-consumable adapter is current implementation, not the
-  approved commercial target, and needs qualified subscription support before adoption for new offers.
+  core unlocks. All seven apps and the reference/generator implement monthly/annual subscription
+  source and separate non-billing local trials. Real store setup and acceptance remain pending;
+  non-consumable compatibility is restore-only for verified historical ownership.
   Keep existing records, basic export and backup/recovery available without an active entitlement.
 - Ship no Supabase, Firebase, Sentry, RevenueCat or hosted-AI provider SDKs in current mobile dependency graphs.
   Do not initialize a backend or remote telemetry merely because a prior template supported it.
@@ -40,8 +41,8 @@ features for every app. Do not add permissions or new product scope to satisfy a
 
 The owner confirmed on 2026-11-03 that there are no public customers and all prior purchases
 are tests. Preserve existing test records, durable IDs and verified legacy purchase compatibility.
-The November 4 subscription decision supersedes earlier permanent-core pricing: Skepbook's targets
-are $24.99/year or $2.99/month; current source includes both choices, with store setup and qualification pending. Do not grant
+The November 4 subscription decision supersedes earlier permanent-core pricing. All seven apps
+have monthly/annual source at their approved prices; store setup and qualification remain pending. Do not grant
 ownership from unverified legacy test state. Real product configuration and store test evidence
 remain separate, pending checks. Historical signed-off evidence does not qualify changed billing.
 
@@ -120,42 +121,29 @@ live in `FOUNDATION_QUALIFICATION.json`, reference files inside this governance 
 reported `cohortFingerprint`; physical/store records also identify `recordedBy`. Preserve real logs
 or dated manual observations. Do not fill evidence fields for checks that have not occurred.
 
-## Planned optional hosting extension — November 4, 2026
+## Optional hosting extension — source adopted November 5, 2026
 
-The [user-owned hosting design](USER_OWNED_HOSTING.md) and
-[template extension contracts](https://github.com/MAJESTIC-MADE-LLC/App-Template/blob/dev/docs/USER_OWNED_HOSTING.md)
-approve future optional Mac/Windows ciphertext hosting, host-managed identities, scoped collection
-sharing and direct sync over a LAN/user private network. Authorized clients hold keys and perform
-readable-data processing; local encrypted storage and recovery remain usable without a host.
-Opt-in sync enrollment grants scoped standing transfer authorization, separate from manual exports.
+The [hosting architecture](USER_OWNED_HOSTING.md) and
+[template contracts](https://github.com/MAJESTIC-MADE-LLC/App-Template/blob/dev/docs/USER_OWNED_HOSTING.md)
+cover optional Mac/Windows ciphertext storage, host-managed identities and selected-collection
+sync over LAN/private networks. The daemon has no record keys; an independently enrolled trusted
+coordinator may decrypt selected collections. Explicit enrollment authorizes scoped recurring
+transfers. Local records and encrypted recovery remain usable without a host.
 
-Shared enrollment, atomic encrypted journals, source-built MLS, separate storage/coordinator roles,
-reference clients and an explicitly selected reference generator now have optional implementations.
-The [implementation report](https://github.com/MAJESTIC-MADE-LLC/App-Template/blob/dev/docs/HOSTING_IMPLEMENTATION.md)
-records reference limits and qualification. Default production consumer synchronization remains disabled;
-Pantry Clock's separately registered development pilot is under qualification.
-The consumer machine-readable baseline, app capability declarations and immutable package revisions
-remain unchanged. Future sync and push need explicit optional capabilities, reviewed provider-policy
-exceptions where applicable, exact dependency pins and renewed source-bound qualification; neither
-is an implicit public-lookup exception or permission to initialize a backend in default scaffolds.
+Published reference/runtime source implements atomic encrypted journals, source-built MLS,
+role-separated TLS, product-owned transactions, workspace allocation, verified grants and recovery.
+Pantry Clock, Paws and Daymerit regular builds deliberately adopt the complete optional module set
+at the immutable revision in `STACK_STANDARD.json`; default scaffolds and other consumers remain
+unenrolled. Optional Rust/OpenMLS/Flutter Rust Bridge dependencies have their own governed pins;
+core/report/media/reminder source pins remain unchanged. See the
+[implementation report](https://github.com/MAJESTIC-MADE-LLC/App-Template/blob/dev/docs/HOSTING_IMPLEMENTATION.md)
+and the [November 5 product evidence](https://github.com/MAJESTIC-MADE-LLC/Daymerit/blob/dev/docs/validation/2026-11-05/hosting-family/RESULTS.md).
 
-The approved optional Majestic notification bridge may relay authenticated opaque update hints
-through Apple/Google. It receives routing metadata, not record content/keys; developer push secrets
-stay out of household installers. Push does not establish private-network reachability or guarantee
-background execution. Disabling it must preserve direct sync and offline work.
-
-This is future expansion outside current launch work, not another foundation prerequisite. Prove
-generated reference clients, then pilot Pantry Clock before later product adoption in the roadmap.
-The 17-product public release queue, existing qualification scope and independent approvals remain.
-
-### Resolved hosting extension contracts — November 4, 2026
-
-The [hosting roadmap](USER_OWNED_HOSTING.md) links four detailed template contracts that resolve
-all seven review findings. Optional reference pins (OpenMLS 0.9.2, matching Flutter Rust Bridge
-2.13.0, Rust 1.99.1) are isolated from this standard's current consumer machine baseline. The Rust ciphertext daemon has no record keys. A separately authorized headless Dart
-coordinator reuses product rules and may decrypt selected collections, with independent role TLS
-trust/credentials. Prove the native service, transaction/MLS and grants contracts with generated
-clients before app adoption. Current dependency policy, package SHA and launch gates stay intact.
+Signed services, OS credentials, live licensing, physical devices and actual native-store operations
+remain unqualified. The minimal grant verifier is undeployed; the optional opaque-update push
+bridge remains unimplemented. That bridge may carry routing metadata and authenticated hints,
+never records/keys, and must preserve direct sync/offline work when disabled. Hosting changes no
+price, adds no local-launch prerequisite and does not reorder the 17-product public release queue.
 
 ## Web, concepts and operations
 
@@ -163,8 +151,9 @@ Namefold's free semantic QR/vCard PWA, Hub's TypeScript/React surface and static
 the appropriate web stack. Web/mobile share data contracts where needed, not a forced mobile UI or
 database. Pin active Node projects to the exact current supported LTS baseline in the machine standard
 (Node 26.13.0 as verified against the [official release index](https://nodejs.org/dist/index.json) on 2026-11-04). Steward's separate marketing surface
-is consolidating into Hub; it is not a new consumer stack. Customer self-hosting remains a later
-opt-in capability and no managed backend is required by this foundation.
+is consolidated into Hub with its former runtime archived; it is not a new consumer stack. Optional
+self-hosting is deliberately adopted per app and requires separate operational qualification; no
+managed record backend is required by this foundation.
 
 New queued concepts use the qualified template when implementation starts. They must not acquire
 placeholder apps simply to satisfy this existing-cohort gate. Kinwall remains research-only;
@@ -198,8 +187,8 @@ never inferred from simulator or build output.
 ## Optional hosting source
 
 The default template still has no record backend. Only explicitly approved consumers may add the
-complete optional hosting/sync/crypto set, currently Pantry Clock and Paws at published Git
-`f5942ed7a2b318e48ec7e47ce9f46ba531e02c31`. Both use the same native session engine; product
+complete optional hosting/sync/crypto set, currently Pantry Clock, Paws and Daymerit at published Git
+`f74c7e709730b75e073a01bfcb7ef07100819a79`. They share maintained scope/workspace engines; product
 schemas and scopes stay separate. Core/report sources retain their existing immutable revisions.
 See [drift enforcement](STANDARDIZATION.md) for exact manifest, lock, cache, capability and native
 permission checks. Source adoption does not replace physical/store or signed-service qualification.

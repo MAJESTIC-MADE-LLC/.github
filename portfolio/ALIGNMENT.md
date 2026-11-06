@@ -1,97 +1,79 @@
-# Portfolio Alignment — updated November 4, 2026
+# Portfolio Alignment — reconciled November 6, 2026
 
-## Approved direction
+## Current implementation and approved direction
 
-Majestic Made builds affordable apps whose useful core works with encrypted on-device records.
-Exports are initiated by the user. Future optional sync requires explicit destination/collection
-enrollment and standing authorization; no sync is implemented by this design approval.
-Customer-owned hosting is not the same as a server operated by Majestic and is not currently
-supported across the portfolio. Avoid
-required accounts, default or unauthorized record uploads, recurring hosting cost, and cloud-only value where
-local software can solve the workflow. Store/billing metadata and minimal website business-contact
-forms remain separate disclosed flows.
+Majestic Made builds affordable apps with useful core workflows and encrypted on-device records.
+Exports are deliberate user actions. Optional sync uses explicit destination/collection enrollment
+as scoped standing authorization. Pantry Clock, Paws and Daymerit implement selected-record
+user-owned hosting in their pre-launch regular builds; service, licensing and physical/store
+qualification remain pending. Other products adopt separately. No company-operated record backend
+is required. Native billing, optional disclosed lookups and minimal website business-contact forms
+are separate network flows.
 
-The [shared stack standard](STACK_STANDARD.md) now requires the template and all seven existing
-consumer apps to adopt and qualify the maintained foundation before **any** app release, with iOS
-and Android in each first release. This supersedes the earlier incremental-adoption assumption.
-Implementation and local checks are present across the cohort; physical/store and immutable-package
-qualification remain pending. The gate covers shared contracts/builds and representative device/store boundaries,
-not every product's complete domain/release QA. After qualification, complete each product's own
-[release gates](RELEASE_DEFINITION.md) in the unchanged [canonical queue](LAUNCH_SLATE.md).
-Current evidence and target changes remain separate in [status](STATUS.md) and the
-[data matrix](DATA_COST_MATRIX.md).
+The [shared stack standard](STACK_STANDARD.md) requires the template and all seven existing apps
+to adopt and qualify the maintained foundation before **any** app release, with iOS and Android in
+each first release. Implementation and dated local validation exist; current source-bound cohort
+qualification and representative physical/store checks remain pending. Passing dependency alignment
+does not refresh historical evidence. The gate covers shared contracts/builds and representative
+boundaries, rather than every product's complete domain/release QA. After qualification, finish
+each product's [release gates](RELEASE_DEFINITION.md) in the unchanged [queue](LAUNCH_SLATE.md).
+
+All seven apps and the template implement monthly/annual subscription source and a separate
+non-billing 14-day local trial. Preserve authentic legacy ownership and existing reading, exports,
+deletion and authenticated encrypted recovery after expiry. Daymerit's remaining general deletion
+workflow stays separate from implemented shared-proof deletion and must be completed before release. Store product setup and actual transactions remain pending.
+See [pricing](PRICING.md), [status](STATUS.md) and the [data matrix](DATA_COST_MATRIX.md).
 
 ## Consolidation and boundaries
 
-- What We Own now owns one home/moving/claims product specification, including Claim Crate's
-  PCS/box/QR, condition, damage and claim-export requirements. Original Claim Crate source and
-  provenance are preserved in What We Own, and the redundant remote/local repository was deleted
-  on November 4 after a verified Git backup. Old website routes resolve to What We Own in source;
-  publication remains paused. Steward source/signup migration remains separate and unperformed.
-- Keep specialist experiences separate where their real workflows justify them: motorcycle
-  ownership, firearm/range records, pet care, beekeeping, tasting notes, diving, and fishing. Use the maintained
-  shared storage, backup, lock, billing, and export packages without combining private data.
-- Object Lore needs collector provenance/value-history/category workflows to justify a separate
-  app. Fine Notes remains one tasting app across wine, whiskey, coffee, and cigars. Outdoor apps
-  share infrastructure but retain their distinct records rather than becoming a generic journal.
-- Daymerit's account-free local parent/shared-tablet implementation is present with native permanent
-  unlock, encrypted recovery and parent/child controls. Namefold implements native encrypted QR/vCard
-  exchange and a separate static PWA with unencrypted browser drafts/backups. Their hosted source is
-  archived; managed links, family sync and user-owned hosting remain deferred. Ridelore uses local
-  processing and encrypted records, with explicit optional identity/recall lookup separately disclosed.
-  Physical/store/provenance qualification remains pending across the cohort.
-- Lockbox's late queue scope is a local document vault and explicit encrypted handoff. Autonomous
-  time-release/dead-man delivery has no reliable device-only guarantee and is deferred.
-- Kinwall remains research only. Dossier is explicitly excluded from this pass; Off Record remains
-  paused/excluded experimental work. Quiet Arcade is a Hub-only concept and has no repo yet.
+- What We Own owns the combined home/moving/claims concept, including Claim Crate's PCS/box/QR,
+  condition, damage and claim-export requirements. Claim Crate source/provenance is preserved in
+  What We Own; its redundant remote/local repository was deleted November 4 after verified backup.
+- Steward marketing and fresh What We Own signup use Hub routes. The former Next.js source is
+  preserved with checksums in Steward's November 5 archive. The offline review importer preserves
+  original one-launch-email/founding-rate permission; live export/count reconciliation, subscriber
+  transfer and domain cutover remain unperformed. Ongoing updates require fresh consent.
+- Keep specialist experiences and their private databases, keys, branding and recovery formats
+  independent while reusing maintained common modules. Fine Notes remains one tasting app across
+  wine, whiskey, coffee and cigars. Object Lore requires collector-specific workflows to justify
+  its separate scope.
+- Daymerit's local parent/shared-tablet household stays independent of explicitly enrolled family
+  hosting. Namefold has an encrypted native wallet and a separate static PWA with unencrypted
+  browser drafts/backups; managed public links remain deferred. Ridelore's optional user-requested
+  NHTSA VIN/model-year decoding requires its own disclosure; recall status stays manual.
+- Lockbox remains a concept for local documents and explicit encrypted handoff. Autonomous
+  time-release/dead-man delivery remains deferred. Kinwall is research-only; Dossier and Off Record
+  are excluded. Quiet Arcade is a Hub-only concept without a repository.
 
-## Optional user-owned hosting — November 4, 2026
+## Published optional hosting
 
-The approved [hosting architecture and adoption roadmap](USER_OWNED_HOSTING.md) extends the
-local foundation with a future Mac/Windows host, host-managed accounts, scoped collection sharing
-and end-to-end encrypted sync. The storage daemon stores ciphertext; authorized clients keep record keys and
-perform readable-data processing. Pairing requires client/recovery authority, not server-admin
-access alone. Use a LAN or user-configured private network/VPN for remote connections. An optional
-minimal Majestic push bridge carries opaque update hints and routing metadata, never records or keys.
+The [hosting architecture](USER_OWNED_HOSTING.md) distinguishes the ciphertext-only storage daemon
+from an independently enrolled desktop coordinator trusted to read selected collections. The
+published optional modules at `f74c7e709730b75e073a01bfcb7ef07100819a79` are deliberately adopted by
+Pantry Clock, Paws and Daymerit; core/report/media/reminder pins remain unchanged. Shared scope and
+workspace engines provide pairing, encrypted journals, verified grants and disconnected recovery;
+product-specific DTOs, rules, private vaults and legacy readers remain independent.
 
-Reference/runtime source and the Pantry Clock/Paws regular integrations now implement these
-contracts locally. Both consume the published shared session engine; core/report package pins and
-private data identities remain unchanged. Daymerit follows, then Skepbook/Ridelore/Fine Notes and
-selective Namefold native-wallet sync. Source adoption adds no local-launch prerequisite. Signed
-services, live licensing and physical/store qualification remain pending; the public release order,
-publication pause and Kinwall platform-access boundary are unchanged.
-
-The resolved hosting design distinguishes the ciphertext daemon from an independently enrolled
-trusted desktop coordinator that can read selected collections. It adopts explicit background
-services, current publication permits, atomic storage/crypto journals, disconnected restore/rejoin
-and verified app-specific workspace grants. Shared Daymerit financial actions await confirmation.
-Both the optional push bridge and purchase/grant verifier are disclosed metadata-only exceptions;
-neither receives app records or decryption keys. Verifier source is undeployed; the push bridge is
-not implemented. Customer service and physical-device qualification remain pending.
+Daymerit implements isolated parent/child/proof groups, signed global allocation, confirmed-only
+financial effects, proof inventory/deletion and recoverable enrollment/source staging. November 5
+published-source checks record 223 Daymerit, 196 Paws and 188 Pantry Clock app tests, shared/runtime
+checks and rebuilt native artifacts. See the [current source-specific evidence](https://github.com/MAJESTIC-MADE-LLC/Daymerit/blob/dev/docs/validation/2026-11-05/hosting-family/RESULTS.md).
+These checks do not qualify physical devices, signed Mac/Windows service installers, OS credential
+provisioning, live licensing or actual native-store transactions. The metadata-only verifier remains
+undeployed and the optional opaque push bridge remains unimplemented. Hosting adds no local-launch
+prerequisite and changes neither prices nor public release order.
 
 ## Naming and operating rules
 
-Use current repo/product names in active planning: Ridelore, Namefold, Daymerit, Brassmark,
-What We Own and Object Lore. Claim Crate is now a former product/workflow within What We Own.
-Old names such as RideBinder, ReachMe, RoutineCue, Range,
-Steward, Convoy, and Trove may remain in dated records, compatibility identifiers, and historical
-artifacts; do not blindly replace them or imply that app/store identity migration is complete.
-No further repository renames or deletions follow from this decision. Foundation code lives in the maintained App-Template packages; keep app-specific identities and compatibility adapters.
+Use current product/repository names. Historical names and identifiers may remain in dated
+records, compatibility formats and archives; do not blindly replace them or imply identity/store
+migration. No further rename, deletion or consolidation follows from this document.
 
-New core app access is subscription-only at the [approved monthly/annual prices](PRICING.md).
-One-time purchases may cover optional extras, never a permanent core unlock. All seven implemented
-apps now have monthly/yearly subscription source and separate non-billing local trials; store setup
-and actual store acceptance remain pending. Preserve
-verified legacy ownership, existing record reading/export and full encrypted backup/recovery after
-expiration. Historical evidence does not qualify changed billing or configure store products.
-
-Preserve existing work on local `dev` branches. Local validation supplies release evidence;
-GitHub Actions are optional and may run only for allowed main-branch events. No commits, pushes,
-CI triggers, store submissions, deployments, paid services, or infrastructure changes are authorized
-by this standard alone. On November 4 the owner separately authorized logical local `dev` commits,
-shared App-Template publication and immutable-source adoption/validation. Other repository pushes,
-main promotion and public releases are outside that action. The October 24, 2026 website publication
-pause remains in force.
+Normal work stays on `dev`; promotion directly to `main`, publication and deployments each require
+explicit owner instruction. Reviewed November 4 source was promoted, followed by later November 5
+work pushed on `dev`. Later source adoption does not imply another main promotion. Existing
+main-only optional CI, reproducible local validation and the October 24 website publication pause
+remain in force. This document authorizes no commit, push, store submission or infrastructure action.
 
 ## Canonical metadata contract
 
@@ -114,39 +96,3 @@ Change the manifest first, then run `python3 scripts/portfolio_status.py --write
 Generated tables must not be edited by hand. Counts derive from inventory; dated app test/build
 results remain historical until actually rerun. Documentation-only concept notes do not become
 app implementation evidence.
-
-## Source implementation and promotion — November 4, 2026
-
-All seven native apps now implement monthly/annual subscriptions, a separate non-billing
-14-day local trial and expiration-aware core writes with preserved existing-data/recovery
-rights. Optional hosting reference/runtime source and the metadata-only verifier also exist;
-consumer enrollment, signed service installation and production deployment remain pending.
-This current status supersedes earlier pending-migration/design-only wording above.
-
-The owner explicitly authorized logical commits for all current repository changes on dev,
-pushes, direct dev-to-main promotion and matching dev branches in this turn. This authorization
-does not publish websites or apps, configure store inventory or waive release qualification.
-
-## Published Pantry Clock adoption — November 4, 2026
-
-The owner subsequently authorized pending dev pushes and regular-build hosting adoption.
-Those pending branches are pushed. Pantry Clock now consumes the published optional hosting
-modules, with its existing core pins/private-data identities preserved. Its integration harness
-imports the same regular implementation. Pairing and manual synchronization remain explicit;
-startup/cached reads do not connect, and malformed optional hosting keys cannot block the private
-vault. Live licensing, signed services and physical/store qualification remain pending. Work then
-continues through the approved hosting roadmap one app at a time; release order is unchanged.
-
-The optional source has subsequently advanced to published Git
-`f5942ed7a2b318e48ec7e47ce9f46ba531e02c31`. Pantry Clock and Paws now share its native session
-engine; their typed domains, private vaults and recovery formats remain independent. Current work
-and pushes remain on dev; this adoption does not promote main or deploy a service.
-
-## Steward source consolidation — November 5, 2026
-
-Steward marketing and fresh What We Own signup now use Hub routes and its approved web stack.
-The former Next.js application is preserved byte-for-byte in Steward’s dated legacy archive;
-its active repository is a buildless transition surface with no Node manifest or stack exception.
-The private offline review importer preserves the original one-launch-email/founding-rate consent
-and source provenance without enrolling anyone in ongoing product updates. Live export/count
-reconciliation and domain cutover remain unperformed under the publication pause.

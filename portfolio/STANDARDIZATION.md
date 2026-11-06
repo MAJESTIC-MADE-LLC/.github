@@ -75,30 +75,27 @@ Node projects use 26.13.0, the latest LTS entry verified November 4 against the
 16.4.3 and React/React DOM 19.3.1. Steward’s active marketing is consolidated into Hub; its old Next.js source is an archive. Company server Docker
 scaffolding is separate operational material, not the consumer hosting/runtime template.
 
-Software alignment passing does not mean physical-device/store acceptance, current foundation
-evidence, signed installers or self-hosting product integration has been completed.
+Passing software alignment does not complete physical-device/store acceptance, current foundation
+evidence or signed installers. Pantry Clock, Paws and Daymerit have explicit
+pre-launch integrations; their operational qualification remains separate.
 
-## Registered hosting development pilots
+## Optional hosting pilot and explicit adoption
 
-`Pantry-Clock/hosting_pilot` is the first explicit optional-hosting development composition. Its
-local Pantry/shared-source bindings and dependency/lock fingerprints are registered in
-`STANDARDIZATION.json`. The guard verifies those exact paths and all overlapping production/core
-versions, and rejects hosting packages leaking into the production app graph. This permits source
-implementation and native engineering builds before a new shared Git revision is published. It
-does not relax production provenance or release qualification, or adopt a second product.
+`Pantry-Clock/hosting_pilot` began as the registered development composition and is now a thin
+harness over Pantry Clock's regular implementation. The app and harness, Paws and Daymerit resolve
+the complete optional module set from published Git
+`f74c7e709730b75e073a01bfcb7ef07100819a79`. The core pins remain unchanged.
 
-## Explicit optional hosting adoption
+`hostingPolicy` requires the complete package set, explicit `user_owned_hosting` capability,
+approved consumer identity, exact transitive pins, native LAN permission/disclosure and verified
+Git/cache provenance. The harness may use only its registered parent app as a local source and
+must agree with its parent's optional sources. Overrides and moving refs fail. Earlier local-source
+pilot evidence retains its original scope and does not qualify later published artifacts.
 
-Pantry Clock’s regular app and thin integration harness now resolve the three optional modules
-from published Git revision `3c81cd84da760e17ec358799156e66014a2651e4`. The four core pins remain
-unchanged. `hostingPolicy` requires the complete package set, explicit `user_owned_hosting`
-capability, approved consumer identity, exact transitive pins, native LAN permission/disclosure
-and verified Git/cache provenance. A thin harness may use only its registered parent app as a
-local source and must agree with its parent’s optional sources. Overrides and moving refs fail.
-
-Only the two reviewed Pantry dependency fingerprints were updated. Existing qualification
-records were not restamped. Native iOS linker configuration is covered by staged-input guards;
-native binaries and generated provenance remain ignored. Each later product adopts deliberately.
+Four reviewed dependency baselines advanced together: Pantry regular app, its harness, Paws and
+Daymerit. Native iOS linker inputs are covered by staged-input guards; native binaries and generated
+provenance remain ignored. Later products adopt deliberately. Signed service, live licensing,
+physical-device/store and current foundation evidence gates remain separate.
 
 ## Shared session adoption
 

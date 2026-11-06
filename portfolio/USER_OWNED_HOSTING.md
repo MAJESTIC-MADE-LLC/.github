@@ -53,15 +53,16 @@ pins are unchanged. Recheck advisories and qualify source-built native libraries
 and vendor-supported Windows **11 25H2+**, distributing only tested architectures. The
 [desktop contract](https://github.com/MAJESTIC-MADE-LLC/App-Template/blob/dev/docs/HOSTING_DESKTOP_CONTRACT.md)
 specifies service identities, unattended key access, signed installers, TLS lifecycle and local
-network permission/denial behavior. Native spikes must prove these choices before app integration.
+network permission/denial behavior. Source-built native integration checks exist; signed service
+installation and OS credential lifecycle still require operational qualification.
 
 ## Seven review findings and their resolutions
 
 All seven are **resolved as design requirements**. Reference code and local evidence now exist;
 [implementation status](https://github.com/MAJESTIC-MADE-LLC/App-Template/blob/dev/docs/HOSTING_IMPLEMENTATION.md)
-separates completed checks from remaining qualification. The first reference supports one collection
-per workspace. A generic product-owned transaction API and a true multicollection capacity ledger
-remain gates before application adoption.
+separates completed checks from remaining qualification. Published source now includes generic
+product-owned transactions and a workspace-wide allocation ledger; Daymerit composes isolated
+parent/child/proof groups. These implemented contracts do not qualify signed services or live licensing.
 
 | Finding | Required resolution | Detailed template contract |
 | --- | --- | --- |
@@ -157,10 +158,10 @@ staging, interrupted enrollment and authenticated disconnected family recovery r
 boundaries. Product/native/server tests use real TLS, MLS and the ciphertext daemon. Its implementation
 does not qualify signed desktop service packaging or production licensing operations.
 
-| Future phase | Products | Required work |
+| Phase / status | Products | Scope / remaining work |
 | --- | --- | --- |
-| Reference qualification | App-Template generated clients and desktop services | Prove the headless coordinator/native-key spike, atomic storage/MLS bridge, role-separated TLS, signed grants and all seven resolutions with two independently generated iOS/Android clients before product adoption. |
-| First product pilot | Pantry Clock | Shared household inventory, staged snapshot migration, exact quantity/deletion/conflict semantics and preserved legacy backups. |
+| Reference source implemented; operational qualification pending | App-Template generated clients and desktop services | Local coordinator, atomic storage/MLS, role-separated TLS, grant and generated-client tests exist. Complete source-bound release evidence, signed service/credential lifecycle and physical-device qualification. |
+| First pilot adopted in regular build | Pantry Clock | Shared household inventory, staged snapshot migration, exact quantity/deletion/conflict semantics and preserved legacy backups; operational/device/store qualification remains pending. |
 | Implemented development adoption | Daymerit; Paws | Daymerit isolated parent/child/proof data, household grants and confirmed ledger rules; Paws distinct pet/care events. Production operational/device/store qualification remains pending. |
 | Later | Skepbook; Ridelore; Fine Notes | Selected apiaries, vehicle binders and tasting collections; preserve relationships, attachment access and authorship. |
 | Selective | Namefold | Private native-wallet sync only. Public profiles/links and the browser-local PWA remain separate architecture/consent decisions. |
@@ -168,7 +169,7 @@ does not qualify signed desktop service packaging or production licensing operat
 | Inherit when built | Future concepts | Adopt only when workflows benefit; sharing/accounts are not mandatory template features. |
 | Separate feasibility | Kinwall | Hosting conveys legitimately obtained records; it cannot grant iPhone Messages/call-history access. No new release slot or implementation claim. |
 
-These are future hosting engineering phases, not public release positions. The `wolfe-server-*`
+These are hosting implementation/qualification phases, separate from public release positions. The `wolfe-server-*`
 repositories remain company operational references, not the customer desktop kit. No repository
 creation/rename/merge, service restoration, application migration or new launch dependency follows.
 
@@ -181,7 +182,7 @@ Report export selections do not determine sync scope; enrollment must separately
 photos/private notes and coordinator access. Hosting does not turn the solo offer into a team tier
 or change its approved $9.99/month or $79.99/year base price.
 
-Before adopting hosting in apps, record source-bound evidence for the detailed contracts:
+For each deliberate adoption and before releasing hosting, record source-bound evidence for the contracts:
 
 - Source-built reference interoperability and release artifacts on both mobile platforms; independent
   database/attachment encryption, DTO disclosure checks and existing archive/ID/key compatibility.
@@ -195,7 +196,10 @@ Before adopting hosting in apps, record source-bound evidence for the detailed c
   services and recovery/export without any paid grant or host.
 
 Local source tests now cover real TLS/MLS/storage traffic, atomic quantities/migration, grant
-rejection and disconnected recovery in the reference, Pantry Clock and Paws. Paws also covers
+rejection and disconnected recovery in the reference, Pantry Clock, Paws and Daymerit. Daymerit
+adds isolated parent/child/proof scopes, confirmed financial effects, proof deletion and bounded
+encrypted family recovery; its [November 5 evidence](https://github.com/MAJESTIC-MADE-LLC/Daymerit/blob/dev/docs/validation/2026-11-05/hosting-family/RESULTS.md)
+records published-source app/network checks and native builds. Paws also covers
 real two-device care-event exchange, genuine first-owner selected-source publication and parent
 deletion races while preserving private SQLite bytes/keys. Regular native-build evidence is
 recorded separately from earlier foundation/pilot evidence. Signed services, live

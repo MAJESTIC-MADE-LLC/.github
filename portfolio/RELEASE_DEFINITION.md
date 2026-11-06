@@ -1,6 +1,6 @@
 # Majestic Made Release Definition
 
-Updated November 3, 2026. Before **any** app release, the template and all seven existing consumer
+Overview reconciled November 6, 2026; release policy approved November 3. Before **any** app release, the template and all seven existing consumer
 apps must adopt and qualify the [shared foundation](STACK_STANDARD.md) on iOS and Android.
 That foundation gate is pending. It does not require all seven products to finish every domain,
 accessibility, legal or store-submission check simultaneously. After it qualifies, each product
@@ -15,8 +15,9 @@ A README, manifest label, mockup, simulator-only demo or historical report is no
   checks for the cohort, plus a generated-template smoke run and shared-package tests.
 - Complete representative physical iOS/Android privacy and native-store boundary qualification.
   Preserve pending status for unavailable hardware/store checks; do not relabel simulators as hardware.
-- Keep package provenance honest while it uses unpublished local workspace paths. No version tag or
-  declaration substitutes for package integration or qualification evidence.
+- Verify the approved immutable Git revision, resolved lock and actual cached package bytes.
+  Development-only local paths do not qualify production provenance. No version tag or declaration
+  substitutes for package integration or current source-bound qualification evidence.
 
 ## Product and experience
 
@@ -31,11 +32,12 @@ A README, manifest label, mockup, simulator-only demo or historical report is no
   app and Namefold's native local wallet/static PWA are implemented; physical/store/provenance
   qualification is pending. Namefold browser drafts/JSON backups are unencrypted, unlike its native vault.
 - Default consumer records to encrypted on-device storage without a mandatory company account.
-  Only deliberate user actions export records. Future optional sync uses explicit destination/
+  Only deliberate user actions export records. Optional sync uses explicit destination/
   collection enrollment as scoped standing transfer authorization, separate from manual exports.
   The [approved hosting design](USER_OWNED_HOSTING.md) requires its own tested encryption, pairing,
   access, recovery, disconnect and provider-exit behavior before that feature releases. It is
-  design-only future expansion and adds no prerequisite for current local-app launches.
+  implemented in the Pantry Clock, Paws and Daymerit pre-launch builds; service, licensing and
+  physical/store qualification remain pending. Hosting adds no prerequisite for local-app launches.
 - Verify data inventory, data flows, retention, export, deletion, and encrypted backup/restore.
   A PDF/CSV or a single shared note is not a complete restorable vault backup. Do not rely on
   untested system backup or promise recovery of a key or passphrase Majestic does not hold.
@@ -59,9 +61,9 @@ A README, manifest label, mockup, simulator-only demo or historical report is no
 ## Commercial and legal
 
 - Use the approved [monthly/annual subscription prices](PRICING.md) for core access. No new
-  permanent core-app unlocks; one-time purchases are limited to optional extras. Most current
-  adapters remain permanent-unlock implementations; Skepbook's monthly/yearly subscription source changes
-  do not qualify other products or establish actual store availability.
+  permanent core-app unlocks; one-time purchases are limited to optional extras. All seven existing
+  apps and the template implement monthly/annual subscription source and separate non-billing
+  local trials. This does not establish actual store availability or signed-store acceptance.
 - Verify subscription enrollment, renewal, cancellation through the paid-through date, expiration,
   grace/retry, refund/revocation, restore and bounded offline entitlement behavior. Preserve authentic
   legacy lifetime ownership separately from new sales and validate optional-extra restoration.
