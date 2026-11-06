@@ -397,7 +397,8 @@
     "approvedConsumers": [
       "Pantry-Clock",
       "Paws",
-      "Daymerit"
+      "Daymerit",
+      "Skepbook"
     ],
     "packages": [
       "majestic_hosting",
