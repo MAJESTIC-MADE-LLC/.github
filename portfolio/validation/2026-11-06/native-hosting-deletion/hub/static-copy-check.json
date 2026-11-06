@@ -1,0 +1,16 @@
+[
+  {
+    "page": "daymerit",
+    "artifact": "/Users/bespin-starter/Documents/Majestic/Majestic-Made-Hub/out/daymerit/index.html",
+    "sha256": "1bcf6a3b7da51305842fccad54cc73f070ecb8d450eee97db9008e3f7906d779",
+    "expectedCurrentCopyPresent": true,
+    "staleCopyAbsent": true
+  },
+  {
+    "page": "skepbook",
+    "artifact": "/Users/bespin-starter/Documents/Majestic/Majestic-Made-Hub/out/skepbook/index.html",
+    "sha256": "f43f75c7e0271bad429e36b7f316bd99ec3d9303c3b54fb69fcc200225383be4",
+    "expectedCurrentCopyPresent": true,
+    "staleCopyAbsent": true
+  }
+]

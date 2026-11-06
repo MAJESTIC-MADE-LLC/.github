@@ -1,0 +1,17 @@
+
+> majestic-made-hub@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/bespin-starter/Documents/Majestic/Majestic-Made-Hub
+
+
+ Test Files  25 passed (25)
+      Tests  201 passed (201)
+   Start at  12:08:05
+   Duration  3.01s (environment 51%, tests 32%, setup 12%, import 3%, transform 2%)
+
+Environment  jsdom was created 25 times · 13.93s total, 51% of tracked time
+             create it once per worker with pool: 'vmThreads' (keeps per-file isolation) or isolate: false (shares it across files)
+             learn more: https://vitest.dev/guide/improving-performance#test-environments
+

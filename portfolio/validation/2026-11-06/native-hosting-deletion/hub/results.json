@@ -1,0 +1,70 @@
+{
+  "nodeVersion": "v26.13.0",
+  "baseCommit": "9625a3f08a09bd79a3823b3609db224af8b5edfd",
+  "checks": [
+    {
+      "name": "lint",
+      "argv": [
+        "/Users/bespin-starter/.nvm/versions/node/v26.13.0/bin/npm",
+        "run",
+        "lint"
+      ],
+      "cwd": "/Users/bespin-starter/Documents/Majestic/Majestic-Made-Hub",
+      "node": "/Users/bespin-starter/.nvm/versions/node/v26.13.0/bin/node",
+      "startedUtc": "2026-11-06T18:08:05.191336+00:00",
+      "endedUtc": "2026-11-06T18:08:10.520681+00:00",
+      "seconds": 5.329,
+      "exitCode": 0,
+      "log": "/Users/bespin-starter/Documents/Majestic/.archives/validation/native-hosting-deletion-2026-11-06/hub-final/lint.log",
+      "logSha256": "c07fe4bf8ed2964f732eb544092a34aa768131961a8cb13ecfbc5cf2cbe2a02d"
+    },
+    {
+      "name": "typecheck",
+      "argv": [
+        "/Users/bespin-starter/.nvm/versions/node/v26.13.0/bin/npm",
+        "run",
+        "typecheck"
+      ],
+      "cwd": "/Users/bespin-starter/Documents/Majestic/Majestic-Made-Hub",
+      "node": "/Users/bespin-starter/.nvm/versions/node/v26.13.0/bin/node",
+      "startedUtc": "2026-11-06T18:08:05.191574+00:00",
+      "endedUtc": "2026-11-06T18:08:07.633713+00:00",
+      "seconds": 2.442,
+      "exitCode": 0,
+      "log": "/Users/bespin-starter/Documents/Majestic/.archives/validation/native-hosting-deletion-2026-11-06/hub-final/typecheck.log",
+      "logSha256": "38d5752702f71e5aaaa800ca1fa19c5f6bd7aa4e4223d2cca5ed4d63d560b480"
+    },
+    {
+      "name": "test",
+      "argv": [
+        "/Users/bespin-starter/.nvm/versions/node/v26.13.0/bin/npm",
+        "run",
+        "test"
+      ],
+      "cwd": "/Users/bespin-starter/Documents/Majestic/Majestic-Made-Hub",
+      "node": "/Users/bespin-starter/.nvm/versions/node/v26.13.0/bin/node",
+      "startedUtc": "2026-11-06T18:08:05.191682+00:00",
+      "endedUtc": "2026-11-06T18:08:08.913676+00:00",
+      "seconds": 3.722,
+      "exitCode": 0,
+      "log": "/Users/bespin-starter/Documents/Majestic/.archives/validation/native-hosting-deletion-2026-11-06/hub-final/test.log",
+      "logSha256": "e0e442297bc3955815ca581a9ba8d6ad067345d98afc42c62ce140c645b01a63"
+    },
+    {
+      "name": "build",
+      "argv": [
+        "/Users/bespin-starter/.nvm/versions/node/v26.13.0/bin/npm",
+        "run",
+        "build"
+      ],
+      "cwd": "/Users/bespin-starter/Documents/Majestic/Majestic-Made-Hub",
+      "node": "/Users/bespin-starter/.nvm/versions/node/v26.13.0/bin/node",
+      "startedUtc": "2026-11-06T18:08:10.521015+00:00",
+      "endedUtc": "2026-11-06T18:08:13.349049+00:00",
+      "seconds": 2.828,
+      "exitCode": 0,
+      "log": "/Users/bespin-starter/Documents/Majestic/.archives/validation/native-hosting-deletion-2026-11-06/hub-final/build.log",
+      "logSha256": "10388a3537de4d74008eb22f62bc24b3666c66ef3c72d1e3e76bfa3ae396f9b2"
+    }
+  ]
+}

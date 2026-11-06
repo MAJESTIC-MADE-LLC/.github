@@ -1,0 +1,26 @@
+[
+  {
+    "application": "Skepbook",
+    "tests": 306,
+    "sourceFingerprint": "afdb9f48f6b784d533e761d54d8cc482f905625bb70559917953d2a9e21fba59",
+    "record": "Skepbook/docs/validation/2026-11-06/native-hosting-deletion"
+  },
+  {
+    "application": "Daymerit",
+    "tests": 242,
+    "sourceFingerprint": "b54dcf024b6122fe5a6d1ef7460fc07fd5d9f38de194e6ab80cdb7431a0dec4a",
+    "record": "Daymerit/docs/validation/2026-11-06/native-hosting-deletion"
+  },
+  {
+    "application": "Paws",
+    "tests": 196,
+    "sourceFingerprint": "a9cc49e5584e951d2954de123a33159a439258ae96bf5f10eba92587ea881bb9",
+    "record": "Paws/docs/validation/2026-11-06/native-hosting-deletion"
+  },
+  {
+    "application": "Pantry-Clock",
+    "tests": 188,
+    "sourceFingerprint": "240ee4f65f290912713211316fa155ac1a803a45b5bd394c793ad8f3503f7562",
+    "record": "Pantry-Clock/docs/validation/2026-11-06/native-hosting-deletion"
+  }
+]

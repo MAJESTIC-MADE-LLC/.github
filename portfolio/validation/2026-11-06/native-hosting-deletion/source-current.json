@@ -1,0 +1,54 @@
+{
+  "capturedAt": "2026-11-06T18:41:38.966940+00:00",
+  "cohortFingerprint": "b32d296ea025a0ba3da6115c5ea7156558efe65f08074d3dcebeb43d6c193c28",
+  "consumers": [
+    {
+      "application": "App-Template",
+      "sourceFingerprint": "50aa10cc60ef86ab8cf8ac174f6629053ac9a5c8e9c99db354405f63ebdaa6a4",
+      "staticAdoption": "passed",
+      "immutablePackageRevisions": "passed"
+    },
+    {
+      "application": "Skepbook",
+      "sourceFingerprint": "afdb9f48f6b784d533e761d54d8cc482f905625bb70559917953d2a9e21fba59",
+      "staticAdoption": "passed",
+      "immutablePackageRevisions": "passed"
+    },
+    {
+      "application": "Ridelore",
+      "sourceFingerprint": "475813586f7445bb4bb3c75e43057280b658522a2227738c50c37104ffeda46e",
+      "staticAdoption": "passed",
+      "immutablePackageRevisions": "passed"
+    },
+    {
+      "application": "Paws",
+      "sourceFingerprint": "a9cc49e5584e951d2954de123a33159a439258ae96bf5f10eba92587ea881bb9",
+      "staticAdoption": "passed",
+      "immutablePackageRevisions": "passed"
+    },
+    {
+      "application": "Pantry-Clock",
+      "sourceFingerprint": "240ee4f65f290912713211316fa155ac1a803a45b5bd394c793ad8f3503f7562",
+      "staticAdoption": "passed",
+      "immutablePackageRevisions": "passed"
+    },
+    {
+      "application": "Fine-Notes",
+      "sourceFingerprint": "30361cc8b066da5977230e4e81c32984e53d076038545999949b422a4324ba73",
+      "staticAdoption": "passed",
+      "immutablePackageRevisions": "passed"
+    },
+    {
+      "application": "Namefold",
+      "sourceFingerprint": "55cfcf8789027575504d6ebc6918498b9b022231ea41c383f182e5acf706004e",
+      "staticAdoption": "passed",
+      "immutablePackageRevisions": "passed"
+    },
+    {
+      "application": "Daymerit",
+      "sourceFingerprint": "b54dcf024b6122fe5a6d1ef7460fc07fd5d9f38de194e6ab80cdb7431a0dec4a",
+      "staticAdoption": "passed",
+      "immutablePackageRevisions": "passed"
+    }
+  ]
+}

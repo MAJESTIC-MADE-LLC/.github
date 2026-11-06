@@ -1,0 +1,199 @@
+Running build hooks...Running build hooks...00:00 +0: loading test/rate_limit_test.dart
+00:00 +0: test/rate_limit_test.dart: old addresses expire even after the capacity is reached
+00:00 +1: test/rate_limit_test.dart: per-address abuse stays bounded until the next window
+00:00 +2: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:00 +3: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:00 +4: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:00 +5: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:00 +6: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:00 +7: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:00 +8: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:00 +9: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:01 +10: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:01 +11: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:01 +12: test/immutable_staging_test.dart: accepted immutable parts preserve pending typed overlays without whole-projection installation
+00:01 +13: test/network_contract_test.dart: accepted bytes repair publication after sender loss and coordinator restart
+00:02 +14: test/immutable_staging_test.dart: final typed projection matches ordinary reconciliation exactly
+00:02 +15: test/network_contract_test.dart: replayed, forged, revoked and stale authority requests fail without publishing
+00:02 +16: test/network_contract_test.dart: replayed, forged, revoked and stale authority requests fail without publishing
+00:03 +17: test/network_contract_test.dart: replayed, forged, revoked and stale authority requests fail without publishing
+00:03 +18: test/immutable_staging_test.dart: incremental finalization and receiving copy roll back with journal/crypto; exact retry succeeds
+00:03 +19: test/network_contract_test.dart: one pending invitation holds membership/publication; committed join resumes a lost acknowledgement
+00:03 +20: test/network_contract_test.dart: one pending invitation holds membership/publication; committed join resumes a lost acknowledgement
+00:03 +21: test/network_contract_test.dart: one pending invitation holds membership/publication; committed join resumes a lost acknowledgement
+00:03 +22: test/network_contract_test.dart: one pending invitation holds membership/publication; committed join resumes a lost acknowledgement
+00:03 +23: test/network_contract_test.dart: one pending invitation holds membership/publication; committed join resumes a lost acknowledgement
+00:03 +24: test/network_contract_test.dart: one pending invitation holds membership/publication; committed join resumes a lost acknowledgement
+00:04 +25: test/session_engine_test.dart: real TLS enrollment and MLS publication retain drafts without trusted keys and restore permissions after restart
+00:04 +26: test/session_engine_test.dart: real TLS enrollment and MLS publication retain drafts without trusted keys and restore permissions after restart
+00:04 +27: test/network_contract_test.dart: an expired paid edit does not block permitted deletion or disclose its cancelled draft
+00:05 +28: test/session_engine_test.dart: expired license preserves paid drafts while an enrolled device can explicitly delete and locked/disconnected access cannot
+00:05 +29: test/session_engine_test.dart: expired license preserves paid drafts while an enrolled device can explicitly delete and locked/disconnected access cannot
+00:06 +30: test/session_engine_test.dart: expired license preserves paid drafts while an enrolled device can explicitly delete and locked/disconnected access cannot
+00:06 +31: test/session_engine_test.dart: expired license preserves paid drafts while an enrolled device can explicitly delete and locked/disconnected access cannot
+00:06 +32: test/session_engine_test.dart: expired license preserves paid drafts while an enrolled device can explicitly delete and locked/disconnected access cannot
+00:06 +33: test/session_engine_test.dart: expired license preserves paid drafts while an enrolled device can explicitly delete and locked/disconnected access cannot
+00:06 +34: test/workspace_authority_independent_test.dart: wrong signer, product, workspace or generation cannot replace the global head
+00:06 +35: test/session_engine_test.dart: ordinary coordinator conflicts remain portable after restart and command retries do not reserve twice
+00:06 +36: test/session_engine_test.dart: ordinary coordinator conflicts remain portable after restart and command retries do not reserve twice
+00:06 +37: test/session_engine_test.dart: ordinary coordinator conflicts remain portable after restart and command retries do not reserve twice
+00:06 +38: test/session_engine_test.dart: ordinary coordinator conflicts remain portable after restart and command retries do not reserve twice
+00:06 +39: test/session_engine_test.dart: ordinary coordinator conflicts remain portable after restart and command retries do not reserve twice
+00:06 +40: test/session_engine_test.dart: ordinary coordinator conflicts remain portable after restart and command retries do not reserve twice
+00:06 +41: test/session_engine_test.dart: ordinary coordinator conflicts remain portable after restart and command retries do not reserve twice
+00:06 +42: test/session_engine_test.dart: ordinary coordinator conflicts remain portable after restart and command retries do not reserve twice
+00:06 +43: test/session_engine_test.dart: ordinary coordinator conflicts remain portable after restart and command retries do not reserve twice
+00:06 +44: test/session_engine_test.dart: ordinary coordinator conflicts remain portable after restart and command retries do not reserve twice
+00:06 +45: test/session_engine_test.dart: ordinary coordinator conflicts remain portable after restart and command retries do not reserve twice
+00:06 +46: test/session_engine_test.dart: ordinary coordinator conflicts remain portable after restart and command retries do not reserve twice
+00:06 +47: test/session_engine_test.dart: ordinary coordinator conflicts remain portable after restart and command retries do not reserve twice
+00:06 +48: test/session_engine_test.dart: ordinary coordinator conflicts remain portable after restart and command retries do not reserve twice
+00:06 +49: test/session_engine_test.dart: ordinary coordinator conflicts remain portable after restart and command retries do not reserve twice
+00:06 +50: test/session_engine_test.dart: ordinary coordinator conflicts remain portable after restart and command retries do not reserve twice
+00:07 +51: test/session_engine_test.dart: ordinary coordinator conflicts remain portable after restart and command retries do not reserve twice
+00:07 +52: test/real_mls_contract_test.dart: tampering, gaps and replay do not mutate committed MLS state; restart reuses exact outbox bytes
+00:07 +53: test/session_engine_test.dart: first owner stages only the freshly reviewed atomic batch and retains exact source privately
+00:08 +54: test/session_engine_test.dart: first owner stages only the freshly reviewed atomic batch and retains exact source privately
+00:08 +55: test/large_product_bounds_test.dart: large typed projection survives disconnected restore/recovery; defaults and hard ceilings remain bounded
+00:09 +56: test/large_product_bounds_test.dart: large typed projection survives disconnected restore/recovery; defaults and hard ceilings remain bounded
+00:09 +57: test/large_product_bounds_test.dart: large typed projection survives disconnected restore/recovery; defaults and hard ceilings remain bounded
+00:09 +58: test/reference_setup_contract_test.dart: first-owner setup uses explicit product profile without reference grant authority
+00:10 +59: test/large_product_bounds_test.dart: real pinned TLS response accepts explicit large profile and rejects default limit without truncation
+00:10 +60: test/large_product_bounds_test.dart: real pinned TLS response accepts explicit large profile and rejects default limit without truncation
+00:10 +61: test/reference_setup_contract_test.dart: expired offer and old token fail; local renewal preserves a usable unpublished device package
+00:10 +62: test/large_product_bounds_test.dart: session large encrypted recovery preserves all proposal chunks and missing existing key never opens product factory
+00:10 +63: test/large_product_bounds_test.dart: session large encrypted recovery preserves all proposal chunks and missing existing key never opens product factory
+00:12 +64: test/large_product_bounds_test.dart: session large encrypted recovery preserves all proposal chunks and missing existing key never opens product factory
+00:12 +65: test/large_product_bounds_test.dart: session large encrypted recovery preserves all proposal chunks and missing existing key never opens product factory
+00:12 +66: test/large_product_bounds_test.dart: session large encrypted recovery preserves all proposal chunks and missing existing key never opens product factory
+00:13 +67: test/large_product_bounds_test.dart: session large encrypted recovery preserves all proposal chunks and missing existing key never opens product factory
+00:14 +68: test/large_product_bounds_test.dart: session large encrypted recovery preserves all proposal chunks and missing existing key never opens product factory
+00:14 +69: test/large_product_bounds_test.dart: session large encrypted recovery preserves all proposal chunks and missing existing key never opens product factory
+00:15 +70: test/large_product_bounds_test.dart: session large encrypted recovery preserves all proposal chunks and missing existing key never opens product factory
+00:15 +71: test/large_product_bounds_test.dart: session large encrypted recovery preserves all proposal chunks and missing existing key never opens product factory
+00:16 +72: test/large_product_bounds_test.dart: session large encrypted recovery preserves all proposal chunks and missing existing key never opens product factory
+00:16 +73: test/large_product_bounds_test.dart: session large encrypted recovery preserves all proposal chunks and missing existing key never opens product factory
+00:17 +74: test/coordinator_rate_budget_test.dart: real pinned TLS enforces exact 240 HTTP requests per fixed minute
+00:17 +75: test/coordinator_rate_budget_test.dart: real pinned TLS enforces exact 256 HTTP requests per fixed minute
+00:17 +76: test/coordinator_rate_budget_test.dart: real pinned TLS enforces exact 256 HTTP requests per fixed minute
+00:18 +77: test/coordinator_rate_budget_test.dart: real pinned TLS enforces exact 256 HTTP requests per fixed minute
+00:18 +78: test/coordinator_rate_budget_test.dart: real pinned TLS enforces exact 256 HTTP requests per fixed minute
+00:18 +79: test/coordinator_rate_budget_test.dart: real pinned TLS enforces exact 256 HTTP requests per fixed minute
+00:18 +80: test/coordinator_rate_budget_test.dart: real pinned TLS enforces exact 256 HTTP requests per fixed minute
+00:18 +81: test/workspace_session_engine_test.dart: selection failure after durable write rolls back to exact prior family or absent pointer
+00:18 +82: test/workspace_session_engine_test.dart: a recovered child copy opens without parent PIN and cannot create parent authority
+00:18 +83: test/workspace_session_engine_test.dart: a PIN-free child recovery cannot replace opened or cold parent cache without parent unlock
+00:18 +84: test/workspace_session_engine_test.dart: a PIN-free child recovery cannot replace opened or cold parent cache without parent unlock
+00:18 +85: test/setup_runner_test.dart: product prepare/owner-approved complete uses real MLS and externally signed production grant
+00:18 +86: test/setup_runner_test.dart: product prepare/owner-approved complete uses real MLS and externally signed production grant
+00:19 +87: test/setup_runner_test.dart: product prepare/owner-approved complete uses real MLS and externally signed production grant
+00:19 +88: test/workspace_session_engine_test.dart: different physical identities reject whole real MLS family selection
+00:19 +89: test/workspace_session_engine_test.dart: different physical identities reject whole real MLS family selection
+00:19 +90: test/workspace_grant_test.dart: independent Node ES256 fixture verifies and owner RFC7638 agrees
+00:19 +91: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +92: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +93: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +94: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +95: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +96: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +97: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +98: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +99: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +100: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +101: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +102: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +103: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +104: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +105: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +106: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +107: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +108: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +109: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +110: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +111: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +112: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +113: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:22 +114: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:23 +115: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:25 +116: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:26 +117: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:27 +118: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:27 +118: test/engine_contract_review_test.dart: version-one selector, relative keys and proposal chunks reopen without scope regeneration
+WARNING (drift): It looks like you've created the database class _SyncDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _SyncDatabase (package:majestic_sync/src/store.dart)
+#4      SyncStore.open (package:majestic_sync/src/store.dart:112:16)
+<asynchronous suspension>
+#5      main.<anonymous closure> (file:///Users/bespin-starter/Documents/Majestic/App-Template/packages/majestic_hosting/test/engine_contract_review_test.dart:97:20)
+<asynchronous suspension>
+#6      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#7      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#8      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+WARNING (drift): It looks like you've created the database class _SyncDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _SyncDatabase (package:majestic_sync/src/store.dart)
+#4      SyncStore.open (package:majestic_sync/src/store.dart:112:16)
+<asynchronous suspension>
+#5      openHostingStore (package:majestic_hosting/src/product_database.dart:52:7)
+<asynchronous suspension>
+#6      HostingSessionEngine._openView (package:majestic_hosting/src/session_engine.dart:877:22)
+<asynchronous suspension>
+#7      HostingSessionEngine._openControl (package:majestic_hosting/src/session_engine.dart:768:9)
+<asynchronous suspension>
+#8      HostingSessionEngine._ensureOpened (package:majestic_hosting/src/session_engine.dart:712:7)
+<asynchronous suspension>
+#9      HostingSessionEngine._run.<anonymous closure> (package:majestic_hosting/src/session_engine.dart:680:19)
+<asynchronous suspension>
+#10     main.<anonymous closure> (file:///Users/bespin-starter/Documents/Majestic/App-Template/packages/majestic_hosting/test/engine_contract_review_test.dart:155:5)
+<asynchronous suspension>
+#11     Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#12     Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#13     Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+WARNING (drift): It looks like you've created the database class _SyncDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _SyncDatabase (package:majestic_sync/src/store.dart)
+#4      SyncStore.open (package:majestic_sync/src/store.dart:112:16)
+<asynchronous suspension>
+#5      openHostingStore (package:majestic_hosting/src/product_database.dart:52:7)
+<asynchronous suspension>
+#6      HostingSessionEngine._openView (package:majestic_hosting/src/session_engine.dart:877:22)
+<asynchronous suspension>
+#7      HostingSessionEngine._openControl (package:majestic_hosting/src/session_engine.dart:768:9)
+<asynchronous suspension>
+#8      HostingSessionEngine._ensureOpened (package:majestic_hosting/src/session_engine.dart:712:7)
+<asynchronous suspension>
+#9      HostingSessionEngine._run.<anonymous closure> (package:majestic_hosting/src/session_engine.dart:680:19)
+<asynchronous suspension>
+#10     main.<anonymous closure> (file:///Users/bespin-starter/Documents/Majestic/App-Template/packages/majestic_hosting/test/engine_contract_review_test.dart:179:5)
+<asynchronous suspension>
+#11     Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#12     Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#13     Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+00:27 +119: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:27 +120: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:27 +121: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:29 +122: All tests passed!

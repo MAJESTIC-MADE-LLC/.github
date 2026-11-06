@@ -1,0 +1,4 @@
+
+> majestic-made-hub@0.1.0 lint
+> eslint app components lib functions test vitest.config.mts
+

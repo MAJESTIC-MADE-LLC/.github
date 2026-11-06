@@ -1,0 +1,52 @@
+
+> majestic-made-hub@0.1.0 build
+> next build
+
+▲ Next.js 16.4.3 (Turbopack)
+- Environments: .env.local
+✓ Running next.config.mjs took 12ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 395ms
+  Running TypeScript ...
+  Finished TypeScript in 855ms ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/28) ...
+  Generating static pages using 11 workers (7/28) 
+  Generating static pages using 11 workers (14/28) 
+  Generating static pages using 11 workers (21/28) 
+✓ Generating static pages using 11 workers (28/28) in 161ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /admin
+├ ○ /brassmark
+├ ○ /campsake
+├ ○ /claim-crate
+├ ○ /creelmark
+├ ○ /daymerit
+├ ○ /divefolio
+├ ○ /fine-notes
+├ ○ /icon.svg
+├ ○ /kinwall
+├ ○ /lockbox
+├ ○ /namefold
+├ ○ /object-lore
+├ ○ /pantry-clock
+├ ○ /paws
+├ ○ /privacy
+├ ○ /quiet-arcade
+├ ○ /ridelore
+├ ○ /skepbook
+├ ○ /steward
+├ ○ /steward/privacy
+├ ○ /tender-days
+├ ○ /terms
+├ ○ /turnstamp
+└ ○ /what-we-own
+
+
+○  (Static)  prerendered as static content
+

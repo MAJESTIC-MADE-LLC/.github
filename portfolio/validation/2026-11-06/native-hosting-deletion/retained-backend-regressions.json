@@ -1,0 +1,79 @@
+{
+  "check": {
+    "directory": "Daymerit",
+    "argv": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      ".github/tests",
+      "-q"
+    ],
+    "purpose": "retained backend routing regression tests",
+    "environment": [
+      [
+        "CARGO_BUILD_JOBS",
+        "2"
+      ],
+      [
+        "ANDROID_NDK_HOME",
+        "/Users/bespin-starter/Library/Android/sdk/ndk/28.2.13676358"
+      ],
+      [
+        "GRADLE_OPTS",
+        "-Dorg.gradle.workers.max=2 -Dorg.gradle.daemon=false"
+      ]
+    ]
+  },
+  "startedAt": "2026-11-06T18:10:14.517568+00:00",
+  "exitCode": 0,
+  "nativeArtifacts": {},
+  "log": "000.log",
+  "logSha256": "13509727116728d8ef613c27c793aaafffb59df82f3f91530c1a77f538b8cdfb",
+  "record": "retained-backend-regressions.log",
+  "sourceBefore": {
+    "Daymerit": {
+      "head": "a7ae034ac414dd522bddff2a3d00d6dddd90a1f7",
+      "sourceSha256": "7fd7b48235ebcefa83ec41a5533fd1253cba358ed5d0a4a4e2b2aefa9c02cfd6"
+    },
+    "Paws": {
+      "head": "9118db601779aef4097388959f13bf621def40f4",
+      "sourceSha256": "ec965ff668e365b8cfac17c1a59dcaadf88a29592e5ae7401bf23cc88db9e079"
+    },
+    "Pantry-Clock": {
+      "head": "1b03858464e03f4754b3d24e39b6876c5c0aebac",
+      "sourceSha256": "df7576ce63835ed6c38e067d68eeaae6bae3727af1b64e2703555f9340ae5a6c"
+    },
+    "Pantry-Clock/hosting_pilot": {
+      "head": "1b03858464e03f4754b3d24e39b6876c5c0aebac",
+      "sourceSha256": "acd9a3f73491faef4fa021909235d8e391397a034bb39c09be05053883102a85"
+    },
+    "native:/Users/bespin-starter/.pub-cache/git/App-Template-5e72d2e60f9c77ab713a671b05fdedd11e7ceb0a": {
+      "head": "5e72d2e60f9c77ab713a671b05fdedd11e7ceb0a",
+      "sourceSha256": "6f01656d19784b9f0db3785f3aa29e83298e0222f74b2d84d0280fc5fd2b9e41"
+    }
+  },
+  "sourceAfter": {
+    "Daymerit": {
+      "head": "a7ae034ac414dd522bddff2a3d00d6dddd90a1f7",
+      "sourceSha256": "7fd7b48235ebcefa83ec41a5533fd1253cba358ed5d0a4a4e2b2aefa9c02cfd6"
+    },
+    "Paws": {
+      "head": "9118db601779aef4097388959f13bf621def40f4",
+      "sourceSha256": "ec965ff668e365b8cfac17c1a59dcaadf88a29592e5ae7401bf23cc88db9e079"
+    },
+    "Pantry-Clock": {
+      "head": "1b03858464e03f4754b3d24e39b6876c5c0aebac",
+      "sourceSha256": "df7576ce63835ed6c38e067d68eeaae6bae3727af1b64e2703555f9340ae5a6c"
+    },
+    "Pantry-Clock/hosting_pilot": {
+      "head": "1b03858464e03f4754b3d24e39b6876c5c0aebac",
+      "sourceSha256": "acd9a3f73491faef4fa021909235d8e391397a034bb39c09be05053883102a85"
+    },
+    "native:/Users/bespin-starter/.pub-cache/git/App-Template-5e72d2e60f9c77ab713a671b05fdedd11e7ceb0a": {
+      "head": "5e72d2e60f9c77ab713a671b05fdedd11e7ceb0a",
+      "sourceSha256": "6f01656d19784b9f0db3785f3aa29e83298e0222f74b2d84d0280fc5fd2b9e41"
+    }
+  }
+}

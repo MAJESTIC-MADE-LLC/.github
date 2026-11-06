@@ -360,7 +360,7 @@
     "advisory": "https://github.com/dart-lang/sdk/security/advisories/GHSA-frr6-h895-5pxp",
     "minimumPatchedFlutter": "3.47.8",
     "minimumPatchedDart": "3.13.7",
-    "validation": "Isolated SDK revision and all eight consumer resolutions verified; current local analyzers/tests and both native release builds pass. Physical-device, native-store and immutable-package qualification remain pending.",
+    "validation": "Isolated SDK revision and all eight consumer resolutions verified. Current source-specific software and immutable-package qualification are recorded separately; representative physical-device privacy and actual native-store acceptance remain pending.",
     "observedSdk": {
       "frameworkVersion": "3.47.8",
       "frameworkRevision": "737ba8f885dc774b53b442759999a312c9461e4e",
