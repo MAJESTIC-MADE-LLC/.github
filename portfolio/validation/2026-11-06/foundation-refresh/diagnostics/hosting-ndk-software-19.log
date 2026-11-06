@@ -1,0 +1,20 @@
+Serialized native build: ['/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter', 'build', 'apk', '--release', '--no-pub', '--dart-define-from-file=test/fixtures/release/app_config.production.json']
+Running Gradle task 'assembleRelease'...                        
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/Users/bespin-starter/Documents/Majestic/Pantry-Clock/android/app/build.gradle.kts' line: 37
+
+* What went wrong:
+Android release signing is required. Configure android/key.properties or the ANDROID_RELEASE_* environment variables.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 4s
+Running Gradle task 'assembleRelease'...                            5.0s
+Gradle task assembleRelease failed with exit code 1

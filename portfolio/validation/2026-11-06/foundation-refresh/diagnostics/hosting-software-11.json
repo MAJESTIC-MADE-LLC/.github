@@ -1,0 +1,35 @@
+{
+  "check": {
+    "directory": "App-Template",
+    "argv": [
+      "python3",
+      "/Users/bespin-starter/Documents/Majestic/.archives/validation/foundation-refresh-2026-11-06/lock_native.py",
+      "python3",
+      "/Users/bespin-starter/.pub-cache/git/App-Template-f74c7e709730b75e073a01bfcb7ef07100819a79/hosting/tool/build_crypto.py",
+      "--app",
+      "/Users/bespin-starter/Documents/Majestic/Daymerit",
+      "--source",
+      "/Users/bespin-starter/.pub-cache/git/App-Template-f74c7e709730b75e073a01bfcb7ef07100819a79",
+      "--platform",
+      "android",
+      "--configuration",
+      "release"
+    ],
+    "purpose": "source-build Daymerit MLS android",
+    "environment": [
+      [
+        "CARGO_BUILD_JOBS",
+        "2"
+      ],
+      [
+        "GRADLE_OPTS",
+        "-Dorg.gradle.workers.max=2 -Dorg.gradle.daemon=false"
+      ]
+    ]
+  },
+  "exitCode": 1,
+  "log": "hosting-software-11.log",
+  "logSha256": "94c82ff6d1c2bf9236e4076e59fc804cd1e5aaab0142488f8e5ba0a1439415a3",
+  "sourceChangedDuringValidation": false,
+  "originalReport": ".archives/validation/foundation-refresh-2026-11-06/hosting-software/results.json"
+}

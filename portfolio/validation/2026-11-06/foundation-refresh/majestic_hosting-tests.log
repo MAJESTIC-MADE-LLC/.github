@@ -1,0 +1,167 @@
+Running build hooks...Running build hooks...00:00 +0: loading test/rate_limit_test.dart
+00:00 +0: test/rate_limit_test.dart: old addresses expire even after the capacity is reached
+00:00 +1: test/rate_limit_test.dart: per-address abuse stays bounded until the next window
+00:00 +2: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:00 +3: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:00 +4: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:00 +5: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:00 +6: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:00 +7: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:00 +8: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:01 +9: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:01 +10: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:01 +11: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:01 +12: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:01 +13: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:01 +14: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:01 +15: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:01 +16: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:02 +17: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:02 +18: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:02 +19: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:02 +20: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:02 +21: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:02 +22: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:02 +23: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:02 +24: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:02 +25: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:02 +26: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:02 +27: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:02 +28: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:03 +29: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:03 +30: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:03 +31: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:03 +32: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:03 +33: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:03 +34: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:03 +35: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:03 +36: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:03 +37: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +38: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +39: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +40: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +41: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +42: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +43: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +44: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +45: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +46: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +47: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +48: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +49: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +50: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +51: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +52: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +53: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +54: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +55: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +56: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +57: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +58: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +59: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +60: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +61: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +62: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +63: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:04 +64: test/session_engine_test.dart: real TLS enrollment and MLS publication retain drafts without trusted keys and restore permissions after restart
+00:04 +64: test/engine_contract_review_test.dart: version-one selector, relative keys and proposal chunks reopen without scope regeneration
+WARNING (drift): It looks like you've created the database class _SyncDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _SyncDatabase (package:majestic_sync/src/store.dart)
+#4      SyncStore.open (package:majestic_sync/src/store.dart:87:16)
+<asynchronous suspension>
+#5      main.<anonymous closure> (file:///Users/bespin-starter/Documents/Majestic/App-Template/packages/majestic_hosting/test/engine_contract_review_test.dart:97:20)
+<asynchronous suspension>
+#6      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#7      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#8      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+00:04 +65: test/session_engine_test.dart: real TLS enrollment and MLS publication retain drafts without trusted keys and restore permissions after restart
+00:04 +65: test/engine_contract_review_test.dart: version-one selector, relative keys and proposal chunks reopen without scope regeneration
+WARNING (drift): It looks like you've created the database class _SyncDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _SyncDatabase (package:majestic_sync/src/store.dart)
+#4      SyncStore.open (package:majestic_sync/src/store.dart:87:16)
+<asynchronous suspension>
+#5      HostingSessionEngine._openView (package:majestic_hosting/src/session_engine.dart:716:21)
+<asynchronous suspension>
+#6      HostingSessionEngine._openControl (package:majestic_hosting/src/session_engine.dart:607:9)
+<asynchronous suspension>
+#7      HostingSessionEngine._ensureOpened (package:majestic_hosting/src/session_engine.dart:551:7)
+<asynchronous suspension>
+#8      HostingSessionEngine._run.<anonymous closure> (package:majestic_hosting/src/session_engine.dart:519:19)
+<asynchronous suspension>
+#9      main.<anonymous closure> (file:///Users/bespin-starter/Documents/Majestic/App-Template/packages/majestic_hosting/test/engine_contract_review_test.dart:155:5)
+<asynchronous suspension>
+#10     Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#11     Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#12     Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+00:04 +66: test/product_hosting_contract_test.dart: typed product data crosses independent TLS/MLS roles and survives restart
+00:04 +66: test/engine_contract_review_test.dart: version-one selector, relative keys and proposal chunks reopen without scope regeneration
+WARNING (drift): It looks like you've created the database class _SyncDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _SyncDatabase (package:majestic_sync/src/store.dart)
+#4      SyncStore.open (package:majestic_sync/src/store.dart:87:16)
+<asynchronous suspension>
+#5      HostingSessionEngine._openView (package:majestic_hosting/src/session_engine.dart:716:21)
+<asynchronous suspension>
+#6      HostingSessionEngine._openControl (package:majestic_hosting/src/session_engine.dart:607:9)
+<asynchronous suspension>
+#7      HostingSessionEngine._ensureOpened (package:majestic_hosting/src/session_engine.dart:551:7)
+<asynchronous suspension>
+#8      HostingSessionEngine._run.<anonymous closure> (package:majestic_hosting/src/session_engine.dart:519:19)
+<asynchronous suspension>
+#9      main.<anonymous closure> (file:///Users/bespin-starter/Documents/Majestic/App-Template/packages/majestic_hosting/test/engine_contract_review_test.dart:179:5)
+<asynchronous suspension>
+#10     Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#11     Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#12     Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+00:04 +67: test/product_hosting_contract_test.dart: typed product data crosses independent TLS/MLS roles and survives restart
+00:05 +68: test/product_hosting_contract_test.dart: typed product data crosses independent TLS/MLS roles and survives restart
+00:05 +69: test/product_hosting_contract_test.dart: typed product data crosses independent TLS/MLS roles and survives restart
+00:05 +70: test/product_hosting_contract_test.dart: typed product data crosses independent TLS/MLS roles and survives restart
+00:05 +71: test/product_hosting_contract_test.dart: typed product data crosses independent TLS/MLS roles and survives restart
+00:05 +72: test/product_hosting_contract_test.dart: typed product data crosses independent TLS/MLS roles and survives restart
+00:05 +73: test/product_hosting_contract_test.dart: typed product data crosses independent TLS/MLS roles and survives restart
+00:05 +74: test/product_hosting_contract_test.dart: typed product data crosses independent TLS/MLS roles and survives restart
+00:05 +75: test/product_hosting_contract_test.dart: typed product data crosses independent TLS/MLS roles and survives restart
+00:05 +76: test/product_hosting_contract_test.dart: typed product data crosses independent TLS/MLS roles and survives restart
+00:06 +77: test/session_engine_test.dart: expired license preserves paid drafts while an enrolled device can explicitly delete and locked/disconnected access cannot
+00:06 +78: test/session_engine_test.dart: expired license preserves paid drafts while an enrolled device can explicitly delete and locked/disconnected access cannot
+00:06 +79: test/session_engine_test.dart: expired license preserves paid drafts while an enrolled device can explicitly delete and locked/disconnected access cannot
+00:06 +80: test/session_engine_test.dart: expired license preserves paid drafts while an enrolled device can explicitly delete and locked/disconnected access cannot
+00:07 +81: test/session_engine_test.dart: expired license preserves paid drafts while an enrolled device can explicitly delete and locked/disconnected access cannot
+00:07 +82: test/session_engine_test.dart: expired license preserves paid drafts while an enrolled device can explicitly delete and locked/disconnected access cannot
+00:07 +83: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:08 +84: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:08 +85: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:09 +86: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:09 +87: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:09 +88: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:10 +89: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:10 +90: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:10 +91: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:23 +92: All tests passed!

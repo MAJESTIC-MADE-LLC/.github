@@ -1,0 +1,226 @@
+[
+  {
+    "check": {
+      "directory": "App-Template",
+      "argv": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tool/tests",
+        "-q"
+      ],
+      "purpose": "runner and hosting policy regression tests",
+      "environment": [
+        [
+          "CARGO_BUILD_JOBS",
+          "2"
+        ],
+        [
+          "GRADLE_OPTS",
+          "-Dorg.gradle.workers.max=2 -Dorg.gradle.daemon=false"
+        ]
+      ]
+    },
+    "startedAt": "2026-11-06T15:33:13.904665+00:00",
+    "exitCode": 0,
+    "nativeArtifacts": {},
+    "log": "App-Template-runner-and-hosting-policy-regression-tests.log",
+    "logSha256": "efdca0da3d8ba793a013ac62420a908073f717413b10582e4beb5b26fecca952",
+    "originalSourceReport": ".archives/validation/foundation-refresh-2026-11-06/template-retry/results.json"
+  },
+  {
+    "check": {
+      "directory": "App-Template/hosting/reference_app",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "analyze",
+        "--no-pub"
+      ],
+      "purpose": "Dart analysis",
+      "environment": [
+        [
+          "CARGO_BUILD_JOBS",
+          "2"
+        ],
+        [
+          "GRADLE_OPTS",
+          "-Dorg.gradle.workers.max=2 -Dorg.gradle.daemon=false"
+        ]
+      ]
+    },
+    "startedAt": "2026-11-06T15:33:30.788059+00:00",
+    "exitCode": 0,
+    "nativeArtifacts": {},
+    "log": "App-Template-hosting-reference_app-Dart-analysis.log",
+    "logSha256": "c2ec9dd07b77b5a45957419e82e3bc733a21a7a4bcd9f6c9b63f6b3219b1c17a",
+    "originalSourceReport": ".archives/validation/foundation-refresh-2026-11-06/template-retry/results.json"
+  },
+  {
+    "check": {
+      "directory": "App-Template/hosting/rust",
+      "argv": [
+        "python3",
+        "/Users/bespin-starter/Documents/Majestic/.archives/validation/foundation-refresh-2026-11-06/lock_native.py",
+        "cargo",
+        "+1.99.1",
+        "test",
+        "--locked",
+        "--workspace"
+      ],
+      "purpose": "Rust behavioral tests",
+      "environment": [
+        [
+          "CARGO_BUILD_JOBS",
+          "2"
+        ],
+        [
+          "GRADLE_OPTS",
+          "-Dorg.gradle.workers.max=2 -Dorg.gradle.daemon=false"
+        ]
+      ]
+    },
+    "startedAt": "2026-11-06T15:35:30.065709+00:00",
+    "exitCode": 0,
+    "nativeArtifacts": {},
+    "log": "App-Template-hosting-rust-Rust-behavioral-tests.log",
+    "logSha256": "6207598cc8c1fae700b4e487425c0dcac3eba7872ab5b6212d86cfa5a34f627f",
+    "originalSourceReport": ".archives/validation/foundation-refresh-2026-11-06/template-retry/results.json"
+  },
+  {
+    "check": {
+      "directory": "App-Template/hosting/reference_app",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "test",
+        "--no-pub",
+        "--concurrency=2"
+      ],
+      "purpose": "Dart behavior tests",
+      "environment": [
+        [
+          "MAJESTIC_CRYPTO_LIBRARY",
+          "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/libmajestic_crypto.dylib"
+        ],
+        [
+          "MAJESTIC_HOST_BINARY",
+          "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/majestic_host"
+        ],
+        [
+          "CARGO_BUILD_JOBS",
+          "2"
+        ],
+        [
+          "GRADLE_OPTS",
+          "-Dorg.gradle.workers.max=2 -Dorg.gradle.daemon=false"
+        ]
+      ]
+    },
+    "startedAt": "2026-11-06T15:36:33.033770+00:00",
+    "exitCode": 0,
+    "nativeArtifacts": {
+      "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/libmajestic_crypto.dylib": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+      "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/majestic_host": "582ee232a404a4a7b674f9b37cc5950a450814fb70d7be40853f043e506abf20"
+    },
+    "log": "App-Template-hosting-reference_app-Dart-behavior-tests.log",
+    "logSha256": "bb71195401c64bc41a2b19832abb2908a4aa815068653251c53ad7664a25692b",
+    "originalSourceReport": ".archives/validation/foundation-refresh-2026-11-06/template-retry/results.json"
+  },
+  {
+    "check": {
+      "directory": "App-Template/services/workspace_verifier",
+      "argv": [
+        "npm",
+        "run",
+        "test"
+      ],
+      "purpose": "Node test",
+      "environment": [
+        [
+          "CARGO_BUILD_JOBS",
+          "2"
+        ],
+        [
+          "GRADLE_OPTS",
+          "-Dorg.gradle.workers.max=2 -Dorg.gradle.daemon=false"
+        ]
+      ]
+    },
+    "startedAt": "2026-11-06T15:37:38.849328+00:00",
+    "exitCode": 0,
+    "nativeArtifacts": {},
+    "log": "App-Template-services-workspace_verifier-Node-test.log",
+    "logSha256": "2beeee7c24942d008ae2ed6a381ded29bb012915377e98e0b84052dc608fa5ff",
+    "originalSourceReport": ".archives/validation/foundation-refresh-2026-11-06/template-retry/results.json"
+  },
+  {
+    "check": {
+      "directory": "App-Template/hosting/reference_app",
+      "argv": [
+        "python3",
+        "/Users/bespin-starter/Documents/Majestic/.archives/validation/foundation-refresh-2026-11-06/lock_native.py",
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "build",
+        "apk",
+        "--release"
+      ],
+      "purpose": "android engineering compilation (not signed acceptance)",
+      "environment": [
+        [
+          "CARGO_BUILD_JOBS",
+          "2"
+        ],
+        [
+          "ANDROID_NDK_HOME",
+          "/Users/bespin-starter/Library/Android/sdk/ndk/28.2.13676358"
+        ],
+        [
+          "GRADLE_OPTS",
+          "-Dorg.gradle.workers.max=2 -Dorg.gradle.daemon=false"
+        ]
+      ]
+    },
+    "startedAt": "2026-11-06T15:50:58.261157+00:00",
+    "exitCode": 0,
+    "nativeArtifacts": {},
+    "log": "00-App-Template-hosting-reference_app-android.log",
+    "logSha256": "f40d64d6a03781cc280f923020317d6e59d8b27c593a0bde377b619afd186c5f",
+    "originalSourceReport": ".archives/validation/foundation-refresh-2026-11-06/template-reference-native-continuation/00-App-Template-hosting-reference_app-android/results.json"
+  },
+  {
+    "check": {
+      "directory": "App-Template/hosting/reference_app",
+      "argv": [
+        "python3",
+        "/Users/bespin-starter/Documents/Majestic/.archives/validation/foundation-refresh-2026-11-06/lock_native.py",
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "build",
+        "ios",
+        "--release",
+        "--no-codesign"
+      ],
+      "purpose": "ios engineering compilation (not signed acceptance)",
+      "environment": [
+        [
+          "CARGO_BUILD_JOBS",
+          "2"
+        ],
+        [
+          "ANDROID_NDK_HOME",
+          "/Users/bespin-starter/Library/Android/sdk/ndk/28.2.13676358"
+        ],
+        [
+          "GRADLE_OPTS",
+          "-Dorg.gradle.workers.max=2 -Dorg.gradle.daemon=false"
+        ]
+      ]
+    },
+    "startedAt": "2026-11-06T15:52:26.557614+00:00",
+    "exitCode": 0,
+    "nativeArtifacts": {},
+    "log": "01-App-Template-hosting-reference_app-ios.log",
+    "logSha256": "f023b3ef8ff6dc3410400fdaf951bb7d9e2b47693621084e93cb463a62013ea3",
+    "originalSourceReport": ".archives/validation/foundation-refresh-2026-11-06/template-reference-native-continuation/01-App-Template-hosting-reference_app-ios/results.json"
+  }
+]

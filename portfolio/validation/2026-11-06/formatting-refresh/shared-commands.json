@@ -1,0 +1,707 @@
+[
+  {
+    "package": "majestic_app",
+    "check": "analysis",
+    "command": {
+      "directory": "App-Template/packages/majestic_app",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "analyze",
+        "--no-pub"
+      ],
+      "purpose": "Dart analysis",
+      "environment": []
+    },
+    "startedAt": "2026-11-06T16:27:40.288238+00:00",
+    "exitCode": 0,
+    "log": "majestic_app-analysis.log",
+    "sha256": "5558cf222d9458d6763fc42d57f009114d87696da6c05f81bd478660f4118204",
+    "tests": null,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_hosting",
+    "check": "analysis",
+    "command": {
+      "directory": "App-Template/packages/majestic_hosting",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+        "analyze"
+      ],
+      "purpose": "Dart analysis",
+      "environment": []
+    },
+    "startedAt": "2026-11-06T16:27:43.726612+00:00",
+    "exitCode": 0,
+    "log": "majestic_hosting-analysis.log",
+    "sha256": "150035a795d0f7b72b88ea51110827b3ab3141bc74f0240e7f40381149487502",
+    "tests": null,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_media",
+    "check": "analysis",
+    "command": {
+      "directory": "App-Template/packages/majestic_media",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "analyze",
+        "--no-pub"
+      ],
+      "purpose": "Dart analysis",
+      "environment": []
+    },
+    "startedAt": "2026-11-06T16:27:44.759617+00:00",
+    "exitCode": 0,
+    "log": "majestic_media-analysis.log",
+    "sha256": "c019962f1b65b4bcb08c183cc30c4ba437ed8f30f490aaed4bffae6985a086cb",
+    "tests": null,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_privacy",
+    "check": "analysis",
+    "command": {
+      "directory": "App-Template/packages/majestic_privacy",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "analyze",
+        "--no-pub"
+      ],
+      "purpose": "Dart analysis",
+      "environment": []
+    },
+    "startedAt": "2026-11-06T16:27:47.901409+00:00",
+    "exitCode": 0,
+    "log": "majestic_privacy-analysis.log",
+    "sha256": "b9612742c49a5b8a73bc5086371ab7d04711a55eef7cbdb13cd1e31c21cd0333",
+    "tests": null,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_purchases",
+    "check": "analysis",
+    "command": {
+      "directory": "App-Template/packages/majestic_purchases",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "analyze",
+        "--no-pub"
+      ],
+      "purpose": "Dart analysis",
+      "environment": []
+    },
+    "startedAt": "2026-11-06T16:27:50.196007+00:00",
+    "exitCode": 0,
+    "log": "majestic_purchases-analysis.log",
+    "sha256": "d7bce145aab9537af4acb9b809a1ace0856b37ea0651984dc0a219e585cbf006",
+    "tests": null,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_qr",
+    "check": "analysis",
+    "command": {
+      "directory": "App-Template/packages/majestic_qr",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "analyze",
+        "--no-pub"
+      ],
+      "purpose": "Dart analysis",
+      "environment": []
+    },
+    "startedAt": "2026-11-06T16:27:52.486459+00:00",
+    "exitCode": 0,
+    "log": "majestic_qr-analysis.log",
+    "sha256": "3c70672f8d4c21e7c187d361bbc356862b2ef690e4b259a9394e6764d0edbfab",
+    "tests": null,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_reminders",
+    "check": "analysis",
+    "command": {
+      "directory": "App-Template/packages/majestic_reminders",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "analyze",
+        "--no-pub"
+      ],
+      "purpose": "Dart analysis",
+      "environment": []
+    },
+    "startedAt": "2026-11-06T16:27:54.887455+00:00",
+    "exitCode": 0,
+    "log": "majestic_reminders-analysis.log",
+    "sha256": "bf8b636de7a25edd4294d7e670a2c0f6ba4ec7f4f6a013b8acad3325c37aa90f",
+    "tests": null,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_reports",
+    "check": "analysis",
+    "command": {
+      "directory": "App-Template/packages/majestic_reports",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "analyze",
+        "--no-pub"
+      ],
+      "purpose": "Dart analysis",
+      "environment": []
+    },
+    "startedAt": "2026-11-06T16:27:57.203475+00:00",
+    "exitCode": 0,
+    "log": "majestic_reports-analysis.log",
+    "sha256": "4784e163220e007bcdbd94f511bd6dd7b3592d76d4995159f6b75af34d6858bc",
+    "tests": null,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_storage",
+    "check": "analysis",
+    "command": {
+      "directory": "App-Template/packages/majestic_storage",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "analyze",
+        "--no-pub"
+      ],
+      "purpose": "Dart analysis",
+      "environment": []
+    },
+    "startedAt": "2026-11-06T16:27:59.665693+00:00",
+    "exitCode": 0,
+    "log": "majestic_storage-analysis.log",
+    "sha256": "a173bc3a37add3b21683b8484c6dbf14580a5c1b0ea39ea03631d214cf3c6688",
+    "tests": null,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_sync",
+    "check": "analysis",
+    "command": {
+      "directory": "App-Template/packages/majestic_sync",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+        "analyze"
+      ],
+      "purpose": "Dart analysis",
+      "environment": []
+    },
+    "startedAt": "2026-11-06T16:28:02.052572+00:00",
+    "exitCode": 0,
+    "log": "majestic_sync-analysis.log",
+    "sha256": "7c9ca073d36d25066d54ede0ac50146aa53b02caa35ffb77f48013322a07ef89",
+    "tests": null,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_sync_crypto",
+    "check": "analysis",
+    "command": {
+      "directory": "App-Template/packages/majestic_sync_crypto",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+        "analyze"
+      ],
+      "purpose": "Dart analysis",
+      "environment": []
+    },
+    "startedAt": "2026-11-06T16:28:02.623791+00:00",
+    "exitCode": 0,
+    "log": "majestic_sync_crypto-analysis.log",
+    "sha256": "6b55083d50f70a6b3dac616f8fa1f8e938bb4507242803e94376e82eda27905c",
+    "tests": null,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_app",
+    "check": "tests",
+    "command": {
+      "directory": "App-Template/packages/majestic_app",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "test",
+        "--no-pub",
+        "--concurrency=2"
+      ],
+      "purpose": "Dart behavior tests",
+      "environment": []
+    },
+    "startedAt": "2026-11-06T16:30:34.718317+00:00",
+    "exitCode": 0,
+    "log": "majestic_app-tests.log",
+    "sha256": "e09e8fca2774437d5966df095e66c717d4cd0c30b6f68c326d396f2d89fd6db5",
+    "tests": 5,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_hosting",
+    "check": "tests",
+    "command": {
+      "directory": "App-Template/packages/majestic_hosting",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+        "test",
+        "--concurrency=2"
+      ],
+      "purpose": "Dart behavior tests",
+      "environment": [
+        [
+          "MAJESTIC_CRYPTO_LIBRARY",
+          "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/libmajestic_crypto.dylib"
+        ],
+        [
+          "MAJESTIC_HOST_BINARY",
+          "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/majestic_host"
+        ]
+      ]
+    },
+    "startedAt": "2026-11-06T16:30:38.521850+00:00",
+    "exitCode": 0,
+    "log": "majestic_hosting-tests.log",
+    "sha256": "2a84dc9eea4a40e3a8761a993c35eed4435cff47ea04154394a4d8a4d29e684e",
+    "tests": 92,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_media",
+    "check": "tests",
+    "command": {
+      "directory": "App-Template/packages/majestic_media",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "test",
+        "--no-pub",
+        "--concurrency=2"
+      ],
+      "purpose": "Dart behavior tests",
+      "environment": []
+    },
+    "startedAt": "2026-11-06T16:30:59.696284+00:00",
+    "exitCode": 0,
+    "log": "majestic_media-tests.log",
+    "sha256": "2bb2bcc3f348556e766f52009f310b74d7df4173fbf461581f95ed0fb44f5b4e",
+    "tests": 2,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_privacy",
+    "check": "tests",
+    "command": {
+      "directory": "App-Template/packages/majestic_privacy",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "test",
+        "--no-pub",
+        "--concurrency=2"
+      ],
+      "purpose": "Dart behavior tests",
+      "environment": []
+    },
+    "startedAt": "2026-11-06T16:31:01.326848+00:00",
+    "exitCode": 0,
+    "log": "majestic_privacy-tests.log",
+    "sha256": "1c9b94962729dc477731fe844b162265e1590349c789471dbb484f255a80fc1f",
+    "tests": 13,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_purchases",
+    "check": "tests",
+    "command": {
+      "directory": "App-Template/packages/majestic_purchases",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "test",
+        "--no-pub",
+        "--concurrency=2"
+      ],
+      "purpose": "Dart behavior tests",
+      "environment": []
+    },
+    "startedAt": "2026-11-06T16:31:02.988021+00:00",
+    "exitCode": 0,
+    "log": "majestic_purchases-tests.log",
+    "sha256": "429742340cb2e6f2e38ea67340733852cc458e6dce24cea9e01d575557f3716c",
+    "tests": 17,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_qr",
+    "check": "tests",
+    "command": {
+      "directory": "App-Template/packages/majestic_qr",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "test",
+        "--no-pub",
+        "--concurrency=2"
+      ],
+      "purpose": "Dart behavior tests",
+      "environment": []
+    },
+    "startedAt": "2026-11-06T16:31:04.648873+00:00",
+    "exitCode": 0,
+    "log": "majestic_qr-tests.log",
+    "sha256": "6acf619a4689e735da42c1b581fa1aeb89c7679c527996e3694a50d73a731d5a",
+    "tests": 2,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_reminders",
+    "check": "tests",
+    "command": {
+      "directory": "App-Template/packages/majestic_reminders",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "test",
+        "--no-pub",
+        "--concurrency=2"
+      ],
+      "purpose": "Dart behavior tests",
+      "environment": []
+    },
+    "startedAt": "2026-11-06T16:31:06.369489+00:00",
+    "exitCode": 0,
+    "log": "majestic_reminders-tests.log",
+    "sha256": "662b3e9e8e7b70ae4ca9eb9a92f89dedb600c2b5c0f357a0850d9d0e3000b3ed",
+    "tests": 1,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_reports",
+    "check": "tests",
+    "command": {
+      "directory": "App-Template/packages/majestic_reports",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "test",
+        "--no-pub",
+        "--concurrency=2"
+      ],
+      "purpose": "Dart behavior tests",
+      "environment": []
+    },
+    "startedAt": "2026-11-06T16:31:07.764830+00:00",
+    "exitCode": 0,
+    "log": "majestic_reports-tests.log",
+    "sha256": "fbfeea1868d463f8142fc3f401e0ce17a0dd207f702d68817c0e566671925f90",
+    "tests": 1,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_storage",
+    "check": "tests",
+    "command": {
+      "directory": "App-Template/packages/majestic_storage",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "test",
+        "--no-pub",
+        "--concurrency=2"
+      ],
+      "purpose": "Dart behavior tests",
+      "environment": []
+    },
+    "startedAt": "2026-11-06T16:31:09.474755+00:00",
+    "exitCode": 0,
+    "log": "majestic_storage-tests.log",
+    "sha256": "9b006546235d9d54c789d2fa3db629d9cb5ed912f89b48c587a7dcf0a6745afc",
+    "tests": 49,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_sync",
+    "check": "tests",
+    "command": {
+      "directory": "App-Template/packages/majestic_sync",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+        "test",
+        "--concurrency=2"
+      ],
+      "purpose": "Dart behavior tests",
+      "environment": []
+    },
+    "startedAt": "2026-11-06T16:31:13.020850+00:00",
+    "exitCode": 0,
+    "log": "majestic_sync-tests.log",
+    "sha256": "994d24a3a703f16991a2f66d47bb5aa496d0721377757cd595cd78512f54cb55",
+    "tests": 35,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  },
+  {
+    "package": "majestic_sync_crypto",
+    "check": "tests",
+    "command": {
+      "directory": "App-Template/packages/majestic_sync_crypto",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+        "test",
+        "--concurrency=2"
+      ],
+      "purpose": "Dart behavior tests",
+      "environment": [
+        [
+          "MAJESTIC_CRYPTO_LIBRARY",
+          "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/libmajestic_crypto.dylib"
+        ],
+        [
+          "MAJESTIC_HOST_BINARY",
+          "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/majestic_host"
+        ]
+      ]
+    },
+    "startedAt": "2026-11-06T16:31:18.333808+00:00",
+    "exitCode": 0,
+    "log": "majestic_sync_crypto-tests.log",
+    "sha256": "1ee28befbaef85b1a13e330753ff5c6542bc3d6b3c5a4ed23e5510bda43784d7",
+    "tests": 3,
+    "sourceBefore": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    },
+    "sourceAfter": {
+      "App-Template": {
+        "head": "fa3d464f62170dafcf5f3fd829fd3ade7dfb8ab2",
+        "sourceSha256": "cddd6268f813a946fcb007c6b02a2aed8ec24363ad2d5e8a2feddae719ccf87a"
+      }
+    }
+  }
+]

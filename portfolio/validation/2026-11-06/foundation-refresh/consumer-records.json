@@ -1,0 +1,50 @@
+[
+  {
+    "application": "App-Template",
+    "tests": 86,
+    "sourceFingerprint": "50aa10cc60ef86ab8cf8ac174f6629053ac9a5c8e9c99db354405f63ebdaa6a4",
+    "record": "App-Template/docs/validation/2026-11-06/foundation-refresh"
+  },
+  {
+    "application": "Skepbook",
+    "tests": 265,
+    "sourceFingerprint": "16f4aecb6a6582b1e256a9697437f054e692a0ce9ea86a137b455c08bae529dc",
+    "record": "Skepbook/docs/validation/2026-11-06/foundation-refresh"
+  },
+  {
+    "application": "Ridelore",
+    "tests": 325,
+    "sourceFingerprint": "760ddbdd749067444abdbe3ad9910a87ea48fc21fbb2f174d35b7d8d5289fb74",
+    "record": "Ridelore/docs/validation/2026-11-06/foundation-refresh"
+  },
+  {
+    "application": "Paws",
+    "tests": 196,
+    "sourceFingerprint": "c0efc59f233aca5e77565909a78a43fc6d2e9600f9db746fa514e5946d44977c",
+    "record": "Paws/docs/validation/2026-11-06/foundation-refresh"
+  },
+  {
+    "application": "Pantry-Clock",
+    "tests": 188,
+    "sourceFingerprint": "945a371cc380379a69e215fe19e4c595754682334760adb1039dd2580046b508",
+    "record": "Pantry-Clock/docs/validation/2026-11-06/foundation-refresh"
+  },
+  {
+    "application": "Fine-Notes",
+    "tests": 160,
+    "sourceFingerprint": "30361cc8b066da5977230e4e81c32984e53d076038545999949b422a4324ba73",
+    "record": "Fine-Notes/docs/validation/2026-11-06/foundation-refresh"
+  },
+  {
+    "application": "Namefold",
+    "tests": 108,
+    "sourceFingerprint": "55cfcf8789027575504d6ebc6918498b9b022231ea41c383f182e5acf706004e",
+    "record": "Namefold/app/docs/validation/2026-11-06/foundation-refresh"
+  },
+  {
+    "application": "Daymerit",
+    "tests": 223,
+    "sourceFingerprint": "20572bc1b396b5724b861b4ac3fc0349400991625c5eb9f765cc9ce8f1b821be",
+    "record": "Daymerit/docs/validation/2026-11-06/foundation-refresh"
+  }
+]

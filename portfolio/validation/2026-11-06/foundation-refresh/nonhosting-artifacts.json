@@ -1,0 +1,81 @@
+{
+  "sourceStable": true,
+  "before": {
+    "Skepbook": {
+      "head": "6adaed89a3c3eeeb0259da349812ffb9232fce4a",
+      "sourceSha256": "f1c6403c29de4479a499a76698c0f5302ea58a76b0eae81673faa5b7f116063c"
+    },
+    "Ridelore": {
+      "head": "2b897a6c2cffd9a172687825d20bf15661fd9f9b",
+      "sourceSha256": "efe8ed2bbc10114ea7b542a3a6192385c5516025c02c769ef8cfae94a83bf6e5"
+    },
+    "Fine-Notes": {
+      "head": "c4d882042fa84a03552bc4fa85f407280a03c37b",
+      "sourceSha256": "9b3b3434109a8172e3bca1a2c8d1040a2c21478884cf61765f192e67ee808f15"
+    },
+    "Namefold": {
+      "head": "ca2373b3a0a95a79fb8604b62e72b6821225c5e6",
+      "sourceSha256": "fb60edcf248388acb5fc6632e43d4ae2a6d0250bb611b311863631b80b59d7b9"
+    }
+  },
+  "after": {
+    "Skepbook": {
+      "head": "6adaed89a3c3eeeb0259da349812ffb9232fce4a",
+      "sourceSha256": "f1c6403c29de4479a499a76698c0f5302ea58a76b0eae81673faa5b7f116063c"
+    },
+    "Ridelore": {
+      "head": "2b897a6c2cffd9a172687825d20bf15661fd9f9b",
+      "sourceSha256": "efe8ed2bbc10114ea7b542a3a6192385c5516025c02c769ef8cfae94a83bf6e5"
+    },
+    "Fine-Notes": {
+      "head": "c4d882042fa84a03552bc4fa85f407280a03c37b",
+      "sourceSha256": "9b3b3434109a8172e3bca1a2c8d1040a2c21478884cf61765f192e67ee808f15"
+    },
+    "Namefold": {
+      "head": "ca2373b3a0a95a79fb8604b62e72b6821225c5e6",
+      "sourceSha256": "fb60edcf248388acb5fc6632e43d4ae2a6d0250bb611b311863631b80b59d7b9"
+    }
+  },
+  "artifacts": {
+    "Fine-Notes": {
+      "apk": "/Users/bespin-starter/Documents/Majestic/Fine-Notes/build/app/outputs/flutter-apk/app-release.apk",
+      "apkSha256": "a0aa702a8d75f7a1902e1837e4d8197f4024528380f10827d4d31bf476696f09",
+      "bundle": "/Users/bespin-starter/Documents/Majestic/Fine-Notes/build/ios/iphoneos/Runner.app",
+      "bundleTreeSha256": "8596cdae634371366e61ac60b347765273c81f87b71bdc4ab9a2222dc14c1d85",
+      "bundleTreeHashPolicy": "sha256 of sorted bundle-relative entries, each compact sorted-key JSON plus LF; files include SHA256,size,executable; symlinks include target",
+      "bundleManifest": "/Users/bespin-starter/Documents/Majestic/.archives/validation/foundation-refresh-2026-11-06/nonhosting-native-continuation/Fine-Notes-final-bundle.json",
+      "aotSha256": "df4cb2a25c9c8daf7b4de413595d9b43c98a529e5e687dc594607b886f941e06",
+      "runnerSha256": "9fb24c0ba9e1c213c9ba2c51d566c5fbf4225e2bad5991de8abc148aae573393"
+    },
+    "Namefold": {
+      "apk": "/Users/bespin-starter/Documents/Majestic/Namefold/app/build/app/outputs/flutter-apk/app-release.apk",
+      "apkSha256": "48109f06fee67e36c3a96e1560c58f6910199e29bd861c3e31a69f23f577bf5f",
+      "bundle": "/Users/bespin-starter/Documents/Majestic/Namefold/app/build/ios/iphoneos/Runner.app",
+      "bundleTreeSha256": "a44d38335c488e22df58c10070613a69f942ab8c51b7899edd716577d7c26e0a",
+      "bundleTreeHashPolicy": "sha256 of sorted bundle-relative entries, each compact sorted-key JSON plus LF; files include SHA256,size,executable; symlinks include target",
+      "bundleManifest": "/Users/bespin-starter/Documents/Majestic/.archives/validation/foundation-refresh-2026-11-06/nonhosting-native-continuation/Namefold-final-bundle.json",
+      "aotSha256": "01d2dff34eadd98236ea73fbb603aca71d43015fe9eebef0aff2aa451f355c09",
+      "runnerSha256": "127600121c33a016480122cc6638c17a47dd3a9729df6d6670d4bf1239207005"
+    },
+    "Ridelore": {
+      "apk": "/Users/bespin-starter/Documents/Majestic/Ridelore/build/app/outputs/flutter-apk/app-release.apk",
+      "apkSha256": "312f27b4e7b9e9f91f1262ab995049f4bab5524388b3e88b06efc07e4ec0bc67",
+      "bundle": "/Users/bespin-starter/Documents/Majestic/Ridelore/build/ios/iphoneos/Runner.app",
+      "bundleTreeSha256": "5277e93c81115feb17fa2dc66870b7e64875331eb300dbe29a7b41ff9f5e8368",
+      "bundleTreeHashPolicy": "sha256 of sorted bundle-relative entries, each compact sorted-key JSON plus LF; files include SHA256,size,executable; symlinks include target",
+      "bundleManifest": "/Users/bespin-starter/Documents/Majestic/.archives/validation/foundation-refresh-2026-11-06/nonhosting-native-continuation/Ridelore-final-bundle.json",
+      "aotSha256": "9dd5dd8d44c74657dde127457cbff564e735848a991c75f4e86f1975050678d2",
+      "runnerSha256": "bc00247d65ab5e629243c8b700af2b941a37313c429d3848a4b5a78c0ea64491"
+    },
+    "Skepbook": {
+      "apk": "/Users/bespin-starter/Documents/Majestic/Skepbook/build/app/outputs/flutter-apk/app-release.apk",
+      "apkSha256": "443176c7f27e2d5dbd1c0ac1290cdf9d0dacef24bf2c77d88ce64e0194e787ce",
+      "bundle": "/Users/bespin-starter/Documents/Majestic/Skepbook/build/ios/iphoneos/Runner.app",
+      "bundleTreeSha256": "ed6b7a17899fbb24ae11aa253cb3cf4293876feabfc1b71beb13c4b2681c1f72",
+      "bundleTreeHashPolicy": "sha256 of sorted bundle-relative entries, each compact sorted-key JSON plus LF; files include SHA256,size,executable; symlinks include target",
+      "bundleManifest": "/Users/bespin-starter/Documents/Majestic/.archives/validation/foundation-refresh-2026-11-06/nonhosting-native-continuation/Skepbook-final-bundle.json",
+      "aotSha256": "d3e40a7839f4623b232f71914c35afadb1ce8e23e37fb8c0747323e78af09b89",
+      "runnerSha256": "3fc16870ab3701f882d117fbe9249e139616b13c40dd559c15674df15063e726"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "check": {
+    "directory": "Namefold/app",
+    "argv": [
+      "python3",
+      "/Users/bespin-starter/Documents/Majestic/.archives/validation/foundation-refresh-2026-11-06/lock_native.py",
+      "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+      "build",
+      "apk",
+      "--release",
+      "--no-pub"
+    ],
+    "purpose": "android engineering compilation (not signed acceptance)",
+    "environment": [
+      [
+        "CARGO_BUILD_JOBS",
+        "2"
+      ],
+      [
+        "GRADLE_OPTS",
+        "-Dorg.gradle.workers.max=2 -Dorg.gradle.daemon=false"
+      ]
+    ]
+  },
+  "exitCode": 1,
+  "log": "nonhosting-software-14.log",
+  "logSha256": "e131c18547f5b0a191e14429aef56f56ff8a8483bf97d86019d133ca73b40ad8",
+  "sourceChangedDuringValidation": false,
+  "originalReport": ".archives/validation/foundation-refresh-2026-11-06/nonhosting-software/results.json"
+}

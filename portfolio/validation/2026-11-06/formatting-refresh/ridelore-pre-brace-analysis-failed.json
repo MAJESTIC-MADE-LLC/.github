@@ -1,0 +1,41 @@
+{
+  "result": {
+    "check": {
+      "directory": "Ridelore",
+      "argv": [
+        "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+        "analyze",
+        "--no-pub"
+      ],
+      "purpose": "Dart analysis",
+      "environment": [
+        [
+          "CARGO_BUILD_JOBS",
+          "2"
+        ],
+        [
+          "GRADLE_OPTS",
+          "-Dorg.gradle.workers.max=2 -Dorg.gradle.daemon=false"
+        ]
+      ]
+    },
+    "startedAt": "2026-11-06T16:27:36.323370+00:00",
+    "exitCode": 1,
+    "nativeArtifacts": {},
+    "log": "002.log",
+    "logSha256": "f7059a7d3a5338daa293084c647f298a571f4ed2dd497335b7b95ed48b597d2e"
+  },
+  "sourceBefore": {
+    "Ridelore": {
+      "head": "2b897a6c2cffd9a172687825d20bf15661fd9f9b",
+      "sourceSha256": "b5cdcd9399b6ece6ae0fa56ca7efc0fdbdb0e47d78c454e42126512f6da4143e"
+    }
+  },
+  "sourceAfter": {
+    "Ridelore": {
+      "head": "2b897a6c2cffd9a172687825d20bf15661fd9f9b",
+      "sourceSha256": "b5cdcd9399b6ece6ae0fa56ca7efc0fdbdb0e47d78c454e42126512f6da4143e"
+    }
+  },
+  "resolution": "A minimal behavior-preserving Block wrapper was added; final-source analysis/tests/native builds rerun in new records. Failed attempt retained."
+}

@@ -1,0 +1,165 @@
+Running build hooks...Running build hooks...00:00 +0: loading test/rate_limit_test.dart
+00:00 +0: test/rate_limit_test.dart: old addresses expire even after the capacity is reached
+00:00 +1: test/rate_limit_test.dart: per-address abuse stays bounded until the next window
+00:00 +2: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:00 +3: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:00 +4: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:00 +5: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:00 +6: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:00 +7: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:00 +8: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:00 +9: test/network_contract_test.dart: offline clients sync over independent TLS roles; daemon receives only immutable ciphertext
+00:01 +10: test/session_engine_test.dart: real TLS enrollment and MLS publication retain drafts without trusted keys and restore permissions after restart
+00:01 +11: test/network_contract_test.dart: accepted bytes repair publication after sender loss and coordinator restart
+00:02 +12: test/session_engine_test.dart: expired license preserves paid drafts while an enrolled device can explicitly delete and locked/disconnected access cannot
+00:02 +13: test/session_engine_test.dart: expired license preserves paid drafts while an enrolled device can explicitly delete and locked/disconnected access cannot
+00:03 +14: test/network_contract_test.dart: one pending invitation holds membership/publication; committed join resumes a lost acknowledgement
+00:03 +15: test/session_engine_test.dart: ordinary coordinator conflicts remain portable after restart and command retries do not reserve twice
+00:04 +16: test/session_engine_test.dart: ordinary coordinator conflicts remain portable after restart and command retries do not reserve twice
+00:04 +17: test/network_contract_test.dart: an expired paid edit does not block permitted deletion or disclose its cancelled draft
+00:05 +18: test/network_contract_test.dart: an expired paid edit does not block permitted deletion or disclose its cancelled draft
+00:05 +19: test/workspace_authority_independent_test.dart: owner-signed global allocation survives encrypted registry restart and does not spill plaintext
+00:05 +20: test/network_contract_test.dart: role, CA, SAN and SPKI failures send no private HTTP request
+00:05 +21: test/network_contract_test.dart: role, CA, SAN and SPKI failures send no private HTTP request
+00:05 +22: test/network_contract_test.dart: role, CA, SAN and SPKI failures send no private HTTP request
+00:05 +23: test/workspace_authority_independent_test.dart: parent-to-child cannot reuse an existing collection identity
+00:05 +24: test/workspace_authority_independent_test.dart: child-to-other-child cannot reuse an existing collection identity
+00:05 +25: test/workspace_authority_independent_test.dart: proof-to-child cannot reuse an existing collection identity
+00:05 +26: test/real_mls_contract_test.dart: independent offline clients converge across create, edits and delete conflicts
+00:05 +27: test/real_mls_contract_test.dart: independent offline clients converge across create, edits and delete conflicts
+00:05 +28: test/real_mls_contract_test.dart: independent offline clients converge across create, edits and delete conflicts
+00:05 +29: test/real_mls_contract_test.dart: independent offline clients converge across create, edits and delete conflicts
+00:05 +30: test/real_mls_contract_test.dart: independent offline clients converge across create, edits and delete conflicts
+00:05 +31: test/real_mls_contract_test.dart: independent offline clients converge across create, edits and delete conflicts
+00:05 +32: test/real_mls_contract_test.dart: independent offline clients converge across create, edits and delete conflicts
+00:05 +33: test/real_mls_contract_test.dart: independent offline clients converge across create, edits and delete conflicts
+00:06 +34: test/real_mls_contract_test.dart: independent offline clients converge across create, edits and delete conflicts
+00:06 +35: test/real_mls_contract_test.dart: independent offline clients converge across create, edits and delete conflicts
+00:06 +36: test/real_mls_contract_test.dart: independent offline clients converge across create, edits and delete conflicts
+00:06 +37: test/real_mls_contract_test.dart: independent offline clients converge across create, edits and delete conflicts
+00:06 +38: test/scoped_setup_runner_test.dart: scoped setup binds all independent MLS groups to one protected workspace and license
+00:06 +39: test/scoped_setup_runner_test.dart: scoped setup binds all independent MLS groups to one protected workspace and license
+00:06 +40: test/scoped_setup_runner_test.dart: scoped setup binds all independent MLS groups to one protected workspace and license
+00:07 +41: test/reference_setup_contract_test.dart: client-owned root explicitly approves desktop, then joins with its own real MLS key package
+00:07 +42: test/product_hosting_contract_test.dart: typed product data crosses independent TLS/MLS roles and survives restart
+00:07 +43: test/product_hosting_contract_test.dart: typed product data crosses independent TLS/MLS roles and survives restart
+00:07 +44: test/product_hosting_contract_test.dart: typed product data crosses independent TLS/MLS roles and survives restart
+00:07 +45: test/product_hosting_contract_test.dart: typed product data crosses independent TLS/MLS roles and survives restart
+00:07 +46: test/product_hosting_contract_test.dart: typed product data crosses independent TLS/MLS roles and survives restart
+00:08 +47: test/product_hosting_contract_test.dart: typed product data crosses independent TLS/MLS roles and survives restart
+00:08 +48: test/product_hosting_contract_test.dart: typed product data crosses independent TLS/MLS roles and survives restart
+00:08 +49: test/product_hosting_contract_test.dart: typed product data crosses independent TLS/MLS roles and survives restart
+00:08 +50: test/product_hosting_contract_test.dart: typed product data crosses independent TLS/MLS roles and survives restart
+00:08 +51: test/workspace_session_engine_test.dart: wrong outer password and bad final typed scope preserve all prior selected generations
+00:08 +52: test/product_hosting_contract_test.dart: reference decoders and clients cannot accidentally adopt product authority
+00:08 +53: test/workspace_session_engine_test.dart: selection failure after durable write rolls back to exact prior family or absent pointer
+00:08 +54: test/product_hosting_contract_test.dart: signed cross-app RPC and wrong-app grants fail without consuming product state
+00:08 +55: test/product_hosting_contract_test.dart: signed cross-app RPC and wrong-app grants fail without consuming product state
+00:09 +56: test/product_hosting_contract_test.dart: signed cross-app RPC and wrong-app grants fail without consuming product state
+00:09 +57: test/product_hosting_contract_test.dart: signed cross-app RPC and wrong-app grants fail without consuming product state
+00:09 +58: test/workspace_session_engine_test.dart: real MLS owner bundle reviews without I/O then shares one physical root and signs every scope before approvals
+00:09 +59: test/product_hosting_contract_test.dart: missing trusted keys and a host-selected wrong-app grant preserve drafts without publication
+00:09 +60: test/product_hosting_contract_test.dart: missing trusted keys and a host-selected wrong-app grant preserve drafts without publication
+00:09 +61: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:10 +62: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:10 +63: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +64: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +65: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +66: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +67: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +68: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +69: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +70: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +71: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +72: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +73: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +74: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +75: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +76: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +77: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +78: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +79: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +80: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +81: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +82: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +83: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +84: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +85: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +86: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +87: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +88: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +88: test/engine_contract_review_test.dart: version-one selector, relative keys and proposal chunks reopen without scope regeneration
+WARNING (drift): It looks like you've created the database class _SyncDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _SyncDatabase (package:majestic_sync/src/store.dart)
+#4      SyncStore.open (package:majestic_sync/src/store.dart:87:16)
+<asynchronous suspension>
+#5      main.<anonymous closure> (file:///Users/bespin-starter/Documents/Majestic/App-Template/packages/majestic_hosting/test/engine_contract_review_test.dart:97:20)
+<asynchronous suspension>
+#6      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#7      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#8      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+WARNING (drift): It looks like you've created the database class _SyncDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _SyncDatabase (package:majestic_sync/src/store.dart)
+#4      SyncStore.open (package:majestic_sync/src/store.dart:87:16)
+<asynchronous suspension>
+#5      HostingSessionEngine._openView (package:majestic_hosting/src/session_engine.dart:716:21)
+<asynchronous suspension>
+#6      HostingSessionEngine._openControl (package:majestic_hosting/src/session_engine.dart:607:9)
+<asynchronous suspension>
+#7      HostingSessionEngine._ensureOpened (package:majestic_hosting/src/session_engine.dart:551:7)
+<asynchronous suspension>
+#8      HostingSessionEngine._run.<anonymous closure> (package:majestic_hosting/src/session_engine.dart:519:19)
+<asynchronous suspension>
+#9      main.<anonymous closure> (file:///Users/bespin-starter/Documents/Majestic/App-Template/packages/majestic_hosting/test/engine_contract_review_test.dart:155:5)
+<asynchronous suspension>
+#10     Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#11     Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#12     Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+WARNING (drift): It looks like you've created the database class _SyncDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database. 
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _SyncDatabase (package:majestic_sync/src/store.dart)
+#4      SyncStore.open (package:majestic_sync/src/store.dart:87:16)
+<asynchronous suspension>
+#5      HostingSessionEngine._openView (package:majestic_hosting/src/session_engine.dart:716:21)
+<asynchronous suspension>
+#6      HostingSessionEngine._openControl (package:majestic_hosting/src/session_engine.dart:607:9)
+<asynchronous suspension>
+#7      HostingSessionEngine._ensureOpened (package:majestic_hosting/src/session_engine.dart:551:7)
+<asynchronous suspension>
+#8      HostingSessionEngine._run.<anonymous closure> (package:majestic_hosting/src/session_engine.dart:519:19)
+<asynchronous suspension>
+#9      main.<anonymous closure> (file:///Users/bespin-starter/Documents/Majestic/App-Template/packages/majestic_hosting/test/engine_contract_review_test.dart:179:5)
+<asynchronous suspension>
+#10     Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#11     Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#12     Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+00:11 +89: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +90: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:11 +91: test/workspace_session_engine_test.dart: real TLS workspace child enrollment resumes after second-group failure, refreshes the parent group and publishes once
+00:19 +92: All tests passed!

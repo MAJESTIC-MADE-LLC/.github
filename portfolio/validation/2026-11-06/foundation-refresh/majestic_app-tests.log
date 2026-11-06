@@ -1,0 +1,7 @@
+00:00 +0: loading /Users/bespin-starter/Documents/Majestic/App-Template/packages/majestic_app/test/content_boundary_test.dart
+00:00 +0: /Users/bespin-starter/Documents/Majestic/App-Template/packages/majestic_app/test/content_boundary_test.dart: lock cover keeps form State but removes hidden keyboard access
+00:00 +1: /Users/bespin-starter/Documents/Majestic/App-Template/packages/majestic_app/test/content_boundary_test.dart: lock cover keeps form State but removes hidden keyboard access
+00:00 +2: /Users/bespin-starter/Documents/Majestic/App-Template/packages/majestic_app/test/content_boundary_test.dart: lock cover keeps form State but removes hidden keyboard access
+00:00 +3: /Users/bespin-starter/Documents/Majestic/App-Template/packages/majestic_app/test/content_boundary_test.dart: lock cover keeps form State but removes hidden keyboard access
+00:01 +4: /Users/bespin-starter/Documents/Majestic/App-Template/packages/majestic_app/test/lifecycle_boundary_test.dart: inactive records disappear from rendering and semantics until resume
+00:01 +5: All tests passed!

@@ -18,13 +18,16 @@ new purchases; one-time purchases are limited to optional extras. See the approv
 - [Enforced portfolio standardization](portfolio/STANDARDIZATION.md): one offline drift gate and
   tracked local commit/push hooks for native apps, web surfaces, optional hosting and main-only CI.
 - [Optional user-owned hosting](portfolio/USER_OWNED_HOSTING.md): optional Mac/Windows ciphertext storage with a separately
-  trusted selected-collection coordinator, private-network sharing and bounded workspace grants; no new launch prerequisite.
+  trusted selected-collection coordinator, private-network sharing and bounded workspace grants. Local-only
+  releases of its adopted apps gain no additional hosting prerequisite; Skepbook’s approved combined
+  release has a separate hosting requirement.
 - [Independent product release requirements](portfolio/RELEASE_DEFINITION.md).
+- [Current software qualification and formatting cleanup](portfolio/validation/2026-11-06/formatting-refresh/RESULTS.md).
 - [November 4 software/source qualification](portfolio/GIT_SOURCE_ADOPTION_2026-11-04.md).
 - [Main promotion and repository metadata review](portfolio/MAIN_PROMOTION_2026-11-04.md).
 
-The seven implemented apps and template have dated software and immutable-source validation records.
-Current source-bound foundation evidence must remain complete after source changes; physical
+The seven implemented apps and template have current source-bound software evidence: analysis,
+tests, both native builds and immutable package verification pass. Representative physical
 iPhone/Android privacy and actual native-store purchase/restore qualification remain pending.
 A promotion to `main` records accepted source; it does not establish store readiness or deploy a website.
 The website publication pause remains in force. Dossier and OffRecord are excluded from this initiative.
@@ -48,4 +51,4 @@ python3 -m unittest discover -s tests -v
 ```
 
 The checker reports a pending foundation gate honestly. `--release-gate` remains nonzero until the
-current source-bound cohort and missing physical/store evidence are recorded. No command here submits an app or provisions a backend.
+missing representative physical/store evidence is recorded. No command here submits an app or provisions a backend.

@@ -1,0 +1,31 @@
+{
+  "check": {
+    "directory": "Pantry-Clock",
+    "argv": [
+      "python3",
+      "/Users/bespin-starter/Documents/Majestic/.archives/validation/foundation-refresh-2026-11-06/lock_native.py",
+      "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+      "build",
+      "apk",
+      "--release",
+      "--no-pub",
+      "--dart-define-from-file=test/fixtures/release/app_config.production.json"
+    ],
+    "purpose": "android engineering compilation (not signed acceptance)",
+    "environment": [
+      [
+        "CARGO_BUILD_JOBS",
+        "2"
+      ],
+      [
+        "GRADLE_OPTS",
+        "-Dorg.gradle.workers.max=2 -Dorg.gradle.daemon=false"
+      ]
+    ]
+  },
+  "exitCode": 1,
+  "log": "hosting-ndk-software-19.log",
+  "logSha256": "0129eeaebcfb36c34e21b842496d280c35aa5e220dae2ec5fa8459d83cd0d5f9",
+  "sourceChangedDuringValidation": false,
+  "originalReport": ".archives/validation/foundation-refresh-2026-11-06/hosting-ndk-software/results.json"
+}

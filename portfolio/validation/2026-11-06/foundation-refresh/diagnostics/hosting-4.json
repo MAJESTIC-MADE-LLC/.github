@@ -1,0 +1,30 @@
+{
+  "check": {
+    "directory": "Daymerit",
+    "argv": [
+      "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+      "format",
+      "--output=none",
+      "--set-exit-if-changed",
+      "lib",
+      "test",
+      "integration_test"
+    ],
+    "purpose": "active Dart formatting",
+    "environment": [
+      [
+        "CARGO_BUILD_JOBS",
+        "2"
+      ],
+      [
+        "GRADLE_OPTS",
+        "-Dorg.gradle.workers.max=2 -Dorg.gradle.daemon=false"
+      ]
+    ]
+  },
+  "exitCode": 1,
+  "log": "hosting-4.log",
+  "logSha256": "bcfb894f1ff0bfc6e8c70ebc4fa70eec85acd182cb88e8ae08d27103bc339f31",
+  "sourceChangedDuringValidation": false,
+  "originalReport": ".archives/validation/foundation-refresh-2026-11-06/hosting/results.json"
+}

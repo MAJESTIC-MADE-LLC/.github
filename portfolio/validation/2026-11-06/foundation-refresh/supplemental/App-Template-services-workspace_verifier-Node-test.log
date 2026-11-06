@@ -1,0 +1,39 @@
+
+> @majestic/workspace-verifier@0.1.0 test
+> node --test
+
+✔ Google HMAC aliases survive a process restart and unused aliases follow retention (13.090833ms)
+✔ previously bound production roots resolve before an alias migration without storing raw tokens (1.259834ms)
+✔ fixed public-only reference vector validates at its explicit clock and never as production (8.378084ms)
+✔ Google normalizes verified state, SKU, attribution, cancellation and paid-through (2.377667ms)
+✔ Google rejects tests, pending/expired states, other SKUs and unavailable unknown ancestors (0.825833ms)
+✔ Google uses durable HMAC aliases for verified ancestors, but still validates each current token (0.805459ms)
+✔ Google lineage cycles, excessive depth, and conflicting alias reassignment fail closed (0.955ms)
+✔ Apple normalizes verified original chain, latest transaction, paid-through and grace (0.311333ms)
+✔ Apple excludes revoked, upgraded, wrong-chain/SKU, expired and sandbox transactions (0.256125ms)
+✔ owner attribution precedes billing; signed grant is scoped and lasts at most seven days (12.969875ms)
+✔ grant never exceeds verified paid-through including a shortened renewal (2.229292ms)
+✔ one-use proof cannot be replayed or transplanted to a different purchase (2.827625ms)
+✔ unknown product data is rejected before any store or ledger mutation (0.675334ms)
+✔ unattributed and copied purchases cannot win initial claims (3.429416ms)
+✔ a purchase chain cannot bind a second workspace even for the same owner (2.39125ms)
+✔ concurrent duplicate verification consumes a challenge only once (1.857ms)
+✔ test or unsupported store sources cannot create a grant (1.379667ms)
+✔ refund refresh revokes known access but vendor outage does not erase cache (2.81975ms)
+✔ recovery requires an independent capability plus current verified store ownership (3.688375ms)
+✔ delegated coordinator can refresh only, and removal stops future renewal (4.356291ms)
+✔ aborted and expired authorizations never persist a late store result (1.986042ms)
+✔ purchase ciphertext cannot be moved to another chain or opened with another key (0.853167ms)
+✔ HTTP surface rejects unknown personal data and redacts vendor errors (22.113792ms)
+✔ prototype names are not configured applications and Ed25519 x must be canonical (3.368375ms)
+✔ reference test purchases cannot mint a grant for a product application (0.5995ms)
+✔ a late inactive refresh cannot revoke a recovered owner binding (3.1595ms)
+✔ removing a delegate wins over its already in-flight successful vendor refresh (3.199167ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 252.168875

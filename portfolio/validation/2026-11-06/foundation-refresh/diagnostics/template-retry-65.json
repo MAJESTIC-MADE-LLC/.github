@@ -1,0 +1,35 @@
+{
+  "check": {
+    "directory": "App-Template",
+    "argv": [
+      "python3",
+      "/Users/bespin-starter/Documents/Majestic/.archives/validation/foundation-refresh-2026-11-06/lock_native.py",
+      "python3",
+      "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/tool/build_crypto.py",
+      "--app",
+      "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/reference_app",
+      "--source",
+      "/Users/bespin-starter/Documents/Majestic/App-Template",
+      "--platform",
+      "android",
+      "--configuration",
+      "release"
+    ],
+    "purpose": "source-build App-Template/hosting/reference_app MLS android",
+    "environment": [
+      [
+        "CARGO_BUILD_JOBS",
+        "2"
+      ],
+      [
+        "GRADLE_OPTS",
+        "-Dorg.gradle.workers.max=2 -Dorg.gradle.daemon=false"
+      ]
+    ]
+  },
+  "exitCode": 1,
+  "log": "template-retry-65.log",
+  "logSha256": "a845ef484647cf7efae475592dac16afd4440ec7e1bc2e1f209966328e3b9488",
+  "sourceChangedDuringValidation": false,
+  "originalReport": ".archives/validation/foundation-refresh-2026-11-06/template-retry/results.json"
+}

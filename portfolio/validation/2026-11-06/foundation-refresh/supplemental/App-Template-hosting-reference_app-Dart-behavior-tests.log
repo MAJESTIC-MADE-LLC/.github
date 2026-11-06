@@ -1,0 +1,12 @@
+00:00 +0: loading /Users/bespin-starter/Documents/Majestic/App-Template/hosting/reference_app/test/reference_ui_test.dart
+00:00 +0: only owner can approve another device after fingerprint and access review
+00:01 +1: member menu does not offer owner approval and recovery export requires plaintext consent
+00:01 +2: committed save survives a failed view refresh without duplicating notes
+00:01 +3: notes create and edit offline with field revision checks
+00:01 +4: failed save keeps draft and hides sensitive exception details
+00:02 +5: invitation requires fingerprint review before connecting
+00:02 +6: canceling identity verification does not import invitation
+00:02 +7: disconnect preserves local notes and exports public enrollment only
+00:02 +8: failed manual synchronization preserves pending/conflict status
+00:02 +9: delete requires confirmation
+00:02 +10: All tests passed!

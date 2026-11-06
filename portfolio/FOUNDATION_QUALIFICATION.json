@@ -5,14 +5,14 @@
   "evidence": {
     "shared_package_tests": {
       "status": "passed",
-      "record": "portfolio/validation/2026-11-04/git-foundation/SHARED_PACKAGES.md",
-      "sha256": "053cad0dda5f730ae83512dac3adf6b536159b6e8bdb5c60627165a4a00fb22e",
-      "sourceFingerprint": "7de83b75f81d8efba95d065bd482932bfd9ed55e0f0c8bbb24adfcc09eed7575",
+      "record": "portfolio/validation/2026-11-06/formatting-refresh/SHARED_PACKAGES.md",
+      "sha256": "e52dd702b5a0531b3f2b15b3eb693913078b1f063e0d39c9a8f8f02400164359",
+      "sourceFingerprint": "64f9a7375b2aee2bb2c9899ff858c6e380d5012986c016f9525093329ffa1e9e",
       "sourceFingerprintPolicyVersion": 2,
-      "recordedAt": "2026-11-04T15:19:32.887980+00:00",
-      "recordedBy": "Codex local published-source software qualification",
-      "scope": "All eight shared analyzers and 90 tests from a clean fetched checkout of actual published P, with independent actual consumer-cache byte verification. Physical/store checks remain pending."
+      "recordedAt": "2026-11-06T16:32:54.126756+00:00",
+      "recordedBy": "Codex local post-formatting software qualification",
+      "scope": "All11 shared analyses on unchanged provider plus220 fresh tests after final Ridelore/Daymerit source freeze; bound to new eight-consumer cohort. No physical/store qualification."
     }
   },
-  "note": "Shared software and actual immutable Git-source qualification pass; representative physical iOS/Android privacy and actual native-store qualification remain pending."
+  "note": "Software qualification refreshed after behavior-preserving Ridelore/Daymerit formatting and brace-lint cleanup. Current physical iOS/Android privacy and actual native-store checks remain pending; independent product-release gates remain separate."
 }

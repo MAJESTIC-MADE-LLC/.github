@@ -1,0 +1,29 @@
+{
+  "check": {
+    "directory": "Ridelore",
+    "argv": [
+      "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+      "format",
+      "--output=none",
+      "--set-exit-if-changed",
+      "lib",
+      "test"
+    ],
+    "purpose": "active Dart formatting",
+    "environment": [
+      [
+        "CARGO_BUILD_JOBS",
+        "2"
+      ],
+      [
+        "GRADLE_OPTS",
+        "-Dorg.gradle.workers.max=2 -Dorg.gradle.daemon=false"
+      ]
+    ]
+  },
+  "exitCode": 1,
+  "log": "nonhosting-6.log",
+  "logSha256": "12a671e31a8608915a7b5f737f739dec625a29bef67ae7df5ab43219c34ea01a",
+  "sourceChangedDuringValidation": false,
+  "originalReport": ".archives/validation/foundation-refresh-2026-11-06/nonhosting/results.json"
+}

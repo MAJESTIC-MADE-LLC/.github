@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-11-06T15:31:23.954776+00:00",
+  "foundationVersion": "0.1.0",
+  "toolchain": {
+    "flutter": "3.47.8",
+    "dart": "3.13.7",
+    "dartConstraint": ">=3.13.7 <4.0.0",
+    "channel": "stable",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "consumers": [
+    {
+      "application": "App-Template",
+      "sourceFingerprint": "50aa10cc60ef86ab8cf8ac174f6629053ac9a5c8e9c99db354405f63ebdaa6a4",
+      "staticAdoption": "passed",
+      "errors": []
+    },
+    {
+      "application": "Skepbook",
+      "sourceFingerprint": "16f4aecb6a6582b1e256a9697437f054e692a0ce9ea86a137b455c08bae529dc",
+      "staticAdoption": "passed",
+      "errors": []
+    },
+    {
+      "application": "Ridelore",
+      "sourceFingerprint": "760ddbdd749067444abdbe3ad9910a87ea48fc21fbb2f174d35b7d8d5289fb74",
+      "staticAdoption": "passed",
+      "errors": []
+    },
+    {
+      "application": "Paws",
+      "sourceFingerprint": "c0efc59f233aca5e77565909a78a43fc6d2e9600f9db746fa514e5946d44977c",
+      "staticAdoption": "passed",
+      "errors": []
+    },
+    {
+      "application": "Pantry-Clock",
+      "sourceFingerprint": "945a371cc380379a69e215fe19e4c595754682334760adb1039dd2580046b508",
+      "staticAdoption": "passed",
+      "errors": []
+    },
+    {
+      "application": "Fine-Notes",
+      "sourceFingerprint": "30361cc8b066da5977230e4e81c32984e53d076038545999949b422a4324ba73",
+      "staticAdoption": "passed",
+      "errors": []
+    },
+    {
+      "application": "Namefold",
+      "sourceFingerprint": "55cfcf8789027575504d6ebc6918498b9b022231ea41c383f182e5acf706004e",
+      "staticAdoption": "passed",
+      "errors": []
+    },
+    {
+      "application": "Daymerit",
+      "sourceFingerprint": "20572bc1b396b5724b861b4ac3fc0349400991625c5eb9f765cc9ce8f1b821be",
+      "staticAdoption": "passed",
+      "errors": []
+    }
+  ],
+  "cohortFingerprint": "d3860a88b3bc709996834a8b4b8694d535e4f9e425725a606d293dbc1e0f773e",
+  "logs": [],
+  "assessment": "Unassessed source/log snapshot. Owner review records actual checks separately; physical/store qualification is never inferred."
+}

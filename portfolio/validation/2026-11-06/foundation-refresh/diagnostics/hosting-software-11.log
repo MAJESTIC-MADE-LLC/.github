@@ -1,0 +1,2 @@
+Serialized native build: ['python3', '/Users/bespin-starter/.pub-cache/git/App-Template-f74c7e709730b75e073a01bfcb7ef07100819a79/hosting/tool/build_crypto.py', '--app', '/Users/bespin-starter/Documents/Majestic/Daymerit', '--source', '/Users/bespin-starter/.pub-cache/git/App-Template-f74c7e709730b75e073a01bfcb7ef07100819a79', '--platform', 'android', '--configuration', 'release']
+build_crypto: Set ANDROID_NDK_HOME to the qualified installed Android NDK (API24+).

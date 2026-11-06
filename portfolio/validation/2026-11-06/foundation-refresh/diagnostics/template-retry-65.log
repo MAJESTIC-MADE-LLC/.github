@@ -1,0 +1,2 @@
+Serialized native build: ['python3', '/Users/bespin-starter/Documents/Majestic/App-Template/hosting/tool/build_crypto.py', '--app', '/Users/bespin-starter/Documents/Majestic/App-Template/hosting/reference_app', '--source', '/Users/bespin-starter/Documents/Majestic/App-Template', '--platform', 'android', '--configuration', 'release']
+build_crypto: Set ANDROID_NDK_HOME to the qualified installed Android NDK (API24+).

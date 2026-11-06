@@ -1,0 +1,40 @@
+Running build hooks...Running build hooks...00:00 +0: loading test/store_test.dart
+00:00 +0: test/store_test.dart: (setUpAll)
+00:00 +0: test/product_store_test.dart: (setUpAll)
+00:00 +0: test/store_test.dart: database bytes are encrypted; wrong key and plaintext fail closed
+00:00 +1: test/store_test.dart: database bytes are encrypted; wrong key and plaintext fail closed
+00:00 +2: test/store_test.dart: database bytes are encrypted; wrong key and plaintext fail closed
+00:00 +3: test/store_test.dart: database bytes are encrypted; wrong key and plaintext fail closed
+00:00 +4: test/product_store_test.dart: domain schema, payload and application mismatches never allocate an operation
+00:00 +5: test/store_test.dart: failed commit rolls back projection, counter, outbox and crypto state
+00:00 +6: test/product_store_test.dart: typed product decisions/checkpoints survive two-client delivery and duplicate replay
+00:00 +7: test/product_store_test.dart: typed product decisions/checkpoints survive two-client delivery and duplicate replay
+00:00 +8: test/store_test.dart: coordinator retains final payload; duplicate and sender timeout have one effect
+00:00 +9: test/store_test.dart: coordinator retains final payload; duplicate and sender timeout have one effect
+00:00 +10: test/store_test.dart: failed signing/final transaction leaves no accepted effect or ratchet advance
+00:00 +11: test/store_test.dart: disjoint offline edits merge, competing field edits conflict
+00:00 +12: test/store_test.dart: disjoint offline edits merge, competing field edits conflict
+00:00 +13: test/authorized_store_test.dart: signed actor and actual execution stage replace caller claims on every path
+00:00 +14: test/store_test.dart: delete wins concurrent edit and terminal tombstone prevents recreation
+00:00 +15: test/store_test.dart: delete wins concurrent edit and terminal tombstone prevents recreation
+00:00 +16: test/store_test.dart: delete wins concurrent edit and terminal tombstone prevents recreation
+00:00 +17: test/store_test.dart: delete wins concurrent edit and terminal tombstone prevents recreation
+00:00 +18: test/store_test.dart: quotas preserve pending work; active devices block compaction until authenticated ack
+00:00 +19: test/store_test.dart: retired devices and wrong MLS keys fail before authority mutation
+00:00 +20: test/store_test.dart: bad signatures and authority gaps do not advance recipient state
+00:00 +21: test/store_test.dart: fork restore sends nothing, preserves tombstones and excludes private authority
+00:00 +22: test/store_test.dart: private values are bounded, excluded from records, and atomically consumed once
+00:00 +23: test/store_test.dart: wire DTO rejects recovery/PIN fields and unsupported versions
+00:00 +24: test/store_test.dart: fresh-device checkpoint retains deletion state and quarantines old offline intents
+00:00 +25: test/store_test.dart: membership private updates roll back together when enrollment transaction fails
+00:00 +26: test/store_test.dart: global authority events and client heads commit with final decisions and roll back on failure
+00:00 +27: test/store_test.dart: decision pages enforce bounded limits
+00:00 +28: test/store_test.dart: fresh enrollment is wholly atomic and retries without reusing sender state
+00:01 +29: test/store_test.dart: linked private setup metadata commits as a batch or not at all
+00:01 +30: test/store_test.dart: database owner lease rejects same-process and cross-process duplicate owners and releases on close
+00:04 +31: test/store_test.dart: projection byte budget counts multibyte and escaped JSON exactly and permits shrinking
+00:04 +32: test/store_test.dart: concurrent disjoint merge over byte quota rolls back and keeps the original pending edit
+00:04 +33: test/store_test.dart: stale counter cancellation preserves the original draft and permits the next fresh-epoch write
+00:04 +34: test/store_test.dart: cancellation and authority metadata roll back together and do not block an allowed later delete
+00:04 +35: test/store_test.dart: (tearDownAll)
+00:04 +35: All tests passed!

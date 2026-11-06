@@ -1,0 +1,64 @@
+Serialized native build: ['cargo', '+1.99.1', 'test', '--locked', '--workspace']
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.37s
+     Running unittests src/lib.rs (target/debug/deps/majestic_crypto-0b75f2338d411bf7)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/mls_contract.rs (target/debug/deps/mls_contract-cff604bec2c37d66)
+
+running 6 tests
+test der_parser_rejects_invalid_certificates ... ok
+test identity_key_scope_group_and_format_are_bound ... ok
+test corrupted_message_does_not_mutate_committed_receiver_state ... ok
+test revoked_member_cannot_read_new_epoch_and_cannot_write_after_removal ... ok
+test restart_round_trip_and_replay_rejection ... ok
+test bounded_cancelled_generation_gap_and_rejection_are_restart_safe ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 43.50s
+
+     Running unittests src/lib.rs (target/debug/deps/majestic_host-6f9858c9f316f73e)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/main.rs (target/debug/deps/majestic_host-0290e4d5049a7a55)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/host_contract.rs (target/debug/deps/host_contract-eb938e0d36c3e9e9)
+
+running 14 tests
+test bind_scope_rejects_public_and_wildcard_but_supports_private_vpn ... ok
+test local_control_is_framed_scoped_and_stops_via_owner_uid ... ok
+test authority_generation_rejects_strings_zero_negative_and_unsafe_numbers ... ok
+test authorization_scopes_tamper_and_expiry_fail_closed ... ok
+test concurrent_duplicate_deliveries_have_one_durable_effect ... ok
+test coordinator_repairs_exact_preauthed_write_without_origin_private_key ... ok
+test changing_bound_host_or_authority_needs_explicit_recovery ... ok
+test durable_receipts_deduplicate_and_refuse_conflicting_operation ... ok
+test wrong_upload_bytes_never_commit_or_publish ... ok
+test storage_generation_survives_restart_changes_on_rebuild_and_explicit_restore ... ok
+test resumable_upload_integrity_quota_and_interrupted_commit_recover ... ok
+test normal_object_commit_and_metadata_loss_preserve_verified_orphans ... ok
+test process_kill_after_ack_retains_receipt_and_ciphertext ... ok
+test actual_tls_only_server_validates_ca_hostname_and_signed_rpc ... ok
+
+test result: ok. 14 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.41s
+
+   Doc-tests majestic_crypto
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests majestic_host
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

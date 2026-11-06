@@ -1,0 +1,1542 @@
+{
+  "schemaVersion": 1,
+  "qualification": "Current-source software engineering evidence only; physical/store/service acceptance remains separate",
+  "softwareResults": "/Users/bespin-starter/Documents/Majestic/.archives/validation/foundation-refresh-2026-11-06/hosting-ndk-software/results.json",
+  "softwareResultsSha256": "a557a9fdbdd304f65ae1cc07feef13380b847e914c3988cba839eec23a08ae2a",
+  "nativeContinuation": "/Users/bespin-starter/Documents/Majestic/.archives/validation/foundation-refresh-2026-11-06/hosting-debugcert-native/results.json",
+  "nativeContinuationSha256": "d93eff998ed086691055ea5845c52e680bd2a2cfe8ca4e26862d56b79ecb2ade",
+  "resolvedEnvironmentFailures": [
+    "ANDROID_NDK_HOME unset in initial software attempt",
+    "Pantry signing guard required supported environment values; resolved with existing development certificate"
+  ],
+  "remainingQualityBlockers": [
+    "Daymerit Dart format check fails; source intentionally unchanged"
+  ],
+  "nativeLaunchEnvironment": {
+    "ANDROID_RELEASE_STORE_FILE": "/Users/bespin-starter/.android/debug.keystore",
+    "ANDROID_RELEASE_STORE_PASSWORD": "<redacted>",
+    "ANDROID_RELEASE_KEY_ALIAS": "androiddebugkey",
+    "ANDROID_RELEASE_KEY_PASSWORD": "<redacted>",
+    "ANDROID_NDK_HOME": "/Users/bespin-starter/Library/Android/sdk/ndk/28.2.13676358"
+  },
+  "sourceChangedDuringValidation": false,
+  "applications": {
+    "Daymerit": {
+      "sourceSnapshot": {
+        "head": "338a7299b8da07d18b59ffd6a13952419f522c0d",
+        "sourceSha256": "b189104c7a722afdc798c177e14e0d01ab969af6fa1220815ef063f365b6e35b"
+      },
+      "optionalFoundationRevision": "f74c7e709730b75e073a01bfcb7ef07100819a79",
+      "android": {
+        "path": "/Users/bespin-starter/Documents/Majestic/Daymerit/build/app/outputs/flutter-apk/app-release.apk",
+        "sha256": "469c30563f6cbf0f3783e727410bd4b216a2b1b208b628441cde2bea35b8d75c",
+        "includedCryptoLibraries": {
+          "lib/arm64-v8a/libmajestic_crypto.so": {
+            "sha256": "b9616b985c872b5d57c560ad8756fcb4cce3d80fca3ce51152d385e97e0bb477",
+            "textSha256": "331e3dea53573e24c7220a6e3909a25b76a39809c23cde560849523b86e3bc67",
+            "codeMatchesSourceBuiltCopy": true,
+            "bridgeSymbols": [
+              "frb_get_rust_content_hash",
+              "frb_pde_ffi_dispatcher_primary",
+              "frb_pde_ffi_dispatcher_sync",
+              "frb_init_frb_dart_api_dl"
+            ],
+            "elfMachine": 183
+          },
+          "lib/x86_64/libmajestic_crypto.so": {
+            "sha256": "4a0623ceb56be29daf27a97cde01798e882d4c683232ee704ebe5ccef24990c8",
+            "textSha256": "b7eabb92d8c85880c3068782fd86b2207afdd05b54c7aa23d6a68eafb2ff1d14",
+            "codeMatchesSourceBuiltCopy": true,
+            "bridgeSymbols": [
+              "frb_get_rust_content_hash",
+              "frb_pde_ffi_dispatcher_primary",
+              "frb_pde_ffi_dispatcher_sync",
+              "frb_init_frb_dart_api_dl"
+            ],
+            "elfMachine": 62
+          }
+        },
+        "signing": "Existing local development certificate; engineering release-mode APK, not store acceptance",
+        "publicSigningCertificateSha256": "58118ecebea755d81c85473464e2ec1a5d92d52f6b3aa3349f94f6f75d4a4629"
+      },
+      "ios": {
+        "path": "/Users/bespin-starter/Documents/Majestic/Daymerit/build/ios/iphoneos/Runner.app",
+        "executableSha256": "44f540fb5850b97ec37c2a9515a9606b0c347bf9e8ba8b73f7c22d8a4dddc115",
+        "dartAotFrameworkSha256": "019f04c3fbaa3b5d3145a5af65637cf99f008a691e32526bd27b79a60d4778c4",
+        "exportedBridgeSymbols": [
+          "_frb_get_rust_content_hash",
+          "_frb_init_frb_dart_api_dl",
+          "_frb_pde_ffi_dispatcher_primary",
+          "_frb_pde_ffi_dispatcher_sync"
+        ],
+        "bundleTreeSha256": "a1fe939684200bb386a021cd92535347a5f02cfa1b2c41e57554bd0a23ff0027",
+        "bundleTreeAlgorithm": "sha256 of sorted compact JSON file manifest with sha256/mode and symlink targets",
+        "bundleFiles": {
+          "AppFrameworkInfo.plist": {
+            "sha256": "275c1f7273e185d2d65f8b447af25841e2be7fbdb3df89feb6324634f33ce317",
+            "mode": "0o644"
+          },
+          "AppIcon60x60@2x.png": {
+            "sha256": "9d328d1d45f386375e28736159b4ffa53c4930e3962016dbf98b029a4e80121c",
+            "mode": "0o644"
+          },
+          "AppIcon76x76@2x~ipad.png": {
+            "sha256": "29a53a06908d2de7e2c0d4b50d967cc61acb33f76689c207e43f28e9724c3996",
+            "mode": "0o644"
+          },
+          "Assets.car": {
+            "sha256": "9d850f193eb68716e682f485b11bdad92f42ea44d6793130f5890fa79dc12306",
+            "mode": "0o644"
+          },
+          "Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib": {
+            "sha256": "a241c1e1652c6231e5c157a595dd9095ddee4b6243c6e6bdbe17fb27d63791ed",
+            "mode": "0o644"
+          },
+          "Base.lproj/LaunchScreen.storyboardc/Info.plist": {
+            "sha256": "1f255d5cc53b531e3f29a9406a8df49a958e2bf9443d3e20bd8374f707f7d5c8",
+            "mode": "0o644"
+          },
+          "Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib": {
+            "sha256": "54f3637f671feba5f19e82ec4f4a7fb448bb3cfc0fb180f089aa571fc8f053e2",
+            "mode": "0o644"
+          },
+          "Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib": {
+            "sha256": "a3bb094a3cc4ada29dce11898ae26fd164c9be5a2687a58560a8a048713e36c5",
+            "mode": "0o644"
+          },
+          "Base.lproj/Main.storyboardc/Info.plist": {
+            "sha256": "3e9bdaa408d1eb6ae5e989b813a8644e0a4a981202c536905de52a7291e69aa4",
+            "mode": "0o644"
+          },
+          "Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib": {
+            "sha256": "cbdd28d89423b2c9beef2b27ce2c9608d30d6c6a9d2e7679f79a53814444e53f",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/App": {
+            "sha256": "019f04c3fbaa3b5d3145a5af65637cf99f008a691e32526bd27b79a60d4778c4",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/Info.plist": {
+            "sha256": "448bf45fc4afbdf5a384e44425f995ab5318901915a4f766809b44bed1b1930d",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/_CodeSignature/CodeResources": {
+            "sha256": "8fb9fe6319eb68c238049518965df20f70d3cc393f3417cae190b6a04204c819",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/AssetManifest.bin": {
+            "sha256": "4731cde4e749b67c06ea1feb141c94077e556af1d6eab07a5c61a5d292b6973e",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/FontManifest.json": {
+            "sha256": "cd7e03645bc44b2dd47b7cb626f51c4ecbf55a197ab77241628b47ac165fbe21",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/NOTICES.Z": {
+            "sha256": "4ef2f7e6be4f6c8d6d3bdb3c5e5eead9fb2a56cc555a1ff5e37b4c02ac76b8f7",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/NativeAssetsManifest.json": {
+            "sha256": "bd3e2b0fc21939a2ac3da317e39a5e7c9943114739cf2ee8d643e2a3e814a6f0",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/assets/avatars/avery_balanced.svg": {
+            "sha256": "cb98bf93a796293070e874a67446bc67daf866c17c4eeed93913b8e6c1b6ed1b",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/assets/avatars/jordan_productivity.svg": {
+            "sha256": "dc6df314f225bfaedfcda890fc6b2bd0d58c26f714301257d6043fdf1c47e1d3",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/assets/avatars/milo_visual.svg": {
+            "sha256": "6ee459bce2e13a49b0968e53b1baa090fe3c4f101249581fc0fba2af058885fe",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/assets/branding/app_icon_concept.svg": {
+            "sha256": "024c8bc46dd31c0bb8d5c6503babf0672a158c4b2972e2a223be922fe56daa71",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/assets/branding/splash_concept.svg": {
+            "sha256": "70fa4334e402ce65ad29c514f562da2b5065c545504a230d3ca4e5b56de469d2",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/assets/routine_icons/backpack.svg": {
+            "sha256": "cac64a328e9d5457ca99f401a069d22156b1754cde31b6baa772c1161fd331bb",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/assets/routine_icons/bed.svg": {
+            "sha256": "57dfd8346f6a0e4d2615a56638155047e609fba456509e06e4cbb9656b8038b8",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/assets/routine_icons/book.svg": {
+            "sha256": "e52ebfa3c122e96cfc7ae839cdf61b26fb657cbf5e80efa6a4ff0d976589c73d",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/assets/routine_icons/camera_proof.svg": {
+            "sha256": "ca146d9e399c23710159fb2cf9a16eef4f60ce0e9cde93f69c3b32633980bcce",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/assets/routine_icons/laundry.svg": {
+            "sha256": "41464ffc4661fd302319900ecb28106f0c8d0f0cd92fe4b6a31e98f582ded867",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/assets/routine_icons/parent_approval.svg": {
+            "sha256": "7b8fa6c359fe39034c5d0c6ab8fc88af561bc5a13ae7673faac2a559f38fc206",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/assets/routine_icons/pet_bowl.svg": {
+            "sha256": "a8873198d52a7b69bc24680c259f55967d41ef93273bd9e48b1dd9990ceb2360",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/assets/routine_icons/plate.svg": {
+            "sha256": "848f6e0dc1110406a8eca0507440c4554300875f79330b1db27b1153bb9efee3",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/assets/routine_icons/shoes.svg": {
+            "sha256": "aaac2dd87166757e518da322896d5de9e57c28c3a84b9092849da7d346f38b31",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/assets/routine_icons/star_reward.svg": {
+            "sha256": "544af4dce9749abb0c449373dda535e21c296e4d8519f3c6b09e432a8dbc2827",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/assets/routine_icons/toothbrush.svg": {
+            "sha256": "c7d8224ed63d720871c1d1b71c1f69605f969f81e987d54abb3220f7ffca2ec8",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/assets/routine_icons/trash.svg": {
+            "sha256": "70b1aaa7bc4c2b2fe612d4587371265d01cacaf165160f2c229bf73a14a50c73",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf": {
+            "sha256": "5041b6d70214288c27cd7241bda2f71683b655d83faaca24d7bc08bab3db1992",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": {
+            "sha256": "51d25345371e608ecd45e3a14ab239b4be650e9011149201a5b18c404d2469da",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/packages/flutter_local_notifications_web/web/notifications_service_worker.js": {
+            "sha256": "566f47dccc0f417f0164a3d0852334c340d0941472af43fc65ee50a314555058",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/packages/material_ui/shaders/ink_sparkle.frag": {
+            "sha256": "62ce4ba6e34254371ffdfb8e0670afcc5314f4452edf5ee70afcf079f2ed7ea2",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag": {
+            "sha256": "62ce4ba6e34254371ffdfb8e0670afcc5314f4452edf5ee70afcf079f2ed7ea2",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/shaders/stretch_effect.frag": {
+            "sha256": "21cdf2ecc9b113671fb228620d952ebae0f102a78a39a9df89b6ebdf6aec315a",
+            "mode": "0o644"
+          },
+          "Frameworks/Flutter.framework/Flutter": {
+            "sha256": "87e53767d719605ea9a15b42d721deaac2e94f98b9e49061fba458c1540245d5",
+            "mode": "0o755"
+          },
+          "Frameworks/Flutter.framework/Headers/Flutter.h": {
+            "sha256": "c1f5b26a03d82c2451dbec13b8645bb56df3df3d80592f98171ba204e15d4a36",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterAppDelegate.h": {
+            "sha256": "ebf60356f3456e2054548d873f08674ea2cdb5d7518d7530a328b5e81d867ba3",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterBinaryMessenger.h": {
+            "sha256": "1170e4e2dfbba82a724246abfaaf561ea63d6dc2bc7b2a210b0195b41261332f",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterCallbackCache.h": {
+            "sha256": "d21f7ebcae4afabf26a13b221817ecebe4ccf50a20d3cf5a7c7032de06dcc035",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterChannels.h": {
+            "sha256": "920d7de42def64b88e9fc29e150532ec3a15b80f55643a6aa012d59fae2e19a2",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterCodecs.h": {
+            "sha256": "672aa51d8b996e915ebd57a7cbd59d974ad51604bbb33232b2c4a20b269a7853",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterDartProject.h": {
+            "sha256": "53cabfd086edf6ae0ed8732c09d530213b49753c7c2e3865c7ed1a63cddf1fab",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterEngine.h": {
+            "sha256": "29528cda49a2619ac88f2a31be72b314af4e543918315dfaf11e5622c200742a",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterEngineGroup.h": {
+            "sha256": "4aacef231a815c427753d2c9df6842117b2b1f63f5ea0ba643e810c7a3dd95fe",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterHeadlessDartRunner.h": {
+            "sha256": "9e6663669bc5097af281fe14f5a3e4362f15708edc2f902d03e098e6e51620bd",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterHourFormat.h": {
+            "sha256": "43848b1528212ffe441493f22e0ecf362f49ff1a645557f3ae8d15422407b6b6",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterMacros.h": {
+            "sha256": "79b0551d265c52701b378851718ab7b6db7afbecf561b73c2954988554e80f99",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterPlatformViews.h": {
+            "sha256": "d1a53db8ce90729ce6669b8560e6e3f5d1a51849132a8c0f304449410745d8fe",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterPlugin.h": {
+            "sha256": "349bc734c4eec7babf27b476f7c7a3bcfa01f4b0114bfbc7eae8ed9b09947838",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h": {
+            "sha256": "f8f327fb94838f655de9153c09022dfc9625dd3fbc0e1a7b1c89aa033a1ca0d9",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterSceneDelegate.h": {
+            "sha256": "1bdbab65e137d7695d6b391e3ffeecbadd2dda103795f72ec47452b8b9a3fa06",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterSceneLifeCycle.h": {
+            "sha256": "b4d90b84efbe3ce2f8db38397e312fe7f0c97d0ad7bbca8763a24b6ebf2d2217",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterTexture.h": {
+            "sha256": "25ca4de1af6cbfac729e50f7462eb5d4de72f87a2ea545a9da1cab21707f23c6",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterViewController.h": {
+            "sha256": "e2336e4d76c2899c2aa71d253a64dd292183b3ebaba237681a95ce2bac09a9a5",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Info.plist": {
+            "sha256": "47457f1a8356f88dc1b63ef9966a48806f3549afc26ee3c04f10ef2d0843ad95",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Modules/module.modulemap": {
+            "sha256": "d158eb891a59ec065968fff498c00f3093e18ba2e8301e0c857ccbe63db8b46b",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/PrivacyInfo.xcprivacy": {
+            "sha256": "9f95d7e7862a4b56b66ed926bd6d622d2a6545a827d19847278b438d571d4212",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/_CodeSignature/CodeResources": {
+            "sha256": "27d40776e47e23de156d9792dd628b9b4b7f51cb47e03c407e45a6fd7816a089",
+            "mode": "0o644"
+          },
+          "Frameworks/Flutter.framework/icudtl.dat": {
+            "sha256": "325a86063d26334c2eabe1743cea073b612540fbf3d8fc2ef0b5708e3763a8c7",
+            "mode": "0o600"
+          },
+          "Frameworks/file_picker_darwin.framework/Info.plist": {
+            "sha256": "4cadad377927b28a713ac69eefe3ea078f8ef7018dff732ec2a5919cd0412875",
+            "mode": "0o644"
+          },
+          "Frameworks/file_picker_darwin.framework/file_picker_darwin": {
+            "sha256": "2e0d6ea691592244e894850c2274648ff6d428e812fe65c4383d0e49129377ac",
+            "mode": "0o755"
+          },
+          "Frameworks/file_picker_darwin.framework/file_picker_darwin_privacy.bundle/Info.plist": {
+            "sha256": "310d2e2bb1540a7893af24a7a5572e2d8cb28d3577298aec97c894f78536e232",
+            "mode": "0o644"
+          },
+          "Frameworks/file_picker_darwin.framework/file_picker_darwin_privacy.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "204d035a88eab2281b3d914f46c796766ae78e3cb82537711928dca9e28dbbb8",
+            "mode": "0o644"
+          },
+          "Frameworks/flutter_local_notifications.framework/Info.plist": {
+            "sha256": "70d6ace69257d3fda77350bfa4269751bd4e01ed947d71691a298742c117466a",
+            "mode": "0o644"
+          },
+          "Frameworks/flutter_local_notifications.framework/flutter_local_notifications": {
+            "sha256": "8171cf7ac38fce31a8adccc82bcde673ca42c86ece7257dc1134a454cd6cc291",
+            "mode": "0o755"
+          },
+          "Frameworks/flutter_local_notifications.framework/flutter_local_notifications_privacy.bundle/Info.plist": {
+            "sha256": "f06d79d6b8629bafc3068b8328836817e65e96133eba90d8da6f1c41a2568b4a",
+            "mode": "0o644"
+          },
+          "Frameworks/flutter_local_notifications.framework/flutter_local_notifications_privacy.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "8f4cbf3a6f18b7deaabc8646bd255df453f0d100def074ec05e44463437be9d5",
+            "mode": "0o644"
+          },
+          "Frameworks/flutter_secure_storage_darwin.framework/Info.plist": {
+            "sha256": "0f9111b94225a6de245e539408a8dc617ed6a635bc4f8ddcf6c2b9af9bc95657",
+            "mode": "0o644"
+          },
+          "Frameworks/flutter_secure_storage_darwin.framework/flutter_secure_storage.bundle/Info.plist": {
+            "sha256": "19d31883e9107853f58fea1187f6f5322b05bd61cd8aca985a2efb31ec091364",
+            "mode": "0o644"
+          },
+          "Frameworks/flutter_secure_storage_darwin.framework/flutter_secure_storage.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "47226a29608df206ad0a110e6afeb5a77ff575ac1df9c76bfdb2d6dfb3fafed1",
+            "mode": "0o644"
+          },
+          "Frameworks/flutter_secure_storage_darwin.framework/flutter_secure_storage_darwin": {
+            "sha256": "d1be20469bbcb98b3b886993595e034e6521b5dfa158ba4a3f9583004b183fab",
+            "mode": "0o755"
+          },
+          "Frameworks/flutter_timezone.framework/Info.plist": {
+            "sha256": "c8e35be927e3df38497b73e4d79af7b2b797a2a6779b1771e4445caadeb97c42",
+            "mode": "0o644"
+          },
+          "Frameworks/flutter_timezone.framework/flutter_timezone": {
+            "sha256": "a186c2bb9e9e632646c91020a0e7b5ab8b4c130334d40d8577cc3ab0f4c77920",
+            "mode": "0o755"
+          },
+          "Frameworks/flutter_timezone.framework/flutter_timezone_privacy.bundle/Info.plist": {
+            "sha256": "65b03ccda0c62bc58797d895e77c761e2ed6efc49a7dd36a3f0f96954e7e2277",
+            "mode": "0o644"
+          },
+          "Frameworks/flutter_timezone.framework/flutter_timezone_privacy.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "47226a29608df206ad0a110e6afeb5a77ff575ac1df9c76bfdb2d6dfb3fafed1",
+            "mode": "0o644"
+          },
+          "Frameworks/image_picker_ios.framework/Info.plist": {
+            "sha256": "16bfcb89079fb3962943f21e1f0a24aac0de97b682f78901ed5ff2a02b521707",
+            "mode": "0o644"
+          },
+          "Frameworks/image_picker_ios.framework/image_picker_ios": {
+            "sha256": "defa743d82d0ac33bd0c401f7c72f8fb36e318eaf1f5b4b70cabedf229b875de",
+            "mode": "0o755"
+          },
+          "Frameworks/image_picker_ios.framework/image_picker_ios_privacy.bundle/Info.plist": {
+            "sha256": "4970bcb0cdd9308035ca41c84804d8ec38b02dc9737abd22aee5932a30bea3bd",
+            "mode": "0o644"
+          },
+          "Frameworks/image_picker_ios.framework/image_picker_ios_privacy.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "6d2da0d8d930227d428c1d9363b0ad6e3a12e2c9b68c5ce297158a7412fc8c31",
+            "mode": "0o644"
+          },
+          "Frameworks/in_app_purchase_storekit.framework/Info.plist": {
+            "sha256": "dda948dcbe6880e69797bf95c9a12c57ae787731fb78ad525353b617e962306d",
+            "mode": "0o644"
+          },
+          "Frameworks/in_app_purchase_storekit.framework/in_app_purchase_storekit": {
+            "sha256": "dd259e4be93f3fab6816fa7753bd23848961c753e2fa449b058fd21b0394b0c6",
+            "mode": "0o755"
+          },
+          "Frameworks/in_app_purchase_storekit.framework/in_app_purchase_storekit_privacy.bundle/Info.plist": {
+            "sha256": "c0aab72015e7a9e080693bcbe42fee513ce37c13bb22c81063a649110b4c235b",
+            "mode": "0o644"
+          },
+          "Frameworks/in_app_purchase_storekit.framework/in_app_purchase_storekit_privacy.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "6d2da0d8d930227d428c1d9363b0ad6e3a12e2c9b68c5ce297158a7412fc8c31",
+            "mode": "0o644"
+          },
+          "Frameworks/local_auth_darwin.framework/Info.plist": {
+            "sha256": "73666e841aa96665a5e03b4b37f8cd776695e233e625923534e5bd46182b66ab",
+            "mode": "0o644"
+          },
+          "Frameworks/local_auth_darwin.framework/local_auth_darwin": {
+            "sha256": "0bef9a9023694c366e43e0563904a1eadcfd4396bf8bcbb25f28f2c65931b06c",
+            "mode": "0o755"
+          },
+          "Frameworks/local_auth_darwin.framework/local_auth_darwin_privacy.bundle/Info.plist": {
+            "sha256": "23d9c1acaa288a8d6689e6c2c8c0facc56191867858755a104e50aed8485a90c",
+            "mode": "0o644"
+          },
+          "Frameworks/local_auth_darwin.framework/local_auth_darwin_privacy.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "6d2da0d8d930227d428c1d9363b0ad6e3a12e2c9b68c5ce297158a7412fc8c31",
+            "mode": "0o644"
+          },
+          "Frameworks/majestic_privacy.framework/Info.plist": {
+            "sha256": "f985f57d90228c6aabe90ee6e68c406090efb27bb881abad029b8abbfe9a1ee8",
+            "mode": "0o644"
+          },
+          "Frameworks/majestic_privacy.framework/majestic_privacy": {
+            "sha256": "6973afe4d72f7ee86bb4f74d47e7efef52f6766780fda47d3167c795d7bb7aa8",
+            "mode": "0o755"
+          },
+          "Frameworks/majestic_purchases.framework/Info.plist": {
+            "sha256": "11667ce22474236e1f08ce359f6bfd2995bc93361f8ebd53761a12b964c834d3",
+            "mode": "0o644"
+          },
+          "Frameworks/majestic_purchases.framework/majestic_purchases": {
+            "sha256": "ac621d4a46afd3c5e12bfbbb8615f5c6b956f82f4163825398d663caf0ad48df",
+            "mode": "0o755"
+          },
+          "Frameworks/objective_c.framework/Info.plist": {
+            "sha256": "7896b09dbca92969d6c9b95d57fd87c2c18b2a65d0d9b5216166bfd669f372c8",
+            "mode": "0o644"
+          },
+          "Frameworks/objective_c.framework/_CodeSignature/CodeResources": {
+            "sha256": "436838fb0c5317621b3e3f98c49720685f57e2a033c95d72e32549f859c2684a",
+            "mode": "0o644"
+          },
+          "Frameworks/objective_c.framework/objective_c": {
+            "sha256": "2071c0d873a33d640d857d0f939ddc515c4c202be69db36623387bd90517f650",
+            "mode": "0o755"
+          },
+          "Frameworks/share_plus.framework/Info.plist": {
+            "sha256": "b51c0de90f3dade1d856e1af94ca48a4bab1ad448ecdcc468d7c3e645dc63a24",
+            "mode": "0o644"
+          },
+          "Frameworks/share_plus.framework/share_plus": {
+            "sha256": "bcc867a4592b8fd34b08ac913947cfb02af54e63694ada43ffa146835de3d7b5",
+            "mode": "0o755"
+          },
+          "Frameworks/share_plus.framework/share_plus_privacy.bundle/Info.plist": {
+            "sha256": "8e2ad5974ee9681c27375608e2dec60c580ddb96ec939fc320c612a1ddf1e47c",
+            "mode": "0o644"
+          },
+          "Frameworks/share_plus.framework/share_plus_privacy.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "6d2da0d8d930227d428c1d9363b0ad6e3a12e2c9b68c5ce297158a7412fc8c31",
+            "mode": "0o644"
+          },
+          "Frameworks/sqlite3mc.framework/Info.plist": {
+            "sha256": "7fb942fd3942dbc661c5cd87de6c1c312ea40390aa553aa1ed4873413e280192",
+            "mode": "0o644"
+          },
+          "Frameworks/sqlite3mc.framework/_CodeSignature/CodeResources": {
+            "sha256": "06491298d0eeee0a1728af167910683e3814922e2e3cbd41bf7f54274ab7cb9f",
+            "mode": "0o644"
+          },
+          "Frameworks/sqlite3mc.framework/sqlite3mc": {
+            "sha256": "3ef105a8b14baa31c0e323d86884a468083e40364e8affd159cd8697b4d67389",
+            "mode": "0o644"
+          },
+          "Frameworks/url_launcher_ios.framework/Info.plist": {
+            "sha256": "92d51331bd26a09c78ad3b1f935f3356b859718e41eee419806c0e3a14d6e522",
+            "mode": "0o644"
+          },
+          "Frameworks/url_launcher_ios.framework/url_launcher_ios": {
+            "sha256": "5a950ebdedbe1a49ac40e2129a465dc693da30bb9b1721a4df77c457537668ad",
+            "mode": "0o755"
+          },
+          "Frameworks/url_launcher_ios.framework/url_launcher_ios_privacy.bundle/Info.plist": {
+            "sha256": "26e4b3116923bd41bc528b739c1908152884d02f0db2c2d10e5baa3ce4399a6e",
+            "mode": "0o644"
+          },
+          "Frameworks/url_launcher_ios.framework/url_launcher_ios_privacy.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "6d2da0d8d930227d428c1d9363b0ad6e3a12e2c9b68c5ce297158a7412fc8c31",
+            "mode": "0o644"
+          },
+          "Info.plist": {
+            "sha256": "6f718e07b1ad279e9227a423742161cb55143588fe933aa077d092d49bc32a0c",
+            "mode": "0o644"
+          },
+          "PkgInfo": {
+            "sha256": "82502191c9484b04d685374f9879a0066069c49b8acae7a04b01d38d07e8eca0",
+            "mode": "0o644"
+          },
+          "Runner": {
+            "sha256": "44f540fb5850b97ec37c2a9515a9606b0c347bf9e8ba8b73f7c22d8a4dddc115",
+            "mode": "0o755"
+          }
+        },
+        "signing": "Unsigned device release build; not store or physical-device acceptance"
+      },
+      "cryptoProvenance": {
+        "android": {
+          "path": "/Users/bespin-starter/Documents/Majestic/Daymerit/.majestic-native/android.json",
+          "sha256": "737b20f5be9cc0f28cffef1de47190b76e701c62b8c54c286fee2c11ea248b6d",
+          "approvedGitSourceHashesMatched": true,
+          "record": {
+            "version": 1,
+            "platform": "android",
+            "configuration": "release",
+            "rustToolchain": "1.99.1",
+            "cargoLockSha256": "c41e78697ac87e67b3ede6b33c365c8c8552ca49651048723e6183e0f02cb8dc",
+            "cryptoSourceSha256": {
+              "crates/majestic_crypto/src/api.rs": "ced2dd4ce39e53ee556ac88ec9769a017aa8a1c97f6cfe52d39a06e09b853b50",
+              "crates/majestic_crypto/src/frb_generated.rs": "db634d525808c23508b60eb0d2b6ed3837968ce7bf6012e8f474b5243869be04",
+              "crates/majestic_crypto/src/lib.rs": "d6216bdd9ca179679892ee4749708a1072e28aff622902825e55bf6d5704d9b4",
+              "crates/majestic_crypto/src/mls.rs": "0951f63fe0444e56a6badc13c60548f2ad7b8e5014b2580516ccc77f8de9193e",
+              "crates/majestic_crypto/tests/mls_contract.rs": "16351ca8f4dd54935acb264e1f5a76ca7955a912627cbeb380b3ce6481eaa69d",
+              "crates/majestic_crypto/Cargo.toml": "ee747e3b4a449dfa47ed5992797317448db1723e30660a555a74b4e0ff08951b",
+              "Cargo.toml": "329061a8d4f9196fafa86be0cb5efb67e265ff00a8529569f86e1cfc131a39b2",
+              "Cargo.lock": "c41e78697ac87e67b3ede6b33c365c8c8552ca49651048723e6183e0f02cb8dc",
+              "rust-toolchain.toml": "d13306be0ecda81ce779baa290ffb417380d525928477f16200884b5169cca33"
+            },
+            "artifacts": [
+              {
+                "path": "android/app/src/main/jniLibs/arm64-v8a/libmajestic_crypto.so",
+                "sha256": "19330adefa9fc8f4e59e75bcac724d8079eaa56522a0018192822be31152bba0"
+              },
+              {
+                "path": "android/app/src/main/jniLibs/x86_64/libmajestic_crypto.so",
+                "sha256": "551672ca74c94d0eed85938cadec02e814eb98b6e441e14e9eb6e18de683fa19"
+              }
+            ]
+          }
+        },
+        "ios": {
+          "path": "/Users/bespin-starter/Documents/Majestic/Daymerit/.majestic-native/ios.json",
+          "sha256": "fe2ca634658b80f3581409b1b6d6bb7fb23f93c6f69f7db34c8b54ccab905e86",
+          "approvedGitSourceHashesMatched": true,
+          "record": {
+            "version": 1,
+            "platform": "ios",
+            "configuration": "release",
+            "rustToolchain": "1.99.1",
+            "cargoLockSha256": "c41e78697ac87e67b3ede6b33c365c8c8552ca49651048723e6183e0f02cb8dc",
+            "cryptoSourceSha256": {
+              "crates/majestic_crypto/src/api.rs": "ced2dd4ce39e53ee556ac88ec9769a017aa8a1c97f6cfe52d39a06e09b853b50",
+              "crates/majestic_crypto/src/frb_generated.rs": "db634d525808c23508b60eb0d2b6ed3837968ce7bf6012e8f474b5243869be04",
+              "crates/majestic_crypto/src/lib.rs": "d6216bdd9ca179679892ee4749708a1072e28aff622902825e55bf6d5704d9b4",
+              "crates/majestic_crypto/src/mls.rs": "0951f63fe0444e56a6badc13c60548f2ad7b8e5014b2580516ccc77f8de9193e",
+              "crates/majestic_crypto/tests/mls_contract.rs": "16351ca8f4dd54935acb264e1f5a76ca7955a912627cbeb380b3ce6481eaa69d",
+              "crates/majestic_crypto/Cargo.toml": "ee747e3b4a449dfa47ed5992797317448db1723e30660a555a74b4e0ff08951b",
+              "Cargo.toml": "329061a8d4f9196fafa86be0cb5efb67e265ff00a8529569f86e1cfc131a39b2",
+              "Cargo.lock": "c41e78697ac87e67b3ede6b33c365c8c8552ca49651048723e6183e0f02cb8dc",
+              "rust-toolchain.toml": "d13306be0ecda81ce779baa290ffb417380d525928477f16200884b5169cca33"
+            },
+            "artifacts": [
+              {
+                "path": "ios/MajesticCrypto/device/libmajestic_crypto.a",
+                "sha256": "1691b77b257056fa578551978602c40432805b018cf65bcb9f408478f57dc6e3"
+              },
+              {
+                "path": "ios/MajesticCrypto/simulator/libmajestic_crypto.a",
+                "sha256": "351875795d679398fa122248eaabc78de3bd55af36bd5757224f5cee68aabcbf"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Pantry-Clock": {
+      "sourceSnapshot": {
+        "head": "d3eb7494906ae72cabaea7671b1c603e7b413bdd",
+        "sourceSha256": "e60b83787a7a62f5b68deda625bfcfe026a113a58db16582d3f4880b1e3d4e64"
+      },
+      "optionalFoundationRevision": "f74c7e709730b75e073a01bfcb7ef07100819a79",
+      "android": {
+        "path": "/Users/bespin-starter/Documents/Majestic/Pantry-Clock/build/app/outputs/flutter-apk/app-release.apk",
+        "sha256": "7d8330280f8fa948aae86cd0734ec8233a3fcc1eb7304b6446ec978c8cb1e24c",
+        "includedCryptoLibraries": {
+          "lib/arm64-v8a/libmajestic_crypto.so": {
+            "sha256": "b9616b985c872b5d57c560ad8756fcb4cce3d80fca3ce51152d385e97e0bb477",
+            "textSha256": "331e3dea53573e24c7220a6e3909a25b76a39809c23cde560849523b86e3bc67",
+            "codeMatchesSourceBuiltCopy": true,
+            "bridgeSymbols": [
+              "frb_get_rust_content_hash",
+              "frb_pde_ffi_dispatcher_primary",
+              "frb_pde_ffi_dispatcher_sync",
+              "frb_init_frb_dart_api_dl"
+            ],
+            "elfMachine": 183
+          },
+          "lib/x86_64/libmajestic_crypto.so": {
+            "sha256": "4a0623ceb56be29daf27a97cde01798e882d4c683232ee704ebe5ccef24990c8",
+            "textSha256": "b7eabb92d8c85880c3068782fd86b2207afdd05b54c7aa23d6a68eafb2ff1d14",
+            "codeMatchesSourceBuiltCopy": true,
+            "bridgeSymbols": [
+              "frb_get_rust_content_hash",
+              "frb_pde_ffi_dispatcher_primary",
+              "frb_pde_ffi_dispatcher_sync",
+              "frb_init_frb_dart_api_dl"
+            ],
+            "elfMachine": 62
+          }
+        },
+        "signing": "Existing local development certificate; engineering release-mode APK, not store acceptance",
+        "publicSigningCertificateSha256": "58118ecebea755d81c85473464e2ec1a5d92d52f6b3aa3349f94f6f75d4a4629"
+      },
+      "ios": {
+        "path": "/Users/bespin-starter/Documents/Majestic/Pantry-Clock/build/ios/iphoneos/Runner.app",
+        "executableSha256": "0ef728aacacb734c33f359fa3ecc272a5da3a1cf56731330d0eb453802aa6ca4",
+        "dartAotFrameworkSha256": "cc4e419bc8a6bb9806471cad40795037f575cf4c9cdcf6f15b20f3bfeccf97ee",
+        "exportedBridgeSymbols": [
+          "_frb_get_rust_content_hash",
+          "_frb_init_frb_dart_api_dl",
+          "_frb_pde_ffi_dispatcher_primary",
+          "_frb_pde_ffi_dispatcher_sync"
+        ],
+        "bundleTreeSha256": "245318bb8701f21a40a00de8e4180bba0c2b38934ba9f2224485c0dbfe21aaf9",
+        "bundleTreeAlgorithm": "sha256 of sorted compact JSON file manifest with sha256/mode and symlink targets",
+        "bundleFiles": {
+          "AppFrameworkInfo.plist": {
+            "sha256": "275c1f7273e185d2d65f8b447af25841e2be7fbdb3df89feb6324634f33ce317",
+            "mode": "0o644"
+          },
+          "AppIcon60x60@2x.png": {
+            "sha256": "9d328d1d45f386375e28736159b4ffa53c4930e3962016dbf98b029a4e80121c",
+            "mode": "0o644"
+          },
+          "AppIcon76x76@2x~ipad.png": {
+            "sha256": "29a53a06908d2de7e2c0d4b50d967cc61acb33f76689c207e43f28e9724c3996",
+            "mode": "0o644"
+          },
+          "Assets.car": {
+            "sha256": "cb02711efb427d99ff022430714f6e2b73543cdd1f1219ccbdc1f4c43074bf9f",
+            "mode": "0o644"
+          },
+          "Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib": {
+            "sha256": "a241c1e1652c6231e5c157a595dd9095ddee4b6243c6e6bdbe17fb27d63791ed",
+            "mode": "0o644"
+          },
+          "Base.lproj/LaunchScreen.storyboardc/Info.plist": {
+            "sha256": "1f255d5cc53b531e3f29a9406a8df49a958e2bf9443d3e20bd8374f707f7d5c8",
+            "mode": "0o644"
+          },
+          "Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib": {
+            "sha256": "54f3637f671feba5f19e82ec4f4a7fb448bb3cfc0fb180f089aa571fc8f053e2",
+            "mode": "0o644"
+          },
+          "Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib": {
+            "sha256": "a3bb094a3cc4ada29dce11898ae26fd164c9be5a2687a58560a8a048713e36c5",
+            "mode": "0o644"
+          },
+          "Base.lproj/Main.storyboardc/Info.plist": {
+            "sha256": "3e9bdaa408d1eb6ae5e989b813a8644e0a4a981202c536905de52a7291e69aa4",
+            "mode": "0o644"
+          },
+          "Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib": {
+            "sha256": "cbdd28d89423b2c9beef2b27ce2c9608d30d6c6a9d2e7679f79a53814444e53f",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/App": {
+            "sha256": "cc4e419bc8a6bb9806471cad40795037f575cf4c9cdcf6f15b20f3bfeccf97ee",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/Info.plist": {
+            "sha256": "448bf45fc4afbdf5a384e44425f995ab5318901915a4f766809b44bed1b1930d",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/_CodeSignature/CodeResources": {
+            "sha256": "dc397f0cc9aadebd8943110367dc5bcc374bdac0a5736358dd17c8c526b84869",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/AssetManifest.bin": {
+            "sha256": "a169e3f438e896ae0885f3167498292ad8df742857cb88147cf806cf185f5c5d",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/FontManifest.json": {
+            "sha256": "cd7e03645bc44b2dd47b7cb626f51c4ecbf55a197ab77241628b47ac165fbe21",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/NOTICES.Z": {
+            "sha256": "308280c5da3fa3d73d792f849084caff7ad5ab3327ea1aaa8057626859f56d1a",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/NativeAssetsManifest.json": {
+            "sha256": "bd3e2b0fc21939a2ac3da317e39a5e7c9943114739cf2ee8d643e2a3e814a6f0",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf": {
+            "sha256": "13825dac93476d84a3ee0fe3baebcae0231df21e4cf9f1dbdca491efc9848874",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": {
+            "sha256": "51d25345371e608ecd45e3a14ab239b4be650e9011149201a5b18c404d2469da",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/packages/material_ui/shaders/ink_sparkle.frag": {
+            "sha256": "62ce4ba6e34254371ffdfb8e0670afcc5314f4452edf5ee70afcf079f2ed7ea2",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag": {
+            "sha256": "62ce4ba6e34254371ffdfb8e0670afcc5314f4452edf5ee70afcf079f2ed7ea2",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/shaders/stretch_effect.frag": {
+            "sha256": "21cdf2ecc9b113671fb228620d952ebae0f102a78a39a9df89b6ebdf6aec315a",
+            "mode": "0o644"
+          },
+          "Frameworks/Flutter.framework/Flutter": {
+            "sha256": "87e53767d719605ea9a15b42d721deaac2e94f98b9e49061fba458c1540245d5",
+            "mode": "0o755"
+          },
+          "Frameworks/Flutter.framework/Headers/Flutter.h": {
+            "sha256": "c1f5b26a03d82c2451dbec13b8645bb56df3df3d80592f98171ba204e15d4a36",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterAppDelegate.h": {
+            "sha256": "ebf60356f3456e2054548d873f08674ea2cdb5d7518d7530a328b5e81d867ba3",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterBinaryMessenger.h": {
+            "sha256": "1170e4e2dfbba82a724246abfaaf561ea63d6dc2bc7b2a210b0195b41261332f",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterCallbackCache.h": {
+            "sha256": "d21f7ebcae4afabf26a13b221817ecebe4ccf50a20d3cf5a7c7032de06dcc035",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterChannels.h": {
+            "sha256": "920d7de42def64b88e9fc29e150532ec3a15b80f55643a6aa012d59fae2e19a2",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterCodecs.h": {
+            "sha256": "672aa51d8b996e915ebd57a7cbd59d974ad51604bbb33232b2c4a20b269a7853",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterDartProject.h": {
+            "sha256": "53cabfd086edf6ae0ed8732c09d530213b49753c7c2e3865c7ed1a63cddf1fab",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterEngine.h": {
+            "sha256": "29528cda49a2619ac88f2a31be72b314af4e543918315dfaf11e5622c200742a",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterEngineGroup.h": {
+            "sha256": "4aacef231a815c427753d2c9df6842117b2b1f63f5ea0ba643e810c7a3dd95fe",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterHeadlessDartRunner.h": {
+            "sha256": "9e6663669bc5097af281fe14f5a3e4362f15708edc2f902d03e098e6e51620bd",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterHourFormat.h": {
+            "sha256": "43848b1528212ffe441493f22e0ecf362f49ff1a645557f3ae8d15422407b6b6",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterMacros.h": {
+            "sha256": "79b0551d265c52701b378851718ab7b6db7afbecf561b73c2954988554e80f99",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterPlatformViews.h": {
+            "sha256": "d1a53db8ce90729ce6669b8560e6e3f5d1a51849132a8c0f304449410745d8fe",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterPlugin.h": {
+            "sha256": "349bc734c4eec7babf27b476f7c7a3bcfa01f4b0114bfbc7eae8ed9b09947838",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h": {
+            "sha256": "f8f327fb94838f655de9153c09022dfc9625dd3fbc0e1a7b1c89aa033a1ca0d9",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterSceneDelegate.h": {
+            "sha256": "1bdbab65e137d7695d6b391e3ffeecbadd2dda103795f72ec47452b8b9a3fa06",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterSceneLifeCycle.h": {
+            "sha256": "b4d90b84efbe3ce2f8db38397e312fe7f0c97d0ad7bbca8763a24b6ebf2d2217",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterTexture.h": {
+            "sha256": "25ca4de1af6cbfac729e50f7462eb5d4de72f87a2ea545a9da1cab21707f23c6",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterViewController.h": {
+            "sha256": "e2336e4d76c2899c2aa71d253a64dd292183b3ebaba237681a95ce2bac09a9a5",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Info.plist": {
+            "sha256": "47457f1a8356f88dc1b63ef9966a48806f3549afc26ee3c04f10ef2d0843ad95",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Modules/module.modulemap": {
+            "sha256": "d158eb891a59ec065968fff498c00f3093e18ba2e8301e0c857ccbe63db8b46b",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/PrivacyInfo.xcprivacy": {
+            "sha256": "9f95d7e7862a4b56b66ed926bd6d622d2a6545a827d19847278b438d571d4212",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/_CodeSignature/CodeResources": {
+            "sha256": "27d40776e47e23de156d9792dd628b9b4b7f51cb47e03c407e45a6fd7816a089",
+            "mode": "0o644"
+          },
+          "Frameworks/Flutter.framework/icudtl.dat": {
+            "sha256": "325a86063d26334c2eabe1743cea073b612540fbf3d8fc2ef0b5708e3763a8c7",
+            "mode": "0o600"
+          },
+          "Frameworks/file_selector_ios.framework/Info.plist": {
+            "sha256": "ec292f46393580b034558d497aae6262ca4a3d7d623a35c0d94a621dc3c2d0fe",
+            "mode": "0o644"
+          },
+          "Frameworks/file_selector_ios.framework/file_selector_ios": {
+            "sha256": "33eac3f5c564111c5ca6e5536c9e29c84998f859941eda46e1db34f9348cda98",
+            "mode": "0o755"
+          },
+          "Frameworks/file_selector_ios.framework/file_selector_ios_privacy.bundle/Info.plist": {
+            "sha256": "b6c58bb64495a07a94fae07e9e409f6bb8ee74f8e6ed94efa5d405dafc1c89f4",
+            "mode": "0o644"
+          },
+          "Frameworks/file_selector_ios.framework/file_selector_ios_privacy.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "6d2da0d8d930227d428c1d9363b0ad6e3a12e2c9b68c5ce297158a7412fc8c31",
+            "mode": "0o644"
+          },
+          "Frameworks/flutter_secure_storage_darwin.framework/Info.plist": {
+            "sha256": "94b474ebb42da48c4db4c355aa775f3a7f4a3aecf91d0af77f6e1be3a916a26a",
+            "mode": "0o644"
+          },
+          "Frameworks/flutter_secure_storage_darwin.framework/flutter_secure_storage.bundle/Info.plist": {
+            "sha256": "3904efaf296ebee0977a391a8e90806ad656ba8d590c85cc2dca14eac2d18906",
+            "mode": "0o644"
+          },
+          "Frameworks/flutter_secure_storage_darwin.framework/flutter_secure_storage.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "47226a29608df206ad0a110e6afeb5a77ff575ac1df9c76bfdb2d6dfb3fafed1",
+            "mode": "0o644"
+          },
+          "Frameworks/flutter_secure_storage_darwin.framework/flutter_secure_storage_darwin": {
+            "sha256": "d32e326d325f965745624134e5e9a72244e190dce5253e4a88c4fd9f81b1cc63",
+            "mode": "0o755"
+          },
+          "Frameworks/in_app_purchase_storekit.framework/Info.plist": {
+            "sha256": "ebeb5da4c6abc0e9e33199ccf70556defeb9f9b07eb7905a96a77986b94cd0c0",
+            "mode": "0o644"
+          },
+          "Frameworks/in_app_purchase_storekit.framework/in_app_purchase_storekit": {
+            "sha256": "70070b787fc7f5fcd71ea96fc8d127497e3f33e6429979100bf1bf9a51ebffa0",
+            "mode": "0o755"
+          },
+          "Frameworks/in_app_purchase_storekit.framework/in_app_purchase_storekit_privacy.bundle/Info.plist": {
+            "sha256": "6d6a769367ee6670310d51a18c8cea2212fc5ceffe1fd77dac5badbf9e7c8de2",
+            "mode": "0o644"
+          },
+          "Frameworks/in_app_purchase_storekit.framework/in_app_purchase_storekit_privacy.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "6d2da0d8d930227d428c1d9363b0ad6e3a12e2c9b68c5ce297158a7412fc8c31",
+            "mode": "0o644"
+          },
+          "Frameworks/local_auth_darwin.framework/Info.plist": {
+            "sha256": "39808a386b73a9126d3fd0dda9ad1f99085fa25cd4883701620f193b752de1b4",
+            "mode": "0o644"
+          },
+          "Frameworks/local_auth_darwin.framework/local_auth_darwin": {
+            "sha256": "fba2fb4c70d6e60a1f786dd79f408a94cf479f02cff32a5fa4d9b80cb448c941",
+            "mode": "0o755"
+          },
+          "Frameworks/local_auth_darwin.framework/local_auth_darwin_privacy.bundle/Info.plist": {
+            "sha256": "9a6f787f14da998ceda0b74b98a8c572ebf7cd40ebe99ac8a7427a553116a5f8",
+            "mode": "0o644"
+          },
+          "Frameworks/local_auth_darwin.framework/local_auth_darwin_privacy.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "6d2da0d8d930227d428c1d9363b0ad6e3a12e2c9b68c5ce297158a7412fc8c31",
+            "mode": "0o644"
+          },
+          "Frameworks/majestic_privacy.framework/Info.plist": {
+            "sha256": "f985f57d90228c6aabe90ee6e68c406090efb27bb881abad029b8abbfe9a1ee8",
+            "mode": "0o644"
+          },
+          "Frameworks/majestic_privacy.framework/majestic_privacy": {
+            "sha256": "c5f7da35d0b73fbde8355a049356a5fc24314791d3095b06ccef3eb9ff4968ca",
+            "mode": "0o755"
+          },
+          "Frameworks/majestic_purchases.framework/Info.plist": {
+            "sha256": "11667ce22474236e1f08ce359f6bfd2995bc93361f8ebd53761a12b964c834d3",
+            "mode": "0o644"
+          },
+          "Frameworks/majestic_purchases.framework/majestic_purchases": {
+            "sha256": "c031fa55cb1033fff5c2a59d1446166c371e064411e095108d1f9b5412fa9e88",
+            "mode": "0o755"
+          },
+          "Frameworks/objective_c.framework/Info.plist": {
+            "sha256": "7896b09dbca92969d6c9b95d57fd87c2c18b2a65d0d9b5216166bfd669f372c8",
+            "mode": "0o644"
+          },
+          "Frameworks/objective_c.framework/_CodeSignature/CodeResources": {
+            "sha256": "436838fb0c5317621b3e3f98c49720685f57e2a033c95d72e32549f859c2684a",
+            "mode": "0o644"
+          },
+          "Frameworks/objective_c.framework/objective_c": {
+            "sha256": "1c8f95f57ddb7b841e6070969b4f8db9faeeb24ff9b2f9a26ce3204e422ce903",
+            "mode": "0o755"
+          },
+          "Frameworks/share_plus.framework/Info.plist": {
+            "sha256": "e24a57b68255ceab08e441855513378f79a617d541677afbaf242f4549d14de0",
+            "mode": "0o644"
+          },
+          "Frameworks/share_plus.framework/share_plus": {
+            "sha256": "12a979a9adc7d11ad39fc5389008378dae6a0ac7b2367afe5301622328c6eef3",
+            "mode": "0o755"
+          },
+          "Frameworks/share_plus.framework/share_plus_privacy.bundle/Info.plist": {
+            "sha256": "446bb653937aa276ac2c999df676105340ee9caa464d79fb477a95bfd73c0918",
+            "mode": "0o644"
+          },
+          "Frameworks/share_plus.framework/share_plus_privacy.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "6d2da0d8d930227d428c1d9363b0ad6e3a12e2c9b68c5ce297158a7412fc8c31",
+            "mode": "0o644"
+          },
+          "Frameworks/sqlite3mc.framework/Info.plist": {
+            "sha256": "7fb942fd3942dbc661c5cd87de6c1c312ea40390aa553aa1ed4873413e280192",
+            "mode": "0o644"
+          },
+          "Frameworks/sqlite3mc.framework/_CodeSignature/CodeResources": {
+            "sha256": "06491298d0eeee0a1728af167910683e3814922e2e3cbd41bf7f54274ab7cb9f",
+            "mode": "0o644"
+          },
+          "Frameworks/sqlite3mc.framework/sqlite3mc": {
+            "sha256": "3ef105a8b14baa31c0e323d86884a468083e40364e8affd159cd8697b4d67389",
+            "mode": "0o644"
+          },
+          "Frameworks/url_launcher_ios.framework/Info.plist": {
+            "sha256": "c8e82a872c16c7505bfa0931e3c5f3d2373cc1b43118e74204b5b4b735b0dfc1",
+            "mode": "0o644"
+          },
+          "Frameworks/url_launcher_ios.framework/url_launcher_ios": {
+            "sha256": "fd56d19d43033dbb84066328555452833e1c0bb2cb44672c6af78d4be393ca63",
+            "mode": "0o755"
+          },
+          "Frameworks/url_launcher_ios.framework/url_launcher_ios_privacy.bundle/Info.plist": {
+            "sha256": "7f207c7a8e37edaf2bb5ab184ae5123c9f9282e695795441cd75673a12fe8c26",
+            "mode": "0o644"
+          },
+          "Frameworks/url_launcher_ios.framework/url_launcher_ios_privacy.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "6d2da0d8d930227d428c1d9363b0ad6e3a12e2c9b68c5ce297158a7412fc8c31",
+            "mode": "0o644"
+          },
+          "Info.plist": {
+            "sha256": "0c86369d133efb4867af937416692780ae1845f52fbe67b61f86dab35e2b5565",
+            "mode": "0o644"
+          },
+          "PkgInfo": {
+            "sha256": "82502191c9484b04d685374f9879a0066069c49b8acae7a04b01d38d07e8eca0",
+            "mode": "0o644"
+          },
+          "Runner": {
+            "sha256": "0ef728aacacb734c33f359fa3ecc272a5da3a1cf56731330d0eb453802aa6ca4",
+            "mode": "0o755"
+          }
+        },
+        "signing": "Unsigned device release build; not store or physical-device acceptance"
+      },
+      "cryptoProvenance": {
+        "android": {
+          "path": "/Users/bespin-starter/Documents/Majestic/Pantry-Clock/.majestic-native/android.json",
+          "sha256": "737b20f5be9cc0f28cffef1de47190b76e701c62b8c54c286fee2c11ea248b6d",
+          "approvedGitSourceHashesMatched": true,
+          "record": {
+            "version": 1,
+            "platform": "android",
+            "configuration": "release",
+            "rustToolchain": "1.99.1",
+            "cargoLockSha256": "c41e78697ac87e67b3ede6b33c365c8c8552ca49651048723e6183e0f02cb8dc",
+            "cryptoSourceSha256": {
+              "crates/majestic_crypto/src/api.rs": "ced2dd4ce39e53ee556ac88ec9769a017aa8a1c97f6cfe52d39a06e09b853b50",
+              "crates/majestic_crypto/src/frb_generated.rs": "db634d525808c23508b60eb0d2b6ed3837968ce7bf6012e8f474b5243869be04",
+              "crates/majestic_crypto/src/lib.rs": "d6216bdd9ca179679892ee4749708a1072e28aff622902825e55bf6d5704d9b4",
+              "crates/majestic_crypto/src/mls.rs": "0951f63fe0444e56a6badc13c60548f2ad7b8e5014b2580516ccc77f8de9193e",
+              "crates/majestic_crypto/tests/mls_contract.rs": "16351ca8f4dd54935acb264e1f5a76ca7955a912627cbeb380b3ce6481eaa69d",
+              "crates/majestic_crypto/Cargo.toml": "ee747e3b4a449dfa47ed5992797317448db1723e30660a555a74b4e0ff08951b",
+              "Cargo.toml": "329061a8d4f9196fafa86be0cb5efb67e265ff00a8529569f86e1cfc131a39b2",
+              "Cargo.lock": "c41e78697ac87e67b3ede6b33c365c8c8552ca49651048723e6183e0f02cb8dc",
+              "rust-toolchain.toml": "d13306be0ecda81ce779baa290ffb417380d525928477f16200884b5169cca33"
+            },
+            "artifacts": [
+              {
+                "path": "android/app/src/main/jniLibs/arm64-v8a/libmajestic_crypto.so",
+                "sha256": "19330adefa9fc8f4e59e75bcac724d8079eaa56522a0018192822be31152bba0"
+              },
+              {
+                "path": "android/app/src/main/jniLibs/x86_64/libmajestic_crypto.so",
+                "sha256": "551672ca74c94d0eed85938cadec02e814eb98b6e441e14e9eb6e18de683fa19"
+              }
+            ]
+          }
+        },
+        "ios": {
+          "path": "/Users/bespin-starter/Documents/Majestic/Pantry-Clock/.majestic-native/ios.json",
+          "sha256": "fe2ca634658b80f3581409b1b6d6bb7fb23f93c6f69f7db34c8b54ccab905e86",
+          "approvedGitSourceHashesMatched": true,
+          "record": {
+            "version": 1,
+            "platform": "ios",
+            "configuration": "release",
+            "rustToolchain": "1.99.1",
+            "cargoLockSha256": "c41e78697ac87e67b3ede6b33c365c8c8552ca49651048723e6183e0f02cb8dc",
+            "cryptoSourceSha256": {
+              "crates/majestic_crypto/src/api.rs": "ced2dd4ce39e53ee556ac88ec9769a017aa8a1c97f6cfe52d39a06e09b853b50",
+              "crates/majestic_crypto/src/frb_generated.rs": "db634d525808c23508b60eb0d2b6ed3837968ce7bf6012e8f474b5243869be04",
+              "crates/majestic_crypto/src/lib.rs": "d6216bdd9ca179679892ee4749708a1072e28aff622902825e55bf6d5704d9b4",
+              "crates/majestic_crypto/src/mls.rs": "0951f63fe0444e56a6badc13c60548f2ad7b8e5014b2580516ccc77f8de9193e",
+              "crates/majestic_crypto/tests/mls_contract.rs": "16351ca8f4dd54935acb264e1f5a76ca7955a912627cbeb380b3ce6481eaa69d",
+              "crates/majestic_crypto/Cargo.toml": "ee747e3b4a449dfa47ed5992797317448db1723e30660a555a74b4e0ff08951b",
+              "Cargo.toml": "329061a8d4f9196fafa86be0cb5efb67e265ff00a8529569f86e1cfc131a39b2",
+              "Cargo.lock": "c41e78697ac87e67b3ede6b33c365c8c8552ca49651048723e6183e0f02cb8dc",
+              "rust-toolchain.toml": "d13306be0ecda81ce779baa290ffb417380d525928477f16200884b5169cca33"
+            },
+            "artifacts": [
+              {
+                "path": "ios/MajesticCrypto/device/libmajestic_crypto.a",
+                "sha256": "1691b77b257056fa578551978602c40432805b018cf65bcb9f408478f57dc6e3"
+              },
+              {
+                "path": "ios/MajesticCrypto/simulator/libmajestic_crypto.a",
+                "sha256": "351875795d679398fa122248eaabc78de3bd55af36bd5757224f5cee68aabcbf"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Paws": {
+      "sourceSnapshot": {
+        "head": "65f032146d2d92a8092b909be6b8d6ba79abd428",
+        "sourceSha256": "88d115a6e16c933d7f1152dad478194a1d110025fc2b577278f3c1909acf7938"
+      },
+      "optionalFoundationRevision": "f74c7e709730b75e073a01bfcb7ef07100819a79",
+      "android": {
+        "path": "/Users/bespin-starter/Documents/Majestic/Paws/build/app/outputs/flutter-apk/app-release.apk",
+        "sha256": "02134b736430ff1bc9d9b8e69e09d5cee54e4ed5f37b83a09c1a49bd2dff8177",
+        "includedCryptoLibraries": {
+          "lib/arm64-v8a/libmajestic_crypto.so": {
+            "sha256": "b9616b985c872b5d57c560ad8756fcb4cce3d80fca3ce51152d385e97e0bb477",
+            "textSha256": "331e3dea53573e24c7220a6e3909a25b76a39809c23cde560849523b86e3bc67",
+            "codeMatchesSourceBuiltCopy": true,
+            "bridgeSymbols": [
+              "frb_get_rust_content_hash",
+              "frb_pde_ffi_dispatcher_primary",
+              "frb_pde_ffi_dispatcher_sync",
+              "frb_init_frb_dart_api_dl"
+            ],
+            "elfMachine": 183
+          },
+          "lib/x86_64/libmajestic_crypto.so": {
+            "sha256": "4a0623ceb56be29daf27a97cde01798e882d4c683232ee704ebe5ccef24990c8",
+            "textSha256": "b7eabb92d8c85880c3068782fd86b2207afdd05b54c7aa23d6a68eafb2ff1d14",
+            "codeMatchesSourceBuiltCopy": true,
+            "bridgeSymbols": [
+              "frb_get_rust_content_hash",
+              "frb_pde_ffi_dispatcher_primary",
+              "frb_pde_ffi_dispatcher_sync",
+              "frb_init_frb_dart_api_dl"
+            ],
+            "elfMachine": 62
+          }
+        },
+        "signing": "Existing local development certificate; engineering release-mode APK, not store acceptance",
+        "publicSigningCertificateSha256": "58118ecebea755d81c85473464e2ec1a5d92d52f6b3aa3349f94f6f75d4a4629"
+      },
+      "ios": {
+        "path": "/Users/bespin-starter/Documents/Majestic/Paws/build/ios/iphoneos/Runner.app",
+        "executableSha256": "2dec69abc028f3e863c0c9f0a96c44a94a4af5a634a9c5c39603ce0fdc5e17e3",
+        "dartAotFrameworkSha256": "3658cb139a28e4b0f3c53de867431f3a4a8e2533a26b319e80c01ef805718bd9",
+        "exportedBridgeSymbols": [
+          "_frb_get_rust_content_hash",
+          "_frb_init_frb_dart_api_dl",
+          "_frb_pde_ffi_dispatcher_primary",
+          "_frb_pde_ffi_dispatcher_sync"
+        ],
+        "bundleTreeSha256": "d8b9c98c6a6ff4015ce1d02efff49d1481714bed463d1b2008d180e90d863203",
+        "bundleTreeAlgorithm": "sha256 of sorted compact JSON file manifest with sha256/mode and symlink targets",
+        "bundleFiles": {
+          "AppFrameworkInfo.plist": {
+            "sha256": "275c1f7273e185d2d65f8b447af25841e2be7fbdb3df89feb6324634f33ce317",
+            "mode": "0o644"
+          },
+          "AppIcon60x60@2x.png": {
+            "sha256": "9d328d1d45f386375e28736159b4ffa53c4930e3962016dbf98b029a4e80121c",
+            "mode": "0o644"
+          },
+          "AppIcon76x76@2x~ipad.png": {
+            "sha256": "29a53a06908d2de7e2c0d4b50d967cc61acb33f76689c207e43f28e9724c3996",
+            "mode": "0o644"
+          },
+          "Assets.car": {
+            "sha256": "9d850f193eb68716e682f485b11bdad92f42ea44d6793130f5890fa79dc12306",
+            "mode": "0o644"
+          },
+          "Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib": {
+            "sha256": "a241c1e1652c6231e5c157a595dd9095ddee4b6243c6e6bdbe17fb27d63791ed",
+            "mode": "0o644"
+          },
+          "Base.lproj/LaunchScreen.storyboardc/Info.plist": {
+            "sha256": "1f255d5cc53b531e3f29a9406a8df49a958e2bf9443d3e20bd8374f707f7d5c8",
+            "mode": "0o644"
+          },
+          "Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib": {
+            "sha256": "54f3637f671feba5f19e82ec4f4a7fb448bb3cfc0fb180f089aa571fc8f053e2",
+            "mode": "0o644"
+          },
+          "Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib": {
+            "sha256": "a3bb094a3cc4ada29dce11898ae26fd164c9be5a2687a58560a8a048713e36c5",
+            "mode": "0o644"
+          },
+          "Base.lproj/Main.storyboardc/Info.plist": {
+            "sha256": "3e9bdaa408d1eb6ae5e989b813a8644e0a4a981202c536905de52a7291e69aa4",
+            "mode": "0o644"
+          },
+          "Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib": {
+            "sha256": "cbdd28d89423b2c9beef2b27ce2c9608d30d6c6a9d2e7679f79a53814444e53f",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/App": {
+            "sha256": "3658cb139a28e4b0f3c53de867431f3a4a8e2533a26b319e80c01ef805718bd9",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/Info.plist": {
+            "sha256": "448bf45fc4afbdf5a384e44425f995ab5318901915a4f766809b44bed1b1930d",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/_CodeSignature/CodeResources": {
+            "sha256": "61996a05487d0360821816d82ab1d96893f606490382019c62f054118d3bb188",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/AssetManifest.bin": {
+            "sha256": "e9cfd87244df363ee19094a350478edf6059e9b34061b68f39f2f03fc4aa5504",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/FontManifest.json": {
+            "sha256": "cd7e03645bc44b2dd47b7cb626f51c4ecbf55a197ab77241628b47ac165fbe21",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/NOTICES.Z": {
+            "sha256": "7d46da0ebb0b340aa96598239c011cfb3ad9444e8c145791f72f08a0411498d1",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/NativeAssetsManifest.json": {
+            "sha256": "bd3e2b0fc21939a2ac3da317e39a5e7c9943114739cf2ee8d643e2a3e814a6f0",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf": {
+            "sha256": "e6c9a1fb84a64660b0356b4faf66af729610a44c4fc27ca320c03693f417e98f",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": {
+            "sha256": "51d25345371e608ecd45e3a14ab239b4be650e9011149201a5b18c404d2469da",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/packages/majestic_reports/assets/fonts/NotoSans-Bold.ttf": {
+            "sha256": "c976e4b1b99edc88775377fcc21692ca4bfa46b6d6ca6522bfda505b28ff9d6a",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/packages/majestic_reports/assets/fonts/NotoSans-Regular.ttf": {
+            "sha256": "b85c38ecea8a7cfb39c24e395a4007474fa5a4fc864f6ee33309eb4948d232d5",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/packages/majestic_reports/assets/fonts/NotoSansSymbols2-Regular.ttf": {
+            "sha256": "630846d528dbe4c4981370a4d0a9475a1fd1491a129bb411f8e157cdb5de13c6",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/packages/majestic_reports/assets/fonts/OFL.txt": {
+            "sha256": "0dab92d0544f7b233403f14b84a663bdbfa746982eda629e7f4f9ffe1b036feb",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/packages/majestic_reports/assets/fonts/README.md": {
+            "sha256": "f57ae63418a9a1db122c89c68ce88aac31456eb0bcaa75f9a005b2b30c138c03",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/packages/material_ui/shaders/ink_sparkle.frag": {
+            "sha256": "62ce4ba6e34254371ffdfb8e0670afcc5314f4452edf5ee70afcf079f2ed7ea2",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/shaders/ink_sparkle.frag": {
+            "sha256": "62ce4ba6e34254371ffdfb8e0670afcc5314f4452edf5ee70afcf079f2ed7ea2",
+            "mode": "0o644"
+          },
+          "Frameworks/App.framework/flutter_assets/shaders/stretch_effect.frag": {
+            "sha256": "21cdf2ecc9b113671fb228620d952ebae0f102a78a39a9df89b6ebdf6aec315a",
+            "mode": "0o644"
+          },
+          "Frameworks/Flutter.framework/Flutter": {
+            "sha256": "87e53767d719605ea9a15b42d721deaac2e94f98b9e49061fba458c1540245d5",
+            "mode": "0o755"
+          },
+          "Frameworks/Flutter.framework/Headers/Flutter.h": {
+            "sha256": "c1f5b26a03d82c2451dbec13b8645bb56df3df3d80592f98171ba204e15d4a36",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterAppDelegate.h": {
+            "sha256": "ebf60356f3456e2054548d873f08674ea2cdb5d7518d7530a328b5e81d867ba3",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterBinaryMessenger.h": {
+            "sha256": "1170e4e2dfbba82a724246abfaaf561ea63d6dc2bc7b2a210b0195b41261332f",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterCallbackCache.h": {
+            "sha256": "d21f7ebcae4afabf26a13b221817ecebe4ccf50a20d3cf5a7c7032de06dcc035",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterChannels.h": {
+            "sha256": "920d7de42def64b88e9fc29e150532ec3a15b80f55643a6aa012d59fae2e19a2",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterCodecs.h": {
+            "sha256": "672aa51d8b996e915ebd57a7cbd59d974ad51604bbb33232b2c4a20b269a7853",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterDartProject.h": {
+            "sha256": "53cabfd086edf6ae0ed8732c09d530213b49753c7c2e3865c7ed1a63cddf1fab",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterEngine.h": {
+            "sha256": "29528cda49a2619ac88f2a31be72b314af4e543918315dfaf11e5622c200742a",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterEngineGroup.h": {
+            "sha256": "4aacef231a815c427753d2c9df6842117b2b1f63f5ea0ba643e810c7a3dd95fe",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterHeadlessDartRunner.h": {
+            "sha256": "9e6663669bc5097af281fe14f5a3e4362f15708edc2f902d03e098e6e51620bd",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterHourFormat.h": {
+            "sha256": "43848b1528212ffe441493f22e0ecf362f49ff1a645557f3ae8d15422407b6b6",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterMacros.h": {
+            "sha256": "79b0551d265c52701b378851718ab7b6db7afbecf561b73c2954988554e80f99",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterPlatformViews.h": {
+            "sha256": "d1a53db8ce90729ce6669b8560e6e3f5d1a51849132a8c0f304449410745d8fe",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterPlugin.h": {
+            "sha256": "349bc734c4eec7babf27b476f7c7a3bcfa01f4b0114bfbc7eae8ed9b09947838",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h": {
+            "sha256": "f8f327fb94838f655de9153c09022dfc9625dd3fbc0e1a7b1c89aa033a1ca0d9",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterSceneDelegate.h": {
+            "sha256": "1bdbab65e137d7695d6b391e3ffeecbadd2dda103795f72ec47452b8b9a3fa06",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterSceneLifeCycle.h": {
+            "sha256": "b4d90b84efbe3ce2f8db38397e312fe7f0c97d0ad7bbca8763a24b6ebf2d2217",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterTexture.h": {
+            "sha256": "25ca4de1af6cbfac729e50f7462eb5d4de72f87a2ea545a9da1cab21707f23c6",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Headers/FlutterViewController.h": {
+            "sha256": "e2336e4d76c2899c2aa71d253a64dd292183b3ebaba237681a95ce2bac09a9a5",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Info.plist": {
+            "sha256": "47457f1a8356f88dc1b63ef9966a48806f3549afc26ee3c04f10ef2d0843ad95",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/Modules/module.modulemap": {
+            "sha256": "d158eb891a59ec065968fff498c00f3093e18ba2e8301e0c857ccbe63db8b46b",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/PrivacyInfo.xcprivacy": {
+            "sha256": "9f95d7e7862a4b56b66ed926bd6d622d2a6545a827d19847278b438d571d4212",
+            "mode": "0o600"
+          },
+          "Frameworks/Flutter.framework/_CodeSignature/CodeResources": {
+            "sha256": "27d40776e47e23de156d9792dd628b9b4b7f51cb47e03c407e45a6fd7816a089",
+            "mode": "0o644"
+          },
+          "Frameworks/Flutter.framework/icudtl.dat": {
+            "sha256": "325a86063d26334c2eabe1743cea073b612540fbf3d8fc2ef0b5708e3763a8c7",
+            "mode": "0o600"
+          },
+          "Frameworks/file_selector_ios.framework/Info.plist": {
+            "sha256": "de1842b02a8a4300f458fc496bdcf738a581ec319f4534e1e56f2fc50e332ef8",
+            "mode": "0o644"
+          },
+          "Frameworks/file_selector_ios.framework/file_selector_ios": {
+            "sha256": "0566b722dccdac8bfe4a8dc3dd23123aa034b87886fa6983477c0ed81019dda7",
+            "mode": "0o755"
+          },
+          "Frameworks/file_selector_ios.framework/file_selector_ios_privacy.bundle/Info.plist": {
+            "sha256": "f972d4e93a1acc0ce17435ff7a6ccbc58f24080b18294a83e80cd914a8e118d2",
+            "mode": "0o644"
+          },
+          "Frameworks/file_selector_ios.framework/file_selector_ios_privacy.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "6d2da0d8d930227d428c1d9363b0ad6e3a12e2c9b68c5ce297158a7412fc8c31",
+            "mode": "0o644"
+          },
+          "Frameworks/flutter_secure_storage_darwin.framework/Info.plist": {
+            "sha256": "0f9111b94225a6de245e539408a8dc617ed6a635bc4f8ddcf6c2b9af9bc95657",
+            "mode": "0o644"
+          },
+          "Frameworks/flutter_secure_storage_darwin.framework/flutter_secure_storage.bundle/Info.plist": {
+            "sha256": "19d31883e9107853f58fea1187f6f5322b05bd61cd8aca985a2efb31ec091364",
+            "mode": "0o644"
+          },
+          "Frameworks/flutter_secure_storage_darwin.framework/flutter_secure_storage.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "47226a29608df206ad0a110e6afeb5a77ff575ac1df9c76bfdb2d6dfb3fafed1",
+            "mode": "0o644"
+          },
+          "Frameworks/flutter_secure_storage_darwin.framework/flutter_secure_storage_darwin": {
+            "sha256": "75a3e58b0820de0d5c599699a8c4e4382a189c6eb227aff4771c0fa24d86bbb5",
+            "mode": "0o755"
+          },
+          "Frameworks/in_app_purchase_storekit.framework/Info.plist": {
+            "sha256": "dda948dcbe6880e69797bf95c9a12c57ae787731fb78ad525353b617e962306d",
+            "mode": "0o644"
+          },
+          "Frameworks/in_app_purchase_storekit.framework/in_app_purchase_storekit": {
+            "sha256": "31a4130ab263c711d46d0422ff8db2bd387cbddf21f43e27febf7b32d0770472",
+            "mode": "0o755"
+          },
+          "Frameworks/in_app_purchase_storekit.framework/in_app_purchase_storekit_privacy.bundle/Info.plist": {
+            "sha256": "c0aab72015e7a9e080693bcbe42fee513ce37c13bb22c81063a649110b4c235b",
+            "mode": "0o644"
+          },
+          "Frameworks/in_app_purchase_storekit.framework/in_app_purchase_storekit_privacy.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "6d2da0d8d930227d428c1d9363b0ad6e3a12e2c9b68c5ce297158a7412fc8c31",
+            "mode": "0o644"
+          },
+          "Frameworks/local_auth_darwin.framework/Info.plist": {
+            "sha256": "73666e841aa96665a5e03b4b37f8cd776695e233e625923534e5bd46182b66ab",
+            "mode": "0o644"
+          },
+          "Frameworks/local_auth_darwin.framework/local_auth_darwin": {
+            "sha256": "b83040ac15a61591201e359eb6bb9016a913c7e160d55a2f80e8dff5779ba606",
+            "mode": "0o755"
+          },
+          "Frameworks/local_auth_darwin.framework/local_auth_darwin_privacy.bundle/Info.plist": {
+            "sha256": "23d9c1acaa288a8d6689e6c2c8c0facc56191867858755a104e50aed8485a90c",
+            "mode": "0o644"
+          },
+          "Frameworks/local_auth_darwin.framework/local_auth_darwin_privacy.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "6d2da0d8d930227d428c1d9363b0ad6e3a12e2c9b68c5ce297158a7412fc8c31",
+            "mode": "0o644"
+          },
+          "Frameworks/majestic_privacy.framework/Info.plist": {
+            "sha256": "f985f57d90228c6aabe90ee6e68c406090efb27bb881abad029b8abbfe9a1ee8",
+            "mode": "0o644"
+          },
+          "Frameworks/majestic_privacy.framework/majestic_privacy": {
+            "sha256": "bd28d5efb2d308a0fba909d5b3b8c8650c2e9c8d35a95f2e8955c7310d632ec3",
+            "mode": "0o755"
+          },
+          "Frameworks/majestic_purchases.framework/Info.plist": {
+            "sha256": "11667ce22474236e1f08ce359f6bfd2995bc93361f8ebd53761a12b964c834d3",
+            "mode": "0o644"
+          },
+          "Frameworks/majestic_purchases.framework/majestic_purchases": {
+            "sha256": "06acb6aa398af7c4a064feda8c0ffe538c6dccf6e5aed0f7c4bd6510c081d3f3",
+            "mode": "0o755"
+          },
+          "Frameworks/objective_c.framework/Info.plist": {
+            "sha256": "7896b09dbca92969d6c9b95d57fd87c2c18b2a65d0d9b5216166bfd669f372c8",
+            "mode": "0o644"
+          },
+          "Frameworks/objective_c.framework/_CodeSignature/CodeResources": {
+            "sha256": "436838fb0c5317621b3e3f98c49720685f57e2a033c95d72e32549f859c2684a",
+            "mode": "0o644"
+          },
+          "Frameworks/objective_c.framework/objective_c": {
+            "sha256": "ac6387d36dde649055a53d6b75e88589e827e556beb47209b59f202cb68c33a5",
+            "mode": "0o755"
+          },
+          "Frameworks/share_plus.framework/Info.plist": {
+            "sha256": "b51c0de90f3dade1d856e1af94ca48a4bab1ad448ecdcc468d7c3e645dc63a24",
+            "mode": "0o644"
+          },
+          "Frameworks/share_plus.framework/share_plus": {
+            "sha256": "9e6ca10bb00f05e3462b04ea350a9c317cd465d6d5db168133c5fa8a868814f2",
+            "mode": "0o755"
+          },
+          "Frameworks/share_plus.framework/share_plus_privacy.bundle/Info.plist": {
+            "sha256": "8e2ad5974ee9681c27375608e2dec60c580ddb96ec939fc320c612a1ddf1e47c",
+            "mode": "0o644"
+          },
+          "Frameworks/share_plus.framework/share_plus_privacy.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "6d2da0d8d930227d428c1d9363b0ad6e3a12e2c9b68c5ce297158a7412fc8c31",
+            "mode": "0o644"
+          },
+          "Frameworks/sqlite3mc.framework/Info.plist": {
+            "sha256": "7fb942fd3942dbc661c5cd87de6c1c312ea40390aa553aa1ed4873413e280192",
+            "mode": "0o644"
+          },
+          "Frameworks/sqlite3mc.framework/_CodeSignature/CodeResources": {
+            "sha256": "06491298d0eeee0a1728af167910683e3814922e2e3cbd41bf7f54274ab7cb9f",
+            "mode": "0o644"
+          },
+          "Frameworks/sqlite3mc.framework/sqlite3mc": {
+            "sha256": "3ef105a8b14baa31c0e323d86884a468083e40364e8affd159cd8697b4d67389",
+            "mode": "0o644"
+          },
+          "Frameworks/url_launcher_ios.framework/Info.plist": {
+            "sha256": "92d51331bd26a09c78ad3b1f935f3356b859718e41eee419806c0e3a14d6e522",
+            "mode": "0o644"
+          },
+          "Frameworks/url_launcher_ios.framework/url_launcher_ios": {
+            "sha256": "7ca453d54b1350d36a43bd6e8ce169737fdb7c3274dc063dd1ad833a99ac45e0",
+            "mode": "0o755"
+          },
+          "Frameworks/url_launcher_ios.framework/url_launcher_ios_privacy.bundle/Info.plist": {
+            "sha256": "26e4b3116923bd41bc528b739c1908152884d02f0db2c2d10e5baa3ce4399a6e",
+            "mode": "0o644"
+          },
+          "Frameworks/url_launcher_ios.framework/url_launcher_ios_privacy.bundle/PrivacyInfo.xcprivacy": {
+            "sha256": "6d2da0d8d930227d428c1d9363b0ad6e3a12e2c9b68c5ce297158a7412fc8c31",
+            "mode": "0o644"
+          },
+          "Info.plist": {
+            "sha256": "0fe630cb6b06964c02d22a116a07f1f3661481dfec401baf22ec3a1a3925d45b",
+            "mode": "0o644"
+          },
+          "PkgInfo": {
+            "sha256": "82502191c9484b04d685374f9879a0066069c49b8acae7a04b01d38d07e8eca0",
+            "mode": "0o644"
+          },
+          "Runner": {
+            "sha256": "2dec69abc028f3e863c0c9f0a96c44a94a4af5a634a9c5c39603ce0fdc5e17e3",
+            "mode": "0o755"
+          }
+        },
+        "signing": "Unsigned device release build; not store or physical-device acceptance"
+      },
+      "cryptoProvenance": {
+        "android": {
+          "path": "/Users/bespin-starter/Documents/Majestic/Paws/.majestic-native/android.json",
+          "sha256": "737b20f5be9cc0f28cffef1de47190b76e701c62b8c54c286fee2c11ea248b6d",
+          "approvedGitSourceHashesMatched": true,
+          "record": {
+            "version": 1,
+            "platform": "android",
+            "configuration": "release",
+            "rustToolchain": "1.99.1",
+            "cargoLockSha256": "c41e78697ac87e67b3ede6b33c365c8c8552ca49651048723e6183e0f02cb8dc",
+            "cryptoSourceSha256": {
+              "crates/majestic_crypto/src/api.rs": "ced2dd4ce39e53ee556ac88ec9769a017aa8a1c97f6cfe52d39a06e09b853b50",
+              "crates/majestic_crypto/src/frb_generated.rs": "db634d525808c23508b60eb0d2b6ed3837968ce7bf6012e8f474b5243869be04",
+              "crates/majestic_crypto/src/lib.rs": "d6216bdd9ca179679892ee4749708a1072e28aff622902825e55bf6d5704d9b4",
+              "crates/majestic_crypto/src/mls.rs": "0951f63fe0444e56a6badc13c60548f2ad7b8e5014b2580516ccc77f8de9193e",
+              "crates/majestic_crypto/tests/mls_contract.rs": "16351ca8f4dd54935acb264e1f5a76ca7955a912627cbeb380b3ce6481eaa69d",
+              "crates/majestic_crypto/Cargo.toml": "ee747e3b4a449dfa47ed5992797317448db1723e30660a555a74b4e0ff08951b",
+              "Cargo.toml": "329061a8d4f9196fafa86be0cb5efb67e265ff00a8529569f86e1cfc131a39b2",
+              "Cargo.lock": "c41e78697ac87e67b3ede6b33c365c8c8552ca49651048723e6183e0f02cb8dc",
+              "rust-toolchain.toml": "d13306be0ecda81ce779baa290ffb417380d525928477f16200884b5169cca33"
+            },
+            "artifacts": [
+              {
+                "path": "android/app/src/main/jniLibs/arm64-v8a/libmajestic_crypto.so",
+                "sha256": "19330adefa9fc8f4e59e75bcac724d8079eaa56522a0018192822be31152bba0"
+              },
+              {
+                "path": "android/app/src/main/jniLibs/x86_64/libmajestic_crypto.so",
+                "sha256": "551672ca74c94d0eed85938cadec02e814eb98b6e441e14e9eb6e18de683fa19"
+              }
+            ]
+          }
+        },
+        "ios": {
+          "path": "/Users/bespin-starter/Documents/Majestic/Paws/.majestic-native/ios.json",
+          "sha256": "fe2ca634658b80f3581409b1b6d6bb7fb23f93c6f69f7db34c8b54ccab905e86",
+          "approvedGitSourceHashesMatched": true,
+          "record": {
+            "version": 1,
+            "platform": "ios",
+            "configuration": "release",
+            "rustToolchain": "1.99.1",
+            "cargoLockSha256": "c41e78697ac87e67b3ede6b33c365c8c8552ca49651048723e6183e0f02cb8dc",
+            "cryptoSourceSha256": {
+              "crates/majestic_crypto/src/api.rs": "ced2dd4ce39e53ee556ac88ec9769a017aa8a1c97f6cfe52d39a06e09b853b50",
+              "crates/majestic_crypto/src/frb_generated.rs": "db634d525808c23508b60eb0d2b6ed3837968ce7bf6012e8f474b5243869be04",
+              "crates/majestic_crypto/src/lib.rs": "d6216bdd9ca179679892ee4749708a1072e28aff622902825e55bf6d5704d9b4",
+              "crates/majestic_crypto/src/mls.rs": "0951f63fe0444e56a6badc13c60548f2ad7b8e5014b2580516ccc77f8de9193e",
+              "crates/majestic_crypto/tests/mls_contract.rs": "16351ca8f4dd54935acb264e1f5a76ca7955a912627cbeb380b3ce6481eaa69d",
+              "crates/majestic_crypto/Cargo.toml": "ee747e3b4a449dfa47ed5992797317448db1723e30660a555a74b4e0ff08951b",
+              "Cargo.toml": "329061a8d4f9196fafa86be0cb5efb67e265ff00a8529569f86e1cfc131a39b2",
+              "Cargo.lock": "c41e78697ac87e67b3ede6b33c365c8c8552ca49651048723e6183e0f02cb8dc",
+              "rust-toolchain.toml": "d13306be0ecda81ce779baa290ffb417380d525928477f16200884b5169cca33"
+            },
+            "artifacts": [
+              {
+                "path": "ios/MajesticCrypto/device/libmajestic_crypto.a",
+                "sha256": "1691b77b257056fa578551978602c40432805b018cf65bcb9f408478f57dc6e3"
+              },
+              {
+                "path": "ios/MajesticCrypto/simulator/libmajestic_crypto.a",
+                "sha256": "351875795d679398fa122248eaabc78de3bd55af36bd5757224f5cee68aabcbf"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

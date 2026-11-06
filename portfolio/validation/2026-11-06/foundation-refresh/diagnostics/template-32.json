@@ -1,0 +1,30 @@
+{
+  "check": {
+    "directory": "App-Template",
+    "argv": [
+      "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+      "analyze",
+      "--no-pub",
+      "lib",
+      "test",
+      "tool",
+      "--concurrency=2"
+    ],
+    "purpose": "Dart analysis",
+    "environment": [
+      [
+        "CARGO_BUILD_JOBS",
+        "2"
+      ],
+      [
+        "GRADLE_OPTS",
+        "-Dorg.gradle.workers.max=2 -Dorg.gradle.daemon=false"
+      ]
+    ]
+  },
+  "exitCode": 64,
+  "log": "template-32.log",
+  "logSha256": "585b1709e3314ce731eec639fba21d77ef5b5582570add12b725bef44cb4f868",
+  "sourceChangedDuringValidation": false,
+  "originalReport": ".archives/validation/foundation-refresh-2026-11-06/template/results.json"
+}

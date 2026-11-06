@@ -1,0 +1,34 @@
+{
+  "check": {
+    "directory": "App-Template/hosting/reference_app",
+    "argv": [
+      "python3",
+      "/Users/bespin-starter/Documents/Majestic/.archives/validation/foundation-refresh-2026-11-06/lock_native.py",
+      "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+      "build",
+      "apk",
+      "--release",
+      "--no-pub"
+    ],
+    "purpose": "android engineering compilation (not signed acceptance)",
+    "environment": [
+      [
+        "CARGO_BUILD_JOBS",
+        "2"
+      ],
+      [
+        "ANDROID_NDK_HOME",
+        "/Users/bespin-starter/Library/Android/sdk/ndk/28.2.13676358"
+      ],
+      [
+        "GRADLE_OPTS",
+        "-Dorg.gradle.workers.max=2 -Dorg.gradle.daemon=false"
+      ]
+    ]
+  },
+  "exitCode": 1,
+  "log": "template-native-4.log",
+  "logSha256": "6a540e61918db30db3472020018254eb99fd397bc7b7da228c3854f5d36c6c36",
+  "sourceChangedDuringValidation": false,
+  "originalReport": ".archives/validation/foundation-refresh-2026-11-06/template-native/results.json"
+}

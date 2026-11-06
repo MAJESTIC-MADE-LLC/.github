@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-11-06T16:01:31.133126+00:00",
+  "commands": [
+    [
+      "adb",
+      "devices",
+      "-l"
+    ],
+    [
+      "xcrun",
+      "xctrace",
+      "list",
+      "devices"
+    ]
+  ],
+  "connectedAndroidDevices": 0,
+  "connectedAppleMobileDevices": 0,
+  "qualification": "availability only; no physical privacy or actual store checks performed; machine and device identifiers omitted"
+}
