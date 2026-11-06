@@ -36,7 +36,7 @@ A README, manifest label, mockup, simulator-only demo or historical report is no
   collection enrollment as scoped standing transfer authorization, separate from manual exports.
   The [approved hosting design](USER_OWNED_HOSTING.md) requires its own tested encryption, pairing,
   access, recovery, disconnect and provider-exit behavior before that feature releases. It is
-  implemented in the Pantry Clock, Paws and Daymerit pre-launch builds; service, licensing and
+  implemented in the Skepbook, Pantry Clock, Paws and Daymerit pre-launch builds; service, licensing and
   physical/store qualification remain pending. Hosting adds no prerequisite for local-app launches.
 - Verify data inventory, data flows, retention, export, deletion, and encrypted backup/restore.
   A PDF/CSV or a single shared note is not a complete restorable vault backup. Do not rely on

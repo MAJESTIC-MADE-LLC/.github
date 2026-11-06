@@ -76,15 +76,15 @@ Node projects use 26.13.0, the latest LTS entry verified November 4 against the
 scaffolding is separate operational material, not the consumer hosting/runtime template.
 
 Passing software alignment does not complete physical-device/store acceptance, current foundation
-evidence or signed installers. Pantry Clock, Paws and Daymerit have explicit
+evidence or signed installers. Skepbook, Pantry Clock, Paws and Daymerit have explicit
 pre-launch integrations; their operational qualification remains separate.
 
 ## Optional hosting pilot and explicit adoption
 
 `Pantry-Clock/hosting_pilot` began as the registered development composition and is now a thin
-harness over Pantry Clock's regular implementation. The app and harness, Paws and Daymerit resolve
+harness over Pantry Clock's regular implementation. The app and harness, Skepbook, Paws and Daymerit resolve
 the complete optional module set from published Git
-`f74c7e709730b75e073a01bfcb7ef07100819a79`. The core pins remain unchanged.
+`fa2f501d441e436cb2e9be02c7b5bad1de894a6b`. The core pins remain unchanged.
 
 `hostingPolicy` requires the complete package set, explicit `user_owned_hosting` capability,
 approved consumer identity, exact transitive pins, native LAN permission/disclosure and verified
@@ -92,7 +92,7 @@ Git/cache provenance. The harness may use only its registered parent app as a lo
 must agree with its parent's optional sources. Overrides and moving refs fail. Earlier local-source
 pilot evidence retains its original scope and does not qualify later published artifacts.
 
-Four reviewed dependency baselines advanced together: Pantry regular app, its harness, Paws and
+Five reviewed dependency baselines advanced together: Pantry regular app, its harness, Skepbook, Paws and
 Daymerit. Native iOS linker inputs are covered by staged-input guards; native binaries and generated
 provenance remain ignored. Later products adopt deliberately. Signed service, live licensing,
 physical-device/store and current foundation evidence gates remain separate.
@@ -100,7 +100,7 @@ physical-device/store and current foundation evidence gates remain separate.
 ## Shared session adoption
 
 The three optional modules resolve together from the full immutable Git revision approved in
-`STACK_STANDARD.json`. Pantry Clock, Paws and Daymerit are approved consumers.
+`STACK_STANDARD.json`. Skepbook, Pantry Clock, Paws and Daymerit are approved consumers.
 Pantry Clock and Paws delegate generic native hosting orchestration to `HostingSessionEngine`; typed product
 models, selected-source adapters and portable archive schemas remain app-owned. Pantry's legacy
 hosting namespace, selectors and proposal format remain compatible. Paws has an independent scope
@@ -109,7 +109,7 @@ and preserves private database, key and legacy backup identities.
 Daymerit composes `HostingWorkspaceSessionEngine` over the same maintained scope engine. Its
 owner-signed global allocation, isolated parent/child/proof groups and recoverable enrollment/source
 staging belong to the shared foundation; product rules and native consent remain app-owned.
-Four reviewed dependency baselines advance together: Pantry regular app, its thin harness, Paws
+Five reviewed dependency baselines advance together: Pantry regular app, its thin harness, Skepbook, Paws
 and Daymerit. Only optional sources advance; core/report/media/reminder modules retain their original immutable pins. All
 other products retain their current graph. Production qualification evidence remains separate.
 

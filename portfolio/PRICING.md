@@ -48,7 +48,7 @@ across iOS/Android at the existing core price: Pantry Clock/Paws/Fine Notes six 
 three, Ridelore four, Daymerit four adult caregivers with no per-child charge, and Namefold one
 owner's devices. Counts include the owner and span selected collections. No extra-seat fee or
 host surcharge is introduced for the first hosting version; larger-team pricing needs a later
-decision. Pantry Clock, Paws and Daymerit have pre-launch source integrations; the other products
+decision. Skepbook, Pantry Clock, Paws and Daymerit have pre-launch source integrations; the other products
 remain later adopters. Live licensing and actual store qualification remain pending, so these are
 not current store offers.
 

@@ -132,7 +132,7 @@ transfers. Local records and encrypted recovery remain usable without a host.
 
 Published reference/runtime source implements atomic encrypted journals, source-built MLS,
 role-separated TLS, product-owned transactions, workspace allocation, verified grants and recovery.
-Pantry Clock, Paws and Daymerit regular builds deliberately adopt the complete optional module set
+Skepbook, Pantry Clock, Paws and Daymerit regular builds deliberately adopt the complete optional module set
 at the immutable revision in `STACK_STANDARD.json`; default scaffolds and other consumers remain
 unenrolled. Optional Rust/OpenMLS/Flutter Rust Bridge dependencies have their own governed pins;
 core/report/media/reminder source pins remain unchanged. See the
@@ -187,8 +187,8 @@ never inferred from simulator or build output.
 ## Optional hosting source
 
 The default template still has no record backend. Only explicitly approved consumers may add the
-complete optional hosting/sync/crypto set, currently Pantry Clock, Paws and Daymerit at published Git
-`f74c7e709730b75e073a01bfcb7ef07100819a79`. They share maintained scope/workspace engines; product
+complete optional hosting/sync/crypto set, currently Skepbook, Pantry Clock, Paws and Daymerit at published Git
+`fa2f501d441e436cb2e9be02c7b5bad1de894a6b`. They share maintained scope/workspace engines; product
 schemas and scopes stay separate. Core/report sources retain their existing immutable revisions.
 See [drift enforcement](STANDARDIZATION.md) for exact manifest, lock, cache, capability and native
 permission checks. Source adoption does not replace physical/store or signed-service qualification.

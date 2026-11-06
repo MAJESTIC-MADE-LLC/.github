@@ -11,7 +11,7 @@ Website publication is paused. [Support & legal drafts](https://github.com/MAJES
 ## Focus
 
 - **On-device by default:** consumer records stay on the user's device; exports are deliberate.
-- **Optional user-owned hosting:** Pantry Clock, Paws and Daymerit have pre-launch source
+- **Optional user-owned hosting:** Skepbook, Pantry Clock, Paws and Daymerit have pre-launch source
   integrations for selected records. Service, licensing and physical qualification remain pending;
   other products adopt separately and self-hosting is not yet a portfolio-wide feature.
 - **Affordable subscriptions:** monthly/annual core access, with one-time purchases limited to optional extras.

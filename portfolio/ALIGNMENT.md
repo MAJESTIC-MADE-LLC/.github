@@ -4,7 +4,7 @@
 
 Majestic Made builds affordable apps with useful core workflows and encrypted on-device records.
 Exports are deliberate user actions. Optional sync uses explicit destination/collection enrollment
-as scoped standing authorization. Pantry Clock, Paws and Daymerit implement selected-record
+as scoped standing authorization. Skepbook, Pantry Clock, Paws and Daymerit implement selected-record
 user-owned hosting in their pre-launch regular builds; service, licensing and physical/store
 qualification remain pending. Other products adopt separately. No company-operated record backend
 is required. Native billing, optional disclosed lookups and minimal website business-contact forms
@@ -49,15 +49,15 @@ See [pricing](PRICING.md), [status](STATUS.md) and the [data matrix](DATA_COST_M
 
 The [hosting architecture](USER_OWNED_HOSTING.md) distinguishes the ciphertext-only storage daemon
 from an independently enrolled desktop coordinator trusted to read selected collections. The
-published optional modules at `f74c7e709730b75e073a01bfcb7ef07100819a79` are deliberately adopted by
-Pantry Clock, Paws and Daymerit; core/report/media/reminder pins remain unchanged. Shared scope and
+published optional modules at `fa2f501d441e436cb2e9be02c7b5bad1de894a6b` are deliberately adopted by
+Skepbook, Pantry Clock, Paws and Daymerit; core/report/media/reminder pins remain unchanged. Shared scope and
 workspace engines provide pairing, encrypted journals, verified grants and disconnected recovery;
 product-specific DTOs, rules, private vaults and legacy readers remain independent.
 
 Daymerit implements isolated parent/child/proof groups, signed global allocation, confirmed-only
 financial effects, proof inventory/deletion and recoverable enrollment/source staging. November 5
-published-source checks record 223 Daymerit, 196 Paws and 188 Pantry Clock app tests, shared/runtime
-checks and rebuilt native artifacts. See the [current source-specific evidence](https://github.com/MAJESTIC-MADE-LLC/Daymerit/blob/dev/docs/validation/2026-11-05/hosting-family/RESULTS.md).
+historical published-source checks record 223 Daymerit, 196 Paws and 188 Pantry Clock app tests, shared/runtime
+checks and rebuilt native artifacts. See the [historical source-specific evidence](https://github.com/MAJESTIC-MADE-LLC/Daymerit/blob/dev/docs/validation/2026-11-05/hosting-family/RESULTS.md).
 These checks do not qualify physical devices, signed Mac/Windows service installers, OS credential
 provisioning, live licensing or actual native-store transactions. The metadata-only verifier remains
 undeployed and the optional opaque push bridge remains unimplemented. Hosting adds no local-launch
@@ -96,3 +96,25 @@ Change the manifest first, then run `python3 scripts/portfolio_status.py --write
 Generated tables must not be edited by hand. Counts derive from inventory; dated app test/build
 results remain historical until actually rerun. Documentation-only concept notes do not become
 app implementation evidence.
+
+## Native hosting and private deletion — November 6, 2026
+
+Skepbook now composes the maintained hosting engine with its typed apiary, hive,
+field-log, reminder and photo models on an independent encrypted executor. One
+owner-approved workspace roster covers every explicitly selected apiary; the
+three-person cap includes the owner. The separately approved coordinator can read
+shared data. Sensitive location/access/free-text/revenue fields and individual
+photos require explicit selection. Private drafts, keys and recovery stay separate.
+
+Daymerit provides active-parent private deletion even after paid access expires.
+Selected records, child activity and all-record deletion have explicit confirmation;
+linked content and the raw legacy import are removed together. Minimal redacted
+ledger amounts preserve surviving balances. Local proof/thumbnail and retired-copy
+cleanup has a durable retry marker. Existing exports, old backups and hosted copies
+cannot be recalled; authenticated restoration of an older backup can reintroduce
+its contents. This makes no forensic-erasure claim.
+
+See the [current software dossier](validation/2026-11-06/native-hosting-deletion/RESULTS.md).
+Signed services, Windows credential provisioning, production licensing, physical
+privacy checks and real native-store acceptance remain separate. Release order,
+pricing and the website publication pause remain unchanged.
