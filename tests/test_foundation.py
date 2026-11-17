@@ -193,12 +193,12 @@ jobs:
 
     def test_gate_preserves_order_and_excludes_experiments(self):
         standard = foundation.read_json(foundation.STANDARD_PATH)
-        self.assertEqual(len(standard["gate"]["requiredApps"]), 7)
+        self.assertEqual(len(standard["gate"]["requiredApps"]), 10)
         self.assertEqual(standard["toolchain"]["platforms"], ["ios", "android"])
         self.assertNotIn("dossier", [row["id"] for row in standard["consumers"]])
         self.assertNotIn("off-record", [row["id"] for row in standard["consumers"]])
         manifest = foundation.read_json(foundation.REPO_ROOT / "portfolio/REPOSITORIES.json")
-        self.assertEqual(manifest["launchOrder"][:7], standard["gate"]["requiredApps"])
+        self.assertEqual(manifest["launchOrder"][:10], standard["gate"]["requiredApps"])
 
 
 if __name__ == "__main__":

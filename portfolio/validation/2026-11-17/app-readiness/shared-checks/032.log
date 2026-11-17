@@ -1,0 +1,7 @@
+00:00 +0: loading test/native_mls_test.dart
+00:00 +0: test/native_mls_test.dart: (setUpAll)
+00:00 +0: test/native_mls_test.dart: native staged state roundtrips, rejects replay and survives bad input
+00:00 +1: test/native_mls_test.dart: removed member cannot decrypt the new epoch or send after removal
+00:00 +2: test/native_mls_test.dart: cross-collection snapshots and malformed certificates fail closed
+00:00 +3: test/native_mls_test.dart: (tearDownAll)
+00:00 +3: All tests passed!

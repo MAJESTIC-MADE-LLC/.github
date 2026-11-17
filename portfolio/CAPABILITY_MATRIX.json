@@ -199,6 +199,81 @@
         "selected_encrypted_share": "not_applicable",
         "user_owned_hosting": "required"
       }
+    },
+    {
+      "id": "Turnstamp",
+      "path": "Turnstamp",
+      "status": "pending",
+      "capabilities": {
+        "app_shell": "required",
+        "privacy": "required",
+        "relational_storage": "required",
+        "backup_restore": "required",
+        "export_import": "required",
+        "native_purchases": "required",
+        "reminders": "not_applicable",
+        "pdf": "required",
+        "camera": "required",
+        "location_snapshot": "not_applicable",
+        "attachments": "required",
+        "csv": "not_applicable",
+        "qr": "not_applicable",
+        "contacts": "not_applicable",
+        "widgets": "not_applicable",
+        "network_lookup": "not_applicable",
+        "selected_encrypted_share": "not_applicable",
+        "user_owned_hosting": "not_applicable"
+      }
+    },
+    {
+      "id": "What-We-Own",
+      "path": "What-We-Own",
+      "status": "pending",
+      "capabilities": {
+        "app_shell": "required",
+        "privacy": "required",
+        "relational_storage": "required",
+        "backup_restore": "required",
+        "export_import": "required",
+        "native_purchases": "required",
+        "reminders": "not_applicable",
+        "pdf": "required",
+        "camera": "required",
+        "location_snapshot": "not_applicable",
+        "attachments": "required",
+        "csv": "not_applicable",
+        "qr": "required",
+        "contacts": "not_applicable",
+        "widgets": "not_applicable",
+        "network_lookup": "not_applicable",
+        "selected_encrypted_share": "not_applicable",
+        "user_owned_hosting": "not_applicable"
+      }
+    },
+    {
+      "id": "Creelmark",
+      "path": "Creelmark",
+      "status": "pending",
+      "capabilities": {
+        "app_shell": "required",
+        "privacy": "required",
+        "relational_storage": "required",
+        "backup_restore": "required",
+        "export_import": "required",
+        "native_purchases": "required",
+        "reminders": "not_applicable",
+        "pdf": "not_applicable",
+        "camera": "required",
+        "location_snapshot": "required",
+        "attachments": "required",
+        "csv": "not_applicable",
+        "qr": "not_applicable",
+        "contacts": "not_applicable",
+        "widgets": "not_applicable",
+        "network_lookup": "not_applicable",
+        "selected_encrypted_share": "not_applicable",
+        "user_owned_hosting": "not_applicable"
+      }
     }
   ]
 }

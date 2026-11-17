@@ -1,0 +1,12 @@
+Resolving dependencies...
+Downloading packages...
+  cupertino_ui 1.1.5 (1.1.6 available)
+  flutter_riverpod 3.4.3 (3.5.0 available)
+  go_router 18.0.1 (18.1.4 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  material_ui 1.9.0 (1.11.0 available)
+  riverpod 3.4.3 (3.5.0 available)
+  test_api 0.7.12 (0.7.15 available)
+Got dependencies!
+7 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.

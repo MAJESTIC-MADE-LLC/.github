@@ -56,7 +56,7 @@ class PortfolioStatusTest(unittest.TestCase):
         )
         self.assertEqual(
             sum(repository["role"] == "release-candidate" for repository in repositories),
-            7,
+            10,
         )
         self.assertEqual(
             self.manifest["launchOrder"],
@@ -67,6 +67,17 @@ class PortfolioStatusTest(unittest.TestCase):
                 "quiet-arcade", "lockbox",
             ],
         )
+
+    def test_active_implementation_remains_distinct_from_release_candidacy(self) -> None:
+        rows = portfolio_status.repositories_by_name(self.manifest)
+        for name in ("Turnstamp", "What-We-Own", "Creelmark"):
+            self.assertIn(rows[name]["role"], {"implementation", "release-candidate"})
+        pending = copy.deepcopy(self.manifest)
+        example = portfolio_status.repositories_by_name(pending)["Turnstamp"]
+        example["role"] = "implementation"
+        example.pop("launchEvidence", None)
+        portfolio_status.validate_manifest(pending)
+        self.assertIn("active app implementations", portfolio_status.render_status(pending))
 
     def test_inventory_counts_are_derived_and_not_a_fixed_launch_gate(self) -> None:
         expanded = copy.deepcopy(self.manifest)

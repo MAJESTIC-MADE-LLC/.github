@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "scope": "Earlier initial106/109-test engineering records remain byte-identical while new final records qualify corrected source. No old pass was re-stamped.",
+  "applications": [
+    {
+      "application": "Turnstamp",
+      "initialSourceFingerprint": "080ef41df62d5cfed37c8900437d5331104bb61f73458be30d91770a9c828ad4",
+      "initialEvidenceRecordsUnchanged": 7
+    },
+    {
+      "application": "Creelmark",
+      "initialSourceFingerprint": "aa8d3763c97b2c412bcf3d5fd2060ab9b05d415d6c3519f0d7e7492db6e2264f",
+      "initialEvidenceRecordsUnchanged": 7
+    }
+  ]
+}

@@ -1,10 +1,11 @@
 # Sequential Product Release Queue
 
-Queue approved November 3, 2026; implementation overview reconciled November 6. This replaces the September 11
+Queue approved November 3, 2026; implementation overview reconciled November 17. This replaces the September 11
 seven-product launch slate and the requirement to finish seven products before the first release.
-First standardize the template and all seven current apps under the [shared foundation gate](STACK_STANDARD.md),
+First standardize the template and every registered native app under the [shared foundation gate](STACK_STANDARD.md),
 with iOS and Android first releases. The gate is pending and must qualify before any app release.
-Then complete each application's remaining product work in the order below. A queue entry is a
+Public releases follow the order below. The owner separately authorized concurrent implementation
+of Turnstamp, What We Own and Creelmark to the existing software-readiness level. A queue entry is a
 priority decision, not a readiness claim, release date, or authorization to publish.
 
 <!-- BEGIN GENERATED: launch-slate-status -->
@@ -17,9 +18,9 @@ priority decision, not a readiness claim, release date, or authorization to publ
 | 5 | Fine Notes | Current subscription source has app-owned local validation records; historical foundation software/build evidence retains its original scope. Actual signed-store purchase and physical-device acceptance remain pending. | Provision the approved monthly/annual native store products and qualify real purchases, renewal, cancellation, refunds, restore and offline expiry on physical devices; then complete independent product release gates in the unchanged queue. | Large/low-memory vault and physical-device reliability, store transactions and release approval remain pending; no remote valuation or diagnosis is provided. |
 | 6 | Namefold | Current subscription source has app-owned local validation records; historical foundation software/build evidence retains its original scope. Actual signed-store purchase and physical-device acceptance remain pending. | Provision the approved monthly/annual native store products and qualify real purchases, renewal, cancellation, refunds, restore and offline expiry on physical devices; then complete independent product release gates in the unchanged queue. | Browser drafts and JSON backups are unencrypted and can be cleared by browser storage deletion. Physical/store qualification is pending; no managed public-link service is part of this release. |
 | 7 | Daymerit | November 6 current-source software qualification records 243 app tests, clean analysis/formatting, Android and unsigned iOS builds, and inspected native artifacts at optional source fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac. See docs/validation/2026-11-06/host-packaging. Host packaging/Windows credential components have separate current evidence; publisher/OS lifecycle, live licensing, physical devices and actual stores remain pending. Earlier records retain their original scope. | Provision monthly/annual store products and qualify real purchases, renewal, cancellation, refunds, restore and offline expiry on physical devices; then complete independent release gates in the unchanged queue. | Physical/store qualification is pending. Explicit older-backup restoration may reintroduce deleted records; external exports and other devices cannot be recalled. Local cleanup failure remains visible and retryable. Archive capacity and reminder horizon are bounded. Signed desktop services, remaining desktop OS/service acceptance, production licensing and physical hosting qualification remain pending; no managed child-record storage is provided. |
-| 8 | Turnstamp | Concept only. Approved six-capability specification, pricing inclusions, acceptance checklist and future own-device hosting requirements are recorded; no application or hosting runtime is implemented. | After Daymerit's release gate, build reusable properties, paired before/after capture with alignment, scope exceptions, branded selective PDFs, complaint/re-clean history and offline operation at $9.99/month or $79.99/year. Validate the two-minute handoff target. Later own-device hosting follows shared reference/Pantry Clock qualification and adds no first-release prerequisite. | The handoff target remains unvalidated. Qualify original/report preservation, selective exports, photo-heavy encrypted recovery, bounded offline subscription access and physical/store behavior. Helpers, invoicing, dispatch and client portals remain deferred. |
-| 9 | What We Own | Concept-only combined home/moving/PCS/claims requirements now incorporate Claim Crate; original source files, commits and checksums are preserved under docs/history/claim-crate. No app is implemented. | Build one belongings dataset across home inventory, moving boxes/QR, condition/damage evidence and owner-reviewed claim exports, at $2.99/month or $24.99/year. Verify encrypted recovery; Steward marketing now uses Hub; live legacy-list reconciliation and cutover remain separate. | Requirements consolidation and Claim Crate source-repository deletion are complete; no app, inventory migration, carrier/insurance integration or live Steward subscriber migration is implemented. |
-| 10 | Creelmark | Concept-only repository with implementation-readiness guardrails and local governance validation and main-only CI configuration. | Adopt approved $2.99/month or $19.99/year subscriptions for core access; Define local catch/spot records, encrypted backup/restore, and location-redacted exports; avoid social feeds, uploaded fishing spots, and required species APIs. | Sensitive location data and device-loss recovery behavior remain unresolved. |
+| 8 | Turnstamp | November 17 current-source software qualification: 110 tests, clean formatting/analysis, Android release-mode and unsigned iOS engineering builds, exact native identities/artifact hashes and applicable report controls. See Turnstamp/docs/validation/2026-11-17/app-readiness-final. Physical/store and owner release approval remain pending. | Complete physical camera/alignment/PDF preview/privacy/recovery/accessibility acceptance and the five-cleaner handoff study, provision product-owned legal/store products and signing, approve final launch artwork and actual monthly/annual purchase lifecycle; then seek owner release approval in the unchanged public queue. | Local software/build checks do not establish physical-device, real-store or public release acceptance. Final launcher/store artwork remains unapproved; native store/legal setup and owner release approval remain pending. The five-cleaner two-minute handoff study remains unvalidated. |
+| 9 | What We Own | November 17 current-source software qualification: 121 tests, clean formatting/analysis, Android release-mode and unsigned iOS engineering builds, exact native identities/artifact hashes and applicable report controls. See What-We-Own/docs/validation/2026-11-17/app-readiness. Physical/store and owner release approval remain pending. | Complete physical camera/QR/printing/sharing/privacy/recovery/accessibility acceptance, provision product-owned legal/store products and signing, approve final launch artwork and actual monthly/annual purchase lifecycle; then seek owner release approval in the unchanged public queue. | Local software/build checks do not establish physical-device, real-store or public release acceptance. Final launcher/store artwork remains unapproved; native store/legal setup and owner release approval remain pending. |
+| 10 | Creelmark | November 17 current-source software qualification: 112 tests, clean formatting/analysis, Android release-mode and unsigned iOS engineering builds, exact native identities/artifact hashes and applicable report controls. See Creelmark/docs/validation/2026-11-17/app-readiness-final. Physical/store and owner release approval remain pending. | Complete physical camera/location/privacy/recovery/accessibility acceptance, provision product-owned legal/store products and signing, approve final launch artwork and actual monthly/annual purchase lifecycle; then seek owner release approval in the unchanged public queue. | Local software/build checks do not establish physical-device, real-store or public release acceptance. Final launcher/store artwork remains unapproved; native store/legal setup and owner release approval remain pending. |
 | 11 | Campsake | Concept-only repository with implementation-readiness guardrails and local governance validation and main-only CI configuration. | Adopt approved $2.99/month or $19.99/year subscriptions for core access; Build the local trip/campsite journal, packing lists, and recap exports; defer campground discovery, booking, and live map services. | No application implementation or product tests and build checks exist. |
 | 12 | Tender Days | Concept-only repository with implementation-readiness guardrails and local governance validation and main-only CI configuration. | Adopt approved $1.99/month or $14.99/year subscriptions for core access; Design fast local care logging and tested recovery first; define consent and secure local partner handoff before collaboration; avoid medical predictions. | The product would handle sensitive child data; sharing and recovery remain unresolved. |
 | 13 | Divefolio | Concept-only repository with implementation-readiness guardrails and local governance validation and main-only CI configuration. | Adopt approved $1.99/month or $14.99/year subscriptions for core access; Define local dive logs, certifications, buddy signatures, backup/restore, and portable exports; defer unsupported computer imports and safety algorithms. | No application implementation or product tests and build checks exist. |
@@ -31,7 +32,9 @@ priority decision, not a readiness claim, release date, or authorization to publ
 
 ## Turnstamp approved enhancements — November 4, 2026
 
-Turnstamp remains **concept-only at position 8, after Daymerit**. The approved
+Turnstamp remains **at release position 8, after Daymerit**. The owner authorized implementation
+of Turnstamp, What We Own and Creelmark to the existing software-readiness level on November 10–11;
+that work does not change the public release order. The approved
 [enhancement specification](https://github.com/MAJESTIC-MADE-LLC/Turnstamp/blob/main/docs/ENHANCEMENTS.md)
 requires all six capabilities for its first iOS/Android release: reusable property/visit scope,
 paired before/after capture with an alignment overlay, scope exceptions, branded selective PDFs,
@@ -56,24 +59,23 @@ keep sync consent separate from PDF selections. The [latest shared hosting contr
 govern implementation: the storage daemon remains ciphertext-only, while a separately enrolled
 coordinator is an explicitly trusted plaintext endpoint for selected collections. This expansion
 adds no first-release prerequisite or new pricing. Helpers, client accounts/portals, hosted client
-report links, scheduling, invoicing and dispatch remain deferred. No app or host implementation,
-release qualification or deployment is established by recording these requirements.
+report links, scheduling, invoicing and dispatch remain deferred. Turnstamp local app source and software engineering qualification are implemented; hosting remains deferred. Requirements alone establish no qualification or deployment.
 
 ## How to use the queue
 
-- First pass the [shared foundation adoption and qualification gate](STACK_STANDARD.md). Then finish
-  and record the current product's applicable [release gates](RELEASE_DEFINITION.md)
-  before moving to the next app. Record any owner/device/service blocker; do not silently skip or
-  reorder the queue. Support and documentation work may unblock the current app.
-- After the common foundation qualifies across the template and all seven existing apps, each app
+- Before public release, pass the [shared foundation adoption and qualification gate](STACK_STANDARD.md),
+  then record the current product's applicable [release gates](RELEASE_DEFINITION.md) before the next
+  public release. The authorized three-app software implementation may proceed concurrently. Record
+  owner/device/service blockers and preserve the public release order.
+- After the common foundation qualifies across the template and every registered native app, each app
   can receive its own product release approval. The foundation gate is not a requirement for all
-  seven products to finish every domain/legal/accessibility/store-submission check. Publication and
+  products to finish every domain/legal/accessibility/store-submission check. Publication and
   paid-service changes remain separate owner-controlled actions.
-- All seven apps implement the shared local foundation and have dated local test/native-build records.
+- All ten apps implement the shared local foundation and have dated local test/native-build records.
   Daymerit is account-free/local; Namefold's native wallet is encrypted and its separate static PWA
   stores browser drafts/backups unencrypted. Former provider clients and dated reports remain
   archived/historical.
-  Current source-bound foundation evidence, physical recovery/privacy and native-store acceptance
+  Source-bound software records pass; physical recovery/privacy and native-store acceptance
   remain pending. Immutable Git adoption does not refresh older qualification records.
 - Consumer records stay on-device by default. Exports are deliberate user actions. Optional
   user-owned hosting has [published source and regular-build adoption](USER_OWNED_HOSTING.md)
@@ -82,7 +84,7 @@ release qualification or deployment is established by recording these requiremen
   scoped sync enrollment authorizes recurring transfers separately from manual exports.
   Company-hosted record storage is not equivalent to customer self-hosting.
 - The November 4 [subscription policy and prices](PRICING.md) supersede permanent-core sales.
-  All seven existing apps and the template have monthly/yearly source and separate local trials. Configure and
+  All ten native apps and the template have monthly/yearly source and separate local trials. Configure and
   qualify monthly/annual products, renewal/expiration/restore and bounded offline access separately.
   Preserve existing records, export, encrypted recovery and authentic legacy ownership.
 - Quiet Arcade is a Hub concept without a repo. Its slot does not authorize repository creation.

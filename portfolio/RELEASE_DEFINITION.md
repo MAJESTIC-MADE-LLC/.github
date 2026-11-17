@@ -1,15 +1,15 @@
 # Majestic Made Release Definition
 
-Overview reconciled November 6, 2026; release policy approved November 3. Before **any** app release, the template and all seven existing consumer
+Overview reconciled November 17, 2026; release policy approved November 3. Before **any** app release, the template and all registered consumer
 apps must adopt and qualify the [shared foundation](STACK_STANDARD.md) on iOS and Android.
-That foundation gate is pending. It does not require all seven products to finish every domain,
+That foundation gate is pending. It does not require all products to finish every domain,
 accessibility, legal or store-submission check simultaneously. After it qualifies, each product
 satisfies this definition on `dev` in the unchanged [sequential queue](LAUNCH_SLATE.md).
 A README, manifest label, mockup, simulator-only demo or historical report is not release evidence.
 
 ## Shared foundation prerequisite
 
-- Run the read-only local foundation checker. All seven apps and the template use the approved SDK,
+- Run the read-only local foundation checker. All registered apps and the template use the approved SDK,
   dependency baseline and maintained shared packages, with their applicable capability contracts.
 - Record actual analysis/tests, both native release builds and foundation/migration integration
   checks for the cohort, plus a generated-template smoke run and shared-package tests.
@@ -61,7 +61,7 @@ A README, manifest label, mockup, simulator-only demo or historical report is no
 ## Commercial and legal
 
 - Use the approved [monthly/annual subscription prices](PRICING.md) for core access. No new
-  permanent core-app unlocks; one-time purchases are limited to optional extras. All seven existing
+  permanent core-app unlocks; one-time purchases are limited to optional extras. All ten native
   apps and the template implement monthly/annual subscription source and separate non-billing
   local trials. This does not establish actual store availability or signed-store acceptance.
 - Verify subscription enrollment, renewal, cancellation through the paid-through date, expiration,
@@ -79,7 +79,7 @@ A README, manifest label, mockup, simulator-only demo or historical report is no
 
 - Record the product/version, passed checks, unresolved accepted limits, and owner launch decision.
 - Assign signing/store, payment, support, data recovery, and rollback owners relevant to that app.
-- The shared foundation must first qualify across the template and all seven current apps. After
+- The shared foundation must first qualify across the template and all registered apps. After
   that, another product's unfinished domain/legal/store QA does not block the current product's
   independent approval. Do not silently skip the shared gate or require all product releases at once.
 - Store submission, public deployment, provider provisioning, and paid-service changes are separate

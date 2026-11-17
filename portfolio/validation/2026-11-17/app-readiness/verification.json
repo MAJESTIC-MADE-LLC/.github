@@ -1,0 +1,33 @@
+{
+  "scope": "Actual local final checks; release-gate exit1 is expected because the four physical/store qualification checks remain pending. Hosted CI is optional.",
+  "checks": [
+    {
+      "check": "governance-tests",
+      "argv": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/Users/bespin-starter/Documents/Majestic/.github/tests",
+        "-q"
+      ],
+      "exitCode": 0,
+      "expectedExitCode": 0,
+      "record": "governance-tests.log",
+      "sha256": "abc4fafc77fbe028564b82a23170fadabb285515212b9b0dcb97b4450ebafd40"
+    },
+    {
+      "check": "foundation-release-gate",
+      "argv": [
+        "python3",
+        "/Users/bespin-starter/Documents/Majestic/.github/scripts/check_foundation.py",
+        "--release-gate"
+      ],
+      "exitCode": 1,
+      "expectedExitCode": 1,
+      "record": "foundation-release-gate.log",
+      "sha256": "678e181116f93880bf3df5e2e5db38b886f94c87bb6eb096ae8965e28d1c7f83"
+    }
+  ]
+}

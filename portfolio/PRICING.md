@@ -1,6 +1,6 @@
 # Subscription pricing and access policy
 
-Approved by the owner November 4, 2026. These US launch targets supersede earlier permanent-core-unlock directions. Prices are USD before applicable taxes; annual prices are the total charged once per year, not monthly equivalents. Subscription source is implemented in all seven existing apps and the template; store configuration and release qualification remain separate work. Nothing in this document publishes a product or enables billing.
+Approved by the owner November 4, 2026. These US launch targets supersede earlier permanent-core-unlock directions. Prices are USD before applicable taxes; annual prices are the total charged once per year, not monthly equivalents. Subscription source is implemented in all ten native apps and the template; store configuration and release qualification remain separate work. Nothing in this document publishes a product or enables billing.
 
 ## Core subscriptions
 
@@ -25,7 +25,7 @@ Approved by the owner November 4, 2026. These US launch targets supersede earlie
 | Lockbox | $3.99 | $29.99 | Emergency-document vault and deliberate recipient handoff; automatic future delivery deferred |
 | Kinwall | $2.99 | $24.99 | Provisional research target only; feasibility and useful scope must be established before an offer |
 
-All seven implemented native apps now have monthly/annual subscription source and a separate
+All ten implemented native apps now have monthly/annual subscription source and a separate
 14-day local trial. Configured identifiers and local tests are not live store availability or
 signed-store acceptance. Store product provisioning, actual transactions and physical-device
 qualification remain pending. Namefold's existing free static PWA is a separate helper. Concepts

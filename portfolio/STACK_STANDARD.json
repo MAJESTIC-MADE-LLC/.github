@@ -12,7 +12,10 @@
       "Pantry-Clock",
       "Fine-Notes",
       "Namefold",
-      "Daymerit"
+      "Daymerit",
+      "Turnstamp",
+      "What-We-Own",
+      "Creelmark"
     ],
     "requiredTemplate": "App-Template"
   },
@@ -213,6 +216,21 @@
     {
       "id": "Daymerit",
       "path": "Daymerit",
+      "kind": "application"
+    },
+    {
+      "id": "Turnstamp",
+      "path": "Turnstamp",
+      "kind": "application"
+    },
+    {
+      "id": "What-We-Own",
+      "path": "What-We-Own",
+      "kind": "application"
+    },
+    {
+      "id": "Creelmark",
+      "path": "Creelmark",
       "kind": "application"
     }
   ],

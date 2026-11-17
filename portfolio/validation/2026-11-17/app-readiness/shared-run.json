@@ -1,0 +1,1030 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-11-11T16:22:28.107060+00:00",
+  "plan": {
+    "nativeSources": [
+      "/Users/bespin-starter/Documents/Majestic/App-Template"
+    ],
+    "toolchain": {
+      "flutter": "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+      "dart": "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+      "flutterVersion": "3.47.8",
+      "dartVersion": "3.13.7"
+    },
+    "scope": "template-only",
+    "changed": {
+      "App-Template": []
+    },
+    "selected": [
+      "App-Template/packages/majestic_app",
+      "App-Template/packages/majestic_hosting",
+      "App-Template/packages/majestic_media",
+      "App-Template/packages/majestic_privacy",
+      "App-Template/packages/majestic_purchases",
+      "App-Template/packages/majestic_qr",
+      "App-Template/packages/majestic_reminders",
+      "App-Template/packages/majestic_reports",
+      "App-Template/packages/majestic_storage",
+      "App-Template/packages/majestic_sync",
+      "App-Template/packages/majestic_sync_crypto"
+    ],
+    "platform": "none",
+    "releaseGateRequested": false,
+    "checks": [
+      {
+        "directory": "App-Template/packages/majestic_app",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_hosting",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_media",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_privacy",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_purchases",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_qr",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_reminders",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_reports",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_storage",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_sync",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_sync_crypto",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_app",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "analyze",
+          "--no-pub"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_hosting",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+          "analyze"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_media",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "analyze",
+          "--no-pub"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_privacy",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "analyze",
+          "--no-pub"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_purchases",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "analyze",
+          "--no-pub"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_qr",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "analyze",
+          "--no-pub"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_reminders",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "analyze",
+          "--no-pub"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_reports",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "analyze",
+          "--no-pub"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_storage",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "analyze",
+          "--no-pub"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_sync",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+          "analyze"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_sync_crypto",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+          "analyze"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_app",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "test",
+          "--no-pub",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_hosting",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+          "test",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": [
+          [
+            "MAJESTIC_CRYPTO_LIBRARY",
+            "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/libmajestic_crypto.dylib"
+          ],
+          [
+            "MAJESTIC_HOST_BINARY",
+            "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/majestic_host"
+          ]
+        ]
+      },
+      {
+        "directory": "App-Template/packages/majestic_media",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "test",
+          "--no-pub",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_privacy",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "test",
+          "--no-pub",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_purchases",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "test",
+          "--no-pub",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_qr",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "test",
+          "--no-pub",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_reminders",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "test",
+          "--no-pub",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_reports",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "test",
+          "--no-pub",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_storage",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "test",
+          "--no-pub",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_sync",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+          "test",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": []
+      },
+      {
+        "directory": "App-Template/packages/majestic_sync_crypto",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+          "test",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": [
+          [
+            "MAJESTIC_CRYPTO_LIBRARY",
+            "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/libmajestic_crypto.dylib"
+          ],
+          [
+            "MAJESTIC_HOST_BINARY",
+            "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/majestic_host"
+          ]
+        ]
+      }
+    ],
+    "limitations": [
+      "Never commits, pushes, promotes, deploys or refreshes foundation records.",
+      "Consumer tests use approved immutable pins; provider edits do not adopt them.",
+      "Engineering checks do not qualify physical devices, stores or signed installers."
+    ],
+    "sources": {
+      "App-Template": {
+        "head": "0995262061c378a2d90d78e29f00297f8992d4d5",
+        "sourceSha256": "c43ca994c489b4388df795c4f759308db7147affb432967fc9f3d95e3bb9402b"
+      }
+    }
+  },
+  "before": {
+    "App-Template": {
+      "head": "0995262061c378a2d90d78e29f00297f8992d4d5",
+      "sourceSha256": "c43ca994c489b4388df795c4f759308db7147affb432967fc9f3d95e3bb9402b"
+    }
+  },
+  "results": [
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_app",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:28.246229+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/000.log",
+      "logSha256": "e072f694ddc4264becf6c051535fa99e8570f3f3a3fb2a640fa8624a3c5ba9d0"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_hosting",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:28.499957+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/001.log",
+      "logSha256": "4cf8385d5df935c6bae989489d6924ac4f042fab2e1bbe94dc10ac65bdea3e3e"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_media",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:30.917332+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/002.log",
+      "logSha256": "c3c0c13e687220a4dce9e6999f0879f25c06f93be9148407e0afcbd1e1a9d83e"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_privacy",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:31.649631+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/003.log",
+      "logSha256": "b1aa8838220f2e2a8b2f15659077418cbde90e1f52d99565c57682e8ee2d473c"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_purchases",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:31.932275+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/004.log",
+      "logSha256": "dbf741061289e1c0fd7e55f6d8e63e836573324129ff499b82ee1d7f85ae963e"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_qr",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:32.208357+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/005.log",
+      "logSha256": "524ebafc1c0a9e6a3bcde388a05ddbb09dcab7edbe427f62b1c87859637aaf7d"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_reminders",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:33.327850+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/006.log",
+      "logSha256": "6f18c0235f5a9baab670768fe7018f1f22c522abce9eb40bb066d0ef5ba3f524"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_reports",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:35.062694+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/007.log",
+      "logSha256": "ef35f15b0e37acdd4f43796f950a25b64c72d144b27434495ce8fe5bc41971db"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_storage",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:35.861073+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/008.log",
+      "logSha256": "b20f6fa7d3fe0311bf213638b9b1b51a394568dcd68983db2cdff2d36ad100f4"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_sync",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:36.133035+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/009.log",
+      "logSha256": "52139cba51c9d7a9a7d8d8ea711785dd06602e57dbf0c52a717442b06836fe54"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_sync_crypto",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+          "pub",
+          "get",
+          "--enforce-lockfile"
+        ],
+        "purpose": "resolve approved lockfile",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:36.286746+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/010.log",
+      "logSha256": "fa1f1c34da66fc6df53feea6408dac1d8085fe001e43d451e2fc1cc59147d32a"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_app",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "analyze",
+          "--no-pub"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:36.436690+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/011.log",
+      "logSha256": "b9278c177c95207b4a96aca2acad060ca1788c5ef5221f4d061ca5248fb2bd62"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_hosting",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+          "analyze"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:40.271125+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/012.log",
+      "logSha256": "150035a795d0f7b72b88ea51110827b3ab3141bc74f0240e7f40381149487502"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_media",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "analyze",
+          "--no-pub"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:41.333454+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/013.log",
+      "logSha256": "14bedbd323b1f5b255d4ec7fb2a3fd7316d7a8551addb2918b11a7d8c6c08200"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_privacy",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "analyze",
+          "--no-pub"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:44.540902+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/014.log",
+      "logSha256": "089883dcb877c1215afdc0c8db9c42de514b6e08a77b9e0bb7e8bbf673520895"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_purchases",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "analyze",
+          "--no-pub"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:47.246874+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/015.log",
+      "logSha256": "472fc38816998130de844a2bb579dbe0956af3236e89cb2b54a86450025c1a2b"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_qr",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "analyze",
+          "--no-pub"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:49.676238+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/016.log",
+      "logSha256": "64ef6ed012c90ee781e8296d622105a4553f76a565b5bad7c2b8769f56de1074"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_reminders",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "analyze",
+          "--no-pub"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:52.211247+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/017.log",
+      "logSha256": "bf8b636de7a25edd4294d7e670a2c0f6ba4ec7f4f6a013b8acad3325c37aa90f"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_reports",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "analyze",
+          "--no-pub"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:54.549816+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/018.log",
+      "logSha256": "4784e163220e007bcdbd94f511bd6dd7b3592d76d4995159f6b75af34d6858bc"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_storage",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "analyze",
+          "--no-pub"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:57.102930+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/019.log",
+      "logSha256": "a173bc3a37add3b21683b8484c6dbf14580a5c1b0ea39ea03631d214cf3c6688"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_sync",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+          "analyze"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:22:59.550448+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/020.log",
+      "logSha256": "7c9ca073d36d25066d54ede0ac50146aa53b02caa35ffb77f48013322a07ef89"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_sync_crypto",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+          "analyze"
+        ],
+        "purpose": "Dart analysis",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:23:00.192196+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/021.log",
+      "logSha256": "6b55083d50f70a6b3dac616f8fa1f8e938bb4507242803e94376e82eda27905c"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_app",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "test",
+          "--no-pub",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:23:00.765668+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/022.log",
+      "logSha256": "4d29836764cf163a4fd320286f8ea537b0f8c5b6c0932e9fd52e46d1bbfdc9ed"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_hosting",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+          "test",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": [
+          [
+            "MAJESTIC_CRYPTO_LIBRARY",
+            "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/libmajestic_crypto.dylib"
+          ],
+          [
+            "MAJESTIC_HOST_BINARY",
+            "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/majestic_host"
+          ]
+        ]
+      },
+      "startedAt": "2026-11-11T16:23:03.952288+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {
+        "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/libmajestic_crypto.dylib": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+        "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/majestic_host": "144464807061cbe227bd9ac0285b922411cd9cf7cf1b998971cfece5198bbf64"
+      },
+      "log": "shared-checks/023.log",
+      "logSha256": "6e348793ddc7ec1affda595becc73d24bfb792a7e5f77c386cdcc63387cd955d"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_media",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "test",
+          "--no-pub",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:23:39.236834+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/024.log",
+      "logSha256": "2bb2bcc3f348556e766f52009f310b74d7df4173fbf461581f95ed0fb44f5b4e"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_privacy",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "test",
+          "--no-pub",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:23:41.113216+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/025.log",
+      "logSha256": "3f68e92d29d5d9b433ffde6d8cab4da9547b0cd40e36b1f434ff548f24b3733f"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_purchases",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "test",
+          "--no-pub",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:23:46.217131+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/026.log",
+      "logSha256": "e59382e45fbae2c1ba83b75e871e34353d917f8359e2ac92c04cc8cb003cc1ca"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_qr",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "test",
+          "--no-pub",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:23:48.174552+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/027.log",
+      "logSha256": "6acf619a4689e735da42c1b581fa1aeb89c7679c527996e3694a50d73a731d5a"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_reminders",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "test",
+          "--no-pub",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:23:49.815577+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/028.log",
+      "logSha256": "662b3e9e8e7b70ae4ca9eb9a92f89dedb600c2b5c0f357a0850d9d0e3000b3ed"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_reports",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "test",
+          "--no-pub",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:23:51.224901+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/029.log",
+      "logSha256": "fbfeea1868d463f8142fc3f401e0ce17a0dd207f702d68817c0e566671925f90"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_storage",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/flutter",
+          "test",
+          "--no-pub",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:23:53.379152+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/030.log",
+      "logSha256": "ffada3ac48f557318b089415de264df59961532e8c98566bcda7d94038ce2ac0"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_sync",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+          "test",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": []
+      },
+      "startedAt": "2026-11-11T16:23:57.426785+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {},
+      "log": "shared-checks/031.log",
+      "logSha256": "22b99cec604256352b194a55cf5410138de4cffa3ad04b2a6ddc6b69d90c96f9"
+    },
+    {
+      "check": {
+        "directory": "App-Template/packages/majestic_sync_crypto",
+        "argv": [
+          "/Users/bespin-starter/.cache/majestic/flutter/3.47.8/bin/dart",
+          "test",
+          "--concurrency=2"
+        ],
+        "purpose": "Dart behavior tests",
+        "environment": [
+          [
+            "MAJESTIC_CRYPTO_LIBRARY",
+            "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/libmajestic_crypto.dylib"
+          ],
+          [
+            "MAJESTIC_HOST_BINARY",
+            "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/majestic_host"
+          ]
+        ]
+      },
+      "startedAt": "2026-11-11T16:24:02.611649+00:00",
+      "exitCode": 0,
+      "nativeArtifacts": {
+        "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/libmajestic_crypto.dylib": "cdb37c8caf6c05e9d5d07bf92b4cbf1d04094201fb974f8b8458f00a5cd1ecec",
+        "/Users/bespin-starter/Documents/Majestic/App-Template/hosting/rust/target/release/majestic_host": "144464807061cbe227bd9ac0285b922411cd9cf7cf1b998971cfece5198bbf64"
+      },
+      "log": "shared-checks/032.log",
+      "logSha256": "1ee28befbaef85b1a13e330753ff5c6542bc3d6b3c5a4ed23e5510bda43784d7"
+    }
+  ],
+  "status": "passed",
+  "releaseQualification": "not established by this record",
+  "after": {
+    "App-Template": {
+      "head": "0995262061c378a2d90d78e29f00297f8992d4d5",
+      "sourceSha256": "c43ca994c489b4388df795c4f759308db7147affb432967fc9f3d95e3bb9402b"
+    }
+  },
+  "sourceChangedDuringValidation": false,
+  "finishedAt": "2026-11-11T16:24:03.200615+00:00"
+}

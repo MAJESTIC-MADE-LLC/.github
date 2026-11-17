@@ -1,0 +1,4 @@
+00:00 +0: loading /Users/bespin-starter/Documents/Majestic/App-Template/packages/majestic_qr/test/camera_boundary_test.dart
+00:00 +0: an unselected scanner never constructs the native camera reader
+00:00 +1: invalid pixel input is rejected before native code or allocation
+00:00 +2: All tests passed!

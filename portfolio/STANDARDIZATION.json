@@ -120,6 +120,18 @@
     "Pantry-Clock/hosting_pilot/pubspec.yaml": {
       "declarationsSha256": "03566d6457136698cbc4f5ebeb07020b4f8a89ae4dd10542f42c5a10d3b27329",
       "lockSha256": "6cc3bdafc0f39d91bcb47710571c663ce56d88774d54293c3c0a48237a8660fc"
+    },
+    "Turnstamp/pubspec.yaml": {
+      "declarationsSha256": "1457cccf895b97a2ca3e4adea790a85b433009af144d85388b6589d3974caf8d",
+      "lockSha256": "5e0020dc7a2030803d9038744188116344dfa4f4305de42a29c3aeb903dcdbe4"
+    },
+    "What-We-Own/pubspec.yaml": {
+      "declarationsSha256": "2f009f056f5480f3e20d75b297fd777ca45328c19a81821ff5a7586ef1baf20d",
+      "lockSha256": "d408eb0b66d3877353b465b635ed0302936803024e6d8cb205927b587b78bf92"
+    },
+    "Creelmark/pubspec.yaml": {
+      "declarationsSha256": "4e6e42d7fb5460162153cdb3ed0bf806c3bef678b9b78af6a580cb88b285aea0",
+      "lockSha256": "f44969321056c421db24651dffe21403fc218f46b2be1a35d2ebdbf97272f7f7"
     }
   },
   "developmentPilots": [

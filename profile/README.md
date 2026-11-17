@@ -23,9 +23,9 @@ Website publication is paused. [Support & legal drafts](https://github.com/MAJES
 Stage labels describe source/planning evidence, not public availability. Follow the
 [sequential release queue](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/LAUNCH_SLATE.md)
 after the [shared foundation](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/STACK_STANDARD.md)
-qualifies across the template and all seven existing apps on iOS and Android. That gate is pending;
+qualifies across the template and every registered native app on iOS and Android. That gate is pending;
 subsequent product-specific [release gates](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/RELEASE_DEFINITION.md)
-remain separate. All seven apps implement the local foundation, monthly/annual
+remain separate. All ten apps implement the local foundation, monthly/annual
 [subscriptions](https://github.com/MAJESTIC-MADE-LLC/.github/blob/dev/portfolio/PRICING.md) and
 a separate non-billing 14-day local trial. Store setup and actual store qualification remain pending.
 Daymerit's household is account-free/local; Namefold has an encrypted native
@@ -46,9 +46,9 @@ record implemented behavior and remaining acceptance work. The October 24, 2026 
 | Fine Notes | Private tasting notes for wine, whiskey, coffee, and cigars. | Shared foundation implemented; physical/store qualification pending |
 | Namefold | On-device contact wallet, QR/vCard exchange and a free static local-sharing PWA. | Shared foundation implemented; physical/store qualification pending |
 | Daymerit | Child routines, chores, approvals, points, rewards, and optional allowance tracking. | Shared foundation implemented; physical/store qualification pending |
-| Turnstamp | Fast cleaning documentation and professional client handoffs for solo residential, deep-clean and move-out cleaners. | Concept only |
-| What We Own | Home inventory, moving boxes, condition/damage records, receipts, and insurance-oriented exports. | Concept only |
-| Creelmark | Fishing journal with private catches, photos, and encrypted spot records. | Concept only |
+| Turnstamp | Fast cleaning documentation and professional client handoffs for solo residential, deep-clean and move-out cleaners. | Shared foundation and product software qualified; physical/store approval pending |
+| What We Own | Home inventory, moving boxes, condition/damage records, receipts, and insurance-oriented exports. | Shared foundation and product software qualified; physical/store approval pending |
+| Creelmark | Fishing journal with private catches, photos, and encrypted spot records. | Shared foundation and product software qualified; physical/store approval pending |
 | Campsake | Camping and RV trip log with site notes and recap exports. | Concept only |
 | Tender Days | Feedings, diapers, sleep, growth, and milestone tracking. | Concept only |
 | Divefolio | Scuba logbook with sites, buddies, and certification-ready records. | Concept only |

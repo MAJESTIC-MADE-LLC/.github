@@ -1,0 +1,14 @@
+Resolving dependencies...
+Downloading packages...
+  archive 4.0.9 (4.6.0 available)
+  camera_web 0.3.5+7 (0.3.6 available)
+  cross_file 0.3.5+5 (0.4.0 available)
+  flutter_zxing 3.1.0 (3.1.1 available)
+  image 4.9.1 (4.12.0 available)
+  image_picker 1.2.3 (1.2.4 available)
+  image_picker_ios 0.8.13+14 (0.8.13+15 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  test_api 0.7.12 (0.7.15 available)
+Got dependencies!
+9 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.

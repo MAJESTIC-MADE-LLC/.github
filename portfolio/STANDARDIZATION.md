@@ -23,7 +23,7 @@ governance checkout beside the products. A missing checker fails the hooks inste
 
 Both pre-commit and pre-push run the complete offline portfolio drift check. It checks:
 
-- All seven native apps plus the template, exact SDK/core/platform dependencies, real shared-package
+- All registered native apps plus the template, exact SDK/core/platform dependencies, real shared-package
   imports, encrypted SQLite selection, immutable Git resolution/cache bytes and capability declarations.
 - Every registered active Dart/Node dependency declaration and resolved lockfile. New manifests,
   removed registered manifests and unregistered apps fail; archives and generated build trees are excluded.
@@ -84,7 +84,7 @@ pre-launch integrations; their operational qualification remains separate.
 `Pantry-Clock/hosting_pilot` began as the registered development composition and is now a thin
 harness over Pantry Clock's regular implementation. The app and harness, Skepbook, Paws and Daymerit resolve
 the complete optional module set from published Git
-`5e72d2e60f9c77ab713a671b05fdedd11e7ceb0a`. The core pins remain unchanged.
+`fd310cecc7dae52a9cb3adf44ed603d59a0eb7ac`. The core pins remain unchanged.
 
 `hostingPolicy` requires the complete package set, explicit `user_owned_hosting` capability,
 approved consumer identity, exact transitive pins, native LAN permission/disclosure and verified
@@ -120,3 +120,13 @@ The portfolio pass checks each workflow once while retaining each native consume
 CI pin check. Git object integrity checks are shared only within one invocation for each repository
 and immutable revision; package files, modes and extra source are still inspected on every use.
 Nothing is cached across invocations, and release qualification remains independent.
+
+## November 10–11 implementation expansion
+
+The owner selected Turnstamp, What We Own and Creelmark for the same software-readiness target as
+the original seven. Their app manifests, exact dependency/lock baselines and capability declarations
+were registered before repository implementation. They use independent local identities and the
+existing immutable foundation; none adopts optional hosting. The public release queue, publication
+pause and physical/store acceptance remain unchanged. Current source-bound software evidence must
+be recorded after actual product checks and both native engineering builds; registration is not
+qualification. Earlier validation files are retained unchanged.

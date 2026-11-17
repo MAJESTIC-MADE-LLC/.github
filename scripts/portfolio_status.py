@@ -24,8 +24,8 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 MANIFEST_PATH = REPO_ROOT / "portfolio" / "REPOSITORIES.json"
 STATUS_PATH = REPO_ROOT / "portfolio" / "STATUS.md"
 
-ROLES = {"release-candidate", "concept", "shared", "experimental"}
-PRODUCT_ROLES = {"release-candidate", "concept"}
+ROLES = {"release-candidate", "implementation", "concept", "shared", "experimental"}
+PRODUCT_ROLES = {"release-candidate", "implementation", "concept"}
 DISPOSITIONS = {"active", "support", "research", "consolidating", "excluded"}
 REQUIRED_REPOSITORY_FIELDS = {
     "name",
@@ -374,13 +374,14 @@ def render_status(manifest: dict[str, Any]) -> str:
     summary = (
         f"The organization has {len(manifest['repositories'])} repositories: "
         f"{counts['release-candidate']} functional release candidates, "
+        f"{counts['implementation']} active app implementations, "
         f"{counts['concept']} concept/research product repositories, "
         f"{counts['shared']} shared, governance, legal, website, template, or "
         f"infrastructure repositories, and {counts['experimental']} excluded experimental "
         f"repositories. {virtual_summary}"
         f"The sequential queue has {len(manifest['launchOrder'])} "
         "products across implementation stages; queue position does not establish readiness. "
-        "The template and all seven existing apps must first adopt and qualify the shared "
+        "The template and every app in the registered native cohort must first adopt and qualify the shared "
         f"foundation (recorded status: {manifest['foundationStandard']['status']}); "
         "then each product completes its independent release gate."
     )

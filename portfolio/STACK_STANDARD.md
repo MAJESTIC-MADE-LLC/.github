@@ -1,7 +1,7 @@
 # Shared mobile foundation standard
 
 Approved 2026-11-03. This replaces the earlier incremental-adoption assumption. **The template and
-all seven existing consumer apps must adopt and qualify the same maintained foundation before any
+all registered consumer apps must adopt and qualify the same maintained foundation before any
 app release.** The 17-product queue remains unchanged after this foundation gate. Qualification is
 currently **pending**; files, dependency declarations and earlier product tests do not establish it.
 
@@ -23,7 +23,7 @@ currently **pending**; files, dependency declarations and earlier product tests 
   SQLCipher databases require tested compatibility settings/migrations, not an assumed format match.
 - Target native auto-renewable monthly/annual subscriptions for core access, at the approved
   [product prices](PRICING.md). One-time purchases may cover optional extras only; no new permanent
-  core unlocks. All seven apps and the reference/generator implement monthly/annual subscription
+  core unlocks. All ten apps and the reference/generator implement monthly/annual subscription
   source and separate non-billing local trials. Real store setup and acceptance remain pending;
   non-consumable compatibility is restore-only for verified historical ownership.
   Keep existing records, basic export and backup/recovery available without an active entitlement.
@@ -41,7 +41,7 @@ features for every app. Do not add permissions or new product scope to satisfy a
 
 The owner confirmed on 2026-11-03 that there are no public customers and all prior purchases
 are tests. Preserve existing test records, durable IDs and verified legacy purchase compatibility.
-The November 4 subscription decision supersedes earlier permanent-core pricing. All seven apps
+The November 4 subscription decision supersedes earlier permanent-core pricing. All ten apps
 have monthly/annual source at their approved prices; store setup and qualification remain pending. Do not grant
 ownership from unverified legacy test state. Real product configuration and store test evidence
 remain separate, pending checks. Historical signed-off evidence does not qualify changed billing.
@@ -60,7 +60,7 @@ Maintain the common implementation once in the four base packages; do not keep c
 implementations of those same responsibilities. Retain app-specific adapters where old data formats,
 native configuration or domain behavior require them, and test the boundary against the shared core.
 
-The seven products and reference consume version 0.1.0 through immutable Git revision
+The registered products and reference consume version 0.1.0 through immutable Git revision
 `d2895cba9ac5bc121369a409fb1e528071a98a2d` in App-Template. `foundation.json` records `git-immutable`
 provenance and each package's exact URL, full commit and repository-relative subdirectory. Pubspecs,
 resolved lockfiles and actual cached package source must agree. Ordinary Git credentials provide
@@ -85,8 +85,12 @@ and Pantry Clock); do not add a second picker just for uniform naming. See
 
 ## Foundation gate versus product release gates
 
-The shared gate covers the template and seven existing apps: Skepbook, Ridelore, Paws, Pantry Clock,
-Fine Notes, Namefold and Daymerit. It requires:
+The shared gate covers the template and ten registered apps: Skepbook, Ridelore, Paws, Pantry Clock,
+Fine Notes, Namefold, Daymerit, Turnstamp, What We Own and Creelmark. The owner authorized the latter
+three for implementation to the existing software-readiness level on November 10–11. Registration
+expanded the qualification cohort. November 17 source-bound software records now cover all ten apps
+and the template; [current evidence](validation/2026-11-17/app-readiness/RESULTS.md) retains physical/store
+qualification as pending. The gate requires:
 
 1. Static adoption: exact toolchain/dependencies, real shared-package imports/resolution, encrypted
    SQLite selection, applicable capability declarations, both native platform sources, `dev` work

@@ -1,4 +1,4 @@
-# Portfolio Alignment — reconciled November 6, 2026
+# Portfolio Alignment — reconciled November 17, 2026
 
 ## Current implementation and approved direction
 
@@ -10,23 +10,29 @@ qualification remain pending. Other products adopt separately. No company-operat
 is required. Native billing, optional disclosed lookups and minimal website business-contact forms
 are separate network flows.
 
-The [shared stack standard](STACK_STANDARD.md) requires the template and all seven existing apps
+The [shared stack standard](STACK_STANDARD.md) requires the template and all registered apps
 to adopt and qualify the maintained foundation before **any** app release, with iOS and Android in
-each first release. Implementation and dated local validation exist; current source-bound cohort
-qualification and representative physical/store checks remain pending. Passing dependency alignment
+each first release. Current source-bound cohort software records pass; representative physical/store checks remain pending. Passing dependency alignment
 does not refresh historical evidence. The gate covers shared contracts/builds and representative
 boundaries, rather than every product's complete domain/release QA. After qualification, finish
 each product's [release gates](RELEASE_DEFINITION.md) in the unchanged [queue](LAUNCH_SLATE.md).
 
-All seven apps and the template implement monthly/annual subscription source and a separate
+All ten apps and the template implement monthly/annual subscription source and a separate
 non-billing 14-day local trial. Preserve authentic legacy ownership and existing reading, exports,
-deletion and authenticated encrypted recovery after expiry. Daymerit's remaining general deletion
-workflow stays separate from implemented shared-proof deletion and must be completed before release. Store product setup and actual transactions remain pending.
+deletion and authenticated encrypted recovery after expiry. Daymerit implements active-parent
+private-record deletion with resumable local cleanup, separately from selected hosted copies;
+previously exported backups cannot be recalled. Store product setup and actual transactions remain pending.
 See [pricing](PRICING.md), [status](STATUS.md) and the [data matrix](DATA_COST_MATRIX.md).
+
+The owner selected Turnstamp, What We Own and Creelmark for concurrent implementation to the
+existing seven’s software-readiness level on November 10–11. They join the registered foundation
+cohort with independent identities and no optional hosting; November 17 source-bound checks establish software
+qualification, with physical/store acceptance still pending. This accelerates implementation while preserving public release order and separate
+physical/store approval.
 
 ## Consolidation and boundaries
 
-- What We Own owns the combined home/moving/claims concept, including Claim Crate's PCS/box/QR,
+- What We Own implements the combined home/moving/claims app, including Claim Crate's PCS/box/QR,
   condition, damage and claim-export requirements. Claim Crate source/provenance is preserved in
   What We Own; its redundant remote/local repository was deleted November 4 after verified backup.
 - Steward marketing and fresh What We Own signup use Hub routes. The former Next.js source is

@@ -5,14 +5,14 @@
   "evidence": {
     "shared_package_tests": {
       "status": "passed",
-      "record": "portfolio/validation/2026-11-06/host-packaging/SHARED_PACKAGES.md",
-      "sha256": "a67f13133bcd07123751ac5fb65eb757322055ec04e4a016b9aa68550ec7dd13",
-      "sourceFingerprint": "ec81075d82b0c298c2de59e27d4efc53ec668296bdfa0e48e5684b83656fe287",
+      "record": "portfolio/validation/2026-11-17/app-readiness/SHARED_PACKAGES.md",
+      "sha256": "43f8108be35c6798889f497f14eb71edb3bff8284cd57fef6a51a7c4fd09ce7d",
+      "sourceFingerprint": "7b1f736e1db1ef028d334e3e33d8846af42b4da405110b35ab29edab8df88b73",
       "sourceFingerprintPolicyVersion": 2,
-      "recordedAt": "2026-11-06T20:43:03.337655+00:00",
-      "recordedBy": "Codex local host service packaging and protected provisioning software qualification",
-      "scope": "Fresh eleven-package analyses and 264 tests bound to current eight-consumer source cohort. Physical/store checks remain pending."
+      "recordedAt": "2026-11-17T15:16:28.725540+00:00",
+      "recordedBy": "Codex local expanded product cohort reconciliation",
+      "scope": "Eleven-package analysis and 264 actual tests from the recorded November 11 frozen run; byte-identical provider verified November 17, bound to the current eleven-consumer cohort. New product tests/builds are separate; physical/store acceptance is pending."
     }
   },
-  "note": "Current-source software refreshed for desktop service packaging, protected Windows provisioning and all optional consumers. Physical iOS/Android privacy and actual native-store checks remain pending; operational and independent product-release gates remain separate."
+  "note": "Source-bound software records cover the template and ten apps after Turnstamp, What We Own and Creelmark implementation. Physical privacy on iOS/Android and actual native-store qualification remain pending. Historical evidence and previous eight consumer sources remain unchanged; independent release approvals and host operations are separate."
 }
